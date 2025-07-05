@@ -30,8 +30,6 @@
           url: "2025/contribute/guidelines/reviewing"
         - title: Poster Papers Guidelines 
           url: "2025/contribute/guidelines/poster-paper-guidelines"
-- title: Sponsorship
-  url: "2025/sponsorship"
 - title: Attend
   url: "javascript:void(0)"
   children:
@@ -41,6 +39,15 @@
       url: "2025/attend/transportation"
     - title: Visa Requirements
       url: "2025/attend/visa-requirements"
+- title: Program
+  url: "javascript:void(0)"
+  children:
+    - title: Tutorials
+      url: "2025/Program/tutorials"
+    - title: Workshop Papers
+      url: "2025/program/workshop-papers"
+- title: Sponsorship
+  url: "2025/sponsorship"
 - title: Committee
   url: "javascript:void(0)"
   children:
