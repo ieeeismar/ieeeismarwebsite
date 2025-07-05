@@ -5,8 +5,8 @@
       url: "2025/contribute/papers"
     - title: Poster Papers
       url: "2025/contribute/posters"
-    - title: Workshop Papers
-      url: "2025/contribute/workshop-papers"
+    # - title: Workshop Papers
+    #   url: "2025/contribute/workshop-papers"
     - title: Demos
       url: "2025/contribute/demos"
     - title: Doctoral Consortium
@@ -43,7 +43,7 @@
   url: "javascript:void(0)"
   children:
     - title: Tutorials
-      url: "2025/Program/tutorials"
+      url: "2025/program/tutorials"
     - title: Workshop Papers
       url: "2025/program/workshop-papers"
 - title: Sponsorship
