@@ -2,7 +2,7 @@
 layout: 2025/page
 title: Call for Workshop Papers
 ---
-*Last updated: 2025-06-22 1:02AM GMT*
+*Last updated: 2025-07-05 10:35AM GMT*
 
 ## Overview
 
