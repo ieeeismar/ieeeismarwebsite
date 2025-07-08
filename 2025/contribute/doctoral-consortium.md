@@ -3,7 +3,7 @@ layout: 2025/page
 title: Call for Participation in Doctoral Consortium
 ---
 
-*Last updated: 2025-06-11 2:46PM GMT*
+*Last updated: 2025-07-08 1:54PM GMT*
 
 ## Overview
 The Doctoral Consortium at ISMAR 2025 is a concentrated event where students present their research interests, plans, and results to a panel of researchers in related fields and receive specific and constructive feedback, including opportunities to meet with mentors one-on-one. Accepted students will be expected to give in-depth presentations of their research and will receive valuable comments from mentors. Additionally, accepted students will create a poster to share their work with ISMAR ’25 Doctoral Consortium and general conference attendees. Accepted students will have the option to publish their two-page extended abstract in the conference proceedings and to be included in the ISMAR 2025 online program. Abstracts may be archived in the IEEE Xplore digital library.
@@ -15,8 +15,8 @@ Ideal candidates will be in the early or mid-stage of their PhD and should have 
 ## Important Deadlines
 
 - Application submission deadline: <s style="color: #999;">June 9th, 2025 (23:59 AoE, Monday)</s>, <s style="color: #999;">June 30th, 2025 (23:59 AoE, Monday)</s>
-- Acceptance notification: <s style="color: #999;">July 3rd, 2025 (23:59 AoE, Thursday)</s>, July 10th, 2025 (23:59 AoE, Thursday)
-- Attendance confirmation deadline: <s style="color: #999;">July 10th, 2025 (23:59 AoE, Thursday)</s>, July 17th, 2025 (23:59 AoE, Thursday)
+- Acceptance notification: <s style="color: #999;">July 3rd, 2025 (23:59 AoE, Thursday)</s>, <s style="color: #999;">July 10th, 2025 (23:59 AoE, Thursday)</s>, July 14th, 2025 (23:59 AoE, Monday)
+- Attendance confirmation deadline: <s style="color: #999;">July 10th, 2025 (23:59 AoE, Thursday)</s>, July 17th, 2025 (23:59 AoE, Thursday), July 17th, 2025 (23:59 AoE, Thursday)
 - Final Notification: July 22nd, 2025 (23:59 AoE, Tuesday)
 - DC paper camera-ready version: July 31st, 2025 (23:59 AoE, Thursday)
 - Consortium meeting: Wednesday, October 8th, 2025
