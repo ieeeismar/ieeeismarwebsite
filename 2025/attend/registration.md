@@ -14,7 +14,7 @@ For queries relating to registration or invitation letters, please contact the s
   <a href="#" class="registration-button">Online Registration</a>
 </div>
 
-> **The online registration system will be available from the end of July.**
+> **The online registration system will be available from the end of August.**
 
 ---
 
