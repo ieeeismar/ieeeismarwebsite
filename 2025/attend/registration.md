@@ -2,6 +2,7 @@
 layout: 2025/page
 title: Registration
 ---
+*Last updated: 2025-07-10 09:14AM GMT*
 
 ## Registration
 
