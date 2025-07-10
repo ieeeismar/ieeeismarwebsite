@@ -33,16 +33,18 @@
 - title: Attend
   url: "javascript:void(0)"
   children:
+    - title: Registration
+      url: "2025/attend/registration"
     - title: Venue
       url: "2025/attend/venue"
+    - title: Accommodation
+      url: "2025/attend/accommodation"
     - title: Transportation
       url: "2025/attend/transportation"
     - title: Visa Requirements
       url: "2025/attend/visa-requirements"
-    - title: Accommodation
-      url: "2025/attend/accommodation"
-    - title: Registration
-      url: "2025/attend/registration"
+
+
 - title: Program
   url: "javascript:void(0)"
   children:
