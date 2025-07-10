@@ -817,3 +817,42 @@ body {
   background-color: #111;
 }
 
+/* Registration Page Styling */
+
+.registration-button {
+  background-color: rgb(37, 37, 197);
+  color: #fff !important;
+  padding: 14px 28px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.registration-button:hover {
+  background-color: rgb(25, 25, 150);
+  transform: scale(1.03);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+  white-space: nowrap;
+  text-align: center;
+
+}
+
+@media (max-width: 768px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
