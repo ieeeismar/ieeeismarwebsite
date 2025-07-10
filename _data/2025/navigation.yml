@@ -5,7 +5,7 @@
       url: "2025/contribute/papers"
     - title: Poster Papers
       url: "2025/contribute/posters"
-    # - title: Workshop Papers                       // transfered to Program Page
+    # - title: Workshop Papers                       // moved to Program Page
     #   url: "2025/contribute/workshop-papers"
     - title: Demos
       url: "2025/contribute/demos"
@@ -39,6 +39,10 @@
       url: "2025/attend/transportation"
     - title: Visa Requirements
       url: "2025/attend/visa-requirements"
+    - title: Accommodation
+      url: "2025/attend/accommodation"
+    - title: Registration
+      url: "2025/attend/registration"
 - title: Program
   url: "javascript:void(0)"
   children:
