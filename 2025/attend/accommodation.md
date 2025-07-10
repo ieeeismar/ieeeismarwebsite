@@ -2,7 +2,7 @@
 layout: 2025/page
 title: Accommodation
 ---
-*Last updated: 2025-07-10 07:15AM GMT*
+*Last updated: 2025-07-10 09:14AM GMT*
 
 ## Accommodation
 
