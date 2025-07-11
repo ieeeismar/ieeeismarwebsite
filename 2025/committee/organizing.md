@@ -234,7 +234,7 @@ redirect_from:
             </div>
             <div class="chair">
                 <img src="{{ 'assets/2025/img/Committee Members Images/Sangho Yoon.jpg' | relative_url }}" />
-                <p class="name">Sangho Yoon</p>
+                <p class="name">Sang Ho Yoon</p>
                 <p>KAIST</p>
             </div>
             <div class="chair">
