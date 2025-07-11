@@ -835,12 +835,12 @@ body {
   transform: scale(1.03);
 }
 
-table {
+.reg-table {
   width: 100%;
   border-collapse: collapse;
 }
 
-th, td {
+.reg-table th, .reg-table td {
   padding: 10px;
   text-align: left;
   border: 1px solid #ddd;
@@ -850,7 +850,7 @@ th, td {
 }
 
 @media (max-width: 768px) {
-  table {
+  .reg-table {
     display: block;
     overflow-x: auto;
     white-space: nowrap;
