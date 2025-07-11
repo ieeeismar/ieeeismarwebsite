@@ -21,7 +21,7 @@ For queries relating to registration or invitation letters, please contact the s
 ## Registration Fee
 
  <div style="overflow-x: auto;">
-  <table>
+  <table class="reg-table">
       <tr style="background-color:rgb(37, 37, 197); color: white;">
         <th>Category</th>
         <th>Early (Author)<br>(Before 23:59 AOE on August 31, 2025)</th>
@@ -80,7 +80,7 @@ For queries relating to registration or invitation letters, please contact the s
 ## Registration Fee Covers
 
  <div style="overflow-x: auto;">
-  <table>
+  <table class="reg-table">
       <tr style="background-color:rgb(37, 37, 197); color: white;">
         <th>Item</th>
         <th>Regular</th>
