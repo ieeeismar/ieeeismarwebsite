@@ -1,6 +1,6 @@
 ---
 layout: 2025/page
-title: Sponsorship
+title: Sponsorship & Exhibition
 redirect_from: /2025/sponsorship.html
 ---
 
@@ -18,7 +18,7 @@ Worldwide academic leaders, Ph.D. students from world-class technical universiti
 
 <img src="{{ 'assets/2025/img/Participants.png' | relative_url }}" alt="Bar Chart for ISMAR Attendance" class="bar-chart-img">
 
-## Why Sponsor ISMAR?
+## Why Participate in ISMAR?
 
 Sponsorship is an ideal way to demonstrate your company/organization’s interest and commitment to the field of Mixed and Augmented Reality.
 
@@ -34,7 +34,7 @@ The benefits of sponsoring ISMAR include:
 -   Recruitment opportunities.
 -   A dedicated industry-focused workshop is available to registered participants.
 
-## Sponsorship Packages
+## Exhibition/sponsor packages
 
 <table>
 <thead>
@@ -46,6 +46,7 @@ The benefits of sponsoring ISMAR include:
         <th>Gold</th>
         <th>Silver</th>
         <th>Bronze</th>
+        <th>Only Exhibition</th>
         <th>Friends of ISMAR</th>
     </tr>
 </thead>
@@ -63,7 +64,8 @@ The benefits of sponsoring ISMAR include:
         </td>
         <td data-label="Bronze">Logo on ISMAR Website<br>Print recognition at the conference
         </td>
-        <td data-label="Contributor">Name listed on ISMAR Website</td>
+        <td data-label="Only Exhibition">Logo on ISMAR website and print recognition at the conference</td>
+        <td data-label="Friends of ISMAR">Name listed on ISMAR Website</td>
     </tr>
     <tr>
         <td data-label="">Website</td>
@@ -72,7 +74,8 @@ The benefits of sponsoring ISMAR include:
         <td data-label="Gold">Dedicated page with 4 items among videos, documents, etc.</td>
         <td data-label="Silver">Dedicated page with 3 videos</td>
         <td data-label="Bronze">Dedicated page with 2 videos</td>
-        <td data-label="Contributor">–</td>
+        <td data-label="Only Exhibition">–</td>
+        <td data-label="Friends of ISMAR">–</td>
     </tr>
     <tr>
         <td data-label="">Exhibition Space</td>
@@ -81,7 +84,8 @@ The benefits of sponsoring ISMAR include:
         <td data-label="Gold">Large table</td>
         <td data-label="Silver">Stand</td>
         <td data-label="Bronze">Stand</td>
-        <td data-label="Contributor">–</td>
+        <td data-label="Only Exhibition">–</td>
+        <td data-label="Friends of ISMAR">–</td>
     </tr>
     <tr>
         <td data-label="">Advertising in Program (Printed/Virtual)</td>
@@ -90,7 +94,8 @@ The benefits of sponsoring ISMAR include:
         <td data-label="Gold">Small</td>
         <td data-label="Silver">–</td>
         <td data-label="Bronze">–</td>
-        <td data-label="Contributor">–</td>
+        <td data-label="Only Exhibition">–</td>
+        <td data-label="Friends of ISMAR">–</td>
     </tr>
     <tr>
         <td data-label="">Pre-session company Video Loop</td>
@@ -99,7 +104,8 @@ The benefits of sponsoring ISMAR include:
         <td data-label="Gold">15s</td>
         <td data-label="Silver">–</td>
         <td data-label="Bronze">–</td>
-        <td data-label="Contributor">–</td>
+        <td data-label="Only Exhibition">–</td>
+        <td data-label="Friends of ISMAR">–</td>
     </tr>
     <tr>
         <td rowspan="5" data-label="Category">Interaction</td>
@@ -109,7 +115,8 @@ The benefits of sponsoring ISMAR include:
         <td data-label="Gold">3</td>
         <td data-label="Silver">2</td>
         <td data-label="Bronze">1</td>
-        <td data-label="Contributor">–</td>
+        <td data-label="Only Exhibition">–</td>
+        <td data-label="Friends of ISMAR">–</td>
     </tr>
     <tr>
         <td data-label="">Full Registration</td>
@@ -118,7 +125,8 @@ The benefits of sponsoring ISMAR include:
         <td data-label="Gold">3</td>
         <td data-label="Silver">2</td>
         <td data-label="Bronze">1</td>
-        <td data-label="Contributor">–</td>
+        <td data-label="Only Exhibition">–</td>
+        <td data-label="Friends of ISMAR">–</td>
     </tr>
     <tr>
         <td data-label="">Discount on additional registration</td>
@@ -127,7 +135,8 @@ The benefits of sponsoring ISMAR include:
         <td data-label="Gold">15%</td>
         <td data-label="Silver">–</td>
         <td data-label="Bronze">–</td>
-        <td data-label="Contributor">–</td>
+        <td data-label="Only Exhibition">–</td>
+        <td data-label="Friends of ISMAR">–</td>
     </tr>
     <tr>
         <td data-label="">Dedicated Workshop</td>
@@ -136,7 +145,8 @@ The benefits of sponsoring ISMAR include:
         <td data-label="Gold">1 hour</td>
         <td data-label="Silver">–</td>
         <td data-label="Bronze">–</td>
-        <td data-label="Contributor">–</td>
+        <td data-label="Only Exhibition">–</td>
+        <td data-label="Friends of ISMAR">–</td>
     </tr>
     <tr>
         <td data-label="">Contribution (USD)</td>
@@ -145,7 +155,8 @@ The benefits of sponsoring ISMAR include:
         <td data-label="Gold">15,000</td>
         <td data-label="Silver">10,000</td>
         <td data-label="Bronze">5,000</td>
-        <td data-label="Contributor">500</td>
+        <td data-label="Only Exhibition">2,000</td>
+        <td data-label="Friends of ISMAR">500</td>
     </tr>
 </tbody>
 </table>
