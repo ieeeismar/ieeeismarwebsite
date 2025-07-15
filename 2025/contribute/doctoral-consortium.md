@@ -3,7 +3,7 @@ layout: 2025/page
 title: Call for Participation in Doctoral Consortium
 ---
 
-*Last updated: 2025-07-08 1:54PM GMT*
+*Last updated: 2025-07-15 3:16AM GMT*
 
 ## Overview
 The Doctoral Consortium at ISMAR 2025 is a concentrated event where students present their research interests, plans, and results to a panel of researchers in related fields and receive specific and constructive feedback, including opportunities to meet with mentors one-on-one. Accepted students will be expected to give in-depth presentations of their research and will receive valuable comments from mentors. Additionally, accepted students will create a poster to share their work with ISMAR ’25 Doctoral Consortium and general conference attendees. Accepted students will have the option to publish their two-page extended abstract in the conference proceedings and to be included in the ISMAR 2025 online program. Abstracts may be archived in the IEEE Xplore digital library.
