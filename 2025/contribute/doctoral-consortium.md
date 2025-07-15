@@ -35,7 +35,7 @@ Note: Submissions received after the deadline will not be considered.
 
 **Questions?**
 
-For any enquiries, please contact the Doctoral Consortium Chairs at <ismar2025dc@ieeeismar.net>
+For any enquiries, please contact the Doctoral Consortium Chairs at <dc2025@ieeeismar.net>
 
 Youngwon Kim, KIT\
 SJ Kim, University of Nevada Las Vegas\
