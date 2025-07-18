@@ -67,7 +67,7 @@ For queries relating to registration or invitation letters, please contact the s
 
 
 
-- **Author Registration**: For each accepted paper that is published in the proceedings or adjunct proceedings, at least one author must register for the conference with a full(5-day) conference registration by 31 August 2025 in order to present the work at the conference. If an author is presenting multiple papers, a single registration may be used to cover those contributions.
+- **Author Registration**: For each accepted paper that is published in the proceedings or adjunct proceedings, at least one author must register for the conference with a full(5-day) conference registration by 31 August 2025 in order to present the work at the conference.
 
 - The One-Day Pass includes access to all official programs held on the selected day, including workshops, tutorials, and the main conference sessions. Therefore, if you plan to attend only on October 8 (Tue) or October 12 (Sat) for the workshops or tutorials, you may simply purchase a One-Day Pass for that specific date.
 
