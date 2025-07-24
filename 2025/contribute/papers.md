@@ -3,7 +3,7 @@ layout: 2025/page
 title: Call for Papers
 redirect_from: /2025/Papers.html
 ---
-*Last updated: 2025-03-16 2:23AM GMT*
+*Last updated: 2025-07-24 2:06AM GMT*
 
 ## Overview
 
@@ -31,7 +31,7 @@ Submissions may be 4-9 pages with an additional 2 pages of references. Note that
 - Initial Notification: **June 3rd, 2025 (23:59 AoE, Tuesday)**
 - Revise and Resubmit deadline: **June 18th, 2025 (23:59 AoE, Wednesday)**
 - Final Notification: **July 22nd, 2025 (23:59 AoE, Tuesday)**
-- Camera-ready version: **July 31st, 2025 (23:59 AoE, Thursday)**
+- Camera-ready version: **July 25th, 2025 (23:59 AoE, Friday)**
 
 ## Review Process
 
