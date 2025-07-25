@@ -31,7 +31,7 @@ Submissions may be 4-9 pages with an additional 2 pages of references. Note that
 - Initial Notification: **June 3rd, 2025 (23:59 AoE, Tuesday)**
 - Revise and Resubmit deadline: **June 18th, 2025 (23:59 AoE, Wednesday)**
 - Final Notification: <s style="color: #999;">July 22nd, 2025 (23:59 AoE, Tuesday)</s>, July 25th, 2025 (23:59 AoE, Friday)
-- Camera-ready version: <s style="color: #999;">July 25th, 2025 (23:59 AoE, Thursday)</s>, August 3rd, 2025 (23:59 AoE, Sunday)
+- Camera-ready version: <s style="color: #999;">July 31st, 2025 (23:59 AoE, Thursday)</s>, August 3rd, 2025 (23:59 AoE, Sunday)
 
 
 ## Review Process
