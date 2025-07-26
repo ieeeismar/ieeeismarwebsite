@@ -2,7 +2,7 @@
 layout: 2025/page
 title: Call for Demos
 ---
-*Last updated: 2025-03-19 2:44AM GMT*
+*Last updated: 2025-07-26 6:33AM GMT*
 
 ## Overview
 
@@ -38,6 +38,6 @@ Templates must follow the IEEE Computer Society format at [https://tc.computer.o
 
 ---
 
-*For questions, contact: demo_chairs@ieeeismar.org*
+*For questions, contact: demos2025@ieeeismar.net*
 
 *ISMAR 2025 Demo Chairs:<br>Nilufar Baghaei, Jin Ryong Kim, Yongsoon Choi*
