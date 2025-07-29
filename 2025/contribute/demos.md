@@ -16,7 +16,7 @@ The main selection criteria will be the expected general interest of the demonst
 
 ## Important Deadlines
 
-- Submission deadline: July 29th, 2025 (23:59 AoE)
+- Submission deadline: <s style="color: #999;">July 29th, 2025 (23:59 AoE)</s>, August 5th, 2025 (23:59 AoE)
 - Notification: August 13th, 2025 (23:59 AoE)
 - Camera ready deadline: August 20st, 2025 (23:59 AoE)
 
