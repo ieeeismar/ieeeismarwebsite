@@ -90,7 +90,12 @@ redirect_from: /
             </tr>
             <tr>
                 <td><b>Demos</b></td>
-                <td><b>July 29th, 2025 (23:59 AoE, Tuesday)</b></td>
+                <td>
+                <b>
+                <s style="color: #999;">July 29th, 2025 (23:59 AoE, Tuesday)</s><br>
+                <s>August 5th, 2025 (23:59 AoE, Tuesday)</s>
+                </b>
+                </td>
             </tr>
         </tbody>
     </table>
