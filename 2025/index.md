@@ -93,7 +93,7 @@ redirect_from: /
                 <td>
                 <b>
                 <s style="color: #999;">July 29th, 2025 (23:59 AoE, Tuesday)</s><br>
-                <s>August 5th, 2025 (23:59 AoE, Tuesday)</s>
+                August 5th, 2025 (23:59 AoE, Tuesday)
                 </b>
                 </td>
             </tr>
