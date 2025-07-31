@@ -16,8 +16,8 @@ Ideal candidates will be in the early or mid-stage of their PhD and should have 
 
 - Application submission deadline: <s style="color: #999;">June 9th, 2025 (23:59 AoE, Monday)</s>, <s style="color: #999;">June 30th, 2025 (23:59 AoE, Monday)</s>
 - Acceptance notification: <s style="color: #999;">July 3rd, 2025 (23:59 AoE, Thursday)</s>, <s style="color: #999;">July 10th, 2025 (23:59 AoE, Thursday)</s>, <s style="color: #999;">July 14th, 2025 (23:59 AoE, Monday)</s>
-- Attendance confirmation deadline: <s style="color: #999;">July 10th, 2025 (23:59 AoE, Thursday)</s>, July 17th, 2025 (23:59 AoE, Thursday)
-- Final Notification: July 22nd, 2025 (23:59 AoE, Tuesday)
+- Attendance confirmation deadline: <s style="color: #999;">July 10th, 2025 (23:59 AoE, Thursday)</s>, <s style="color: #999;">July 17th, 2025 (23:59 AoE, Thursday)</s>
+- Final Notification: <s style="color: #999;">July 22nd, 2025 (23:59 AoE, Tuesday)</s>
 - DC paper camera-ready version: July 31st, 2025 (23:59 AoE, Thursday)
 - Consortium meeting: Wednesday, October 8th, 2025
 
