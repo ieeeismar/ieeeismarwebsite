@@ -2,7 +2,7 @@
 layout: 2025/page
 title: Registration
 ---
-*Last updated: 2025-07-18 07:38AM GMT*
+*Last updated: 2025-07-31 02:11AM GMT*
 
 ## Registration
 
@@ -13,8 +13,6 @@ For queries relating to registration or invitation letters, please contact the s
 <div style="text-align: center; margin: 2rem 0;">
   <a href="#" class="registration-button">Online Registration</a>
 </div>
-
-> **The online registration system will be available from the end of August.**
 
 ---
 
