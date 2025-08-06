@@ -3,7 +3,7 @@ layout: 2025/page
 title: XR Lab Tour
 
 ---
-*Last updated: 2025-08-04 12:54AM GMT*
+*Last updated: 2025-08-06 1:20 PM GMT*
 
 ---
 
@@ -15,7 +15,7 @@ title: XR Lab Tour
 
 **Capacity**: Limited to 100 participants (registration required)
 
-**Registration**: Participation requires **an advance application via a separate google form**(the hyperlink will be available here soon). Applications will be limited to those who have registered for ISMAR 2025. If more than 100 applications are received, a random selection will be conducted, and we will contact you to confirm your registration.  
+**Registration**: Participation requires an [**advance application via a separate google form**](https://docs.google.com/forms/d/e/1FAIpQLSfYM2ysB2EMRUSnKkfWenivWZtshWEppRjxbPeX_dRgzS4RhA/viewform). Applications will be limited to those who have registered for ISMAR 2025. If more than 100 applications are received, a random selection will be conducted, and we will contact you to confirm your registration.  
 
  *Please note that the lab tour will be held in English.
 
@@ -25,9 +25,9 @@ title: XR Lab Tour
 
 The XR Lab Tour offers ISMAR attendees the opportunity to explore three of Korea’s leading research institutes, located within 5 kilometers of the ISMAR venue in Daejeon. Participants will be divided into three groups and will visit each of the following facilities:
 
- * ETRI (Electronics and Telecommunications Research Institute) 
- * KAIST (Korea Advanced Institute of Science and Technology)
- * KISTI (Korea Institute of Science and Technology Information)
+ * [**ETRI (Electronics and Telecommunications Research Institute)**](https://www.etri.re.kr/eng/main/main.etri) 
+ * [**KAIST (Korea Advanced Institute of Science and Technology)**](https://www.kaist.ac.kr/en/)
+ * [**KISTI (Korea Institute of Science and Technology Information)**](https://www.kisti.re.kr/eng/)
 
 The tour is designed to showcase Korea’s forefront research and development in Mixed and Augmented Reality, artificial intelligence, high-performance computing, and immersive technologies.
 
@@ -37,7 +37,7 @@ The tour is designed to showcase Korea’s forefront research and development in
 
 ### Meeting Point
 
-Participants should gather at **Daejeon Convention Center (DCC)** by **8:40 AM**.
+Participants should gather at [**Daejeon Convention Center (DCC)**](https://www.dcckorea.or.kr/eng/index.do) by **8:40 AM**.
 
 Buses will be arranged by the conference to transport attendees to each site. 
 
@@ -66,7 +66,7 @@ ETRI conducts comprehensive R&D programs in areas including:
  * Cybersecurity
  * Supercomputing and Quantum Computing
 
-During the tour, participants will visit the **Hyper-Reality Metaverse Research Laboratory**, where research related to Mixed and Augmented Reality will be introduced.
+During the tour, participants will visit the [**Hyper-Reality Metaverse Research Laboratory**](https://www.etri.re.kr/eng/sub6/sub6_0101.etri?departCode=170), where research related to Mixed and Augmented Reality will be introduced.
 
 ### KAIST
 
@@ -79,7 +79,7 @@ KAIST conducts pioneering research in areas including:
  * Brain and Cognitive Sciences
  * Smart Mobility and Autonomous Systems
 
-During the tour, participants will visit research labs in **the Graduate School of Culture Technology** and **the Graduate School of Metaverse**, where novel approaches to immersive media, human-centered design, and XR technologies are explored in collaboration with diverse academic and industry partners.
+During the tour, participants will visit research labs in [the Graduate School of Culture Technology](https://ct.kaist.ac.kr/) and [the Graduate School of Metaverse](https://meta.kaist.ac.kr/), where novel approaches to immersive media, human-centered design, and XR technologies are explored in collaboration with diverse academic and industry partners.
 
 ### KISTI
 
@@ -94,7 +94,7 @@ KISTI is committed to contributing to sustainable development by focusing on key
  * Big Data and Data Science
  * Quantum Information Science
 
-During the tour, participants will visit **the National Supercomputing Facilities**, CAVE(Computing and Advanced Visualization Environment), and **Open XR Research Center**, which explores efficient and reliable, industry-applicable methods for multi-user XR experiences.
+During the tour, participants will visit [the National Supercomputing Facilities](https://www.ksc.re.kr/eng/index/main), CAVE(Computing and Advanced Visualization Environment), and [Open XR Research Center](https://oxr-platform.gitbook.io/oxr-platform-docs/), which explores efficient and reliable, industry-applicable methods for multi-user XR experiences.
 
 
 
