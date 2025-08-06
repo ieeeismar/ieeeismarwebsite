@@ -89,17 +89,14 @@ redirect_from: /
                 <td><b>July 29th, 2025 (23:59 AoE, Tuesday)</b></td>
             </tr>
             <tr>
-              <td><strong>Demos</strong></td>
-              <td>
-                <div style="color: #999; text-decoration: line-through;">
-                  <strong>July 29th, 2025 (23:59 AoE, Tuesday)</strong>
-                </div>
-                <div style="color: #000; text-decoration: none;">
-                  <strong>August 5th, 2025 (23:59 AoE, Tuesday)</strong>
-                </div>
-              </td>
-            </tr>
-
+                <td><b>Demos</b></td>
+                <td>
+                <b>
+                July 29th, 2025 (23:59 AoE, Tuesday)<br>
+                August 5th, 2025 (23:59 AoE, Tuesday)
+                </b>
+                </td>
+                </tr>
         </tbody>
     </table>
 
