@@ -2,11 +2,9 @@
 layout: 2025/page
 title: Visa Requirements
 ---
-*Last updated: 2025-06-17 02:36PM GMT*
+*Last updated: 2025-08-07 3:25PM GMT*
 
-## Visa Requirements
-
-### VISA
+## VISA
 
 The entry requirements for Korea vary based on international agreements and relationships between countries. Therefore, before booking a flight to Korea, it's important to visit the Korean visa portal website and search for the specific entry conditions that apply to you.
 
@@ -18,16 +16,31 @@ The entry requirements for Korea vary based on international agreements and rela
 
 ---
 
-### Invitation Letter
+## Invitation Letter
 
-Conference participants are **strongly encouraged** to familiarize themselves with visa requirements **well in advance** of the conference. To ensure a smooth process, we recommend applying for your visa as early as possible. Please note that ISMAR 2025 is **unable to intervene** with Korean embassies or consulates on behalf of participants. However, if you require a personal letter of invitation to attend the conference, kindly email: **ieeeismar2025@gmail.com** With the following information:
+Invitation letters are **issued only** to participants who have completed registration and payment through the official registration system. We kindly request that all participants complete their registration **before requesting an invitation letter**. 
+Conference participants are **strongly encouraged** to familiarize themselves with visa requirements **well in advance** of the conference. To ensure a smooth process, we recommend applying for your visa as early as possible. Please note that IEEE ISMAR 2025 is **unable to intervene** with Korean embassies or consulates on behalf of participants. However, if you require a personal letter of invitation to attend the conference, kindly email: [**ieeeismar2025@gmail.com**](mailto:ieeeismar2025@gmail.com) with the following information:
+
 - Full Name  
 - Affiliation  
 - Nationality
 
+### Important Note:
+
+Due to a delay in the registration system opening, the issuance of invitation letters is **currently delayed**. The system is expected to open **after mid-August**, and invitation letters will be issued once registration becomes available. In the meantime, **for visa-related emergencies**, we will **exceptionally** issue invitation letters **only to authors** of accepted papers who are not nationals of the host country (the Republic of Korea) and who are facing imminent visa application deadlines. If you urgently require an invitation letter under these conditions, please email [**ieeeismar2025@gmail.com**](mailto:ieeeismar2025@gmail.com) with all of the following information:
+
+ - Full Name
+ - Affiliation
+ - Nationality
+ - Paper Title
+ - Paper ID
+ - Brief explanation of the urgency (e.g., visa appointment date or submission deadline)
+
+Please note that we may request **supporting documentation** to verify your urgency. Only eligible authors will be considered for early issuance before registration officially opens.
+
 ---
 
-### K-ETA (Korea Electronic Travel Authorization)
+## K-ETA (Korea Electronic Travel Authorization)
 
 Nationals of countries/regions eligible for visa-free entry are **required to obtain K-ETA approval** to board a flight to the Republic of Korea. K-ETA approval should be applied at least **72 hours prior to boarding** the flight bound. You can apply for the via:
 - 🌐 [K-ETA Website](https://www.k-eta.go.kr/portal/newapply/index.do)
