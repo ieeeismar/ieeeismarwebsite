@@ -2,7 +2,7 @@
 layout: 2025/page
 title: Registration
 ---
-*Last updated: 2025-07-31 02:11AM GMT*
+*Last updated: 2025-08-07 3:25PM GMT*
 
 ## Registration
 
@@ -147,10 +147,25 @@ All refund/cancellation requests must be provided in writing and received by Sep
 
 ## Invitation Letter
 
-Conference participants are strongly encouraged to familiarize themselves with visa requirements well in advance of the conference. To ensure a smooth process, we recommend applying for your visa as early as possible. Please note that IEEE ISMAR 2025 is unable to intervene with Korean embassies or consulates on behalf of participants. However, if you require a personal letter of invitation to attend the conference, kindly email to [ieeeismar2025@gmail.com](mailto:ieeeismar2025@gmail.com) with the following information:
+Invitation letters are **issued only** to participants who have completed registration and payment through the official registration system. We kindly request that all participants complete their registration **before requesting an invitation letter**. 
+Conference participants are **strongly encouraged** to familiarize themselves with visa requirements **well in advance** of the conference. To ensure a smooth process, we recommend applying for your visa as early as possible. Please note that IEEE ISMAR 2025 is **unable to intervene** with Korean embassies or consulates on behalf of participants. However, if you require a personal letter of invitation to attend the conference, kindly email: [**ieeeismar2025@gmail.com**](mailto:ieeeismar2025@gmail.com) with the following information:
+
 - Full Name  
 - Affiliation  
 - Nationality
+
+### Important Note:
+
+Due to a delay in the registration system opening, the issuance of invitation letters is **currently delayed**. The system is expected to open **after mid-August**, and invitation letters will be issued once registration becomes available. In the meantime, **for visa-related emergencies**, we will **exceptionally** issue invitation letters **only to authors** of accepted papers who are not nationals of the host country (the Republic of Korea) and who are facing imminent visa application deadlines. If you urgently require an invitation letter under these conditions, please email [**ieeeismar2025@gmail.com**](mailto:ieeeismar2025@gmail.com) with all of the following information:
+
+ - Full Name
+ - Affiliation
+ - Nationality
+ - Paper Title
+ - Paper ID
+ - Brief explanation of the urgency (e.g., visa appointment date or submission deadline)
+
+Please note that we may request **supporting documentation** to verify your urgency. Only eligible authors will be considered for early issuance before registration officially opens.
 
 ---
 
