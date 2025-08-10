@@ -161,6 +161,24 @@ body {
     font-weight: 600;
 }
 
+.chairs-category .category-email {
+  display: block;          /* full-width block */
+  clear: both;             /* clear any floats */
+  margin: 4px 0 16px;      /* small gap above, larger below */
+  padding-left: 20px;      /* same left indent as your H3 */
+  text-align: left;        /* same alignment as your H3 */
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+
+.chairs-category .category-email a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.chairs-category .category-email a:hover {
+  text-decoration: underline;
+}
 /* Media Queries */
 
 /* For smaller screens (e.g., tablets or small devices) */
