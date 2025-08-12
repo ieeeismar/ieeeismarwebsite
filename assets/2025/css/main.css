@@ -27,6 +27,12 @@ body {
     overflow: hidden; /* Ensures that no part of the image overflows */
 }
 
+@media (max-width: 768px) {
+    .hero-section {
+        height: 250px; /* Mobile hero height */
+    }
+}
+
 .hero-image {
     width: 100%;
     height: 100%; /* Ensures the image covers the full height of the section */
@@ -357,6 +363,29 @@ h2 {
     float: right;
     margin-left: 20px;
     margin-bottom: 10px;
+}
+
+/* Left-floated media block for images + caption */
+.img-float-left {
+    float: left;
+    max-width: 300px;
+    width: 100%;
+    margin: 15px 25px 15px 0;
+}
+
+/* Right-floated media block for images + caption */
+.img-float-right {
+    float: right;
+    max-width: 300px;
+    width: 100%;
+    margin: 15px 0 15px 25px;
+}
+
+.img-float-left img, .img-float-right img { width: 100%; height: auto; display: block; }
+.img-float-left figcaption, .img-float-right figcaption { font-size: 0.85em; color: #666; margin-top: 4px; }
+@media (max-width: 768px) {
+    .img-float-left, .img-float-right { float: none; margin: 0 auto 20px auto; display: block; }
+    .img-float-left figcaption, .img-float-right figcaption { text-align: center; }
 }
 
 .exhibitor-info {
