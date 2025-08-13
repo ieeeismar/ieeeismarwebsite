@@ -2,7 +2,7 @@
 layout: 2025/page
 title: Call for Student Volunteers
 ---
-*Last updated: 2025-06-05 12:35PM GMT*
+*Last updated: 2025-08-13 02:09PM GMT*
 
 
 ## Become a Student Volunteer (SV)
@@ -65,8 +65,8 @@ Showcase your creativity and leave your mark by designing a unique hoodie exclus
 ## Important Dates
 
 - **June 5th, 2025**: Open student volunteer applications
-- **August 22nd, 2025** (23:59 AoE): Close student volunteer applications
-- **September 2025** (23:59 AoE) (TBD): Student volunteer notification of acceptance
+- **August 22nd, 2025 (23:59 AoE)**: Close student volunteer applications
+- **August 28th, 2025 (23:59 AoE)**: Student volunteer notification of acceptance
 
 ## Benefits
 
