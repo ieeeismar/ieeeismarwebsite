@@ -136,6 +136,7 @@ chairs:
         img: "assets/2025/img/Committee Members Images/Benjamin Tag.jpg"
 
   - title: "Registration Chairs"
+   email: "registration2025@ieeeismar.net"
     members:
       - name: "Jeonghyuk Yoon"
         affiliation: "KAIST GSMV"
@@ -353,3 +354,4 @@ chairs:
       - name: "Mark Billinghurst"
         affiliation: "The University of South Australia"
         img: "assets/2025/img/Committee Members Images/Mark Billinghurst.png"
+
