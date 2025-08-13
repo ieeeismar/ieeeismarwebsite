@@ -5,20 +5,20 @@
       url: "2025/contribute/papers"
     - title: Poster Papers
       url: "2025/contribute/posters"
-    # - title: Workshop Papers                       // moved to Program Page
-    #   url: "2025/contribute/workshop-papers"
     - title: Demos
       url: "2025/contribute/demos"
     - title: Doctoral Consortium
       url: "2025/contribute/doctoral-consortium"
     - title: Panels
       url: "2025/contribute/panels"
-    - title: Call for Student Volunteers
-      url: "2025/contribute/student-volunteer"
     - title: Tutorials
       url: "2025/contribute/tutorials"
     - title: Workshop
       url: "2025/contribute/workshops"
+    - title: Call for Student Volunteers
+      url: "2025/contribute/student-volunteer"
+    - title: Call for Mentors
+      url: "2025/contribute/mentors"
     - title: Guidelines
       url: "javascript:void(0)"
       children:
