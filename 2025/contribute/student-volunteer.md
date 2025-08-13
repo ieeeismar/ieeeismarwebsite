@@ -2,7 +2,7 @@
 layout: 2025/page
 title: Call for Student Volunteers
 ---
-*Last updated: 2025-08-13 02:09PM GMT*
+*Last updated: 2025-08-13 02:09AM GMT*
 
 
 ## Become a Student Volunteer (SV)
