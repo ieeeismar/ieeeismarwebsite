@@ -3,7 +3,7 @@ layout: 2025/page
 title: Call for Poster Papers
 
 ---
-*Last updated: 2025-06-25 2:51AM GMT*
+*Last updated: 2025-08-19 2:18AM GMT*
 
 ## Overview
 
@@ -29,7 +29,7 @@ The accepted poster papers will be granted a poster presentation during the conf
 
 - Poster paper submission deadline: **July 29th, 2025 (23:59 AoE, Tuesday)**
 - Notification: **August 15th, 2025 (23:59 AoE, Friday)**
-- Camera-ready version: **August 20th, 2025 (23:59 AoE, Wednesday)**
+- Camera-ready version: <s style="color: #999;">August 20th, 2025 (23:59 AoE, Wednesday)</s>, **August 22nd, 2025 (23:59 AoE, Friday)**
 
 
 ## Topics of Interest
@@ -91,3 +91,4 @@ All topics relevant to and advancing AR, MR, and VR are of interest. We emphasiz
 *For questions, contact: posters2025@ieeeismar.net*
 
 *ISMAR 2025 Poster Chairs:<br>Byung-Kuk Seo, Sungchul Jung, Florian Weidner*
+
