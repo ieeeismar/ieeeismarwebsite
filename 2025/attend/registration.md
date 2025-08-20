@@ -2,7 +2,7 @@
 layout: 2025/page
 title: Registration
 ---
-*Last updated: 2025-08-07 3:25PM GMT*
+*Last updated: 2025-08-20 2:30AM GMT*
 
 ## Registration
 
@@ -13,6 +13,8 @@ For queries relating to registration or invitation letters, please contact the s
 <div style="text-align: center; margin: 2rem 0;">
   <a href="#" class="registration-button">Online Registration</a>
 </div>
+
+**Notice: The registration system is undergoing final checks and will open soon.**
 
 ---
 
@@ -63,15 +65,23 @@ For queries relating to registration or invitation letters, please contact the s
   </table>
 </div>
 
+### Author Registration:
 
+For each accepted paper published in the proceedings or adjunct proceedings, at least one author must register for the conference with a full (5-day) registration by **31 August 2025** to present the work at the conference.
 
-- **Author Registration**: For each accepted paper that is published in the proceedings or adjunct proceedings, at least one author must register for the conference with a full(5-day) conference registration by 31 August 2025 in order to present the work at the conference.
+ * One regular registration (Regular Member / Regular Non-Member) allows publication and presentation of up to **two papers (1+1 policy)**.
 
-- The One-Day Pass includes access to all official programs held on the selected day, including workshops, tutorials, and the main conference sessions. Therefore, if you plan to attend only on October 8 (Tue) or October 12 (Sat) for the workshops or tutorials, you may simply purchase a One-Day Pass for that specific date.
+ * Author registration must be a **regular registration**; student registration will not be accepted as author registration. Therefore, even if a student is the sole author, regular registration is required.
 
-- To qualify for member registration, you must be a member of IEEE. Your membership number is required on the registration page.
+### The One-Day Pass:
 
-- To qualify for IEEE Life Member registration, your membership number is required at the registration page.
+The One-Day Pass includes access to all official programs held on the selected day, including workshops, tutorials, and the main conference sessions. If you plan to attend only on **October 8 (Wed.)** or **October 12 (Sun.)** for the workshops or tutorials, you may simply purchase a One-Day Pass for that specific date.
+
+### Member Registration:
+
+ * **IEEE Member:** To qualify for member registration, you must be an IEEE member. Your membership number is required on the registration page.
+
+ * **IEEE Life Member:** To qualify for IEEE Life Member registration, your membership number is required at the registration page.
 
 ---
 
