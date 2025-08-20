@@ -2,6 +2,7 @@
 layout: 2025/page
 title: Registration
 ---
+
 *Last updated: 2025-08-20 2:30AM GMT*
 
 ## Registration
@@ -13,6 +14,7 @@ For queries relating to registration or invitation letters, please contact the s
 <div style="text-align: center; margin: 2rem 0;">
   <a href="#" class="registration-button">Online Registration</a>
 </div>
+**The registration system is undergoing final checks and will open soon.**
 
 **Notice: The registration system is undergoing final checks and will open soon.**
 
@@ -71,7 +73,7 @@ For each accepted paper published in the proceedings or adjunct proceedings, at 
 
  * One regular registration (Regular Member / Regular Non-Member) allows publication and presentation of up to **two papers (1+1 policy)**.
 
- * Author registration must be a **regular registration**; student registration will not be accepted as author registration. Therefore, even if a student is the sole author, regular registration is required.
+* Author registration must be a **regular registration; student registration will not be accepted** as author registration. Therefore, even if a student is the sole author, regular registration is required.
 
 ### The One-Day Pass:
 
@@ -178,5 +180,6 @@ Due to a delay in the registration system opening, the issuance of invitation le
 Please note that we may request **supporting documentation** to verify your urgency. Only eligible authors will be considered for early issuance before registration officially opens.
 
 ---
+
 
 
