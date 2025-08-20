@@ -2,7 +2,6 @@
 layout: 2025/page
 title: Registration
 ---
-
 *Last updated: 2025-08-20 2:30AM GMT*
 
 ## Registration
@@ -14,7 +13,6 @@ For queries relating to registration or invitation letters, please contact the s
 <div style="text-align: center; margin: 2rem 0;">
   <a href="#" class="registration-button">Online Registration</a>
 </div>
-**The registration system is undergoing final checks and will open soon.**
 
 **Notice: The registration system is undergoing final checks and will open soon.**
 
@@ -180,6 +178,7 @@ Due to a delay in the registration system opening, the issuance of invitation le
 Please note that we may request **supporting documentation** to verify your urgency. Only eligible authors will be considered for early issuance before registration officially opens.
 
 ---
+
 
 
 
