@@ -88,5 +88,3 @@ Dr. Bae advises multiple government and public sector bodies on AI policy, inclu
 She actively engages the public in AI through media and lectures, including appearances on KBS’s "With Teacher" and JTBC’s "Differentiated Class," helping to bridge the gap between AI and the general public.
 
 ---
-
-*Additional keynote speakers will be added soon. Please check back for updates!*
