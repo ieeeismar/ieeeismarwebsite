@@ -646,6 +646,78 @@ html, body {
     }
 }
 
+/* Registration Announcement Styling */
+.registration-announcement {
+    padding: 10px 20px;
+    text-align: center;
+    margin: 30px auto;
+    max-width: 900px;
+}
+
+.registration-announcement h2 {
+    font-size: 2.2rem;
+    color: #dc3545; /* Red color for the heading */
+    margin-bottom: 1.5rem;
+    margin-top: 0; 
+    font-weight: 600;
+    text-align: center;
+}
+
+.registration-announcement p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.registration-announcement a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.registration-announcement a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Responsive Design for Registration Announcement */
+@media screen and (max-width: 768px) {
+    .registration-announcement {
+        padding: 10px 10px;
+        margin: 25px 15px;
+    }
+    
+    .registration-announcement h2 {
+        font-size: 1.8rem;
+    }
+    
+    .registration-announcement p {
+        font-size: 1.1rem;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .registration-announcement {
+        padding: 10px 10px;
+        margin: 20px 10px;
+    }
+    
+    .registration-announcement h2 {
+        font-size: 1.5rem;
+    }
+    
+    .registration-announcement p {
+        font-size: 1rem;
+        padding: 0 5px;
+    }
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
     .heading {
