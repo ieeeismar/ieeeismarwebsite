@@ -2,7 +2,7 @@
 layout: 2025/page
 title: Registration
 ---
-*Last updated: 2025-08-20 2:24AM GMT*
+*Last updated: 2025-08-25 2:02AM GMT*
 
 ## Registration
 
@@ -11,9 +11,8 @@ All participants are required to register through the online registration system
 For queries relating to registration or invitation letters, please contact the secretariat at [ieeeismar2025@gmail.com](mailto:ieeeismar2025@gmail.com).
 
 <div style="text-align: center; margin: 2rem 0;">
-  <a href="#" class="registration-button">Online Registration</a>
+  <a href="https://public.thinkonweb.com/sites/ismar" class="registration-button">Online Registration</a>
 </div>
-**The registration system is undergoing final checks and will open soon.**
 
 ---
 
@@ -175,6 +174,7 @@ Due to a delay in the registration system opening, the issuance of invitation le
 Please note that we may request **supporting documentation** to verify your urgency. Only eligible authors will be considered for early issuance before registration officially opens.
 
 ---
+
 
 
 
