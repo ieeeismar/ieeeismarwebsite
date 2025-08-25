@@ -35,6 +35,11 @@ redirect_from: /
     <p>We invite you to the 24th IEEE International Symposium on Mixed and Augmented Reality (ISMAR), which will be held at the Daejeon Convention Center (DCC), South Korea, from Oct. 8 to Oct. 12 2025.</p>
 </div>
 
+<div class="registration-announcement">
+    <h2>Registration is Now Open!</h2>
+    <p>Conference Registration is Open. We invite you to register for ISMAR 2025 through the <a href="/2025/attend/registration">Attend - Registration</a> page.</p>
+</div>
+
 <section class="important-dates-section">
     <h2 class="important-dates-title">Important Dates</h2>
 
