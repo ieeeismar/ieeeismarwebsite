@@ -27,7 +27,7 @@ bronze_sponsors:
 exhibitors:
   - name: "Graduate School of Metaverse"
     korean_name: "메타버스대학원"
-    logo: "/assets/2025/img/sponsors/metaverse.png"
+    logo: "/assets/2025/img/sponsors/kaist-metaverse.png"
     url: "https://meta.kaist.ac.kr/"
     website: "meta.kaist.ac.kr"
 
@@ -59,3 +59,4 @@ partners:
   - name: "Daejeon Tourism Organization"
     logo: "/assets/2025/img/sponsors/Daejeon-Tourism.png"
     url: "https://djto.kr/eng/index.do"
+
