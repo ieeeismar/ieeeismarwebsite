@@ -181,9 +181,123 @@ A deposit amount equal to at least 50% of the total space/sponsorship request mu
 
 If you have any questions, please contact the ISMAR 2025 Sponsorship Chairs at sponsorship2025@ieeeismar.net.
 
-## Previous years' ISMAR Sponsors
+<!-- Sponsors Section -->
+<section class="sponsors-section">
+    <h1 class="sponsors-title">This Year Sponsors</h1>
+    
+    <!-- Gold Sponsors -->
+    {% if site.data.2025.sponsors.gold_sponsors %}
+    <div class="sponsor-tier gold-tier">
+        <div class="tier-header gold">Gold</div>
+        <div class="sponsor-grid">
+            {% for sponsor in site.data.2025.sponsors.gold_sponsors %}
+            <div class="sponsor-item">
+                {% if sponsor.url and sponsor.url != "" %}
+                <a href="{{ sponsor.url }}" target="_blank" class="sponsor-logo-link">
+                    <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo" />
+                </a>
+                {% else %}
+                <div class="sponsor-logo-link">
+                    <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo" />
+                </div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
 
-<div class="sponsors-grid">
+    <!-- Silver Sponsors -->
+    {% if site.data.2025.sponsors.silver_sponsors %}
+    <div class="sponsor-tier silver-tier">
+        <div class="tier-header silver">Silver</div>
+        <div class="sponsor-grid">
+            {% for sponsor in site.data.2025.sponsors.silver_sponsors %}
+            <div class="sponsor-item">
+                {% if sponsor.url and sponsor.url != "" %}
+                <a href="{{ sponsor.url }}" target="_blank" class="sponsor-logo-link">
+                    <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo" />
+                </a>
+                {% else %}
+                <div class="sponsor-logo-link">
+                    <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo" />
+                </div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Bronze Sponsors -->
+    {% if site.data.2025.sponsors.bronze_sponsors %}
+    <div class="sponsor-tier bronze-tier">
+        <div class="tier-header bronze">Bronze</div>
+        <div class="sponsor-grid">
+            {% for sponsor in site.data.2025.sponsors.bronze_sponsors %}
+            <div class="sponsor-item">
+                {% if sponsor.url and sponsor.url != "" %}
+                <a href="{{ sponsor.url }}" target="_blank" class="sponsor-logo-link">
+                    <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo" />
+                </a>
+                {% else %}
+                <div class="sponsor-logo-link">
+                    <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo" />
+                </div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Exhibitors -->
+    {% if site.data.2025.sponsors.exhibitors %}
+    <div class="sponsor-tier exhibitor-tier">
+        <div class="tier-header exhibitor">Exhibitors</div>
+        <div class="sponsor-grid">
+            {% for exhibitor in site.data.2025.sponsors.exhibitors %}
+            <div class="sponsor-item">
+                {% if exhibitor.url and exhibitor.url != "" %}
+                <a href="{{ exhibitor.url }}" target="_blank" class="sponsor-logo-link">
+                    <img src="{{ exhibitor.logo | relative_url }}" alt="{{ exhibitor.name }} Logo" />
+                </a>
+                {% else %}
+                <div class="sponsor-logo-link">
+                    <img src="{{ exhibitor.logo | relative_url }}" alt="{{ exhibitor.name }} Logo" />
+                </div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+</section>
+
+<!-- Partners Section -->
+<section class="partners-section">
+    <h1 class="partners-title">Partners and Supporting Organizations</h1>
+    <div class="partners-grid">
+        {% for partner in site.data.2025.sponsors.partners %}
+        <div class="partner-item">
+            {% if partner.url and partner.url != "" %}
+            <a href="{{ partner.url }}" target="_blank" class="partner-logo-link">
+                <img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }} Logo" />
+            </a>
+            {% else %}
+            <div class="partner-logo-link">
+                <img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }} Logo" />
+            </div>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- Previous Years Sponsors Section -->
+<section class="previous-sponsors-section">
+    <h1 class="previous-sponsors-title">Previous years' ISMAR Sponsors</h1>
+    <div class="sponsors-grid">
     <img src="{{ 'assets/2025/img/Meta-Logo-4-1536x402.png' | relative_url }}" alt="Sponsor 1 Logo">
     <img src="{{ 'assets/2025/img/qualcomn-1-1536x315.png' | relative_url }}" alt="Sponsor 2 Logo">
     <img src="{{ 'assets/2025/img/UniSA-IVE-Logo-2-1536x390.jpg' | relative_url }}" alt="Sponsor 3 Logo">
