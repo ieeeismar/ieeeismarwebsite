@@ -927,6 +927,25 @@ h1.previous-sponsors-title {
     transition: transform 0.3s ease;
 }
 
+/* Specific logo size adjustments for better balance */
+.partner-item:nth-child(1) .partner-logo-link img, /* IEEE */
+.partner-item:nth-child(5) .partner-logo-link img, /* KAIST */
+.partner-item:nth-child(7) .partner-logo-link img, /* Daejeon City */
+.partner-item:nth-child(8) .partner-logo-link img { /* Daejeon Tourism */
+    max-height: 45px;
+}
+
+.partner-item:nth-child(2) .partner-logo-link img, /* IEEE VGTC */
+.partner-item:nth-child(3) .partner-logo-link img, /* WWW Conference */
+.partner-item:nth-child(6) .partner-logo-link img { /* Korea Tourism Organization */
+    max-height: 75px;
+}
+
+.partner-item:nth-child(4) .partner-logo-link img { /* KIISE */
+    max-height: 105px ;
+}
+
+
 /* Responsive Design for Sponsors and Partners */
 @media screen and (max-width: 768px) {
     .sponsors-section,
@@ -969,11 +988,32 @@ h1.previous-sponsors-title {
     }
     
     .sponsor-logo-link img {
-        max-height: 100px;
+        max-height: 110px;
     }
     
     .partner-logo-link img {
         max-height: 70px;
+    }
+    
+    /* Responsive logo size adjustments for tablet */
+    .partner-item:nth-child(1) .partner-logo-link img, /* IEEE */
+    .partner-item:nth-child(5) .partner-logo-link img, /* KAIST */
+    .partner-item:nth-child(7) .partner-logo-link img, /* Daejeon City */
+    .partner-item:nth-child(8) .partner-logo-link img { /* Daejeon Tourism */
+        max-height: 45px;
+    }
+    
+    .partner-item:nth-child(2) .partner-logo-link img, /* IEEE VGTC */
+    .partner-item:nth-child(6) .partner-logo-link img { /* Korea Tourism Organization */
+        max-height: 75px;
+    }
+    
+    .partner-item:nth-child(3) .partner-logo-link img { /* WWW Conference */
+        max-height: 60px;
+    }
+    
+    .partner-item:nth-child(4) .partner-logo-link img { /* KIISE */
+        max-height: 60px;
     }
 }
 
@@ -1022,6 +1062,30 @@ h1.previous-sponsors-title {
     
     .partner-logo-link img {
         max-height: 60px;
+    }
+    
+    /* Responsive logo size adjustments for mobile */
+    .partner-item:nth-child(1) .partner-logo-link img, /* IEEE */
+    .partner-item:nth-child(5) .partner-logo-link img, /* KAIST */
+    .partner-item:nth-child(7) .partner-logo-link img, {/* Daejeon City */
+        max-height: 40px;
+    }
+
+    .partner-item:nth-child(8) .partner-logo-link img { /* Daejeon Tourism */
+        max-height: 40px;
+    }
+    
+    .partner-item:nth-child(2) .partner-logo-link img, /* IEEE VGTC */
+    .partner-item:nth-child(6) .partner-logo-link img { /* Korea Tourism Organization */
+        max-height: 70px;
+    }
+    
+    .partner-item:nth-child(3) .partner-logo-link img { /* WWW Conference */
+        max-height: 60px;
+    }
+    
+    .partner-item:nth-child(4) .partner-logo-link img { /* KIISE */
+        max-height: 50px;
     }
 }
 
