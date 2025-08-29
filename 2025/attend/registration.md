@@ -2,7 +2,7 @@
 layout: 2025/page
 title: Registration
 ---
-*Last updated: 2025-08-25 2:02AM GMT*
+*Last updated: 2025-08-29 12:25PM GMT*
 
 ## Registration
 
@@ -14,6 +14,10 @@ For queries relating to registration or invitation letters, please contact the s
   <a href="https://public.thinkonweb.com/sites/ismar" class="registration-button">Online Registration</a>
 </div>
 
+### **Notice:**
+
+Due to many requests from authors and participants, **the early registration period** has been extended **until September 7, 2025 (AoE)**. This is the firm deadline for early registration. To receive the discounted registration fee, please be sure to complete your registration by this date.
+
 ---
 
 ## Registration Fee
@@ -22,8 +26,8 @@ For queries relating to registration or invitation letters, please contact the s
   <table class="reg-table">
       <tr style="background-color:rgb(37, 37, 197); color: white;">
         <th>Category</th>
-        <th>Early (Author)<br>(Before 23:59 AOE on August 31, 2025)</th>
-        <th>Standard<br>(After 00:00 AOE on September 1, 2025)</th>
+        <th>Early (Author)<br>(Before 23:59 AOE on <del style="color: darkgrey;">August 31</del> <br><span style="background-color: yellow; color: black">September 7</span>, 2025)</th>
+        <th>Standard<br>(After 00:00 AOE on September 8, 2025)</th>
       </tr>
     <tbody>
       <tr>
@@ -64,20 +68,19 @@ For queries relating to registration or invitation letters, please contact the s
 </div>
 
 
+### Author Registration
+For each accepted paper published in the proceedings or adjunct proceedings, at least one author must register for the conference with a full (5-day) registration by *<del style="color: lightgrey; font-style: italic;">31 August 2025</del>* **7 September 2025** to present the work at the conference.
 
-## Author Registration
-For each accepted paper published in the proceedings or adjunct proceedings, at least one author must register for the conference with a full (5-day) registration by **31 August 2025** to present the work at the conference.
-
-- One regular registration (Regular Member / Regular Non-Member) allows publication and presentation of up to two papers (1+1 policy).  
-- Author registration must be a regular registration; **student registration will not be accepted** as author registration. Therefore, even if a student is the sole author, regular registration is required.
-
+- One regular registration (Regular Member / Regular Non-Member) allows publication and presentation of up to **two papers (1+1 policy)**.  
+- Author registration must be a **regular registration; student registration will not be accepted** as author registration. Therefore, even if a student is the sole author, regular registration is required.
 
 ### The One-Day Pass
 The One-Day Pass includes access to all official programs held on the selected day, including workshops, tutorials, and the main conference sessions. If you plan to attend only on **October 8 (Wed.)** or **October 12 (Sun.)** for the workshops or tutorials, you may simply purchase a One-Day Pass for that specific date.
 
-
 ### Member Registration
-To qualify for member registration, you must be an **IEEE member**. Your membership number is required on the registration page.
+
+* **IEEE Member:** To qualify for member registration, you must be an IEEE member. Your membership number is required on the registration page.
+* **IEEE Life Member:** To qualify for IEEE Life Member registration, your membership number is required at the registration page.
 
 ---
 
@@ -172,9 +175,3 @@ Due to a delay in the registration system opening, the issuance of invitation le
  - Brief explanation of the urgency (e.g., visa appointment date or submission deadline)
 
 Please note that we may request **supporting documentation** to verify your urgency. Only eligible authors will be considered for early issuance before registration officially opens.
-
----
-
-
-
-
