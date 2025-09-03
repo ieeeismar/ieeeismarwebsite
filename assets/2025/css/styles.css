@@ -727,17 +727,20 @@ html, body {
 
 .sponsors-title {
     font-size: 2.5rem;
-    color: #333;
+    color: #000000;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 h1.sponsors-title {
-    color: rgb(37, 37, 197);
-    font-size: 2.8rem;
-    font-weight: 800;
+    font-size: 2.5rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
 .sponsor-tier {
@@ -745,34 +748,119 @@ h1.sponsors-title {
 }
 
 .tier-header {
-    padding: 15px 30px;
-    font-size: 1.4rem;
-    font-weight: 600;
-    text-align: center;
-    color: white;
+    display: flex;
+    align-items: center;
     margin-bottom: 25px;
-    border-radius: 8px;
     font-family: 'Poppins', sans-serif;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    position: relative;
 }
 
-.tier-header.gold {
+.tier-header .tier-label {
+    padding: 15px 40px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+    border-radius: 0 0 25px 25px;
+    margin-right: 0;
+    white-space: nowrap;
+    position: relative;
+    z-index: 2;
+    transform: translateY(4px);
+    width: 160px;
+    text-align: center;
+}
+
+/* Responsive design for sponsor tier headers */
+@media screen and (max-width: 768px) {
+    .tier-header {
+        max-width: 95%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .tier-header .tier-label {
+        padding: 12px 30px;
+        font-size: 1.1rem;
+        width: 140px;
+    }
+    
+    .tier-header::after {
+        left: 0 !important;
+        right: 0 !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tier-header {
+        max-width: 98%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    .tier-header .tier-label {
+        padding: 10px 25px;
+        font-size: 1rem;
+        width: 120px;
+    }
+    
+    .tier-header::after {
+        left: 0 !important;
+        right: 0 !important;
+    }
+}
+
+.tier-header .tier-text {
+    display: none;
+}
+
+.tier-header::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background-color: #ddd;
+    top: 0;
+    z-index: 1;
+}
+
+.tier-label.gold {
     background: linear-gradient(135deg, #DAA520, #B8860B);
 }
 
-.tier-header.silver {
+.tier-label.gold + .tier-text + .tier-header::after,
+.gold-tier .tier-header::after {
+    background: linear-gradient(135deg, #DAA520, #B8860B);
+}
+
+.tier-label.silver {
     background: linear-gradient(135deg, #D3D3D3, #C0C0C0);
     color: white;
 }
 
-.tier-header.bronze {
+.tier-label.silver + .tier-text + .tier-header::after,
+.silver-tier .tier-header::after {
+    background: linear-gradient(135deg, #D3D3D3, #C0C0C0);
+}
+
+.tier-label.bronze {
     background: linear-gradient(135deg, #CD853F, #D2691E);
 }
 
-.tier-header.exhibitor {
+.tier-label.bronze + .tier-text + .tier-header::after,
+.bronze-tier .tier-header::after {
+    background: linear-gradient(135deg, #CD853F, #D2691E);
+}
+
+.tier-label.exhibitor {
+    background: linear-gradient(135deg, #32CD32, #228B22);
+}
+
+.tier-label.exhibitor + .tier-text + .tier-header::after,
+.exhibitor-tier .tier-header::after {
     background: linear-gradient(135deg, #32CD32, #228B22);
 }
 
@@ -781,6 +869,23 @@ h1.sponsors-title {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
     align-items: start;
+}
+
+/* Responsive sponsor grid */
+@media screen and (max-width: 768px) {
+    .sponsor-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .sponsor-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 0 5px;
+    }
 }
 
 .bronze-tier .sponsor-grid {
@@ -838,26 +943,29 @@ h1.sponsors-title {
 
 .partners-title {
     font-size: 2.5rem;
-    color: #333;
+    color: #000000;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 h1.partners-title {
-    color: rgb(37, 37, 197);
-    font-size: 2.8rem;
-    font-weight: 800;
+    font-size: 2.5rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
 h1.previous-sponsors-title {
-    color: #333;
-    font-size: 2.8rem;
-    font-weight: 800;
+    font-size: 2.5rem;
+    color: #000000;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
 /* Responsive Design for H1 Headings */
@@ -865,8 +973,8 @@ h1.previous-sponsors-title {
     h1.sponsors-title,
     h1.partners-title,
     h1.previous-sponsors-title {
-        font-size: 2.2rem;
-        margin-bottom: 30px;
+        font-size: 1.8rem;
+        margin-bottom: 25px;
     }
 }
 
@@ -874,8 +982,8 @@ h1.previous-sponsors-title {
     h1.sponsors-title,
     h1.partners-title,
     h1.previous-sponsors-title {
-        font-size: 1.8rem;
-        margin-bottom: 25px;
+        font-size: 1.6rem;
+        margin-bottom: 20px;
     }
 }
 
