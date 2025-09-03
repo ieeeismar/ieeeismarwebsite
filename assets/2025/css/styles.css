@@ -650,7 +650,7 @@ html, body {
 .registration-announcement {
     padding: 10px 20px;
     text-align: center;
-    margin: 10px auto 30px auto; 
+    margin: 10px auto 10px auto; 
     max-width: 900px;
 }
 
@@ -1238,15 +1238,15 @@ h1.previous-sponsors-title {
 
 /* Important Dates Section */
 .important-dates-section {
-    background-color: #225888; /* Grey background for section */
+    background-color: transparent; /* Remove blue background */
     padding: 40px; /* Add padding for spacing */
-    color: White; /* Dark text color for readability */
+    color: #333; /* Dark text color for readability */
     border-radius: 8px; /* Optional: Adds rounded corners */
     margin: 30px 0; /* Optional: Adds margin between sections */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow around the section */
+    box-shadow: none; /* Remove shadow */
     text-align: center; /* Centers the title */
     margin-bottom: 20px; /* Add space between announcement and next section */
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 /* Title styling */
@@ -1254,8 +1254,9 @@ h1.previous-sponsors-title {
     font-size: 10px;
     margin-top: 0px;
     margin-bottom: 20px;
+    padding-top: 0px; /* Remove top padding */
     text-align: center;
-    color: White; /* Dark color for the title */
+    color: #333; /* Dark color for the title */
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
 }
@@ -1263,21 +1264,23 @@ h1.previous-sponsors-title {
 /* Table styling */
 .important-dates {
     width: 80%;
-    padding-top: 20px;
+    padding-top: 0px; /* Remove top padding to prevent overlap */
     margin: 0 auto; /* Auto margin to horizontally center the table */
-    border-collapse: collapse; /* Ensures borders don't double */
-    background-color: white; /* White background for the table */
-    border-radius: 8px; /* Optional: Adds rounded corners to the table */
-    box-shadow: 0 4px 8px rgba(35, 27, 27, 0.1); /* Optional: Adds a subtle shadow to the table */
+    border-collapse: separate; /* Allows border-radius to work properly */
+    border-spacing: 0; /* Removes spacing between cells */
+    background-color: transparent; /* Transparent background for the table */
+    border-radius: 0; /* Remove table border radius */
+    box-shadow: none; /* Remove shadow that might cause overlap */
     font-family: 'Poppins', sans-serif;
 }
 
 /* Table header styling */
 .important-dates thead {
-    background-color: White; /* Dark background for table header */
+    background-color: #4971E7 !important; /* New blue color for table header */
     color: white; /* White text in header */
     text-align: center;
-
+    border-radius: 35px 35px 0 0; /* More curved top corners */
+    overflow: hidden; /* Ensures content respects border radius */
 }
 
 .important-dates th,
@@ -1291,6 +1294,16 @@ h1.previous-sponsors-title {
 .important-dates th {
     font-size: 1.1rem; /* Header font size */
     color: white;
+    background-color: #4971E7 !important; /* New blue color for table header */
+    border: none; /* Remove default borders */
+}
+
+.important-dates th:first-child {
+    border-radius: 35px 0 0 0; /* Very curved top-left corner */
+}
+
+.important-dates th:last-child {
+    border-radius: 0 35px 0 0; /* Very curved top-right corner */
 }
 
 .important-dates td {
@@ -1298,8 +1311,13 @@ h1.previous-sponsors-title {
 }
 
 /* Styling for table rows */
+.important-dates tbody {
+    background-color: white; /* White background for table body */
+    border-radius: 0 0 8px 8px; /* Rounded bottom corners */
+}
+
 .important-dates tr:nth-child(even) {
-    background-color: white; /* Light grey for alternate rows */
+    background-color: white; /* White for alternate rows */
 }
 
 .important-dates tr:hover {
