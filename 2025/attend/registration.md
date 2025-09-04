@@ -2,7 +2,7 @@
 layout: 2025/page
 title: Registration
 ---
-*Last updated: 2025-08-29 12:25PM GMT*
+*Last updated: 2025-09-04 05:14AM GMT*
 
 ## Registration
 
@@ -81,6 +81,24 @@ The One-Day Pass includes access to all official programs held on the selected d
 
 * **IEEE Member:** To qualify for member registration, you must be an IEEE member. Your membership number is required on the registration page.
 * **IEEE Life Member:** To qualify for IEEE Life Member registration, your membership number is required at the registration page.
+
+### Track-Specific Registration Policies
+
+<strong>Video Presentations</strong><br>
+Video presentations are treated the same as on-site presentations, and therefore require Regular Registration.
+
+<strong>Doctoral Consortium (DC)</strong><br>
+For participants presenting only in the DC track, Student Registration is permitted in line with the purpose of the track.
+If a DC participant is also presenting in another track (e.g., Papers, Posters, Demos, or Workshop Papers), a Regular Registration is required.
+
+<strong>Workshop Papers</strong><br>
+Since workshop papers are also included in the ISMAR 2025 Adjunct Proceedings, at least one author must complete a Regular Author Registration.
+Please select Author → Papers and enter your Workshop Paper ID in the Contribution Number field (as used at the time of final submission).
+Example: W-DHXR-1234
+
+<strong>Student Volunteers (SVs)</strong><br>
+Please note that Student Volunteer registration waivers do not cover Author Registration.
+If a Student Volunteer is also an author of an accepted paper, they must still complete a Regular Registration.
 
 ---
 
@@ -175,3 +193,4 @@ Due to a delay in the registration system opening, the issuance of invitation le
  - Brief explanation of the urgency (e.g., visa appointment date or submission deadline)
 
 Please note that we may request **supporting documentation** to verify your urgency. Only eligible authors will be considered for early issuance before registration officially opens.
+
