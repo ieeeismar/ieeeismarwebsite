@@ -47,6 +47,8 @@ Buses will be arranged by the conference to transport attendees to each site.
  * 9:00 AM - 12:40 PM — Visits to ETRI, KAIST, and KISTI (in groups)
  * 1:00 PM - Return to DCC
 
+**[Optional]** 12:40PM - 3:00PM - Networking lunch and Return to DCC to Daejeon train station.
+
 All buses will return to the DCC at the end of the tour.
 
 
