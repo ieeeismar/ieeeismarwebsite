@@ -2,7 +2,7 @@
 layout: 2025/page
 title: Registration
 ---
-*Last updated: 2025-09-04 05:14AM GMT*
+*Last updated: 2025-09-08 05:10AM GMT*
 
 ## Registration
 
@@ -238,5 +238,6 @@ Due to a delay in the registration system opening, the issuance of invitation le
  - Brief explanation of the urgency (e.g., visa appointment date or submission deadline)
 
 Please note that we may request **supporting documentation** to verify your urgency. Only eligible authors will be considered for early issuance before registration officially opens.
+
 
 
