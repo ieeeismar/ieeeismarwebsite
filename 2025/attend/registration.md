@@ -146,6 +146,51 @@ If a Student Volunteer is also an author of an accepted paper, they must still c
   </table>
 </div>
 
+---
+
+## ISMAR 2025 I.D.E.A. Scholarship
+
+**Inclusion, Diversity, Equity & Accessibility**
+
+IEEE ISMAR 2025 is committed to fostering an inclusive and accessible
+environment to encourage participation from researchers of diverse
+backgrounds and identities.
+
+This year, the ISMAR 2025 Inclusion, Diversity, Equity, and
+Accessibility (IDEA) Scholarship will support early career researchers
+who are presenting authors of accepted contributions at ISMAR 2025 and
+are from developing countries or regions historically underrepresented
+at ISMAR.
+
+**Eligibility**
+
+Applicants must meet all of the following criteria:
+
+\- Must be an early career researcher (early professors, undergraduate
+students, graduate students, or postdocs).
+
+\- Must be the presenting author of an accepted contribution at ISMAR
+2025 (oral paper, poster, demo, or workshop).
+
+\- Must be from developing countries or regions historically
+underrepresented at ISMAR.
+
+**Scholarship Details**
+
+\- Full reimbursement of ISMAR 2025 registration fee
+
+\- Available only to presenting authors who satisfy the eligibility
+criteria
+
+**Application Guidelines**
+
+\- Applications must be submitted via the following Google Form:
+[**ISMAR 2025 IDEA Scholarship Application
+Form**](https://forms.gle/nSGpPVxCL1Z2bkz78)
+
+\- Application Deadline: September 19, 2025 (23:59 AoE)
+
+For questions, please contact: <aychoi@gachon.ac.kr>
 
 ---
 
@@ -193,4 +238,5 @@ Due to a delay in the registration system opening, the issuance of invitation le
  - Brief explanation of the urgency (e.g., visa appointment date or submission deadline)
 
 Please note that we may request **supporting documentation** to verify your urgency. Only eligible authors will be considered for early issuance before registration officially opens.
+
 
