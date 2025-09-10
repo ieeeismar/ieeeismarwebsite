@@ -22,5 +22,5 @@ Submission Deadline: <strong>September 19, 2025</strong> <br>
 Notification of Acceptance: <strong>September 22, 2025</strong>
 
 ## Pitch Your Lab Chair
-Jen-Shuo Liu, Columbia University
+Jen-Shuo Liu, Columbia University <br>
 [jen-shuo.liu@columbia.edu](jen-shuo.liu@columbia.edu)
