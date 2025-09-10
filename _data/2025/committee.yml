@@ -178,7 +178,7 @@ chairs:
         affiliation: "Tsinghua University"
         img: "assets/2025/img/Committee Members Images/Xinyi Fu.jpg"
       - name: "Jen-Shuo Liu"
-        affiliation: "Samsung Research America"
+        affiliation: "Columbia University"
         img: "assets/2025/img/Committee Members Images/Jen-Shuo Liu.jpeg"
 
   - title: "Hybrid Media Chairs"
@@ -354,5 +354,6 @@ chairs:
       - name: "Mark Billinghurst"
         affiliation: "The University of South Australia"
         img: "assets/2025/img/Committee Members Images/Mark Billinghurst.png"
+
 
 
