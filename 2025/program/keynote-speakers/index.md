@@ -44,7 +44,7 @@ The platform has been featured at major global events including CES (2022–2025
 <!-- markdownlint-disable MD033 -->
 <figure class="img-float-left" style="margin-top: 30px;">
  <img src="/2025/program/keynote-speakers/images/Kihwan-Kim.jpg" alt="Photo of Kihwan Kim" />
- <figcaption>DKihwan Kim, Corporate EVP/Head of Team, Samsung Electronics</figcaption>
+ <figcaption>Kihwan Kim, Corporate EVP/Head of Team, Samsung Electronics</figcaption>
 </figure>
 <h2>Kihwan Kim <span style="font-weight: 200">|</span> <span style="font-weight: 400">Corporate EVP/Head of Team, Samsung Electronics</span></h2>
 <!-- markdownlint-enable MD033 -->
