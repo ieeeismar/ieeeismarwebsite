@@ -52,6 +52,8 @@
 - title: Program
   url: "javascript:void(0)"
   children:
+    - title: Overview
+      url: "2025/program/overview"
     - title: Keynote Speakers
       url: "2025/program/keynote-speakers"
     - title: Tutorials
