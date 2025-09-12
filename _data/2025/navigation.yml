@@ -47,6 +47,8 @@
       url: "2025/attend/transportation"
     - title: Visa Requirements
       url: "2025/attend/visa-requirements"
+    - title: Travel Advisory
+      url: "2025/attend/travel-advisory"
 - title: Program
   url: "javascript:void(0)"
   children:
