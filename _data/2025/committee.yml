@@ -24,7 +24,7 @@ chairs:
         img: "assets/2025/img/Committee Members Images/Dooyoung Kim.jpg"
 
   - title: "Technical Program Chairs"
-    email: "program2025@ismar2025.org"
+    email: "program2025@ismar2025.net"
     members:
       - name: "Maud Marchal"
         affiliation: "University of Rennes"
@@ -354,6 +354,7 @@ chairs:
       - name: "Mark Billinghurst"
         affiliation: "The University of South Australia"
         img: "assets/2025/img/Committee Members Images/Mark Billinghurst.png"
+
 
 
 
