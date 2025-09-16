@@ -868,7 +868,9 @@ h1.sponsors-title {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
-    align-items: start;
+    align-items: center;
+    justify-items: center;
+    place-items: center;
 }
 
 /* Responsive sponsor grid */
@@ -889,14 +891,43 @@ h1.sponsors-title {
 }
 
 .bronze-tier .sponsor-grid {
-    gap: 8px;
+    gap: 25px;
     max-width: 600px;
     margin: 0 auto;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    place-items: center;
 }
 
-.exhibitor-tier .sponsor-logo-link img {
-    max-height: 60px;
+.exhibitor-tier .sponsor-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 600px;
+    margin: 0 auto;
+    place-items: center;
+}
+
+/* Specific sizing for exhibitor logos */
+.exhibitor-tier .sponsor-item .sponsor-logo-link img { /* KAIST Metaverse and VIRNECT */
+    max-height: 95%;
+}
+
+/* Silver tier grid layout */
+.silver-tier .sponsor-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 600px;
+    margin: 0 auto;
+    place-items: center;
+}
+
+/* Specific sizing for Silver sponsors */
+.silver-tier .sponsor-item .sponsor-logo-link img { /* Google and KAIST */
+    max-height: 95%;
+}
+
+/* Specific sizing for Bronze sponsors */
+.bronze-tier .sponsor-item .sponsor-logo-link img { /* ETRI and Apple */
+    max-height: 95%;
 }
 
 .sponsor-item {
@@ -907,6 +938,7 @@ h1.sponsors-title {
     background: transparent;
     transition: transform 0.3s ease;
     min-height: 120px;
+    text-align: center;
 }
 
 .sponsor-item:hover {
@@ -921,6 +953,7 @@ h1.sponsors-title {
     height: 100%;
     text-decoration: none;
     transition: transform 0.2s ease;
+    text-align: center;
 }
 
 .sponsor-logo-link:hover {
@@ -929,9 +962,11 @@ h1.sponsors-title {
 
 .sponsor-logo-link img {
     max-width: 100%;
-    max-height: 120px;
+    max-height: 150px;
     object-fit: contain;
     transition: transform 0.3s ease;
+    display: block;
+    margin: 0 auto;
 }
 
 /* Partners Section Styling */
@@ -995,9 +1030,11 @@ h1.previous-sponsors-title {
 
 .partners-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 25px;
     align-items: start;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .partner-item {
@@ -1037,24 +1074,36 @@ h1.previous-sponsors-title {
 
 /* Specific logo size adjustments for better balance */
 .partner-item:nth-child(1) .partner-logo-link img, /* IEEE */
-.partner-item:nth-child(5) .partner-logo-link img, /* KAIST */
-.partner-item:nth-child(7) .partner-logo-link img, /* Daejeon City */
-.partner-item:nth-child(8) .partner-logo-link img { /* Daejeon Tourism */
+.partner-item:nth-child(4) .partner-logo-link img, /* WWW Conference */
+.partner-item:nth-child(5) .partner-logo-link img, /* KIISE */
+.partner-item:nth-child(6) .partner-logo-link img, /* KAIST */
+.partner-item:nth-child(8) .partner-logo-link img, /* Daejeon City */
+.partner-item:nth-child(9) .partner-logo-link img { /* Daejeon Tourism */
     max-height: 45px;
 }
 
-.partner-item:nth-child(2) .partner-logo-link img, /* IEEE VGTC */
-.partner-item:nth-child(3) .partner-logo-link img, /* WWW Conference */
-.partner-item:nth-child(6) .partner-logo-link img { /* Korea Tourism Organization */
-    max-height: 75px;
+.partner-item:nth-child(2) .partner-logo-link img { /* IEEE Computer Society */
+    max-height: 60px;
 }
 
-.partner-item:nth-child(4) .partner-logo-link img { /* KIISE */
-    max-height: 105px ;
+.partner-item:nth-child(3) .partner-logo-link img { /* IEEE VGTC */
+    max-height: 80px;
+}
+
+.partner-item:nth-child(7) .partner-logo-link img { /* Korea Tourism Organization */
+    max-height: 80px;
 }
 
 
 /* Responsive Design for Sponsors and Partners */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .partners-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        max-width: 100%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .sponsors-section,
     .partners-section {
@@ -1081,8 +1130,9 @@ h1.previous-sponsors-title {
     }
     
     .partners-grid {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(3, 1fr);
         gap: 20px;
+        max-width: 100%;
     }
     
     .sponsor-item {
@@ -1099,29 +1149,43 @@ h1.previous-sponsors-title {
         max-height: 110px;
     }
     
+    /* Responsive sizing for specific sponsor logos */
+    .silver-tier .sponsor-item .sponsor-logo-link img { /* Google and KAIST */
+        max-height: 95%;
+    }
+    
+    .bronze-tier .sponsor-item .sponsor-logo-link img { /* ETRI and Apple */
+        max-height: 95%;
+    }
+    
+    .exhibitor-tier .sponsor-item .sponsor-logo-link img { /* KAIST Metaverse and VIRNECT */
+        max-height: 95%;
+    }
+    
     .partner-logo-link img {
         max-height: 70px;
     }
     
     /* Responsive logo size adjustments for tablet */
     .partner-item:nth-child(1) .partner-logo-link img, /* IEEE */
-    .partner-item:nth-child(5) .partner-logo-link img, /* KAIST */
-    .partner-item:nth-child(7) .partner-logo-link img, /* Daejeon City */
-    .partner-item:nth-child(8) .partner-logo-link img { /* Daejeon Tourism */
+    .partner-item:nth-child(4) .partner-logo-link img, /* WWW Conference */
+    .partner-item:nth-child(5) .partner-logo-link img, /* KIISE */
+    .partner-item:nth-child(6) .partner-logo-link img, /* KAIST */
+    .partner-item:nth-child(8) .partner-logo-link img, /* Daejeon City */
+    .partner-item:nth-child(9) .partner-logo-link img { /* Daejeon Tourism */
         max-height: 45px;
     }
     
-    .partner-item:nth-child(2) .partner-logo-link img, /* IEEE VGTC */
-    .partner-item:nth-child(6) .partner-logo-link img { /* Korea Tourism Organization */
+    .partner-item:nth-child(2) .partner-logo-link img { /* IEEE Computer Society */
+        max-height: 60px;
+    }
+    
+    .partner-item:nth-child(3) .partner-logo-link img { /* IEEE VGTC */
         max-height: 75px;
     }
     
-    .partner-item:nth-child(3) .partner-logo-link img { /* WWW Conference */
-        max-height: 60px;
-    }
-    
-    .partner-item:nth-child(4) .partner-logo-link img { /* KIISE */
-        max-height: 60px;
+    .partner-item:nth-child(7) .partner-logo-link img { /* Korea Tourism Organization */
+        max-height: 75px;
     }
 }
 
@@ -1152,6 +1216,7 @@ h1.previous-sponsors-title {
     .partners-grid {
         grid-template-columns: 1fr;
         gap: 15px;
+        max-width: 100%;
     }
     
     .sponsor-item {
@@ -1168,32 +1233,43 @@ h1.previous-sponsors-title {
         max-height: 80px;
     }
     
+    /* Mobile responsive sizing for specific sponsor logos */
+    .silver-tier .sponsor-item .sponsor-logo-link img { /* Google and KAIST */
+        max-height: 95%;
+    }
+    
+    .bronze-tier .sponsor-item .sponsor-logo-link img { /* ETRI and Apple */
+        max-height: 95%;
+    }
+    
+    .exhibitor-tier .sponsor-item .sponsor-logo-link img { /* KAIST Metaverse and VIRNECT */
+        max-height: 95%;
+    }
+    
     .partner-logo-link img {
         max-height: 60px;
     }
     
     /* Responsive logo size adjustments for mobile */
     .partner-item:nth-child(1) .partner-logo-link img, /* IEEE */
-    .partner-item:nth-child(5) .partner-logo-link img, /* KAIST */
-    .partner-item:nth-child(7) .partner-logo-link img, {/* Daejeon City */
+    .partner-item:nth-child(4) .partner-logo-link img, /* WWW Conference */
+    .partner-item:nth-child(5) .partner-logo-link img, /* KIISE */
+    .partner-item:nth-child(6) .partner-logo-link img, /* KAIST */
+    .partner-item:nth-child(8) .partner-logo-link img, /* Daejeon City */
+    .partner-item:nth-child(9) .partner-logo-link img { /* Daejeon Tourism */
         max-height: 40px;
     }
-
-    .partner-item:nth-child(8) .partner-logo-link img { /* Daejeon Tourism */
-        max-height: 40px;
-    }
     
-    .partner-item:nth-child(2) .partner-logo-link img, /* IEEE VGTC */
-    .partner-item:nth-child(6) .partner-logo-link img { /* Korea Tourism Organization */
-        max-height: 70px;
-    }
-    
-    .partner-item:nth-child(3) .partner-logo-link img { /* WWW Conference */
-        max-height: 60px;
-    }
-    
-    .partner-item:nth-child(4) .partner-logo-link img { /* KIISE */
+    .partner-item:nth-child(2) .partner-logo-link img { /* IEEE Computer Society */
         max-height: 50px;
+    }
+    
+    .partner-item:nth-child(3) .partner-logo-link img { /* IEEE VGTC */
+        max-height: 80px;
+    }
+    
+    .partner-item:nth-child(7) .partner-logo-link img { /* Korea Tourism Organization */
+        max-height: 80px;
     }
 }
 
