@@ -11,7 +11,10 @@ silver_sponsors:
     logo: "/assets/2025/img/sponsors/Google.png"
     url: "https://www.google.com/"
     website: "www.google.com"
-
+  - name: "KASIT"
+    full_name: "KAIST"
+    logo: "/assets/2025/img/sponsors/KAIST.png"
+    url: "https://www.kaist.ac.kr/en/"
 
 bronze_sponsors:
   - name: "ETRI"
@@ -28,21 +31,26 @@ bronze_sponsors:
 exhibitors:
   - name: "Graduate School of Metaverse"
     korean_name: "메타버스대학원"
-    logo: "/assets/2025/img/sponsors/kaist-metaverse.png"
+    logo: "/assets/2025/img/sponsors/kaist-metaverse-new-logo.jpg"
     url: "https://meta.kaist.ac.kr/"
     website: "meta.kaist.ac.kr"
-  
+  - name: "VIRNECT"
+    logo: "/assets/2025/img/sponsors/virnect-logo.png"
+    url: "https://store.virnect.com/"
+    website: "store.virnect.com/"
 
 partners:
   - name: "IEEE"
     logo: "/assets/2025/img/sponsors/IEEE.png"
     url: "https://www.ieee.org/"
+  - name: "IEEE Computer Society"
+    logo: "/assets/2025/img/sponsors/ieee-computer-society.jpg"
+    url: "https://www.ieee.org/"
   - name: "IEEE VGTC"
-    logo: "/assets/2025/img/sponsors/IEEE-vgtc.png"
+    logo: "/assets/2025/img/sponsors/vgtc-new-logo.jpg"
     url: "https://tc.computer.org/vgtc/"
   - name: "WWW Conference"
     logo: "/assets/2025/img/sponsors/www-conference.png"
-    
   - name: "KIISE"
     full_name: "Korean Institute of Information Scientists and Engineers"
     logo: "/assets/2025/img/sponsors/KIISE.png"
@@ -61,6 +69,5 @@ partners:
   - name: "Daejeon Tourism Organization"
     logo: "/assets/2025/img/sponsors/Daejeon-Tourism.png"
     url: "https://djto.kr/eng/index.do"
-
 
 
