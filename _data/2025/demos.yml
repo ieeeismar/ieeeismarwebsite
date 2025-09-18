@@ -1,0 +1,214 @@
+- id: "DEMO1006"
+  title: "Virtual Handshake Enabling Physical Interaction for Remote Presence Augmentation"
+  authors: "Sung-Uk Jung, Kyungill Kim, Juyoung Kim, Yeongjae Choi, Sangheon Park, Byunggyu Lee, Daegeun Park"
+  abstract: "In this paper, we propose a novel virtual handshake method that provides physical interaction to enhance the sense of presence in eXtended Reality (XR) environments. In XR environments, the limited physical interaction between users often results in reduced presence and immersion. To overcome this, we designed a system that i) provides force and tactile feedback between remote users using XR haptic gloves, and ii) applies users' real-time eye gaze and pose information to avatars to enable natural eye contact during interaction. This research demonstrates the practical integration of real-time physical and visual interaction for remote virtual handshakes in XR environments."
+
+- id: "DEMO1009"
+  title: "Demo of SwitchAR: Perceptual Manipulations in Augmented Reality"
+  authors: "Jonas Wombacher, Zhipeng Li, Jan Gugenheimer"
+  abstract: "Perceptual manipulations (PMs) like redirected walking (RDW) can overcome technological limitations in Virtual Reality (VR). These PMs manipulate users' visual perceptions (e.g. rotational gains), which is currently challenging in Augmented Reality (AR). We propose SwitchAR, a PM for video pass-through AR leveraging change and inattentional blindness to imperceptibly switch between the camera stream of the real environment and a 3D reconstruction. This enables VR redirection techniques in what users still perceive as AR. We present our pipeline consisting of (1) Reconstruction, (2) Switch (AR → VR), (3) PM and (4) Switch (VR → AR), with a prototype implementing this pipeline."
+
+- id: "DEMO1014"
+  title: "Mobile Eye-perspective Rendering: Alignment of Image-based Vision Augmentations for Optical See-through Head-mounted Displays"
+  authors: "Gerlinde Emsenhuber, Michael Smirnov, Tobias Langlotz, Denis Kalkofen, Stefanie Zollmann, Markus Tatzgern"
+  abstract: "Optical see-through head-mounted displays require correcting for the camera-to-eye offset whenever virtual cues are derived from camera imagery. We demonstrate two methods that align these cues with the user's view by projecting the processed camera image onto a planar proxy: One keeps this plane at a constant depth, which is sufficient when parallax is small but causes misalignments otherwise, the other uses eye‑tracking to adjust the plane dynamically to the user's fixation, preserving alignment as the user shifts focus. We demonstrate the fixed‑distance version on Microsoft HoloLens 2 and Snap AR Glasses, and the gaze‑driven version on HoloLens 2."
+
+- id: "DEMO1023"
+  title: "Heritage Brew: Learning Taiwanese Indigenous Brewing through VR"
+  authors: "Hyebin Seo, Yongsoon Choi"
+  abstract: "Heritage Brew is an immersive VR experience that guides users through the traditional brewing rituals of Taiwan's Indigenous communities. From ingredient preparation to ritual gestures and fermentation, each step is performed through intuitive simulations and hand-based interaction without the need for an instructor. The VR setting overcomes real-world barriers such as sourcing materials or waiting for fermentation by simulating ingredients and accelerating time through environmental changes. This hands-on, sequential experience transforms passive observation into active cultural participation, enabling users to internalize and remember traditional practices through embodied learning in a fully accessible virtual space."
+
+- id: "DEMO1025"
+  title: "CrossGaussian: Enhancing Remote Collaboration through 3D Gaussian Splatting and Real-time 360° Streaming"
+  authors: "Jaehyun Byun, Byunghoon Kang, Yonghyun Gwon, Hongsong Choi, Yunseo Do, Eunho Kim, Sangkeun Park, Seungjae Oh"
+  abstract: "Remote users often face significant challenges in remote collaboration systems when joining virtual scenes primarily reconstructed from a local user's environment. They are disadvantaged by the information asymmetry inherent in a shared virtual environment compared to local users. We present CrossGaussian, a VR collaboration system designed to address these limitations by providing remote users with a comprehensive 3D interactive view of the shared environment, created using 3DGS. It blends 360° video streams and a large-scale 3DGS reconstruction via our automated pipeline. We then define the design space for visualization and interaction techniques that combine wide-coverage 3D and responsive 360° scenes."
+
+- id: "DEMO1035"
+  title: "Augmented Reality for Operating Room Equipment Placement with Real-time Feedback"
+  authors: "Hyunggu Jung, Seungjun Chong, Duhyung Kwak, Minh Do Ngoc Luong, Hyeonmin Choi, Minju Kim, Yunseo Moon, Chaeyoung Lee"
+  abstract: "Operating room (OR) equipment misplacement errors compromise patient safety and surgical outcomes. Ensuring precise and efficient positioning of OR equipment is therefore crucial to minimizing infection risks and reducing operative time. To address this challenge, we developed an augmented reality (AR) application that integrates a fine-tuned YOLOv11 object detection model with Gemini for standardizing surgical titles. Our system utilizes AR to visualize optimal operating table position and provides AI-driven placement feedback within the OR environment in a time-critical scenario. This novel approach reduces cognitive burden on OR nurses and enhances patient safety through AR-based automated feedback."
+
+- id: "DEMO1036"
+  title: "Bridging Physical and Digital: A Mixed Reality Demo for Exploring the Lahdenväylä Masterplan"
+  authors: "Santeri Saarinen, Janset Shawash, Narmeen Marji, Janina Rannikko, Juho Puurunen, Julia Hautanen, Henri Liu, Alicia Sudlerd, Mikko Höök"
+  abstract: "This demo presents a Mixed Reality (MR) tool developed to support public engagement with the Lahdenväylä Masterplan in Helsinki. Anchored to a 3D-printed scale model, the system overlays six interactive planning layers, including zoning, transport, and environmental data, via Meta Quest 3. By blending spatialized visuals, audio, and embodied interaction, the application fosters intuitive understanding of complex urban scenarios. Originally designed for community exhibitions, the tool was adapted for tabletop demo use, emphasizing portability and clarity. Findings highlight MR's potential to enrich planning tools when simplicity, accessibility, and workflow integration are prioritized."
+
+- id: "DEMO1038"
+  title: "Year of the Cicadas: Using Sound and Story to Understand Parental Grief"
+  authors: "Kimberly Hieftje, Asher Marks, Andrew Schartmann"
+  abstract: "Year of the Cicadas is a narrative-driven VR experience exploring parental grief following the death of a child. Developed through an autoethnographic framework, it spans a 17-year timeline marked by the cyclical emergence of Brood X cicadas. The experience integrates personal narrative, spatialized sound, digitized artifacts, and original music to create an emotionally immersive environment. Sound functions as the primary storytelling element, guiding reflection and emotional tone. The project will be integrated into a medical training curriculum to support grief education for pediatric fellows and medical students in the Spring of 2026."
+
+- id: "DEMO1039"
+  title: "Multi-Player VR Marble Run Game for Physics Co-Learning"
+  authors: "William F Ranc, Thanh Nguyen, Liuchuan Yu, Yongqi Zhang, Minyoung Kim, Haikun Huang, Lap-Fai Yu"
+  abstract: "Non-science majors frequently struggle with conceptualizing physics. To mitigate this challenge, we created an immerisve virtual reality (VR) laboratory based on the experimental learning cycle to promote active learning. This game challenges players to collaboratively learn, apply, and reflect on fundamental physics concepts by constructing complex marble run tracks to achieve shared objectives (e.g., maximizing the velocity of a marble). This immersive and collaborative learning environment can help students significantly enhance their understanding of physics."
+
+- id: "DEMO1043"
+  title: "ARIA: Demonstrating Transfer from AR-Based Spatial Audio Training to Speech-in-Noise Performance"
+  authors: "Pooseung Koh, Jeongwoo Park, Sungyoung Kim, Inyong Choi, Hyojeong Lee"
+  abstract: "We demonstrate ARIA, an iOS augmented reality application that addresses engagement and accessibility limitations of traditional auditory training systems. The app integrates 6-degree-of-freedom spatial audio with gamified auditory localization and speech-in-noise training in users' real environments. Our feasibility study with 11 normal-hearing adults (age: 53±3 years) who underwent 4 weeks of at-home training showed significant improvements in Korean Matrix Sentence Test (KMST) performance across challenging listening conditions (-6dB: 7.3±4.5%, p=0.001; -9dB: 10.5±8.0%, p=0.004). Training duration demonstrated dose-response effects, with correlations between engagement time, in-game localization improvements, and transfer to standardized assessments at -6/-9dB where real-world benefits are most critical."
+
+- id: "DEMO1044"
+  title: "Situated Embodied XR Agents via Spatial Reasoning and Prompting"
+  authors: "Jihun Shin, Taehei Kim, Hyeshim Kim, Hyeonjin Kim, Kwang Bin Lee, Eunseong Lee, DongHwan Shin, Joonsik An, Sung-Hee Lee"
+  abstract: "As AI agents become increasingly integrated into daily life, new interaction paradigms are needed to support their presence as embodied, situated forms. We present a prototype that embeds LLM-powered agents within stylized virtual spaces anchored to a user's real-world room in XR. The system provides spatial context to the LLM through structured scene descriptions, enabling agents to refer to and act upon their environment. A unified interaction loop integrates voice input, spatial reasoning, and motion planning with shared state across dialogue and gesture modules. This work demonstrates how spatially grounded agents can inhabit XR spaces for expressive, situated interaction."
+
+- id: "DEMO1045"
+  title: "A Cartography of Queer Voices: An Interactive Projection of LGBTQ+ Community Challenges and Experiences"
+  authors: "Anish Kundu, Burcu Nimet Dumlu, Giulia Barbareschi, Kouta Minamizawa"
+  abstract: "A Cartography of Queer Voices is an interactive projection mapping installation that transforms community generated challenges into a spatial and auditory experience. It draws from 316 notes collected during a 2023 workshop with 35 LGBTQ+ participants, who discussed challenges and co-developed solutions using VR. The system visualizes these narratives as 3D semantic networks grouped by theme. Participants navigate the installation using Leap Motion hand gestures, triggering visual and auditory feedback as they explore each node. A pilot test with five users on a laptop version confirmed usability and emotional resonance. This installation offers an embodied, evolving archive of community voices."
+
+- id: "DEMO1046"
+  title: "Demonstration of Multisensory In-Car VR: Repurposing the Vehicle's HVAC System and Power Seat for Immersive Haptic Feedback"
+  authors: "Dohyeon Yeo, Gwangbin Kim, Minwoo Oh, Jeongju Park, Bocheon Gim, Seongjun Kang, Ahmed Elsharkawy, SeungJun Kim"
+  abstract: "We demonstrate a novel in-car Virtual Reality (VR) platform that provides multisensory feedback without requiring external hardware. Our system leverages the vehicle's Heating, Ventilation, and Air Conditioning (HVAC) and power seat systems to generate synchronized thermal, airflow, and motion feedback. These physical sensations are designed to operate in coordination with the visual experience, enhancing a passenger's sense of presence while reducing the potential for motion sickness. This demonstration shows how existing automotive components can be transformed into an effective and scalable platform for immersive entertainment."
+
+- id: "DEMO1051"
+  title: "EmoMotion: Competing with Your Past, Feeling in the Present"
+  authors: "Crescent Jicol, Christopher Prendergast, Jakub S Mazur, Aastha Gupta, Daniel W Horne, Jinha Yoon, Anca Salagean, Christof Lutteroth"
+  abstract: "We present a demonstration that combines our virtual reality (VR) exergame, RaceYourselves, with EmoSense, our real-time physiological emotion recognition toolkit. RaceYourselves transforms indoor cycling into a motivating, immersive fitness experience by letting users race against representations of their own past performances. EmoSense unobtrusively collects physiological data via wearable sensors and head-mounted display (HMD)-integrated tracking to estimate arousal and valence in real time. Attendees will cycle through several virtual environments, while observing live emotion estimation feedback based on their physiological state. We illustrate how immersive experiences and affective computing can be integrated to evaluate and adapt VR experiences in real time."
+
+- id: "DEMO1052"
+  title: "Cephalopod AR: An Interactive Marine Biology Learning Experience through Augmented Reality"
+  authors: "Krishan Mohan Patel, Ashwani Kumar Moudgil, Dhruvanshu Hitesh Joshi, Shivansh Pachnanda, Prabhakar Joshi, Himanshu Kumar, Aryavardhan Sharma, Harald Burgsteiner, Wolfgang Slany"
+  abstract: "Cephalopod AR is an interactive mobile application that uses augmented reality to enhance marine biology education. Built with Unity and AR Foundation, it allows students to spawn virtual cephalopods in their environment and observe lifelike behaviors such as camouflage, ink discharge, and predator response. The app features three modes: AR Spawner for anatomical study, Ocean Explorer for ecosystem navigation, and Custom Create for designing underwater scenes. Optimized for Android and iOS, Cephalopod AR provides immersive, curriculum-aligned experiences. It bridges the gap in marine education by offering virtual access to ecosystems and supporting both individual and classroom STEM learning."
+
+- id: "DEMO1053"
+  title: "From Alt-Tab to World-Snap: Exploring Different Metaphors for Swift and Seamless VR World Switching"
+  authors: "Matt Gottsacker, Yahya Hmaiti, Mykola Maslych, Hiroshi Furuya, Gerd Bruder, Greg Welch, Joseph LaViola"
+  abstract: "Today's personal computers and handheld devices afford users the ability to rapidly switch between different applications, e.g., using keyboard shortcuts and swipe gestures. In today's virtual reality (VR) systems, immersive applications are siloed experiences that users must fully exit before starting another. We demonstrate eight prototypes of world switching interfaces that let users preview, select, and transition across multiple virtual environments, mirroring the Alt+Tab agility of desktop multitasking. We developed these techniques based on portals and worlds-in-miniature (WiM) metaphors that reveal the destination environment before triggering a full transition. All techniques combine selection, preview, and confirmation in a continuous interaction."
+
+- id: "DEMO1054"
+  title: "Immersive Simulation of a Vivarium for Research and Training"
+  authors: "Jeffrey Price, Hamida Khatri, Brandon Coffey, Chris Gauthier, Madylin Herrera, Mike Ness, Joseph Gutierrez-Poemoceah"
+  abstract: "This paper presents a real-time, interactive digital twin of a vivarium developed in Unreal Engine for desktop-based training. The simulation replicates a life sciences laboratory with high visual and procedural fidelity, enabling users to navigate the environment, follow safety protocols, and engage with training modules. Designed for onboarding and compliance reinforcement, the platform offers a scalable, cost-effective alternative to traditional walkthroughs. We outline the system architecture, instructional design, and key use cases across academic and research institutions. This demo illustrates how digital twins can enhance laboratory readiness through accessible, immersive, and repeatable training experiences."
+
+- id: "DEMO1056"
+  title: "A Pneumatic Glove with Closed-Loop Control and Bidirectional Actuation for Real-Time Pose Synchronization"
+  authors: "Minwoo Lee, Sungjoon Yoon, Seongmin Yun, Seungjae Oh"
+  abstract: "We present a compact and responsive pneumatic glove system enabled by positive-negative actuation capability. This bidirectional actuation is achieved using a single pneumatic unit, resulting in a system that is compact enough to fit within a desktop-sized form factor. The glove integrates soft actuators with commercial motion capture systems for hand pose tracking, enabling precise operation via closed loop control. A modular middleware supports flexible operation with diverse hand pose sources, such as vision-based hand pose estimations from RGB cameras, HMDs, and depth sensors."
+
+- id: "DEMO1057"
+  title: "BotaniMate: Affective Interaction with Plant's Data in MR"
+  authors: "Dayoung Lee, Jean Ho Chu"
+  abstract: "BotaniMate is a mixed reality (MR) widget that visualizes real-time IoT plant data through an expressive virtual character and a dynamic terrarium interface. By translating temperature and soil moisture readings into environmental changes within the terrarium and corresponding character behaviors, the system fosters emotional connection and intuitive understanding of plant data monitoring and care. Users interact using natural hand gestures and navigate historical data through spatial UI elements. Integrating IoT sensing, cloud storage, and Unity-based MR visualization on Meta Quest 3, BotaniMate transforms abstract sensor data into playful, affective experiences—enhancing empathy, memory, and engagement in everyday plant care."
+
+- id: "DEMO1061"
+  title: "Project LOCOMO AR: Augmented Reality with Carbon Metrics for Sustainable AI Use"
+  authors: "Somang Nam, Hyunggu Jung, Yunseo Moon, Chaeyoung Lee, Seilin Uhm"
+  abstract: "The rapid uptake of large language models (LLMs) has highlighted the considerable energy use and carbon emissions associated with inference, yet end-users remain largely unaware of these hidden costs. We present LOCOMO AR (LOwer COnsumption, More Optimization), an augmented reality application that integrates real-time computer vision, speech recognition and LLM reasoning with on-device visualization of the environmental footprint generated by each query. We demonstrate the system across assistive, cultural heritage, and healthcare scenarios. By integrating real-time estimates of carbon emissions, we offer a lightweight approach for promoting environmentally responsible AI use on consumer devices."
+
+- id: "DEMO1062"
+  title: "[DEMO] Cave VR: Translating Philosophy into Immersive Experience"
+  authors: "Jowita Guja, Jan Waligórski, Krzysztof Tomasz Stawarz, Adam Żądło, Grzegorz Ptaszek"
+  abstract: "Philosophical education offers numerous cognitive and psychological benefits. However, its development faces growing challenges in contemporary educational contexts, including the predominance of utilitarian models, reduced attention spans, and a widespread decline in textual engagement. In response to these obstacles, this demonstration paper presents VRsophy: The Cave - an experimental virtual reality application that adapts Plato's Allegory of the Cave into an embodied, multisensory VR experience. By leveraging immersive technologies, the project seeks to render abstract philosophical concepts more accessible and engaging through situated, interactive, first-person involvement, thus exploring the potential of VR to support philosophical education."
+
+- id: "DEMO1068"
+  title: "Audio-First Metaverse: Integrating Stereoscopic Sound & Haptic Cues for Social VR with Visually Impaired Users"
+  authors: "Kosuke Yokoyama, Panote Siriaraya, Wan-Jou She, Shinsuke NAKAJIMA"
+  abstract: "We demonstrate a VR Metaverse system specifically designed for visually impaired users which allows them to experience immersive spatial environments and engage in meaningful social interactions through auditory and haptic cues. The system uses stereoscopic sound for spatial awareness and object perception and a laser-based mechanism with tactile feedback for object identification and distance estimation. To facilitate social interaction, spatially-rendered footstep sounds combined with spatialized audio speech help users sense the presence and identity of others. Our demonstration allows attendees to experience firsthand how visually impaired individuals could interact with and navigate in a virtual environment created without visual information."
+
+- id: "DEMO1069"
+  title: "Distance-Adaptive AR Navigation through UWB-ARMesh Fusion"
+  authors: "Yoshiyuki Ootani"
+  abstract: "We present an AR navigation system that integrates UWB positioning with real-time ARMesh environmental constraints for dual innovations: enhanced positioning accuracy through ARMesh-constrained filtering and distance-adaptive UI strategies. Our ARMesh-UKF fusion achieves 24.0% positioning improvement, enabling contextually appropriate interface modes: coordinate-based guidance (0-2.8m), area-based navigation (2.0-7.0m), and directional indicators (3.5m+). Evaluation across 19 valid experiments with 6,127 measurements validates effectiveness for practical AR navigation deployment."
+
+- id: "DEMO1072"
+  title: "HoloMech: A Mixed Reality Tool for Educating Mechanical Engineers"
+  authors: "Amouzgar, Kaveh"
+  abstract: "HoloMech is an interactive mixed reality application designed to support the teaching of solid mechanics by visualizing stress and deformation in beam structures. Developed for Microsoft HoloLens using Unity and the MRTK framework, the system enables hands-on manipulation of load cases, cross-sections, boundary conditions, and material properties. HoloMech computes and displays real-time deflections and internal forces using a cloud-based Python solver. This demo presents the pedagogical and technical aspects of HoloMech, highlighting its ability to improve student motivation and spatial reasoning. Attendees can experience HoloMech through an egocentric point of view simulating the classroom environment."
+
+- id: "DEMO1080"
+  title: "ShadAR: LLM-driven shader generation to transform visual perception in Augmented Reality"
+  authors: "Yanni Mei, Samuel Wendt, Florian Müller, Jan Gugenheimer"
+  abstract: "Augmented Reality (AR) can simulate various visual perceptions, such as how individuals with colorblindness see the world. However, these simulations require developers to predefine each visual effect, limiting flexibility. We present ShadAR, an AR application enabling real-time transformation of visual perception through shader generation using large language models (LLMs). ShadAR allows users to express their visual intent via natural language, which is interpreted by an LLM to generate corresponding shader code. This shader is compiled real-time to modify the AR headset's viewport. We present our LLM-driven shader generation pipeline and its ability to transform visual perception for inclusiveness and creativity."
+
+- id: "DEMO1088"
+  title: "Personalized Conversational Audio Descriptions in 360° Virtual Reality for Blind and Low-Vision Users"
+  authors: "Khang Dang, Sooyeon Lee"
+  abstract: "On-demand, conversational audio descriptions in 360° VR empower blind and low-vision (BLV) users to actively explore immersive visual content. We present a Meta Quest demo that integrates head-pose-based view snapshots, real-time speech recognition, and GPT-4o-powered chunked text-to-speech streaming directly on-device to support multi-turn Q&A with personalized voice profiles. Our pipeline leverages chunk transfer encoding to play AI-generated audio as it's produced, minimizing perceived delay. Unlike prior VR accessibility demos reliant on static or author-crafted descriptions, our multimodal system delivers dynamic, user-driven narration for inclusive and interactive VR experiences."
+
+- id: "DEMO1090"
+  title: "mARker: Hybrid-Interfaced Spatial Sketching via iPad AR, Apple Pencil, and an Instantly Crafted Tracker"
+  authors: "Pan, Zhaohan"
+  abstract: "Mobile AR promises wider access to spatial sketching, but existing designs either pack interactions into dense on-screen controls and constant device motion, or impose additional hardware barriers. We present mARker, a proof-of-concept on the iPad + Apple Pencil Pro ecosystem. It attains reliable stylus pose with a low-cost, self-fabricated cube and uses developer guideline-aligned Pencil gestures for writing-hand intuitive input, while AR session affords natural proxy-plane access and scene-aware placement. Blending spatial and on-screen interaction keeps setup light but rich in functionality. These choices reduce operation overhead and hardware burden, broadening the reach and expressiveness of MAR spatial sketching."
+
+- id: "DEMO1091"
+  title: "Avacard: Exercise Data-Driven AI-Generated Cards to Enhance Interactivity for Extended Reality Exergame through Metagame"
+  authors: "Kuan-Ning Chang, Yu-Hin Chan, Jung Shen, Meng-Wei Lu, Tse-Yu Pan, Ping-Hsuan Han"
+  abstract: "We present a exercise data-driven AI-Generated cards that integrates personalized exercise data, AI-generated characters and metagame. The system transitions players from the physical world into a virtual environment. Player's game performance is converted into data, which is then used by generative AI to create characters and create unique card. This paper describes how physical exercise in the virtual world influences scores and outcomes while incorporating the concept of metagame. Players consider the rules and mechanisms behind card generation based on performance data, formulate strategies to optimize their performance, foster interaction among participants, and convergence of the virtual and real world."
+
+- id: "DEMO1092"
+  title: "VisionStorage Classroom: MR-Based Educational System for MMCA Cheongju Korea"
+  authors: "Sangah Lee, Jaewon Choi, Hayoung Bae, Dayoung Lee, Jusub Kim, Sangyong Kim, Yongsoon Choi"
+  abstract: "VisionStorage Classroom is a mixed reality (MR) educational system developed for Apple Vision Pro. It allows users to explore the storage environment and collection management of the National Museum of Modern and Contemporary Art (MMCA), Cheongju. Through seated interactions using gaze and hand gestures, users engage with video footage, MR-based artwork viewing, interactive 3D spaces, and AI-generated Skybox visuals. The experience offers insight into curatorial layouts, preservation activities, and rarely seen artworks. A demonstration is scheduled for late 2025, with future plans for expanded content and adaptive guidance features to support immersive and accessible museum education."
+
+- id: "DEMO1094"
+  title: "AR Visualization of Cross-Attention Enhanced Biomedical Image Volumes for AI-assisted Disease Diagnosis"
+  authors: "Benjamin Freeman, Kuang Sun, Roshan Kenia, Anfei Li, Steven Feiner, Kaveri Thakoor"
+  abstract: "We demonstrate an augmented reality (AR) visualization of attention maps extracted from our team's previously developed artificial intelligence (AI) glaucoma diagnosis model. Users can intuitively explore these as overlays on volumetric imaging data from real patients. This allows clinicians to verify that the diagnostic models attend to anatomic regions relevant to the patient's suspected disease, beyond existing 2D approaches. To our knowledge, this is the first demonstration of an AR representation of model attention for enhancing interpretability of clinical AI."
+
+- id: "DEMO1100"
+  title: "A Conversational Virtual Agent with Physics-based Interactive Behaviour"
+  authors: "Joan Llobera, Ke Li, Pierre Nagorny, Caecilia Charbonnier, Frank Steinicke"
+  abstract: "We demonstrate an Intelligent Virtual Agent (IVA) in VR with motion driven by a physics-based controller. This enables dynamic, unscripted behaviour like autonomously maintaining social distance. Moreover, our system links physical interactions, such as a user pushing the agent, to a Large Language Model (LLM). The LLM generates context-aware verbal responses to the physical event, bridging the gap between low-level motor control and high-level decision making. In the demo session, attendees can directly test the robustness of these integrated social and physical behaviour."
+
+- id: "DEMO1101"
+  title: "XR-Enhanced Simulation for Precision Training in Ultrasound-Guided Thyroid Tumor Ablation"
+  authors: "Yu-Chen Xu, Ting-Chun Kuo, Shana Smith"
+  abstract: "This study presents an XR- and AI-based virtual training system for ultrasound-guided thyroid tumor ablation. It addresses limitations of traditional training, such as limited ultrasound access, radiation risks, and cadaver scarcity, by using deep learning to generate real-time ultrasound feedback from probe motion. Built on Unity and running on Oculus Quest Pro, the system supports dynamic imaging, needle guidance, and ablation simulation with force feedback. Trainees can safely practice probe handling, needle control, and decision-making. Validated by physician feedback, the platform enhances realism and precision, offering an innovative approach to modern surgical education."
+
+- id: "DEMO1102"
+  title: "Towards Mixed Reality AI Docents: Egocentric Smart Glasses with Vision and LLM Interaction"
+  authors: "Jongyoon Lim, Jusub Kim, Sangyong Kim, Yongsoon Choi"
+  abstract: "We demonstrate a partial implementation of a larger Mixed Reality docent system that combines spatial awareness, conversational intelligence, and visual guidance. The complete framework integrates smart glasses and smartphones to provide BLE-based localization, image recognition, LLM-powered dialogue, and future AR overlays. In this paper, we focus on validating the feasibility and integration of spatial awareness (via BLE and image recognition) and conversational intelligence (via a LLM). Designed to minimize manual device use, the system helps users explore exhibitions with contextual understanding. A user study with 16 participants supports the effectiveness of these two core modules in real museum environments."
+
+- id: "DEMO1103"
+  title: "Guided Neck and Shoulder Rehabilitation in VR with Real-Time Corrective Visual Feedback"
+  authors: "Sabah Boustila, Dominique Bechmann"
+  abstract: "Although Virtual Reality (VR) has been widely explored for physical rehabilitation, few systems provide real-time corrective feedback to guide users during exercises. This work addresses that gap by presenting the design and implementation of a VR system for neck and upper limb rehabilitation. The system delivers guided exercises with visual cues and real-time feedback to ensure proper posture. Users perform six fundamental head and shoulder movements while maintaining focus on a calibrated sphere, which changes color to indicate misalignment and prompts corrective action. The system adapts to individual limitations and increases task complexity as recovery progresses, supporting more effective rehabilitation."
+
+- id: "DEMO1104"
+  title: "Demonstration of Visceral Notices and Privacy Mechanisms for Eye Tracking in Augmented Reality"
+  authors: "Nissi Otoo, Kailon Blue, G. Nikki Ramirez, Evan Selinger, Shaun Foster, Brendan David-John"
+  abstract: "We demonstrate visceral interfaces (VIs) and privacy mechanisms that make eye tracking in augmented reality (AR) more transparent and understandable through data visualization. VIs are visual overlays that indicate when and how gaze data is collected, designed to increase privacy awareness. We implement three privacy mechanisms (Gaussian noise, weighted smoothing, and temporal downsampling) that perturb gaze data and visualize their impact on user perceptions of data sharing. The demo runs on Magic Leap 2 and includes an art gallery and a gaze selection task scenario. Participants explore combinations of VIs and privacy mechanisms, contributing to more transparent, privacy-aware AR systems."
+
+- id: "DEMO1105"
+  title: "TOVRIA: Supporting Motor Accessibility in Virtual Reality through Smartphone-Based Touch and Orientation Interactions"
+  authors: "Sabah Boustila, Kazuki Takashima, Kazuyuki Fujita, Yoshifumi Kitamura"
+  abstract: "We present TOVRIA, a smartphone-based VR prototype designed to improve motor accessibility in Head-Mounted Displays (HMDs). It features two cost-effective interaction paradigms: orientation-based, using the phone's gyroscope for navigation, and touch-based, using screen input mapped to movement. Each method addresses different motor impairments—supporting users with limited arm, wrist, or finger mobility. Demonstrated through a virtual maze, TOVRIA showcases how common smartphones can enable accessible and immersive VR experiences without additional hardware."
+
+- id: "DEMO1106"
+  title: "Alyssum: An Augmented Reality-based Interactive Art Embodying the Phytoremediation Metaphor"
+  authors: "Soi Choi, Jean Ho Chu"
+  abstract: "This study explores the recovery of human senses and the visualization of the mind through Alyssum, an experiential work that integrates video and augmented reality (AR), using the process of phytoremediation as its central metaphor. Beginning from the condition of contemporary individuals who lose their unique senses within the uniformity and repetition of social structures, Alyssum visualizes a process in which participants reflect inwardly and engage with their environment through bodily movement. Users interact via a camera with a virtual metal object that symbolizes the mind."
+
+- id: "DEMO1107"
+  title: "AnonVis: A Visualization Tool for Human Motion Anonymization"
+  authors: "Thomas Carr, Ruby Flanagan, Albert Bastakoti, Depeng Xu, Aidong Lu"
+  abstract: "Privacy preservation in skeleton-based motion data has become increasingly important as virtual and augmented reality applications proliferate. While skeleton data appears abstract, it contains personally identifiable information that can be exploited for privacy attacks. This demonstration presents AnonVis, an interactive VR visualization tool that showcases the Smart Noise anonymization technique. Smart Noise leverages explainable AI to identify privacy-sensitive joints and applies adaptive noises. Our VR demonstration enables comparison between original and anonymized motions, allowing users to understand the privacy-utility trade-offs in motion anonymization. The system integrates a curated dataset processed through a Blender-to-Unity pipeline, providing an immersive environment for exploration."
+
+- id: "DEMO1108"
+  title: "System for Recording and Validation of Eye-Based Biometry Models in the Wild"
+  authors: "Norbert Barczyk, Kamil Koniuch, Mateusz Olszewski, Michał Maj, Artur Stefańczyk, Lucjan Janowski"
+  abstract: "This research demo presents a system integrating eye movement- based biometric models with the Unity environment. Using the Eye Know You Too model, we authorize players in a VR multiplayer lobby, enabling seamless user authentication. Our solution is adaptable to various Unity-based games and compatible with diverse eye movement models. In this demo, participants use their eye movement data for embeddings during free VR exploration and verify classification accuracy for themselves and their partners. Systems like ours are essential for enabling secure, non-intrusive biometry in VR environments and can serve as a safeguard against spoofing attacks."
+
+- id: "DEMO1109"
+  title: "Thermal Haptics for Fire Simulation: Radiative and Convective Heat Transfer Model from Fire Dynamics Data"
+  authors: "Hoseok Jung, Jiyoon Lee, Hyunmin Kang"
+  abstract: "We present a framework that provides users with thermal haptic feedback through a fire training simulation driven by fire dynamics data. Simulations based on fire dynamics data have great potential to reproduce highly realistic fire scenarios. Previous research has primarily focused on enhancing real-time visual realism, whereas attempts to integrate thermal feedback have been relatively limited. Our proposed model incorporates fire dynamics data to approximate real-time convective and radiative heat transfer."
+
+- id: "DEMO1110"
+  title: "Cobot: An Embodied AI Agent for Immersive Analytics"
+  authors: "Nicolas Barbotin, Jack Fraser, Jeremy McDade, Andrew Cunningham"
+  abstract: "Recent Immersive Analytics research envisioned AI collaborators that assist with data exploration and analysis. With the advent of Large Language Models (LLMs), such collaborators are now feasible. Yet, fundamental design questions remain: How can we leverage LLMs to support expressive, emergent interactions while managing hallucinations or errors? How can we make such agents feel spatially embedded in the user's environment? To explore these questions, we present Cobot, an embodied AI agent integrated into an Immersive Analytics platform. This paper describes the design and implementation of Cobot, highlighting challenges and opportunities in building embodied, interactive AI collaborators for immersive environments."
+
+- id: "DEMO1112"
+  title: "Becoming Mole with FeltSight: Hyper-sensitizing the Surrounding through Mixed Reality Haptic Proximity Gloves"
+  authors: "Danlin Huang, Botao Amber Hu, Dong Zhang, Yifei Liu, Takatoshi Yoshida, Rem RunGu Lin"
+  abstract: "FeltSight is a mixed reality haptic experience reimagining human perception, inspired by the star-nosed mole. Moving beyond vision-dominated paradigms, it enables meditative wandering guided by extended-range haptics with subtle visual cues. The system comprises a haptic glove paired with an extended reality interface. Reaching toward objects triggers glove vibrations simulating material textures. The mixed reality interface offers reduced reality, presenting nearby objects as dynamic point clouds materializing only in response to exploratory hand gestures. By shifting focus from visual to tactile, FeltSight challenges ocularcentric sensory hierarchies, foregrounding an embodied, relational, and more-than-human mode of sensing."
+
+- id: "DEMO1113"
+  title: "Interactive Visualization of Bodily Sensations through AR-based Chakra Representation Using MediaPipe"
+  authors: "Soi Choi, Jean Ho Chu"
+  abstract: "This paper presents an augmented reality (AR) meditation system that visualizes internal bodily sensations through circular objects mapped to key body joints. Using MediaPipe, the system tracks real-time pose and hand gestures to enable users to modify the size of chakra-like visual elements via pinch gestures, reflecting changes in bodily attention. In parallel, a local large language model (LLM, Ollama) generates meditation prompts independently of user interaction, which are then converted to speech via TTS. This structure creates a layered experience: the body informs the visual interaction, while generative guidance supports sustained inward focus."
