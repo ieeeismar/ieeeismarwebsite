@@ -13,7 +13,7 @@ title: Demos
 **Authors:**<br>
 {% for author in demo.authors %}{{ author }}{% if forloop.last == false %}, {% endif %}{% endfor %}
 
-**Abstract:**
+**Abstract:**<br>
 {{ demo.abstract }}
 
 ---
