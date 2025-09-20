@@ -15,6 +15,16 @@ silver_sponsors:
     full_name: "KAIST"
     logo: "/assets/2025/img/sponsors/KAIST.png"
     url: "https://www.kaist.ac.kr/en/"
+  - name: "KIST"
+    full_name: "Korea Institute of Science and Technology"
+    logo: "/assets/2025/img/sponsors/KIST.png"
+    url: "https://www.kist.re.kr/eng/"
+    website: "www.kist.re.kr"
+  - name: "NIPA"
+    full_name: "National IT Industry Promotion Agency"
+    logo: "/assets/2025/img/sponsors/NIPA.png"
+    url: "https://www.nipa.kr/eng/"
+    website: "www.nipa.kr"
 
 bronze_sponsors:
   - name: "ETRI"
@@ -69,5 +79,6 @@ partners:
   - name: "Daejeon Tourism Organization"
     logo: "/assets/2025/img/sponsors/Daejeon-Tourism.png"
     url: "https://djto.kr/eng/index.do"
+
 
 
