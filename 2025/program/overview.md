@@ -5,14 +5,11 @@ title: Overview
 
 <div class="schedule-container">
   <h2 class="schedule-title">Overview</h2>
-  <div class="schedule-container">
-  <h2 class="schedule-title">Overview</h2>
   <iframe 
     src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQLAYxqi2N2MTBVbLWYeZk4A-2maDFJaKOePPVqgjoFYPpFGPFR4MWZZhEH4AqDHVScOKdw5KzqgmVf/pubhtml?gid=1496491388&single=true&widget=true&headers=false&chrome=false" 
     class="responsive-schedule"
     style="border: none;">
   </iframe>
-</div>
 </div>
 
 <style>
