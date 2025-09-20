@@ -8,6 +8,7 @@ title: Keynote Speakers
  <img src="/2025/program/keynote-speakers/images/DongkyuKim.jpg" alt="Photo of Dongkyu Kim" />
  <figcaption>Dongkyu Kim, CEO, CALIVERSE</figcaption>
 </figure>
+<h2>Keynote Talk 1: Oct.9, 2025 (Thu), 09:00-10:00</h2>
 <h2>Dongkyu Kim <span style="font-weight: 200">|</span> <span style="font-weight: 400">CEO, CALIVERSE</span></h2>
 <!-- markdownlint-enable MD033 -->
 
@@ -46,6 +47,7 @@ The platform has been featured at major global events including CES (2022–2025
  <img src="/2025/program/keynote-speakers/images/Kihwan-Kim.jpg" alt="Photo of Kihwan Kim" />
  <figcaption>Kihwan Kim, Corporate EVP/Head of Team, Samsung Electronics</figcaption>
 </figure>
+<h2>Keynote Talk 2: Oct.10, 2025 (Fri), 09:00-10:00</h2>
 <h2>Kihwan Kim <span style="font-weight: 200">|</span> <span style="font-weight: 400">Corporate EVP/Head of Team, Samsung Electronics</span></h2>
 <!-- markdownlint-enable MD033 -->
 
@@ -68,6 +70,7 @@ Kihwan Kim is a computer scientist and technology executive serving as Corporate
  <img src="/2025/program/keynote-speakers/images/SoonminBae.jpg" alt="Photo of Soonmin Bae" />
  <figcaption>Soonmin Bae, Chief Responsible AI Officer (CRAIO), KT</figcaption>
 </figure>
+<h2>Keynote Talk 3: Oct.11, 2025 (Sat), 16:00-17:00</h2>
 <h2>Soonmin Bae <span style="font-weight: 200">|</span> <span style="font-weight: 400">CEO, Chief Responsible AI Officer (CRAIO), KT</span></h2>
 <!-- markdownlint-enable MD033 -->
 
