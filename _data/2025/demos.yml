@@ -203,11 +203,6 @@
   authors: "Nicolas Barbotin, Jack Fraser, Jeremy McDade, Andrew Cunningham"
   abstract: "Recent Immersive Analytics research envisioned AI collaborators that assist with data exploration and analysis. With the advent of Large Language Models (LLMs), such collaborators are now feasible. Yet, fundamental design questions remain: How can we leverage LLMs to support expressive, emergent interactions while managing hallucinations or errors? How can we make such agents feel spatially embedded in the user's environment? To explore these questions, we present Cobot, an embodied AI agent integrated into an Immersive Analytics platform. This paper describes the design and implementation of Cobot, highlighting challenges and opportunities in building embodied, interactive AI collaborators for immersive environments."
 
-- id: "DEMO1112"
-  title: "Becoming Mole with FeltSight: Hyper-sensitizing the Surrounding through Mixed Reality Haptic Proximity Gloves"
-  authors: "Danlin Huang, Botao Amber Hu, Dong Zhang, Yifei Liu, Takatoshi Yoshida, Rem RunGu Lin"
-  abstract: "FeltSight is a mixed reality haptic experience reimagining human perception, inspired by the star-nosed mole. Moving beyond vision-dominated paradigms, it enables meditative wandering guided by extended-range haptics with subtle visual cues. The system comprises a haptic glove paired with an extended reality interface. Reaching toward objects triggers glove vibrations simulating material textures. The mixed reality interface offers reduced reality, presenting nearby objects as dynamic point clouds materializing only in response to exploratory hand gestures. By shifting focus from visual to tactile, FeltSight challenges ocularcentric sensory hierarchies, foregrounding an embodied, relational, and more-than-human mode of sensing."
-
 - id: "DEMO1113"
   title: "Interactive Visualization of Bodily Sensations through AR-based Chakra Representation Using MediaPipe"
   authors: "Soi Choi, Jean Ho Chu"
