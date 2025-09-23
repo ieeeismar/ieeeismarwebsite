@@ -248,6 +248,12 @@ chairs:
         affiliation: "University of Queensland"
         img: "assets/2025/img/Committee Members Images/Nilufar Baghaei.jpg"
 
+  - title: "Pitch Your Lab Chairs"
+    members:
+      - name: "Jen-Shuo Liu"
+        affiliation: "Columbia University"
+        img: "assets/2025/img/Committee Members Images/Jen-Shuo Liu.jpeg"
+
   - title: "Standardization Chairs"
     members:
       - name: "Takeshi Kurata"
