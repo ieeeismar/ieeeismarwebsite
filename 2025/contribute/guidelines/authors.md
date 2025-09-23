@@ -137,7 +137,7 @@ Ensure that you are using the correct formatting and submit the IEEE copyright f
 
 ### Presentation:
 
-All accepted papers will be presented orally at the conference. More details will be provided at the time of acceptance.
+All accepted papers will be presented orally at the conference. More details will be provided at the time of acceptance. **The template for presentations is available [here](/2025/contribute/guidelines/ISMAR_2025_PPT_Template.pptx).**
 
 ### Best Paper Awards:
 
