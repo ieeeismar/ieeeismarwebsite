@@ -106,7 +106,7 @@ situations and questions, unlike the more general advice from panel
 sessions. After each 15-minute session, attendees will be rotated out so
 that more people can get the chance to speak to a professor.
 
-### Forum Schedule {#call-for-participation}
+### Forum Schedule {#forum-schedule}
 
 F3 will consist of the following sessions:
 
@@ -220,7 +220,7 @@ F3 will consist of the following sessions:
 </div>
 
 
-### Updates Beyond IEEE ISMAR {#forum-schedule}
+### Updates Beyond IEEE ISMAR {#call-for-participation}
 
 If you are interested in staying up-to-date with information about the
 XR Future Faculty Forum or are interested in helping out as a panellist
