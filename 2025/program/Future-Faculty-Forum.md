@@ -3,11 +3,11 @@ layout: 2025/page
 title: XR Future Faculty Forum (F3)
 
 ---
-*Last updated: 2025-09-06 2:42AM GMT*
+*Last updated: 2025-09-24 2:46AM GMT*
 
 ## Future Faculty Forum (F3)
 
-**Want to become an XR faculty member OR level up your existing academic career? Join us on Wednesday, October 8,2025, for the Future Faculty Forum (F3) at IEEE ISMAR!**
+**Want to become an XR faculty member OR level up your existing academic career? Join us from 2:00 PM - 5:30 PM on Wednesday, October 8, 2025, for the Future Faculty Forum (F3) at IEEE ISMAR!**
 
 We are excited to host the fifth meeting of the XR Future Faculty Forum.
 This Forum aims to foster a vibrant community of scholars and educators
@@ -30,8 +30,7 @@ You can expect the following at F3 meetings:
 
 F3 has been a part of each IEEE ISMAR and IEEE VR conference since ISMAR 2023. We will continue to convene at future ISMAR and VR conferences and are looking for ways to expand beyond conference happenings.
 
-The ISMAR 2025 F3 meeting will take place for a full day on **Wednesday,
-October 8.**
+The ISMAR 2025 F3 meeting will take place from **2:00 PM - 5:30 PM on Wednesday, October 8**
 
 **RSVP now and share what topics you\'d like to see covered!<br>
 [https://forms.gle/SNZFXudLNgJRsAjo9](https://forms.gle/SNZFXudLNgJRsAjo9)**
@@ -109,18 +108,117 @@ that more people can get the chance to speak to a professor.
 
 ### Forum Schedule {#call-for-participation}
 
-Full schedule coming soon! F3 will consist of the following sessions:
+F3 will consist of the following sessions:
 
--   **Tutorials**
-    -   Review and Critique of Application Materials (Research, Teaching, and Diversity Statements)
-    -   Professor Application Process
+<!-- Mobile-friendly blocks (visible on small screens) -->
+<div class="schedule-blocks">
+  <div class="schedule-block">
+    <div class="session-title">Panel: Lab Formation and Management</div>
+    <div class="session-times">
+      <div class="time">Start: 2:00 PM</div>
+      <div class="time">End: 2:45 PM</div>
+    </div>
+  </div>
+  
+  <div class="schedule-block">
+    <div class="session-title">Speed Advising</div>
+    <div class="session-times">
+      <div class="time">Start: 2:45 PM</div>
+      <div class="time">End: 3:15 PM</div>
+    </div>
+  </div>
+  
+  <div class="schedule-block">
+    <div class="session-title">Break (5 minutes)</div>
+    <div class="session-times">
+      <div class="time">Start: 3:15 PM</div>
+      <div class="time">End: 3:20 PM</div>
+    </div>
+  </div>
+  
+  <div class="schedule-block">
+    <div class="session-title">Tutorial: Review and Critique of Application Materials</div>
+    <div class="session-times">
+      <div class="time">Start: 3:20 PM</div>
+      <div class="time">End: 4:05 PM</div>
+    </div>
+  </div>
+  
+  <div class="schedule-block">
+    <div class="session-title">Break (10 minutes)</div>
+    <div class="session-times">
+      <div class="time">Start: 4:05 PM</div>
+      <div class="time">End: 4:15 PM</div>
+    </div>
+  </div>
+  
+  <div class="schedule-block">
+    <div class="session-title">Panel: Challenges and Opportunities of Interdisciplinary Research</div>
+    <div class="session-times">
+      <div class="time">Start: 4:15 PM</div>
+      <div class="time">End: 5:00 PM</div>
+    </div>
+  </div>
+  
+  <div class="schedule-block">
+    <div class="session-title">Speed Advising</div>
+    <div class="session-times">
+      <div class="time">Start: 5:00 PM</div>
+      <div class="time">End: 5:30 PM</div>
+    </div>
+  </div>
+</div>
 
--   **Panels**
-    -   Lab Formation and Management
-    -   Differences in Universities (Geographical, Research vs. Teaching Allocations)
-    -   Challenges and Opportunities of Interdisciplinary Research
+<!-- Desktop table (visible on large screens) -->
+<div class="desktop-table">
+  <table class="schedule-table" style="margin: 0 auto;">
+    <thead>
+      <tr>
+        <th style="text-align: left;">Session</th>
+        <th style="text-align: left;">Start Time</th>
+        <th style="text-align: left;">End Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Panel: Lab Formation and Management</td>
+        <td>2:00 PM</td>
+        <td>2:45 PM</td>
+      </tr>
+      <tr>
+        <td>Speed Advising</td>
+        <td>2:45 PM</td>
+        <td>3:15 PM</td>
+      </tr>
+      <tr>
+        <td>Break (5 minutes)</td>
+        <td>3:15 PM</td>
+        <td>3:20 PM</td>
+      </tr>
+      <tr>
+        <td>Tutorial: Review and Critique of Application Materials</td>
+        <td>3:20 PM</td>
+        <td>4:05 PM</td>
+      </tr>
+      <tr>
+        <td>Break (10 minutes)</td>
+        <td>4:05 PM</td>
+        <td>4:15 PM</td>
+      </tr>
+      <tr>
+        <td>Panel: Challenges and Opportunities of Interdisciplinary Research</td>
+        <td>4:15 PM</td>
+        <td>5:00 PM</td>
+      </tr>
+      <tr>
+        <td>Speed Advising</td>
+        <td>5:00 PM</td>
+        <td>5:30 PM</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
--   **Speed Advising**
 
 ### Updates Beyond IEEE ISMAR {#forum-schedule}
 
@@ -142,3 +240,58 @@ Radha Kumaran - University of California, Santa Barbara, USA<br>
 Jeanne Hecquard - Inria, France<br>
 ByungMin Kim - Korea University<br>
 
+
+
+
+<style>
+/* Mobile blocks - visible on small screens */
+.schedule-blocks {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.schedule-block {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.session-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.session-times {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.time {
+  font-size: 14px;
+  color: #666;
+  text-align: right;
+}
+
+/* Desktop table - hidden on small screens */
+.desktop-table {
+  display: none;
+}
+
+/* Show table on larger screens, hide blocks */
+@media (min-width: 768px) {
+  .schedule-blocks {
+    display: none;
+  }
+  
+  .desktop-table {
+    display: block;
+    text-align: center;
+  }
+}
+</style>
