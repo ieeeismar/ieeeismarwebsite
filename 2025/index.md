@@ -35,13 +35,28 @@ redirect_from: /
     <p>We invite you to the 24th IEEE International Symposium on Mixed and Augmented Reality (ISMAR), which will be held at the Daejeon Convention Center (DCC), South Korea, from Oct. 8 to Oct. 12 2025.</p>
 </div>
 
-<div class="registration-announcement">
-    <h2>Registration is Now Open!</h2>
-    <p>Conference Registration is Open. We invite you to register for ISMAR 2025 through the <a href="/2025/attend/registration">Attend - Registration</a> page.</p>
-</div>
+<!-- Updates Section -->
+<h3 class="updates-title">Updates</h3>
+<section class="updates-container">
+  {% include 2025/notice.html
+      type="info"
+      title="Transportation Guide for Conference Attendees"
+      date="September 2025"
+      content="The conference is scheduled just after the Chuseok holiday (Korean Thanksgiving), when transportation—especially to Seoul—may be heavily congested. To ensure a smooth trip to Daejeon, please note:"
+      items="<strong>Book Early:</strong> Secure your transportation well in advance due to high demand.||<strong>Incheon Airport Arrivals:</strong> Avoid traveling via Seoul, as connections may be limited. Instead, use direct buses from Incheon Airport to Daejeon for a faster and more reliable option."
+      markdown="Please check bus schedules and reserve your seats early. We look forward to welcoming you safely to Daejeon!"
+  %}
+  {% include 2025/notice.html
+      type="success"
+      title="Registration is Now Open!"
+      date="September 2025"
+      content="Conference registration is open. Please register for ISMAR 2025 via the Attend – Registration page."
+      markdown="[Go to Registration →](/2025/attend/registration)"
+  %}
+</section>
 
 <section class="important-dates-section">
-    <h2 class="important-dates-title">Important Dates</h2>
+    <h3 class="important-dates-title">Important Dates</h3>
 
     <table class="important-dates">
         <thead>
@@ -128,6 +143,7 @@ redirect_from: /
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6424.8337529192995!2d127.391683!3d36.37490100000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356549856f487a11%3A0xd03c3bec141f8760!2sDaejeon%20Convention%20Center!5e0!3m2!1sen!2skr!4v1732800254631!5m2!1sen!2skr"
         width="450" height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
+
 </div>
 
 <!-- Sponsors Section -->
@@ -229,6 +245,7 @@ redirect_from: /
         </div>
     </div>
     {% endif %}
+
 </section>
 
 <!-- Partners Section -->

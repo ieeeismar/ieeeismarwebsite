@@ -646,77 +646,80 @@ html, body {
     }
 }
 
-/* Registration Announcement Styling */
-.registration-announcement {
-    padding: 10px 20px;
-    text-align: center;
-    margin: 10px auto 10px auto; 
+/* Registration Announcement Styling - removed (replaced by notice include) */
+
+/* Notice / Information Banner */
+.notice {
     max-width: 900px;
-}
-
-.registration-announcement h2 {
-    font-size: 2.2rem;
-    color: #dc3545; /* Red color for the heading */
-    margin-bottom: 1.5rem;
-    margin-top: 0; 
-    font-weight: 600;
-    text-align: center;
-}
-
-.registration-announcement p {
-    font-size: 1.2rem;
-    color: #555;
-    line-height: 1.6;
-    max-width: 800px;
-    margin: 0 auto;
+    margin: 20px auto;
+    padding: 16px 20px;
+    background: #f1f6ff; /* soft info background */
+    border-left: 6px solid rgb(37, 37, 197); /* brand blue */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+    color: #1f2937;
+    text-align: left;
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
 }
 
-.registration-announcement a {
-    color: #007bff;
-    text-decoration: none;
-    font-weight: 600;
-    transition: color 0.3s ease;
+.notice .notice-title {
+    margin: 0 0 8px 0;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #0f172a;
 }
 
-.registration-announcement a:hover {
-    color: #0056b3;
-    text-decoration: underline;
+.notice .notice-date {
+    font-size: 0.9rem;
+    color: #475569;
+    margin: 0 0 8px 0;
 }
 
-/* Responsive Design for Registration Announcement */
-@media screen and (max-width: 768px) {
-    .registration-announcement {
-        padding: 10px 10px;
-        margin: 25px 15px;
-    }
-    
-    .registration-announcement h2 {
-        font-size: 1.8rem;
-    }
-    
-    .registration-announcement p {
-        font-size: 1.1rem;
-        padding: 0 10px;
+.notice p {
+    margin: 8px 0;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Tighten spacing for last paragraph inside a notice */
+.notice p:last-child {
+    margin-bottom: 0;
+}
+
+.notice ul {
+    margin: 8px 0 8px 1.25rem;
+}
+
+.notice li {
+    margin: 6px 0;
+}
+
+/* Variant hooks (for future use) */
+.notice.info { border-left-color: rgb(37, 37, 197); background: #f1f6ff; }
+.notice.warning { border-left-color: #d97706; background: #fff7ed; }
+.notice.success { border-left-color: #16a34a; background: #ecfdf5; }
+
+@media (max-width: 768px) {
+    .notice {
+        margin: 16px 12px;
+        padding: 14px 16px;
     }
 }
 
-@media screen and (max-width: 480px) {
-    .registration-announcement {
-        padding: 10px 10px;
-        margin: 20px 10px;
-    }
-    
-    .registration-announcement h2 {
-        font-size: 1.5rem;
-    }
-    
-    .registration-announcement p {
-        font-size: 1rem;
-        padding: 0 5px;
-    }
+/* Updates section header */
+.updates-title {
+    font-weight: 700;
+    text-align: center;
+    margin: 24px auto 8px auto;
+    font-family: 'Poppins', sans-serif;
 }
+
+.updates-container {
+    max-width: 900px;
+    margin: 0 auto 8px auto;
+}
+
+/* Responsive Design for Registration Announcement - removed */
 
 /* Sponsors Section Styling */
 .sponsors-section {
@@ -1327,7 +1330,6 @@ h1.previous-sponsors-title {
 
 /* Title styling */
 .important-dates-title {
-    font-size: 10px;
     margin-top: 0px;
     margin-bottom: 20px;
     padding-top: 0px; /* Remove top padding */
