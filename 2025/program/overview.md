@@ -32,7 +32,7 @@ title: Overview
     <!-- Wednesday View (Default) -->
      <iframe 
        id="scheduleIframeOct8"
-       src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrmgHgmh-sZFvt8d_Wz2Ma69b1l4xsuwLbSiNrNKH2BgJmTFTEPLN7fw6HqHWjLKJK7i48kBKjE-K9/pubhtml?gid=801352381&single=true&widget=true&headers=false&chrome=false&range=A1:K7" 
+       src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrmgHgmh-sZFvt8d_Wz2Ma69b1l4xsuwLbSiNrNKH2BgJmTFTEPLN7fw6HqHWjLKJK7i48kBKjE-K9/pubhtml?gid=801352381&single=true&widget=false&headers=false&chrome=false&range=A1:K7" 
        class="responsive-schedule schedule-view day-oct8 active"
        style="border: none;">
      </iframe>
@@ -40,7 +40,7 @@ title: Overview
     <!-- Thursday View -->
     <iframe 
       id="scheduleIframeOct9"
-       src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrmgHgmh-sZFvt8d_Wz2Ma69b1l4xsuwLbSiNrNKH2BgJmTFTEPLN7fw6HqHWjLKJK7i48kBKjE-K9/pubhtml?gid=801352381&single=true&widget=true&headers=false&chrome=false&range=A10:I22"
+       src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrmgHgmh-sZFvt8d_Wz2Ma69b1l4xsuwLbSiNrNKH2BgJmTFTEPLN7fw6HqHWjLKJK7i48kBKjE-K9/pubhtml?gid=801352381&single=true&widget=false&headers=false&chrome=false&range=A10:I22"
       class="responsive-schedule schedule-view day-oct9"
       style="border: none;">
     </iframe>
@@ -48,15 +48,15 @@ title: Overview
     <!-- Friday View -->
     <iframe 
       id="scheduleIframeOct10"
-       src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrmgHgmh-sZFvt8d_Wz2Ma69b1l4xsuwLbSiNrNKH2BgJmTFTEPLN7fw6HqHWjLKJK7i48kBKjE-K9/pubhtml?gid=801352381&single=true&widget=true&headers=false&chrome=false&range=A24:I35"
+       src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrmgHgmh-sZFvt8d_Wz2Ma69b1l4xsuwLbSiNrNKH2BgJmTFTEPLN7fw6HqHWjLKJK7i48kBKjE-K9/pubhtml?gid=801352381&single=true&widget=false&headers=false&chrome=false&range=A24:I35"
       class="responsive-schedule schedule-view day-oct10"
       style="border: none;">
     </iframe>
-    
+
     <!-- Saturday View -->
     <iframe 
       id="scheduleIframeOct11"
-       src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrmgHgmh-sZFvt8d_Wz2Ma69b1l4xsuwLbSiNrNKH2BgJmTFTEPLN7fw6HqHWjLKJK7i48kBKjE-K9/pubhtml?gid=801352381&single=true&widget=true&headers=false&chrome=false&range=A37:I47"
+       src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrmgHgmh-sZFvt8d_Wz2Ma69b1l4xsuwLbSiNrNKH2BgJmTFTEPLN7fw6HqHWjLKJK7i48kBKjE-K9/pubhtml?gid=801352381&single=true&widget=false&headers=false&chrome=false&range=A37:I47"
       class="responsive-schedule schedule-view day-oct11"
       style="border: none;">
     </iframe>
@@ -64,12 +64,142 @@ title: Overview
     <!-- Sunday View -->
     <iframe 
       id="scheduleIframeOct12"
-       src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrmgHgmh-sZFvt8d_Wz2Ma69b1l4xsuwLbSiNrNKH2BgJmTFTEPLN7fw6HqHWjLKJK7i48kBKjE-K9/pubhtml?gid=801352381&single=true&widget=true&headers=false&chrome=false&range=A49:I52"
+       src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrmgHgmh-sZFvt8d_Wz2Ma69b1l4xsuwLbSiNrNKH2BgJmTFTEPLN7fw6HqHWjLKJK7i48kBKjE-K9/pubhtml?gid=801352381&single=true&widget=false&headers=false&chrome=false&range=A49:I52"
       class="responsive-schedule schedule-view day-oct12"
       style="border: none;">
     </iframe>
+
+  <!-- ===== Program: Oct 9 ===== -->
+  <div id="programOct9" class="program-view schedule-view day-oct9">
+    {% assign rows = site.data["2025"]["program"]["ProgramISMAR_with_sessions"] %}
+    {% assign day_rows = rows | where: "Session Day", "October 9 2025" %}
+
+    {% assign time_keys_str = "" %}
+    {% for r in day_rows %}
+      {% assign tkey = r["Session Start Time"] | append: "||" | append: r["Session End Time"] %}
+      {% unless time_keys_str contains tkey %}{% assign time_keys_str = time_keys_str | append: tkey | append: "~~" %}{% endunless %}
+    {% endfor %}
+    {% assign time_keys = time_keys_str | split: "~~" | sort %}
+
+    {% for time_key in time_keys %}
+      {% if time_key != "" %}
+        {% assign parts = time_key | split: "||" %}
+        <h2>{{ parts[0] }} - {{ parts[1] }}</h2>
+
+        {% assign session_keys_str = "" %}
+        {% for r in day_rows %}
+          {% if r["Session Start Time"] == parts[0] and r["Session End Time"] == parts[1] %}
+            {% assign skey = r["Session Location"] | append: "||" | append: r["Session Title"] %}
+            {% unless session_keys_str contains skey %}{% assign session_keys_str = session_keys_str | append: skey | append: "~~" %}{% endunless %}
+          {% endif %}
+        {% endfor %}
+        {% assign session_keys = session_keys_str | split: "~~" | sort %}
+
+        {% for session_key in session_keys %}
+          {% if session_key != "" %}
+            {% assign sess = session_key | split: "||" %}
+            <h3>{{ sess[1] }} ({{ sess[0] }})</h3>
+            <ul class="paper-list">
+              {% for r in day_rows %}
+                {% if r["Session Start Time"] == parts[0] and r["Session End Time"] == parts[1] and r["Session Title"] == sess[1] and r["Session Location"] == sess[0] %}
+                  <li>{{ r["Paper ID"] }}: {{ r["Paper Title"] }}</li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
   </div>
-</div>
+
+  <!-- ===== Program: Oct 10 ===== -->
+  <div id="programOct10" class="program-view schedule-view day-oct10">
+    {% assign rows = site.data["2025"]["program"]["ProgramISMAR_with_sessions"] %}
+    {% assign day_rows = rows | where: "Session Day", "October 10 2025" %}
+
+    {% assign time_keys_str = "" %}
+    {% for r in day_rows %}
+      {% assign tkey = r["Session Start Time"] | append: "||" | append: r["Session End Time"] %}
+      {% unless time_keys_str contains tkey %}{% assign time_keys_str = time_keys_str | append: tkey | append: "~~" %}{% endunless %}
+    {% endfor %}
+    {% assign time_keys = time_keys_str | split: "~~" | sort %}
+
+    {% for time_key in time_keys %}
+      {% if time_key != "" %}
+        {% assign parts = time_key | split: "||" %}
+        <h2>{{ parts[0] }} - {{ parts[1] }}</h2>
+
+        {% assign session_keys_str = "" %}
+        {% for r in day_rows %}
+          {% if r["Session Start Time"] == parts[0] and r["Session End Time"] == parts[1] %}
+            {% assign skey = r["Session Location"] | append: "||" | append: r["Session Title"] %}
+            {% unless session_keys_str contains skey %}{% assign session_keys_str = session_keys_str | append: skey | append: "~~" %}{% endunless %}
+          {% endif %}
+        {% endfor %}
+        {% assign session_keys = session_keys_str | split: "~~" | sort %}
+
+        {% for session_key in session_keys %}
+          {% if session_key != "" %}
+            {% assign sess = session_key | split: "||" %}
+            <h3>{{ sess[1] }} ({{ sess[0] }})</h3>
+            <ul class="paper-list">
+              {% for r in day_rows %}
+                {% if r["Session Start Time"] == parts[0] and r["Session End Time"] == parts[1] and r["Session Title"] == sess[1] and r["Session Location"] == sess[0] %}
+                  <li>{{ r["Paper ID"] }}: {{ r["Paper Title"] }}</li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <!-- ===== Program: Oct 11 ===== -->
+  <div id="programOct11" class="program-view schedule-view day-oct11">
+    {% assign rows = site.data["2025"]["program"]["ProgramISMAR_with_sessions"] %}
+    {% assign day_rows = rows | where: "Session Day", "October 11 2025" %}
+
+    {% assign time_keys_str = "" %}
+    {% for r in day_rows %}
+      {% assign tkey = r["Session Start Time"] | append: "||" | append: r["Session End Time"] %}
+      {% unless time_keys_str contains tkey %}{% assign time_keys_str = time_keys_str | append: tkey | append: "~~" %}{% endunless %}
+    {% endfor %}
+    {% assign time_keys = time_keys_str | split: "~~" | sort %}
+
+    {% for time_key in time_keys %}
+      {% if time_key != "" %}
+        {% assign parts = time_key | split: "||" %}
+        <h2>{{ parts[0] }} - {{ parts[1] }}</h2>
+
+        {% assign session_keys_str = "" %}
+        {% for r in day_rows %}
+          {% if r["Session Start Time"] == parts[0] and r["Session End Time"] == parts[1] %}
+            {% assign skey = r["Session Location"] | append: "||" | append: r["Session Title"] %}
+            {% unless session_keys_str contains skey %}{% assign session_keys_str = session_keys_str | append: skey | append: "~~" %}{% endunless %}
+          {% endif %}
+        {% endfor %}
+        {% assign session_keys = session_keys_str | split: "~~" | sort %}
+
+        {% for session_key in session_keys %}
+          {% if session_key != "" %}
+            {% assign sess = session_key | split: "||" %}
+            <h3>{{ sess[1] }} ({{ sess[0] }})</h3>
+            <ul class="paper-list">
+              {% for r in day_rows %}
+                {% if r["Session Start Time"] == parts[0] and r["Session End Time"] == parts[1] and r["Session Title"] == sess[1] and r["Session Location"] == sess[0] %}
+                  <li>{{ r["Paper ID"] }}: {{ r["Paper Title"] }}</li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  </div> <!-- end #sheetWrapper -->
+</div> <!-- end .schedule-container -->
 
 <style>
 .schedule-container {
@@ -86,10 +216,9 @@ title: Overview
   padding: 0;
   font-size: 1.5em;
   font-weight: bold;
-  color: #333;
 }
 
-/* Day Filter Styling */
+/* Day filter */
 .day-filter-container {
   margin-bottom: 25px;
   text-align: center;
@@ -104,16 +233,16 @@ title: Overview
 
 .day-buttons {
   display: flex;
+  align-items: stretch;
   justify-content: center;
-  gap: 8px;
   flex-wrap: wrap;
-  margin-bottom: 10px;
+  gap: 8px;
 }
 
 .day-btn {
   background: #f8f9fa;
-  color: #495057;
-  border: 2px solid #dee2e6;
+  border: 1px solid #dee2e6;
+  color: #333;
   padding: 12px 16px;
   border-radius: 8px;
   cursor: pointer;
@@ -128,411 +257,120 @@ title: Overview
 .day-btn:hover {
   background: #e9ecef;
   border-color: #adb5bd;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transform: translateY(-1px);
 }
 
 .day-btn.active {
-  background: #007bff;
-  color: white;
-  border-color: #007bff;
-  box-shadow: 0 4px 12px rgba(0,123,255,0.3);
+  background: #e7f1ff;
+  border-color: #91c0ff;
+  color: #0d47a1;
 }
 
-.day-btn small {
-  display: block;
-  font-size: 11px;
-  opacity: 0.8;
-  margin-top: 2px;
-}
-
-
-/* Sheet Wrapper */
+/* Sheet wrapper */
 .sheet-wrapper {
-  position: relative;
-  border: 2px solid #e0e0e0;
-  border-radius: 8px;
-  overflow: hidden;
-  background: white;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  width: 100%;
+  margin: 0 auto 10px auto;
+  padding: 0;
 }
 
+/* Responsive iframe */
 .responsive-schedule {
   width: 100%;
-  height: auto; 
+  height: 450px;
   min-height: 400px;
-  max-height: none;
-  transition: transform 0.3s ease;
 }
 
-/* Schedule View Control */
+@media (max-width: 768px) {
+  .responsive-schedule {
+    height: 60vh;
+  }
+}
+
+/* View toggling */
 .schedule-view {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
+  display: none;
 }
 
 .schedule-view.active {
+  display: block;
+}
+
+/* Day scoping classes for potential overrides */
+.day-view.day-oct8 .schedule-view.day-oct8,
+.day-view.day-oct9 .schedule-view.day-oct9,
+.day-view.day-oct10 .schedule-view.day-oct10,
+.day-view.day-oct11 .schedule-view.day-oct11,
+.day-view.day-oct12 .schedule-view.day-oct12 {
+  /* left available for day specific styling if needed */
+}
+
+/* Program list styles */
+.program-view {
+  position: relative;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  padding: 16px 12px 24px 12px;
+  border-top: 1px solid #e9ecef;
+}
+
+.program-view.active {
   opacity: 1;
   visibility: visible;
 }
 
-/* Dynamic height for day-specific views */
-.sheet-wrapper.day-view .responsive-schedule {
-  width: 100%;
-  height: auto;
-  min-height: 350px;
-  max-height: 600px;
+.program-view h2 {
+  font-size: 1.1em;
+  margin: 14px 0 6px 0;;
 }
 
-/* Custom heights and scaling for each day to show full table */
-.sheet-wrapper.day-view.day-oct8 .responsive-schedule {
-  height: 500px;
-  min-height: 500px;
-  max-height: 500px;
-  transform: scale(0.85);
-  transform-origin: top left;
-  width: 100%;
-  height: 117.65%;
+.program-view h3 {
+  font-size: 1.05em;
+  margin: 0 0 8px 0;
+  color: #333;
+  font-weight: 600;
 }
 
-.sheet-wrapper.day-view.day-oct9 .responsive-schedule {
-  height: 600px;
-  min-height: 600px;
-  max-height: 600px;
-  transform: scale(0.85);
-  transform-origin: top left;
-  width: 100%;
-  height: 117.65%;
+.program-view .paper-list {
+  margin: 0 0 16px 0;
+  padding-left: 18px;
 }
 
-.sheet-wrapper.day-view.day-oct10 .responsive-schedule {
-  height: 600px;
-  min-height: 600px;
-  max-height: 600px;
-  transform: scale(0.85);
-  transform-origin: top left;
-  width: 100%;
-  height: 117.65%;
-}
-
-.sheet-wrapper.day-view.day-oct11 .responsive-schedule {
-  height: 600px;
-  min-height: 600px;
-  max-height: 600px;
-  transform: scale(0.85);
-  transform-origin: top left;
-  width: 100%;
-  height: 117.65%;
-}
-
-.sheet-wrapper.day-view.day-oct12 .responsive-schedule {
-  height: 500px;
-  min-height: 500px;
-  max-height: 500px;
-  transform: scale(0.85);
-  transform-origin: top left;
-  width: 100%;
-  height: 117.65%;
-}
-
-/* Remove the white space overlay for day views */
-.sheet-wrapper.day-view::after {
-  display: none;
-}
-
-/* Adjust container height for day views */
-.sheet-wrapper.day-view {
-  width: 100vw;
-  height: auto;
-  min-height: 400px;
-  max-height: 600px;
-  overflow: hidden;
-  margin: 0;
-  margin-left: 0;
-  border: none;
-  border-radius: 0;
-  box-shadow: none;
-}
-
-/* Very small mobile devices */
-@media (max-width: 480px) {
-  .sheet-wrapper.day-view {
-    max-height: 70vh;
-  }
-  
-  .sheet-wrapper.day-view.day-oct9 .responsive-schedule,
-  .sheet-wrapper.day-view.day-oct10 .responsive-schedule,
-  .sheet-wrapper.day-view.day-oct11 .responsive-schedule {
-    min-height: 500px;
-  }
-}
-
-
-.schedule-container::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 30px;
-  background: white;
-  z-index: 1;
-  pointer-events: none;
-}
-
-/* Mobile devices */
-@media (max-width: 768px) {
-  .schedule-container {
-    width: 100vw; 
-    margin-left: calc(50% - 50vw); 
-  }
-  
-  .responsive-schedule {
-    height: auto;
-    min-height: 400px;
-  }
-  
-  .schedule-title {
-    font-size: 1.3em;
-    margin-bottom: 10px;
-  }
-  
-  .day-buttons {
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-  }
-  
-  .day-btn {
-    width: 200px;
-    padding: 15px 20px;
-    font-size: 16px;
-    min-width: 200px;
-  }
-  
-  .day-btn small {
-    font-size: 12px;
-  }
-  
-  /* Fix scrolling for day views on mobile */
-  .sheet-wrapper.day-view {
-    width: 100%;
-    margin-left: 0;
-    overflow: auto;
-    max-height: 80vh;
-  }
-  
-  .sheet-wrapper.day-view.day-oct9 .responsive-schedule,
-  .sheet-wrapper.day-view.day-oct10 .responsive-schedule,
-  .sheet-wrapper.day-view.day-oct11 .responsive-schedule {
-    height: auto;
-    min-height: 600px;
-    max-height: none;
-    transform: none;
-    width: 100%;
-  }
-  
-  .sheet-wrapper.day-view.day-oct8 .responsive-schedule,
-  .sheet-wrapper.day-view.day-oct12 .responsive-schedule {
-    height: auto;
-    min-height: 400px;
-    max-height: none;
-    transform: none;
-    width: 100%;
-  }
-}
-
-/* Tablets and small desktops */
-@media (min-width: 769px) and (max-width: 1199px) {
-  .schedule-container {
-    width: 95vw; 
-    margin-left: calc(50% - 47.5vw); 
-  }
-}
-
-/* Large desktops */
-@media (min-width: 1200px) {
-  .schedule-container {
-    width: 90vw; 
-    margin-left: calc(50% - 40vw); 
-    max-width: 1400px; /* Add max-width for better centering on very large screens */
-  }
-  
-  .schedule-title {
-    font-size: 1.6em;
-    text-align: left;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  
-  .day-filter-container {
-    text-align: left;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  
-  .day-buttons {
-    justify-content: flex-start;
-  }
-  
-  .responsive-schedule {
-    height: auto;
-    max-height: none;
-  }
-}
-
-/* Extra large screens */
-@media (min-width: 1600px) {
-  .schedule-container {
-    width: 85vw; 
-    margin-left: calc(50% - 37.5vw); 
-    max-width: 1600px; /* Constrain width for better table centering */
-  }
-  
-  .schedule-title {
-    font-size: 1.7em;
-    text-align: left;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  
-  .day-filter-container {
-    text-align: left;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  
-  .day-buttons {
-    justify-content: flex-start;
-  }
-  
-  .responsive-schedule {
-    height: auto;
-    max-height: none;
-  }
-}
-
-/* Ultra-wide screens */
-@media (min-width: 2000px) {
-  .schedule-container {
-    width: 80vw; 
-    margin-left: calc(50% - 35vw); 
-    max-width: 1800px; /* Constrain width for optimal table centering on ultra-wide screens */
-  }
-  
-  .schedule-title {
-    font-size: 1.8em;
-    text-align: left;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  
-  .day-filter-container {
-    text-align: left;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  
-  .day-buttons {
-    justify-content: flex-start;
-  }
-  
-  .responsive-schedule {
-    height: auto;
-    max-height: none;
-  }
-}
-
-/* Very large desktop monitors (32-inch+ and 4K displays) */
-@media (min-width: 2560px) {
-  .schedule-container {
-    width: 70vw; 
-    margin-left: calc(50% - 30vw); 
-    max-width: 2000px; /* Optimal width for very large displays */
-  }
-  
-  .schedule-title {
-    font-size: 2em;
-    text-align: left;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  
-  .day-filter-container {
-    text-align: left;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  
-  .day-buttons {
-    justify-content: flex-start;
-  }
-  
-  .responsive-schedule {
-    height: auto;
-    max-height: none;
-  }
-  
-  .day-btn {
-    padding: 16px 20px;
-    font-size: 16px;
-    min-width: 120px;
-  }
-}
-
-/* Additional centering for tables on large screens */
-@media (min-width: 1200px) {
-  .sheet-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-  }
-  
-  .responsive-schedule {
-    display: block;
-    margin: 0 auto;
-  }
+.program-view .paper-list li {
+  margin: 2px 0;
+  line-height: 1.4;
 }
 </style>
 
 <script>
-let currentDay = 'oct8'; // Current selected day (default: Wednesday)
+let currentDay = 'oct8';
 
-// Day filtering functionality
 function filterByDay(day) {
   currentDay = day;
-  
-  // Update active button
-  document.querySelectorAll('.day-btn').forEach(btn => {
-    btn.classList.remove('active');
-  });
-  document.querySelector(`[data-day="${day}"]`).classList.add('active');
-  
-  // Hide all schedule views
-  document.querySelectorAll('.schedule-view').forEach(view => {
-    view.classList.remove('active');
-  });
-  
-  // Show the selected schedule view
-  document.getElementById(`scheduleIframe${day.charAt(0).toUpperCase() + day.slice(1)}`).classList.add('active');
-  
-  // Remove all day classes first, then add the correct ones
+
+  document.querySelectorAll('.day-btn').forEach(btn => btn.classList.remove('active'));
+  const btn = document.querySelector(`[data-day="${day}"]`);
+  if (btn) btn.classList.add('active');
+
+  // Hide all iframe and program views
+  document.querySelectorAll('.schedule-view').forEach(view => view.classList.remove('active'));
+
+  // Show selected iframe and its program block
+  const cap = day.charAt(0).toUpperCase() + day.slice(1);
+  const iframe = document.getElementById(`scheduleIframe${cap}`);
+  if (iframe) iframe.classList.add('active');
+  const program = document.getElementById(`program${cap}`);
+  if (program) program.classList.add('active');
+
+  // Update wrapper day class to preserve existing styling behavior
   const wrapper = document.getElementById('sheetWrapper');
-  wrapper.classList.remove('day-oct8', 'day-oct9', 'day-oct10', 'day-oct11', 'day-oct12');
-  wrapper.classList.add('day-view', `day-${day}`);
+  if (wrapper) {
+    wrapper.classList.remove('day-oct8', 'day-oct9', 'day-oct10', 'day-oct11', 'day-oct12');
+    wrapper.classList.add('day-view', `day-${day}`);
+  }
 }
-
-
-
 // Initialize on page load
 document.addEventListener('DOMContentLoaded', function() {
   // Page initialization complete
 });
 </script>
-

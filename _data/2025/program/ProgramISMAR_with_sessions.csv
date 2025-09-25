@@ -1,0 +1,221 @@
+Paper ID,Paper Title,Session Title,Session Day,Session Start Time,Session End Time,Session Location
+1840,Dynamic Eyebox Steering for Improved Pinlight AR Near-eye Displays,3D Display 1,October 9 2025,10:30,11:30,Room 201 (Grand Ballroom 1)
+1518,GS-ProCams: Gaussian Splatting-Based Projector-Camera Systems,3D Display 1,October 9 2025,10:30,11:30,Room 201 (Grand Ballroom 1)
+1315,Multi-illumination-interfered Neural Holography with Expanded Eyebox,3D Display 1,October 9 2025,10:30,11:30,Room 201 (Grand Ballroom 1)
+1877,Virtual Pass-through: Evaluating 3D Gaussian Splatting as an Alternative to Conventional Video Pass-through in Static Environments,3D Display & Rendering,October 9 2025,14:30,15:30,Room 301 (Conference Hall)
+1493,X-Mask: Improving Soft-Edge Occlusion in Optical See-Through Displays with Cross-Shaped Pinholes,3D Display & Rendering,October 9 2025,14:30,15:30,Room 301 (Conference Hall)
+1976,Enhanced Adaptive Subdivision for Dynamic Mesh Compression to Improve Visual Quality in VR/AR Rendering,3D Display & Rendering,October 9 2025,14:30,15:30,Room 301 (Conference Hall)
+1519,IntelliCap: Intelligent Guidance for Consistent View Sampling,3D Display & Rendering,October 9 2025,14:30,15:30,Room 301 (Conference Hall)
+1902,HeadZoom: Hands-Free Zooming and Panning for 2D Image Navigation Using Head Motion,Hands,October 9 2025,16:00,17:00,Room 201 (Grand Ballroom 1)
+1942,Designing Hand and Forearm Gestures to Control Virtual Forearm for User-Initiated Forearm Deformation,Hands,October 9 2025,16:00,17:00,Room 201 (Grand Ballroom 1)
+1130,Comparing Hand and Controller Avatars with Hand Tracking and Controller-Based Interaction,Hands,October 9 2025,16:00,17:00,Room 201 (Grand Ballroom 1)
+2242,AuxiScope: Handheld Augmented Reality Tablet as an Auxiliary Display for Large-Scale Display Systems,Hands,October 9 2025,16:00,17:00,Room 201 (Grand Ballroom 1)
+1023,Adaptive Hand Visibility for Accurate 3D User Interactions in Virtual Environments,Perception & Interaction with Hands and Cues,October 9 2025,17:30,18:30,Room 301 (Conference Hall)
+1867,The Effect of Hand Visibility in AR: Comparing Dexterity and Interaction with Virtual and Real Objects,Perception & Interaction with Hands and Cues,October 9 2025,17:30,18:30,Room 301 (Conference Hall)
+1537,An Empirical Evaluation of How Virtual Hand Visibility Affects Near-Field Size Perception and Reporting of Tangible Objects in Virtual Reality,Perception & Interaction with Hands and Cues,October 9 2025,17:30,18:30,Room 301 (Conference Hall)
+1512,MAGIC: A Method for Analyzing the Grammar of Incomplete Cues,Perception & Interaction with Hands and Cues,October 9 2025,17:30,18:30,Room 301 (Conference Hall)
+1370,SliVR: A 360° VR-Hub for Fast Selections in Multiple Virtual Environments,3DUI Selection & Pointing,October 10 2025,10:30,11:30,Room 201 (Grand Ballroom 1)
+TVCG,Revisiting Performance Models of Distal Pointing Tasks in Virtual Reality,3DUI Selection & Pointing,October 10 2025,10:30,11:30,Room 201 (Grand Ballroom 1)
+TVCG,Magic-Tap: A Kinematics-Driven Virtual Hand Selection Technique in AR/VR,3DUI Selection & Pointing,October 10 2025,10:30,11:30,Room 201 (Grand Ballroom 1)
+1367,Selection at a Distance Through a Large Transparent Touch Screen,3DUI Selection & Pointing,October 10 2025,10:30,11:30,Room 201 (Grand Ballroom 1)
+1255,HeadDepth: Gaze Raycasting with Head Pitch for Depth Control,3DUI: Gaze,October 9 2025,16:00,17:00,Room 202 (Grand Ballroom 2)
+1313,A Study of Multimodal Pen + Gaze Interaction Techniques for Shape Point Translation in Extended Reality,3DUI: Gaze,October 9 2025,16:00,17:00,Room 202 (Grand Ballroom 2)
+CG&A,"""Design Principles and Challenges for Gaze + Pinch Interaction in XR”",3DUI: Gaze,October 9 2025,16:00,17:00,Room 202 (Grand Ballroom 2)
+1497,Facilitating the Exploration of Linearly Aligned Objects in Controller-Free 3D Environment with Gaze and Microgestures,3DUI: Gaze,October 9 2025,16:00,17:00,Room 202 (Grand Ballroom 2)
+1608,When Is Self-Gaze Helpful? Examining Uni- vs Bi-directional Gaze Visualization in Collocated AR Tasks,3DUI: Gaze 2,October 10 2025,12:00,13:00,Room 201 (Grand Ballroom 1)
+1117,"Exploring Gaze Dynamics in VR Film Education: Gender, Avatar, and the Shift Between Male and Female Perspectives",3DUI: Gaze 2,October 10 2025,12:00,13:00,Room 201 (Grand Ballroom 1)
+1918,Through the Expert's Eyes: Exploring Asynchronous Expert Perspectives and Gaze Visualizations in XR,3DUI: Gaze 2,October 10 2025,12:00,13:00,Room 201 (Grand Ballroom 1)
+1345,Don't Miss Notifications: Exploring Gaze Notifications for Virtual Reality Cooking Environment,3DUI: Gaze 2,October 10 2025,12:00,13:00,Room 201 (Grand Ballroom 1)
+1106,Exploring and Modeling the Effects of Eye-Tracking Accuracy and Precision on Gaze-Based Steering in Virtual Environments,"Gaze, Eye Tracking & Guidance",October 10 2025,14:30,15:30,Room 201 (Grand Ballroom 1)
+1639,Focus-Aware Task Guidance: Adaptive AR Instruction Playback via Gaze and Location Tracking,"Gaze, Eye Tracking & Guidance",October 10 2025,14:30,15:30,Room 201 (Grand Ballroom 1)
+1606,A Bi-Directional Deep Learning Interface for Gaze-Controlled Wheelchair Navigation: Overcoming the Midas Touch Problem,"Gaze, Eye Tracking & Guidance",October 10 2025,14:30,15:30,Room 201 (Grand Ballroom 1)
+1295,Will You Be Aware? Eye Tracking–Based Modeling of Situational Awareness in Augmented Reality,"Gaze, Eye Tracking & Guidance",October 10 2025,14:30,15:30,Room 201 (Grand Ballroom 1)
+1195,"An Open Testbed for Mixed Reality Precise Rotation Guidance: Comparative case study of Arrow, Gestalt and Magnifier Cues",3DUI 3,October 10 2025,14:30,15:30,Room 202 (Grand Ballroom 2)
+1532,Improving Mid-Air Sketching in Room-Scale Virtual Reality with Dynamic Color-to-Depth and Opacity Cues,3DUI 3,October 10 2025,14:30,15:30,Room 202 (Grand Ballroom 2)
+1174,MirrorPose: Enabling Full-body Gestures Interaction for Head-mounted Devices with a Full-length Mirror,3DUI 3,October 10 2025,14:30,15:30,Room 202 (Grand Ballroom 2)
+1812,AR Surgical Navigation With Surface Tracing:Comparing In-Situ Visualization with Tool-Tracking Guidance for Neurosurgical Applications,3DUI 3,October 10 2025,14:30,15:30,Room 202 (Grand Ballroom 2)
+1084,Virtual Roomie: Immersive Layout Co-design with a Virtual Agent,Agents Design,October 9 2025,10:30,11:30,Room 202 (Grand Ballroom 2)
+1775,HAT Swapping: Virtual Agents as Stand-ins for Absent Human Instructors in Virtual Training,Agents Design,October 9 2025,10:30,11:30,Room 202 (Grand Ballroom 2)
+2015,"Laughing Together: A Pilot Study on the Role of Virtual Agents in Emotional Contagion, Conformity, and Opinion Shaping in a Virtual Stand-Up Comedy Club",Agents Design,October 9 2025,10:30,11:30,Room 202 (Grand Ballroom 2)
+1984,An Embodied AR Navigation Agent: Integrating BIM with Retrieval-Augmented Generation for Language Guidance,Agents Design,October 9 2025,10:30,11:30,Room 202 (Grand Ballroom 2)
+1789,Navigation Pixie: Implementation and Empirical Study Toward On-demand Navigation Agents in Commercial Metaverse,Agents and AI,October 10 2025,10:30,11:30,Room 202 (Grand Ballroom 2)
+2197,Effects of AI-Powered Embodied Avatars on Communication Quality and Social Connection in Asynchronous Virtual Meetings,Agents and AI,October 10 2025,10:30,11:30,Room 202 (Grand Ballroom 2)
+1991,When LLMs Recognize Your Space: Research on Experiences with Spatially Aware LLM Agents,Agents and AI,October 10 2025,10:30,11:30,Room 202 (Grand Ballroom 2)
+2067,The Impact of AI-Based Real-Time Gesture Generation and Immersion on the Perception of Others and Interaction Quality in Social XR,Agents and AI,October 10 2025,10:30,11:30,Room 202 (Grand Ballroom 2)
+1559,Impact of Avatar-Locomotion Congruence on User Experience and Identification in Virtual Reality,Avatar 2: Capabilities,October 10 2025,14:30,15:30,Room 204
+1599,The Honest Virtual Self? Effects of Avatar Personalization and Motor Control on Physiological Responses to Deceptive Behaviours,Avatar 2: Capabilities,October 10 2025,14:30,15:30,Room 204
+1499,Can the Perceived Capability of Your Virtual Avatar Enhance Exercise Performance?,Avatar 2: Capabilities,October 10 2025,14:30,15:30,Room 204
+1517,Experience Level Influences User's Criteria for Avatar Animation Realism,Avatar 2: Capabilities,October 10 2025,14:30,15:30,Room 204
+1614,Move Like an Ammonite: Personalizing Force Feedback for Avatar Embodiment in Virtual Reality,Agents Personalization,October 11 2025,09:00,10:00,Room 204
+1123,What if Virtual Agents Had Scents? Users' Judgments of Virtual Agent Personality and Appeals in Encounters,Agents Personalization,October 11 2025,09:00,10:00,Room 204
+1682,PersoNo: Personalised Notification Urgency Classifier in Mixed Reality,Agents Personalization,October 11 2025,09:00,10:00,Room 204
+1893,"Exploring the Influence of Crowd Size across Different Tasks on User Performance, Experience and Social Presence in Shared Virtual Environments",Humans & Collaboration,October 10 2025,10:30,11:30,Room 204
+1447,Effects of Organizational and Behavioral Reactions of Virtual Crowds on Users' Visual Attention in a Stressful Virtual Reality Simulation,Humans & Collaboration,October 10 2025,10:30,11:30,Room 204
+1502,Rendering Togetherness: Embodied Social Synchronization in Multi-User VR,Humans & Collaboration,October 10 2025,10:30,11:30,Room 204
+TVCG,Can People's Brains Synchronize during Remote AR Collaboration?,Humans & Collaboration,October 10 2025,10:30,11:30,Room 204
+1810,Zero-Sum vs. Positive-Sum: Effects of Inter-team Competition Modes and Haptic Feedback on Team Flow in Multi-team VR,Haptics & Collaboration,October 10 2025,14:30,15:30,Room 205
+2018,Investigating the Effects of Haptic Illusions in Collaborative Virtual Reality,Haptics & Collaboration,October 10 2025,14:30,15:30,Room 205
+1633,Touching the Virtual Dog: Effects of Active and Passive Haptic Feedback on Social Bonding and Presence in VR Pet Interaction,Haptics & Collaboration,October 10 2025,14:30,15:30,Room 205
+1013,What Makes Object Referencing Clear? Multimodal Strategies for Shared Understanding in XR Collaboration,Haptics & Collaboration,October 10 2025,14:30,15:30,Room 205
+1955,Bichronous Collaboration: Across Time and Space Workflow for Physical Tasks Using Spatiotemporal Cues,Collaboration,October 9 2025,12:00,13:00,Room 301 (Conference Hall)
+1233,VR Onboarding Procedures for Multiple Collocated Users: See-Through Tutorials and Group Transitions,Collaboration,October 9 2025,12:00,13:00,Room 301 (Conference Hall)
+1511,"Shared, Replicated, or Separated? A Comparative Study of Virtual Workspace Configurations for Collaborative Hands-On Learning",Collaboration,October 9 2025,12:00,13:00,Room 301 (Conference Hall)
+1708,PACT: Modeling Coordination Dynamics in Scale-Asymmetric Virtual Reality Collaboration,Collaboration,October 9 2025,12:00,13:00,Room 301 (Conference Hall)
+1304,PanoFloor: reconstruction and immersive exploration of large multi-room scenes from a minimal set of registered panoramic images using denoised density maps,Machine Learning for 3D reconstruction/rendering,October 10 2025,12:00,13:00,Room 301 (Conference Hall)
+1308,DGDiff: Immersive 3D Indoor Scene Synthesis via Dialog-Graph Conditioned Diffusion,Machine Learning for 3D reconstruction/rendering,October 10 2025,12:00,13:00,Room 301 (Conference Hall)
+1550,Real-Time Photorealistic Style Transfer for Immersive VR Environments,Machine Learning for 3D reconstruction/rendering,October 10 2025,12:00,13:00,Room 301 (Conference Hall)
+1962,Fast SP-GS: Reconstructing Dynamic Scenes in Minutes,Machine Learning for 3D reconstruction/rendering,October 10 2025,12:00,13:00,Room 301 (Conference Hall)
+1762,Dual Focus Multiscale Attention for Object Detection in Mixed Reality: Leveraging Customizable Synthetic Datasets,Machine learning/rendering for objects and hands,October 11 2025,14:30,15:30,Room 202 (Grand Ballroom 2)
+1647,EgoBlur: Blurry Egocentric XR Dataset for Robust Fast Hand Pose Estimation,Machine learning/rendering for objects and hands,October 11 2025,14:30,15:30,Room 202 (Grand Ballroom 2)
+1216,Scalable Object Detection in Mixed Reality using Incremental Re-training and One-shot 3D Annotation,Machine learning/rendering for objects and hands,October 11 2025,14:30,15:30,Room 202 (Grand Ballroom 2)
+1440,GSHOI Denoiser: Denoising Gaussian Hand-Object Interaction Rendering,Machine learning/rendering for objects and hands,October 11 2025,14:30,15:30,Room 202 (Grand Ballroom 2)
+1231,Enhanced Velocity Field Modeling for Gaussian Video Reconstruction,Machine Learning and Graphics,October 9 2025,10:30,11:30,Room 204
+1245,Real-Time Physically-Based Relighting and Composition of Radiance Fields with Proxy Meshes,Machine Learning and Graphics,October 9 2025,10:30,11:30,Room 204
+1960,Parameter-Free Neural Lens Blur Rendering for High-Fidelity Composites,Machine Learning and Graphics,October 9 2025,10:30,11:30,Room 204
+1334,Radiance Fields in XR: A Survey on How Radiance Fields are Envisioned and Addressed for XR Research,Machine Learning and Graphics,October 9 2025,10:30,11:30,Room 204
+1446,HFM-GS: half-face mapping 3DGS avatar based real-time HMD removal,Machine Learning and Human Animation,October 11 2025,12:00,13:00,Room 301 (Conference Hall)
+1672,AniDream: Generating Skeleton-Guided Anime Avatars from Text Prompts,Machine Learning and Human Animation,October 11 2025,12:00,13:00,Room 301 (Conference Hall)
+TVCG,HaHeAE: Learning Generalisable Joint Representations of Human Hand and Head Movements in Extended Reality,Machine Learning and Human Animation,October 11 2025,12:00,13:00,Room 301 (Conference Hall)
+1422,From Notation to Gesture: Virtual Conductor Gesture Generation in VR via Structured Score Semantics,Machine Learning and Human Animation,October 11 2025,12:00,13:00,Room 301 (Conference Hall)
+1987,Multimodal Contrastive Learning for Cybersickness Recognition Using Brain Connectivity Graph Representation,Cybersickness 1,October 9 2025,16:00,17:00,Room 205
+1542,Probabilistic Verification of Cybersickness in Virtual Reality Through Bayesian Networks,Cybersickness 1,October 9 2025,16:00,17:00,Room 205
+1939,Field Dependence as a Predictor of Cybersickness,Cybersickness 1,October 9 2025,16:00,17:00,Room 205
+1730,Beyond Supervised Limits: Semi-Supervised Cybersickness Prediction from Physiological Signals with Minimal Labeled Data,Cybersickness 1,October 9 2025,16:00,17:00,Room 205
+TVCG,Neck Goes VRrr: Reducing Rotation-Induced Virtual Reality Sickness through Neck Muscle Vibrations,Cybersickness Reduction,October 11 2025,12:00,13:00,Room 205
+1613,Do Vibrotactile-Rendered Virtual Walking Sensations Reduce VR Cybersickness?,Cybersickness Reduction,October 11 2025,12:00,13:00,Room 205
+1149,Unwinding Rotations Reduces VR Sickness in Nonsimulated Immersive Telepresence,Cybersickness Reduction,October 11 2025,12:00,13:00,Room 205
+CGA,"“Sitting or standing in VR: About Comfort, Conflicts, and Hazards” by",Cybersickness Reduction,October 11 2025,12:00,13:00,Room 205
+1376,Visceral Notices and Privacy Mechanisms for Eye Tracking in Augmented Reality,Privacy & Attacks,October 10 2025,10:30,11:30,Room 205
+1168,p-Blend: Privacy- and Utility-Preserving Blendshape Perturbation Against Re-identification Attacks in Virtual Reality,Privacy & Attacks,October 10 2025,10:30,11:30,Room 205
+1342,PrivateXR: Defending Privacy Attacks in Extended Reality Through Explainable AI-Guided Differential Privacy,Privacy & Attacks,October 10 2025,10:30,11:30,Room 205
+1223,Detecting Visual Information Manipulation Attacks in Augmented Reality: A Multimodal Semantic Reasoning Approach,Privacy & Attacks,October 10 2025,10:30,11:30,Room 205
+1320,Enhancing Pseudo-Haptics on the Hand by Viewpoint Shifts in VR,Haptics 1,October 9 2025,10:30,11:30,Room 301 (Conference Hall)
+1390,ThumbShift: Modulating Perceived Object Properties through Dynamic Thumb Repositioning,Haptics 1,October 9 2025,10:30,11:30,Room 301 (Conference Hall)
+1657,Design and Evaluation of Pseudo-Haptic Techniques for Simulating Surface Stickiness in VR,Haptics 1,October 9 2025,10:30,11:30,Room 301 (Conference Hall)
+1473,The Effect of Realism on Hand Redirection in Immersive Environments,Haptics 1,October 9 2025,10:30,11:30,Room 301 (Conference Hall)
+1272,Passive Haptics Role in VR-Based Ergonomic Workplace Assessment,Haptics 2,October 11 2025,14:30,15:30,Room 204
+TVCG,Investigating the Potential of Haptic Props for 3D Object Manipulation in Handheld AR,Haptics 2,October 11 2025,14:30,15:30,Room 204
+1783,A Handheld Stiffness Display with a Programmable Spring and Electrostatic Clutches for Haptic Interaction in Virtual Reality,Haptics 2,October 11 2025,14:30,15:30,Room 204
+1514,HaptiCeiling: An Encountered-type Overhead Haptic Interface in Virtual Reality,Haptics 2,October 11 2025,14:30,15:30,Room 204
+1133,Negotiated User-to-Group Teleportations in Social VR,Locomotion & teleportation,October 11 2025,09:00,10:00,Room 202 (Grand Ballroom 2)
+1874,FootPorting: Exploring Foot-Based Teleportation Techniques for Seated Users in Confined Spaces,Locomotion & teleportation,October 11 2025,09:00,10:00,Room 202 (Grand Ballroom 2)
+1179,The Relationship Between Time and Distance Perception in Egocentric Target-Selection-Based Teleportation,Locomotion & teleportation,October 11 2025,09:00,10:00,Room 202 (Grand Ballroom 2)
+1330,SafeTeleport: Potential Field-Guided Teleportation for Personal Space Protection in Social VR,Locomotion & teleportation,October 11 2025,09:00,10:00,Room 202 (Grand Ballroom 2)
+1226,MyGO: Virtual Reality Locomotion Prediction using Multitask Learning,Locomotion,October 9 2025,16:00,17:00,Room 204
+2038,Effects of Peripheral Optic Flow Location and Speed on Unintended Positional Drift during Walk-In-Place in VR,Locomotion,October 9 2025,16:00,17:00,Room 204
+1361,Exploring Plausible Preference of Body-centric Locomotion with Reinforcement Learning in Virtual Reality,Locomotion,October 9 2025,16:00,17:00,Room 204
+1929,Investigating the Effect of Visual Cue Density on Situational Awareness during Immersive Navigation,Locomotion,October 9 2025,16:00,17:00,Room 204
+1397,TouchWalker: Real-Time Avatar Locomotion from Touchscreen Finger Walking,Locomotion & 3DUI,October 9 2025,12:00,13:00,Room 201 (Grand Ballroom 1)
+1207,"Big Frog Vibes: Jumping Superhuman Distances Forward, Vertically and Sideways in VR Using Comfortably High Translational Gain",Locomotion & 3DUI,October 9 2025,12:00,13:00,Room 201 (Grand Ballroom 1)
+1031,Isometric and Elastic Balance Boards for Virtual Reality Locomotion,Locomotion & 3DUI,October 9 2025,12:00,13:00,Room 201 (Grand Ballroom 1)
+2252,Exploring Pointing and Confirmation Techniques for Teleportation Across Varying Elevations in Virtual Reality,Locomotion & 3DUI,October 9 2025,12:00,13:00,Room 201 (Grand Ballroom 1)
+1185,Portable Silent Room: Exploring VR Design for Anxiety and Emotion Regulation for Neurodivergent Women and Non-Binary Individuals,Diversity & Therapy,October 9 2025,12:00,13:00,Room 205
+1327,"""I was truly able to express the image of myself that I have within"": Exploring VR Group Therapy Approaches with the LGBTQIA+ community",Diversity & Therapy,October 9 2025,12:00,13:00,Room 205
+1678,MetaRoundWorm: A Virtual Reality Escape Room Game for Learning the Lifecycle and Immune Response to Parasitic Infections,Diversity & Therapy,October 9 2025,12:00,13:00,Room 205
+2045,ZonAware: Identifying Zoning Out and Increasing Engagement in Upper Limb Virtual Reality Rehabilitation,Diversity & Therapy,October 9 2025,12:00,13:00,Room 205
+1598,"The AI of the Beholder: Experience of Healthcare AI Robots is Shaped by User-Centred Factors, Not Their Visual Appearance",Robots,October 10 2025,10:30,11:30,Room 301 (Conference Hall)
+2004,ReachVox: Clutter-free Reachability Visualization for Robot Motion Planning in Virtual Reality,Robots,October 10 2025,10:30,11:30,Room 301 (Conference Hall)
+1880,Extended Reality Check: Evaluating XR Prototyping for Human-Robot Interaction in Contact-Intensive Tasks,Robots,October 10 2025,10:30,11:30,Room 301 (Conference Hall)
+1243,RCLL-AR: Augmented Reality Support for Understanding Autonomous Processes in the RoboCup Logistics League,Robots,October 10 2025,10:30,11:30,Room 301 (Conference Hall)
+1147,A Multi-Sensor Approach for Cognitive Load Assessment in Mobile Augmented Reality,Mobile XR,October 11 2025,12:00,13:00,Room 202 (Grand Ballroom 2)
+1175,See What I Mean? Mobile Eye-Perspective Rendering for Optical See-through Head-mounted Displays,Mobile XR,October 11 2025,12:00,13:00,Room 202 (Grand Ballroom 2)
+1968,EVER: Edge-Assisted Auto-Verification for Mobile MR-Aided Operation,Mobile XR,October 11 2025,12:00,13:00,Room 202 (Grand Ballroom 2)
+TVCG,Cardboard Controller: A Cost-Effective Method to Support Complex Interactions in Mobile VR,Mobile XR,October 11 2025,12:00,13:00,Room 202 (Grand Ballroom 2)
+1652,When One Eye Sees Less: Uncovering Perceptual Thresholds of Asymmetric Quality Degradation in 4K XR Displays,Eye & Perception,October 11 2025,12:00,13:00,Room 201 (Grand Ballroom 1)
+1946,Examining Eye Vergence During Perceived Depth Changes with Eye Tracking System in Optical See-Through Augmented Reality,Eye & Perception,October 11 2025,12:00,13:00,Room 201 (Grand Ballroom 1)
+1371,WarpVision: Using Spatial Curvature to Guide Attention in Virtual Reality,Eye & Perception,October 11 2025,12:00,13:00,Room 201 (Grand Ballroom 1)
+2173,How Accurate is the HoloLens 2? A Robotic Ground-Truth and Sensor Occlusion Evaluation,Eye & Perception,October 11 2025,12:00,13:00,Room 201 (Grand Ballroom 1)
+1247,Toward a More Standardized Multi-directional Tapping Task in VR: The Effect of Target Depth,Depth,October 10 2025,14:30,15:30,Room 301 (Conference Hall)
+1922,"Influence of Object Height, Shadow and Adapting Luminance on Outdoor Depth Perception in Augmented Reality",Depth,October 10 2025,14:30,15:30,Room 301 (Conference Hall)
+1654,Viewpoint-Tolerant Depth Perception for Shared Extended Space Experience on Wall-Sized Display,Depth,October 10 2025,14:30,15:30,Room 301 (Conference Hall)
+1046,Improving Pointing Accuracy for 3D Target Selection in Virtual Reality through Depth Perception Biases Correction,Depth,October 10 2025,14:30,15:30,Room 301 (Conference Hall)
+1319,Don’t look at me like that— How AR face recognition changes our social behaviour.,Social Behavior & Presence,October 9 2025,12:00,13:00,Room 204
+1661,Dynamic Measurement of Visitor Behavioral Engagement in Informal Environments Using Head-Mounted Displays,Social Behavior & Presence,October 9 2025,12:00,13:00,Room 204
+1570,"Gender Congruence and Social Context in XR: Effects on Partner Preference, Warmth, Competence, and Uncanniness",Social Behavior & Presence,October 9 2025,12:00,13:00,Room 204
+1774,Entering Your Space: How Agent Entrance Styles Shape Social Presence in AR,Social Behavior & Presence,October 9 2025,12:00,13:00,Room 204
+1141,MMG: Manipulation-aware Holistic Human Motion Generation from Sparse Tracking Signals,"Avatars & Tracking, Animation",October 9 2025,16:00,17:00,Room 301 (Conference Hall)
+1208,Robustness of Self-Avatar Animation Beyond Sparse Tracking: Effects of Pose Estimator Discrepancies and Inaccuracies,"Avatars & Tracking, Animation",October 9 2025,16:00,17:00,Room 301 (Conference Hall)
+1073,Crafting Dynamic Virtual Activities with Advanced Multimodal Models,"Avatars & Tracking, Animation",October 9 2025,16:00,17:00,Room 301 (Conference Hall)
+1839,VRtalk: Real-time Interactive Intelligent Anime Avatars in Virtual Reality,"Avatars & Tracking, Animation",October 9 2025,16:00,17:00,Room 301 (Conference Hall)
+2107,An Evaluation of Movement Data Analysis Techniques for Virtual Reality,Tracking,October 9 2025,12:00,13:00,Room 202 (Grand Ballroom 2)
+1508,Federated VPS in dynamic environments to enable large-scale augmented reality applications,Tracking,October 9 2025,12:00,13:00,Room 202 (Grand Ballroom 2)
+1619,XR Reality Check: What Commercial Devices Deliver for Spatial Tracking,Tracking,October 9 2025,12:00,13:00,Room 202 (Grand Ballroom 2)
+2057,"Merging Bodies, Dividing Conflict: Body-Swapping in Mixed Reality Increases Closeness Yet Weakens the Joint Simon Effect",Bodies & presence,October 9 2025,17:30,18:30,Room 201 (Grand Ballroom 1)
+1477,PresenceLens: Interpreting Dynamic Presence in Virtual Reality,Bodies & presence,October 9 2025,17:30,18:30,Room 201 (Grand Ballroom 1)
+1912,The Role of Visual Augmentation on Embodied Skill Acquisition Across Perspectives and Body Representations,Bodies & presence,October 9 2025,17:30,18:30,Room 201 (Grand Ballroom 1)
+1617,DPIK: User Embodiment of Dual-point Tracked Avatars Using Hand IK and Face Tracking for Smartphone AR Users,Bodies & presence,October 9 2025,17:30,18:30,Room 201 (Grand Ballroom 1)
+2096,Design and Evaluation of a Virtual Agent for Interpersonal Emotion Regulation in VR,Emotions,October 10 2025,12:00,13:00,Room 205
+1025,Three Techniques for Enhancing Emotional Expression on Embodied Avatar Face in VR,Emotions,October 10 2025,12:00,13:00,Room 205
+2049,Exploring the Effects and Neurophysiological Characteristics of VR Emotion Regulation Strategies,Emotions,October 10 2025,12:00,13:00,Room 205
+1431,Behavioral and Symbolic Fillers as Delay Mitigation for Embodied Conversational Agents in Virtual Reality,Emotions,October 10 2025,12:00,13:00,Room 205
+1834,Investigating Dynamics of Subjective Anxiety and Behavior due to Personal Space Violations and COVID-19-related Stressors in a Social VR Simulation,Perception,October 9 2025,17:30,18:30,Room 202 (Grand Ballroom 2)
+1892,"The Awe-some Spectrum: Self-Reported Awe Varies by Eliciting Scenery and Presence in Virtual Reality, and the User's Nationality",Perception,October 9 2025,17:30,18:30,Room 202 (Grand Ballroom 2)
+1289,Immersive Intergroup Contact: Using Virtual Reality to Enhance Empathy and Reduce Stigma Towards Schizophrenia,Perception,October 9 2025,17:30,18:30,Room 202 (Grand Ballroom 2)
+1952,Are You Empathizing with Me? Exploring External Expressions of Empathy in Interpersonal VR Communication,Perception,October 9 2025,17:30,18:30,Room 202 (Grand Ballroom 2)
+1026,Zeitgebers-Based User Experience Analysis and Time Perception Modeling via Transformer in VR,Perception 2,October 10 2025,12:00,13:00,Room 202 (Grand Ballroom 2)
+1271,Rhythmic Interaction influences Synchrony Perception in VR,Perception 2,October 10 2025,12:00,13:00,Room 202 (Grand Ballroom 2)
+1474,Enhancing Dazzling Sensation through Pseudo-Blink and Afterimage Presentation in Virtual Reality,Perception 2,October 10 2025,12:00,13:00,Room 202 (Grand Ballroom 2)
+1747,Why Slow Feels Fast and Fast Feels Slow: Evaluating and Predicting Speed Misperception,Perception 2,October 10 2025,12:00,13:00,Room 202 (Grand Ballroom 2)
+1466,Casual-VRAuth: A Design Framework Bridging Focused and Casual Interactions for Behavioral Authentication in Virtual Reality,Authentification,October 11 2025,10:30,11:30,Room 205
+1366,cLock: Single-Handed Two-Factor Authentication in VR Using Wrist Rotation and Multi-Finger Tapping,Authentification,October 11 2025,10:30,11:30,Room 205
+1378,"""Everyone Knows You’re Watching P*rn"": Reflecting on First-hand User Accounts on the Use and Public Perception of In-Transit Passenger XR",Authentification,October 11 2025,10:30,11:30,Room 205
+2092,Siren Song: Acoustic Attacks on Pose Estimation in XR Headsets,Authentification,October 11 2025,10:30,11:30,Room 205
+1054,Weighted-Area Based Alignment Metric for Redirected Walking in VR,"Locomotion, redirection, & object manipulation",October 11 2025,10:30,11:30,Room 202 (Grand Ballroom 2)
+1420,Have A Seat: An Enhanced Reactive Alignment of a Single Target’s Position and Angle from the User’s Perspective in VR,"Locomotion, redirection, & object manipulation",October 11 2025,10:30,11:30,Room 202 (Grand Ballroom 2)
+1034,Defying Gravity: Towards Gravitoinertial Retargeting of Acceleration for Virtual Vertical Motion in In-Car VR,"Locomotion, redirection, & object manipulation",October 11 2025,10:30,11:30,Room 202 (Grand Ballroom 2)
+1198,MR-CoCo: An Open Mixed Reality Testbed for Co-located Couple Product Configuration and Decision-Making – A Sailboat Case Study,"Locomotion, redirection, & object manipulation",October 11 2025,10:30,11:30,Room 202 (Grand Ballroom 2)
+1664,"Visual and Auditory Feedback of Vibration, and Particle Effects for Enhancing Pseudo-Haptic Button Interaction in VR",Multisensory,October 9 2025,14:30,15:30,Room 205
+1999,Visuo-Tactile Feedback with Hand Outline Styles for Modulating Affective Roughness Perception,Multisensory,October 9 2025,14:30,15:30,Room 205
+1306,Audiovisual Disparities in VR: Impact on Spatial Perception,Multisensory,October 9 2025,14:30,15:30,Room 205
+1759,When Senses Collide: Investigating Modality Congruence and Interference Between Task and Notification in Augmented Reality,Multisensory,October 9 2025,14:30,15:30,Room 205
+2027,Birds of a Feather Augment Together: Exploring Sonic Links Between Real and Virtual Worlds in Audio Augmented Reality,Audio,October 11 2025,10:30,11:30,Room 204
+1131,Sonify Anything: Towards Context-Aware Sonic Interactions in AR,Audio,October 11 2025,10:30,11:30,Room 204
+1358,EgoTrigger: Toward Audio-Driven Image Capture for Human Memory Enhancement in All-Day Energy-Efficient Smart Glasses,Audio,October 11 2025,10:30,11:30,Room 204
+2155,First-Person Vocal Auralisation in XR and Its Influence on Perceived Presence and Audio-Visual Quality,Audio,October 11 2025,10:30,11:30,Room 204
+TVCG,Augmented Reality Productivity In-the-Wild: A Diary Study of Usage Patterns and Experiences of Working with AR Laptops in Real-World Settings,In the Wild,October 9 2025,17:30,18:30,Room 204
+1487,Long-Term Experiences From Working with Extended Reality in the Wild,In the Wild,October 9 2025,17:30,18:30,Room 204
+1060,The immersive Debriefing : Comparative evaluation of Full and Segmented Redo methods in Virtual Reality,In the Wild,October 9 2025,17:30,18:30,Room 204
+1522,The State of Replication at IEEE ISMAR and IEEE VR: A Scoping Literature Review (2010 -- 2024) and Online Survey,In the Wild,October 9 2025,17:30,18:30,Room 204
+1694,Enhancing Learning and Knowledge Retention of Abstract Physics Concepts with Virtual Reality,Education & Learning,October 9 2025,14:30,15:30,Room 201 (Grand Ballroom 1)
+1108,LiteAT: A Data-Lightweight and User-Adaptive VR Telepresence System for Remote Education,Education & Learning,October 9 2025,14:30,15:30,Room 201 (Grand Ballroom 1)
+CGA,"""Understanding Collaborative Learning of Molecular Structures in AR",Education & Learning,October 9 2025,14:30,15:30,Room 201 (Grand Ballroom 1)
+2190,Xstudio - A Collaborative Metaverse-Based Tool for Automotive Design and Engineering,Education & Learning,October 9 2025,14:30,15:30,Room 201 (Grand Ballroom 1)
+1876,DOF-Separation for 3D Manipulation in XR: Understanding Finger-Wrist Separation to Simultaneously Translate and Rotate Objects,Touch & Display,October 11 2025,10:30,11:30,Room 201 (Grand Ballroom 1)
+1964,Exploring Body-Anchored Augmented Reality Interfaces Across Different Mobility and Social Contexts,Touch & Display,October 11 2025,10:30,11:30,Room 201 (Grand Ballroom 1)
+1416,Handows: A Palm-Based Interactive Multi-Window Management System in Virtual Reality,Touch & Display,October 11 2025,10:30,11:30,Room 201 (Grand Ballroom 1)
+1317,"Ada: A Distributed, Power-Aware, Real-Time Scene Provider for XR",Touch & Display,October 11 2025,10:30,11:30,Room 201 (Grand Ballroom 1)
+1865,VR as a ``Drop-In'' Well-being Tool for Knowledge Workers,Well-being,October 11 2025,12:00,13:00,Room 204
+2116,Can AI Inspire Biophilic Design in Immersive Virtual Reality Workspaces to Enhance Well-being?,Well-being,October 11 2025,12:00,13:00,Room 204
+1414,"Experiencing Immersive Virtual Nature for Well-Being, Restoration, Performance, and Nature Connectedness: A Scoping Review",Well-being,October 11 2025,12:00,13:00,Room 204
+1038,“Heart Flows with Zen”: Exploring Multi-modal Mixed Reality to Promote the Inheritance and Experience of Cultural Heritage,Well-being,October 11 2025,12:00,13:00,Room 204
+1651,Exploring the Effects of Augmented Reality Guidance Position within a Body-Fixed Coordinate System on Pedestrian Navigation,Guiding,October 11 2025,09:00,10:00,Room 301 (Conference Hall)
+1858,“Do You Even Need a City Guide Anymore?” Expert Adoption of XR Technology for Guided City Tours,Guiding,October 11 2025,09:00,10:00,Room 301 (Conference Hall)
+2176,Investigating Encoding and Perspective for Augmented Reality Motion Guidance,Guiding,October 11 2025,09:00,10:00,Room 301 (Conference Hall)
+1870,ImmerJM: A 3D Design Tool for Creating User Journey Maps based on Immersive Virtual Environments,Guiding,October 11 2025,09:00,10:00,Room 301 (Conference Hall)
+1182,LitForager: Exploring Multimodal Literature Foraging Strategies in Immersive Sensemaking,Document Search,October 9 2025,17:30,18:30,Room 205
+1049,Exploring Organizational Strategies in Immersive Computational Notebooks,Document Search,October 9 2025,17:30,18:30,Room 205
+1603,"DocVision: a Seamless, Cross-Device Immersive Active Reading Framework for Digital Academic Literature",Document Search,October 9 2025,17:30,18:30,Room 205
+1333,How Do We Read Texts in VR?: The Effects of Text Segment Quantity and Social Distraction on Text Readability in Virtual Museum Contexts,Document Search,October 9 2025,17:30,18:30,Room 205
+1580,Application of Transitional Mixed Reality Interfaces: A Co-design Study with Flood-prone Communities,Training for/against natural phenomena,October 11 2025,09:00,10:00,Room 205
+CGA,"""Integrated Augmented and Virtual Reality Technologies for Realistic Fire Drill Training",Training for/against natural phenomena,October 11 2025,09:00,10:00,Room 205
+2166,"Clean Training, Clear Skies: Virtual Reality Training for Expert Smoke Opacity Certification",Training for/against natural phenomena,October 11 2025,09:00,10:00,Room 205
+1936,Transforming Avalanche Rescue Training: Evaluating the Effectiveness of Virtual Reality Training in High-Stakes Environments,Training for/against natural phenomena,October 11 2025,09:00,10:00,Room 205
+1591,ArtSpeak: An Interactive AR Application for Lifelike Speaking with Art Portraits,Art & Museum,October 10 2025,12:00,13:00,Room 204
+1455,Emotional Art: Exploring a Novel Paradigm of artistic re-creation based on emotion capture in VR,Art & Museum,October 10 2025,12:00,13:00,Room 204
+1811,Icebreaking: Building Trust and Empathy with Virtual Museum Embodied Conversational Agents via Personalized Initial Interactions,Art & Museum,October 10 2025,12:00,13:00,Room 204
+1645,EEG2Gaussian: Decoding and Visualizing Visual-Evoked EEG for VR Scenes Using 3D Gaussian Splatting,Multimodality,October 11 2025,09:00,10:00,Room 201 (Grand Ballroom 1)
+1588,Cross-Subject Cognitive Load Recognition in VR Using Multimodal Fusion with EEG and Eye-Tracking,Multimodality,October 11 2025,09:00,10:00,Room 201 (Grand Ballroom 1)
+1307,A Comprehensive Analysis of the Influence of Cognitive Load on Physiological Signals in Virtual Reality,Multimodality,October 11 2025,09:00,10:00,Room 201 (Grand Ballroom 1)
+1338,MIRAGE: Multimodal Intention Recognition and Admittance-Guided Enhancement in VR-based Multi-object Teleoperation,Multimodality,October 11 2025,09:00,10:00,Room 201 (Grand Ballroom 1)
+1138,MRPilot: A Mixed-Reality System for Responsive Guidance of General Procedural Tasks,Multimodal systems,October 11 2025,10:30,11:30,Room 301 (Conference Hall)
+1605,SAMR: A Spatial-Augmented Mixed Reality Method for Enhancing Vision-Language Models in 3D Scene Understanding,Multimodal systems,October 11 2025,10:30,11:30,Room 301 (Conference Hall)
+1442,SGSG: Stroke-Guided Scene Graph Generation,Multimodal systems,October 11 2025,10:30,11:30,Room 301 (Conference Hall)
+1641,Multimodal Classification of Distraction in VR Learning: A Foundation for Real-Time Adaptation,Multimodal systems,October 11 2025,10:30,11:30,Room 301 (Conference Hall)
+1616,The Effect of Haptic Feedback in an Immersive Microsurgery Simulator on VR Training and Skill Transfer,Training in Health and Sports,October 9 2025,14:30,15:30,Room 202 (Grand Ballroom 2)
+1240,Cross-Reality for Autonomous Mobility in Autistic Individuals: Evaluating At-Home VR Training and In-Situ AR Support in a Field Study,Training in Health and Sports,October 9 2025,14:30,15:30,Room 202 (Grand Ballroom 2)
+2058,P-MARS: Design of a VR-Based Rehabilitation System for Children with Autism and Its Longitudinal Tracking Evaluation,Training in Health and Sports,October 9 2025,14:30,15:30,Room 202 (Grand Ballroom 2)
+1755,VRTennis: Forehand Training in Virtual Reality with Rule-Based Motion Analysis and Multimodal Feedback,Training in Health and Sports,October 9 2025,14:30,15:30,Room 202 (Grand Ballroom 2)
+2091,Towards Augmented Reality Support for Swarm Monitoring: Evaluating Visual Cues to Prevent Fragmentation,Visual Cues & Perception,October 11 2025,14:30,15:30,Room 201 (Grand Ballroom 1)
+1905,Cross-media Color Appearance Reproduction in Optical See-Through Augmented Reality,Visual Cues & Perception,October 11 2025,14:30,15:30,Room 201 (Grand Ballroom 1)
+2198,The Cost of Virtuality Switching: Searching for Physical and Virtual Targets in Optical-See-Through Augmented Reality,Visual Cues & Perception,October 11 2025,14:30,15:30,Room 201 (Grand Ballroom 1)
+2222,Seeing What Matters: Attentional (Mis-)Alignment Between Humans and AI in VR-Simulated Prediction of Driving Accidents,Visual Cues & Perception,October 11 2025,14:30,15:30,Room 201 (Grand Ballroom 1)
