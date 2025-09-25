@@ -7,21 +7,21 @@ title: Overview
   <h2 class="schedule-title">Overview</h2>
   
   <!-- Day Filter Controls -->
-  <div class="day-filter-container">
-    <div class="day-buttons">
-      <button class="day-btn active" data-day="oct8" onclick="filterByDay('oct8')">
+  <div class="day-filter-container" role="region" aria-label="Select day">
+    <div class="day-buttons" role="tablist" aria-label="Days">
+      <button class="day-btn active" role="tab" aria-selected="true" data-day="oct8" onclick="filterByDay('oct8')">
         Oct 8<br><small>Wednesday</small>
       </button>
-      <button class="day-btn" data-day="oct9" onclick="filterByDay('oct9')">
+      <button class="day-btn" role="tab" aria-selected="false" data-day="oct9" onclick="filterByDay('oct9')">
         Oct 9<br><small>Thursday</small>
       </button>
-      <button class="day-btn" data-day="oct10" onclick="filterByDay('oct10')">
+      <button class="day-btn" role="tab" aria-selected="false" data-day="oct10" onclick="filterByDay('oct10')">
         Oct 10<br><small>Friday</small>
       </button>
-      <button class="day-btn" data-day="oct11" onclick="filterByDay('oct11')">
+      <button class="day-btn" role="tab" aria-selected="false" data-day="oct11" onclick="filterByDay('oct11')">
         Oct 11<br><small>Saturday</small>
       </button>
-      <button class="day-btn" data-day="oct12" onclick="filterByDay('oct12')">
+      <button class="day-btn" role="tab" aria-selected="false" data-day="oct12" onclick="filterByDay('oct12')">
         Oct 12<br><small>Sunday</small>
       </button>
     </div>
@@ -71,6 +71,7 @@ title: Overview
 
   <!-- ===== Program: Oct 9 ===== -->
   <div id="programOct9" class="program-view schedule-view day-oct9">
+    <h2 class="schedule-title">Papers per Session</h2>
     {% assign rows = site.data["2025"]["program"]["ProgramISMAR_with_sessions"] %}
     {% assign day_rows = rows | where: "Session Day", "October 9 2025" %}
 
@@ -114,6 +115,7 @@ title: Overview
 
   <!-- ===== Program: Oct 10 ===== -->
   <div id="programOct10" class="program-view schedule-view day-oct10">
+    <h2 class="schedule-title">Papers per Session</h2>
     {% assign rows = site.data["2025"]["program"]["ProgramISMAR_with_sessions"] %}
     {% assign day_rows = rows | where: "Session Day", "October 10 2025" %}
 
@@ -157,6 +159,7 @@ title: Overview
 
   <!-- ===== Program: Oct 11 ===== -->
   <div id="programOct11" class="program-view schedule-view day-oct11">
+    <h2 class="schedule-title">Papers per Session</h2>
     {% assign rows = site.data["2025"]["program"]["ProgramISMAR_with_sessions"] %}
     {% assign day_rows = rows | where: "Session Day", "October 11 2025" %}
 
@@ -252,6 +255,8 @@ title: Overview
   min-width: 100px;
   text-align: center;
   line-height: 1.3;
+  /* prevent layout shift when scrolling */
+  flex: 0 0 auto;
 }
 
 .day-btn:hover {
@@ -276,7 +281,7 @@ title: Overview
 /* Responsive iframe */
 .responsive-schedule {
   width: 100%;
-  height: 450px;
+  height: 475px;
   min-height: 400px;
 }
 
@@ -284,7 +289,55 @@ title: Overview
   .responsive-schedule {
     height: 60vh;
   }
+
+  /* Force single-row, horizontally scrollable day tabs on mobile */
+  .day-buttons {
+    justify-content: flex-start;
+    gap: 6px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 4px 8px;
+    margin: 0 auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    width: 100%;
+  }
+  .day-buttons::-webkit-scrollbar {
+    display: none;
+  }
+
+  .day-btn {
+    min-width: 84px;
+    padding: 10px 12px;
+    font-size: 13px;
+    scroll-snap-align: center;
+    flex: 0 0 auto;                 /* keep items from flexing and wrapping */
+  }
+
+  .day-filter-container {
+    position: relative;
+  }
+  .day-filter-container::before,
+  .day-filter-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 18px;
+    pointer-events: none;
+  }
+  .day-filter-container::before {
+    left: 0;
+    background: linear-gradient(to right, #fff 30%, rgba(255,255,255,0));
+  }
+  .day-filter-container::after {
+    right: 0;
+    background: linear-gradient(to left, #fff 30%, rgba(255,255,255,0));
+  }
 }
+
 
 /* View toggling */
 .schedule-view {
@@ -348,9 +401,17 @@ let currentDay = 'oct8';
 function filterByDay(day) {
   currentDay = day;
 
-  document.querySelectorAll('.day-btn').forEach(btn => btn.classList.remove('active'));
+  document.querySelectorAll('.day-btn').forEach(btn => {
+    btn.classList.remove('active');
+    btn.setAttribute('aria-selected', 'false');
+  });
   const btn = document.querySelector(`[data-day="${day}"]`);
-  if (btn) btn.classList.add('active');
+  if (btn) {
+    btn.classList.add('active');
+    btn.setAttribute('aria-selected', 'true');
+    // ensure the active tab is visible and centered on small screens
+    btn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+  }
 
   // Hide all iframe and program views
   document.querySelectorAll('.schedule-view').forEach(view => view.classList.remove('active'));
@@ -369,8 +430,17 @@ function filterByDay(day) {
     wrapper.classList.add('day-view', `day-${day}`);
   }
 }
-// Initialize on page load
+
+// Optional: allow horizontal wheel scroll on the tab strip for desktop trackpads
 document.addEventListener('DOMContentLoaded', function() {
-  // Page initialization complete
+  const strip = document.querySelector('.day-buttons');
+  if (strip) {
+    strip.addEventListener('wheel', function(e) {
+      if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
+        strip.scrollLeft += e.deltaY;
+        e.preventDefault();
+      }
+    }, { passive: false });
+  }
 });
 </script>
