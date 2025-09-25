@@ -7,7 +7,7 @@ title: Demos
 
 # Demos
 
-{% for demo in site.data.2025.demos %}
+{% for demo in site.data["2025"].demos %}
 ## {{ demo.id }}: {{ demo.title }}
 
 **Authors:**<br>

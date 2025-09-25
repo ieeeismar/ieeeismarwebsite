@@ -151,13 +151,13 @@ redirect_from: /
     <h2 class="sponsors-title">Sponsors</h2>
     
     <!-- Gold Sponsors -->
-    {% if site.data.2025.sponsors.gold_sponsors %}
+    {% if site.data["2025"].sponsors.gold_sponsors %}
     <div class="sponsor-tier gold-tier">
         <div class="tier-header">
             <div class="tier-label gold">Gold</div>
         </div>
         <div class="sponsor-grid">
-            {% for sponsor in site.data.2025.sponsors.gold_sponsors %}
+            {% for sponsor in site.data["2025"].sponsors.gold_sponsors %}
             <div class="sponsor-item">
                 {% if sponsor.url and sponsor.url != "" %}
                 <a href="{{ sponsor.url }}" target="_blank" class="sponsor-logo-link">
@@ -175,13 +175,13 @@ redirect_from: /
     {% endif %}
 
     <!-- Silver Sponsors -->
-    {% if site.data.2025.sponsors.silver_sponsors %}
+    {% if site.data["2025"].sponsors.silver_sponsors %}
     <div class="sponsor-tier silver-tier">
         <div class="tier-header">
             <div class="tier-label silver">Silver</div>
         </div>
         <div class="sponsor-grid">
-            {% for sponsor in site.data.2025.sponsors.silver_sponsors %}
+            {% for sponsor in site.data["2025"].sponsors.silver_sponsors %}
             <div class="sponsor-item">
                 {% if sponsor.url and sponsor.url != "" %}
                 <a href="{{ sponsor.url }}" target="_blank" class="sponsor-logo-link">
@@ -199,13 +199,13 @@ redirect_from: /
     {% endif %}
 
     <!-- Bronze Sponsors -->
-    {% if site.data.2025.sponsors.bronze_sponsors %}
+    {% if site.data["2025"].sponsors.bronze_sponsors %}
     <div class="sponsor-tier bronze-tier">
         <div class="tier-header">
             <div class="tier-label bronze">Bronze</div>
         </div>
         <div class="sponsor-grid">
-            {% for sponsor in site.data.2025.sponsors.bronze_sponsors %}
+            {% for sponsor in site.data["2025"].sponsors.bronze_sponsors %}
             <div class="sponsor-item">
                 {% if sponsor.url and sponsor.url != "" %}
                 <a href="{{ sponsor.url }}" target="_blank" class="sponsor-logo-link">
@@ -223,13 +223,13 @@ redirect_from: /
     {% endif %}
 
     <!-- Exhibitors -->
-    {% if site.data.2025.sponsors.exhibitors %}
+    {% if site.data["2025"].sponsors.exhibitors %}
     <div class="sponsor-tier exhibitor-tier">
         <div class="tier-header">
             <div class="tier-label exhibitor">Exhibitors</div>
         </div>
         <div class="sponsor-grid">
-            {% for exhibitor in site.data.2025.sponsors.exhibitors %}
+            {% for exhibitor in site.data["2025"].sponsors.exhibitors %}
             <div class="sponsor-item">
                 {% if exhibitor.url and exhibitor.url != "" %}
                 <a href="{{ exhibitor.url }}" target="_blank" class="sponsor-logo-link">
@@ -252,7 +252,7 @@ redirect_from: /
 <section class="partners-section">
     <h2 class="partners-title">Partners and Supporting Organizations</h2>
     <div class="partners-grid">
-        {% for partner in site.data.2025.sponsors.partners %}
+    {% for partner in site.data["2025"].sponsors.partners %}
         <div class="partner-item">
             {% if partner.url and partner.url != "" %}
             <a href="{{ partner.url }}" target="_blank" class="partner-logo-link">

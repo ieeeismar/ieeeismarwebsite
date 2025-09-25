@@ -10,7 +10,7 @@ This page contains information about the call for workshop papers for ISMAR 2025
 
 ## Workshops
 
-{% for workshop in site.data.2025.workshops %}
+{% for workshop in site.data["2025"].workshops %}
 ### {{ workshop.Title }}
 
 {% if workshop.Organizers and workshop.Organizers != '' %}

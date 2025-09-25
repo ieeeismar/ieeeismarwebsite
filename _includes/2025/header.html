@@ -5,7 +5,7 @@
             <img src="{{ 'assets/2025/img/IsmarLogo.png' | relative_url }}" alt="Logo" class="logo">
         </a>
         <ul class="nav-links">
-            {% for item in site.data.2025.navigation %}
+            {% for item in site.data["2025"].navigation %}
             <li class="{% if item.children %}dropdown{% endif %}">
                 <a href="{{ item.url | relative_url }}">{{ item.title }}
                     {% if item.children %}<span class="arrow-down">&#9662;</span>{% endif %}
