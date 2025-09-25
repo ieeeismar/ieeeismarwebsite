@@ -2,7 +2,7 @@
 layout: 2025/page
 title: Pitch Your Lab
 ---
-**Time & Location:** 17:30-18:30 at Room 108.
+**Time & Location:** Oct 8, 17:30–18:30, Room 108.
 
 ## **MIT Learning Engineering and Practice (LEAP) Group**
 
