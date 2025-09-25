@@ -360,16 +360,30 @@ title: Overview
 @media (min-width: 1200px) {
   .schedule-container {
     width: 90vw; 
-    margin-left: calc(50% - 45vw); 
+    margin-left: calc(50% - 40vw); 
+    max-width: 1400px; /* Add max-width for better centering on very large screens */
+  }
+  
+  .schedule-title {
+    font-size: 1.6em;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .day-filter-container {
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .day-buttons {
+    justify-content: flex-start;
   }
   
   .responsive-schedule {
     height: auto;
     max-height: none;
-  }
-  
-  .schedule-title {
-    font-size: 1.6em;
   }
 }
 
@@ -377,16 +391,30 @@ title: Overview
 @media (min-width: 1600px) {
   .schedule-container {
     width: 85vw; 
-    margin-left: calc(50% - 42.5vw); 
+    margin-left: calc(50% - 37.5vw); 
+    max-width: 1600px; /* Constrain width for better table centering */
+  }
+  
+  .schedule-title {
+    font-size: 1.7em;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .day-filter-container {
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .day-buttons {
+    justify-content: flex-start;
   }
   
   .responsive-schedule {
     height: auto;
     max-height: none;
-  }
-  
-  .schedule-title {
-    font-size: 1.7em;
   }
 }
 
@@ -394,7 +422,56 @@ title: Overview
 @media (min-width: 2000px) {
   .schedule-container {
     width: 80vw; 
-    margin-left: calc(50% - 40vw); 
+    margin-left: calc(50% - 35vw); 
+    max-width: 1800px; /* Constrain width for optimal table centering on ultra-wide screens */
+  }
+  
+  .schedule-title {
+    font-size: 1.8em;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .day-filter-container {
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .day-buttons {
+    justify-content: flex-start;
+  }
+  
+  .responsive-schedule {
+    height: auto;
+    max-height: none;
+  }
+}
+
+/* Very large desktop monitors (32-inch+ and 4K displays) */
+@media (min-width: 2560px) {
+  .schedule-container {
+    width: 70vw; 
+    margin-left: calc(50% - 30vw); 
+    max-width: 2000px; /* Optimal width for very large displays */
+  }
+  
+  .schedule-title {
+    font-size: 2em;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .day-filter-container {
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .day-buttons {
+    justify-content: flex-start;
   }
   
   .responsive-schedule {
@@ -402,8 +479,24 @@ title: Overview
     max-height: none;
   }
   
-  .schedule-title {
-    font-size: 1.8em;
+  .day-btn {
+    padding: 16px 20px;
+    font-size: 16px;
+    min-width: 120px;
+  }
+}
+
+/* Additional centering for tables on large screens */
+@media (min-width: 1200px) {
+  .sheet-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .responsive-schedule {
+    display: block;
+    margin: 0 auto;
   }
 }
 </style>
