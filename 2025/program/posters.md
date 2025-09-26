@@ -29,7 +29,7 @@ Poster ID format: D[day]-[sequence] (e.g., D1-12) used to split by day.
 <div class="posters-wrapper">
   {% if day1 and day1.size > 0 %}
   <section id="day-1" class="poster-day">
-    <h3 class="poster-day-title"><strong>Day 1</strong> – October 9, 2025 <span class="weekday">(Thu)</span> <span class="count">{{ day1.size }}</span></h3>
+    <h3 class="poster-day-title"><strong>Day 1</strong> – October 9, 2025 <span class="weekday">(Thu)</span></h3>
     <div class="poster-times">
       <span class="location-badge">Exhibition Hall (1F)</span>
       <span class="time-label">Morning</span>
@@ -55,7 +55,7 @@ Poster ID format: D[day]-[sequence] (e.g., D1-12) used to split by day.
   <div class="poster-separator" aria-hidden="true"></div>
   {% if day2 and day2.size > 0 %}
   <section id="day-2" class="poster-day">
-    <h3 class="poster-day-title"><strong>Day 2</strong> – October 10, 2025 <span class="weekday">(Fri)</span> <span class="count">{{ day2.size }}</span></h3>
+    <h3 class="poster-day-title"><strong>Day 2</strong> – October 10, 2025 <span class="weekday">(Fri)</span></h3>
     <div class="poster-times">
       <span class="location-badge">Exhibition Hall (1F)</span>
       <span class="time-label">Morning</span>
@@ -81,7 +81,7 @@ Poster ID format: D[day]-[sequence] (e.g., D1-12) used to split by day.
   <div class="poster-separator" aria-hidden="true"></div>
   {% if day3 and day3.size > 0 %}
   <section id="day-3" class="poster-day">
-    <h3 class="poster-day-title"><strong>Day 3</strong> – October 11, 2025 <span class="weekday">(Sat)</span> <span class="count">{{ day3.size }}</span></h3>
+    <h3 class="poster-day-title"><strong>Day 3</strong> – October 11, 2025 <span class="weekday">(Sat)</span></h3>
     <div class="poster-times">
       <span class="location-badge">Exhibition Hall (1F)</span>
       <span class="time-label">Morning</span>
