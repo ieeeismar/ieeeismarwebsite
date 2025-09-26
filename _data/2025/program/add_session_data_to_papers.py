@@ -5,18 +5,33 @@ import requests
 import pandas as pd
 from collections import Counter
 from typing import Optional, Tuple
+from urllib.parse import quote  # For sheet title -> URL encoding
 
 # ----------------------------
 # Helpers
 # ----------------------------
 
-def load_google_sheet_as_csv(sheet_id: str, gid: Optional[str] = None) -> pd.DataFrame:
+def load_google_sheet_as_csv(sheet_id: str, gid: Optional[str] = None, sheet_title: Optional[str] = None) -> pd.DataFrame:
+    """Download a Google Sheet tab as CSV with explicit UTF-8 handling.
+
+    Precedence for selecting a tab:
+      1. If ``gid`` is provided, use it.
+      2. Else if ``sheet_title`` is provided, use the gviz CSV export with the sheet name.
+      3. Else download the first (default) sheet.
+
+    Providing both ``gid`` and ``sheet_title`` raises an error to avoid ambiguity.
     """
-    Download a Google Sheet as CSV with explicit UTF-8 handling.
-    Cleans up potential encoding issues in text fields.
-    """
-    base = f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv"
-    url = f"{base}&gid={gid}" if gid else base
+    if gid and sheet_title:
+        raise ValueError("Provide only one of 'gid' or 'sheet_title', not both.")
+
+    if gid:
+        url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv&gid={gid}"
+    elif sheet_title:
+        # gviz endpoint supports selecting by sheet name directly; returns CSV with tqx=out:csv
+        url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={quote(sheet_title)}"
+    else:
+        # Default first sheet
+        url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv"
 
     resp = requests.get(url)
     resp.raise_for_status()
@@ -85,17 +100,19 @@ def main():
     # Inputs
     flat_sessions_path = "ismar_sessions_flat.csv"  # Local CSV with session metadata
     google_sheet_id = "1Cfo14TFRp_zsGoGzODodnzPRTEob--MRpxzlSYGEbZQ"  # ProgramISMAR_restructured
-    google_gid = None  # Use a string such as "0" if targeting a specific tab
+    # Sheet selection (choose one of: google_gid OR google_sheet_title)
+    google_gid = None  # e.g., "0" if you know the numeric gid
+    google_sheet_title = "Papers"  # Fetch by sheet/tab title
 
     # Output
-    output_csv = "ProgramISMAR_with_sessions.csv"
+    output_csv = "papers.csv"
 
     # Load sources
     flat = pd.read_csv(flat_sessions_path, dtype=str, keep_default_na=False)
     # Clean any misdecoded characters in the flat file as well, for safety
     flat = flat.applymap(clean_text_encoding)
 
-    program = load_google_sheet_as_csv(google_sheet_id, google_gid)
+    program = load_google_sheet_as_csv(google_sheet_id, gid=google_gid, sheet_title=google_sheet_title)
 
     # Validate program columns
     expected_program_cols = ["Paper ID", "Paper Title", "Session Title"]

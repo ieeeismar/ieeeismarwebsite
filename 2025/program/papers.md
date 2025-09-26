@@ -3,11 +3,14 @@ layout: 2025/page
 title: Papers
 ---
 
-{% assign rows = site.data["2025"]["program"]["ProgramISMAR_with_sessions"] %}
+*Last updated: 2025-09-26 5:53AM GMT*
+
+{% assign rows = site.data["2025"]["program"]["papers"] %}
 {% assign days = "October 9 2025|October 10 2025|October 11 2025" | split: "|" %}
 
 <!-- Table of Contents -->
 <div class="papers-toc">
+
   {% for day in days %}
     {% assign day_rows = rows | where: "Session Day", day %}
     {% assign combos_str = "" %}
@@ -81,7 +84,11 @@ title: Papers
               <ul class="paper-list">
                 {% for r in day_rows %}
                   {% if r["Session Start Time"] == parts[0] and r["Session End Time"] == parts[1] and r["Session Title"] == sess[1] and r["Session Location"] == sess[0] %}
-                    <li><strong>{{ r["Paper ID"] }}</strong>: {{ r["Paper Title"] }}</li>
+                    <li class="paper-item">
+                      <span class="paper-id">{{ r["Paper ID"] }}</span>
+                      <span class="paper-title">{{ r["Paper Title"] }}</span>
+                      {% if r["Paper Authors"] %}<span class="paper-authors">{{ r["Paper Authors"] }}</span>{% endif %}
+                    </li>
                   {% endif %}
                 {% endfor %}
               </ul>
@@ -103,14 +110,22 @@ title: Papers
 .papers-time-block { margin:0 0 16px 0; }
 .papers-session { margin:8px 0 3px 0; font-size:1rem; font-weight:600; }
 .papers-location { font-weight:400; color:#555; }
-.paper-list { margin:0 0 10px 16px; padding:0; }
+.page-content ul.paper-list { margin:0 0 10px 0px; padding:0; }
 .paper-list li { margin:1px 0; line-height:1.35; }
+
+/* Card styling similar to posters */
+.paper-list .paper-item { list-style:none; margin:0 0 6px 0; padding:6px 9px 6px 10px; background:#fff; border:1px solid #e1e4e7; border-radius:8px; box-shadow:0 1px 1px rgba(0,0,0,.03); }
+.paper-list .paper-item:hover { box-shadow:0 1px 4px rgba(0,0,0,.07); border-color:#d2d7db; }
+.paper-item .paper-id { display:inline-block; background: rgb(37, 37, 197); color:#fff; font-size:0.60rem; letter-spacing:.45px; font-weight:600; padding:5px 6px 5px; border-radius:6px; margin:0 8px 3px 0; vertical-align:middle; line-height:1; }
+.paper-item .paper-title { font-weight:600; color: #555; font-size:0.9rem; line-height:1.2; }
+.paper-item .paper-authors { display:block; font-size:0.66rem; line-height:1.15; margin:3px 0 0 0; color:#444; font-style:italic; }
 
 /* TOC tables */
 .papers-toc-table { width:100%; border-collapse:collapse; font-size:0.9rem; background:#fff; }
 .papers-toc-table th, .papers-toc-table td { padding:4px 6px; text-align:left; border:1px solid #dcdfe3; }
-.papers-toc-table th { background:#fff; font-weight:600; font-size:0.72rem; letter-spacing:.5px; text-transform:uppercase; }
+.papers-toc-table th { background: rgb(37, 37, 197); font-weight:600; font-size:0.72rem; letter-spacing:.5px; text-transform:uppercase; }
 .papers-toc-table tbody tr:nth-child(even) { background:#fafbfc; }
+.papers-toc-table tbody td:before { padding-right: 0; };
 .toc-day { margin:18px 0 6px 0; font-size:1.05rem; font-weight:600; }
 .toc-time a, .toc-session a, .toc-location a { text-decoration:none; color:#064686; }
 .toc-time a:hover, .toc-session a:hover, .toc-location a:hover { text-decoration:underline; }
@@ -137,7 +152,7 @@ title: Papers
   .papers-toc-table td.toc-location:before { content:""; }
   .papers-toc { margin-bottom:12px; }
   .toc-day { margin:14px 0 4px 0; font-size:0.95rem; }
-  .paper-list { margin-left:14px; }
+  .page-content ul.paper-list { margin-left:0; padding-left:0; }
   .papers-toc-table td a { display:inline-block; max-width:100%; text-overflow:ellipsis; overflow:hidden; vertical-align:top; }
 }
 

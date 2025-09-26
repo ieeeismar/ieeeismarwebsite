@@ -54,10 +54,12 @@
   children:
     - title: Overview
       url: "2025/program/overview"
-    - title: Papers
-      url: "2025/program/papers"
     - title: Keynote Speakers
       url: "2025/program/keynote-speakers"
+    - title: Papers
+      url: "2025/program/papers"
+    - title: Posters
+      url: "2025/program/posters"
     - title: Tutorials
       url: "2025/program/tutorials"
     - title: Workshop Papers
