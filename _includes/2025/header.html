@@ -1,25 +1,47 @@
 <header>
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-        <a href="{{ '/' | relative_url }}">
-            <img src="{{ 'assets/2025/img/IsmarLogo.png' | relative_url }}" alt="Logo" class="logo">
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <a href="{{ '/' | relative_url }}" class="navbar-brand" aria-label="Homepage">
+            <img src="{{ 'assets/2025/img/IsmarLogo.png' | relative_url }}" alt="ISMAR 2025" class="logo">
         </a>
-        <ul class="nav-links">
+        <button class="hamburger" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+        </button>
+        <ul class="nav-links" id="primary-nav">
             {% for item in site.data["2025"].navigation %}
-            <li class="{% if item.children %}dropdown{% endif %}">
-                <a href="{{ item.url | relative_url }}">{{ item.title }}
-                    {% if item.children %}<span class="arrow-down">&#9662;</span>{% endif %}
+            {% assign has_children = item.children %}
+            <li class="nav-item {% if has_children %}dropdown{% endif %}" {% if has_children %}data-has-children="true"{% endif %}>
+                <a href="{{ item.url | relative_url }}" class="nav-link" {% if has_children %}aria-haspopup="true" aria-expanded="false"{% endif %}>
+                    <span class="nav-text">{{ item.title }}</span>
+                    {% if has_children %}<span class="arrow arrow-down" aria-hidden="true"></span>{% endif %}
                 </a>
-                {% if item.children %}
-                <ul class="dropdown-content">
+                {% if has_children %}
+                <ul class="dropdown-content" role="menu">
                     {% for child in item.children %}
-                    <li class="{% if child.children %}dropdown{% endif %}">
-                        <a href="{{ child.url | relative_url }}">{{ child.title }}
-                            {% if child.children %}<span class="arrow-right">&#9656;</span>{% endif %}</a>
-                        {% if child.children %}
-                        <ul class="dropdown-content">
+                    {% assign child_has_children = child.children %}
+                    <li class="{% if child_has_children %}dropdown{% endif %}" {% if child_has_children %}data-has-children="true"{% endif %}>
+                        <a href="{{ child.url | relative_url }}" class="nav-link" {% if child_has_children %}aria-haspopup="true" aria-expanded="false"{% endif %}>
+                            <span class="nav-text">{{ child.title }}</span>
+                            {% if child_has_children %}<span class="arrow arrow-right" aria-hidden="true"></span>{% endif %}
+                        </a>
+                        {% if child_has_children %}
+                        <ul class="dropdown-content" role="menu">
                             {% for grandchild in child.children %}
-                            <li><a href="{{ grandchild.url | relative_url }}">{{ grandchild.title }}</a></li>
+                            {% assign gc_has_children = grandchild.children %}
+                            <li class="{% if gc_has_children %}dropdown{% endif %}" {% if gc_has_children %}data-has-children="true"{% endif %}>
+                                <a class="nav-link" href="{{ grandchild.url | relative_url }}" {% if gc_has_children %}aria-haspopup="true" aria-expanded="false"{% endif %}>
+                                    <span class="nav-text">{{ grandchild.title }}</span>
+                                    {% if gc_has_children %}<span class="arrow arrow-right" aria-hidden="true"></span>{% endif %}
+                                </a>
+                                {% if gc_has_children %}
+                                <ul class="dropdown-content" role="menu">
+                                    {% for ggrandchild in grandchild.children %}
+                                    <li><a class="nav-link" href="{{ ggrandchild.url | relative_url }}">{{ ggrandchild.title }}</a></li>
+                                    {% endfor %}
+                                </ul>
+                                {% endif %}
+                            </li>
                             {% endfor %}
                         </ul>
                         {% endif %}
@@ -30,8 +52,5 @@
             </li>
             {% endfor %}
         </ul>
-        <div class="hamburger" onclick="toggleMenu()">
-            &#9776;
-        </div>
     </nav>
 </header>

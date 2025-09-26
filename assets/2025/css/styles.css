@@ -25,7 +25,7 @@ body {
     top: 0;                 /* Stick to the top */
     width: 100%;            /* Full width */
     z-index: 1000;          /* Bring it to the front */
-    height: var(--nav-height);           /* Set a specific height for the navbar */
+    min-height: var(--nav-height);
     display: flex;          /* Use flexbox for layout */
     align-items: center;    /* Center items vertically */
     padding: 0 20px;        /* Padding on the sides */
@@ -67,12 +67,6 @@ body {
     }
 }
 
-@media (min-width: 1350px) {
-    .logo {
-        margin-right: 570px; 
-    }
-}
-
 /* Navigation Links */
 .nav-links {
     list-style: none;
@@ -80,6 +74,32 @@ body {
     flex-direction: row;
     margin: 0;
     padding: 0;
+}
+
+/* Submenu indicators (simple, visible triangles) */
+.nav-links li[data-has-children] > a .arrow { 
+    display:inline-block; 
+    width:0; height:0; 
+    margin-left:6px; 
+    border-left:5px solid transparent; 
+    border-right:5px solid transparent; 
+    border-top:6px solid currentColor; 
+    transition: transform .25s ease; 
+}
+/* Rotate down arrow when open (mobile accordion) */
+.nav-item.open > a .arrow.arrow-down { transform: rotate(180deg); }
+/* Nested (right) arrow */
+.dropdown-content li[data-has-children] > a .arrow.arrow-right { 
+    border-top:5px solid transparent; 
+    border-bottom:5px solid transparent; 
+    border-left:6px solid currentColor; 
+    border-right:none; 
+    margin-left:8px; 
+}
+.dropdown-content li.open > a .arrow.arrow-right { transform: rotate(90deg); }
+/* Desktop hover cue (optional rotate on hover for top level) */
+@media (min-width:769px){
+    .nav-links > li[data-has-children]:hover > a .arrow.arrow-down:not(.no-rotate) { transform: rotate(180deg); }
 }
 
 nav ul li {
@@ -133,6 +153,12 @@ nav ul li {
     left: calc(100% + 10px); /* Position to the right of the parent dropdown while accounting for padding */
     top: 0; /* Align with the top of the parent dropdown */
     margin-left: 1px; /* Small gap between parent and child dropdown */
+}
+
+/* Third-level (great-grandchild) positioning on desktop */
+.dropdown-content .dropdown-content .dropdown-content {
+    left: 100%;
+    top: 0;
 }
 
 .dropdown-content li {
@@ -646,7 +672,7 @@ html, body {
     }
 }
 
-/* Registration Announcement Styling - removed (replaced by notice include) */
+/* Notice / Information Banner (replaces prior registration announcement block) */
 
 /* Notice / Information Banner */
 .notice {
@@ -719,7 +745,7 @@ html, body {
     margin: 0 auto 8px auto;
 }
 
-/* Responsive Design for Registration Announcement - removed */
+/* (Former registration announcement responsive block removed; using notice component instead) */
 
 /* Sponsors Section Styling */
 .sponsors-section {
@@ -1649,8 +1675,7 @@ h1.previous-sponsors-title {
 
 }
 
-/* Dark Overlay */
-/* Temporarily removed the dark overlay effect by setting the alpha value to zero */
+/* Footer overlay (currently transparent; adjust rgba for darkening effect) */
 .footer::before {
     content: ''; /* Empty content for the overlay */
     position: absolute; /* Position overlay above the image */
@@ -1685,46 +1710,39 @@ h1.previous-sponsors-title {
 }
 
 
-/* Hide Hamburger Menu by Default */
-.hamburger {
-    display: none;
-    font-size: 30px;
-    flex-direction: column;
-    cursor: pointer;
-    position: absolute; 
-    top: 10px; 
-    right: 20px; 
+/* Hamburger navigation toggle */
+.hamburger { 
+    display:none; width:46px; height:46px; background:transparent; border:0; cursor:pointer; position:absolute; top:12px; right:16px; border-radius:6px; transition: background .25s ease; box-sizing:border-box; 
 }
+.hamburger:focus-visible { outline:2px solid #1e1e1e; outline-offset:2px; }
+.hamburger:hover { background:#f5f5f5; }
+.hamburger-bar { 
+    position:absolute; left:50%; width:28px; height:3px; background:#222; border-radius:3px; transition: transform .34s cubic-bezier(.645,.045,.355,1), opacity .25s ease; transform-origin:center; transform:translateX(-50%); 
+}
+.hamburger-bar:nth-child(1){ top:14px; }
+.hamburger-bar:nth-child(2){ top:21px; }
+.hamburger-bar:nth-child(3){ top:28px; }
+/* Centered X transformation */
+body.nav-open .hamburger-bar:nth-child(1){ top:21px; transform:translate(-50%,0) rotate(45deg); }
+body.nav-open .hamburger-bar:nth-child(2){ opacity:0; }
+body.nav-open .hamburger-bar:nth-child(3){ top:21px; transform:translate(-50%,0) rotate(-45deg); }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
-    .hamburger {
-        display: flex; /* Show hamburger menu on small screens */
-        margin-left: auto;
-    }
-
-    .nav-links {
-        display: none; /* Hide links initially */
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        background-color: white;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .nav-links.active {
-        display: flex; /* Show links when hamburger is clicked */
-    }
-
-    .nav-links li {
-        margin: 10px 0;
-    }
-
-    .nav-links a {
-        font-size: 20px; /* Slightly larger font for mobile */
-    }
+  .hamburger { display:flex; }
+  body.nav-open .nav-links { transform: translateY(0); opacity:1; pointer-events:auto; }
+  .nav-links { position:fixed; top:var(--nav-height); left:0; right:0; background:#fff; flex-direction:column; align-items:stretch; gap:0; max-height:calc(100vh - var(--nav-height)); overflow-y:auto; box-shadow:0 6px 18px rgba(0,0,0,.15); transform:translateY(-10px); opacity:0; pointer-events:none; transition: opacity .25s ease, transform .25s ease; z-index:999; }
+  .nav-links li { margin:0; position:relative; }
+  .nav-links > li > a { padding:14px 20px; border-bottom:1px solid #eee; }
+  .nav-links a { font-size:16px; }
+  .nav-links li.open > .dropdown-content { max-height:800px; opacity:1; visibility:visible; }
+  .dropdown-content { position:static; box-shadow:none; padding:0; margin:0; max-height:0; overflow:hidden; transition:max-height .35s ease, opacity .3s ease; opacity:0; visibility:hidden; }
+  .dropdown-content .dropdown-content { margin-left:0; padding-left:14px; border-left:3px solid #f2f2f2; }
+  /* Third level indentation on mobile */
+  .dropdown-content .dropdown-content .dropdown-content { padding-left:18px; border-left:3px solid #ececec; }
+  li[data-has-children] > a { display:flex; align-items:center; justify-content:space-between; }
+  /* Mobile adjustments for arrows (keep triangles) */
+  .nav-links li[data-has-children] > a .arrow { margin-left:auto; }
+  .dropdown-content li[data-has-children] > a .arrow.arrow-right { margin-left:6px; }
 }
 
 /* Style for passed deadlines */
@@ -1732,4 +1750,11 @@ h1.previous-sponsors-title {
     text-decoration: line-through;
     opacity: 0.7;
     color: #999 !important;
+}
+
+/* Remove rounded corners on nav link hover for mobile */
+@media (max-width: 768px) {
+    .nav-links li a:hover {
+        border-radius: 0 !important; /* Square edges on mobile */
+    }
 }
