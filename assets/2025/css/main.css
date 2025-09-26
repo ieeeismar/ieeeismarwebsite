@@ -329,7 +329,7 @@ h2 {
     font-size: 21px;
     margin-top: 20px;
     margin-bottom: 10px;
-    color: rgb(37, 37, 197);
+    color: var(--blue);
     font-family: "Poppins", sans-serif;
 }
 
@@ -624,21 +624,6 @@ h2 {
     background-color: #fff;
     padding: 40px;
     border-radius: 8px;
-}
-
-.page-content h2 {
-    font-size: 24px;
-    margin-bottom: 15px;
-    color: rgb(37, 37, 197);
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-}
-.page-content h3 {
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    color: rgb(37, 37, 197);
-    font-family: "Poppins", sans-serif;
 }
 .page-content p {
     font-size: 16px;

@@ -54,6 +54,8 @@
   children:
     - title: Overview
       url: "2025/program/overview"
+    - title: Papers
+      url: "2025/program/papers"
     - title: Keynote Speakers
       url: "2025/program/keynote-speakers"
     - title: Tutorials
