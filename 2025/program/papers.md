@@ -138,7 +138,7 @@ title: Papers
   .papers-toc-table thead { display:none; }
   .papers-toc-table { border:0; }
   .papers-toc-table, .papers-toc-table tbody { display:block; width:100%; }
-  .papers-toc-table tr { display:flex; flex-wrap:wrap; border:1px solid #dcdfe3; border-radius:8px; margin:0 0 10px 0; padding:8px 2px 10px; background:#fff; box-shadow:0 1px 2px rgba(0,0,0,.05); }
+  .papers-toc-table tr { display:flex; flex-wrap:wrap; border:1px solid #dcdfe3; border-radius:8px; padding:8px 10px; background:#fff; box-shadow:0 1px 2px rgba(0,0,0,.05); }
   .papers-toc-table td { border:none; padding:2px 0; font-size:0.82rem; line-height:1.2; }
   .papers-toc-table td.toc-session { order:0; width:100%; font-size:0.95rem; font-weight:600; margin-bottom:4px; text-align:left; padding-left:0; }
   .papers-toc-table td.toc-session a { display:block; width:100%; }
@@ -154,10 +154,6 @@ title: Papers
   .toc-day { margin:14px 0 4px 0; font-size:0.95rem; }
   .page-content ul.paper-list { margin-left:0; padding-left:0; }
   .papers-toc-table td a { display:inline-block; max-width:100%; text-overflow:ellipsis; overflow:hidden; vertical-align:top; }
-}
-
-@media (max-width:480px){
-  .papers-toc-table tr { padding:8px 10px; }
   .papers-session { font-size:0.95rem; }
 }
 </style>
