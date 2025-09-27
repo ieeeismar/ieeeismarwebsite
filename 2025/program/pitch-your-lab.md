@@ -32,7 +32,7 @@ University of South Australia, Adelaide, Australia
 * **Website link**: [https://unisa.edu.au/ive](https://unisa.edu.au/ive)
 * **Presenter**: Gun Lee
 
-## **WeLight Lab**
+## **WeLight Lab (Computational Imaging & Mixed Representation)**
 
 The University of Hong Kong, Hong Kong, Hong Kong
 
@@ -129,3 +129,10 @@ University of California, Davis, Sacramento, CA, USA
 
 * **Website link**: [https://www.3dprintviz.org/](https://www.3dprintviz.org/)
 * **Presenter**: Brandon Strong
+
+## **Centre for Immersification**
+
+Singapore Institute of Technology, Singapore, Singapore
+
+* **Website link**: [https://www.immersification.org/](https://www.immersification.org/)
+* **Presenter**: Jeannie Lee
