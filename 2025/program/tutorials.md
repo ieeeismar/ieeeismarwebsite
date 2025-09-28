@@ -3,13 +3,13 @@ layout: 2025/page
 title: Tutorials
 
 ---
-*Last updated: 2025-08-29 11:45AM GMT*
+*Last updated: 2025-09-28 06:33AM GMT*
 
 ---
 
 ## Towards Inclusive XR Research & Development
 
-#### Room 107 — October 8 (Wednesday), 9:00–12:00
+#### Room 107 — October 8 (Wednesday), 9:00–12:30
 
 ### Organizers 
 
@@ -24,7 +24,7 @@ This tutorial is concerned with designing and researching immersive tech applica
 
 ## Interaction Design for eXtended Reality (ID4XR)
 
-#### Room 107 — October 8 (Wednesday), 13:30–17:30
+#### Room 107 — October 8 (Wednesday), 14:00–17:30
 
 ### Organizers 
 
