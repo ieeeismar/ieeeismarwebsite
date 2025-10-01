@@ -169,10 +169,6 @@ The benefits of sponsoring ISMAR include:
 -   **Product Sponsor** – Sponsor your product or services that are of interest to ISMAR delegates.
 -   **Custom prizes** – To be discussed with chairs.
 
-## Exhibitor Information (TBC)
-
-**TBD**
-
 ## Deposit Information
 
 A deposit amount equal to at least 50% of the total space/sponsorship request must be submitted with this application in order for a space to be assigned. Contracts will be processed in the order they are received.
