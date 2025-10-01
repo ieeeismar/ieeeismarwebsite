@@ -65,6 +65,10 @@ partners:
     full_name: "Korean Institute of Information Scientists and Engineers"
     logo: "/assets/2025/img/sponsors/KIISE.png"
     url: "https://www.kiise.or.kr/academyEng/main/getContent.faEng?content_no=1&MENU_ID=010100"
+  - name: "Korea HCI Society"
+    full_name: "Korea HCI Society"
+    logo: "/assets/2025/img/sponsors/HCI-Logo.png"
+    url: "https://www.hcikorea.org/"
   - name: "KAIST"
     logo: "/assets/2025/img/sponsors/KAIST.png"
     url: "https://www.kaist.ac.kr/en/"
@@ -79,6 +83,7 @@ partners:
   - name: "Daejeon Tourism Organization"
     logo: "/assets/2025/img/sponsors/Daejeon-Tourism.png"
     url: "https://djto.kr/eng/index.do"
+
 
 
 
