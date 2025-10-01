@@ -924,9 +924,9 @@ h1.sponsors-title {
     max-width: 600px;
     margin: 0 auto;
     grid-template-columns: repeat(2, 1fr);
-    align-items: center;
+    align-items: start;
     justify-items: center;
-    place-items: center;
+    place-items: start;
 }
 
 .exhibitor-tier .sponsor-grid {
@@ -959,10 +959,28 @@ h1.sponsors-title {
     max-height: 95%;
 }
 
+/* Ensure ETRI logo maintains proper size with promotional buttons */
+.bronze-tier .sponsor-item.has-promotional .sponsor-logo-link img {
+    max-height: 120px;
+    margin-bottom: 15px;
+}
+
+/* Ensure all sponsor logos maintain proper size when promotional buttons are present */
+.sponsor-item.has-promotional .sponsor-logo-link img {
+    max-height: 120px;
+    margin-bottom: 15px;
+}
+
+/* Adjust Apple logo positioning to the right */
+.sponsor-item.apple-logo {
+    padding-left: 40px;
+}
+
 .sponsor-item {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 30px;
     background: transparent;
     transition: transform 0.3s ease;
@@ -979,10 +997,10 @@ h1.sponsors-title {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100%;
     text-decoration: none;
     transition: transform 0.2s ease;
     text-align: center;
+    margin-bottom: 0;
 }
 
 .sponsor-logo-link:hover {
@@ -996,6 +1014,71 @@ h1.sponsors-title {
     transition: transform 0.3s ease;
     display: block;
     margin: 0 auto;
+}
+
+/* Promotional buttons styling */
+.promotional-buttons {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.promo-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 6px 12px;
+    background: linear-gradient(135deg, #4971E7, #3B5BDB);
+    color: black !important;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(73, 113, 231, 0.2);
+    border: none;
+    cursor: pointer;
+    min-width: 110px;
+    justify-content: center;
+}
+
+.promo-button:hover {
+    background: linear-gradient(135deg, #3B5BDB, #2563EB);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(73, 113, 231, 0.4);
+    color: white !important;
+    text-decoration: none;
+}
+
+.promo-button i {
+    font-size: 0.8rem;
+}
+
+.video-button {
+    background: linear-gradient(135deg, #EF4444, #DC2626);
+    box-shadow: 0 2px 6px rgba(239, 68, 68, 0.2);
+    color: black !important;
+}
+
+.video-button:hover {
+    background: linear-gradient(135deg, #DC2626, #B91C1C);
+    box-shadow: 0 4px 10px rgba(239, 68, 68, 0.3);
+    color: white !important;
+}
+
+.brochure-button {
+    background: linear-gradient(135deg, #10B981, #059669);
+    box-shadow: 0 2px 6px rgba(16, 185, 129, 0.2);
+    color: black !important;
+}
+
+.brochure-button:hover {
+    background: linear-gradient(135deg, #059669, #047857);
+    box-shadow: 0 4px 10px rgba(16, 185, 129, 0.3);
+    color: white !important;
 }
 
 /* Partners Section Styling */
@@ -1167,6 +1250,8 @@ h1.previous-sponsors-title {
     .sponsor-item {
         padding: 20px;
         min-height: 100px;
+        flex-direction: column;
+        justify-content: flex-start;
     }
     
     .partner-item {
@@ -1193,6 +1278,27 @@ h1.previous-sponsors-title {
     
     .partner-logo-link img {
         max-height: 70px;
+    }
+
+     /* Responsive promotional buttons for tablet */
+    .promotional-buttons {
+        margin-top: 12px;
+        gap: 6px;
+    }
+    
+    .promo-button {
+        padding: 5px 10px;
+        font-size: 0.7rem;
+        min-width: 100px;
+    }
+    
+    .sponsor-item.has-promotional .sponsor-logo-link img {
+        max-height: 100px;
+        margin-bottom: 12px;
+    }
+    
+    .sponsor-item.apple-logo {
+        padding-left: 30px;
     }
     
     /* Responsive logo size adjustments for tablet */
@@ -1255,6 +1361,8 @@ h1.previous-sponsors-title {
     .sponsor-item {
         padding: 15px;
         min-height: 80px;
+        flex-direction: column;
+        justify-content: flex-start;
     }
     
     .partner-item {
@@ -1281,6 +1389,28 @@ h1.previous-sponsors-title {
     
     .partner-logo-link img {
         max-height: 60px;
+    }
+
+    /* Responsive promotional buttons for mobile */
+    .promotional-buttons {
+        margin-top: 10px;
+        gap: 5px;
+    }
+    
+    .promo-button {
+        padding: 4px 8px;
+        font-size: 0.65rem;
+        min-width: 90px;
+        border-radius: 12px;
+    }
+    
+    .sponsor-item.has-promotional .sponsor-logo-link img {
+        max-height: 80px;
+        margin-bottom: 10px;
+    }
+    
+    .sponsor-item.apple-logo {
+        padding-left: 20px;
     }
     
     /* Responsive logo size adjustments for mobile */
