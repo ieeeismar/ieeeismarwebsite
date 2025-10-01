@@ -1105,9 +1105,9 @@ h1.previous-sponsors-title {
 .partner-item:nth-child(1) .partner-logo-link img, /* IEEE */
 .partner-item:nth-child(4) .partner-logo-link img, /* WWW Conference */
 .partner-item:nth-child(5) .partner-logo-link img, /* KIISE */
-.partner-item:nth-child(6) .partner-logo-link img, /* KAIST */
-.partner-item:nth-child(8) .partner-logo-link img, /* Daejeon City */
-.partner-item:nth-child(9) .partner-logo-link img { /* Daejeon Tourism */
+.partner-item:nth-child(7) .partner-logo-link img, /* KAIST */
+.partner-item:nth-child(9) .partner-logo-link img, /* Daejeon City */
+.partner-item:nth-child(10) .partner-logo-link img { /* Daejeon Tourism */
     max-height: 45px;
 }
 
@@ -1119,8 +1119,8 @@ h1.previous-sponsors-title {
     max-height: 80px;
 }
 
-.partner-item:nth-child(7) .partner-logo-link img { /* Korea Tourism Organization */
-    max-height: 80px;
+.partner-item:nth-child(6) .partner-logo-link img { /* HCI Society */
+    max-height: 60px;
 }
 
 
@@ -1199,9 +1199,9 @@ h1.previous-sponsors-title {
     .partner-item:nth-child(1) .partner-logo-link img, /* IEEE */
     .partner-item:nth-child(4) .partner-logo-link img, /* WWW Conference */
     .partner-item:nth-child(5) .partner-logo-link img, /* KIISE */
-    .partner-item:nth-child(6) .partner-logo-link img, /* KAIST */
-    .partner-item:nth-child(8) .partner-logo-link img, /* Daejeon City */
-    .partner-item:nth-child(9) .partner-logo-link img { /* Daejeon Tourism */
+    .partner-item:nth-child(7) .partner-logo-link img, /* KAIST */
+    .partner-item:nth-child(9) .partner-logo-link img, /* Daejeon City */
+    .partner-item:nth-child(10) .partner-logo-link img { /* Daejeon Tourism */
         max-height: 45px;
     }
     
@@ -1213,7 +1213,11 @@ h1.previous-sponsors-title {
         max-height: 75px;
     }
     
-    .partner-item:nth-child(7) .partner-logo-link img { /* Korea Tourism Organization */
+    .partner-item:nth-child(6) .partner-logo-link img { /* HCI Society */
+        max-height: 60px;
+    }
+    
+    .partner-item:nth-child(8) .partner-logo-link img { /* Korea Tourism Organization */
         max-height: 75px;
     }
 }
@@ -1283,9 +1287,9 @@ h1.previous-sponsors-title {
     .partner-item:nth-child(1) .partner-logo-link img, /* IEEE */
     .partner-item:nth-child(4) .partner-logo-link img, /* WWW Conference */
     .partner-item:nth-child(5) .partner-logo-link img, /* KIISE */
-    .partner-item:nth-child(6) .partner-logo-link img, /* KAIST */
-    .partner-item:nth-child(8) .partner-logo-link img, /* Daejeon City */
-    .partner-item:nth-child(9) .partner-logo-link img { /* Daejeon Tourism */
+    .partner-item:nth-child(7) .partner-logo-link img, /* KAIST */
+    .partner-item:nth-child(9) .partner-logo-link img, /* Daejeon City */
+    .partner-item:nth-child(10) .partner-logo-link img { /* Daejeon Tourism */
         max-height: 40px;
     }
     
@@ -1297,7 +1301,11 @@ h1.previous-sponsors-title {
         max-height: 80px;
     }
     
-    .partner-item:nth-child(7) .partner-logo-link img { /* Korea Tourism Organization */
+    .partner-item:nth-child(6) .partner-logo-link img { /* HCI Society */
+        max-height: 60px;
+    }
+    
+    .partner-item:nth-child(8) .partner-logo-link img { /* Korea Tourism Organization */
         max-height: 80px;
     }
 }
