@@ -4,6 +4,7 @@ gold_sponsors:
     logo: "/assets/2025/img/sponsors/KISTI.png"
     url: "https://www.kisti.re.kr/eng/"
     website: "www.kisti.re.kr"
+    promotional_video: "https://drive.google.com/file/d/1sFGOJQ2hj4YMJzXhzxSYek9aJIOOsBw6/view?usp=sharing,"
 
 silver_sponsors:
   - name: "Google"
@@ -32,6 +33,8 @@ bronze_sponsors:
     logo: "/assets/2025/img/sponsors/ETRI.png"
     url: "https://www.etri.re.kr/eng/main/main.etri"
     website: "www.etri.re.kr"
+    promotional_video: "https://drive.google.com/file/d/1zvTx-DvfnTUkgCnU4F54WetilQWyYNC_/view?usp=sharing,"
+    promotional_brochure: "/assets/2025/sponsors-files/ETRI_Brouchure.pdf"  
   - name: "Apple"
     full_name: "Apple"
     logo: "/assets/2025/img/sponsors/apple.png"
@@ -83,6 +86,7 @@ partners:
   - name: "Daejeon Tourism Organization"
     logo: "/assets/2025/img/sponsors/Daejeon-Tourism.png"
     url: "https://djto.kr/eng/index.do"
+
 
 
 
