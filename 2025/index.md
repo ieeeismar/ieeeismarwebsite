@@ -158,7 +158,7 @@ redirect_from: /
         </div>
         <div class="sponsor-grid">
             {% for sponsor in site.data["2025"].sponsors.gold_sponsors %}
-            <div class="sponsor-item">
+            <div class="sponsor-item{% if sponsor.name == "KISTI" and sponsor.promotional_video %} has-promotional{% endif %}">
                 {% if sponsor.url and sponsor.url != "" %}
                 <a href="{{ sponsor.url }}" target="_blank" class="sponsor-logo-link">
                     <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo" />
@@ -166,6 +166,15 @@ redirect_from: /
                 {% else %}
                 <div class="sponsor-logo-link">
                     <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo" />
+                </div>
+                {% endif %}
+                
+                <!-- Promotional materials buttons for specific sponsors -->
+                {% if sponsor.name == "KISTI" and sponsor.promotional_video %}
+                <div class="promotional-buttons">
+                    <a href="{{ sponsor.promotional_video }}" target="_blank" class="promo-button video-button">
+                        <i class="fas fa-play"></i> Promotional Video
+                    </a>
                 </div>
                 {% endif %}
             </div>
@@ -206,7 +215,7 @@ redirect_from: /
         </div>
         <div class="sponsor-grid">
             {% for sponsor in site.data["2025"].sponsors.bronze_sponsors %}
-            <div class="sponsor-item">
+            <div class="sponsor-item{% if sponsor.name == "ETRI" %}{% if sponsor.promotional_video or sponsor.promotional_brochure %} has-promotional{% endif %}{% endif %}{% if sponsor.name == "Apple" %} apple-logo{% endif %}">
                 {% if sponsor.url and sponsor.url != "" %}
                 <a href="{{ sponsor.url }}" target="_blank" class="sponsor-logo-link">
                     <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo" />
@@ -215,6 +224,24 @@ redirect_from: /
                 <div class="sponsor-logo-link">
                     <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo" />
                 </div>
+                {% endif %}
+                
+                <!-- Promotional materials buttons for specific sponsors -->
+                {% if sponsor.name == "ETRI" %}
+                {% if sponsor.promotional_video or sponsor.promotional_brochure %}
+                <div class="promotional-buttons">
+                    {% if sponsor.promotional_video %}
+                    <a href="{{ sponsor.promotional_video }}" target="_blank" class="promo-button video-button">
+                        <i class="fas fa-play"></i> Promotional Video
+                    </a>
+                    {% endif %}
+                    {% if sponsor.promotional_brochure %}
+                    <a href="{{ sponsor.promotional_brochure }}" target="_blank" class="promo-button brochure-button">
+                        <i class="fas fa-file-pdf"></i> Brochure
+                    </a>
+                    {% endif %}
+                </div>
+                {% endif %}
                 {% endif %}
             </div>
             {% endfor %}
