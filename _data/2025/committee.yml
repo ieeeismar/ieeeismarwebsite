@@ -289,7 +289,7 @@ chairs:
         img: "assets/2025/img/Committee Members Images/Takafumi Taketomi.jpg"
       - name: "Kook Nam Han"
         affiliation: "KEA"
-        img: "assets/2025/img/Committee Members Images/kook-nam-han.jpg"
+        img: "assets/2025/img/Committee Members Images/kook-nam-han.png"
 
   - title: "Diversity, Equity, Inclusion, and Accessibility Chairs"
     members:
@@ -363,6 +363,7 @@ chairs:
       - name: "Mark Billinghurst"
         affiliation: "The University of South Australia"
         img: "assets/2025/img/Committee Members Images/Mark Billinghurst.png"
+
 
 
 
