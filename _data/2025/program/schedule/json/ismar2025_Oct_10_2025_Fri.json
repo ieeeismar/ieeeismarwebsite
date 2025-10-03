@@ -1,0 +1,459 @@
+{
+  "date": "Oct 10, 2025 (Fri.)",
+  "headers": [
+    {
+      "text": "Time",
+      "render": true,
+      "colspan": 1
+    },
+    {
+      "text": "Room 201 (Grand Ballroom 1)",
+      "render": true,
+      "colspan": 1
+    },
+    {
+      "text": "Room 202 (Grand Ballroom 2)",
+      "render": true,
+      "colspan": 1
+    },
+    {
+      "text": "Room 204",
+      "render": true,
+      "colspan": 1
+    },
+    {
+      "text": "Room 205",
+      "render": true,
+      "colspan": 1
+    },
+    {
+      "text": "Room 301 (Conference Hall)",
+      "render": true,
+      "colspan": 1
+    },
+    {
+      "text": "Exhibition Hall",
+      "render": true,
+      "colspan": 2
+    },
+    {
+      "text": "Exhibition Hall",
+      "render": false,
+      "colspan": 2
+    }
+  ],
+  "rows": [
+    {
+      "time": "09:00~10:00",
+      "cells": [
+        {
+          "text": "Keynote Talk II",
+          "rowspan": 1,
+          "colspan": 2,
+          "render": true
+        },
+        {
+          "render": false
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Exhibition",
+          "rowspan": 10,
+          "colspan": 1,
+          "render": true
+        }
+      ]
+    },
+    {
+      "time": "10:00~10:30",
+      "cells": [
+        {
+          "text": "Coffee Break",
+          "rowspan": 1,
+          "colspan": 5,
+          "render": true
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "text": "Demo & Poster Presentation",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "render": false
+        }
+      ]
+    },
+    {
+      "time": "10:30~11:30",
+      "cells": [
+        {
+          "text": "3DUI Selection & Pointing",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Agents and AI",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Humans & Collaboration",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Privacy & Attacks",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Robots",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "render": false
+        }
+      ]
+    },
+    {
+      "time": "11:30~12:00",
+      "cells": [
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 5,
+          "render": true
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "text": "Demo & Poster Presentation",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "render": false
+        }
+      ]
+    },
+    {
+      "time": "12:00~13:00",
+      "cells": [
+        {
+          "text": "3DUI: Gaze 2",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Perception 2",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Art & Museum",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Emotions",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Machine Learning for 3D reconstruction/rendering",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "render": false
+        }
+      ]
+    },
+    {
+      "time": "13:00~14:30",
+      "cells": [
+        {
+          "text": "Lunch",
+          "rowspan": 1,
+          "colspan": 5,
+          "render": true
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "text": "Demo & Poster Presentation",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "render": false
+        }
+      ]
+    },
+    {
+      "time": "14:30~15:30",
+      "cells": [
+        {
+          "text": "Gaze, Eye Tracking & Guidance",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "3DUI 3",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Avatar 2: Capabilities",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Haptics & Collaboration",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Depth",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "render": false
+        }
+      ]
+    },
+    {
+      "time": "15:30~16:00",
+      "cells": [
+        {
+          "text": "Coffee Break",
+          "rowspan": 1,
+          "colspan": 5,
+          "render": true
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "text": "Demo & Poster Presentation",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "render": false
+        }
+      ]
+    },
+    {
+      "time": "16:00~17:00",
+      "cells": [
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Panel Session I",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Panel Session II",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Panel Session III",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "render": false
+        }
+      ]
+    },
+    {
+      "time": "17:00~18:00",
+      "cells": [
+        {
+          "text": "Coffee Break",
+          "rowspan": 1,
+          "colspan": 5,
+          "render": true
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "text": "Demo & Poster Presentation",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "render": false
+        }
+      ]
+    },
+    {
+      "time": "18:00~20:00",
+      "cells": [
+        {
+          "text": "Banquet / Award Ceremony",
+          "rowspan": 1,
+          "colspan": 2,
+          "render": true
+        },
+        {
+          "render": false
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 5,
+          "render": true
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        }
+      ]
+    }
+  ]
+}

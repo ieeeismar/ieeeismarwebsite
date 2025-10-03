@@ -1,0 +1,500 @@
+{
+  "date": "Oct 9, 2025 (Thu.)",
+  "headers": [
+    {
+      "text": "Time",
+      "render": true,
+      "colspan": 1
+    },
+    {
+      "text": "Room 201 (Grand Ballroom 1)",
+      "render": true,
+      "colspan": 1
+    },
+    {
+      "text": "Room 202 (Grand Ballroom 2)",
+      "render": true,
+      "colspan": 1
+    },
+    {
+      "text": "Room 204",
+      "render": true,
+      "colspan": 1
+    },
+    {
+      "text": "Room 205",
+      "render": true,
+      "colspan": 1
+    },
+    {
+      "text": "Room 301 (Conference Hall)",
+      "render": true,
+      "colspan": 1
+    },
+    {
+      "text": "Exhibition Hall",
+      "render": true,
+      "colspan": 2
+    },
+    {
+      "text": "Exhibition Hall",
+      "render": false,
+      "colspan": 2
+    }
+  ],
+  "rows": [
+    {
+      "time": "08:30~09:00",
+      "cells": [
+        {
+          "text": "Opening Ceremony",
+          "rowspan": 1,
+          "colspan": 2,
+          "render": true
+        },
+        {
+          "render": false
+        },
+        {
+          "text": "",
+          "rowspan": 2,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "",
+          "rowspan": 2,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "",
+          "rowspan": 2,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "",
+          "rowspan": 2,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Exhibition",
+          "rowspan": 12,
+          "colspan": 1,
+          "render": true
+        }
+      ]
+    },
+    {
+      "time": "09:00~10:00",
+      "cells": [
+        {
+          "text": "Keynote Talk I",
+          "rowspan": 1,
+          "colspan": 2,
+          "render": true
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        }
+      ]
+    },
+    {
+      "time": "10:00~10:30",
+      "cells": [
+        {
+          "text": "Coffee Break",
+          "rowspan": 1,
+          "colspan": 5,
+          "render": true
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "text": "Demo & Poster Presentation",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "render": false
+        }
+      ]
+    },
+    {
+      "time": "10:30~11:30",
+      "cells": [
+        {
+          "text": "3D Display 1",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Agents Design",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Machine Learning and Graphics",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Haptics 1",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "render": false
+        }
+      ]
+    },
+    {
+      "time": "11:30~12:00",
+      "cells": [
+        {
+          "text": "Coffee Break",
+          "rowspan": 1,
+          "colspan": 5,
+          "render": true
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "text": "Demo & Poster Presentation",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "render": false
+        }
+      ]
+    },
+    {
+      "time": "12:00~13:00",
+      "cells": [
+        {
+          "text": "Locomotion & 3DUI",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Tracking",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Social Behavior & Presence",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Diversity & Therapy",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Collaboration",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "render": false
+        }
+      ]
+    },
+    {
+      "time": "13:00~14:30",
+      "cells": [
+        {
+          "text": "Lunch",
+          "rowspan": 1,
+          "colspan": 5,
+          "render": true
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "text": "Demo & Poster Presentation",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "render": false
+        }
+      ]
+    },
+    {
+      "time": "14:30~15:30",
+      "cells": [
+        {
+          "text": "Education & Learning",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Training in Health and Sports",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Multisensory",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "3D Display & Rendering",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "render": false
+        }
+      ]
+    },
+    {
+      "time": "15:30~16:00",
+      "cells": [
+        {
+          "text": "Coffee Break",
+          "rowspan": 1,
+          "colspan": 5,
+          "render": true
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "text": "Demo & Poster Presentation",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "render": false
+        }
+      ]
+    },
+    {
+      "time": "16:00~17:00",
+      "cells": [
+        {
+          "text": "Hands",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "3DUI: Gaze",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Locomotion",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Cybersickness 1",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Avatars & Tracking, Animation",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "render": false
+        }
+      ]
+    },
+    {
+      "time": "17:00~17:30",
+      "cells": [
+        {
+          "text": "Coffee Break",
+          "rowspan": 1,
+          "colspan": 5,
+          "render": true
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "text": "Demo & Poster Presentation",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "render": false
+        }
+      ]
+    },
+    {
+      "time": "17:30~18:30",
+      "cells": [
+        {
+          "text": "Bodies & presence",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Perception",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "In the Wild",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Document Search",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Perception & Interaction with Hands and Cues",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "render": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "days": [
+    {
+      "label": "Oct 8, 2025 (Wed.)",
+      "file": "ismar2025_Oct_8_2025_Wed.json"
+    },
+    {
+      "label": "Oct 9, 2025 (Thu.)",
+      "file": "ismar2025_Oct_9_2025_Thu.json"
+    },
+    {
+      "label": "Oct 10, 2025 (Fri.)",
+      "file": "ismar2025_Oct_10_2025_Fri.json"
+    },
+    {
+      "label": "Oct 11, 2025\n(Sat.)",
+      "file": "ismar2025_Oct_11_2025_Sat.json"
+    },
+    {
+      "label": "Oct 12, 2025\n(Sun.)",
+      "file": "ismar2025_Oct_12_2025_Sun.json"
+    }
+  ]
+}

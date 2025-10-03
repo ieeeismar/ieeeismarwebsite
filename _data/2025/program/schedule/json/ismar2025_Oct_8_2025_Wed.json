@@ -1,0 +1,365 @@
+{
+  "date": "Oct 8, 2025 (Wed.)",
+  "headers": [
+    {
+      "text": "Time",
+      "render": true,
+      "colspan": 1
+    },
+    {
+      "text": "Room 101",
+      "render": true,
+      "colspan": 1
+    },
+    {
+      "text": "Room 102",
+      "render": true,
+      "colspan": 1
+    },
+    {
+      "text": "Room 103",
+      "render": true,
+      "colspan": 1
+    },
+    {
+      "text": "Room 104",
+      "render": true,
+      "colspan": 1
+    },
+    {
+      "text": "Room 105",
+      "render": true,
+      "colspan": 1
+    },
+    {
+      "text": "Room 106",
+      "render": true,
+      "colspan": 2
+    },
+    {
+      "text": "Room 106",
+      "render": false,
+      "colspan": 2
+    },
+    {
+      "text": "Room 107",
+      "render": true,
+      "colspan": 1
+    },
+    {
+      "text": "Room 108",
+      "render": true,
+      "colspan": 1
+    },
+    {
+      "text": "Room 201 (Grand Ballroom 1)",
+      "render": true,
+      "colspan": 1
+    }
+  ],
+  "rows": [
+    {
+      "time": "08:30~09:00",
+      "cells": [
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 2,
+          "render": true
+        },
+        {
+          "render": false
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Doctoral Consortium",
+          "rowspan": 2,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        }
+      ]
+    },
+    {
+      "time": "09:00~12:30",
+      "cells": [
+        {
+          "text": "Workshop: XRAI-SCA",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Workshop: 3rd WSR",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Workshop: XR-SPro’25",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Workshop: MARMH’25",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Workshop: xrWORKS’25\nWEXR25",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Workshop: MIX’25",
+          "rowspan": 1,
+          "colspan": 2,
+          "render": true
+        },
+        {
+          "render": false
+        },
+        {
+          "text": "Tutorial: Towards Inclusive XR Research & Development",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "render": false
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        }
+      ]
+    },
+    {
+      "time": "12:30~14:00",
+      "cells": [
+        {
+          "text": "Lunch",
+          "rowspan": 1,
+          "colspan": 10,
+          "render": true
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        }
+      ]
+    },
+    {
+      "time": "14:00~17:30",
+      "cells": [
+        {
+          "text": "Workshop: IDEATExR",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Workshop: XRStand2025",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Workshop: XR-SPro’25",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Workshop: GEMINI",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Workshop: xrWORKS’25\nWEXR25",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Workshop: MIX’25",
+          "rowspan": 1,
+          "colspan": 2,
+          "render": true
+        },
+        {
+          "render": false
+        },
+        {
+          "text": "Tutorial: Interaction Design for eXtended Reality (ID4XR)",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Future Faculty Forum",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        }
+      ]
+    },
+    {
+      "time": "17:30~18:30",
+      "cells": [
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 8,
+          "render": true
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Pitch your Lab",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        }
+      ]
+    },
+    {
+      "time": "18:30~20:00",
+      "cells": [
+        {
+          "text": "Welcome Reception (Terrace & Lobby, 2F)",
+          "rowspan": 1,
+          "colspan": 10,
+          "render": true
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        }
+      ]
+    }
+  ]
+}

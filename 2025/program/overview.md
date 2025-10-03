@@ -1,278 +1,386 @@
 ---
-layout: 2025/page
+layout: 2025/page-full-width
 title: Overview
 ---
 
-<div class="schedule-container">
-  <h2 class="schedule-title">Overview</h2>
-  
-  <!-- Day Filter Controls -->
-  <div class="day-filter-container" role="region" aria-label="Select day">
-    <div class="day-buttons" role="tablist" aria-label="Days">
-      <button class="day-btn active" role="tab" aria-selected="true" data-day="oct8" onclick="filterByDay('oct8')">
-        Oct 8<br><small>Wednesday</small>
+{% assign idx = site.data["2025"].program.schedule.json.schedule_index.days %}
+
+<div class="schedule_outer">
+<div class="schedule" id="schedule-ismar" data-scope="ismar">
+
+  <!-- Tabs -->
+  <div class="schedule_tabs" role="tablist" aria-label="Conference days">
+    {% for d in idx %}
+      <button class="schedule_tab"
+              role="tab"
+              aria-selected="{% if forloop.first %}true{% else %}false{% endif %}"
+              data-day-index="{{ forloop.index0 }}">
+        {{ d.label }}
       </button>
-      <button class="day-btn" role="tab" aria-selected="false" data-day="oct9" onclick="filterByDay('oct9')">
-        Oct 9<br><small>Thursday</small>
-      </button>
-      <button class="day-btn" role="tab" aria-selected="false" data-day="oct10" onclick="filterByDay('oct10')">
-        Oct 10<br><small>Friday</small>
-      </button>
-      <button class="day-btn" role="tab" aria-selected="false" data-day="oct11" onclick="filterByDay('oct11')">
-        Oct 11<br><small>Saturday</small>
-      </button>
-      <button class="day-btn" role="tab" aria-selected="false" data-day="oct12" onclick="filterByDay('oct12')">
-        Oct 12<br><small>Sunday</small>
-      </button>
-    </div>
+    {% endfor %}
   </div>
 
+  <!-- Panels -->
+  {% for d in idx %}
+    {% assign base = d.file | split: '.json' | first %}
+    {% assign day = site.data["2025"].program.schedule.json[base] %}
 
-   <div id="sheetWrapper" class="sheet-wrapper day-view day-oct8">
-    <!-- Wednesday View (Default) -->
-     <iframe 
-       id="scheduleIframeOct8"
-       src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrmgHgmh-sZFvt8d_Wz2Ma69b1l4xsuwLbSiNrNKH2BgJmTFTEPLN7fw6HqHWjLKJK7i48kBKjE-K9/pubhtml?gid=801352381&single=true&widget=false&headers=false&chrome=false&range=A1:K7" 
-       class="responsive-schedule schedule-view day-oct8 active"
-       style="border: none;">
-     </iframe>
-    
-    <!-- Thursday View -->
-    <iframe 
-      id="scheduleIframeOct9"
-       src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrmgHgmh-sZFvt8d_Wz2Ma69b1l4xsuwLbSiNrNKH2BgJmTFTEPLN7fw6HqHWjLKJK7i48kBKjE-K9/pubhtml?gid=801352381&single=true&widget=false&headers=false&chrome=false&range=A10:I22"
-      class="responsive-schedule schedule-view day-oct9"
-      style="border: none;">
-    </iframe>
-    
-    <!-- Friday View -->
-    <iframe 
-      id="scheduleIframeOct10"
-       src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrmgHgmh-sZFvt8d_Wz2Ma69b1l4xsuwLbSiNrNKH2BgJmTFTEPLN7fw6HqHWjLKJK7i48kBKjE-K9/pubhtml?gid=801352381&single=true&widget=false&headers=false&chrome=false&range=A24:I35"
-      class="responsive-schedule schedule-view day-oct10"
-      style="border: none;">
-    </iframe>
+    {% comment %}
+      Build expanded data column labels, one per physical data column to the right of Time.
+    {% endcomment %}
+    {% capture _data_labels %}
+      {% assign seen_time = false %}
+      {% for h in day.headers %}
+        {% if h.render %}
+          {% assign label = h.text %}
+          {% assign times = h.colspan | default: 1 %}
+          {% for i in (1..times) %}
+            {% if forloop.parentloop.index0 > 0 or i > 1 or seen_time %}
+              {{ label }}||
+            {% else %}
+              {% assign seen_time = true %}
+              {% comment %} skip pushing Time into data labels {% endcomment %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    {% endcapture %}
+    {% assign data_labels = _data_labels | split: "||" | reject: "" %}
 
-    <!-- Saturday View -->
-    <iframe 
-      id="scheduleIframeOct11"
-       src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrmgHgmh-sZFvt8d_Wz2Ma69b1l4xsuwLbSiNrNKH2BgJmTFTEPLN7fw6HqHWjLKJK7i48kBKjE-K9/pubhtml?gid=801352381&single=true&widget=false&headers=false&chrome=false&range=A37:I47"
-      class="responsive-schedule schedule-view day-oct11"
-      style="border: none;">
-    </iframe>
-    
-    <!-- Sunday View -->
-    <iframe 
-      id="scheduleIframeOct12"
-       src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrmgHgmh-sZFvt8d_Wz2Ma69b1l4xsuwLbSiNrNKH2BgJmTFTEPLN7fw6HqHWjLKJK7i48kBKjE-K9/pubhtml?gid=801352381&single=true&widget=false&headers=false&chrome=false&range=A49:I52"
-      class="responsive-schedule schedule-view day-oct12"
-      style="border: none;">
-    </iframe>
+    <section class="schedule_panel"
+             role="tabpanel"
+             aria-hidden="{% if forloop.first %}false{% else %}true{% endif %}">
 
-  </div> <!-- end #sheetWrapper -->
-</div> <!-- end .schedule-container -->
+      <!-- Table view -->
+      <div class="schedule_table_outer view_table">
+        <div class="schedule_table_scroll schedule_table_wrap">
+        <table class="schedule_table">
+          <thead>
+            <tr>
+              {% for h in day.headers %}
+                {% if h.render %}
+                  <th{% if h.colspan > 1 %} colspan="{{ h.colspan }}"{% endif %}>{{ h.text }}</th>
+                {% endif %}
+              {% endfor %}
+            </tr>
+          </thead>
+          <tbody>
+            {% for row in day.rows %}
+              <tr>
+                <td class="timecell">{{ row.time }}</td>
+                {% for cell in row.cells %}
+                  {% if cell.render %}
+                    <td{% if cell.rowspan > 1 %} rowspan="{{ cell.rowspan }}"{% endif %}
+                        {% if cell.colspan > 1 %} colspan="{{ cell.colspan }}"{% endif %}
+                        data-text="{{ cell.text | strip | strip_newlines }}">
+                      {{ cell.text }}
+                    </td>
+                  {% endif %}
+                {% endfor %}
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        </div>
+      </div>
+
+      <!-- Cards view -->
+      <div class="schedule_cards_wrap view_cards">
+        {% for row in day.rows %}
+          {% assign r_index = forloop.index0 %}
+          {% comment %}
+            Collect all anchor cells active at this time slot.
+          {% endcomment %}
+          {% assign active_keys = "" %}
+          {% for rr in (0..r_index) %}
+            {% assign dist = r_index | minus: rr | plus: 1 %}
+            {% assign prow = day.rows[rr] %}
+            {% for cell in prow.cells %}
+              {% assign cj = forloop.index0 %}
+              {% if cell.render and cell.text and cell.text != "" and cell.rowspan >= dist %}
+                {% capture active_keys %}{{ active_keys }}{{ rr }}|{{ cj }}||{% endcapture %}
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+          {% assign key_list = active_keys | split: "||" | reject: "" %}
+
+          {% if key_list.size > 0 %}
+            <div class="slot">
+              <div class="slot_time">{{ row.time }}</div>
+              <div class="slot_cards">
+                {% assign printed = "" %}
+                {%- comment -%} Reorder keys so that any card whose title contains "Exhibition" is rendered last {%- endcomment -%}
+                {% assign non_exhibition = "" %}
+                {% assign exhibition_keys = "" %}
+                {% for key in key_list %}
+                  {% assign parts = key | split: "|" %}
+                  {% assign rr_tmp = parts[0] | plus: 0 %}
+                  {% assign cj_tmp = parts[1] | plus: 0 %}
+                  {% assign acell_tmp = day.rows[rr_tmp].cells[cj_tmp] %}
+                  {% assign txt_tmp = acell_tmp.text | strip | strip_newlines %}
+                  {% if txt_tmp contains "Exhibition" %}
+                    {% capture exhibition_keys %}{{ exhibition_keys }}{{ key }}||{% endcapture %}
+                  {% else %}
+                    {% capture non_exhibition %}{{ non_exhibition }}{{ key }}||{% endcapture %}
+                  {% endif %}
+                {% endfor %}
+                {% assign key_list_ordered = non_exhibition | append: exhibition_keys | split: "||" | reject: "" %}
+                {% for key in key_list_ordered %}
+                  {% assign parts = key | split: "|" %}
+                  {% assign rr = parts[0] | plus: 0 %}
+                  {% assign cj = parts[1] | plus: 0 %}
+                  {% assign acell = day.rows[rr].cells[cj] %}
+                  {% assign span = acell.colspan | default: 1 %}
+                  {% assign text_clean = acell.text | strip | strip_newlines %}
+
+                  {% comment %} Deduplicate this anchor {% endcomment %}
+                  {% assign uniq_id = rr | append: "-" | append: cj %}
+                  {% if printed contains uniq_id %}
+                    {% continue %}
+                  {% endif %}
+                  {% capture printed %}{{ printed }} {{ uniq_id }} {% endcapture %}
+
+                  {% comment %} Full session time from start row to end row covered by rowspan {% endcomment %}
+                  {% assign start_slot = day.rows[rr].time %}
+                  {% assign start_time = start_slot | split: "~" | first | strip %}
+                  {% assign end_index = rr | plus: (acell.rowspan | default: 1) | minus: 1 %}
+                  {% assign end_slot = day.rows[end_index].time %}
+                  {% assign end_time = end_slot | split: "~" | last | strip %}
+                  {% assign full_time = start_time | append: "~" | append: end_time %}
+
+                  {% comment %} Suppress room label for Coffee Break and Lunch {% endcomment %}
+                  {% assign show_room = true %}
+                  {% if text_clean == "Coffee Break" or text_clean == "Lunch" %}
+                    {% assign show_room = false %}
+                  {% endif %}
+
+                  {% comment %}
+                    Special case: Welcome Reception — take room label from parentheses
+                  {% endcomment %}
+                  {% assign override_room = "" %}
+                  {% if show_room and text_clean contains "Welcome Reception" and text_clean contains "(" and text_clean contains ")" %}
+                    {% assign after_open = text_clean | split: "(" | last %}
+                    {% assign inside_paren = after_open | split: ")" | first | strip %}
+                    {% assign override_room = inside_paren %}
+                  {% endif %}
+
+                  {% comment %}
+                    Default room labels from header slice [cj .. cj+span-1] if not overridden.
+                  {% endcomment %}
+                  {% assign room_display = "" %}
+                  {% if show_room %}
+                    {% if override_room != "" %}
+                      {% assign room_display = override_room %}
+                    {% else %}
+                      {% assign rooms_concat = "" %}
+                      {% for label in data_labels limit: span offset: cj %}
+                        {% if label != "" %}
+                          {% capture rooms_concat %}{{ rooms_concat }}{{ label }}||{% endcapture %}
+                        {% endif %}
+                      {% endfor %}
+                      {% assign room_names = rooms_concat | split: "||" | reject: "" | uniq %}
+                      {% assign room_display = room_names | join: ", " %}
+                    {% endif %}
+                  {% endif %}
+
+                  <div class="card" data-text="{{ text_clean }}">
+                    <div class="card_title">{{ acell.text }}</div>
+                    <div class="card_meta">
+                      <span class="card_time">{{ full_time }}</span>
+                      {% if show_room and room_display != "" %}
+                        <span class="card_room">{{ room_display }}</span>
+                      {% endif %}
+                    </div>
+                  </div>
+                {% endfor %}
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endfor %}
+ </div>
+</div>
 
 <style>
-.schedule-container {
-  width: 100%;
-  max-width: none; 
-  position: relative;
-  overflow: hidden;
-  margin: 0 auto;
+:root {
+  --c-white: rgb(255, 255, 255);
+  --c-text-dark: rgb(0, 0, 0);
+  --c-nonempty: rgb(235, 244, 250);
+  --c-tutorial: rgb(236, 244, 229);
+  --c-doccons: rgba(244, 229, 229, 1);
+  --c-keynote: rgba(241, 241, 220, 1);
+  --c-ceremony: rgb(249, 239, 229);
+  --c-demo-poster: rgb(228, 242, 229);
+  --c-future-faculty-forum: rgba(206, 212, 243, 1);
+  --c-exhibition-bg: rgb(110, 135, 95);
+  --c-exhibition-fg: rgb(255, 255, 255);
+  --c-pitch-your-lab: rgba(224, 224, 224, 1);
 }
 
-.schedule-title {
-  text-align: center;
-  margin: 0 0 15px 0;
-  padding: 0;
-  font-size: 1.5em;
-  font-weight: bold;
+
+/* Layout container for full-width page */
+.schedule_outer { max-width: 1300px; margin: 0 auto; padding: 2.5rem 1.25rem 3.5rem; }
+.schedule_outer:before { content: ""; display: block; }
+
+/* Tabs */
+/* Tabs (day selector) */
+.schedule_tabs { position: relative; display: flex; gap: .5rem; margin-bottom: 1.1rem; flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scroll-snap-type: x mandatory; padding: 0 0 .35rem; }
+.schedule_tabs:before, .schedule_tabs:after { content: ""; position: sticky; top: 0; width: 34px; flex: 0 0 34px; pointer-events: none; }
+.schedule_tabs:before { left: 0; margin-left: -34px; background: linear-gradient(to right, var(--c-white, #fff), rgba(255,255,255,0)); opacity: 0; transition: opacity .25s; }
+.schedule_tabs:after { right: 0; margin-right: -34px; background: linear-gradient(to left, var(--c-white, #fff), rgba(255,255,255,0)); opacity: 0; transition: opacity .25s; }
+.schedule_tabs.has-left:before { opacity: 1; }
+.schedule_tabs.has-right:after { opacity: 1; }
+.schedule_tabs::-webkit-scrollbar { height: 6px; }
+.schedule_tab {
+  scroll-snap-align: start; padding: .6rem .9rem; border: 1px solid #ccc; background: #f8f8f8;
+  cursor: pointer; white-space: nowrap; flex: 0 0 auto; border-radius: .375rem;
+}
+.schedule_tab[aria-selected="true"] { background: #fff; border-bottom-color: #fff; font-weight: 600; }
+.schedule_tabs::-webkit-scrollbar { height: 6px; }
+.schedule_tabs::-webkit-scrollbar-track { background: transparent; }
+.schedule_tabs::-webkit-scrollbar-thumb { background: rgba(0,0,0,.15); border-radius: 3px; }
+@media (max-width: 900px) {
+  .schedule_tabs { scrollbar-width: none; -ms-overflow-style: none; }
+  .schedule_tabs::-webkit-scrollbar { display: none; }
 }
 
-/* Day filter */
-.day-filter-container {
-  margin-bottom: 25px;
-  text-align: center;
+/* Panels */
+.schedule_panel { display: none; }
+.schedule_panel[aria-hidden="false"] { display: block; }
+
+/* Table */
+.schedule_table_outer { position: relative; }
+.schedule_table_scroll { display: none; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+/* Scroll affordance anchored to outer container */
+.schedule_table_outer:after { content: ""; position: absolute; top: 0; right: 0; width: 54px; height: 100%; pointer-events: none; background: linear-gradient(to left, rgba(255,255,255,.97), rgba(255,255,255,0)); opacity: 0; transition: opacity .25s; }
+.schedule_table_outer:before { content: "›"; position: absolute; top: 50%; transform: translateY(-50%); right: 14px; font-size: 1.55rem; line-height: 1; color: #555; opacity: 0; transition: opacity .25s; font-weight: 400; font-family: system-ui, sans-serif; text-shadow: 0 0 2px rgba(255,255,255,.55); }
+.schedule_table_scroll.has-right ~ :is(:before,:after) {}
+.schedule_table_scroll.has-right ~ * {}
+.schedule_table_outer.has-right:after, .schedule_table_outer.has-right:before { opacity: 1; }
+.schedule_table { border-collapse: collapse; width: 100%; table-layout: fixed; min-width: 1100px; font-size: .9rem; }
+.schedule_table th, .schedule_table td {
+  border: 1px solid #ddd; padding: .5rem; vertical-align: middle; text-align: center;
+  word-break: break-word; overflow-wrap: anywhere;
 }
-
-.day-filter-container h3 {
-  margin: 0 0 15px 0;
-  font-size: 1.2em;
-  color: #333;
-  font-weight: 600;
-}
-
-.day-buttons {
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.day-btn {
-  background: #f8f9fa;
-  border: 1px solid #dee2e6;
-  color: #333;
-  padding: 12px 16px;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  transition: all 0.3s ease;
-  min-width: 100px;
-  text-align: center;
-  line-height: 1.3;
-  /* prevent layout shift when scrolling */
-  flex: 0 0 auto;
-}
-
-.day-btn:hover {
-  background: #e9ecef;
-  border-color: #adb5bd;
-  transform: translateY(-1px);
-}
-
-.day-btn.active {
-  background: #e7f1ff;
-  border-color: #91c0ff;
-  color: #0d47a1;
-}
-
-/* Sheet wrapper */
-.sheet-wrapper {
-  width: 100%;
-  margin: 0 auto 10px auto;
-  padding: 0;
-}
-
-/* Responsive iframe */
-.responsive-schedule {
-  width: 100%;
-  height: 475px;
-  min-height: 400px;
-}
-
-@media (max-width: 768px) {
-  .responsive-schedule {
-    height: 60vh;
-  }
-
-  /* Force single-row, horizontally scrollable day tabs on mobile */
-  .day-buttons {
-    justify-content: flex-start;
-    gap: 6px;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
-    padding: 4px 8px;
-    margin: 0 auto;
-    -webkit-overflow-scrolling: touch;
-    scroll-snap-type: x mandatory;
-    scrollbar-width: none;
-    width: 100%;
-  }
-  .day-buttons::-webkit-scrollbar {
-    display: none;
-  }
-
-  .day-btn {
-    min-width: 84px;
-    padding: 10px 12px;
-    font-size: 13px;
-    scroll-snap-align: center;
-    flex: 0 0 auto;                 /* keep items from flexing and wrapping */
-  }
-
-  .day-filter-container {
-    position: relative;
-  }
-  .day-filter-container::before,
-  .day-filter-container::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 18px;
-    pointer-events: none;
-  }
-  .day-filter-container::before {
-    left: 0;
-    background: linear-gradient(to right, #fff 30%, rgba(255,255,255,0));
-  }
-  .day-filter-container::after {
-    right: 0;
-    background: linear-gradient(to left, #fff 30%, rgba(255,255,255,0));
+.schedule_table th { background: #333; color: #fff; font-weight: 600; }
+.schedule_table th:first-child { background: #fff; color: #000; }
+.timecell { white-space: nowrap; }
+@media (min-width: 900px) {
+  .schedule_table th:first-child, .schedule_table td:first-child {
+    position: sticky; left: 0; z-index: 2; background: #fff; border-right: 2px solid #ddd;
   }
 }
 
+/* Desktop cell colors */
+.schedule_table tbody td[data-text] { background: var(--c-nonempty); }
+.schedule_table tbody td[data-text=""],
+.schedule_table tbody td[data-text="Coffee Break" i],
+.schedule_table tbody td[data-text="Lunch" i] { background: var(--c-white); color: var(--c-text-dark); font-style: italic; }
+.schedule_table tbody td[data-text^="Tutorial" i] { background: var(--c-tutorial); }
+.schedule_table tbody td[data-text*="Doctoral Consortium" i] { background: var(--c-doccons); }
+.schedule_table tbody td[data-text^="Keynote" i] { background: var(--c-keynote); }
+.schedule_table tbody td[data-text$="Ceremony" i] { background: var(--c-ceremony); }
+.schedule_table tbody td[data-text*="Demo & Poster Presentation" i] { background: var(--c-demo-poster); }
+.schedule_table tbody td[data-text*="Exhibition" i] { background: var(--c-exhibition-bg); color: var(--c-exhibition-fg); }
+.schedule_table tbody td[data-text*="Future Faculty Forum" i] { background: var(--c-future-faculty-forum); }
+.schedule_table tbody td[data-text*="Pitch Your Lab" i] { background: var(--c-pitch-your-lab); }
+.schedule_table tbody td[data-text*="Reception" i] { background: --var(--c-ceremony); }
 
-/* View toggling */
-.schedule-view {
-  display: none;
-}
+/* Cards */
+.schedule_cards_wrap { display: none; }
+.slot { border: 1px solid #e6e6e6; border-radius: .5rem; margin-bottom: .8rem; background: #fff; overflow: hidden; }
+.slot_time { font-weight: 600; padding: .6rem .75rem; border-bottom: 1px solid #eee; background: #fafafa; position: sticky; top: 0; }
+.slot_cards { display: grid; grid-template-columns: 1fr; gap: .5rem; padding: .6rem .75rem; }
+.card { border: 1px solid #e6e6e6; border-radius: .5rem; padding: .5rem .6rem; word-break: break-word; overflow-wrap: anywhere; background: var(--c-white) !important; }
+.card_title { font-weight: 600; margin-bottom: .25rem; }
+.card_meta { font-size: .9rem; color: #333; display: flex; gap: .5rem; flex-wrap: wrap; }
+.card_time { background: #eef3ff; padding: .15rem .4rem; border-radius: .25rem; }
+.card_room { background: #f2f2f2; padding: .15rem .4rem; border-radius: .25rem; }
 
-.schedule-view.active {
-  display: block;
-}
+/* Card colors */
+.card[data-text^="Tutorial" i] { background: var(--c-tutorial) !important; }
+.card[data-text*="Doctoral Consortium" i] { background: var(--c-doccons) !important; }
+.card[data-text^="Keynote" i] { background: var(--c-keynote) !important; }
+.card[data-text$="Ceremony" i] { background: var(--c-ceremony) !important; }
+.card[data-text*="Demo & Poster Presentation" i] { background: var(--c-demo-poster) !important; }
+.card[data-text*="Exhibition" i] { background: var(--c-exhibition-bg) !important; color: var(--c-exhibition-fg) !important; }
+.card[data-text*="Future Faculty Forum" i] { background: var(--c-future-faculty-forum) !important; }
+.card[data-text*="Pitch Your Lab" i] { background: var(--c-pitch-your-lab) !important; }
+.card[data-text*="Reception" i] { background: var(--c-ceremony) !important; }
 
-/* Day scoping classes for potential overrides */
-.day-view.day-oct8 .schedule-view.day-oct8,
-.day-view.day-oct9 .schedule-view.day-oct9,
-.day-view.day-oct10 .schedule-view.day-oct10,
-.day-view.day-oct11 .schedule-view.day-oct11,
-.day-view.day-oct12 .schedule-view.day-oct12 {
-  /* left available for day specific styling if needed */
-}
-
+/* Responsive view selection (auto) */
+@media (min-width: 800px) { .view_table { display: block; } .schedule_table_scroll { display: block; } }
+@media (max-width: 799px) { .view_cards { display: block; } }
 </style>
 
 <script>
-let currentDay = 'oct8';
+(function() {
+  const root = document.getElementById('schedule-ismar');
+  if (!root) return;
 
-function filterByDay(day) {
-  currentDay = day;
+  // Tabs logic
+  const tabs = root.querySelectorAll('.schedule_tab');
+  const panels = root.querySelectorAll('.schedule_panel');
+  function showPanel(i) {
+    tabs.forEach((t, idx) => t.setAttribute('aria-selected', idx === i ? 'true' : 'false'));
+    panels.forEach((p, idx) => p.setAttribute('aria-hidden', idx === i ? 'false' : 'true'));
+    const active = tabs[i];
+    if (active && active.scrollIntoView) active.scrollIntoView({ inline: 'nearest', block: 'nearest' });
+  }
+  tabs.forEach((btn, i) => btn.addEventListener('click', () => showPanel(i)));
+  showPanel(0);
 
-  document.querySelectorAll('.day-btn').forEach(btn => {
-    btn.classList.remove('active');
-    btn.setAttribute('aria-selected', 'false');
+  // Swipe between panels on mobile
+  let startX = null;
+  panels.forEach((panel, i) => {
+    panel.addEventListener('touchstart', e => { startX = e.touches[0].clientX; }, { passive: true });
+    panel.addEventListener('touchend', e => {
+      if (startX === null) return;
+      const dx = e.changedTouches[0].clientX - startX;
+      startX = null;
+      const threshold = 50;
+      if (dx > threshold && i > 0) showPanel(i - 1);
+      if (dx < -threshold && i < panels.length - 1) showPanel(i + 1);
+    }, { passive: true });
   });
-  const btn = document.querySelector(`[data-day="${day}"]`);
-  if (btn) {
-    btn.classList.add('active');
-    btn.setAttribute('aria-selected', 'true');
-    // ensure the active tab is visible and centered on small screens
-    btn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+
+  // Dynamic fade handling for scrollable areas (tabs + table wrappers)
+  function applyFadeLogic(el) {
+    if (!el) return;
+    const atEnd = Math.ceil(el.scrollLeft + el.clientWidth) >= el.scrollWidth - 1; // small tolerance
+    let atStart = el.scrollLeft <= 0;
+    // Additional: treat as start if first child fully visible (accounts for internal offsets)
+    const first = el.querySelector(':scope > *');
+    if (!atStart && first) {
+      const cr = el.getBoundingClientRect();
+      const fr = first.getBoundingClientRect();
+      if (fr.left >= cr.left - 1) atStart = true; // tolerance
+    }
+    el.classList.toggle('has-left', !atStart);
+    el.classList.toggle('has-right', !atEnd);
   }
-
-  // Hide all iframe and program views
-  document.querySelectorAll('.schedule-view').forEach(view => view.classList.remove('active'));
-
-  // Show selected iframe and its program block
-  const cap = day.charAt(0).toUpperCase() + day.slice(1);
-  const iframe = document.getElementById(`scheduleIframe${cap}`);
-  if (iframe) iframe.classList.add('active');
-  const program = document.getElementById(`program${cap}`);
-  if (program) program.classList.add('active');
-
-  // Update wrapper day class to preserve existing styling behavior
-  const wrapper = document.getElementById('sheetWrapper');
-  if (wrapper) {
-    wrapper.classList.remove('day-oct8', 'day-oct9', 'day-oct10', 'day-oct11', 'day-oct12');
-    wrapper.classList.add('day-view', `day-${day}`);
-  }
-}
-
-// Optional: allow horizontal wheel scroll on the tab strip for desktop trackpads
-document.addEventListener('DOMContentLoaded', function() {
-  const strip = document.querySelector('.day-buttons');
-  if (strip) {
-    strip.addEventListener('wheel', function(e) {
-      if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
-        strip.scrollLeft += e.deltaY;
-        e.preventDefault();
-      }
-    }, { passive: false });
-  }
-});
+  const tabBar = root.querySelector('.schedule_tabs');
+  tabBar && tabBar.addEventListener('scroll', () => applyFadeLogic(tabBar), { passive: true });
+  const tableScrolls = root.querySelectorAll('.schedule_table_scroll');
+  tableScrolls.forEach(w => w.addEventListener('scroll', () => {
+    applyFadeLogic(w);
+    const outer = w.closest('.schedule_table_outer');
+    if (outer) {
+      // Mirror right/left classes to outer for fade styling
+      outer.classList.toggle('has-left', w.classList.contains('has-left'));
+      outer.classList.toggle('has-right', w.classList.contains('has-right'));
+    }
+  }, { passive: true }));
+  window.addEventListener('resize', () => {
+    applyFadeLogic(tabBar);
+  tableScrolls.forEach(w => { applyFadeLogic(w); const outer = w.closest('.schedule_table_outer'); if (outer) { outer.classList.toggle('has-left', w.classList.contains('has-left')); outer.classList.toggle('has-right', w.classList.contains('has-right')); } });
+  });
+  // Initial
+  requestAnimationFrame(() => {
+    applyFadeLogic(tabBar);
+  tableScrolls.forEach(w => { applyFadeLogic(w); const outer = w.closest('.schedule_table_outer'); if (outer) { outer.classList.toggle('has-left', w.classList.contains('has-left')); outer.classList.toggle('has-right', w.classList.contains('has-right')); } });
+  });
+})();
 </script>
