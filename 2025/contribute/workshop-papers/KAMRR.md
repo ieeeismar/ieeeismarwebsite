@@ -3,6 +3,40 @@ layout: 2025/page
 title: 1st Korea-Australia Joint Workshop on Mixed Reality and Robotics (KAMRR’25)
 ---
 
+<!-- add custom title css style for this page -->
+<style>
+.hero-title h1,
+.hero-section h1,
+h1.page-title,
+main h1:first-of-type {
+  font-size: clamp(1rem, 3vw + 0.5rem, 2.8rem);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  .hero-title h1,
+  .hero-section h1,
+  h1.page-title,
+  main h1:first-of-type {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 250px) {
+  .hero-title h1,
+  .hero-section h1,
+  h1.page-title,
+  main h1:first-of-type {
+    font-size: 1rem;
+  }
+}
+</style>
+
 *Last updated: 2025-10-05 10:35AM GMT*
 
 ## Workshop Date
