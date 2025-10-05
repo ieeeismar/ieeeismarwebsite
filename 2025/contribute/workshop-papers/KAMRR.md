@@ -3,7 +3,7 @@ layout: 2025/page
 title: 1st Korea-Australia Joint Workshop on Mixed Reality and Robotics (KAMRR’25)
 ---
 
-*Last updated: 2025-10-05 01:44PM GMT*
+*Last updated: 2025-10-05 10:35AM GMT*
 
 ## Workshop Date
 **October 12th (Sunday)**
