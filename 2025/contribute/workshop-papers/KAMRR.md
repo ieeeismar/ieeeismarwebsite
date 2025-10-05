@@ -37,7 +37,7 @@ main h1:first-of-type {
 }
 </style>
 
-*Last updated: 2025-10-05 10:35AM GMT*
+*Last updated: 2025-10-05 01:20PM GMT*
 
 ## Workshop Date
 **October 12th (Sunday)**
