@@ -2,7 +2,7 @@
 layout: 2025/page
 title: Poster Presentation Guidelines
 ---
-*Last updated: 2025-09-11 12:42PM GMT*
+*Last updated: 2025-10-06 08:19PM GMT*
 
 ## Poster Presentation Guidelines
 
@@ -61,7 +61,7 @@ material:
 -   The recommended video format is **MP4** with **a resolution of 1080p** **(fit to the 16:9 aspect ratio of a display)**.
 -   **You need to submit your video file via the Google Form below. The video file size must not exceed 100 MB.**
 
-## ISMAR Logo and Templates for Posters
+## ISMAR Logo for Posters
 
 For your poster design, you can download the official ISMAR 2025 logo from our Google Drive folder:
 
