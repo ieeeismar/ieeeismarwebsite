@@ -27,8 +27,11 @@ def load_google_sheet_as_csv(sheet_id: str, gid: Optional[str] = None, sheet_tit
     if gid:
         url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv&gid={gid}"
     elif sheet_title:
-        # gviz endpoint supports selecting by sheet name directly; returns CSV with tqx=out:csv
-        url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={quote(sheet_title)}"
+        # gviz endpoint supports selecting by sheet name directly; force one header row to avoid Google auto-detection glitches
+        url = (
+            f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?"
+            f"tqx=out:csv&sheet={quote(sheet_title)}&headers=1"
+        )
     else:
         # Default first sheet
         url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv"
@@ -40,7 +43,10 @@ def load_google_sheet_as_csv(sheet_id: str, gid: Optional[str] = None, sheet_tit
     df = pd.read_csv(io.StringIO(csv_text), dtype=str, keep_default_na=False)
 
     # Clean all text fields for common UTF-8 misreads such as stray Â and Â°
-    df = df.applymap(clean_text_encoding)
+    try:
+        df = df.map(clean_text_encoding)
+    except AttributeError:
+        df = df.applymap(clean_text_encoding)
     return df
 
 def clean_text_encoding(value: str) -> str:
@@ -110,7 +116,10 @@ def main():
     # Load sources
     flat = pd.read_csv(flat_sessions_path, dtype=str, keep_default_na=False)
     # Clean any misdecoded characters in the flat file as well, for safety
-    flat = flat.applymap(clean_text_encoding)
+    try:
+        flat = flat.map(clean_text_encoding)
+    except AttributeError:
+        flat = flat.applymap(clean_text_encoding)
 
     program = load_google_sheet_as_csv(google_sheet_id, gid=google_gid, sheet_title=google_sheet_title)
 
@@ -118,7 +127,7 @@ def main():
     expected_program_cols = ["Paper ID", "Paper Title", "Session Title"]
     missing_program = [c for c in expected_program_cols if c not in program.columns]
     if missing_program:
-        raise ValueError(f"Google Sheet is missing columns: {missing_program}")
+        raise ValueError(f"Google Sheet is missing columns: {missing_program}. Found: {list(program.columns)}")
 
     # Validate flat sessions columns
     needed_cols = [

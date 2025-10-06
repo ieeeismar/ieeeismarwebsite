@@ -2,6 +2,7 @@ Paper ID,Paper Title,Session Title,Session Day,Session Start Time,Session End Ti
 1840,Dynamic Eyebox Steering for Improved Pinlight AR Near-eye Displays,3D Display 1,October 9 2025,10:30,11:30,Room 201 (Grand Ballroom 1)
 1518,GS-ProCams: Gaussian Splatting-Based Projector-Camera Systems,3D Display 1,October 9 2025,10:30,11:30,Room 201 (Grand Ballroom 1)
 1315,Multi-illumination-interfered Neural Holography with Expanded Eyebox,3D Display 1,October 9 2025,10:30,11:30,Room 201 (Grand Ballroom 1)
+1783,A Handheld Stiffness Display with a Programmable Spring and Electrostatic Clutches for Haptic Interaction in Virtual Reality,3D Display 1,October 9 2025,10:30,11:30,Room 201 (Grand Ballroom 1)
 1877,Virtual Pass-through: Evaluating 3D Gaussian Splatting as an Alternative to Conventional Video Pass-through in Static Environments,3D Display & Rendering,October 9 2025,14:30,15:30,Room 301 (Conference Hall)
 1493,X-Mask: Improving Soft-Edge Occlusion in Optical See-Through Displays with Cross-Shaped Pinholes,3D Display & Rendering,October 9 2025,14:30,15:30,Room 301 (Conference Hall)
 1976,Enhanced Adaptive Subdivision for Dynamic Mesh Compression to Improve Visual Quality in VR/AR Rendering,3D Display & Rendering,October 9 2025,14:30,15:30,Room 301 (Conference Hall)
@@ -94,7 +95,7 @@ CGA,"“Sitting or standing in VR: About Comfort, Conflicts, and Hazards” by",
 1473,The Effect of Realism on Hand Redirection in Immersive Environments,Haptics 1,October 9 2025,10:30,11:30,Room 301 (Conference Hall)
 1272,Passive Haptics Role in VR-Based Ergonomic Workplace Assessment,Haptics 2,October 11 2025,14:30,15:30,Room 204
 TVCG,Investigating the Potential of Haptic Props for 3D Object Manipulation in Handheld AR,Haptics 2,October 11 2025,14:30,15:30,Room 204
-1783,A Handheld Stiffness Display with a Programmable Spring and Electrostatic Clutches for Haptic Interaction in Virtual Reality,3D Display 1,October 9 2025,10:30,11:30,Room 201 (Grand Ballroom 1)
+1783,A Handheld Stiffness Display with a Programmable Spring and Electrostatic Clutches for Haptic Interaction in Virtual Reality,Haptics 2,October 11 2025,14:30,15:30,Room 204
 1514,HaptiCeiling: An Encountered-type Overhead Haptic Interface in Virtual Reality,Haptics 2,October 11 2025,14:30,15:30,Room 204
 1133,Negotiated User-to-Group Teleportations in Social VR,Locomotion & teleportation,October 11 2025,09:00,10:00,Room 202 (Grand Ballroom 2)
 1874,FootPorting: Exploring Foot-Based Teleportation Techniques for Seated Users in Confined Spaces,Locomotion & teleportation,October 11 2025,09:00,10:00,Room 202 (Grand Ballroom 2)
@@ -116,6 +117,7 @@ TVCG,Investigating the Potential of Haptic Props for 3D Object Manipulation in H
 2004,ReachVox: Clutter-free Reachability Visualization for Robot Motion Planning in Virtual Reality,Robots,October 10 2025,10:30,11:30,Room 301 (Conference Hall)
 1880,Extended Reality Check: Evaluating XR Prototyping for Human-Robot Interaction in Contact-Intensive Tasks,Robots,October 10 2025,10:30,11:30,Room 301 (Conference Hall)
 1243,RCLL-AR: Augmented Reality Support for Understanding Autonomous Processes in the RoboCup Logistics League,Robots,October 10 2025,10:30,11:30,Room 301 (Conference Hall)
+1147,A Multi-Sensor Approach for Cognitive Load Assessment in Mobile Augmented Reality,Mobile XR,October 11 2025,12:00,13:00,Room 202 (Grand Ballroom 2)
 1175,See What I Mean? Mobile Eye-Perspective Rendering for Optical See-through Head-mounted Displays,Mobile XR,October 11 2025,12:00,13:00,Room 202 (Grand Ballroom 2)
 1968,EVER: Edge-Assisted Auto-Verification for Mobile MR-Aided Operation,Mobile XR,October 11 2025,12:00,13:00,Room 202 (Grand Ballroom 2)
 TVCG,Cardboard Controller: A Cost-Effective Method to Support Complex Interactions in Mobile VR,Mobile XR,October 11 2025,12:00,13:00,Room 202 (Grand Ballroom 2)
@@ -136,7 +138,7 @@ TVCG,Cardboard Controller: A Cost-Effective Method to Support Complex Interactio
 1073,Crafting Dynamic Virtual Activities with Advanced Multimodal Models,"Avatars & Tracking, Animation",October 9 2025,16:00,17:00,Room 301 (Conference Hall)
 1839,VRtalk: Real-time Interactive Intelligent Anime Avatars in Virtual Reality,"Avatars & Tracking, Animation",October 9 2025,16:00,17:00,Room 301 (Conference Hall)
 2107,An Evaluation of Movement Data Analysis Techniques for Virtual Reality,Tracking,October 9 2025,12:00,13:00,Room 202 (Grand Ballroom 2)
-1508,OpenFLAME: Federated Visual Positioning System toEnable Large-Scale Augmented Reality Applications,Tracking,October 9 2025,12:00,13:00,Room 202 (Grand Ballroom 2)
+1508,Federated VPS in dynamic environments to enable large-scale augmented reality applications,Tracking,October 9 2025,12:00,13:00,Room 202 (Grand Ballroom 2)
 1619,XR Reality Check: What Commercial Devices Deliver for Spatial Tracking,Tracking,October 9 2025,12:00,13:00,Room 202 (Grand Ballroom 2)
 2057,"Merging Bodies, Dividing Conflict: Body-Swapping in Mixed Reality Increases Closeness Yet Weakens the Joint Simon Effect",Bodies & presence,October 9 2025,17:30,18:30,Room 201 (Grand Ballroom 1)
 1477,PresenceLens: Interpreting Dynamic Presence in Virtual Reality,Bodies & presence,October 9 2025,17:30,18:30,Room 201 (Grand Ballroom 1)
@@ -153,6 +155,7 @@ TVCG,Cardboard Controller: A Cost-Effective Method to Support Complex Interactio
 1026,Zeitgebers-Based User Experience Analysis and Time Perception Modeling via Transformer in VR,Perception 2,October 10 2025,12:00,13:00,Room 202 (Grand Ballroom 2)
 1271,Rhythmic Interaction influences Synchrony Perception in VR,Perception 2,October 10 2025,12:00,13:00,Room 202 (Grand Ballroom 2)
 1474,Enhancing Dazzling Sensation through Pseudo-Blink and Afterimage Presentation in Virtual Reality,Perception 2,October 10 2025,12:00,13:00,Room 202 (Grand Ballroom 2)
+1747,Why Slow Feels Fast and Fast Feels Slow: Evaluating and Predicting Speed Misperception,Perception 2,October 10 2025,12:00,13:00,Room 202 (Grand Ballroom 2)
 1466,Casual-VRAuth: A Design Framework Bridging Focused and Casual Interactions for Behavioral Authentication in Virtual Reality,Authentification,October 11 2025,10:30,11:30,Room 205
 1366,cLock: Single-Handed Two-Factor Authentication in VR Using Wrist Rotation and Multi-Finger Tapping,Authentification,October 11 2025,10:30,11:30,Room 205
 1378,"""Everyone Knows You’re Watching P*rn"": Reflecting on First-hand User Accounts on the Use and Public Perception of In-Transit Passenger XR",Authentification,October 11 2025,10:30,11:30,Room 205
@@ -199,6 +202,7 @@ CGA,"""Integrated Augmented and Virtual Reality Technologies for Realistic Fire 
 1591,ArtSpeak: An Interactive AR Application for Lifelike Speaking with Art Portraits,Art & Museum,October 10 2025,12:00,13:00,Room 204
 1455,Emotional Art: Exploring a Novel Paradigm of artistic re-creation based on emotion capture in VR,Art & Museum,October 10 2025,12:00,13:00,Room 204
 1811,Icebreaking: Building Trust and Empathy with Virtual Museum Embodied Conversational Agents via Personalized Initial Interactions,Art & Museum,October 10 2025,12:00,13:00,Room 204
+1766, Automated Scalable Brightness and Black Offset Seamlessness for Multi-Projector Displays,Art & Museum,October 10 2025,12:00,13:00,Room 204
 1645,EEG2Gaussian: Decoding and Visualizing Visual-Evoked EEG for VR Scenes Using 3D Gaussian Splatting,Multimodality,October 11 2025,09:00,10:00,Room 201 (Grand Ballroom 1)
 1588,Cross-Subject Cognitive Load Recognition in VR Using Multimodal Fusion with EEG and Eye-Tracking,Multimodality,October 11 2025,09:00,10:00,Room 201 (Grand Ballroom 1)
 1307,A Comprehensive Analysis of the Influence of Cognitive Load on Physiological Signals in Virtual Reality,Multimodality,October 11 2025,09:00,10:00,Room 201 (Grand Ballroom 1)
@@ -215,11 +219,10 @@ CGA,"""Integrated Augmented and Virtual Reality Technologies for Realistic Fire 
 1905,Cross-media Color Appearance Reproduction in Optical See-Through Augmented Reality,Visual Cues & Perception,October 11 2025,14:30,15:30,Room 201 (Grand Ballroom 1)
 2198,The Cost of Virtuality Switching: Searching for Physical and Virtual Targets in Optical-See-Through Augmented Reality,Visual Cues & Perception,October 11 2025,14:30,15:30,Room 201 (Grand Ballroom 1)
 2222,Seeing What Matters: Attentional (Mis-)Alignment Between Humans and AI in VR-Simulated Prediction of Driving Accidents,Visual Cues & Perception,October 11 2025,14:30,15:30,Room 201 (Grand Ballroom 1)
-2194,How Spatial Ability Affects Response to Gaze-Adaptive Cueing in Mixed Reality Spatial Navigation,Video Presentations 1: Human Factors,October 9 2025,10:30,11:30,Room 205
-1147,A Multi-Sensor Approach for Cognitive Load Assessment in Mobile Augmented Reality,Video Presentations 1: Human Factors,October 9 2025,10:30,11:30,Room 205
-1757,Measuring Rotational Inertia in HMDs: Calculation of Torque as an Unobtrusive Indicator of Expended Effort in Virtual Environments,Video Presentations 1: Human Factors,October 9 2025,10:30,11:30,Room 205
-1923,Augmented Reality Visualization Techniques for Search and Rescue: Findings from a User Study with Subject Matter Experts ,Video Presentations 1: Human Factors,October 9 2025,10:30,11:30,Room 205
-1766,Automated Scalable Brightness and Black Offset Seamlessness for Multi-Projector Displays,Video Presentations 1: Human Factors,October 9 2025,10:30,11:30,Room 205
+2194,How Spatial Ability Affects Response to Gaze-Adaptive Cueing in Mixed Reality Spatial Navigation,Video Presentations 1: Human Factors and XR,October 9 2025,10:30,11:30,Room 205
+1147,A Multi-Sensor Approach for Cognitive Load Assessment in Mobile Augmented Reality,Video Presentations 1: Human Factors and XR,October 9 2025,10:30,11:30,Room 205
+1757,Measuring Rotational Inertia in HMDs: Calculation of Torque as an Unobtrusive Indicator of Expended Effort in Virtual Environments,Video Presentations 1: Human Factors and XR,October 9 2025,10:30,11:30,Room 205
+1923,Augmented Reality Visualization Techniques for Search and Rescue: Findings from a User Study with Subject Matter Experts ,Video Presentations 1: Human Factors and XR,October 9 2025,10:30,11:30,Room 205
 1667,The Impact of Performance-Specific Feedback from a Virtual Coach in a Virtual Reality Exercise Application,Video Presentations 2: XR Illusions,October 9 2025,14:30,15:30,Room 204
 1047,Virtual Museum Tour Agent: Effects of Responsiveness and Awareness,Video Presentations 2: XR Illusions,October 9 2025,14:30,15:30,Room 204
 1941,The Effect of Crowds on Peripersonal Space and Interpersonal Distance in Immersive Virtual Environments,Video Presentations 2: XR Illusions,October 9 2025,14:30,15:30,Room 204
