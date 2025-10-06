@@ -61,6 +61,14 @@ material:
 -   The recommended video format is **MP4** with **a resolution of 1080p** **(fit to the 16:9 aspect ratio of a display)**.
 -   **You need to submit your video file via the Google Form below. The video file size must not exceed 100 MB.**
 
+## ISMAR Logo and Templates for Posters
+
+For your poster design, you can download the official ISMAR 2025 logo from our Google Drive folder:
+
+<div style="text-align: center; margin: 20px 0;">
+  <a href="https://drive.google.com/drive/folders/1NZUzbVm3OokTEELcTrNLRxjzwYHhPZIE" target="_blank" style="display: inline-block; padding: 12px 24px; background-color: #0d47a1; color: white; text-decoration: none; border-radius: 6px; font-weight: 600;">Download ISMAR 2025 Logo</a>
+</div>
+
 ## How to Provide Your Material
 
 All materials need to be submitted via the following **Google Form by
