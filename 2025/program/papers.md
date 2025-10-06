@@ -3,7 +3,7 @@ layout: 2025/page
 title: Papers
 ---
 
-*Last updated: 2025-09-29 9:25AM GMT*
+*Last updated: 2025-10-06 8:01AM GMT*
 
 {% assign rows = site.data["2025"]["program"]["papers"] %}
 {% assign days = "October 9 2025|October 10 2025|October 11 2025" | split: "|" %}
