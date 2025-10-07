@@ -10,6 +10,9 @@ title: Overview
 {% assign keynote_page_url = "/2025/program/keynote-speakers/" | relative_url %}
 {% assign posters_page_url = "/2025/program/posters/" | relative_url %}
 {% assign demos_page_url = "/2025/program/demos/" | relative_url %}
+{% assign tutorials_page_url = "/2025/program/tutorials/" | relative_url %}
+{% assign pitch_page_url = "/2025/program/pitch-your-lab/" | relative_url %}
+{% assign future_faculty_page_url = "/2025/program/Future-Faculty-Forum/" | relative_url %}
 {% capture demo_poster_markup %}
 <a href="{{ demos_page_url }}">Demo</a> &amp; <a href="{{ posters_page_url }}">Poster</a> Presentation
 {% endcapture %}
@@ -92,6 +95,12 @@ title: Overview
                           {% assign first_word = text_norm | split: ' ' | first %}
                           {% if first_word == 'keynote' %}
                             {% assign cell_link_url = keynote_page_url %}
+                          {% elsif text_norm == 'future faculty forum' %}
+                            {% assign cell_link_url = future_faculty_page_url %}
+                          {% elsif text_norm == 'pitch your lab' %}
+                            {% assign cell_link_url = pitch_page_url %}
+                          {% elsif first_word == 'tutorial:' %}
+                            {% assign cell_link_url = tutorials_page_url %}
                           {% endif %}
                           {% if cell_link_url == "" %}
                             {% for paper_session in all_paper_sessions %}
@@ -212,6 +221,12 @@ title: Overview
                         {% assign first_word = text_norm | split: ' ' | first %}
                         {% if first_word == 'keynote' %}
                           {% assign card_link_url = keynote_page_url %}
+                        {% elsif text_norm == 'future faculty forum' %}
+                          {% assign card_link_url = future_faculty_page_url %}
+                        {% elsif text_norm == 'pitch your lab' %}
+                          {% assign card_link_url = pitch_page_url %}
+                        {% elsif first_word == 'tutorial:' %}
+                          {% assign card_link_url = tutorials_page_url %}
                         {% endif %}
                         {% if card_link_url == "" %}
                           {% for paper_session in all_paper_sessions %}
