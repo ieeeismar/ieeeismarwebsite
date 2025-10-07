@@ -9,6 +9,11 @@ title: Overview
 {% assign papers_page_url = "/2025/program/papers" | relative_url %}
 {% assign keynote_page_url = "/2025/program/keynote-speakers/" | relative_url %}
 {% assign posters_page_url = "/2025/program/posters/" | relative_url %}
+{% assign demos_page_url = "/2025/program/demos/" | relative_url %}
+{% capture demo_poster_markup %}
+<a href="{{ demos_page_url }}">Demo</a> &amp; <a href="{{ posters_page_url }}">Poster</a> Presentation
+{% endcapture %}
+{% assign demo_poster_markup = demo_poster_markup | strip %}
 
 <div class="schedule_outer">
 <div class="schedule" id="schedule-ismar" data-scope="ismar">
@@ -76,53 +81,60 @@ title: Overview
                 {% for cell in row.cells %}
                   {% if cell.render %}
                     {% assign text_clean = cell.text | strip | strip_newlines %}
+                    {% assign cell_display_html = cell.text %}
                     {% assign cell_link_url = "" %}
                     {% if text_clean != "" %}
                       {% unless cell.text contains '<a' %}
                         {% assign text_norm = text_clean | downcase %}
-                        {% assign first_word = text_norm | split: ' ' | first %}
-                        {% if first_word == 'keynote' %}
-                          {% assign cell_link_url = keynote_page_url %}
-                        {% elsif text_norm == 'demo & poster presentation' %}
-                          {% assign cell_link_url = posters_page_url %}
-                        {% endif %}
-                        {% if cell_link_url == "" %}
-                          {% for paper_session in all_paper_sessions %}
-                            {% assign session_title = paper_session["Session Title"] | strip %}
-                            {% assign session_title_norm = session_title | downcase %}
-                            {% if session_title_norm == text_norm %}
-                              {% assign anchor_raw = paper_session["Session Day"] | append: '-' | append: paper_session["Session Start Time"] | append: '-' | append: paper_session["Session End Time"] | append: '-' | append: paper_session["Session Location"] | append: '-' | append: session_title %}
-                              {% assign anchor_slug = anchor_raw | slugify %}
-                              {% assign cell_link_url = papers_page_url | append: '#' | append: anchor_slug %}
-                              {% break %}
-                            {% endif %}
-                          {% endfor %}
-                        {% endif %}
-                        {% if cell_link_url == "" and text_clean contains "Workshop:" %}
-                          {% assign session_suffix = text_clean | replace_first: "Workshop:", "" | strip %}
-                          {% assign suffix_norm = session_suffix | downcase | replace: "’", "" | replace: "‘", "" | replace: "'", "" %}
-                          {% if suffix_norm != "" %}
-                            {% for workshop in all_workshops %}
-                              {% if cell_link_url == "" %}
-                                {% assign title_prefix = workshop.Title | split: ":" | first | strip %}
-                                {% assign title_prefix_norm = title_prefix | downcase | replace: "’", "" | replace: "‘", "" | replace: "'", "" %}
-                                {% assign title_full_norm = workshop.Title | downcase | replace: "’", "" | replace: "‘", "" | replace: "'", "" %}
-                                {% if title_prefix_norm != "" %}
-                                  {% if suffix_norm contains title_prefix_norm or title_prefix_norm contains suffix_norm %}
-                                    {% if workshop.Website and workshop.Website != "" %}
-                                      {% assign cell_link_url = workshop.Website %}
-                                    {% endif %}
-                                  {% endif %}
-                                {% endif %}
-                                {% if cell_link_url == "" and title_full_norm != "" %}
-                                  {% if suffix_norm contains title_full_norm or title_full_norm contains suffix_norm %}
-                                    {% if workshop.Website and workshop.Website != "" %}
-                                      {% assign cell_link_url = workshop.Website %}
-                                    {% endif %}
-                                  {% endif %}
-                                {% endif %}
+                        {% if text_norm == 'demo & poster presentation' %}
+                          {% assign cell_display_html = demo_poster_markup %}
+                        {% else %}
+                          {% assign first_word = text_norm | split: ' ' | first %}
+                          {% if first_word == 'keynote' %}
+                            {% assign cell_link_url = keynote_page_url %}
+                          {% endif %}
+                          {% if cell_link_url == "" %}
+                            {% for paper_session in all_paper_sessions %}
+                              {% assign session_title = paper_session["Session Title"] | strip %}
+                              {% assign session_title_norm = session_title | downcase %}
+                              {% if session_title_norm == text_norm %}
+                                {% assign anchor_raw = paper_session["Session Day"] | append: '-' | append: paper_session["Session Start Time"] | append: '-' | append: paper_session["Session End Time"] | append: '-' | append: paper_session["Session Location"] | append: '-' | append: session_title %}
+                                {% assign anchor_slug = anchor_raw | slugify %}
+                                {% assign cell_link_url = papers_page_url | append: '#' | append: anchor_slug %}
+                                {% break %}
                               {% endif %}
                             {% endfor %}
+                          {% endif %}
+                          {% if cell_link_url == "" and text_clean contains "Workshop:" %}
+                            {% assign session_suffix = text_clean | replace_first: "Workshop:", "" | strip %}
+                            {% assign suffix_norm = session_suffix | downcase | replace: "’", "" | replace: "‘", "" | replace: "'", "" %}
+                            {% if suffix_norm != "" %}
+                              {% for workshop in all_workshops %}
+                                {% if cell_link_url == "" %}
+                                  {% assign title_prefix = workshop.Title | split: ":" | first | strip %}
+                                  {% assign title_prefix_norm = title_prefix | downcase | replace: "’", "" | replace: "‘", "" | replace: "'", "" %}
+                                  {% assign title_full_norm = workshop.Title | downcase | replace: "’", "" | replace: "‘", "" | replace: "'", "" %}
+                                  {% if title_prefix_norm != "" %}
+                                    {% if suffix_norm contains title_prefix_norm or title_prefix_norm contains suffix_norm %}
+                                      {% if workshop.Website and workshop.Website != "" %}
+                                        {% assign cell_link_url = workshop.Website %}
+                                      {% endif %}
+                                    {% endif %}
+                                  {% endif %}
+                                  {% if cell_link_url == "" and title_full_norm != "" %}
+                                    {% if suffix_norm contains title_full_norm or title_full_norm contains suffix_norm %}
+                                      {% if workshop.Website and workshop.Website != "" %}
+                                        {% assign cell_link_url = workshop.Website %}
+                                      {% endif %}
+                                    {% endif %}
+                                  {% endif %}
+                                {% endif %}
+                              {% endfor %}
+                            {% endif %}
+                          {% endif %}
+                          {% if cell_link_url != "" %}
+                            {% capture tmp_cell_link %}<a href="{{ cell_link_url }}">{{ cell.text }}</a>{% endcapture %}
+                            {% assign cell_display_html = tmp_cell_link | strip %}
                           {% endif %}
                         {% endif %}
                       {% endunless %}
@@ -130,11 +142,7 @@ title: Overview
                     <td{% if cell.rowspan > 1 %} rowspan="{{ cell.rowspan }}"{% endif %}
                         {% if cell.colspan > 1 %} colspan="{{ cell.colspan }}"{% endif %}
                         data-text="{{ text_clean }}">
-                      {% if cell_link_url != "" %}
-                        <a href="{{ cell_link_url }}">{{ cell.text }}</a>
-                      {% else %}
-                        {{ cell.text }}
-                      {% endif %}
+                      {{ cell_display_html }}
                     </td>
                   {% endif %}
                 {% endfor %}
@@ -193,53 +201,60 @@ title: Overview
                   {% assign acell = day.rows[rr].cells[cj] %}
                   {% assign span = acell.colspan | default: 1 %}
                   {% assign text_clean = acell.text | strip | strip_newlines %}
+                  {% assign card_title_html = acell.text %}
                   {% assign card_link_url = "" %}
                   {% if text_clean != "" %}
                     {% unless acell.text contains '<a' %}
                       {% assign text_norm = text_clean | downcase %}
-                      {% assign first_word = text_norm | split: ' ' | first %}
-                      {% if first_word == 'keynote' %}
-                        {% assign card_link_url = keynote_page_url %}
-                      {% elsif text_norm == 'demo & poster presentation' %}
-                        {% assign card_link_url = posters_page_url %}
-                      {% endif %}
-                      {% if card_link_url == "" %}
-                        {% for paper_session in all_paper_sessions %}
-                          {% assign session_title = paper_session["Session Title"] | strip %}
-                          {% assign session_title_norm = session_title | downcase %}
-                          {% if session_title_norm == text_norm %}
-                            {% assign anchor_raw = paper_session["Session Day"] | append: '-' | append: paper_session["Session Start Time"] | append: '-' | append: paper_session["Session End Time"] | append: '-' | append: paper_session["Session Location"] | append: '-' | append: session_title %}
-                            {% assign anchor_slug = anchor_raw | slugify %}
-                            {% assign card_link_url = papers_page_url | append: '#' | append: anchor_slug %}
-                            {% break %}
-                          {% endif %}
-                        {% endfor %}
-                      {% endif %}
-                      {% if card_link_url == "" and text_clean contains "Workshop:" %}
-                        {% assign session_suffix = text_clean | replace_first: "Workshop:", "" | strip %}
-                        {% assign suffix_norm = session_suffix | downcase | replace: "’", "" | replace: "‘", "" | replace: "'", "" %}
-                        {% if suffix_norm != "" %}
-                          {% for workshop in all_workshops %}
-                            {% if card_link_url == "" %}
-                              {% assign title_prefix = workshop.Title | split: ":" | first | strip %}
-                              {% assign title_prefix_norm = title_prefix | downcase | replace: "’", "" | replace: "‘", "" | replace: "'", "" %}
-                              {% assign title_full_norm = workshop.Title | downcase | replace: "’", "" | replace: "‘", "" | replace: "'", "" %}
-                              {% if title_prefix_norm != "" %}
-                                {% if suffix_norm contains title_prefix_norm or title_prefix_norm contains suffix_norm %}
-                                  {% if workshop.Website and workshop.Website != "" %}
-                                    {% assign card_link_url = workshop.Website %}
-                                  {% endif %}
-                                {% endif %}
-                              {% endif %}
-                              {% if card_link_url == "" and title_full_norm != "" %}
-                                {% if suffix_norm contains title_full_norm or title_full_norm contains suffix_norm %}
-                                  {% if workshop.Website and workshop.Website != "" %}
-                                    {% assign card_link_url = workshop.Website %}
-                                  {% endif %}
-                                {% endif %}
-                              {% endif %}
+                      {% if text_norm == 'demo & poster presentation' %}
+                        {% assign card_title_html = demo_poster_markup %}
+                      {% else %}
+                        {% assign first_word = text_norm | split: ' ' | first %}
+                        {% if first_word == 'keynote' %}
+                          {% assign card_link_url = keynote_page_url %}
+                        {% endif %}
+                        {% if card_link_url == "" %}
+                          {% for paper_session in all_paper_sessions %}
+                            {% assign session_title = paper_session["Session Title"] | strip %}
+                            {% assign session_title_norm = session_title | downcase %}
+                            {% if session_title_norm == text_norm %}
+                              {% assign anchor_raw = paper_session["Session Day"] | append: '-' | append: paper_session["Session Start Time"] | append: '-' | append: paper_session["Session End Time"] | append: '-' | append: paper_session["Session Location"] | append: '-' | append: session_title %}
+                              {% assign anchor_slug = anchor_raw | slugify %}
+                              {% assign card_link_url = papers_page_url | append: '#' | append: anchor_slug %}
+                              {% break %}
                             {% endif %}
                           {% endfor %}
+                        {% endif %}
+                        {% if card_link_url == "" and text_clean contains "Workshop:" %}
+                          {% assign session_suffix = text_clean | replace_first: "Workshop:", "" | strip %}
+                          {% assign suffix_norm = session_suffix | downcase | replace: "’", "" | replace: "‘", "" | replace: "'", "" %}
+                          {% if suffix_norm != "" %}
+                            {% for workshop in all_workshops %}
+                              {% if card_link_url == "" %}
+                                {% assign title_prefix = workshop.Title | split: ":" | first | strip %}
+                                {% assign title_prefix_norm = title_prefix | downcase | replace: "’", "" | replace: "‘", "" | replace: "'", "" %}
+                                {% assign title_full_norm = workshop.Title | downcase | replace: "’", "" | replace: "‘", "" | replace: "'", "" %}
+                                {% if title_prefix_norm != "" %}
+                                  {% if suffix_norm contains title_prefix_norm or title_prefix_norm contains suffix_norm %}
+                                    {% if workshop.Website and workshop.Website != "" %}
+                                      {% assign card_link_url = workshop.Website %}
+                                    {% endif %}
+                                  {% endif %}
+                                {% endif %}
+                                {% if card_link_url == "" and title_full_norm != "" %}
+                                  {% if suffix_norm contains title_full_norm or title_full_norm contains suffix_norm %}
+                                    {% if workshop.Website and workshop.Website != "" %}
+                                      {% assign card_link_url = workshop.Website %}
+                                    {% endif %}
+                                  {% endif %}
+                                {% endif %}
+                              {% endif %}
+                            {% endfor %}
+                          {% endif %}
+                        {% endif %}
+                        {% if card_link_url != "" %}
+                          {% capture tmp_card_link %}<a href="{{ card_link_url }}">{{ acell.text }}</a>{% endcapture %}
+                          {% assign card_title_html = tmp_card_link | strip %}
                         {% endif %}
                       {% endif %}
                     {% endunless %}
@@ -298,11 +313,7 @@ title: Overview
                   {% endif %}
 
                   <div class="card" data-text="{{ text_clean }}">
-                    {% if card_link_url != "" %}
-                      <div class="card_title"><a href="{{ card_link_url }}">{{ acell.text }}</a></div>
-                    {% else %}
-                      <div class="card_title">{{ acell.text }}</div>
-                    {% endif %}
+                    <div class="card_title">{{ card_title_html }}</div>
                     <div class="card_meta">
                       <span class="card_time">{{ full_time }}</span>
                       {% if show_room and room_display != "" %}
