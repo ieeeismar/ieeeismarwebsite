@@ -10,6 +10,33 @@ from urllib.parse import quote  # For sheet title -> URL encoding
 # ----------------------------
 # Helpers
 # ----------------------------
+def drop_extraneous_columns(df: pd.DataFrame) -> pd.DataFrame:
+    """Remove columns that are artifacts from CSV export.
+
+    - Drop columns with names like 'Unnamed: X' or blank names
+    - Drop columns that are entirely empty (all blanks/NaN)
+    """
+    if df is None or df.empty:
+        return df
+
+    # Drop columns with bad header names
+    bad_name_cols = [c for c in df.columns if (str(c).strip() == "" or str(c).startswith("Unnamed:"))]
+    if bad_name_cols:
+        df = df.drop(columns=bad_name_cols)
+
+    # Drop columns that are entirely empty after stripping
+    empty_cols = []
+    for c in df.columns:
+        col = df[c]
+        # Normalize to string and strip whitespace
+        col_stripped = col.astype(str).str.strip()
+        # Treat 'nan' and '' as empty
+        if (col_stripped.eq("") | col_stripped.str.lower().eq("nan")).all():
+            empty_cols.append(c)
+    if empty_cols:
+        df = df.drop(columns=empty_cols)
+
+    return df
 
 def load_google_sheet_as_csv(sheet_id: str, gid: Optional[str] = None, sheet_title: Optional[str] = None) -> pd.DataFrame:
     """Download a Google Sheet tab as CSV with explicit UTF-8 handling.
@@ -47,6 +74,8 @@ def load_google_sheet_as_csv(sheet_id: str, gid: Optional[str] = None, sheet_tit
         df = df.map(clean_text_encoding)
     except AttributeError:
         df = df.applymap(clean_text_encoding)
+    # Drop export artifacts
+    df = drop_extraneous_columns(df)
     return df
 
 def clean_text_encoding(value: str) -> str:
@@ -120,6 +149,8 @@ def main():
         flat = flat.map(clean_text_encoding)
     except AttributeError:
         flat = flat.applymap(clean_text_encoding)
+    # Drop export artifacts in flat file too
+    flat = drop_extraneous_columns(flat)
 
     program = load_google_sheet_as_csv(google_sheet_id, gid=google_gid, sheet_title=google_sheet_title)
 

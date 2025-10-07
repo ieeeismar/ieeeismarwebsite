@@ -21,7 +21,7 @@ TVCG,Magic-Tap: A Kinematics-Driven Virtual Hand Selection Technique in AR/VR,3D
 1367,Selection at a Distance Through a Large Transparent Touch Screen,3DUI Selection & Pointing,October 10 2025,10:30,11:30,Room 201 (Grand Ballroom 1)
 1255,HeadDepth: Gaze Raycasting with Head Pitch for Depth Control,3DUI: Gaze,October 9 2025,16:00,17:00,Room 202 (Grand Ballroom 2)
 1313,A Study of Multimodal Pen + Gaze Interaction Techniques for Shape Point Translation in Extended Reality,3DUI: Gaze,October 9 2025,16:00,17:00,Room 202 (Grand Ballroom 2)
-CG&A,"""Design Principles and Challenges for Gaze + Pinch Interaction in XR”",3DUI: Gaze,October 9 2025,16:00,17:00,Room 202 (Grand Ballroom 2)
+CGA,Design Principles and Challenges for Gaze + Pinch Interaction in XR,3DUI: Gaze,October 9 2025,16:00,17:00,Room 202 (Grand Ballroom 2)
 1497,Facilitating the Exploration of Linearly Aligned Objects in Controller-Free 3D Environment with Gaze and Microgestures,3DUI: Gaze,October 9 2025,16:00,17:00,Room 202 (Grand Ballroom 2)
 1608,When Is Self-Gaze Helpful? Examining Uni- vs Bi-directional Gaze Visualization in Collocated AR Tasks,3DUI: Gaze 2,October 10 2025,12:00,13:00,Room 201 (Grand Ballroom 1)
 1117,"Exploring Gaze Dynamics in VR Film Education: Gender, Avatar, and the Shift Between Male and Female Perspectives",3DUI: Gaze 2,October 10 2025,12:00,13:00,Room 201 (Grand Ballroom 1)
@@ -84,7 +84,7 @@ TVCG,HaHeAE: Learning Generalisable Joint Representations of Human Hand and Head
 TVCG,Neck Goes VRrr: Reducing Rotation-Induced Virtual Reality Sickness through Neck Muscle Vibrations,Cybersickness Reduction,October 11 2025,12:00,13:00,Room 205
 1613,Do Vibrotactile-Rendered Virtual Walking Sensations Reduce VR Cybersickness?,Cybersickness Reduction,October 11 2025,12:00,13:00,Room 205
 1149,Unwinding Rotations Reduces VR Sickness in Nonsimulated Immersive Telepresence,Cybersickness Reduction,October 11 2025,12:00,13:00,Room 205
-CGA,"“Sitting or standing in VR: About Comfort, Conflicts, and Hazards” by",Cybersickness Reduction,October 11 2025,12:00,13:00,Room 205
+CGA,"Sitting or standing in VR: About Comfort, Conflicts, and Hazards",Cybersickness Reduction,October 11 2025,12:00,13:00,Room 205
 1376,Visceral Notices and Privacy Mechanisms for Eye Tracking in Augmented Reality,Privacy & Attacks,October 10 2025,10:30,11:30,Room 205
 1168,p-Blend: Privacy- and Utility-Preserving Blendshape Perturbation Against Re-identification Attacks in Virtual Reality,Privacy & Attacks,October 10 2025,10:30,11:30,Room 205
 1342,PrivateXR: Defending Privacy Attacks in Extended Reality Through Explainable AI-Guided Differential Privacy,Privacy & Attacks,October 10 2025,10:30,11:30,Room 205
@@ -178,7 +178,7 @@ TVCG,Augmented Reality Productivity In-the-Wild: A Diary Study of Usage Patterns
 1522,The State of Replication at IEEE ISMAR and IEEE VR: A Scoping Literature Review (2010 -- 2024) and Online Survey,In the Wild,October 9 2025,17:30,18:30,Room 204
 1694,Enhancing Learning and Knowledge Retention of Abstract Physics Concepts with Virtual Reality,Education & Learning,October 9 2025,14:30,15:30,Room 201 (Grand Ballroom 1)
 1108,LiteAT: A Data-Lightweight and User-Adaptive VR Telepresence System for Remote Education,Education & Learning,October 9 2025,14:30,15:30,Room 201 (Grand Ballroom 1)
-CGA,"""Understanding Collaborative Learning of Molecular Structures in AR",Education & Learning,October 9 2025,14:30,15:30,Room 201 (Grand Ballroom 1)
+CGA,Understanding Collaborative Learning of Molecular Structures in AR,Education & Learning,October 9 2025,14:30,15:30,Room 201 (Grand Ballroom 1)
 2190,Xstudio - A Collaborative Metaverse-Based Tool for Automotive Design and Engineering,Education & Learning,October 9 2025,14:30,15:30,Room 201 (Grand Ballroom 1)
 1876,DOF-Separation for 3D Manipulation in XR: Understanding Finger-Wrist Separation to Simultaneously Translate and Rotate Objects,Touch & Display,October 11 2025,10:30,11:30,Room 201 (Grand Ballroom 1)
 1964,Exploring Body-Anchored Augmented Reality Interfaces Across Different Mobility and Social Contexts,Touch & Display,October 11 2025,10:30,11:30,Room 201 (Grand Ballroom 1)
@@ -196,7 +196,7 @@ CGA,"""Understanding Collaborative Learning of Molecular Structures in AR",Educa
 1603,"DocVision: a Seamless, Cross-Device Immersive Active Reading Framework for Digital Academic Literature",Document Search,October 9 2025,17:30,18:30,Room 205
 1333,How Do We Read Texts in VR?: The Effects of Text Segment Quantity and Social Distraction on Text Readability in Virtual Museum Contexts,Document Search,October 9 2025,17:30,18:30,Room 205
 1580,Application of Transitional Mixed Reality Interfaces: A Co-design Study with Flood-prone Communities,Training for/against natural phenomena,October 11 2025,09:00,10:00,Room 205
-CGA,"""Integrated Augmented and Virtual Reality Technologies for Realistic Fire Drill Training",Training for/against natural phenomena,October 11 2025,09:00,10:00,Room 205
+CGA,Integrated Augmented and Virtual Reality Technologies for Realistic Fire Drill Training,Training for/against natural phenomena,October 11 2025,09:00,10:00,Room 205
 2166,"Clean Training, Clear Skies: Virtual Reality Training for Expert Smoke Opacity Certification",Training for/against natural phenomena,October 11 2025,09:00,10:00,Room 205
 1936,Transforming Avalanche Rescue Training: Evaluating the Effectiveness of Virtual Reality Training in High-Stakes Environments,Training for/against natural phenomena,October 11 2025,09:00,10:00,Room 205
 1591,ArtSpeak: An Interactive AR Application for Lifelike Speaking with Art Portraits,Art & Museum,October 10 2025,12:00,13:00,Room 204
@@ -223,6 +223,7 @@ CGA,"""Integrated Augmented and Virtual Reality Technologies for Realistic Fire 
 1147,A Multi-Sensor Approach for Cognitive Load Assessment in Mobile Augmented Reality,Video Presentations 1: Human Factors and XR,October 9 2025,10:30,11:30,Room 205
 1757,Measuring Rotational Inertia in HMDs: Calculation of Torque as an Unobtrusive Indicator of Expended Effort in Virtual Environments,Video Presentations 1: Human Factors and XR,October 9 2025,10:30,11:30,Room 205
 1923,Augmented Reality Visualization Techniques for Search and Rescue: Findings from a User Study with Subject Matter Experts ,Video Presentations 1: Human Factors and XR,October 9 2025,10:30,11:30,Room 205
+1766,Automated Scalable Brightness and Black Offset Seamlessness for Multi-Projector Displays,Video Presentations 1: Human Factors and XR,October 9 2025,10:30,11:30,Room 205
 1667,The Impact of Performance-Specific Feedback from a Virtual Coach in a Virtual Reality Exercise Application,Video Presentations 2: XR Illusions,October 9 2025,14:30,15:30,Room 204
 1047,Virtual Museum Tour Agent: Effects of Responsiveness and Awareness,Video Presentations 2: XR Illusions,October 9 2025,14:30,15:30,Room 204
 1941,The Effect of Crowds on Peripersonal Space and Interpersonal Distance in Immersive Virtual Environments,Video Presentations 2: XR Illusions,October 9 2025,14:30,15:30,Room 204
