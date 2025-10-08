@@ -1,6 +1,6 @@
 ---
 layout: 2025/page
-title: 1st Korea-Australia Joint Workshop on Mixed Reality and Robotics (KAMRR’25)
+title: 2025 Korea-Australia Joint Workshop on Mixed Reality and Robotics (KAMRR’25)
 ---
 
 <!-- add custom title css style for this page -->
@@ -37,7 +37,7 @@ main h1:first-of-type {
 }
 </style>
 
-*Last updated: 2025-10-05 01:20PM GMT*
+*Last updated: 2025-10-08 08:30AM GMT*
 
 ## Workshop Date
 **October 12th (Sunday)**
@@ -79,12 +79,12 @@ We invite researchers, engineers, industry representatives, and students from bo
   <br> <hji@kist.re.kr>
   <br> Research Topics: Mixed Reality
 - #### **\[10:50~11:00\] Break**
-- #### **\[11:00~11:30\] How the Metaverse and Generative AI are Transforming Engineering and Medical Science Education (Zoom)**
-  - "How the Metaverse and Generative AI are Transforming Engineering and Medical Science Education"
-  <br> Dr. Ali Darejeh
-  <br> University of New South Wales
-  <br> <ali.darejeh@unsw.edu.au>
-  <br> Research Topics: Educational Technologies, Metaverse, Serious Gaming
+- #### **\[11:00~11:30\] Visuo-Haptic Illusions in XR**
+  - "Visuo-Haptic Illusions in XR"
+  <br> Mr. Jian Zhang (A/Prof Wafa Johal)
+  <br> University of Melbourne
+  <br> <jianzhang10@student.unimelb.edu.au>
+  <br> Research Topics: Haptics/Robotics in XR
 - #### **\[11:30~12:00\] A Smart Glasses–Based Tele-Direction and Training System for Medical applications**
   - "A Smart Glasses–Based Tele-Direction and Training System for Medical applications" 
   <br> Prof. Youngho Lee
@@ -102,13 +102,13 @@ We invite researchers, engineers, industry representatives, and students from bo
   - Prof. Sang Ho Yoon 
   <br> KAIST
   <br> <sangho@kaist.ac.kr>
-- #### **\[2:30~3:00\] Visuo-Haptic Illusions in XR**
-  - "Visuo-Haptic Illusions in XR"
-  <br> Mr. Jian Zhang (A/Prof Wafa Johal)
-  <br> University of Melbourne
-  <br> <jianzhang10@student.unimelb.edu.au>
-  <br> Research Topics: Haptics/Robotics in XR
-- #### **\[3:00~3:10\] Closing Remarks (Gun Lee and Gyunglim Lee)**
+- #### **\[2:30~3:00\] How the Metaverse and Generative AI are Transforming Engineering and Medical Science Education (Zoom)**
+  - "How the Metaverse and Generative AI are Transforming Engineering and Medical Science Education"
+  <br> Dr. Ali Darejeh
+  <br> University of New South Wales
+  <br> <ali.darejeh@unsw.edu.au>
+  <br> Research Topics: Educational Technologies, Metaverse, Serious Gaming
+- #### **\[3:00~3:10\] Closing Remarks (Gun Lee)**
 
 <br>
 
