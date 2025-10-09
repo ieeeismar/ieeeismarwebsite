@@ -192,6 +192,8 @@ Form**](https://forms.gle/nSGpPVxCL1Z2bkz78)
 
 For questions, please contact: <aychoi@gachon.ac.kr>
 
+---
+
 ## Children’s Participation at ISMAR 2025
 
 To support our EDI policy and foster a family-friendly environment, children of registered participants will be issued name tags and warmly welcomed to join the conference. 
