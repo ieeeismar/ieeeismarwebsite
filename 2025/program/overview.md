@@ -498,20 +498,6 @@ title: Overview
 
   showPanel(initialIndex);
 
-  // Swipe between panels on mobile
-  let startX = null;
-  panels.forEach((panel, i) => {
-    panel.addEventListener('touchstart', e => { startX = e.touches[0].clientX; }, { passive: true });
-    panel.addEventListener('touchend', e => {
-      if (startX === null) return;
-      const dx = e.changedTouches[0].clientX - startX;
-      startX = null;
-      const threshold = 50;
-      if (dx > threshold && i > 0) showPanel(i - 1);
-      if (dx < -threshold && i < panels.length - 1) showPanel(i + 1);
-    }, { passive: true });
-  });
-
   // Dynamic fade handling for scrollable areas (tabs + table wrappers)
   function applyFadeLogic(el) {
     if (!el) return;
