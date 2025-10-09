@@ -12,6 +12,7 @@ title: Overview
 {% assign demos_page_url = "/2025/program/demos/" | relative_url %}
 {% assign tutorials_page_url = "/2025/program/tutorials/" | relative_url %}
 {% assign pitch_page_url = "/2025/program/pitch-your-lab/" | relative_url %}
+{% assign panels_page_url = "/2025/program/panels/" | relative_url %}
 {% assign future_faculty_page_url = "/2025/program/Future-Faculty-Forum/" | relative_url %}
 {% capture demo_poster_markup %}
 <a href="{{ demos_page_url }}">Demo</a> &amp; <a href="{{ posters_page_url }}">Poster</a> Presentation
@@ -100,6 +101,8 @@ title: Overview
                             {% assign cell_link_url = future_faculty_page_url %}
                           {% elsif text_norm == 'pitch your lab' %}
                             {% assign cell_link_url = pitch_page_url %}
+                          {% elsif first_word == 'panel:' %}
+                            {% assign cell_link_url = panels_page_url %}
                           {% elsif first_word == 'tutorial:' %}
                             {% assign cell_link_url = tutorials_page_url %}
                           {% endif %}
@@ -226,6 +229,8 @@ title: Overview
                           {% assign card_link_url = future_faculty_page_url %}
                         {% elsif text_norm == 'pitch your lab' %}
                           {% assign card_link_url = pitch_page_url %}
+                        {% elsif first_word == 'panel:' %}
+                          {% assign card_link_url = panels_page_url %}
                         {% elsif first_word == 'tutorial:' %}
                           {% assign card_link_url = tutorials_page_url %}
                         {% endif %}
