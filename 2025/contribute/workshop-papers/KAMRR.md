@@ -37,7 +37,7 @@ main h1:first-of-type {
 }
 </style>
 
-*Last updated: 2025-10-10 07:03AM GMT*
+*Last updated: 2025-10-10 09:03AM GMT*
 
 ## Workshop Date
 **October 12th (Sunday)**
@@ -104,10 +104,12 @@ We invite researchers, engineers, industry representatives, and students from bo
   <br> <gun.lee@unisa.edu.au>
   <br> Research Topics: Empathic Computing, Immersive Collaboration and Training
 - #### **\[12:30~2:00\] Lunch**
-- #### **\[2:00~2:30\] Invited Talk (Prof. Sang Ho Yoon, KAIST)**
-  - Prof. Sang Ho Yoon 
+- #### **\[2:00~2:30\] Beyond Glasses: Towards Adaptbodied Interaction**
+  -  "Beyond Glasses: Towards Adaptbodied Interaction"
+  <br> Prof. Sang Ho Yoon
   <br> KAIST
   <br> <sangho@kaist.ac.kr>
+  <br> Research Topics: HCI, Haptics, Sensing Techniques
 - #### **\[2:30~3:00\] How the Metaverse and Generative AI are Transforming Engineering and Medical Science Education (Zoom)**
   - "How the Metaverse and Generative AI are Transforming Engineering and Medical Science Education"
   <br> Dr. Ali Darejeh
