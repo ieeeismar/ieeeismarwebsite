@@ -37,7 +37,7 @@ main h1:first-of-type {
 }
 </style>
 
-*Last updated: 2025-10-08 08:30AM GMT*
+*Last updated: 2025-10-10 07:03AM GMT*
 
 ## Workshop Date
 **October 12th (Sunday)**
@@ -65,7 +65,13 @@ We invite researchers, engineers, industry representatives, and students from bo
 <br>
 
 ## Tentative Schedule
-- #### **\[9:30~9:45\] Welcome Talk (Byunghyun Yoo, KIST)**
+- #### **\[9:30~9:45\] Welcome Talks**
+  - Byunghyun Yoo
+  <br> Korea Institute of Science and Technology (KIST) 
+  - Lee Kyounglim
+  <br> Director 
+  <br> Americas & Asia Cooperation Division 
+  <br> Ministry of Science and ICT
 - #### **\[9:50~10:20\] Televerse: A Framework for Augmented Telepresence**
   - "Televerse: A Framework for Augmented Telepresence" 
   <br> Prof. Taehyun Rhee 
