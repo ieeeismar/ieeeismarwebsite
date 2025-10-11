@@ -71,7 +71,7 @@ Kihwan Kim is a computer scientist and technology executive serving as Corporate
  <figcaption>Soonmin Bae, Chief Responsible AI Officer (CRAIO), KT</figcaption>
 </figure>
 <h2>Keynote Talk 3 (Oct.11, 2025 Sat, 16:00-17:00)</h2>
-<h2>Soonmin Bae <span style="font-weight: 200">|</span> <span style="font-weight: 400">CEO, Chief Responsible AI Officer (CRAIO), KT</span></h2>
+<h2>Soonmin Bae <span style="font-weight: 200">|</span> <span style="font-weight: 400">Chief Responsible AI Officer (CRAIO), KT</span></h2>
 <!-- markdownlint-enable MD033 -->
 
 ### **Title:** Distributed AI: The Future of Connected Intelligence
