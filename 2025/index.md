@@ -39,6 +39,13 @@ redirect_from: /
 <h3 class="updates-title">Updates</h3>
 <section class="updates-container">
   {% include 2025/notice.html
+      type="success"
+      title="Thank You for Making ISMAR 2025 a Success"
+      date="October 2025"
+      content="ISMAR 2025 has officially concluded. Thank you to every participant for sharing your research and energy in Daejeon, and to our organizing committee, steering committee, and sponsors for their dedication and support throughout the year."
+      markdown="[Explore the ISMAR 2025 Awards and Recognitions →](/2025/program/awards)"
+  %}
+  {% include 2025/notice.html
       type="info"
       title="Transportation Guide for Conference Attendees"
       date="September 2025"
@@ -97,8 +104,8 @@ redirect_from: /
                 </td>
             </tr>
             <tr>
-                <td><b>Workshop Papers</b></td>
-                <td><b><a href="/2025/contribute/workshop-papers/">See workshop websites for deadlines</a></b></td>
+                <td><b class="passed-deadline">Workshop Papers</b></td>
+                <td><b class="passed-deadline"><a href="/2025/contribute/workshop-papers/">See workshop websites for deadlines</a></b></td>
             </tr>
             <tr>
                 <td><b>Poster Papers</b></td>
