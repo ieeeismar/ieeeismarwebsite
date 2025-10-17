@@ -3,55 +3,38 @@ layout: 2025/page
 title: Awards
 ---
 
-{% assign awards = site.data["2025"]["awards"] %}
-{% assign prev_title = "" %}
+# ISMAR 2025 Awards
 
-<div class="awards-collection">
-{% for award in awards %}
-  {% assign title = award["Award Title"] | strip %}
-  {% assign publication = award["Publication Title"] | strip %}
-  {% assign authors = award["Authors"] | strip %}
-  {% if title != prev_title %}
-    {% unless forloop.first %}
-      </ul>
-    </section>
-    {% endunless %}
-    <section class="award-group" id="{{ title | slugify }}">
-      <h2 class="award-heading">{{ title }}</h2>
-      <ul class="award-list">
-    {% assign prev_title = title %}
-  {% endif %}
-  <li class="award-item">
-    {% if publication != "" and authors != "" %}
-      <span class="award-paper"><em>{{ publication }}</em></span>
-      <span class="award-authors">{{ authors }}</span>
-    {% elsif publication != "" %}
-      <span class="award-paper"><em>{{ publication }}</em></span>
-    {% elsif authors != "" %}
-      <span class="award-authors">{{ authors }}</span>
-    {% else %}
-      <span class="award-note">Details forthcoming.</span>
-    {% endif %}
-  </li>
-  {% if forloop.last %}
-      </ul>
-    </section>
-  {% endif %}
+We are pleased to announce the recipients of the ISMAR 2025 awards, recognizing outstanding contributions to the field of Mixed and Augmented Reality.
+
+## {{ site.data["2025"].awards.award_categories.conference.title }}
+
+{{ site.data["2025"].awards.award_categories.conference.description }}
+
+{% for award in site.data["2025"].awards.conference_awards %}
+### {{ award.name }}
+**Recipient:** {{ award.recipient }}
+{% if award.description != "" %}
+**Title:** {{ award.description }}
+{% endif %}
+
 {% endfor %}
-</div>
 
-<style>
-.award-group { margin-bottom: 30px; }
-h2.award-heading { font-size: 1.35rem; border-bottom: 2px solid #e0e5eb; padding-bottom: 6px; margin-bottom: 12px; }
-.award-item { padding-bottom: 6px; }
-.award-paper { display: block; font-size: 0.95rem; color: #0c4184; }
-.award-authors { display: block; font-size: 0.85rem; color: #333333; margin-top: 4px; }
-.award-note { font-size: 0.9rem; color: #555555; }
+## {{ site.data["2025"].awards.award_categories.impact.title }}
 
-@media (max-width: 620px) {
-  .award-heading { font-size: 1.2rem; }
-  .award-item { padding: 10px 12px; }
-  .award-paper { font-size: 0.92rem; }
-  .award-authors { font-size: 0.82rem; }
-}
-</style>
+{{ site.data["2025"].awards.award_categories.impact.description }}
+
+{% for award in site.data["2025"].awards.impact_awards %}
+### {{ award.name }}
+{% for recipient in award.recipients %}
+**Recipient:** {{ recipient.name }}
+{% endfor %}
+{% if award.description != "" %}
+**Title:** {{ award.description }}
+{% endif %}
+
+{% endfor %}
+
+---
+
+*Last updated: {{ site.time | date: "%B %d, %Y" }}*
