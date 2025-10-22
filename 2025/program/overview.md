@@ -481,26 +481,6 @@ title: Overview
   }
   tabs.forEach((btn, i) => btn.addEventListener('click', () => showPanel(i)));
 
-  // Choose the initial tab based on the visitor's local date, defaulting to the first day.
-  const today = new Date();
-  const todayMidnight = new Date(today.getFullYear(), today.getMonth(), today.getDate());
-  let initialIndex = 0;
-  const datedTabs = Array.from(tabs, (tab, idx) => {
-    const raw = tab.dataset.date;
-    if (!raw) return null;
-    const parsed = new Date(raw);
-    if (isNaN(parsed.getTime())) return null;
-    return { idx, date: new Date(parsed.getFullYear(), parsed.getMonth(), parsed.getDate()) };
-  }).filter(Boolean);
-  if (datedTabs.length) {
-    const upcoming = datedTabs.find(item => item.date >= todayMidnight);
-    if (upcoming) {
-      initialIndex = upcoming.idx;
-    } else {
-      initialIndex = datedTabs[datedTabs.length - 1].idx;
-    }
-  }
-
   showPanel(initialIndex);
 
   // Dynamic fade handling for scrollable areas (tabs + table wrappers)
