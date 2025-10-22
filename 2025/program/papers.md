@@ -87,7 +87,10 @@ title: Papers
                     <li class="paper-item">
                       <span class="paper-id">{{ r["Paper ID"] }}</span>
                       <span class="paper-title">{{ r["Paper Title"] }}</span>
-                      {% if r["Paper Authors"] %}<span class="paper-authors">{{ r["Paper Authors"] }}</span>{% endif %}
+                      {% assign paper_authors = r["Paper Authors"] | default: "" | strip %}
+                      {% if paper_authors != "" %}
+                        <span class="paper-authors">{{ paper_authors }}</span>
+                      {% endif %}
                     </li>
                   {% endif %}
                 {% endfor %}
@@ -160,4 +163,3 @@ title: Papers
   .papers-session { font-size:0.9rem; }
 }
 </style>
-
