@@ -7,6 +7,7 @@ title: Papers
 
 {% assign rows = site.data["2025"]["program"]["papers"] %}
 {% assign days = "October 9 2025|October 10 2025|October 11 2025" | split: "|" %}
+{% assign session_chairs = site.data["2025"]["program"]["session_chairs"] %}
 
 <!-- Table of Contents -->
 <div class="papers-toc">
@@ -22,7 +23,7 @@ title: Papers
     <h3 class="toc-day">{{ day }}</h3>
     <table class="papers-toc-table">
       <thead>
-        <tr><th>Time</th><th>Session</th><th>Location</th></tr>
+        <tr><th>Time</th><th>Session</th><th>Chair</th><th>Location</th></tr>
       </thead>
       <tbody>
       {% for combo in combos %}
@@ -32,11 +33,20 @@ title: Papers
           {% assign end = parts[1] %}
           {% assign location = parts[2] %}
           {% assign title = parts[3] %}
+          {% assign chair_lookup = session_chairs | where: "Session Title", title %}
+          {% assign chair = chair_lookup[0]["Session Chair"] | default: "" %}
           {% assign anchor_raw = day | append: '-' | append: start | append: '-' | append: end | append: '-' | append: location | append: '-' | append: title %}
           {% assign anchor = anchor_raw | slugify %}
           <tr>
             <td class="toc-time"><a href="#{{ anchor }}">{{ start }} – {{ end }}</a></td>
             <td class="toc-session"><a href="#{{ anchor }}">{{ title }}</a></td>
+            <td class="toc-chair">
+              {% if chair != "" %}
+                {{ chair }}
+              {% else %}
+                —
+              {% endif %}
+            </td>
             <td class="toc-location"><a href="#{{ anchor }}">{{ location }}</a></td>
           </tr>
         {% endif %}
@@ -78,9 +88,11 @@ title: Papers
           {% for session_key in session_keys %}
             {% if session_key != "" %}
               {% assign sess = session_key | split: "||" %}
+              {% assign chair_lookup = session_chairs | where: "Session Title", sess[1] %}
+              {% assign chair = chair_lookup[0]["Session Chair"] | default: "" %}
               {% assign anchor_raw = day | append: '-' | append: parts[0] | append: '-' | append: parts[1] | append: '-' | append: sess[0] | append: '-' | append: sess[1] %}
               {% assign anchor = anchor_raw | slugify %}
-              <h3 id="{{ anchor }}" class="papers-session">{{ sess[1] }} <span class="papers-location">{{ sess[0] }}</span></h3>
+              <h3 id="{{ anchor }}" class="papers-session">{{ sess[1] }}{% if chair != "" %} <span class="papers-chair">Chair: {{ chair }}</span>{% endif %} <span class="papers-location">{{ sess[0] }}</span></h3>
               <ul class="paper-list">
                 {% for r in day_rows %}
                   {% if r["Session Start Time"] == parts[0] and r["Session End Time"] == parts[1] and r["Session Title"] == sess[1] and r["Session Location"] == sess[0] %}
@@ -114,6 +126,7 @@ title: Papers
 .papers-session { margin:6px 0 3px 0; font-size:0.95rem; font-weight:600; display:flex; align-items:center; flex-wrap:wrap; gap:6px; }
 .papers-location { font-weight:500; color:#0d47a1; background:#eef4ff; border:1px solid #d0e2ff; padding:2px 8px; border-radius:14px; font-size:0.93rem; letter-spacing:.4px; }
 .papers-session .papers-location { margin-left:0; }
+.papers-chair { margin:0; font-size:0.82rem; font-weight:500; color:#0d47a1; background:#f2f6ff; border:1px solid #d6e3ff; padding:2px 8px; border-radius:14px; display:inline-flex; align-items:center; gap:6px; letter-spacing:.3px; }
 .papers-day-title { position:relative; }
 .papers-day-title::after { content:'Sessions'; position:absolute; right:0; top:50%; transform:translateY(-50%); font-size:0.55rem; letter-spacing:.6px; background:#eef1f4; color:#555; padding:3px 6px; border-radius:10px; font-weight:600; text-transform:uppercase; }
 .page-content ul.paper-list { margin:0 0 10px 0px; padding:0; }
@@ -130,6 +143,7 @@ title: Papers
 .papers-toc-table { width:100%; border-collapse:collapse; font-size:0.9rem; background:#fff; }
 .papers-toc-table th, .papers-toc-table td { padding:4px 6px; text-align:left; border:1px solid #dcdfe3; }
 .papers-toc-table th { background: rgb(37, 37, 197); font-weight:600; font-size:0.72rem; letter-spacing:.5px; text-transform:uppercase; }
+.papers-toc-table td.toc-chair { font-size:0.82rem; color:#123572; }
 .papers-toc-table tbody tr:nth-child(even) { background:#fafbfc; }
 .papers-toc-table tbody td:before { padding-right: 0; };
 .toc-day { margin:18px 0 6px 0; font-size:1.05rem; font-weight:600; }
@@ -150,7 +164,9 @@ title: Papers
   .papers-toc-table td.toc-session a { display:block; width:100%; }
   /* Time & location inline, left aligned */
   .papers-toc-table td.toc-time { order:1; width:auto; font-weight:500; font-size:0.8rem; margin-right:10px; }
-  .papers-toc-table td.toc-location { order:2; width:auto; text-align:left; font-size:0.8rem; }
+  .papers-toc-table td.toc-chair { order:2; width:100%; font-size:0.8rem; color:#0d47a1; }
+  .papers-toc-table td.toc-chair:before { content:"Chair: "; font-weight:600; color:#123572; }
+  .papers-toc-table td.toc-location { order:3; width:auto; text-align:left; font-size:0.8rem; }
   .papers-toc-table td.toc-location:before { content:"• "; color:#999; margin-right:2px; }
   /* Remove prepended labels from previous layout */
   .papers-toc-table td.toc-time:before,
