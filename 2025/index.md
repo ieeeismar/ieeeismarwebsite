@@ -39,6 +39,13 @@ redirect_from: /
 <h3 class="updates-title">Updates</h3>
 <section class="updates-container">
   {% include 2025/notice.html
+      type="info"
+      title="Browse the ISMAR 2025 Photo Gallery"
+      date="October 2025"
+      content="Relive the highlights from Daejeon with photos captured throughout the week."
+      markdown="[Open the Flickr Photo Album →](https://www.flickr.com/photos/203745229@N03/albums)"
+  %}
+  {% include 2025/notice.html
       type="success"
       title="Thank You for Making ISMAR 2025 a Success"
       date="October 2025"
