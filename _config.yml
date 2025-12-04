@@ -19,8 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: IEEE ISMAR
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://www.ieeeismar.net" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog     /  put this in when live
+url: "" # the base hostname & protocol for your site, e.g. http://example.com    https://www.ieeeismar.net put this in when live
 
 
 # Build settings
@@ -42,6 +42,11 @@ collections:
   year2025:
     output: true
     permalink: /2025/:path/
+
+  year2026:
+    output: true
+    permalink: /2026/:path/
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

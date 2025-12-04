@@ -1,0 +1,72 @@
+<header>
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <a href="{{ '/' | relative_url }}" class="navbar-brand" aria-label="Homepage">
+            <img src="{{ '/assets/2026/img/IsmarLogo.png' | relative_url }}" alt="ISMAR 2026" class="logo">
+        </a>
+        <button class="hamburger" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+        </button>
+        <ul class="nav-links" id="primary-nav">
+            {% for item in site.data["2026"].navigation %}
+            {% assign has_children = item.children %}
+            <li class="nav-item {% if has_children %}dropdown{% endif %}" {% if has_children %}data-has-children="true"{% endif %}>
+                <a href="{% if item.url contains 'http://' or item.url contains 'https://' %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}" class="nav-link" {% if has_children %}aria-haspopup="true" aria-expanded="false"{% endif %} {% if item.url contains 'http://' or item.url contains 'https://' %}target="_blank" rel="noopener"{% endif %}>
+                    <span class="nav-text">{{ item.title }}</span>
+                    {% if item.url contains 'http://' or item.url contains 'https://' %}
+                    <svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" style="margin-left:4px;vertical-align:middle"><path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"></path><path d="M5 5h7v2H7v10h10v-5h2v7H5z"></path></svg>
+                    {% endif %}
+                    {% if has_children %}<span class="arrow arrow-down" aria-hidden="true"></span>{% endif %}
+                </a>
+                {% if has_children %}
+                <ul class="dropdown-content" role="menu">
+                    {% for child in item.children %}
+                    {% assign child_has_children = child.children %}
+                    <li class="{% if child_has_children %}dropdown{% endif %}" {% if child_has_children %}data-has-children="true"{% endif %}>
+                        <a href="{% if child.url contains 'http://' or child.url contains 'https://' %}{{ child.url }}{% else %}{{ child.url | relative_url }}{% endif %}" class="nav-link" {% if child_has_children %}aria-haspopup="true" aria-expanded="false"{% endif %} {% if child.url contains 'http://' or child.url contains 'https://' %}target="_blank" rel="noopener"{% endif %}>
+                            <span class="nav-text">{{ child.title }}</span>
+                            {% if child.url contains 'http://' or child.url contains 'https://' %}
+                            <svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" style="margin-left:4px;vertical-align:middle"><path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"></path><path d="M5 5h7v2H7v10h10v-5h2v7H5z"></path></svg>
+                            {% endif %}
+                            {% if child_has_children %}<span class="arrow arrow-right" aria-hidden="true"></span>{% endif %}
+                        </a>
+                        {% if child_has_children %}
+                        <ul class="dropdown-content" role="menu">
+                            {% for grandchild in child.children %}
+                            {% assign gc_has_children = grandchild.children %}
+                            <li class="{% if gc_has_children %}dropdown{% endif %}" {% if gc_has_children %}data-has-children="true"{% endif %}>
+                                <a class="nav-link" href="{% if grandchild.url contains 'http://' or grandchild.url contains 'https://' %}{{ grandchild.url }}{% else %}{{ grandchild.url | relative_url }}{% endif %}" {% if gc_has_children %}aria-haspopup="true" aria-expanded="false"{% endif %} {% if grandchild.url contains 'http://' or grandchild.url contains 'https://' %}target="_blank" rel="noopener"{% endif %}>
+                                    <span class="nav-text">{{ grandchild.title }}</span>
+                                    {% if grandchild.url contains 'http://' or grandchild.url contains 'https://' %}
+                                    <svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" style="margin-left:4px;vertical-align:middle"><path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"></path><path d="M5 5h7v2H7v10h10v-5h2v7H5z"></path></svg>
+                                    {% endif %}
+                                    {% if gc_has_children %}<span class="arrow arrow-right" aria-hidden="true"></span>{% endif %}
+                                </a>
+                                {% if gc_has_children %}
+                                <ul class="dropdown-content" role="menu">
+                                    {% for ggrandchild in grandchild.children %}
+                                    <li>
+                                        <a class="nav-link" href="{% if ggrandchild.url contains 'http://' or ggrandchild.url contains 'https://' %}{{ ggrandchild.url }}{% else %}{{ ggrandchild.url | relative_url }}{% endif %}" {% if ggrandchild.url contains 'http://' or ggrandchild.url contains 'https://' %}target="_blank" rel="noopener"{% endif %}>
+                                            <span class="nav-text">{{ ggrandchild.title }}</span>
+                                            {% if ggrandchild.url contains 'http://' or ggrandchild.url contains 'https://' %}
+                                            <svg aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 24 24" style="margin-left:4px;vertical-align:middle"><path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"></path><path d="M5 5h7v2H7v10h10v-5h2v7H5z"></path></svg>
+                                            {% endif %}
+                                        </a>
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                                {% endif %}
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </nav>
+</header>

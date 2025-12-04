@@ -1,0 +1,73 @@
+<footer class="footer">
+    <!-- Footer background image -->
+    <img src="{{ '/assets/2026/img/footer/footer-1920.jpg' | relative_url }}" 
+         srcset="
+            {{ '/assets/2026/img/footer/footer-3600.jpg' | relative_url }} 3600w,
+            {{ '/assets/2026/img/footer/footer-2560.jpg' | relative_url }} 2560w,
+            {{ '/assets/2026/img/footer/footer-1920.jpg' | relative_url }} 1920w,
+            {{ '/assets/2026/img/footer/footer-1280.jpg' | relative_url }} 1280w,
+            {{ '/assets/2026/img/footer/footer-640.jpg' | relative_url }} 640w
+         "
+         sizes="(max-width: 640px) 100vw,
+                (max-width: 1280px) 100vw,
+                (max-width: 1920px) 100vw,
+                100vw" 
+         alt="Footer Background" />
+    <!-- Footer text -->
+    <div class="footer-content">
+         IEEE ISMAR 2026 | Bari, Italy | October 2026
+    </div>
+</footer>
+
+<script>
+// ==================================================
+// Footer Deadline Script
+// ==================================================
+document.addEventListener('DOMContentLoaded', function() {
+    // 1. Get current UTC time
+    const now = new Date();
+    console.log("Current UTC time:", now.toISOString());
+
+    // 2. Select all deadline elements
+    const deadlines = document.querySelectorAll('strong, .deadline'); 
+    
+    // 3. Iterate through all deadline elements
+    deadlines.forEach(el => {
+
+        // Skip manually styled deadlines
+        if (el.classList.contains('manual-strike')) {
+            console.log("Skipped manually styled deadline:", el.textContent.trim());
+            return;
+        }
+
+        // Extract text content
+        const text = el.textContent.trim();
+
+        // 4. Match dates in "Month Day, Year (23:59 AoE)" format
+        const dateMatch = text.match(/([A-Za-z]+) (\d+)(?:st|nd|rd|th), (\d{4})(?: \(23:59 AoE\))?/);
+
+        if (dateMatch) {
+            const [_, month, day, year] = dateMatch;
+            const hasAoE = text.includes('23:59 AoE');
+
+            // 5. Construct Date object
+            let deadline;
+            if (hasAoE) {
+                // Adjust for AoE (UTC-12)
+                deadline = new Date(`${month} ${day}, ${year} 11:59:00 GMT`);
+                deadline.setDate(deadline.getDate() + 1);
+            } else {
+                deadline = new Date(`${month} ${day}, ${year} 23:59:00 GMT`);
+            }
+
+            console.log(`Processing: ${text} | Deadline: ${deadline.toISOString()}`);
+
+            // 6. Compare with current time and mark passed deadlines
+            if (deadline < now) {
+                el.classList.add('passed-deadline');
+                console.log("Marked as passed:", text);
+            }
+        }
+    });
+});
+</script>

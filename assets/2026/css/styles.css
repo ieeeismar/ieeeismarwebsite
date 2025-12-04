@@ -1,0 +1,1902 @@
+/* Variables */
+:root {
+    --nav-height: 70px; /* Navbar height */
+}
+
+/* Centered content for main sections */
+.center-content {
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    align-items: center;    /* Center items horizontally */
+    text-align: center;     /* Center text inside */
+    margin: 0 auto;        /* Center the container itself */
+}
+
+
+/* Body styling */
+body {
+    padding-top: 80px;          /* Add padding to the body for spacing */
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #fff; /* Background color */
+    position: fixed;        /* Fixed position */
+    top: 0;                 /* Stick to the top */
+    width: 100%;            /* Full width */
+    z-index: 1000;          /* Bring it to the front */
+    min-height: var(--nav-height);
+    display: flex;          /* Use flexbox for layout */
+    align-items: center;    /* Center items vertically */
+    padding: 0 20px;        /* Padding on the sides */
+    justify-content: center; /* Space between logo and links */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow effect */
+}
+
+/* Optional: Change shadow on scroll for a dynamic effect */
+.navbar.scrolled {
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4); /* Darker shadow when scrolled */
+}
+
+
+/* Container for header content */
+.container {
+    display: flex;
+    max-width: 1200px;     /* Max width for the content */
+    margin: 0 auto;        /* Center the container */
+}
+
+/* Logo Styling */
+.logo {
+    width: 160px;
+    height: 48px;
+   /* height: 50px;            /* Set a height for the logo */
+/*     margin-right: 570px;      /* Add space between logo and navigation */
+    /*display: inline-block;   /* Make sure the logo stays inline */
+}
+
+/* Responsive Styles for Smaller Screens */
+@media (max-width: 768px) {
+    .logo {
+        width: 160px;
+        height: 48px;
+       /* height: 40px;        /* Reduce the logo height slightly for smaller screens */
+        margin-right: 0;     /* Remove the large right margin on smaller screens */
+    }
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+/* Submenu indicators (simple, visible triangles) */
+.nav-links li[data-has-children] > a .arrow { 
+    display:inline-block; 
+    width:0; height:0; 
+    margin-left:6px; 
+    border-left:5px solid transparent; 
+    border-right:5px solid transparent; 
+    border-top:6px solid currentColor; 
+    transition: transform .25s ease; 
+}
+/* Rotate down arrow when open (mobile accordion) */
+.nav-item.open > a .arrow.arrow-down { transform: rotate(180deg); }
+/* Nested (right) arrow */
+.dropdown-content li[data-has-children] > a .arrow.arrow-right { 
+    border-top:5px solid transparent; 
+    border-bottom:5px solid transparent; 
+    border-left:6px solid currentColor; 
+    border-right:none; 
+    margin-left:8px; 
+}
+.dropdown-content li.open > a .arrow.arrow-right { transform: rotate(90deg); }
+/* Desktop hover cue (optional rotate on hover for top level) */
+@media (min-width:769px){
+    .nav-links > li[data-has-children]:hover > a .arrow.arrow-down:not(.no-rotate) { transform: rotate(180deg); }
+}
+
+nav ul li {
+    margin: 0 10px; /* Adds spacing between each list item (nav link) */
+}
+/* Link Styling */
+.nav-links li a {
+    text-decoration: none;      /* Remove underline from links */
+    color: #3D1209;               /* Change link color */
+    font-weight: normal;         /* Optional: make links bold */
+    font-size: 15px;           /* Set font size */
+    font-family: 'Poppins', sans-serif; /* Change font family */
+    padding: 0 10px;          /* Add padding to each link */
+    display: block;            /* Make the links block-level elements */
+    font-weight: 600; /* Regular weight */
+    line-height: 24px;
+    letter-spacing: -0.18px; /* Adjusted to match the value provided */
+    text-align: left;
+    text-underline-position: from-font; /* This might not work in all browsers, so check compatibility */
+    text-decoration-skip-ink: none; /* Ensures text decoration doesn't affect ink */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+    text-transform: uppercase; 
+}
+
+
+/* Red hover effect */
+.nav-links li a:hover {
+    background-color: #f4e8d4;      /* Red background on hover */
+    color:#3D1209;               /* White text on hover */
+    border-radius: 4px;         /* Optional: Add rounded corners */
+}
+
+
+/* Dropdown container */
+.dropdown-content {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 100%; /* Position below the parent link */
+    left: 0;
+    background-color: #fff;
+    min-width: 250px; /* Increase width to fit longer subpage titles */
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    list-style: none; /* Remove bullet points in the dropdown */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+/* Nested Dropdown container */
+.dropdown-content .dropdown-content {
+    left: calc(100% + 10px); /* Position to the right of the parent dropdown while accounting for padding */
+    top: 0; /* Align with the top of the parent dropdown */
+    margin-left: 1px; /* Small gap between parent and child dropdown */
+}
+
+/* Third-level (great-grandchild) positioning on desktop */
+.dropdown-content .dropdown-content .dropdown-content {
+    left: 100%;
+    top: 0;
+}
+
+.dropdown-content li {
+    padding: 5px 10px;
+    list-style: none;
+}
+
+/* Style for dropdown links */
+.dropdown-content li a {
+    color: #3D1209; /* Text color */
+    padding: 5px;
+    display: block;
+    font-size: 16px; /* Adjust font size */
+    font-weight: normal; /* Make the text unbold */
+    text-align: left; /* Align the text to the left */
+    white-space: nowrap; /* Prevent text from wrapping */
+    text-transform: none;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Hide nested dropdown by default */
+.dropdown .dropdown-content li .dropdown-content {
+    display: none; 
+}
+
+/* Show nested dropdown on hover */
+.dropdown .dropdown-content li:hover .dropdown-content {
+    display: block;
+}
+
+/* Remove arrow for subpages */
+.dropdown-content li a::after {
+    content: "";  /* No arrow for subpages */
+}
+
+/* Optional hover effect for dropdown links */
+.dropdown-content li a:hover {
+    background-color: white;
+    color: #006df2 ; /* Optional: change text color on hover */
+    font-weight: bold; /* Make the text bold on hover */
+}
+/* Mobile styles */
+@media (max-width: 768px) {
+  .dropdown-content {
+    position: static;
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .dropdown-content .dropdown-content {
+    left: 0;
+    margin-left: 15px;
+    position: static;
+  }
+
+  /* Fix for double arrows */
+  .dropdown > a::after {
+    float: right;
+    margin-left: 0;
+  }
+
+  /* Hide HTML arrows */
+  .dropdown > a {
+    position: relative;
+  }
+  .dropdown > a .arrow {
+    display: none;
+  }
+}
+
+/* Desktop hover behavior */
+@media (min-width: 769px) {
+  .dropdown {
+    position: relative;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    /* Add invisible padding to prevent hover gap */
+    padding-top: 5px;
+  }
+
+  .dropdown-content::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 0;
+    right: 0;
+    height: 5px;
+  }
+
+  .dropdown:hover .dropdown-content,
+  .dropdown-content:hover {
+    display: block;
+  }
+
+  /* Nested dropdowns */
+  .dropdown-content .dropdown-content {
+    left: 100%;
+    top: 0;
+    margin-bottom: -10px;
+    padding-bottom: 10px;
+    margin-top: -5px;
+  }
+}
+
+/* Hero Section */
+.hero {
+    position: relative; /* Allows positioning of child elements */
+    height: 70vh; /* Adjusted height to make the image smaller */
+    width: 100vw; /* Ensure it stretches the full width */
+    min-height: 600px; 
+    flex-direction: column; /* Stack content vertically */
+    display: flex; /* Use flexbox for vertical and horizontal centering of the text */
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    text-align: center; /* Centers the text */
+    color: white; /* Makes the text white to contrast with the image */
+    margin-top: 0; /* Ensure no extra margin from the top */
+    margin-bottom: 0; /* Ensure no extra margin from the bottom */
+    padding: 0; /* Ensure no extra padding */
+    z-index: 1; /* Keeps the text above the image */
+    overflow: hidden; /* Prevents the image from overflowing */
+}
+
+.hero-logo {
+    width: 20vw; /* Responsive width (15% of the viewport width) */
+    max-width: 200px; /* Maximum size for larger screens */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 20px auto; /* Center the logo */
+}
+
+
+/* Hero Image */
+.hero-image {
+    position: absolute; /* Absolute positioning to place it behind the text */
+    top: 0;
+    left: 0;
+    width: 100%; /* Make the image fill the width */
+    height: 100%; /* Ensure it fills the container's height */
+    object-fit: cover; /* Ensures the image covers the area while maintaining aspect ratio */
+    z-index: -1; /* Places the image behind the content */
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+
+/* Dark Overlay */
+.hero::before {
+    content: ''; /* Empty content for the overlay */
+    position: absolute; /* Position overlay above the image */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(44, 68, 90, 0.6); /* Light blue transparent background */
+    z-index: 0; /* Keeps the overlay below the text but above the image */
+}
+
+/* Content styling (heading, subheading, description) */
+.hero .content {
+    position: relative; /* Absolute positioning to place content inside the hero section */
+    z-index: 1; /* Keeps the text above the image */
+    padding: 0 20px; /* Optional: Adds padding around the text */
+    text-align: center; /* Center-align the text content */
+    color: white; /* Ensures text is visible against the background */
+    max-width: 900px; /* Limit width for larger screens */
+    width: 100%; /* Ensure it’s responsive */
+    box-sizing: border-box;
+}
+
+
+/* Heading styles */
+.hero .heading {
+    font-size: 3rem; /* Adjust the font size */
+    margin: 0.5rem 0;
+    line-height: 0.8;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Subheading styles */
+.hero .subheading {
+    font-size: 1.5rem; /* Adjust the font size */
+    margin: 1rem 0;
+    line-height: 0.4;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* Description styling */
+.hero .description {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    max-width: 1000px; /* Optional, to limit the width of the description */
+    line-height: 1.4;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; 
+
+}
+
+/* Responsive Styles */
+
+/* For screens smaller than 1024px (medium devices) */
+@media screen and (max-width: 1024px) {
+    .hero {
+        height: 60vh; /* Adjust height for medium screens */
+    }
+
+    .hero-logo {
+        width: 25vw; /* Adjust logo width */
+        max-width: 150px;
+    }
+
+    .hero .heading {
+        font-size: 2.5rem;
+    }
+
+    .hero .subheading {
+        font-size: 1.2rem;
+    }
+
+    .hero .description {
+        font-size: 1rem;
+    }
+
+    .hero .content {
+        padding-top: 30px; /* Add some space at the top */
+    }
+}
+
+/* For screens smaller than 768px (tablets and small devices) */
+@media screen and (max-width: 768px) {
+    .hero {
+        height: 50vh; /* Reduce height for smaller screens */
+    }
+
+    .hero-logo {
+        width: 30vw; /* Smaller logo width */
+        max-width: 120px;
+    }
+
+    .hero .heading {
+        font-size: 2rem;
+    }
+
+    .hero .subheading {
+        font-size: 1rem;
+    }
+
+    .hero .description {
+        font-size: 0.9rem;
+    }
+
+    .hero .content {
+        padding-top: 40px; /* Add more space at the top */
+    }
+}
+
+/* For screens smaller than 480px (mobile devices) */
+@media screen and (max-width: 480px) {
+    .hero {
+        height: 40vh; /* Further reduce height on small mobile screens */
+    }
+
+    .hero-logo {
+        width: 35vw; /* Even smaller logo width */
+        max-width: 100px;
+    }
+
+    .hero .heading {
+        font-size: 1.5rem;
+    }
+
+    .hero .subheading {
+        font-size: 0.85rem;
+    }
+
+    .hero .description {
+        font-size: 0.75rem;
+    }
+
+    .hero .content {
+        padding-top: 50px; /* Increase padding-top for very small screens */
+    }
+}
+
+/* Container for the video and link */
+.video-container {
+    width: 100%;              /* Allow the video container to take full width */
+    max-width: 900px;         /* Reduce max-width for narrower video */
+    margin: 0 auto;           /* Center the container */
+    padding: 0 15px;          /* Add some padding on sides */
+    text-align: left;         /* Align the venue text and link to the left */
+}
+
+/* Styling the YouTube video iframe */
+.video {
+    width: 100%;              /* Make video full width */
+    height: 60vh;             /* Increase height to make it taller */
+    max-height: 600px;        /* Set a max height to prevent it from being too tall */
+}
+
+/* Responsive Styles */
+
+/* For screens larger than 768px */
+@media (min-width: 768px) {
+    .video-container {
+        max-width: 800px;  /* Reduce max-width for narrower video */
+        padding: 0;        /* Remove padding for better alignment */
+    }
+
+    .video {
+        height: 65vh;      /* Increase height for larger screens */
+    }
+
+    .venue-text, .link-with-icon {
+        font-size: 1.2rem; /* Increase font size for better readability */
+    }
+
+    .link-with-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+    .video-container {
+        padding: 0 10px;   /* Add padding for smaller screens */
+    }
+
+    .video {
+        height: 50vh;      /* Set a taller height for smaller screens */
+    }
+
+    .venue-text, .link-with-icon {
+        font-size: 1rem;   /* Adjust font size for smaller screens */
+    }
+
+    .link-with-icon svg {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+/* For very small screens (max-width 480px) */
+@media (max-width: 480px) {
+    .video-container {
+        max-width: 100%;   /* Full width for very small screens */
+        padding: 0 5px;    /* Reduce padding */
+    }
+
+    .video {
+        height: 45vh;      /* Set a proportional height for very small screens */
+    }
+
+    .venue-text, .link-with-icon {
+        font-size: 0.9rem; /* Smaller font size */
+    }
+
+    .link-with-icon svg {
+        width: 14px;
+        height: 14px;
+    }
+}
+
+/* Flex container for venue text and link */
+.venue-container {
+    display: flex;
+    justify-content: flex-start; /* Align content to the left */
+    align-items: center;
+    margin-top: 10px;            /* Add space above the venue text */
+}
+
+/* Styling for venue text */
+.venue-text {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Styling for the link */
+.link-with-icon {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+    margin-left: 4px;
+    font-size: 1.1rem;
+}
+
+.link-with-icon:hover {
+    color: #0056b3;
+}
+
+/* SVG icon styling */
+.link-with-icon svg {
+    margin-left: 4px;
+    width: 18px;
+    height: 18px;
+    fill: currentColor; /* Inherit color from the link */
+}
+
+
+
+/* Styling for the enhanced heading */
+.heading {
+    font-size: 40px; /* Increase font size */
+    font-weight: bold; /* Make it bold */
+    color: black; /* Set text color to black */
+    text-align: center; /* Center-align */
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Make text uppercase */
+    font-family: 'Poppins', sans-serif; /* Use a modern font */
+    text-align: center;
+}
+
+.subheading {
+    font-size: 24px; /* Increase font size */
+    font-weight: bold; /* Make it bold */
+    color: black; /* Set text color to black */
+    text-align: center; /* Center-align */
+    margin-top: 30px; /* Margin above the subheading */
+    margin-bottom: 20px; /* Margin below the subheading */
+    text-transform: sentencecase; /* Make text sentencecase */
+    font-family: 'Poppins', sans-serif; /* Use a modern font */
+    text-align: center;
+}
+
+
+/* Description Styling */
+.description {
+    margin-top: 20px;          /* Add margin above the description */
+    text-align: center;       /* Optional: Justify text for better readability */
+    line-height: 1.6;          /* Increase line height for better readability */
+    width: 100%;          /* Limit the width of the description */
+    font-size: 20px;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+/* New Section Below Hero Section */
+.announcement {
+    padding: 20px 0;
+    /*background-color: #f8f8f8; /* Light background color for contrast */
+    text-align: center;
+    margin-bottom: 10px; /* Add space between announcement and next section */
+    margin-top: 20px;
+}
+
+.announcement h2 {
+    font-size: 2rem;
+    color: #3A8BF3; /* Dark color for the heading */
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif; /* Use a modern font */
+    font-weight: 600;
+
+}
+
+.announcement p {
+    font-size: 1.2rem;
+    color: #353535; /* Slightly lighter color for paragraph text */
+    line-height: 1.6;
+    max-width: 900px; /* Optional: to limit the paragraph width */
+    margin: 0 auto; /* Centers the paragraph */
+    font-family: 'Poppins', sans-serif; /* Use a modern font */
+
+}
+
+/* Responsive Design */
+
+/* For screens smaller than 768px (tablets and small screens) */
+@media screen and (max-width: 768px) {
+    .announcement h2 {
+        font-size: 1.6rem; /* Smaller font size for headings */
+    }
+
+    .announcement p {
+        font-size: 1rem; /* Smaller font size for paragraph text */
+        padding: 0 10px; /* Add padding to avoid text touching the edges on small screens */
+    }
+}
+
+/* For screens smaller than 480px (mobile devices) */
+@media screen and (max-width: 480px) {
+    .announcement h2 {
+        font-size: 1.4rem; /* Even smaller font size for mobile devices */
+    }
+
+    .announcement p {
+        font-size: 0.9rem; /* Smaller font size for mobile paragraph text */
+        padding: 0 15px; /* Padding on mobile devices */
+    }
+}
+
+/* Notice / Information Banner (replaces prior registration announcement block) */
+
+/* Notice / Information Banner */
+.notice {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 16px 20px;
+    background: #f1f6ff; /* soft info background */
+    border-left: 6px solid rgb(37, 37, 197); /* brand blue */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+    color: #1f2937;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+.notice .notice-title {
+    margin: 0 0 8px 0;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #0f172a;
+}
+
+.notice .notice-date {
+    font-size: 0.9rem;
+    color: #475569;
+    margin: 0 0 8px 0;
+}
+
+.notice p {
+    margin: 8px 0;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Tighten spacing for last paragraph inside a notice */
+.notice p:last-child {
+    margin-bottom: 0;
+}
+
+.notice ul {
+    margin: 8px 0 8px 1.25rem;
+}
+
+.notice li {
+    margin: 6px 0;
+}
+
+/* Variant hooks (for future use) */
+.notice.info { border-left-color: rgb(37, 37, 197); background: #f1f6ff; }
+.notice.warning { border-left-color: #d97706; background: #fff7ed; }
+.notice.success { border-left-color: #16a34a; background: #ecfdf5; }
+
+@media (max-width: 768px) {
+    .notice {
+        margin: 16px 12px;
+        padding: 14px 16px;
+    }
+}
+
+/* Updates section header */
+.updates-title {
+    font-weight: 700;
+    text-align: center;
+    margin: 24px auto 8px auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.updates-container {
+    max-width: 900px;
+    margin: 0 auto 8px auto;
+}
+
+/* (Former registration announcement responsive block removed; using notice component instead) */
+
+/* Sponsors Section Styling */
+.sponsors-section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sponsors-title {
+    font-size: 2.5rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+h1.sponsors-title {
+    font-size: 2.5rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.sponsor-tier {
+    margin-bottom: 20px;
+}
+
+.tier-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    font-family: 'Poppins', sans-serif;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.tier-header .tier-label {
+    padding: 15px 40px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+    border-radius: 0 0 25px 25px;
+    margin-right: 0;
+    white-space: nowrap;
+    position: relative;
+    z-index: 2;
+    transform: translateY(4px);
+    width: 160px;
+    text-align: center;
+}
+
+/* Responsive design for sponsor tier headers */
+@media screen and (max-width: 768px) {
+    .tier-header {
+        max-width: 95%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .tier-header .tier-label {
+        padding: 12px 30px;
+        font-size: 1.1rem;
+        width: 140px;
+    }
+    
+    .tier-header::after {
+        left: 0 !important;
+        right: 0 !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tier-header {
+        max-width: 98%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    .tier-header .tier-label {
+        padding: 10px 25px;
+        font-size: 1rem;
+        width: 120px;
+    }
+    
+    .tier-header::after {
+        left: 0 !important;
+        right: 0 !important;
+    }
+}
+
+.tier-header .tier-text {
+    display: none;
+}
+
+.tier-header::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background-color: #ddd;
+    top: 0;
+    z-index: 1;
+}
+
+.tier-label.gold {
+    background: linear-gradient(135deg, #DAA520, #B8860B);
+}
+
+.tier-label.gold + .tier-text + .tier-header::after,
+.gold-tier .tier-header::after {
+    background: linear-gradient(135deg, #DAA520, #B8860B);
+}
+
+.tier-label.silver {
+    background: linear-gradient(135deg, #D3D3D3, #C0C0C0);
+    color: white;
+}
+
+.tier-label.silver + .tier-text + .tier-header::after,
+.silver-tier .tier-header::after {
+    background: linear-gradient(135deg, #D3D3D3, #C0C0C0);
+}
+
+.tier-label.bronze {
+    background: linear-gradient(135deg, #CD853F, #D2691E);
+}
+
+.tier-label.bronze + .tier-text + .tier-header::after,
+.bronze-tier .tier-header::after {
+    background: linear-gradient(135deg, #CD853F, #D2691E);
+}
+
+.tier-label.exhibitor {
+    background: linear-gradient(135deg, #32CD32, #228B22);
+}
+
+.tier-label.exhibitor + .tier-text + .tier-header::after,
+.exhibitor-tier .tier-header::after {
+    background: linear-gradient(135deg, #32CD32, #228B22);
+}
+
+.sponsor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    align-items: center;
+    justify-items: center;
+    place-items: center;
+}
+
+/* Responsive sponsor grid */
+@media screen and (max-width: 768px) {
+    .sponsor-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .sponsor-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 0 5px;
+    }
+}
+
+.bronze-tier .sponsor-grid {
+    gap: 25px;
+    max-width: 600px;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: start;
+    justify-items: center;
+    place-items: start;
+}
+
+.exhibitor-tier .sponsor-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 600px;
+    margin: 0 auto;
+    place-items: center;
+}
+
+/* Specific sizing for exhibitor logos */
+.exhibitor-tier .sponsor-item .sponsor-logo-link img { /* KAIST Metaverse and VIRNECT */
+    max-height: 95%;
+}
+
+/* Silver tier grid layout */
+.silver-tier .sponsor-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 600px;
+    margin: 0 auto;
+    place-items: center;
+}
+
+/* Specific sizing for Silver sponsors */
+.silver-tier .sponsor-item .sponsor-logo-link img { /* Google and KAIST */
+    max-height: 95%;
+}
+
+/* Specific sizing for Bronze sponsors */
+.bronze-tier .sponsor-item .sponsor-logo-link img { /* ETRI and Apple */
+    max-height: 95%;
+}
+
+/* Ensure ETRI logo maintains proper size with promotional buttons */
+.bronze-tier .sponsor-item.has-promotional .sponsor-logo-link img {
+    max-height: 120px;
+    margin-bottom: 15px;
+}
+
+/* Ensure all sponsor logos maintain proper size when promotional buttons are present */
+.sponsor-item.has-promotional .sponsor-logo-link img {
+    max-height: 120px;
+    margin-bottom: 15px;
+}
+
+/* Adjust Apple logo positioning to the right */
+.sponsor-item.apple-logo {
+    padding-left: 40px;
+}
+
+.sponsor-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px;
+    background: transparent;
+    transition: transform 0.3s ease;
+    min-height: 120px;
+    text-align: center;
+}
+
+.sponsor-item:hover {
+    transform: scale(1.05);
+}
+
+.sponsor-logo-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.sponsor-logo-link:hover {
+    transform: scale(1.05);
+}
+
+.sponsor-logo-link img {
+    max-width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Promotional buttons styling */
+.promotional-buttons {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.promo-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 6px 12px;
+    background: linear-gradient(135deg, #4971E7, #3B5BDB);
+    color: black !important;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(73, 113, 231, 0.2);
+    border: none;
+    cursor: pointer;
+    min-width: 110px;
+    justify-content: center;
+}
+
+.promo-button:hover {
+    background: linear-gradient(135deg, #3B5BDB, #2563EB);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(73, 113, 231, 0.4);
+    color: white !important;
+    text-decoration: none;
+}
+
+.promo-button i {
+    font-size: 0.8rem;
+}
+
+.video-button {
+    background: linear-gradient(135deg, #EF4444, #DC2626);
+    box-shadow: 0 2px 6px rgba(239, 68, 68, 0.2);
+    color: black !important;
+}
+
+.video-button:hover {
+    background: linear-gradient(135deg, #DC2626, #B91C1C);
+    box-shadow: 0 4px 10px rgba(239, 68, 68, 0.3);
+    color: white !important;
+}
+
+.brochure-button {
+    background: linear-gradient(135deg, #10B981, #059669);
+    box-shadow: 0 2px 6px rgba(16, 185, 129, 0.2);
+    color: black !important;
+}
+
+.brochure-button:hover {
+    background: linear-gradient(135deg, #059669, #047857);
+    box-shadow: 0 4px 10px rgba(16, 185, 129, 0.3);
+    color: white !important;
+}
+
+/* Partners Section Styling */
+.partners-section {
+    padding: 0 20px 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.partners-title {
+    font-size: 2.5rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+h1.partners-title {
+    font-size: 2.5rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+h1.previous-sponsors-title {
+    font-size: 2.5rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+/* Responsive Design for H1 Headings */
+@media screen and (max-width: 768px) {
+    h1.sponsors-title,
+    h1.partners-title,
+    h1.previous-sponsors-title {
+        font-size: 1.8rem;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1.sponsors-title,
+    h1.partners-title,
+    h1.previous-sponsors-title {
+        font-size: 1.6rem;
+        margin-bottom: 20px;
+    }
+}
+
+.previous-sponsors-section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.partners-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    align-items: start;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.partner-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 20px;
+    background: transparent;
+    transition: transform 0.3s ease;
+    min-height: 120px;
+}
+
+.partner-item:hover {
+    transform: scale(1.05);
+}
+
+.partner-logo-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+.partner-logo-link:hover {
+    transform: scale(1.05);
+}
+
+.partner-logo-link img {
+    max-width: 100%;
+    max-height: 80px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+/* Specific logo size adjustments for better balance */
+.partner-item:nth-child(1) .partner-logo-link img, /* IEEE */
+.partner-item:nth-child(4) .partner-logo-link img, /* WWW Conference */
+.partner-item:nth-child(5) .partner-logo-link img, /* KIISE */
+.partner-item:nth-child(7) .partner-logo-link img, /* KNTO */
+.partner-item:nth-child(8) .partner-logo-link img, /* Daejeon City */
+.partner-item:nth-child(9) .partner-logo-link img { /* Daejeon Tourism */
+    max-height: 45px;
+}
+
+.partner-item:nth-child(2) .partner-logo-link img { /* IEEE Computer Society */
+    max-height: 60px;
+}
+
+.partner-item:nth-child(3) .partner-logo-link img { /* IEEE VGTC */
+    max-height: 80px;
+}
+
+.partner-item:nth-child(6) .partner-logo-link img { /* HCI Society */
+    max-height: 60px;
+}
+
+.partner-item:nth-child(7) .partner-logo-link img { /* Korea Tourism Organization */
+    max-height: 80px;
+}
+
+
+/* Responsive Design for Sponsors and Partners */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .partners-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sponsors-section,
+    .partners-section {
+        padding: 30px 15px;
+    }
+    
+    .sponsors-title,
+    .partners-title {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+    
+    .tier-header {
+        font-size: 1.3rem;
+        padding: 12px 25px;
+        margin-bottom: 25px;
+        max-width: 800px;
+        padding: 0 15px;
+    }
+    
+    .sponsor-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .partners-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        max-width: 100%;
+    }
+    
+    .sponsor-item {
+        padding: 20px;
+        min-height: 100px;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .partner-item {
+        padding: 20px 15px;
+        min-height: 100px;
+    }
+    
+    .sponsor-logo-link img {
+        max-height: 110px;
+    }
+    
+    /* Responsive sizing for specific sponsor logos */
+    .silver-tier .sponsor-item .sponsor-logo-link img { /* Google and KAIST */
+        max-height: 95%;
+    }
+    
+    .bronze-tier .sponsor-item .sponsor-logo-link img { /* ETRI and Apple */
+        max-height: 95%;
+    }
+    
+    .exhibitor-tier .sponsor-item .sponsor-logo-link img { /* KAIST Metaverse and VIRNECT */
+        max-height: 95%;
+    }
+    
+    .partner-logo-link img {
+        max-height: 70px;
+    }
+
+     /* Responsive promotional buttons for tablet */
+    .promotional-buttons {
+        margin-top: 12px;
+        gap: 6px;
+    }
+    
+    .promo-button {
+        padding: 5px 10px;
+        font-size: 0.7rem;
+        min-width: 100px;
+    }
+    
+    .sponsor-item.has-promotional .sponsor-logo-link img {
+        max-height: 100px;
+        margin-bottom: 12px;
+    }
+    
+    .sponsor-item.apple-logo {
+        padding-left: 30px;
+    }
+    
+    /* Responsive logo size adjustments for tablet */
+    .partner-item:nth-child(1) .partner-logo-link img, /* IEEE */
+    .partner-item:nth-child(4) .partner-logo-link img, /* WWW Conference */
+    .partner-item:nth-child(5) .partner-logo-link img, /* KIISE */
+    .partner-item:nth-child(7) .partner-logo-link img, /* KNTO */
+    .partner-item:nth-child(8) .partner-logo-link img, /* Daejeon City */
+    .partner-item:nth-child(9) .partner-logo-link img { /* Daejeon Tourism */
+        max-height: 45px;
+    }
+    
+    .partner-item:nth-child(2) .partner-logo-link img { /* IEEE Computer Society */
+        max-height: 60px;
+    }
+    
+    .partner-item:nth-child(3) .partner-logo-link img { /* IEEE VGTC */
+        max-height: 75px;
+    }
+    
+    .partner-item:nth-child(6) .partner-logo-link img { /* HCI Society */
+        max-height: 60px;
+    }
+    
+    .partner-item:nth-child(7) .partner-logo-link img { /* Korea Tourism Organization */
+        max-height: 75px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .sponsors-section,
+    .partners-section {
+        padding: 20px 10px;
+    }
+    
+    .sponsors-title,
+    .partners-title {
+        font-size: 1.8rem;
+        margin-bottom: 25px;
+    }
+    
+    .tier-header {
+        font-size: 1.1rem;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        max-width: 100%;
+        padding: 0 10px;
+    }
+    
+    .sponsor-grid {
+        gap: 15px;
+    }
+    
+    .partners-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        max-width: 100%;
+    }
+    
+    .sponsor-item {
+        padding: 15px;
+        min-height: 80px;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .partner-item {
+        padding: 15px 10px;
+        min-height: 80px;
+    }
+    
+    .sponsor-logo-link img {
+        max-height: 80px;
+    }
+    
+    /* Mobile responsive sizing for specific sponsor logos */
+    .silver-tier .sponsor-item .sponsor-logo-link img { /* Google and KAIST */
+        max-height: 95%;
+    }
+    
+    .bronze-tier .sponsor-item .sponsor-logo-link img { /* ETRI and Apple */
+        max-height: 95%;
+    }
+    
+    .exhibitor-tier .sponsor-item .sponsor-logo-link img { /* KAIST Metaverse and VIRNECT */
+        max-height: 95%;
+    }
+    
+    .partner-logo-link img {
+        max-height: 60px;
+    }
+
+    /* Responsive promotional buttons for mobile */
+    .promotional-buttons {
+        margin-top: 10px;
+        gap: 5px;
+    }
+    
+    .promo-button {
+        padding: 4px 8px;
+        font-size: 0.65rem;
+        min-width: 90px;
+        border-radius: 12px;
+    }
+    
+    .sponsor-item.has-promotional .sponsor-logo-link img {
+        max-height: 80px;
+        margin-bottom: 10px;
+    }
+    
+    .sponsor-item.apple-logo {
+        padding-left: 20px;
+    }
+    
+    /* Responsive logo size adjustments for mobile */
+    .partner-item:nth-child(1) .partner-logo-link img, /* IEEE */
+    .partner-item:nth-child(4) .partner-logo-link img, /* WWW Conference */
+    .partner-item:nth-child(5) .partner-logo-link img, /* KIISE */
+    .partner-item:nth-child(7) .partner-logo-link img, /* KNTO */
+    .partner-item:nth-child(8) .partner-logo-link img, /* Daejeon City */
+    .partner-item:nth-child(9) .partner-logo-link img { /* Daejeon Tourism */
+        max-height: 40px;
+    }
+    
+    .partner-item:nth-child(2) .partner-logo-link img { /* IEEE Computer Society */
+        max-height: 50px;
+    }
+    
+    .partner-item:nth-child(3) .partner-logo-link img { /* IEEE VGTC */
+        max-height: 80px;
+    }
+    
+    .partner-item:nth-child(6) .partner-logo-link img { /* HCI Society */
+        max-height: 60px;
+    }
+    
+    .partner-item:nth-child(7) .partner-logo-link img { /* Korea Tourism Organization */
+        max-height: 80px;
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .heading {
+        font-size: 32px;      /* Decrease font size on medium screens */
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .subheading {
+        font-size: 20px;      /* Decrease font size for subheading */
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .description {
+        font-size: 15px;      /* Slightly reduce font size for better readability */
+    }
+}
+
+@media (max-width: 480px) {
+    .heading {
+        font-size: 28px;      /* Further reduce font size for small screens */
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .subheading {
+        font-size: 18px;      /* Smaller font size for subheading */
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .description {
+        font-size: 14px;      /* Smaller font size for description */
+        line-height: 1.4;     /* Adjust line height for smaller text */
+        margin-top: 10px;     /* Reduce margin for smaller screens */
+    }
+}
+
+/* Important Dates Section */
+.important-dates-section {
+    background-color: transparent; /* Remove blue background */
+    padding: 40px; /* Add padding for spacing */
+    color: #333; /* Dark text color for readability */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+    margin: 30px 0; /* Optional: Adds margin between sections */
+    box-shadow: none; /* Remove shadow */
+    text-align: center; /* Centers the title */
+    margin-bottom: 20px; /* Add space between announcement and next section */
+    margin-top: 0px;
+}
+
+/* Title styling */
+.important-dates-title {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-top: 0px; /* Remove top padding */
+    text-align: center;
+    color: #333; /* Dark color for the title */
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Table styling */
+.important-dates {
+    width: 80%;
+    padding-top: 0px; /* Remove top padding to prevent overlap */
+    margin: 0 auto; /* Auto margin to horizontally center the table */
+    border-collapse: separate; /* Allows border-radius to work properly */
+    border-spacing: 0; /* Removes spacing between cells */
+    background-color: transparent; /* Transparent background for the table */
+    border-radius: 0; /* Remove table border radius */
+    box-shadow: none; /* Remove shadow that might cause overlap */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Table header styling */
+.important-dates thead {
+    background-color: #3A8BF3 !important; /* New blue color for table header */
+    color: white; /* White text in header */
+    text-align: center;
+    border-radius: 35px 35px 0 0; /* More curved top corners */
+    overflow: hidden; /* Ensures content respects border radius */
+}
+
+.important-dates th,
+.important-dates td {
+    padding: 12px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #333; /* Dark text for table content */
+}
+
+.important-dates th {
+    font-size: 1.1rem; /* Header font size */
+    color: white;
+    background-color: #3A8BF3 !important; /* New blue color for table header */
+    border: none; /* Remove default borders */
+}
+
+.important-dates th:first-child {
+    border-radius: 35px 0 0 0; /* Very curved top-left corner */
+}
+
+.important-dates th:last-child {
+    border-radius: 0 35px 0 0; /* Very curved top-right corner */
+}
+
+.important-dates td {
+    font-size: 1rem; /* Regular font size for table cells */
+}
+
+/* Styling for table rows */
+.important-dates tbody {
+    background-color: white; /* White background for table body */
+    border-radius: 0 0 8px 8px; /* Rounded bottom corners */
+}
+
+.important-dates tr:nth-child(even) {
+    background-color: white; /* White for alternate rows */
+}
+
+.important-dates tr:hover {
+    background-color: #e2e2e2; /* Light grey on hover for rows */
+}
+
+/* Style for passed dates */
+.important-dates tr.passed-date td {
+    text-decoration: line-through;
+    opacity: 0.7;
+    color: #999; /* Optional: make the color lighter */
+}
+
+/* Keep the hover effect for passed dates */
+.important-dates tr.passed-date:hover {
+    background-color: #f0f0f0; /* Slightly different hover color */
+}
+
+/* Responsive Styles */
+
+/* For screens smaller than 768px (tablets and small screens) */
+@media screen and (max-width: 768px) {
+    .important-dates-title {
+        font-size: 1.4rem; /* Smaller title font size */
+    }
+
+    .important-dates th, .important-dates td {
+        padding: 10px; /* Smaller padding for small screens */
+        font-size: 0.9rem; /* Slightly smaller font size */
+    }
+
+    .important-dates-section {
+        padding: 20px; /* Reduced padding for small screens */
+    }
+}
+
+/* For screens smaller than 480px (mobile devices) */
+@media screen and (max-width: 480px) {
+    .important-dates-title {
+        font-size: 1.5rem; /* Even smaller title font size for mobile */
+    }
+
+    .important-dates th, .important-dates td {
+        padding: 8px; /* Smaller padding */
+        font-size: 0.85rem; /* Smaller font size */
+    }
+
+    .important-dates-section {
+        padding: 10px; /* Smaller padding for mobile */
+    }
+
+    .important-dates tr {
+        font-size: 0.9rem; /* Smaller font size for rows */
+    }
+}
+
+/* For larger screens (desktops) */
+@media screen and (min-width: 1200px) {
+    .important-dates-title {
+        font-size: 2rem; /* Larger title font size for desktops */
+    }
+
+    .important-dates th, .important-dates td {
+        padding: 14px; /* More padding for larger screens */
+        font-size: 1.1rem; /* Larger font size for readability */
+    }
+
+    .important-dates-section {
+        padding: 50px; /* More padding for large screens */
+    }
+}
+
+/* Video Section Styling */
+.video-container {
+    text-align: center; /* Center everything inside the container */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Full viewport height */
+    width: 100%; /* Full viewport width */
+    padding: 0; /* Add padding for spacing */
+    box-sizing: border-box; /* Include padding in height and width calculation */
+    margin-top: 40px;
+    margin-bottom: 20px; /* Add space between announcement and next section */
+}
+
+/* Styling for the YouTube video iframe */
+.video {
+    width: 200%; /* Full width of the container */
+    height: 480px; /* Full height (80% of the viewport height) */
+    max-width: 1060px; /* Limit max-width for large screens */
+    max-height: 480px; /* Ensure it doesn't exceed 80% of viewport height */
+    border: none; /* Remove any iframe border */
+    margin-bottom: 20px; /* Adds space between video and venue text */
+}
+
+/* Responsive Design for Mobile (Screen widths smaller than 768px) */
+@media screen and (max-width: 768px) {
+    .video {
+        width: 100%; /* Ensure the video takes full width on smaller screens */
+        height: 60vh; /* Adjust height to 60% of the viewport height on smaller screens */
+    }
+}
+
+/* Further adjustments for very small screens (max-width 480px) */
+@media screen and (max-width: 480px) {
+    .video {
+        width: 100%; /* Full width */
+        height: 50vh; /* Further adjust height for small screens */
+    }
+}
+
+/* Venue Section Layout (Left for venue, Right for map) */
+.venue-section {
+    display: flex;
+    justify-content: center; /* Center the content */
+    align-items: flex-start;
+    gap: 50px; /* Space between the venue details and the map */
+    padding: 0 20px;
+    max-width: 1000px;
+    margin: 0 auto; /* Center the entire section */
+    margin-bottom: 40px; /* Add space between announcement and next section */
+    transform: translateX(0); /* Ensure no translation for better layout */
+}
+
+/* Styling for venue details */
+.venue-details {
+    flex: 1; /* Allow the venue details to take up available space */
+    font-size: 1.1rem;
+    color: #333;
+    max-width: 50%; /* Limit the width of venue details */
+    padding: 20px;
+    transform: none; /* Ensure no left translation */
+}
+
+.venue-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.venue-name {
+    font-weight: bold; /* Make venue name bold */
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.venue-details p {
+    margin: 8px 0; /* Add space between lines */
+    font-family: 'Poppins', sans-serif;
+}
+
+.venue-details a {
+    color: #1D4ED8; /* Blue color for the link */
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.venue-details a:hover {
+    text-decoration: underline;
+}
+
+/* Google Map Styling */
+.google-map {
+    flex: 1; /* Allow the map to take up remaining space */
+    max-width: 50%; /* Limit the map's width to 50% of the container */
+}
+
+/* For screens smaller than 768px (tablets and small screens) */
+@media screen and (max-width: 768px) {
+    .venue-section {
+        flex-direction: column; /* Stack the venue details and map vertically */
+        gap: 20px; /* Reduce space between the venue and map */
+    }
+
+    .venue-details {
+        max-width: 100%; /* Full width for venue details on small screens */
+        padding: 15px; /* Reduce padding */
+    }
+
+    .google-map {
+        max-width: 100%; /* Full width for the map */
+    }
+}
+
+/* For screens smaller than 480px (mobile devices) */
+@media screen and (max-width: 480px) {
+    .venue-details {
+        font-size: 1rem; /* Slightly smaller font size for mobile devices */
+    }
+
+    .venue-title {
+        font-size: 1.3rem; /* Smaller font size for titles */
+    }
+
+    .venue-name {
+        font-size: 1rem; /* Smaller font size for venue name */
+    }
+
+    .google-map {
+        height: 300px; /* Adjust map height for smaller screens */
+    }
+}
+
+
+.footer {
+    position: relative; /* Enables positioning of content inside the footer */
+    height: 250px; /* Fixed height for footer */
+    width: 100vw; /* Ensures the footer spans the full width */
+    text-align: center; /* Centers the text horizontally */
+    overflow: hidden; /* Prevents content from spilling outside the footer */
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2);  /* Add a top shadow instead of a translucent background */
+    background-color: #ffffff; /* Ensure background is white (footer img's background) BLUEE */
+    z-index: -3; /* Places the footer-background behind the footer img*/ 
+}
+
+.footer img {
+    width: 100%; /* Ensures the image spans the full width of the footer */
+    height: 100%; /* Ensures the image fills the footer's height without leaving gaps */
+    object-fit: contain; /* Ensures the entire image fits within the footer without cropping -> maintain image ratio */
+    position: absolute; /* Positions the image inside the footer */
+    top: 0; /* Aligns the image to the top of the footer */
+    left: 0; /* Aligns the image to the left of the footer */
+    z-index: -2; /* Places the image behind the overlay and text */
+}
+
+.footer-overlay {
+    position: absolute; /* Positions the overlay on top of the image */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent dark background */
+    z-index: -1; /* Places the overlay between the image and text */
+}
+
+.footer-content {
+    position: relative; /* Ensures the text stays above the overlay and image */
+    font-size: 16px; /* Adjust text size as needed */
+    padding: 20px; /* Adds spacing around the text */
+    display: inline-block; /* Prevents the text background from spanning the entire width */
+    border-radius: 5px; /* Optional: Adds rounded corners to the text background */
+    max-width: 90%; /* Keeps the text block's width manageable */
+    margin: 0 auto; /* Centers the text block */
+    z-index: 1; /* Ensures the text stays on top of the overlay */
+    font-weight: 600; 
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* Footer overlay (currently transparent; adjust rgba for darkening effect) */
+.footer::before {
+    content: ''; /* Empty content for the overlay */
+    position: absolute; /* Position overlay above the image */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0); /* Dark transparent background (This line has no visible effect) */
+    z-index: 0; /* Keeps the overlay below the text but above the image */
+}
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .footer {
+        height: 150px; /* Adjust height for smaller screens */
+    }
+
+    .footer-content {
+        font-size: 14px; /* Adjust text size */
+        padding: 15px; /* Adjust padding */
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        height: 120px; /* Further adjust height for extra small screens */
+    }
+
+    .footer-content {
+        font-size: 12px; /* Smaller text size */
+        padding: 10px; /* Smaller padding */
+    }
+}
+
+
+/* Hamburger navigation toggle */
+.hamburger { 
+    display:none; width:46px; height:46px; background:transparent; border:0; cursor:pointer; position:absolute; top:12px; right:16px; border-radius:6px; transition: background .25s ease; box-sizing:border-box; 
+}
+.hamburger:focus-visible { outline:2px solid #1e1e1e; outline-offset:2px; }
+.hamburger:hover { background:#f5f5f5; }
+.hamburger-bar { 
+    position:absolute; left:50%; width:28px; height:3px; background:#222; border-radius:3px; transition: transform .34s cubic-bezier(.645,.045,.355,1), opacity .25s ease; transform-origin:center; transform:translateX(-50%); 
+}
+.hamburger-bar:nth-child(1){ top:14px; }
+.hamburger-bar:nth-child(2){ top:21px; }
+.hamburger-bar:nth-child(3){ top:28px; }
+/* Centered X transformation */
+body.nav-open .hamburger-bar:nth-child(1){ top:21px; transform:translate(-50%,0) rotate(45deg); }
+body.nav-open .hamburger-bar:nth-child(2){ opacity:0; }
+body.nav-open .hamburger-bar:nth-child(3){ top:21px; transform:translate(-50%,0) rotate(-45deg); }
+
+@media (max-width: 768px) {
+  .hamburger { display:flex; }
+  body.nav-open .nav-links { transform: translateY(0); opacity:1; pointer-events:auto; }
+  .nav-links { position:fixed; top:var(--nav-height); left:0; right:0; background:#fff; flex-direction:column; align-items:stretch; gap:0; max-height:calc(100vh - var(--nav-height)); overflow-y:auto; box-shadow:0 6px 18px rgba(0,0,0,.15); transform:translateY(-10px); opacity:0; pointer-events:none; transition: opacity .25s ease, transform .25s ease; z-index:999; }
+  .nav-links li { margin:0; position:relative; }
+  .nav-links > li > a { padding:14px 20px; border-bottom:1px solid #eee; }
+  .nav-links a { font-size:16px; }
+  .nav-links li.open > .dropdown-content { max-height:800px; opacity:1; visibility:visible; }
+  .dropdown-content { position:static; box-shadow:none; padding:0; margin:0; max-height:0; overflow:hidden; transition:max-height .35s ease, opacity .3s ease; opacity:0; visibility:hidden; }
+  .dropdown-content .dropdown-content { margin-left:0; padding-left:14px; border-left:3px solid #f2f2f2; }
+  /* Third level indentation on mobile */
+  .dropdown-content .dropdown-content .dropdown-content { padding-left:18px; border-left:3px solid #ececec; }
+  li[data-has-children] > a { display:flex; align-items:center; justify-content:space-between; }
+  /* Mobile adjustments for arrows (keep triangles) */
+  .nav-links li[data-has-children] > a .arrow { margin-left:auto; }
+  .dropdown-content li[data-has-children] > a .arrow.arrow-right { margin-left:6px; }
+}
+
+/* Style for passed deadlines */
+.passed-deadline {
+    text-decoration: line-through;
+    opacity: 0.7;
+    color: #999 !important;
+}
+
+/* Remove rounded corners on nav link hover for mobile */
+@media (max-width: 768px) {
+    .nav-links li a:hover {
+        border-radius: 0 !important; /* Square edges on mobile */
+    }
+}

@@ -1,0 +1,26 @@
+<div class="notice {{ include.type | default: 'info' }}" aria-live="polite">
+  {% if include.title %}
+    <h3 class="notice-title">{{ include.title }}</h3>
+  {% endif %}
+
+  {% if include.date %}
+    <div class="notice-date">{{ include.date }}</div>
+  {% endif %}
+
+  {% if include.content %}
+    <p>{{ include.content }}</p>
+  {% endif %}
+
+  {% if include.items %}
+    {% assign _items = include.items | split: '||' %}
+    <ul>
+      {% for i in _items %}
+        <li>{{ i | strip }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% if include.markdown %}
+    {{ include.markdown | markdownify }}
+  {% endif %}
+</div>

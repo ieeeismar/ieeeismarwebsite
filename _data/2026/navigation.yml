@@ -1,0 +1,28 @@
+
+
+- title: Attend
+  url: "javascript:void(0)"
+  children:
+    - title: Code of Conduct
+      url: "/2026/code-of-conduct/"
+    - title: Venue
+      url: "/2026/venue/"
+    - title: Bari & Puglia
+      url: "/2026/bari-puglia/"
+    - title: Visual Identity
+      url: "/2026/logo-design/"
+    
+      
+- title: Contribute
+  url: "javascript:void(0)"
+  children:
+    - title: Call for Papers
+      url: "2026/contribute/papers"
+      
+- title: Committee
+  url: "javascript:void(0)"
+  children:
+    - title: Organizing Committee
+      url: "/2026/committee/organizing/"
+    - title: Steering Committee
+      url: "/2026/committee/steering_committee/"

@@ -1,0 +1,1055 @@
+/* General styles */
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    box-sizing: border-box;
+}
+
+.page-content {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Committee Page Styling */
+
+/* Hero Section Styling */
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    overflow: hidden; /* Ensures that no part of the image overflows */
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        height: 250px; /* Mobile hero height */
+    }
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%; /* Ensures the image covers the full height of the section */
+    object-fit: cover; /* Ensures the image covers the section without distortion */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%; /* Centers text vertically */
+    left: 50%; /* Centers text horizontally */
+    transform: translate(-50%, calc(-50% + var(--nav-height) / 2)); /* Adjusts for perfect centering */
+    text-align: center; /* Centers text within the div */
+    font-family: "Poppins", sans-serif;
+}
+
+.hero-text h1 {
+    font-size: 36px; /* Adjust size as needed */
+    font-weight: 700;
+    margin: 0;
+    font-family: "Poppins", sans-serif; /* Ensure the same font family */
+    color: white; /* Makes text white for visibility */
+}
+
+/* Dark Overlay */
+.hero-section::before {
+    content: ""; /* Empty content for the overlay */
+    position: absolute; /* Position overlay above the image */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(44, 68, 90, 0.6); /* Dark transparent background QUI*/
+    z-index: 0; /* Keeps the overlay below the text but above the image */
+}
+
+/* Organizers container */
+.organizers-container {
+    margin-top: 40px;
+    width: 100%;
+    background-color: #F4E8D4;
+    text-align: center; /* Centers the text horizontally */
+    display: flex; /* Enables flexbox for centering */
+    flex-direction: column; /* Stacks the content vertically */
+    justify-content: center; /* Vertically centers content within the container */
+    align-items: center; /* Horizontally centers content within the container */
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.organizers-container h2 {
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: left; /* Aligns header to the left */
+    padding-left: 20px; /* Adds some padding to the left edge */
+    font-family: "Poppins", sans-serif;
+    color: black;
+    font-weight: 800;
+}
+
+/* General styling for the chairs container */
+.chairs {
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: flex-start; /* Align items to the top */
+    gap: 0 50px; /* Space between each item */
+    flex-wrap: wrap; /* Allows items to wrap if screen size is small */
+    padding-left: 20px; /* Optional: adds some padding to the left side */
+}
+
+/* Individual chair container */
+.chair {
+    text-align: center; /* Centers the content */
+    position: relative; /* Needed for absolute positioning of name */
+    display: inline-block; /* Ensures the container is tightly wrapping the image */
+    margin-bottom: 30px;
+    width: 200px;
+}
+
+/* Styling for each chair item */
+.chairs img {
+    width: 200px; /* Ensures all images are the same size */
+    height: 200px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the circle area */
+    object-position: 50% 10%; /* Positions the image in the center */
+}
+
+/* Ensuring names below each image are aligned */
+.chairs p {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 3px 0; /* Adds space between image and text */
+    width: 200px; /* Same width as images for consistent alignment */
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    /* white-space: nowrap;  Prevents text from wrapping to the next line */
+}
+
+.chairs p.name {
+    font-weight: bold;
+}
+
+.chairs img {
+    margin-bottom: 10px;
+}
+
+.chairs-category {
+    width: 100%;
+    border-bottom: 1px solid #ccc; /* Adds a horizontal line below each category */
+}
+
+.chairs-category:last-child {
+    border-bottom: none; /* Removes the line after the last category */
+}
+
+/* Category header style */
+
+.chairs-category h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: left; /* Aligns header to the left */
+    padding-left: 20px; /* Adds some padding to the left edge */
+    font-family: "Poppins", sans-serif;
+    color: #3A8BF3;
+    font-weight: 600;
+}
+
+.chairs-category .category-email {
+  display: block;          /* full-width block */
+  clear: both;             /* clear any floats */
+  margin: 4px 0 16px;      /* small gap above, larger below */
+  padding-left: 20px;      /* same left indent as your H3 */
+  text-align: left;        /* same alignment as your H3 */
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+
+.chairs-category .category-email a {
+  color: #3A8BF3;
+  text-decoration: none;
+}
+
+.chairs-category .category-email a:hover {
+  text-decoration: underline;
+}
+
+
+.chairs-category .email {
+  text-align: left !important;
+  padding-left: 20px; /* same left margin as headers */
+  width: 100%;
+}
+
+
+
+/* Media Queries */
+
+/* For smaller screens (e.g., tablets or small devices) */
+@media (max-width: 768px) {
+    .chairs {
+        gap: 0 20px; /* Reduces space between items */
+    }
+}
+
+/* For very small screens (e.g., mobile devices) */
+@media (max-width: 480px) {
+    .chairs {
+        gap: 0 20px; /* Reduces space between items */
+    }
+}
+/* Carousel Styling */
+.carousel-caption-bari {
+  position: absolute; /* Keeps the caption position relative to the container */
+  top: 10px; /* Aligns the caption to the top */
+  left: 50%; /* Centers the caption horizontally */
+  transform: translateX(-50%); /* Adjusts the alignment */
+  background-color: rgba(73, 135, 243, 0.518); /* Semi-transparent background */
+  color: white; /* White text color for contrast */
+  padding: 10px 20px; /* Adds padding to the caption for spacing */
+  border-radius: 5px; /* Adds rounded corners */
+  text-align: center; /* Centers the text within the caption */
+  font-size: 20px; /* Adjusts the font size */
+  width: 60%; /* Sets the width of the caption */
+  max-width: 300px; /* Limits the max width */
+}
+
+/* Carousel Styling */
+.carousel-caption-puglia {
+  position: absolute; /* Keeps the caption position relative to the container */
+  top: 10px; /* Aligns the caption to the top */
+  left: 50%; /* Centers the caption horizontally */
+  transform: translateX(-50%); /* Adjusts the alignment */
+  background-color: rgba(250, 175, 13, 0.518); /* Semi-transparent background */
+  color: white; /* White text color for contrast */
+  padding: 10px 20px; /* Adds padding to the caption for spacing */
+  border-radius: 5px; /* Adds rounded corners */
+  text-align: center; /* Centers the text within the caption */
+  font-size: 20px; /* Adjusts the font size */
+  width: 60%; /* Sets the width of the caption */
+  max-width: 300px; /* Limits the max width */
+}
+
+/* Carousel Styling */
+.carousel-caption-gastronomy {
+  position: absolute; /* Keeps the caption position relative to the container */
+  top: 10px; /* Aligns the caption to the top */
+  left: 50%; /* Centers the caption horizontally */
+  transform: translateX(-50%); /* Adjusts the alignment */
+  background-color: rgba(237, 113, 85, 0.518); /* Semi-transparent background */
+  color: white; /* White text color for contrast */
+  padding: 10px 20px; /* Adds padding to the caption for spacing */
+  border-radius: 5px; /* Adds rounded corners */
+  text-align: center; /* Centers the text within the caption */
+  font-size: 20px; /* Adjusts the font size */
+  width: 60%; /* Sets the width of the caption */
+  max-width: 300px; /* Limits the max width */
+}
+/* Banner thumbnail styling */
+.preview-thumb {
+  position: absolute;
+  width: 120px;
+  height: auto;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s;
+  border: 1px solid #ccc;
+  background: #fff;
+  z-index: 20;
+}
+
+/* Footer Styling */
+
+.footer {
+    position: relative; /* Enables positioning of content inside the footer */
+    height: 350px; /* Fixed height for footer */
+    width: 100%; /* Ensures the footer spans the full width */
+    text-align: center; /* Centers the text horizontally */
+    overflow: hidden; /* Prevents content from spilling outside the footer */
+    z-index: 1; /* Places the image behind the overlay and text */
+    margin-top: 2em;
+}
+
+.footer img {
+    width: 100%; /* Ensures the image spans the full width of the footer */
+    height: 100%; /* Ensures the image fills the footer's height without leaving gaps */
+    object-fit: absolute; /* Ensures the entire image fits within the footer without cropping */
+    position: absolute; /* Positions the image inside the footer */
+    top: 0; /* Aligns the image to the top of the footer */
+    left: 0; /* Aligns the image to the left of the footer */
+    z-index: -2; /* Places the image behind the overlay and text */
+}
+
+.footer-overlay {
+    position: absolute; /* Positions the overlay on top of the image */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent dark background */
+    z-index: -1; /* Places the overlay between the image and text */
+}
+
+.footer-content {
+    position: relative; /* Ensures the text stays above the overlay and image */
+    color: #3D1209; /* Text color for better contrast */
+    font-size: 16px; /* Adjust text size as needed */
+    padding: 20px; /* Adds spacing around the text */
+    display: inline-block; /* Prevents the text background from spanning the entire width */
+    border-radius: 5px; /* Optional: Adds rounded corners to the text background */
+    max-width: 90%; /* Keeps the text block's width manageable */
+    margin: 0 auto; /* Centers the text block */
+    z-index: 1; /* Ensures the text stays on top of the overlay */
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Dark Overlay */
+.footer::before {
+    content: ""; /* Empty content for the overlay */
+    position: absolute; /* Position overlay above the image */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Dark transparent background */
+    z-index: 0; /* Keeps the overlay below the text but above the image */
+}
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .footer {
+        height: 150px; /* Adjust height for smaller screens */
+    }
+
+    .footer-content {
+        font-size: 14px; /* Adjust text size */
+        padding: 15px; /* Adjust padding */
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        height: 120px; /* Further adjust height for extra small screens */
+    }
+
+    .footer-content {
+        font-size: 12px; /* Smaller text size */
+        padding: 10px; /* Smaller padding */
+    }
+}
+
+/* Sponsors Page Styling */
+
+h1,
+h2 {
+    font-weight: bold;
+    color: #1e1e1e;
+}
+
+/* Sponsorship Container */
+.sponsorship-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Style */
+.sponsorship-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sponsorship-header h1 {
+    font-size: 36px;
+    color: #3A8BF3;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Content Section Style */
+.sponsorship-content {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.page-content h2 {
+    font-size: 24px;
+    margin-bottom: 1em;
+    margin-top: 1.3em;
+    color: #3A8BF3;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.page-content h3 {
+    font-size: 21px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: var(--blue);
+    font-family: "Poppins", sans-serif;
+}
+
+.page-content h4 {
+    font-size: 18px;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    color: #1e1e1e;
+    font-family: "Poppins", sans-serif;
+}
+
+.page-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: "Poppins", sans-serif;
+}
+
+.bar-chart-img {
+    width: 80%; /* Makes the image responsive */
+    max-width: 600px; /* Optional: ensures the image doesn't get too large */
+    height: auto;
+    margin-top: 20px; /* Adds space between the heading and the image */
+    margin-bottom: 20px;
+}
+
+.post-right-float-img {
+    width: 35%;
+    max-width: 400px;
+    min-width: 280px;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* Left-floated media block for images + caption */
+.img-float-left {
+    float: left;
+    max-width: 300px;
+    width: 100%;
+    margin: 15px 25px 15px 0;
+}
+
+/* Right-floated media block for images + caption */
+.img-float-right {
+    float: right;
+    max-width: 300px;
+    width: 100%;
+    margin: 15px 0 15px 25px;
+}
+
+.img-float-left img, .img-float-right img { width: 100%; height: auto; display: block; }
+.img-float-left figcaption, .img-float-right figcaption { font-size: 0.85em; color: #666; margin-top: 4px; }
+@media (max-width: 768px) {
+    .img-float-left, .img-float-right { float: none; margin: 0 auto 20px auto; display: block; }
+    .img-float-left figcaption, .img-float-right figcaption { text-align: center; }
+}
+
+.exhibitor-info {
+    font-family: "Poppins", sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.exhibitor-info h2 {
+    color: #3A8BF3;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.exhibitor-info ul {
+    list-style-type: disc;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.exhibitor-info ul ul {
+    list-style-type: circle;
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+.exhibitor-info li {
+    margin-bottom: 10px;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    background: white;
+    font-family: "Poppins", sans-serif;
+}
+
+table thead th {
+    background-color: #2525c5; /* RGB: 37, 37, 197 */
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+table tbody td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: white;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+
+    thead tr {
+        display: none;
+    }
+
+    tbody tr {
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        padding: 10px;
+        background: white;
+    }
+
+    tbody td {
+        display: flex;
+        justify-content: space-between;
+        text-align: right;
+        font-size: 14px;
+    }
+
+    tbody td:before {
+        content: attr(data-label);
+        font-weight: bold;
+        text-align: left;
+        padding-right: 10px;
+    }
+}
+
+.page-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.page-content a {
+    color: #1e7a8a;
+    text-decoration: none;
+}
+
+.page-content a:hover {
+    text-decoration: underline;
+}
+
+.sponsors-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns per row */
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.sponsors-grid img {
+    max-width: 200px; /* Adjust the size of the logos */
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.sponsors-grid img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .sponsors-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+    }
+
+    .sponsors-grid img {
+        max-width: 200px; /* Smaller logo size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .sponsors-grid {
+        grid-template-columns: 1fr; /* Stacks logos vertically */
+    }
+
+    .sponsors-grid img {
+        max-width: 120px; /* Further reduce logo size on very small screens */
+    }
+}
+
+/*Slider Media Style */
+
+.film-strip {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 10px 0;
+  scrollbar-width: thin;
+}
+
+.thumb {
+  height: 140px;
+  cursor: pointer;
+  flex-shrink: 0;
+  border-radius: 4px;
+  transition: opacity .2s ease;
+}
+
+.thumb:hover {
+  opacity: .8;
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.85);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+/* slider mouse on Style */
+.auto-strip {
+  overflow: hidden;
+  width: 100%;
+}
+
+.auto-track {
+  display: flex;
+  gap: 20px;
+  animation: scroll 30s linear infinite;
+}
+
+.auto-track img {
+  height: 150px;
+  flex-shrink: 0;
+  border-radius: 6px;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Footer Style */
+.footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .sponsorship-container {
+        padding: 15px;
+    }
+
+    .sponsorship-header h1 {
+        font-size: 28px;
+    }
+
+    .page-content h2 {
+        font-size: 20px;
+    }
+
+    .page-content p {
+        font-size: 14px;
+    }
+
+    .page-content ul {
+        padding-left: 15px;
+        font-size: 14px;
+    }
+
+    .bar-chart-img {
+        max-width: 100%; /* Ensures image doesn't overflow */
+    }
+
+    .post-right-float-img {
+        float: none;
+        display: block;
+        width: 50%;
+        min-width: 280px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .post-right-float-img {
+        width: 100%;
+        min-width: 0;
+    }
+}
+
+/* Call for Papers */
+h1,
+h2 {
+    font-weight: bold;
+    color: #1e1e1e;
+}
+.cfp-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.cfp-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.cfp-header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #3A8BF3;
+    font-family: "Poppins", sans-serif;
+}
+.cfp-content {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+}
+.page-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: "Poppins", sans-serif;
+}
+@media (max-width: 768px) {
+    .cfp-container {
+        width: 95%;
+        padding: 15px;
+    }
+    .cfp-header h1 {
+        font-size: 28px;
+    }
+    .cfp-content {
+        padding: 20px;
+    }
+    .page-content h2 {
+        font-size: 20px;
+    }
+    .page-content p {
+        font-size: 14px;
+    }
+}
+
+/* General styles */
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4E8D4; /* background: linear-gradient(to right, #f8d0d0, #fef8b7); /* Replace with gradient colors */
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+/* Steering container */
+.steering-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Category header style */
+.steering-category h3 {
+    font-size: 24px;
+    margin: 30px 0 20px 0;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    color: #3A8BF3;
+    font-weight: 600;
+    border-bottom: 2px solid #d6d6d6;
+    padding-bottom: 10px;
+}
+
+/* Hero gif logo rooster 
+.hero-logo {
+    width: 240px;
+    height: auto;
+}
+
+/*.hero-logo:hover {content: url('/assets/2026/img/hero.gif');}
+
+/* General styling for the members container */
+.steering {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 30px 20px; /* 30px vertical, 20px horizontal */
+}
+
+/* Individual member container */
+.steering-member {
+    text-align: center;
+    width: calc(33.33% - 14px); /* 3 items per row with gap accounted for */
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+/* Styling for each member image */
+.steering img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 10%;
+    margin-bottom: 10px;
+}
+
+/* Text styling */
+.steering p {
+    margin: 5px 0;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* Name styling */
+.steering p.name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Role styling */
+.steering p.role {
+    font-weight: 600;
+    color: #333;
+}
+
+/* Email styling */
+.steering p a {
+    color: #0073e6;
+    text-decoration: none;
+    word-break: break-all;
+    display: inline-block;
+    max-width: 100%;
+}
+
+/* Media Queries for responsive design */
+@media (max-width: 900px) {
+    .steering {
+        gap: 25px 15px;
+    }
+    .steering-member {
+        width: calc(33.33% - 10px); /* Keep 3 per row but adjust gap */
+    }
+}
+
+@media (max-width: 768px) {
+    .steering-member {
+        width: calc(50% - 10px); /* 2 items per row */
+    }
+}
+
+@media (max-width: 480px) {
+    .steering-member {
+        width: 100%; /* 1 item per row */
+    }
+}
+
+
+/* Attend Menu */
+/* Visa Requirements Page Styling */
+
+.visa-button {
+  display: inline-block;
+  background-color: #3A8BF3;
+  color: #ffffff !important;
+  padding: 10px 22px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none !important;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .visa-button {
+    padding: 8px 18px;
+    font-size: 0.95rem;
+  }
+}
+
+.visa-button:hover {
+  background-color: rgb(25, 25, 150);
+  transform: scale(1.03);
+}
+
+
+/* Transportation Page Styling */
+
+.transportation-img-wrapper {
+  width: 100%;
+  max-width: 100%;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.transportation-img-wrapper img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  max-height: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+.transport-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.transport-button {
+  background-color: #3A8BF3;
+  color: white !important;
+  padding: 12px 24px;
+  text-decoration: none !important;
+  border-radius: 6px;
+  font-weight: bold;
+  width: 240px; 
+  min-height: 48px; 
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.transport-button:hover {
+  background-color: #3A8BF3;
+  transform: scale(1.03);
+}
+
+:target {
+  scroll-margin-top: 80px; 
+}
+
+.back-to-top {
+  display: inline-block;
+  background-color: #3A8BF3;
+  color: #fff !important;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none !important;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.back-to-top:hover {
+  background-color: #111;
+}
+
+/* Registration Page Styling */
+
+.registration-button {
+  background-color: #3A8BF3;
+  color: #fff !important;
+  padding: 14px 28px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.registration-button:hover {
+  background-color: rgb(25, 25, 150);
+  transform: scale(1.03);
+}
+
+.reg-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.reg-table th, .reg-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+  white-space: nowrap;
+  text-align: center;
+
+}
+
+@media (max-width: 768px) {
+  .reg-table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+
+/* Match .page-content width and center */
+.video-wrap{
+  width:100%;
+  max-width:1000px;      /* same as .page-content */
+  margin:16px auto 24px; /* center under the announcement */
+  position:relative;
+}
+
+/* 16:9 without fixed height */
+.video-wrap::before{
+  content:"";
+  display:block;
+  padding-top:56.25%;
+}
+
+.video-wrap iframe{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  border:0;
+}
