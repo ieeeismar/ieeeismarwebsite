@@ -1,7 +1,6 @@
 ---
 layout: 2025/default
 title: ISMAR 2025
-redirect_from: /
 ---
 
 <!-- Custom hero for the main page -->
