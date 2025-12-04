@@ -24,7 +24,7 @@ All paper submissions must be formatted using the IEEE Computer Society VGTC Con
 * Paper submission deadline: March 16th, 2026 (23:59 AoE)
 
 
-Attending authors of accepted papers will need to agree and comply with both the <a href="https://www.ieeeismar.net/2026/attend/code-of-conduct/">ISMAR code of conduct</a> & <a href="https://www.ieee.org/about/corporate/governance/code-of-conduct">IEEE code of conduct</a>
+Attending authors of accepted papers will need to agree and comply with both the <a href="https://www.ieeeismar.net/2026/code-of-conduct/">ISMAR code of conduct</a> & <a href="https://www.ieee.org/about/corporate/governance/code-of-conduct">IEEE code of conduct</a>
  to have their work presented and published.
 An extended call for papers and submission guidelines will be available on the <a href="https://www.ieeeismar.net/2026/">ISMAR 2026 website</a>. 
 
