@@ -7,7 +7,7 @@ permalink: /2026/bari-puglia/
 
 ## Bari: the capital city of Puglia Region
 
-Bari is the capital of the Puglia region (or <em>Apulia</em>) on Italy’s Adriatic coast. A compact, walkable center blends the medieval old town <em>Bari Vecchia</em> with the 19th-century Murat district, a long seaside promenade <em>Lungomare</em>, and the modern business/residential area of <em>Poggiofranco</em>, [conference venue](https://www.ieeeismar.net/2026/attend/venue/) district.
+Bari is the capital of the Puglia region (or <em>Apulia</em>) on Italy’s Adriatic coast. A compact, walkable center blends the medieval old town <em>Bari Vecchia</em> with the 19th-century Murat district, a long seaside promenade <em>Lungomare</em>, and the modern business/residential area of <em>Poggiofranco</em>, <a href="https://www.ieeeismar.net/2026/attend/venue/">Conference venue — ISMAR 2026</a> district.
 
 
 <h4><strong>Bari Vecchia</strong></h4>
