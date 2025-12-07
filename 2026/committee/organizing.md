@@ -11,7 +11,7 @@ redirect_from:
 
  <div class="chairs-category">
   <h3>General Chairs</h3>
-  <p class="email"><a href="mailto:generalchairs-2026@ismar.net">generalchairs-2026@ismar.net</a></p>
+  <p class="email"><a href="mailto:generalchairs2026@ieeeismar.net">generalchairs2026@ieeeismar.net</a></p>
   <div class="chairs">
    <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Gabbard.png' | relative_url }}" />
@@ -44,7 +44,7 @@ redirect_from:
 
   <div class="chairs-category">
     <h3>Technical Program Chairs</h3>
-    <p class="email"><a href="mailto:program-2026@ismar.net">program-2026@ismar.net</a></p>
+    <p class="email"><a href="mailto:program2026@ieeeismar.net">program2026@ieeeismar.net</a></p>
     <div class="chairs">
       <div class="chair">
         <img src="{{ 'assets/2026/img/Committee Members Images/Jeanine Stefanucci.jpg' | relative_url }}" />
@@ -61,7 +61,7 @@ redirect_from:
 
   <div class="chairs-category">
     <h3>Paper Chairs (Journal & Conference)</h3>
-    <p class="email"><a href="mailto:papers-2026@ismar.net">papers-2026@ismar.net</a></p>
+    <p class="email"><a href="mailto:papers2026@ismar.net">papers2026@ieeeismar.net</a></p>
     <div class="chairs">
       <div class="chair">
         <img src="{{ 'assets/2026/img/Committee Members Images/Alexander Plopski.jpg' | relative_url }}" />
@@ -98,7 +98,6 @@ redirect_from:
 
 <div class="chairs-category">
   <h3>Associate Paper Chairs</h3>
-     <p class="email"><a href="mailto:papers-2026@ismar.net">contact to: papers-2026@ismar.net</a></p>
   <div class="chairs">
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Lee Lisle.jpg' | relative_url }}" />
@@ -147,7 +146,7 @@ redirect_from:
 
   <div class="chairs-category">
     <h3>Poster Chairs</h3>
-    <p class="email"><a href="mailto:posters-2026@ismar.net">posters-2026@ismar.net</a></p>
+    <p class="email"><a href="mailto:posters2026@ieeeismar.net">posters2026@ieeeismar.net</a></p>
     <div class="chairs">
       <div class="chair">
         <img src="{{ 'assets/2026/img/Committee Members Images/Cassidy Nelson.jpg' | relative_url }}" />
@@ -187,7 +186,7 @@ redirect_from:
 
 <div class="chairs-category">
   <h3>Publication Chairs</h3>
-  <p class="email"><a href="mailto:publication-2026@ismar.net">publication-2026@ismar.net</a></p>
+  <p class="email"><a href="mailto:publication2026@ieeeismar.net">publication2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Minsoo Choi.jpg' | relative_url }}" />
@@ -209,7 +208,7 @@ redirect_from:
 
  <div class="chairs-category">
   <h3>Finance Chairs</h3>
-  <p class="email"><a href="mailto:finance-2026@ismar.net">finance-2026@ismar.net</a></p>
+  <p class="email"><a href="mailto:finance2026@ieeeismar.net">finance2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Lorenzo Ardito.jpg' | relative_url }}" />
@@ -221,7 +220,7 @@ redirect_from:
 
 <div class="chairs-category">
   <h3>Registration Chairs</h3>
-  <p class="email"><a href="mailto:registration-2026@ismar.net">registration-2026@ismar.net</a></p>
+  <p class="email"><a href="mailto:registration2026@ieeeismar.net">registration2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Vito Manghisi.png' | relative_url }}" />
@@ -238,7 +237,7 @@ redirect_from:
 
 <div class="chairs-category">
   <h3>Web & Discord Chairs</h3>
-  <p class="email"><a href="mailto:web-2026@ismar.net">web-2026@ismar.net</a></p>
+  <p class="email"><a href="mailto:web2026@ieeeismar.net">web2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Mine Dastan.jpg' | relative_url }}" />
@@ -265,6 +264,7 @@ redirect_from:
 
 <div class="chairs-category">
   <h3>Design Chair</h3>
+   <p class="email"><a href="mailto:design2026@ieeeismar.net">design2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Dario Gentile.JPG' | relative_url }}" />
@@ -276,7 +276,7 @@ redirect_from:
 
 <div class="chairs-category">
   <h3>Publicity, SNS & Communications Chairs</h3>
-  <p class="email"><a href="mailto:publicity-2026@ismar.net">publicity-2026@ismar.net</a></p>
+  <p class="email"><a href="mailto:publicity2026@ieeeismar.net">publicity2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Giulia Wally Scurati.webp' | relative_url }}" />
@@ -293,7 +293,7 @@ redirect_from:
 
 <div class="chairs-category">
   <h3>Hybrid Media Chairs / Video Chair</h3>
-  <p class="email"><a href="mailto:videos-2026@ismar.net">videos-2026@ismar.net</a></p>
+  <p class="email"><a href="mailto:videos2026@ieeeismar.net">videos2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Francesco Musolino.png' | relative_url }}" />
@@ -310,7 +310,7 @@ redirect_from:
 
 <div class="chairs-category">
   <h3>Doctoral Consortium Chairs</h3>
-  <p class="email"><a href="mailto:DC-2026@ismar.net">DC-2026@ismar.net</a></p>
+  <p class="email"><a href="mailto:DC2026@ieeeismar.net">DC2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Francielly Rodrigues.jpg' | relative_url }}" />
@@ -332,7 +332,7 @@ redirect_from:
 
 <div class="chairs-category">
   <h3>Future Faculty Forum</h3>
-  <p class="email"><a href="mailto:FFF-2026@ismar.net">FFF-2026@ismar.net</a></p>
+  <p class="email"><a href="mailto:FFF2026@ieeeismar.net">FFF2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Brendan John.jpg' | relative_url }}" />
@@ -359,7 +359,7 @@ redirect_from:
 
 <div class="chairs-category">
   <h3>Workshop & Tutorials Chairs</h3>
-  <p class="email"><a href="mailto:workshop-tutorials-2026@ismar.net">workshop-tutorials-2026@ismar.net</a></p>
+  <p class="email"><a href="mailto:workshoptutorials2026@ieeeismar.net">workshoptutorials2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Maxim Bakaev.jpg' | relative_url }}" />
@@ -381,7 +381,7 @@ redirect_from:
 
 <div class="chairs-category">
   <h3>Demonstrations Chairs</h3>
-  <p class="email"><a href="mailto:demonstrations-2026@ismar.net">demonstrations-2026@ismar.net</a></p>
+  <p class="email"><a href="mailto:demonstrations2026@ieeeismar.net">demonstrations2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Georgia Albuquerque.jpg' | relative_url }}" />
@@ -398,7 +398,7 @@ redirect_from:
 
 <div class="chairs-category">
   <h3>Industrial Exhibition & Sponsorship Chairs</h3>
-  <p class="email"><a href="mailto:sponsorship-2026@ismar.net">sponsorship-2026@ismar.net</a></p>
+  <p class="email"><a href="mailto:sponsorship2026@ieeeismar.net">sponsorship2026@ieeeismar.net</a></p>
   <div class="chairs">
         <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Jens Grubert.jpg' | relative_url }}" />
@@ -425,7 +425,7 @@ redirect_from:
 
 <div class="chairs-category">
   <h3>Diversity, Equity, Inclusion, and Accessibility Chairs</h3>
-  <p class="email"><a href="mailto:DEIA-2026@ismar.net">DEIA-2026@ismar.net</a></p>
+  <p class="email"><a href="mailto:DEIA2026@ieeeismar.net">DEIA2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Mirjam Vosmeer.jpg' | relative_url }}" />
@@ -442,7 +442,7 @@ redirect_from:
 
 <div class="chairs-category">
   <h3>Local Arrangements Chairs</h3>
-  <p class="email"><a href="mailto:local-arrangements-2026@ismar.net">local-arrangements-2026@ismar.net</a></p>
+  <p class="email"><a href="mailto:localarrangements2026@ieeeismar.net">localarrangements2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Michele Gattullo.jpg' | relative_url }}" />
@@ -465,7 +465,7 @@ redirect_from:
 <!--
 <div class="chairs-category">
   <h3>Competition Chairs</h3>
-  <p class="email"><a href="mailto:competition-2026@ismar.net">competition-2026@ismar.net</a></p>
+  <p class="email"><a href="mailto:competition-2026@ieeeismar.net">competition-2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/.jpg' | relative_url }}" />
@@ -483,7 +483,7 @@ redirect_from:
 
 <div class="chairs-category">
   <h3>Social Event Chairs</h3>
-  <p class="email"><a href="mailto:social-2026@ismar.net">social-2026@ismar.net</a></p>
+  <p class="email"><a href="mailto:social2026@ieeeismar.net">social2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Desire Laviola.jpg' | relative_url }}" />
@@ -500,7 +500,7 @@ redirect_from:
 
 <div class="chairs-category">
   <h3>Student Volunteer Chairs</h3>
-  <p class="email"><a href="mailto:student-volunteers-2026@ismar.net">student-volunteers-2026@ismar.net</a></p>
+  <p class="email"><a href="mailto:studentvolunteers2026@ieeeismar.net">studentvolunteers2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Vito De Giglio.png' | relative_url }}" />
