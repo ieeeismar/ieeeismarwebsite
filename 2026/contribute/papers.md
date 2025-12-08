@@ -29,7 +29,7 @@ Attending authors of accepted papers will need to agree and comply with both the
 An extended call for papers and submission guidelines will be available on the <a href="https://www.ieeeismar.net/2026/">ISMAR 2026 website</a>. 
 
 
-For questions, contact:  <a href="mailto:papers-2026@ismar.net">papers-2026@ismar.net</a>
+For questions, contact:  <a href="mailto:papers2026@ismar.net">papers-2026@ismar.net</a>
 
 **ISMAR 2026 Papers Chairs**
 Alexander Plopski
