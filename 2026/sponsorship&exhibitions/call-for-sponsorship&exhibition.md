@@ -64,8 +64,6 @@ The benefits include:
 | **Dedicated Workshop** | 4 hours | 2 hours | 1 hour | - | - | - |
 
 ## Exhibition
-An extensive technical exhibition will take place during the four-day conference in Daejeon Convention Center. The exhibition is expecting participation of about 600 subscribers and over 15 companies from around world and will offer optimal marketing opportunities for increased exposure and market expansion. The standard booth is a 3m x 3m shell scheme and can be purchased in multiples of 9 square meters.
-
 
 | **Place** | Exhibition Hall (1st Floor, Nicolaus Hotel) |
 | **Exhibition Period** | October 5 – 9, 2026 |
@@ -87,24 +85,6 @@ Booth design is subject to change based on venue conditions and organizer discre
 - Media Partner – you can help to promote ISMAR and provide additional media services to become a media partner
 - Product Sponsor – you can help to sponsor your product or services which are of interest to ISMAR delegates 
 - Custom prizes – to be discussed with chairs
-
-## Exhibitor Information (TBC)
-- **Monday, 5 October**  
-  Early Priority Move-In: 7:30 am – 10 am  
-  Standard Move-In: 10 am – 6 pm  
-
-- **Tuesday, 6 October**  
-  Exhibit Hours: 11 am – 5 pm  
-  Evening Reception (time TBD)  
-
-- **Wednesday, 7 October**  
-  Exhibit Hours: 10 am – 5 pm  
-
-- **Thursday, 8 October**  
-  Exhibit Hours: 10 am – 5 pm  
-
-- **Friday, 9 October**  
-  Exhibitor Tear Down & Move Out: 9 am – 12 pm  
 
 ## Deposit Information
 A deposit amount equal to at least 50 percent of the total space or sponsorship request must be submitted with this application in order for a space to be assigned. Contracts will be processed in the order they are received. Contracts received after 1 September 2026 must be accompanied by full payment.
