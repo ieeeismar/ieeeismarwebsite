@@ -65,7 +65,7 @@ The benefits include:
 
 ## Exhibition
 
-| **Place** | Exhibition Hall (1st Floor, Nicolaus Hotel) |
+| **Place** | Exhibition Hall (Nicolaus Hotel) |
 | **Exhibition Period** | October 5 – 9, 2026 |
 
 ## Booth information
@@ -93,4 +93,4 @@ A deposit amount equal to at least 50 percent of the total space or sponsorship 
 Due no later than September 15, 2026.
 
 ## Questions? Contact Us
-Sponsorship Chairs: <a href="mailto:sponsorship2026@ieeeismar.net">sponsorship2026@ieeeismar.net</a>
+If you have any questions, please contact the Sponsorship Chairs via <a href="mailto:sponsorship2026@ieeeismar.net">sponsorship2026@ieeeismar.net</a>
