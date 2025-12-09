@@ -66,7 +66,7 @@ redirect_from:
       <div class="chair">
         <img src="{{ 'assets/2026/img/Committee Members Images/Alexander Plopski.jpg' | relative_url }}" />
         <p class="name">Alexander Plopski</p>
-        <p>TU Graz</p>
+        <p>Graz University of Technology</p>
       </div>
       <div class="chair">
         <img src="{{ 'assets/2026/img/Committee Members Images/Missie Smith.jpg' | relative_url }}" />
@@ -288,6 +288,11 @@ redirect_from:
       <p class="name">Jean Botev</p>
       <p>University of Luxembourg</p>
     </div>
+     <div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/Manuela Chessa.jpg' | relative_url }}" />
+      <p class="name">Manuela Chessa</p>
+      <p>University of Genoa</p>
+    </div>
   </div>
 </div>
 
@@ -347,7 +352,7 @@ redirect_from:
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Hecquard Jeanne.jpg' | relative_url }}" />
       <p class="name">Hecquard Jeanne</p>
-      <p>University of Rennes</p>
+      <p>Inria Rennes</p>
     </div>
      <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Francesca De Crescenzio.png' | relative_url }}" />
@@ -418,7 +423,7 @@ redirect_from:
      <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Haiying Duanmu.png' | relative_url }}" />
       <p class="name">Haiying Duanmu</p>
-      <p>Shanghai Multi-media Industry Association</p>
+      <p>Shanghai MetaNow Metaverse</p>
     </div>
   </div>
 </div>

@@ -19,6 +19,15 @@
     - title: Call for Papers
       url: "2026/contribute/papers"
       
+
+- title: Sponsorship & Exhibition
+  url: "javascript:void(0)"
+  children:
+    - title: Call for Sponsorship and Exhibition
+      url: "/2026/sponsorship/call-for-sponsorship-exhibition/"
+
+
+
 - title: Committee
   url: "javascript:void(0)"
   children:
