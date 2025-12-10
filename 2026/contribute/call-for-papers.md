@@ -32,9 +32,10 @@ An extended call for papers and author guidelines will be available on the <a hr
 For questions, contact:  <a href="mailto:papers2026@ieeeismar.net">papers2026@ieeeismar.net</a>
 
 **ISMAR 2026 Papers Chairs**
+- Mariko Isogawa
+- Kangsoo Kim
 - Alejandro Martin-Gomez
 - Alexander Plopski
-- Florian Weidner
-- Kangsoo Kim
-- Mariko Isogawa
 - Missie Smith
+- Florian Weidner
+
