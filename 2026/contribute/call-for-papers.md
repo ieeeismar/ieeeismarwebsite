@@ -1,7 +1,7 @@
 ---
 layout: 2026/contribute-page-2026
 title: Call for Papers
-redirect_from: /2026/Papers.html
+permalink: /2026/call-for-papers/
 ---
 *Last updated: 2026-12-04 14:00AM CET*
 
@@ -29,12 +29,12 @@ Attending authors of accepted papers will need to agree and comply with both the
 An extended call for papers and submission guidelines will be available on the <a href="https://www.ieeeismar.net/2026/">ISMAR 2026 website</a>. 
 
 
-For questions, contact:  <a href="mailto:papers2026@ismar.net">papers2026@ismar.net</a>
+For questions, contact:  <a href="mailto:papers2026@ieeeismar.net">papers2026@ieeeismar.net</a>
 
 **ISMAR 2026 Papers Chairs**
+- Alejandro Martin-Gomez
 - Alexander Plopski
-- Missie Smith 
 - Florian Weidner
 - Kangsoo Kim
 - Mariko Isogawa
-- Alejandro Martin-Gomez
+- Missie Smith

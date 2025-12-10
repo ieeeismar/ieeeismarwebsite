@@ -10,14 +10,14 @@
     - title: Bari & Puglia
       url: "/2026/bari-puglia/"
     - title: Visual Identity
-      url: "/2026/logo-design/"
+      url: "/2026/visual-identity/"
     
       
 - title: Contribute
   url: "javascript:void(0)"
   children:
     - title: Call for Papers
-      url: "2026/contribute/papers"
+      url: "/2026/call-for-papers/"
       
 
 - title: Sponsorship & Exhibition

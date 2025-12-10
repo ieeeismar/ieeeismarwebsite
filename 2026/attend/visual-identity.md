@@ -1,13 +1,12 @@
 ---
 layout: 2026/attend-page-2026
 title: About Visual Identity
-permalink: /2026/logo-design/
+permalink: /2026/visual-identity/
 ---
 
 ## Logo Concept
 
 Puglia's ceramic tradition forms the conceptual foundation of the logo, drawing on the visual language of handcrafted plates decorated with flowing lines, geometric patterns, and warm earthy tones. These elements translate the region’s craftsmanship and vitality into a contemporary graphic identity that expresses continuity, authenticity, and a deep connection to place.
-
 
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
@@ -16,6 +15,11 @@ Puglia's ceramic tradition forms the conceptual foundation of the logo, drawing 
 </div>
 
 At the heart of this visual system stands the **Rooster**, a recurring motif in Puglia's ceramics and a symbol of good fortune and renewal, reinterpreted in a modern form aligned with the event’s visual language. The logo also incorporates a human figure with open arms.
+
+1) **Color Palette** – The color palette is directly drawn from the primary tones used in traditional ceramic decoration, especially those used in Rooster ceramics. Yellow, orange, red, and blue echo the vivid pigments of hand–painted plates, while the dark brown stroke represents the painterly brush line typical of ceramic craftsmanship
+
+2) **ISMAR Logo** – The ISMAR logo features a stylized human figure with open arms, a gesture that symbolically welcomes people and embodies the inclusive spirit of the project. Its shape is inspired by the central motifs traditionally found in Apulian ceramics—often represented by the Rooster, which here is reinterpreted in a contemporary, minimal form.
+
 
 <div style="position: relative;">
   <img id="interactive-image" src="{{ 'assets/2026/img/VisualIdentity.png' | relative_url }}" usemap="#image-map" width="100%" height="auto"/>
