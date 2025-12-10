@@ -13,7 +13,17 @@ redirect_from:
   <h3>General Chairs</h3>
   <p class="email"><a href="mailto:generalchairs2026@ieeeismar.net">generalchairs2026@ieeeismar.net</a></p>
   <div class="chairs">
-   <div class="chair">
+    <div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/Antonio Emmanuele Uva.png' | relative_url }}" />
+      <p class="name">Antonio E. Uva</p>
+      <p>Polytechnic University of Bari</p>
+    </div>
+    <div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/Daisuke Iwai.jpg' | relative_url }}" />
+      <p class="name">Daisuke Iwai</p>
+      <p>University of Osaka</p>
+    </div>
+    <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Gabbard.png' | relative_url }}" />
       <p class="name">Joseph L. Gabbard</p>
       <p>Virginia Tech</p>
@@ -24,54 +34,46 @@ redirect_from:
       <p>Polytechnic University of Bari</p>
     </div>
     <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Antonio Emmanuele Uva.png' | relative_url }}" />
-      <p class="name">Antonio E. Uva</p>
-      <p>Polytechnic University of Bari</p>
-    </div>
-    <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Woontack Woo.jpg' | relative_url }}" />
       <p class="name">Woontack Woo</p>
       <p>KAIST</p>
     </div>
-    <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Daisuke Iwai.jpg' | relative_url }}" />
-      <p class="name">Daisuke Iwai</p>
-      <p>University of Osaka</p>
-    </div>
   </div>
 </div>
+
  
 
-  <div class="chairs-category">
+<div class="chairs-category">
     <h3>Technical Program Chairs</h3>
     <p class="email"><a href="mailto:program2026@ieeeismar.net">program2026@ieeeismar.net</a></p>
     <div class="chairs">
-      <div class="chair">
-        <img src="{{ 'assets/2026/img/Committee Members Images/Jeanine Stefanucci.jpg' | relative_url }}" />
-        <p class="name">Jeanine Stefanucci</p>
-        <p>University of Utah</p>
-      </div>
       <div class="chair">
         <img src="{{ 'assets/2026/img/Committee Members Images/Lili Wang.jpg' | relative_url }}" />
         <p class="name">Lili Wang</p>
         <p>Beihang University</p>
       </div>
+      <div class="chair">
+        <img src="{{ 'assets/2026/img/Committee Members Images/Jeanine Stefanucci.jpg' | relative_url }}" />
+        <p class="name">Jeanine Stefanucci</p>
+        <p>University of Utah</p>
+      </div>
     </div>
   </div>
 
-  <div class="chairs-category">
+
+<div class="chairs-category">
     <h3>Paper Chairs (Journal & Conference)</h3>
     <p class="email"><a href="mailto:papers2026@ismar.net">papers2026@ieeeismar.net</a></p>
     <div class="chairs">
       <div class="chair">
+        <img src="{{ 'assets/2026/img/Committee Members Images/Alejandro Martin-Gomez.jpg' | relative_url }}" />
+        <p class="name">Alejandro Martin-Gomez</p>
+        <p>University of Arkansas</p>
+      </div>
+      <div class="chair">
         <img src="{{ 'assets/2026/img/Committee Members Images/Alexander Plopski.jpg' | relative_url }}" />
         <p class="name">Alexander Plopski</p>
         <p>Graz University of Technology</p>
-      </div>
-      <div class="chair">
-        <img src="{{ 'assets/2026/img/Committee Members Images/Missie Smith.jpg' | relative_url }}" />
-        <p class="name">Missie Smith</p>
-        <p>Auburn University</p>
       </div>
       <div class="chair">
         <img src="{{ 'assets/2026/img/Committee Members Images/Florian Weidner.jpg' | relative_url }}" />
@@ -88,31 +90,27 @@ redirect_from:
         <p class="name">Mariko Isogawa</p>
         <p>Keio University</p>
       </div>
-       <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Alejandro Martin-Gomez.jpg' | relative_url }}" />
-      <p class="name">Alejandro Martin-Gomez</p>
-      <p>University of Arkansas</p>
-    </div>
+      <div class="chair">
+        <img src="{{ 'assets/2026/img/Committee Members Images/Missie Smith.jpg' | relative_url }}" />
+        <p class="name">Missie Smith</p>
+        <p>Auburn University</p>
+      </div>
     </div>
   </div>
+
 
 <div class="chairs-category">
   <h3>Associate Paper Chairs</h3>
   <div class="chairs">
     <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Lee Lisle.jpg' | relative_url }}" />
-      <p class="name">Lee Lisle</p>
-      <p>University of Central Florida</p>
+      <img src="{{ 'assets/2026/img/Committee Members Images/Daniel Zielasko.jpg' | relative_url }}" />
+      <p class="name">Daniel Zielasko</p>
+      <p>Technical University of Denmark</p>
     </div>
     <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Susanne Schmidt.jpg' | relative_url }}" />
-      <p class="name">Susanne Schmidt</p>
-      <p>HIT Lab NZ, University of Canterbury</p>
-    </div>
-    <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Nilufar Baghaei.jpg' | relative_url }}" />
-      <p class="name">Nilufar Baghaei</p>
-      <p>University of Queensland</p>
+      <img src="{{ 'assets/2026/img/Committee Members Images/Hai-Ning Liang.jpg' | relative_url }}" />
+      <p class="name">Hai-Ning Liang</p>
+      <p>The Hong Kong University of Science and Technology</p>
     </div>
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Isaac Cho.jpg' | relative_url }}" />
@@ -125,26 +123,32 @@ redirect_from:
       <p>University of Utah</p>
     </div>
     <div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/Lee Lisle.jpg' | relative_url }}" />
+      <p class="name">Lee Lisle</p>
+      <p>University of Central Florida</p>
+    </div>
+    <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Miao Wang.jpg' | relative_url }}" />
       <p class="name">Miao Wang</p>
       <p>Beihang University</p>
     </div>
     <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Daniel Zielasko.jpg' | relative_url }}" />
-      <p class="name">Daniel Zielasko</p>
-      <p>Technical University of Denmark</p>
+      <img src="{{ 'assets/2026/img/Committee Members Images/Nilufar Baghaei.jpg' | relative_url }}" />
+      <p class="name">Nilufar Baghaei</p>
+      <p>University of Queensland</p>
     </div>
     <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Hai-Ning Liang.jpg' | relative_url }}" />
-      <p class="name">Hai-Ning Liang</p>
-      <p>The Hong Kong University of Science and Technology</p>
+      <img src="{{ 'assets/2026/img/Committee Members Images/Susanne Schmidt.jpg' | relative_url }}" />
+      <p class="name">Susanne Schmidt</p>
+      <p>HIT Lab NZ, University of Canterbury</p>
     </div>
   </div>
 </div>
 
 
 
-  <div class="chairs-category">
+
+<div class="chairs-category">
     <h3>Poster Chairs</h3>
     <p class="email"><a href="mailto:posters2026@ieeeismar.net">posters2026@ieeeismar.net</a></p>
     <div class="chairs">
@@ -164,7 +168,7 @@ redirect_from:
         <p>Colorado State University</p>
       </div>
     </div>
-  </div>
+</div>
 <!--
   <div class="chairs-category">
     <h3>Panel and Special Session Chairs</h3>
@@ -189,24 +193,25 @@ redirect_from:
   <p class="email"><a href="mailto:publication2026@ieeeismar.net">publication2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Minsoo Choi.jpg' | relative_url }}" />
-      <p class="name">Minsoo Choi</p>
-      <p>Oklahoma State University</p>
+      <img src="{{ 'assets/2026/img/Committee Members Images/Joseph Kider.png' | relative_url }}" />
+      <p class="name">Joseph Kider</p>
+      <p>Clemson University</p>
     </div>
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Matias Volonte.jpg' | relative_url }}" />
       <p class="name">Matias Volonte</p>
       <p>Clemson University</p>
     </div>
-     <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Joseph Kider.png' | relative_url }}" />
-      <p class="name">Joseph Kider</p>
-      <p>Clemson University</p>
+    <div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/Minsoo Choi.jpg' | relative_url }}" />
+      <p class="name">Minsoo Choi</p>
+      <p>Oklahoma State University</p>
     </div>
   </div>
 </div>
 
- <div class="chairs-category">
+
+<div class="chairs-category">
   <h3>Finance Chairs</h3>
   <p class="email"><a href="mailto:finance2026@ieeeismar.net">finance2026@ieeeismar.net</a></p>
   <div class="chairs">
@@ -235,10 +240,21 @@ redirect_from:
   </div>
 </div>
 
+
 <div class="chairs-category">
   <h3>Web & Discord Chairs</h3>
   <p class="email"><a href="mailto:web2026@ieeeismar.net">web2026@ieeeismar.net</a></p>
   <div class="chairs">
+    <div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/Fabio Vangi.jpg' | relative_url }}" />
+      <p class="name">Fabio Vangi</p>
+      <p>Polytechnic University of Bari</p>
+    </div>
+    <div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/Hamid Tarayashiyoun.jpg' | relative_url }}" />
+      <p class="name">Hamid Tarayashiyoun</p>
+      <p>Virginia Tech</p>
+    </div>
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Mine Dastan.jpg' | relative_url }}" />
       <p class="name">Mine Dastan</p>
@@ -249,18 +265,9 @@ redirect_from:
       <p class="name">Nels Numan</p>
       <p>University College London</p>
     </div>
-    <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Hamid Tarayashiyoun.jpg' | relative_url }}" />
-      <p class="name">Hamid Tarayashiyoun</p>
-      <p>Virginia Tech</p>
-    </div>
-    <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Fabio Vangi.jpg' | relative_url }}" />
-      <p class="name">Fabio Vangi</p>
-      <p>Polytechnic University of Bari</p>
-    </div>
   </div>
 </div>
+
 
 <div class="chairs-category">
   <h3>Design Chair</h3>
@@ -288,7 +295,7 @@ redirect_from:
       <p class="name">Jean Botev</p>
       <p>University of Luxembourg</p>
     </div>
-     <div class="chair">
+    <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Manuela Chessa.jpg' | relative_url }}" />
       <p class="name">Manuela Chessa</p>
       <p>University of Genoa</p>
@@ -318,16 +325,16 @@ redirect_from:
   <p class="email"><a href="mailto:DC2026@ieeeismar.net">DC2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/Ana Stanescu.jpg' | relative_url }}" />
+      <p class="name">Ana Stanescu</p>
+      <p>Graz University of Technology</p>
+    </div>
+    <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Francielly Rodrigues.jpg' | relative_url }}" />
       <p class="name">Francielly Rodrigues</p>
       <p>Virginia Tech</p>
     </div>
     <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Ana Stanescu.jpg' | relative_url }}" />
-      <p class="name">Ana Stanescu</p>
-      <p>Graz University of Technology</p>
-    </div>
-     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Zhen Bai.jpg' | relative_url }}" />
       <p class="name">Zhen Bai</p>
       <p>University of Rochester</p>
@@ -345,19 +352,19 @@ redirect_from:
       <p>Virginia Tech</p>
     </div>
     <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Radha Kumaran.jpg' | relative_url }}" />
-      <p class="name">Radha Kumaran</p>
-      <p>Saarland University</p>
+      <img src="{{ 'assets/2026/img/Committee Members Images/Francesca De Crescenzio.png' | relative_url }}" />
+      <p class="name">Francesca De Crescenzio</p>
+      <p>University of Bologna</p>
     </div>
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Hecquard Jeanne.jpg' | relative_url }}" />
       <p class="name">Hecquard Jeanne</p>
       <p>Inria Rennes</p>
     </div>
-     <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Francesca De Crescenzio.png' | relative_url }}" />
-      <p class="name">Francesca De Crescenzio</p>
-      <p>University of Bologna</p>
+    <div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/Radha Kumaran.jpg' | relative_url }}" />
+      <p class="name">Radha Kumaran</p>
+      <p>Saarland University</p>
     </div>
   </div>
 </div>
@@ -367,14 +374,14 @@ redirect_from:
   <p class="email"><a href="mailto:workshoptutorials2026@ieeeismar.net">workshoptutorials2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Maxim Bakaev.jpg' | relative_url }}" />
-      <p class="name">Maxim Bakaev</p>
-      <p>Novosibirsk State Technical University</p>
-    </div>
-    <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Christos Mousas.jpg' | relative_url }}" />
       <p class="name">Christos Mousas</p>
       <p>Purdue University</p>
+    </div>
+    <div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/Maxim Bakaev.jpg' | relative_url }}" />
+      <p class="name">Maxim Bakaev</p>
+      <p>Novosibirsk State Technical University</p>
     </div>
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Tobias Schwandt.jpg' | relative_url }}" />
@@ -405,10 +412,10 @@ redirect_from:
   <h3>Industrial Exhibition & Sponsorship Chairs</h3>
   <p class="email"><a href="mailto:sponsorship2026@ieeeismar.net">sponsorship2026@ieeeismar.net</a></p>
   <div class="chairs">
-        <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Jens Grubert.jpg' | relative_url }}" />
-      <p class="name">Jens Grubert</p>
-      <p>Coburg University</p>
+    <div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/Alessandro Evangelista.jpg' | relative_url }}" />
+      <p class="name">Alessandro Evangelista</p>
+      <p>Polytechnic University of Bari</p>
     </div>
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Doug Bowman.jpg' | relative_url }}" />
@@ -416,14 +423,14 @@ redirect_from:
       <p>Virginia Tech</p>
     </div>
     <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Alessandro Evangelista.jpg' | relative_url }}" />
-      <p class="name">Alessandro Evangelista</p>
-      <p>Polytechnic University of Bari</p>
-    </div>
-     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Haiying Duanmu.png' | relative_url }}" />
       <p class="name">Haiying Duanmu</p>
       <p>Shanghai MetaNow Metaverse</p>
+    </div>
+    <div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/Jens Grubert.jpg' | relative_url }}" />
+      <p class="name">Jens Grubert</p>
+      <p>Coburg University</p>
     </div>
   </div>
 </div>
@@ -433,14 +440,14 @@ redirect_from:
   <p class="email"><a href="mailto:DEIA2026@ieeeismar.net">DEIA2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Mirjam Vosmeer.jpg' | relative_url }}" />
-      <p class="name">Mirjam Vosmeer</p>
-      <p>Amsterdam University of Applied Sciences</p>
-    </div>
-    <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Frederike Manders.jpg' | relative_url }}" />
       <p class="name">Frederike Manders</p>
       <p>Erasmus University Rotterdam</p>
+    </div>
+    <div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/Mirjam Vosmeer.jpg' | relative_url }}" />
+      <p class="name">Mirjam Vosmeer</p>
+      <p>Amsterdam University of Applied Sciences</p>
     </div>
   </div>
 </div>
@@ -450,19 +457,19 @@ redirect_from:
   <p class="email"><a href="mailto:localarrangements2026@ieeeismar.net">localarrangements2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Michele Gattullo.jpg' | relative_url }}" />
-      <p class="name">Michele Gattullo</p>
-      <p>Polytechnic University of Bari</p>
-    </div>
-    <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Enrico Laviola.jpg' | relative_url }}" />
       <p class="name">Enricoandrea Laviola</p>
       <p>Polytechnic University of Bari</p>
-      </div>
-        <div class="chair">
+    </div>
+    <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Federica Casulli.jpg' | relative_url }}" />
       <p class="name">Federica Casulli</p>
       <p>CicSud Bari</p>
+    </div>
+    <div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/Michele Gattullo.jpg' | relative_url }}" />
+      <p class="name">Michele Gattullo</p>
+      <p>Polytechnic University of Bari</p>
     </div>
   </div>
 </div>
@@ -491,14 +498,14 @@ redirect_from:
   <p class="email"><a href="mailto:social2026@ieeeismar.net">social2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Desire Laviola.jpg' | relative_url }}" />
-      <p class="name">Desirè Laviola</p>
-      <p>Polytechnic University of Bari</p>
-    </div>
-    <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Ali Haskins Lisle.png' | relative_url }}" />
       <p class="name">Ali Haskins Lisle</p>
       <p>University of Central Florida</p>
+    </div>
+    <div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/Desire Laviola.jpg' | relative_url }}" />
+      <p class="name">Desirè Laviola</p>
+      <p>Polytechnic University of Bari</p>
     </div>
   </div>
 </div>
@@ -508,14 +515,14 @@ redirect_from:
   <p class="email"><a href="mailto:studentvolunteers2026@ieeeismar.net">studentvolunteers2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Vito De Giglio.png' | relative_url }}" />
-      <p class="name">Vito De Giglio</p>
-      <p>Polytechnic University of Bari</p>
-    </div>
-    <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Alexander Giovannelli.jpg' | relative_url }}" />
       <p class="name">Alexander Giovannelli</p>
       <p>Virginia Tech</p>
+    </div>
+    <div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/Vito De Giglio.png' | relative_url }}" />
+      <p class="name">Vito De Giglio</p>
+      <p>Polytechnic University of Bari</p>
     </div>
   </div>
 </div>

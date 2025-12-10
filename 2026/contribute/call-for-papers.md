@@ -26,7 +26,7 @@ All paper submissions must be formatted using the IEEE Computer Society VGTC Con
 
 Attending authors of accepted papers will need to agree and comply with both the <a href="https://www.ieeeismar.net/2026/code-of-conduct/">ISMAR code of conduct</a> & <a href="https://www.ieee.org/about/corporate/governance/code-of-conduct">IEEE code of conduct</a>
  to have their work presented and published.
-An extended call for papers and submission guidelines will be available on the <a href="https://www.ieeeismar.net/2026/">ISMAR 2026 website</a>. 
+An extended call for papers and author guidelines will be available on the <a href="https://www.ieeeismar.net/2026/">ISMAR 2026 website</a>. 
 
 
 For questions, contact:  <a href="mailto:papers2026@ieeeismar.net">papers2026@ieeeismar.net</a>
