@@ -18,7 +18,7 @@ At the heart of this visual system stands the **Rooster**, a recurring motif in 
 
 1) **Color Palette** – The color palette is directly drawn from the primary tones used in traditional ceramic decoration, especially those used in Rooster ceramics. Yellow, orange, red, and blue echo the vivid pigments of hand–painted plates, while the dark brown stroke represents the painterly brush line typical of ceramic craftsmanship
 
-2) **ISMAR Logo** – The ISMAR logo features a stylized human figure with open arms, a gesture that symbolically welcomes people and embodies the inclusive spirit of the project. Its shape is inspired by the central motifs traditionally found in Apulian ceramics—often represented by the Rooster, which here is reinterpreted in a contemporary, minimal form.
+2) **ISMAR Logo** – The ISMAR logo is inspired by the Japanese Kanji “合” turned upside down, symbolizing the merger of the original ISAR (International Symposium on Augmented Reality) and ISMR (International Symposium on Mixed Reality) conferences. Its stylized human figure with open arms reflects a welcoming, inclusive spirit, while its form echoes motifs from Apulian ceramics, reinterpreted in a modern, minimal design.
 
 
 <div style="position: relative;">
