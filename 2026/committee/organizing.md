@@ -296,6 +296,11 @@ redirect_from:
       <p class="name">Giulia W. Scurati</p>
       <p>Blekinge Institute of Technology</p>
     </div>
+     <div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/Inmaculada Remolar Quintana.jpg' | relative_url }}" />
+      <p class="name">Inmaculada Remolar Quintana</p>
+      <p>Universitat Jaume I Castellón</p>
+    </div>
   </div>
 </div>
 
