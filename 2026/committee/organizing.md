@@ -254,7 +254,7 @@ redirect_from:
     </div>
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Hamid Tarayashiyoun.jpg' | relative_url }}" />
-      <p class="name">Hamid Tarayashiyoun</p>
+      <p class="name">Hamid Tarashiyoun</p>
       <p>Virginia Tech</p>
     </div>
     <div class="chair">
