@@ -18,12 +18,14 @@ At the heart of this visual system stands the **Rooster**, a recurring motif in 
 
 1) **Color Palette** – The color palette is directly drawn from the primary tones used in traditional ceramic decoration, especially those used in Rooster ceramics. Yellow, orange, red, and blue echo the vivid pigments of hand–painted plates, while the dark brown stroke represents the painterly brush line typical of ceramic craftsmanship
 
-2) **ISMAR Logo** – The ISMAR logo is inspired by the Japanese Kanji “合” turned upside down, symbolizing the merger of the original ISAR (International Symposium on Augmented Reality) and ISMR (International Symposium on Mixed Reality) conferences. Its stylized human figure with open arms reflects a welcoming, inclusive spirit, while its form echoes motifs from Apulian ceramics, reinterpreted in a modern, minimal design.
+2) **ISMAR Logo** – The ISMAR logo is inspired by the Japanese Kanji **“合”** turned upside down, symbolizing the merger of the original ISAR (International Symposium on Augmented Reality) and ISMR (International Symposium on Mixed Reality) conferences. Its stylized human figure with open arms reflects a welcoming, inclusive spirit, while its form echoes motifs from Apulian ceramics, reinterpreted in a modern, minimal design.
 
 
 <div style="position: relative;">
   <img id="interactive-image" src="{{ 'assets/2026/img/VisualIdentity.png' | relative_url }}" usemap="#image-map" width="100%" height="auto"/>
-
+  <div style="text-align: center; margin-top: 10px; font-weight: bold;">
+    ↑ Hover over the visual elements on the banner to explore more about each landmark. ↑ 
+  </div>
   <map name="image-map">
 
     <area shape="rect" coords="200,40,0,200"
@@ -113,7 +115,7 @@ At the heart of this visual system stands the **Rooster**, a recurring motif in 
 }
 
 #interactive-image {
-  animation: pulse 10s ease-in-out 4;
+  animation: pulse 10s ease-in-out 3;
 }
 
 .preview-thumb {
