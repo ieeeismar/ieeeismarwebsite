@@ -11,6 +11,15 @@
       url: "/2026/bari-puglia/"
     - title: Visual Identity
       url: "/2026/visual-identity/"
+    #- title: Registration
+    #  url: "/2026/registration/"
+    #- title: Accommodation
+    #  url: "/2026/accommodation/"
+    #- title: Transportation
+    #  url: "/2026/transportation/"
+    #- title: Visa Requirements
+    #  url: "/2026/visa-requirements/"
+    
     
       
 - title: Contribute
@@ -19,6 +28,15 @@
     - title: Call for Papers
       url: "/2026/call-for-papers/"
       
+
+
+#- title: Program
+#  url: "javascript:void(0)"
+# children:
+#   - title: 
+#     url: 
+
+
 
 - title: Sponsorship & Exhibition
   url: "javascript:void(0)"
@@ -35,3 +53,7 @@
       url: "/2026/committee/organizing/"
     - title: Steering Committee
       url: "/2026/committee/steering_committee/"
+
+
+- title: Past Conferences
+  url: "/2026/past-conferences/"
