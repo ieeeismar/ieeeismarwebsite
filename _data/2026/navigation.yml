@@ -40,9 +40,9 @@
 
 - title: Sponsorship & Exhibition
   url: "javascript:void(0)"
-# children:
-#   - title: Call for Sponsorship and Exhibition
-#     url: "/2026/sponsorship/call-for-sponsorship-exhibition/"
+  children:
+   - title: Call for Sponsorship and Exhibition
+     url: "/2026/sponsorship/call-for-sponsorship-exhibition/"
 
 
 
