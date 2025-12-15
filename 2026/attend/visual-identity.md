@@ -21,6 +21,9 @@ At the heart of this visual system stands the **Rooster**, a recurring motif in 
 2) **ISMAR Logo** – The ISMAR logo is inspired by the Japanese Kanji **“合”** turned upside down, symbolizing the merger of the original ISAR (International Symposium on Augmented Reality) and ISMR (International Symposium on Mixed Reality) conferences. Its stylized human figure with open arms reflects a welcoming, inclusive spirit, while its form echoes motifs from Apulian ceramics, reinterpreted in a modern, minimal design.
 
 
+
+
+
 <div style="position: relative;">
   <img id="interactive-image" src="{{ 'assets/2026/img/VisualIdentity.png' | relative_url }}" usemap="#image-map" width="100%" height="auto"/>
   <div style="text-align: center; margin-top: 10px; font-weight: bold;">
