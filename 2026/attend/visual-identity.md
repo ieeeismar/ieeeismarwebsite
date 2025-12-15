@@ -24,7 +24,7 @@ At the heart of this visual system stands the **Rooster**, a recurring motif in 
 <div style="position: relative;">
   <img id="interactive-image" src="{{ 'assets/2026/img/VisualIdentity.png' | relative_url }}" usemap="#image-map" width="100%" height="auto"/>
   <div style="text-align: center; margin-top: 10px; font-weight: bold;">
-    ↑ Hover over the visual elements on the banner to explore more about each landmark. ↑ 
+    ↑ Hover over the elements in the illustration to explore more ↑ 
   </div>
   <map name="image-map">
 
