@@ -16,7 +16,7 @@ IEEE International Symposium on Mixed and Augmented Reality (ISMAR) is a flagshi
     <figure style="width:100%; margin:0;">
         <img src="{{ '/assets/2026/img/sponsorship/bari.jpg' | relative_url }}" style="width:100%; height:auto;" alt="Old Bari">
         <figcaption style="text-align:center; font-size:0.9rem; margin-top:6px; font-weight:bold;">
-            Puglia Old Town in Bari - (Source: Wikimedia Commons)
+            Puglia Old Town in Bari,Italy - (Source: Wikimedia Commons)
         </figcaption>
     </figure>
 </div>
@@ -79,7 +79,7 @@ The benefits include:
 ## Exhibition
 An extensive technical exhibition will take place during the four-day conference in Daejeon Convention Center. The exhibition is expecting participation of about 600 subscribers and over 15 companies from around world and will offer optimal marketing opportunities for increased exposure and market expansion. The standard booth is a 3m x 3m shell scheme and can be purchased in multiples of 9 square meters.
 
-| **Place** | Exhibition Hall (1st Floor, Nicolas Hotel, Bari Italy) |
+| **Place** | Exhibition Hall (1st Floor, Nicolaus Hotel, Bari Italy) |
 | **Exhibition Period** | October 6 – 8, 2026 (with setup/breakdown on October 5 and October 9)|
 
 
