@@ -24,65 +24,65 @@ At the heart of this visual system stands the **Rooster**, a recurring motif in 
 <div style="position: relative;">
   <img id="interactive-image" src="{{ 'assets/2026/img/VisualIdentity.png' | relative_url }}" usemap="#image-map" width="100%" height="auto"/>
   <div style="text-align: center; margin-top: 10px; font-weight: bold;">
-    ↑ Hover over the elements in the illustration to explore more ↑ 
+    ↑ Hover over the elements in the illustration to explore more...
   </div>
   <map name="image-map">
 
-    <area shape="rect" coords="200,40,0,200"
+    <area shape="rect" coords="200,140,0,300"
       alt="ISMAR with open arms"
       data-preview="{{ 'assets/2026/img/banner elements/customlogo.png' | relative_url }}"
       href="#"
       onmouseover="highlightArea(this)" onmouseout="resetArea(this)" onmousemove="moveHoverText(event)">
 
-    <area shape="rect" coords="1200,40,700,200"
+    <area shape="rect" coords="1200,140,700,300"
       alt="Puglia's Rooster Figure"
       data-preview="{{ 'assets/2026/img/banner elements/rooster.jpg' | relative_url }}"
       href="#"
       onmouseover="highlightArea(this)" onmouseout="resetArea(this)" onmousemove="moveHoverText(event)">
 
-    <area shape="rect" coords="200,400,0,300"
+    <area shape="rect" coords="200,500,0,400"
       alt="Adriatic Sea"
       data-preview="{{ 'assets/2026/img/banner elements/sea.jpg' | relative_url }}"
       href="#"
       onmouseover="highlightArea(this)" onmouseout="resetArea(this)" onmousemove="moveHoverText(event)">
 
-    <area shape="rect" coords="260,400,0,300"
+    <area shape="rect" coords="260,500,0,400"
       alt="Lighthouse"
       data-preview="{{ 'assets/2026/img/banner elements/faro.jpg' | relative_url }}"
       href="#"
       onmouseover="highlightArea(this)" onmouseout="resetArea(this)" onmousemove="moveHoverText(event)">
 
-    <area shape="rect" coords="400,400,0,300"
+    <area shape="rect" coords="400,500,0,400"
       alt="Castello Svevo"
       data-preview="{{ 'assets/2026/img/banner elements/castello.jpg' | relative_url }}"
       href="#"
       onmouseover="highlightArea(this)" onmouseout="resetArea(this)" onmousemove="moveHoverText(event)">
 
-    <area shape="rect" coords="500,400,0,300"
+    <area shape="rect" coords="500,500,0,400"
       alt="Basilica of San Nicola"
       data-preview="{{ 'assets/2026/img/banner elements/basilica.JPG' | relative_url }}"
       href="#"
       onmouseover="highlightArea(this)" onmouseout="resetArea(this)" onmousemove="moveHoverText(event)">
 
-    <area shape="rect" coords="600,400,0,300"
+    <area shape="rect" coords="600,500,0,400"
       alt="Cathedral of San Sabino"
       data-preview="{{ 'assets/2026/img/banner elements/cattedrale.JPG' | relative_url }}"
       href="#"
       onmouseover="highlightArea(this)" onmouseout="resetArea(this)" onmousemove="moveHoverText(event)">
 
-    <area shape="rect" coords="720,400,0,300"
+    <area shape="rect" coords="720,500,0,400"
       alt="Teatro Margherita"
       data-preview="{{ 'assets/2026/img/banner elements/margherita.jpg' | relative_url }}"
       href="#"
       onmouseover="highlightArea(this)" onmouseout="resetArea(this)" onmousemove="moveHoverText(event)">
 
-    <area shape="rect" coords="830,400,0,300"
+    <area shape="rect" coords="830,500,0,400"
       alt="Teatro Petruzzelli"
       data-preview="{{ 'assets/2026/img/banner elements/petruzzelli.JPG' | relative_url }}"
       href="#"
       onmouseover="highlightArea(this)" onmouseout="resetArea(this)" onmousemove="moveHoverText(event)">
 
-    <area shape="rect" coords="1000,400,0,300"
+    <area shape="rect" coords="1000,500,0,400"
       alt="Seafront Streetlights"
       data-preview="{{ 'assets/2026/img/banner elements/light.jpg' | relative_url }}"
       href="#"
