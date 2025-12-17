@@ -25,7 +25,7 @@ IEEE International Symposium on Mixed and Augmented Reality (ISMAR) is a flagshi
 
 <div class="content" style="display:flex; flex-direction:column; align-items:center; gap:20px;">
     <figure style="width:100%; margin:0;">
-        <img src="{{ '/assets/2026/img/sponsorship/bari.jpg' | relative_url }}" style="width:100%; height:auto;" alt="Old Bari">
+        <img src="{{ '/assets/2026/img/sponsors/bari.jpg' | relative_url }}" style="width:100%; height:auto;" alt="Old Bari">
         <figcaption style="text-align:center; font-size:0.9rem; margin-top:6px; font-weight:bold;">
             Puglia Old Town in Bari,Italy - (Source: Wikimedia Commons)
         </figcaption>
@@ -37,13 +37,13 @@ Worldwide academic leaders, Ph.D. and students from world-class technical univer
 
 <div class="content" style="display:flex; flex-direction:column; align-items:center; gap:20px;">
     <figure style="width:100%; margin:0;">
-        <img src="{{ '/assets/2026/img/sponsorship/attendees.png' | relative_url }}" style="width:100%; height:auto;" alt="Past attendance">
+        <img src="{{ '/assets/2026/img/sponsors/attendees.png' | relative_url }}" style="width:100%; height:auto;" alt="Past attendance">
         <figcaption style="text-align:center; font-size:0.9rem; margin-top:6px; font-weight:bold;">
             Past attendance
         </figcaption>
     </figure>
     <figure style="width:100%; margin:0;">
-        <img src="{{ '/assets/2026/img/sponsorship/origins.png' | relative_url }}" style="width:100%; height:auto;" alt="Participant origins of ISMAR 2025">
+        <img src="{{ '/assets/2026/img/sponsors/origins.png' | relative_url }}" style="width:100%; height:auto;" alt="Participant origins of ISMAR 2025">
         <figcaption style="text-align:center; font-size:0.9rem; margin-top:6px; font-weight:bold;">
             Participant origins of ISMAR 2025
         </figcaption>
@@ -51,11 +51,23 @@ Worldwide academic leaders, Ph.D. and students from world-class technical univer
 </div>
 
 
-## Previous ISMAR Sponsors
+<!-- Previous Years Sponsors Section -->
+{% if site.data["2026"].sponsors.previous_sponsors %}
+<section class="previous-sponsors-section">
+    <h1 class="previous-sponsors-title">Previous years' ISMAR Sponsors</h1>
 
-<div style="display:flex; justify-content:center; align-items:center;">
-    <img src="{{ '/assets/2026/img/sponsorship/logos/logos.png' | relative_url }}" style="width:100%; height:auto;" alt="ISMAR Sponsors Collage">
-</div>
+    <div class="sponsors-grid">
+        {% for sponsor in site.data["2026"].sponsors.previous_sponsors %}
+        <div class="sponsor-item">
+            <a href="{{ sponsor.url }}" target="_blank" class="sponsor-logo-link">
+                <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo">
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% endif %}
+
 
 ## Benefits of Sponsoring ISMAR
 Sponsorship is an ideal way to demonstrate your company/organization’s interest and commitment to the field of Mixed and Augmented Reality. 

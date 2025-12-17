@@ -351,6 +351,11 @@ body {
 }
 
 /* Sponsors Page Styling */
+.previous-sponsors-section {
+    background-color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
 
 h1,
 h2 {
