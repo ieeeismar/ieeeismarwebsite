@@ -4,6 +4,17 @@ title: Past Conferences
 permalink: /2026/past-conferences/
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQFFZGXF3Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FQFFZGXF3Y');
+</script>
+
+
 ## History of ISMAR
 
 The **IEEE International Symposium on Mixed and Augmented Reality (ISMAR)** is the leading international academic conference in the fields of Augmented Reality and Mixed Reality. The IEEE ISMAR debuted in **2002** in **Darmstadt, Germany**. The symposium is organized and supported by the IEEE Computer Society, IEEE VGTC and ACM SIGGRAPH.

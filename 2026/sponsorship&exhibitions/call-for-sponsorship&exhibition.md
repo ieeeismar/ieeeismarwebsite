@@ -4,6 +4,17 @@ title: Call for Sponsorship & Exhibitions
 permalink: /2026/sponsorship/call-for-sponsorship-exhibition/
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQFFZGXF3Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FQFFZGXF3Y');
+</script>
+
+
 ## What is ISMAR?
 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) is a flagship conference (CORE 2021 A* rating) that explores the advances in research and commercial activities related to AR, MR, and Virtual Reality (VR). ISMAR is setting new standards and trends with wide-ranging, creative, innovative, and highly technical content (see example 2025 program at <a href="https://www.ieeeismar.net/2025/program/overview/">ISMAR 2025 Program Overview</a>). ISMAR is supported by the IEEE Computer Society and the IEEE Visualization & Graphics Technical Committee, and in partnership with ACM and sponsored by industry leaders.
 

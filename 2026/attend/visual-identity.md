@@ -3,6 +3,15 @@ layout: 2026/attend-page-2026
 title: About Visual Identity
 permalink: /2026/visual-identity/
 ---
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQFFZGXF3Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FQFFZGXF3Y');
+</script>
 
 ## Logo Concept
 

@@ -4,6 +4,16 @@ title: Venue
 permalink: /2026/venue/
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQFFZGXF3Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FQFFZGXF3Y');
+</script>
+
 ## Conference Venue: Nicolaus Hotel
 
 The conference will be organized at The Nicolaus Hotel, an elegant conference center and hotel a few step away from Bari city center, Puglia, Italy.
