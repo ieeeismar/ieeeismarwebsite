@@ -41,6 +41,18 @@ previous_sponsors:
     url: "https://www.nvidia.com/"
     website: "www.nvidia.com"
 
+  - name: "Autodesk"
+    full_name: "Autodesk, Inc."
+    logo: "/assets/2026/img/sponsors/autodesk.png"
+    url: "https://www.autodesk.com/"
+    website: "www.autodesk.com"
+
+  - name: "Niantic"
+    full_name: "Niantic, Inc."
+    logo: "/assets/2026/img/sponsors/niantic.png"
+    url: "https://nianticlabs.com/"
+    website: "nianticlabs.com"
+
   - name: "Innoveam"
     full_name: "Innoveam"
     logo: "/assets/2026/img/sponsors/innoveam.png"
