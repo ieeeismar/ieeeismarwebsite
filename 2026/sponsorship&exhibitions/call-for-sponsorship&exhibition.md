@@ -37,7 +37,7 @@ Worldwide academic leaders, Ph.D. and students from world-class technical univer
 
 <div class="content" style="display:flex; flex-direction:column; align-items:center; gap:20px;">
     <figure style="width:100%; margin:0;">
-        <img src="{{ '/assets/2026/img/sponsors/attendees.png' | relative_url }}" style="width:100%; height:auto;" alt="Past attendance">
+        <img src="{{ '/assets/2026/img/sponsors/ismar_attendees.png' | relative_url }}" style="width:100%; height:auto;" alt="Past attendance">
         <figcaption style="text-align:center; font-size:0.9rem; margin-top:6px; font-weight:bold;">
             Past attendance
         </figcaption>
@@ -50,11 +50,12 @@ Worldwide academic leaders, Ph.D. and students from world-class technical univer
     </figure>
 </div>
 
+## Previous years' ISMAR Sponsors
+
 
 <!-- Previous Years Sponsors Section -->
 {% if site.data["2026"].sponsors.previous_sponsors %}
 <section class="previous-sponsors-section">
-    <h1 class="previous-sponsors-title">Previous years' ISMAR Sponsors</h1>
 
     <div class="sponsors-grid">
         {% for sponsor in site.data["2026"].sponsors.previous_sponsors %}
