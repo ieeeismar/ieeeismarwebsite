@@ -4,6 +4,16 @@ title: ISMAR 2026
 redirect_from: /
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQFFZGXF3Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FQFFZGXF3Y');
+</script>
+
 <!-- Custom hero for the main page -->
 <div class="hero">
     <img class="hero-image" src="{{ '/assets/2026/img/hero/hero-1920.jpg' | relative_url }}" srcset="

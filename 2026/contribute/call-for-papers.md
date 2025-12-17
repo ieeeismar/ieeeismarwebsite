@@ -5,6 +5,15 @@ permalink: /2026/call-for-papers/
 ---
 *Last updated: 2026-12-04 14:00AM CET*
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQFFZGXF3Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FQFFZGXF3Y');
+</script>
 
 ## Overview
 
