@@ -30,16 +30,16 @@ redirect_from:
       <p>Virginia Tech</p>
     </div>
     <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Daisuke Iwai.jpg' | relative_url }}" />
-      <p class="name">Daisuke Iwai</p>
-      <p>University of Osaka</p>
-    </div>
-    <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Michele Fiorentino.jpg' | relative_url }}" />
       <p class="name">Michele Fiorentino</p>
       <p>Polytechnic University of Bari</p>
     </div>
     <div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/Daisuke Iwai.jpg' | relative_url }}" />
+      <p class="name">Daisuke Iwai</p>
+      <p>University of Osaka</p>
+    </div>
+        <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Antonio Emmanuele Uva.png' | relative_url }}" />
       <p class="name">Antonio E. Uva</p>
       <p>Polytechnic University of Bari</p>

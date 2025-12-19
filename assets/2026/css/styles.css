@@ -1507,80 +1507,91 @@ h1.previous-sponsors-title {
     font-family: 'Poppins', sans-serif;
 }
 
-/* Table styling */
+/* Base table */
 .important-dates {
     width: 80%;
-    padding-top: 0px; /* Remove top padding to prevent overlap */
-    margin: 0 auto; /* Auto margin to horizontally center the table */
-    border-collapse: separate; /* Allows border-radius to work properly */
-    border-spacing: 0; /* Removes spacing between cells */
-    background-color: transparent; /* Transparent background for the table */
-    border-radius: 0; /* Remove table border radius */
-    box-shadow: none; /* Remove shadow that might cause overlap */
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: transparent;
     font-family: 'Poppins', sans-serif;
 }
 
-/* Table header styling */
-.important-dates thead {
-    background-color: #3A8BF3 !important; /* New blue color for table header */
-    color: white; /* White text in header */
+/* Header */
+.important-dates thead th {
+    background-color: #3A8BF3;
+    color: #ffffff;
+    font-size: 1.1rem;
+    padding: 14px;
     text-align: center;
-    border-radius: 35px 35px 0 0; /* More curved top corners */
-    overflow: hidden; /* Ensures content respects border radius */
+    border: none;
 }
 
-.important-dates th,
+.important-dates thead th:first-child {
+    border-top-left-radius: 24px;
+}
+
+.important-dates thead th:last-child {
+    border-top-right-radius: 24px;
+}
+
+/* Body */
+.important-dates tbody {
+    background-color: #ffffff;
+}
+
+.important-dates tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 8px;
+}
+
+.important-dates tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 8px;
+}
+
 .important-dates td {
     padding: 12px;
+    font-size: 1rem;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
-    color: #333; /* Dark text for table content */
+    color: #333333;
+    border-bottom: 1px solid #eeeeee;
 }
 
-.important-dates th {
-    font-size: 1.1rem; /* Header font size */
-    color: white;
-    background-color: #3A8BF3 !important; /* New blue color for table header */
-    border: none; /* Remove default borders */
+/* Row states */
+.important-dates tbody tr:hover {
+    background-color: #f2f2f2;
 }
 
-.important-dates th:first-child {
-    border-radius: 35px 0 0 0; /* Very curved top-left corner */
-}
-
-.important-dates th:last-child {
-    border-radius: 0 35px 0 0; /* Very curved top-right corner */
-}
-
-.important-dates td {
-    font-size: 1rem; /* Regular font size for table cells */
-}
-
-/* Styling for table rows */
-.important-dates tbody {
-    background-color: white; /* White background for table body */
-    border-radius: 0 0 8px 8px; /* Rounded bottom corners */
-}
-
-.important-dates tr:nth-child(even) {
-    background-color: white; /* White for alternate rows */
-}
-
-.important-dates tr:hover {
-    background-color: #e2e2e2; /* Light grey on hover for rows */
-}
-
-/* Style for passed dates */
+/* Passed deadlines */
 .important-dates tr.passed-date td {
     text-decoration: line-through;
+    color: #999999;
     opacity: 0.7;
-    color: #999; /* Optional: make the color lighter */
 }
 
-/* Keep the hover effect for passed dates */
-.important-dates tr.passed-date:hover {
-    background-color: #f0f0f0; /* Slightly different hover color */
+/* Links */
+.important-dates a {
+    color: #3A8BF3;
+    text-decoration: none;
+    font-weight: 500;
 }
+
+.important-dates a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .important-dates {
+        width: 100%;
+    }
+
+    .important-dates th,
+    .important-dates td {
+        padding: 10px;
+        font-size: 0.95rem;
+    }
+}
+
 
 /* Responsive Styles */
 
