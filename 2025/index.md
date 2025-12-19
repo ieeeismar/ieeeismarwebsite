@@ -39,6 +39,13 @@ title: ISMAR 2025
 <section class="updates-container">
   {% include 2025/notice.html
       type="info"
+      title="Conference Recordings Are Now Available"
+      date="October 2025"
+      content="Revisit paper sessions and panels from ISMAR 2025 by accessing the conference recordings."
+      markdown="[Watch the recordings on YouTube →](https://www.youtube.com/playlist?list=PLhPegsM-75z34DKz7huYIWBmPeYFr3OeQ)"
+  %}
+  {% include 2025/notice.html
+      type="info"
       title="Browse the ISMAR 2025 Photo Gallery"
       date="October 2025"
       content="Relive the highlights from Daejeon with photos captured throughout the week."
