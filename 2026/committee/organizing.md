@@ -168,6 +168,11 @@ redirect_from:
         <p>Colorado State University</p>
       </div>
       <div class="chair">
+        <img src="{{ 'assets/2026/img/Committee Members Images/Andrea Boensch.jpg' | relative_url }}" />
+        <p class="name">Andrea Boensch</p>
+        <p>RWTH Aachen University</p>
+      </div>
+      <div class="chair">
         <img src="{{ 'assets/2026/img/Committee Members Images/Francesco Ferrise.webp' | relative_url }}" />
         <p class="name">Francesco Ferrise</p>
         <p>Polytechnic University of Milan</p>
