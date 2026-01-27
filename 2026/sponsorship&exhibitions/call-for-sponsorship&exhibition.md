@@ -50,25 +50,6 @@ Worldwide academic leaders, Ph.D. and students from world-class technical univer
     </figure>
 </div>
 
-## Previous years' ISMAR Sponsors
-
-
-<!-- Previous Years Sponsors Section -->
-{% if site.data["2026"].sponsors.previous_sponsors %}
-<section class="previous-sponsors-section">
-
-    <div class="sponsors-grid">
-        {% for sponsor in site.data["2026"].sponsors.previous_sponsors %}
-        <div class="sponsor-item">
-            <a href="{{ sponsor.url }}" target="_blank" class="sponsor-logo-link">
-                <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo">
-            </a>
-        </div>
-        {% endfor %}
-    </div>
-</section>
-{% endif %}
-
 
 ## Benefits of Sponsoring ISMAR
 Sponsorship is an ideal way to demonstrate your company/organization’s interest and commitment to the field of Mixed and Augmented Reality. 
@@ -134,3 +115,22 @@ A deposit amount equal to at least 50% of the total space/sponsorship request mu
 
 ## Questions? Contact Us
 If you have any questions, please contact the Sponsorship Chairs via <a href="mailto:sponsorship2026@ieeeismar.net">sponsorship2026@ieeeismar.net</a>
+
+## Previous years' ISMAR Sponsors
+
+
+<!-- Previous Years Sponsors Section -->
+{% if site.data["2026"].sponsors.previous_sponsors %}
+<section class="previous-sponsors-section">
+
+    <div class="sponsors-grid">
+        {% for sponsor in site.data["2026"].sponsors.previous_sponsors %}
+        <div class="sponsor-item">
+            <a href="{{ sponsor.url }}" target="_blank" class="sponsor-logo-link">
+                <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo">
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% endif %}
