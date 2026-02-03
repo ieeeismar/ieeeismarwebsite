@@ -57,7 +57,7 @@ All submissions must be made electronically via the <a href="https://new.precisi
 * Reviews released: May 24th, 2026 (23:59 AoE, Sunday)
 * Rebuttals due: May 31st, 2026 (23:59 AoE, Sunday)
 * Final notification: June 22nd, 2026 (23:59 AoE, Sunday)
-* Camera-ready version: July 21st, 2025 (23:59 AoE, Tuesday)
+* Camera-ready version: July 21st, 2026 (23:59 AoE, Tuesday)
 
 
 ## Author Guidelines

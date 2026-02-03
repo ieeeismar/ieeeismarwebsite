@@ -76,7 +76,7 @@ Use “he” when referring to men or boys. Use “she” when referring to wome
 If your submission included experiments with humans, it is important to consider whether they represent your target audience and what effect the background of the participants could have on the results. A good ISMAR paper should include information about the participants’ age range and background, and discuss the effect this could have had on the findings and generalization of the results.
 
 ## Does the submission follow the author guidelines?
-Even the best submission may end up desk-rejected, e.g., if it is formatted incorrectly, is too long, or violates the anonymity requirement. To avoid such an outcome ensure that you follow the <a href="/2026/call-for-papers/#author-guidelines">Author Guidelines</a>. 
+Even the best submission may end up desk-rejected, e.g., if it is formatted incorrectly, is too long, or violates the anonymity requirement. To avoid such an outcome ensure that you follow the <a href="/2026/guidelines/paper-guidelines">Author Guidelines</a>. 
 
 
 ## Further Examples:

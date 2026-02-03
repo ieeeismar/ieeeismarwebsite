@@ -19,11 +19,11 @@ The sections below include details useful throughout the entire submission proce
 
 ### Before Submission
 
-Authors should ensure that the paper complies with all <strong><a href="#paper-requirements">Paper Requirements</a></strong> and <strong><a href="#policies">Policies</a></strong>. Authors may optionally submit <strong><a href="#supplemental-materials">Supplemental Materials</a></strong> to provide additional context supporting the submission. Additional information about writing a good ISMAR paper can be found on the ISMAR website.
+Authors should ensure that the paper complies with all <strong><a href="#paper-requirements">Paper Requirements</a></strong> and <strong><a href="#policies">Policies</a></strong>. Authors may optionally submit <strong><a href="#supplemental-materials">Supplemental Materials</a></strong> to provide additional context supporting the submission. Additional information about <a href="/2026/guidelines/writing-good-ismar-paper">writing a good ISMAR paper</a> can be found on the ISMAR website.
 
 ### After Submission
 
-For papers to remain under consideration for ISMAR 2026, authors must comply with <strong><a href="#author-requirements">Author Requirements</a></strong>. All submitted papers will follow the <strong><a href="#review-process">Review Process</a></strong>. If accepted, the authors should prepare the <strong><a href="#camera-ready-version">Preparation of Camera-Ready Version</a></strong> of their paper and an oral <strong><a href="#presentation">Presentation</a></strong> for the conference.
+For papers to remain under consideration for ISMAR 2026, authors must comply with <strong><a href="#author-requirements">Author Requirements</a></strong>. All submitted papers will follow the <strong><a href="#review-process">Review Process</a></strong>. If accepted, the authors should <strong><a href="#camera-ready-version">prepare the camera-ready version</a></strong> of their paper and an oral <strong><a href="#presentation">Presentation</a></strong> for the conference.
 
 ## Paper Requirements {#paper-requirements}
 
