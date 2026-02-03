@@ -3,7 +3,7 @@ layout: 2026/contribute-page-2026
 title: Call for Papers
 permalink: /2026/call-for-papers/
 ---
-*Last updated: 2026-12-04 14:00AM CET*
+*Last updated: 2026-02-03 11:00AM CET*
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FQFFZGXF3Y"></script>
@@ -17,29 +17,150 @@ permalink: /2026/call-for-papers/
 
 ## Overview
 
-ISMAR invites contributions advancing Augmented Reality (AR), Mixed Reality (MR), and Virtual Reality (VR). ISMAR 2026 will cover industry and research activities related to the full range of immersive technologies (AR, MR, and VR), including everything from interfaces in the real world to fully immersive experiences, and beyond. This range extends far beyond traditional published work in AR, encompassing precise 3D tracking, visual display, and real-time performance. We specifically invite contributions that advance all aspects of AR / MR / VR technology and user experiences. All submissions must demonstrate an explicit, clear, and significant connection to AR, MR, or VR concepts, systems, or experiences.
+ISMAR 2026 covers industry and research activities across the full spectrum of immersive technologies, including augmented, mixed, and virtual reality (AR, MR, and VR). This includes everything from interfaces embedded in the real world to fully immersive virtual experiences, and beyond. The scope extends far beyond traditional AR topics, such as precise 3D tracking, display technologies, and real-time performance. We invite contributions that push the boundaries of AR, MR, and VR technologies and user experiences.
 
 
-## Core Information
+## New This Year
 
-This year, there is <strong>a single submission deadline for a unified review process for both IEEE TVCG journal papers and conference-only</strong> papers.
-Submissions may be 4-9 pages in length, with an additional 2 pages for references. Note that a <strong>paper abstract must be uploaded</strong> prior to the actual paper submission deadline (see submission deadlines below). All paper submissions must be in English and left blind for review.
-All paper submissions must be formatted using the IEEE Computer Society VGTC Conference format, as described <a href="https://tc.computer.org/vgtc/publications/conference/">here</a>. Please do NOT use the “TVCG journal track” template for TVCG Special Issues.
+* Paper submissions will not have the option to be directly recommended for poster acceptance.
+* All paper submissions must be formatted strictly in accordance with the IEEE Computer Society VGTC conference guidelines.
+* A single review cycle with a rebuttal.
+* New guidelines are provided for the Use of Generative AI and Code of Conduct.
+
+
+## Paper Submissions
+
+ISMAR 2026 will follow a unified review process for IEEE TVCG journal and conference papers. There will be only one submission deadline.
+
+The possible outcomes of this unified process are:
+
+1. Accepted as IEEE TVCG journal paper
+2. Accept as an IEEE ISMAR 2026 conference paper
+3. Reject
+
+Accepted papers will be presented during the conference. Submissions accepted as journal papers will be directly published in a special issue of IEEE Transactions on Visualization and Computer Graphics (TVCG). Submissions accepted as conference papers will be published in the ISMAR 2026 conference proceedings. All accepted papers will be archived in the IEEE Xplore digital library and will be subject to the registration and publication processing policies of ISMAR 2026.
+
+The submission's main body may be 4-9 pages in length. Total length, including references, should not exceed 11 pages. Review papers can request one additional page for references. All paper submissions must be in English and anonymous for the review process. 
+
+All submissions must be made electronically via the <a href="https://new.precisionconference.com/ismar26a/" target="_blank">Precision Conference System (PCS) website</a> (opens mid February 2026) and must be strictly formatted according to the IEEE Computer Society VGTC conference style, as described in the <a href="https://tc.computer.org/vgtc/publications/conference/" target="_blank">Formatting Guidelines for VGTC Conference Style Papers</a>. Use the <a href="https://github.com/ieeevgtc/vgtc_conference_latex/releases" target="_blank">vgtc_conference_latex</a> or <a href="https://github.com/ieeevgtc/vgtc_conference_word/releases/tag/2024.02.14" target="_blank">vgtc_conference_word</a> template for your submission. Do not use the “TVCG journal track template” for TVCG Special Issues. Papers using the wrong style or template may be desk-rejected.
+
+<div style="max-width: 100%;">
+  <img src="{{ 'assets/2026/img/paper_sample.jpg' | relative_url }}" alt="Paper sample"
+       style="display: block; width: 100%; height: auto;">
+</div>
+
 
 ## Important Deadlines
 
-
 * Abstract deadline: March 9th, 2026 (23:59 AoE)
 * Paper submission deadline: March 16th, 2026 (23:59 AoE)
+* Reviews released: May 24th, 2026 (23:59 AoE, Sunday)
+* Rebuttals due: May 31st, 2026 (23:59 AoE, Sunday)
+* Final notification: June 22nd, 2026 (23:59 AoE, Sunday)
+* Camera-ready version: July 21st, 2025 (23:59 AoE, Tuesday)
 
 
-Attending authors of accepted papers will need to agree and comply with both the <a href="https://www.ieeeismar.net/2026/code-of-conduct/">ISMAR code of conduct</a> & <a href="https://www.ieee.org/about/corporate/governance/code-of-conduct">IEEE code of conduct</a> to have their work presented and published.
-An extended call for papers and author guidelines will be available on the <a href="https://www.ieeeismar.net/2026/">ISMAR 2026 website</a>. 
+## Author Guidelines
+Author guidelines are available on the ISMAR 2026 website: <a href="/2026/guidelines/paper-guidelines">Paper Guidelines</a>.
 
 
-For questions, contact:  <a href="mailto:papers2026@ieeeismar.net">papers2026@ieeeismar.net</a>
+## Use of Generative AI {#generative-ai}
 
-**ISMAR 2026 Papers Chairs**
+In accordance with <a href="https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/" target="_blank">IEEE guidelines</a>, the use of content generated by artificial intelligence (AI) in an article (including but not limited to text, figures, images, and code) shall be disclosed in the acknowledgments section of any article submitted to an IEEE publication. The AI system used shall be identified, and specific sections of the article that use AI-generated content shall be identified and accompanied by a brief explanation regarding the level at which the AI system was used to generate the content.
+
+## Review Process {#review-process}
+
+Submissions will be assigned to two members of the ISMAR 2026 International Program Committee (IPC): a primary coordinator (1AC) and a secondary coordinator (2AC). 
+
+Submissions that receive low review scores from both coordinators or that violate the submission guidelines will be rejected early. We will strive to have all other submissions receive at least two additional reviews from external reviewers.
+At the end of this stage, reviews will be shared with the authors. All authors will be given time to write a rebuttal. Based on the rebuttal, the coordinators and reviewers will make a final recommendation for the paper. This recommendation will be shared with the program chairs and a subset of the IPC, who will then make decisions, with the following possible outcomes:
+
+* Conditionally accepted as IEEE TVCG journal paper. 
+* Conditionally accepted as an ISMAR 2026 conference paper.
+* Reject.
+
+
+This decision will be sent to the authors, with the expectation that conditionally accepted papers will incorporate any required changes into the manuscript before the final acceptance of camera-ready versions. The camera-ready version of each accepted paper will be reviewed by its coordinator, who will make a final recommendation to the Program Chairs regarding acceptance. If the acceptance criteria are not met, the paper will be rejected.
+
+Desk rejects are possible at all stages.
+
+## Topics of Interest
+
+ISMAR invites contributions advancing Augmented Reality (AR), Mixed Reality (MR), and Virtual Reality (VR), from foundational technologies to interaction, perception, and applied research. All submissions must demonstrate an explicit, clear, and significant connection to AR, MR, or VR concepts, systems, or experiences. Topics include, but are not limited to:
+
+### AR/MR/VR Core Technologies and Systems
+
+- Localization, spatial registration, and tracking
+- Sensor fusion
+- Camera and projector camera calibration
+- Spatial AR, projection mapping, projector camera systems
+- Display technologies such as eyewear, smartwatches, and projectors
+- Optics
+- Real time performance issues
+- System architectures, distributed and online systems
+- Rendering techniques
+- Free viewpoint image generation
+- Omnidirectional, 360, immersive videos
+- Computer vision
+- Artificial intelligence and machine learning
+- Human augmentations
+
+### AR/MR/VR Core Technologies and Systems
+
+- Human computer interaction
+- Multimodal input and output
+- Touch, tangible, and gesture interfaces
+- Haptic and tactile interfaces, wearable haptics, passive haptics, pseudo haptics
+- Conversational and speech interfaces
+- Collaborative interfaces
+- Locomotion and navigation techniques
+- Ergonomics and human factors
+- Technology acceptance and social implications
+- Diversity and inclusivity issues
+- Ethical issues
+- User experience, usability studies, and human subjects experiments
+
+### Perception, Cognition, and Representation in AR/MR/VR
+
+- Perception
+- Psychology
+- Presence, body ownership, and agency
+- Immersive visual analytics
+- Visualization techniques
+- Content creation and authoring, content management
+- Mediated and diminished reality
+- Virtual humans and avatars
+- Spatial audio, auditory perception, and psychoacoustics
+
+
+### Social, Collaborative, and Telepresent AR/MR/VR
+
+- Collaborative interfaces
+- Teleoperation, telepresence, and telexistence
+- VR simulations of AR and MR
+
+### Applications of AR/MR/VR
+
+- Assistive technologies and applications
+- Health, well being, and medical applications
+- Therapy and rehabilitation
+- Education and training
+- Art and cultural heritage
+- Architecture
+- Automotive and aerospace
+- Industrial, military, emergency response
+- Entertainment, sports broadcast
+- Virtual production
+
+
+## Code of Conduct
+
+ISMAR 2026 upholds an inclusive, respectful, and supportive community for all participants. We have introduced a new Code of Conduct that defines the professional and ethical standards expected at the conference and in all related activities. By submitting a paper to ISMAR 2026, authors acknowledge and agree to abide by this Code of Conduct. Adherence to these principles is required for participation in the review, publication, and presentation processes. The full <a href="https://www.ieeeismar.net/2026/code-of-conduct/">Code of Conduct</a> is available on the ISMAR 2026 website.
+
+
+Best regards,
+
+**ISMAR 2026 Scientific Program Chairs**
 - Mariko Isogawa
 - Kangsoo Kim
 - Alejandro Martin-Gomez
@@ -47,3 +168,4 @@ For questions, contact:  <a href="mailto:papers2026@ieeeismar.net">papers2026@ie
 - Missie Smith
 - Florian Weidner
 
+Inquiries: <a href="mailto:papers2026@ieeeismar.net">papers2026@ieeeismar.net</a>
