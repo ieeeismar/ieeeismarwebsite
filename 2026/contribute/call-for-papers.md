@@ -25,7 +25,7 @@ ISMAR 2026 covers industry and research activities across the full spectrum of i
 * Paper submissions will not have the option to be directly recommended for poster acceptance.
 * All paper submissions must be formatted strictly in accordance with the IEEE Computer Society VGTC conference guidelines.
 * A single review cycle with a rebuttal.
-* New guidelines are provided for the Use of Generative AI and Code of Conduct.
+* New guidelines are provided for the <strong><a href="#generative-ai">Use of Generative AI</a></strong> and <strong><a href="#code-of-conduct">Code of Conduct.</a></strong>
 
 
 ## Paper Submissions
@@ -153,7 +153,7 @@ ISMAR invites contributions advancing Augmented Reality (AR), Mixed Reality (MR)
 - Virtual production
 
 
-## Code of Conduct
+## Code of Conduct {#code-of-conduct}
 
 ISMAR 2026 upholds an inclusive, respectful, and supportive community for all participants. We have introduced a new Code of Conduct that defines the professional and ethical standards expected at the conference and in all related activities. By submitting a paper to ISMAR 2026, authors acknowledge and agree to abide by this Code of Conduct. Adherence to these principles is required for participation in the review, publication, and presentation processes. The full <a href="https://www.ieeeismar.net/2026/code-of-conduct/">Code of Conduct</a> is available on the ISMAR 2026 website.
 
