@@ -107,6 +107,16 @@ previous_sponsors:
     url: "https://ieeemetaverse.org/"
     website: "ieeemetaverse.org"
 
+  - name: "IEEE Computer Society"
+    full_name: "IEEE Computer Society"
+    logo: "/assets/2026/img/sponsors/ieee-computer-society.jpg"
+    url: "https://www.computer.org/"
+    website: "computer.org"
+
+  - name: "IEEE VGTC"
+    logo: "/assets/2026/img/sponsors/vgtc-new-logo.jpg"
+    url: "https://tc.computer.org/vgtc/"
+
   - name: "KISTI"
     full_name: "Korea Institute of Science and Technology Information"
     logo: "/assets/2026/img/sponsors/KISTI.png"
