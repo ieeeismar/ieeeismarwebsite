@@ -1,7 +1,7 @@
 ---
 layout: 2026/contribute-page-2026
-title: Paper Guidelines
-permalink: /2026/guidelines/paper-guidelines
+title: Author Guidelines
+permalink: /2026/guidelines/author-guidelines
 ---
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FQFFZGXF3Y"></script>

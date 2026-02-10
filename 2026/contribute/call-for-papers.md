@@ -61,7 +61,7 @@ All submissions must be made electronically via the <a href="https://new.precisi
 
 
 ## Author Guidelines
-Author guidelines are available on the ISMAR 2026 website: <a href="/2026/guidelines/paper-guidelines">Paper Guidelines</a>.
+Author guidelines are available on the ISMAR 2026 website: <a href="/2026/guidelines/author-guidelines">Author Guidelines</a>.
 
 
 ## Use of Generative AI {#generative-ai}

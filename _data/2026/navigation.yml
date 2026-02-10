@@ -29,8 +29,8 @@
       url: "/2026/call-for-papers/"
     - title: Guidelines
       children:
-        - title: Paper Guidelines
-          url: "/2026/guidelines/paper-guidelines"
+        - title: Author Guidelines
+          url: "/2026/guidelines/author-guidelines"
         - title: Writing a Good Ismar Paper
           url: "/2026/guidelines/writing-good-ismar-paper"
       
