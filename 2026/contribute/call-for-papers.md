@@ -3,7 +3,7 @@ layout: 2026/contribute-page-2026
 title: Call for Papers
 permalink: /2026/call-for-papers/
 ---
-*Last updated: 2026-02-03 11:00AM CET*
+*Last updated: 2026-02-13 8:00AM CET*
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FQFFZGXF3Y"></script>
@@ -42,7 +42,12 @@ Accepted papers will be presented during the conference. Submissions accepted as
 
 The submission's main body may be 4-9 pages in length. Total length, including references, should not exceed 11 pages. Review papers can request one additional page for references. All paper submissions must be in English and anonymous for the review process. 
 
-All submissions must be made electronically via the <a href="https://new.precisionconference.com/ismar26a/" target="_blank">Precision Conference System (PCS) website</a> (opens mid February 2026) and must be strictly formatted according to the IEEE Computer Society VGTC conference style, as described in the <a href="https://tc.computer.org/vgtc/publications/conference/" target="_blank">Formatting Guidelines for VGTC Conference Style Papers</a>. Use the <a href="https://github.com/ieeevgtc/vgtc_conference_latex/releases" target="_blank">vgtc_conference_latex</a> or <a href="https://github.com/ieeevgtc/vgtc_conference_word/releases/tag/2024.02.14" target="_blank">vgtc_conference_word</a> template for your submission. Do not use the “TVCG journal track template” for TVCG Special Issues. Papers using the wrong style or template may be desk-rejected.
+All submissions must be made electronically via the <a href="https://new.precisionconference.com/ismar26a/" target="_blank">Precision Conference System (PCS) website</a> (opens mid February 2026) and must be strictly formatted according to the IEEE Computer Society VGTC conference style, as described in the <a href="https://tc.computer.org/vgtc/publications/conference/" target="_blank">Formatting Guidelines for VGTC Conference Style Papers</a>. Use the <a href="https://github.com/ieeevgtc/vgtc_conference_latex/releases" target="_blank">vgtc_conference_latex</a> or <a href="https://github.com/ieeevgtc/vgtc_conference_word/releases/tag/2024.02.14" target="_blank">vgtc_conference_word</a> template for your submission. Do not use the “TVCG journal track template” for TVCG Special Issues. Papers using the wrong style or template may be desk-rejected. 
+
+<ul style="list-style-type: disc; font-size: 14px;">
+ <li>Word Users: At the time of writing this CFP, the provided .docx file may not comply with the ISMAR formatting guidelines. Please use the provided .dotx file (the .docx is NOT correct) and ensure that the final submission matches the formatting guidelines. Check the provided sample pdf documents for correct formatting.</li>
+</ul>
+
 
 <div style="max-width: 100%;">
   <img src="{{ 'assets/2026/img/paper_sample.jpg' | relative_url }}" alt="Paper sample"
