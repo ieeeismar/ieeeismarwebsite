@@ -3,7 +3,7 @@ layout: 2026/contribute-page-2026
 title: Call for Papers
 permalink: /2026/call-for-papers/
 ---
-*Last updated: 2026-02-13 8:00AM CET*
+*Last updated: 2026-02-17 8:00AM CET*
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FQFFZGXF3Y"></script>
@@ -110,14 +110,13 @@ ISMAR invites contributions advancing Augmented Reality (AR), Mixed Reality (MR)
 - Artificial intelligence and machine learning
 - Human augmentations
 
-### AR/MR/VR Core Technologies and Systems
+### Interaction, Interfaces, and Human Factors in AR/MR/VR
 
 - Human computer interaction
 - Multimodal input and output
 - Touch, tangible, and gesture interfaces
 - Haptic and tactile interfaces, wearable haptics, passive haptics, pseudo haptics
 - Conversational and speech interfaces
-- Collaborative interfaces
 - Locomotion and navigation techniques
 - Ergonomics and human factors
 - Technology acceptance and social implications
