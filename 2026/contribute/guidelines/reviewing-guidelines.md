@@ -170,15 +170,15 @@ The following guidelines outline the content of a good meta-review. The section 
 
 Mind that the authors will see the meta-review with the final decision. Be constructive and explain more rather than less, especially when the authors receive an unfavorable decision. Very often, the research or paper was not ready at the time of submission. Invite the authors to resubmit next year if feasible.
 
-## 8. Frequently Asked Questions (FAQs)
+## 8. Frequently Asked Questions (FAQs) 
 
 - Should we reject papers that have been published on ArXiv?
 
-    No, you should not reject papers that have been published on ArXiv or a similar service, as authors may have done so to obtain a timestamp for their work. However, the manuscript should not state anywhere that the submission is under review for ISMAR. The authors should also be careful not to publicly promote the submission on social media, websites, or other platforms. Please refer to the "<a href="https://www.ieeeismar.net/2026/guidelines/author-guidelines#double-blind-process-and-anonymity-policy">Double-Blind Process and Anonymity Policy</a>" section in the “<a href="https://www.ieeeismar.net/2026/guidelines/author-guidelines">ISMAR 2026 Author Guidelines</a>”. If the paper may constitute a violation of ISMAR policies. Please raise any related concerns in your review and/or contact the Program Chairs by email at: <a href="mailto:program2026@ieeeismar.net">program2026@ieeeismar.net</a>.
+    No, you should not reject papers that have been published on ArXiv or a similar service, as authors may have done so to obtain a timestamp for their work. However, the manuscript should not state anywhere that the submission is under review for ISMAR. The authors should also be careful not to publicly promote the submission on social media, websites, or other platforms. Please refer to the "<a href="https://www.ieeeismar.net/2026/guidelines/author-guidelines#double-blind-process-and-anonymity-policy">Double-Blind Process and Anonymity Policy</a>" section in the “<a href="https://www.ieeeismar.net/2026/guidelines/author-guidelines">ISMAR 2026 Author Guidelines</a>”. If the paper may constitute a violation of ISMAR policies. Please raise any related concerns in your review and/or contact the Program Chairs by email at: <a href="mailto:paper2026@ieeeismar.net">paper2026@ieeeismar.net</a>.
 
 - Should we reject papers that have been presented before in a different format (e.g., poster or demo)?
 
-    In some situations, a submission may build upon prior work. As part of the <a href="https://www.ieeeismar.net/2026/guidelines/author-guidelines">Author Guidelines</a>, paper authors were instructed to be proactive in clarifying such cases by uploading additional anonymous documents to the submission system, which will be considered during the review process. If you suspect any issues related to this point, please contact the paper's primary coordinator first. Please carefully read the “Previously Published or Submitted Work” section in the “<a href="https://www.ieeeismar.net/2026/guidelines/author-guidelines">ISMAR 2026 Author Guidelines</a>.”
+    In some situations, a submission may build upon prior work. As part of the <a href="https://www.ieeeismar.net/2026/guidelines/author-guidelines">Author Guidelines</a>, paper authors were instructed to be proactive in clarifying such cases by uploading additional anonymous documents to the submission system, which will be considered during the review process. If you suspect any issues related to this point, please contact the paper's primary coordinator first. Please carefully read the “<a href="https://www.ieeeismar.net/2026/guidelines/author-guidelines#previously-published-or-submitted-work">Previously Published or Submitted Work</a>” section in the “<a href="https://www.ieeeismar.net/2026/guidelines/author-guidelines">ISMAR 2026 Author Guidelines</a>.”
 
 - Should we reject papers that report user studies without ethics review or Institutional Review Board (IRB) approval?
 
@@ -188,7 +188,7 @@ Mind that the authors will see the meta-review with the final decision. Be const
 
 Thank you for your support and work to ensure the highest-quality ISMAR reviews.
 
-Do not hesitate to contact us for any further information: <a href="mailto:program2026@ieeeismar.net">program2026@ieeeismar.net</a> 
+Do not hesitate to contact us for any further information: <a href="mailto:paper2026@ieeeismar.net">paper2026@ieeeismar.net</a> 
 
 **ISMAR 2026 Paper Chairs**
 - Mariko Isogawa

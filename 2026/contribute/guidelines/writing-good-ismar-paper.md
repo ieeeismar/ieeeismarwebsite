@@ -84,7 +84,7 @@ You can also find the full list of papers previously published at ISMAR in the I
 
 Best regards,
 
-**ISMAR 2026 Scientific Program Chairs**
+**ISMAR 2026 Paper Chairs**
 - Mariko Isogawa
 - Kangsoo Kim
 - Alejandro Martin-Gomez
