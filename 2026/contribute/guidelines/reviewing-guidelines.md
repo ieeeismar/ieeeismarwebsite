@@ -18,7 +18,7 @@ This document guides participants in the ISMAR 2026 reviewing process and is dir
 
 This guideline covers recommendations and best practices. Therefore, please read the guidelines below carefully. Finally, to ensure the integrity of the review process, we ask that reviewers  <strong>refrain from uploading papers to any AI system </strong> (e.g., Claude AI, Wordtune, etc.) for analysis, support, or guidance during the review period,  <strong>nor write their review using these systems. </strong>
 
-# ISMAR 2026 Paper Reviewing Guidelines
+## ISMAR 2026 Paper Reviewing Guidelines
    1. [Review Model for ISMAR 2026](#1-review-model-for-ismar-2026)
    2. [General Reviewing Principles](#2-general-reviewing-principles)
    3. [Review Scores and Recommendations](#3-review-scores-and-recommendations)
