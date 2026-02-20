@@ -541,5 +541,10 @@ redirect_from:
       <p class="name">Alexander Giovannelli</p>
       <p>Virginia Tech</p>
     </div>
+     <div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/Seoyoung Kang.jpg' | relative_url }}" />
+      <p class="name">Seoyoung Kang</p>
+      <p>KAIST</p>
+    </div>
   </div>
 </div>
