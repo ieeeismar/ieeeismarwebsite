@@ -5,6 +5,17 @@ permalink: /2026/call-for-tutorials/
 ---
 *Last updated: 2026-02-24 10:00AM CET*
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQFFZGXF3Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FQFFZGXF3Y');
+</script>
+
+
 The IEEE ISMAR 2026 organizing committee invites proposals for tutorials to be held in conjunction with the ISMAR conference. The tutorials will be scheduled on October 5th (Monday) and October 6th (Tuesday) and can be conducted in person, online, or in hybrid mode, in alignment with the ISMAR conference.
 
 The purpose of the tutorials is to expand the knowledge in the fields of Augmented, Mixed, and/or Virtual Reality and to foster the next generation of researchers, developers, and artists. Proposals will be evaluated on their relevance to the conference topics, suitability for presentation in a tutorial format, and the instructors’ qualifications. We will strive for a balance of topics in the tutorial program and also consider the potential for interest and attendance.

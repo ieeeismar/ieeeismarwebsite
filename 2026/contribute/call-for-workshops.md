@@ -5,6 +5,17 @@ permalink: /2026/call-for-workshops/
 ---
 *Last updated: 2026-02-24 10:00AM CET*
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQFFZGXF3Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FQFFZGXF3Y');
+</script>
+
+
 The IEEE ISMAR 2026 organizing committee invites proposals for workshops to be held in conjunction with the ISMAR conference. The workshops will be scheduled on October 5th (Monday) and October 6th (Tuesday) and can be conducted in person, online, or in hybrid mode, in alignment with the ISMAR conference.
 
 ISMAR workshops provide a platform for presenting novel work, work in progress, and position papers. The workshops bring together researchers, developers, technology providers, practitioners, and users for an in-depth and interactive discussion of important/emerging issues in augmented, mixed, and virtual reality through an informal yet thought-provoking exchange of ideas and information. We encourage workshops that go beyond the “mini-conferences” format of organization and promote interactive discussions among presenters and participants.
