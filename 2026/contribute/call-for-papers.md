@@ -57,12 +57,12 @@ All submissions must be made electronically via the <a href="https://new.precisi
 
 ## Important Deadlines
 
-* Abstract deadline: March 9th, 2026 (23:59 AoE)
-* Paper submission deadline: March 16th, 2026 (23:59 AoE)
-* Reviews released: May 24th, 2026 (23:59 AoE, Sunday)
-* Rebuttals due: May 31st, 2026 (23:59 AoE, Sunday)
-* Final notification: June 22nd, 2026 (23:59 AoE, Sunday)
-* Camera-ready version: July 21st, 2026 (23:59 AoE, Tuesday)
+* Abstract deadline: **March 9th, 2026 (23:59 AoE)**
+* Paper submission deadline: **March 16th, 2026 (23:59 AoE)**
+* Reviews released: **May 24th, 2026 (23:59 AoE, Sunday)**
+* Rebuttals due: **May 31st, 2026 (23:59 AoE, Sunday)**
+* Final notification: **June 22nd, 2026 (23:59 AoE, Sunday)**
+* Camera-ready version: **July 21st, 2026 (23:59 AoE, Tuesday)**
 
 
 ## Author Guidelines
@@ -89,7 +89,7 @@ This decision will be sent to the authors, with the expectation that conditional
 
 Desk rejects are possible at all stages.
 
-## Topics of Interest
+## Topics of Interest {#topics-of-interest}
 
 ISMAR invites contributions advancing Augmented Reality (AR), Mixed Reality (MR), and Virtual Reality (VR), from foundational technologies to interaction, perception, and applied research. All submissions must demonstrate an explicit, clear, and significant connection to AR, MR, or VR concepts, systems, or experiences. Topics include, but are not limited to:
 

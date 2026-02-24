@@ -27,6 +27,10 @@
   children:
     - title: Call for Papers
       url: "/2026/call-for-papers/"
+    - title: Call for Tutorials
+      url: "/2026/call-for-tutorials/"
+    - title: Call for Workshops
+      url: "/2026/call-for-workshops/"
     - title: Guidelines
       children:
         - title: Author Guidelines

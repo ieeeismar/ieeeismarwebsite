@@ -79,11 +79,19 @@ redirect_from: /
         <tbody>
             <tr>
                 <td><b>Paper Abstract</b></td>
-                <td><b>March 9th, 2026 (23:59 AoE)</b></td>
+                <td><b>March 9th, 2026 (23:59 AoE, Monday)</b></td>
             </tr>
             <tr>
                 <td><b>Paper</b></td>
-                <td><b>March 16th, 2026 (23:59 AoE)</b></td>
+                <td><b>March 16th, 2026 (23:59 AoE, Monday)</b></td>
+            </tr>
+            <tr>
+                <td><b>Tutorials</b></td>
+                <td><b>May 22nd, 2026 (23:59 AoE, Friday)</b></td>
+            </tr>
+            <tr>
+                <td><b>Workshops</b></td>
+                <td><b>May 22nd, 2026 (23:59 AoE, Friday)</b></td>
             </tr>
         </tbody>
     </table>
