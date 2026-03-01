@@ -515,8 +515,8 @@ redirect_from:
   <p class="email"><a href="mailto:social2026@ieeeismar.net">social2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Ali Haskins Lisle.png' | relative_url }}" />
-      <p class="name">Ali Haskins Lisle</p>
+      <img src="{{ 'assets/2026/img/Committee Members Images/Ali Haskins.png' | relative_url }}" />
+      <p class="name">Ali Haskins</p>
       <p>University of Central Florida</p>
     </div>
     <div class="chair">
