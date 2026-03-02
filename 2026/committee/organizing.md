@@ -321,7 +321,7 @@ redirect_from:
 </div>
 
 <div class="chairs-category">
-  <h3>Hybrid Media Chairs / Video Chair</h3>
+  <h3>Hybrid Media Chairs / Video Chairs</h3>
   <p class="email"><a href="mailto:videos2026@ieeeismar.net">videos2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
