@@ -474,11 +474,6 @@ redirect_from:
   <p class="email"><a href="mailto:localarrangements2026@ieeeismar.net">localarrangements2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Federica Casulli.jpg' | relative_url }}" />
-      <p class="name">Federica Casulli</p>
-      <p>CicSud Bari</p>
-    </div>
-    <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Michele Gattullo.jpg' | relative_url }}" />
       <p class="name">Michele Gattullo</p>
       <p>Polytechnic University of Bari</p>
@@ -509,6 +504,12 @@ redirect_from:
     </div>
   </div>
 </div>
+
+<div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/Federica Casulli.jpg' | relative_url }}" />
+      <p class="name">Federica Casulli</p>
+      <p>CicSud Bari</p>
+    </div>
 -->
 <div class="chairs-category">
   <h3>Social Event Chairs</h3>
