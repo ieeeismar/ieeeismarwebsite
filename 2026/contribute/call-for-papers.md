@@ -28,7 +28,7 @@ ISMAR 2026 covers industry and research activities across the full spectrum of i
 * New guidelines are provided for the <strong><a href="#generative-ai">Use of Generative AI</a></strong> and <strong><a href="#code-of-conduct">Code of Conduct.</a></strong>
 
 
-## Paper Submissions
+## Paper Submissions {#paper-submission}
 
 ISMAR 2026 will follow a unified review process for IEEE TVCG journal and conference papers. There will be only one submission deadline.
 

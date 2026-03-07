@@ -82,7 +82,7 @@ redirect_from: /
                 <td><b>March 9th, 2026 (23:59 AoE, Monday)</b></td>
             </tr>
             <tr>
-                <td><b>Paper</b></td>
+                <td><b>Papers</b></td>
                 <td><b>March 16th, 2026 (23:59 AoE, Monday)</b></td>
             </tr>
             <tr>
@@ -93,9 +93,14 @@ redirect_from: /
                 <td><b>Workshops</b></td>
                 <td><b>May 22nd, 2026 (23:59 AoE, Friday)</b></td>
             </tr>
+            <tr>
+                <td><b>Posters</b></td>
+                <td><b>June 1st, 2026 (23:59 AoE, Monday)</b></td>
+            </tr>
         </tbody>
     </table>
 </section>
+
 
 
 

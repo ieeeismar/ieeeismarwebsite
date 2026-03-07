@@ -27,6 +27,8 @@
   children:
     - title: Call for Papers
       url: "/2026/call-for-papers/"
+    - title: Call for Posters
+      url: "/2026/call-for-posters/"
     - title: Call for Tutorials
       url: "/2026/call-for-tutorials/"
     - title: Call for Workshops
