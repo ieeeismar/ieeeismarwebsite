@@ -69,7 +69,7 @@ The benefits include:
 
 ## Sponsorship Packages Program
 
-| **Benefits by level** | **Diamond**<br>USD 50,000 | **Platinum**<br>USD 25,000 | **Gold**<br>USD 15,000 | **Silver**<br>USD 10,000 | **Bronze**<br>USD 5,000 | **Friends of ISMAR**<br>USD 500 |
+| **Benefits by level** | **Diamond**<br>EUR 50,000 | **Platinum**<br>EUR 25,000 | **Gold**<br>EUR 15,000 | **Silver**<br>EUR 10,000 | **Bronze**<br>EUR 5,000 | **Friends of ISMAR**<br>EUR 500 |
 |-----------------------|----------------------------|-----------------------------|-------------------------|---------------------------|---------------------------|--------------------------------|
 | **Advertising and Marketing** | - Top logo placement in all ISMAR advertising<br>- Website presence<br>- Recognition at the conference | - Top logo placement in all ISMAR advertising<br>- Website presence<br>- Recognition at the conference | - Prominent logo placement in all ISMAR advertising<br>- Website presence<br>- Recognition at the conference | - Logo on ISMAR Website<br>- Print recognition at the conference | - Logo on ISMAR Website<br>- Print recognition at the conference | - Name listed on ISMAR Website |
 | **Website** | Dedicated page with 8 items among videos, documents, etc. | Dedicated page with 6 items among videos, documents, etc. | Dedicated page with 4 items among videos, documents, etc. | Dedicated page with 3 videos | Dedicated page with 2 videos | - |
