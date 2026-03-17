@@ -77,11 +77,11 @@ redirect_from: /
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td><b>Paper Abstract</b></td>
-                <td><b>March 9th, 2026 (23:59 AoE, Monday)</b></td>
+            <tr style="color: #b6b6b6; text-decoration: line-through; opacity: 0.7;">
+                 <td><b>Paper Abstract</b></td>
+                 <td><b>March 9th, 2026 (23:59 AoE, Monday)</b></td>
             </tr>
-            <tr>
+            <tr style="color: #b6b6b6; text-decoration: line-through; opacity: 0.7;">
                 <td><b>Papers</b></td>
                 <td><b>March 16th, 2026 (23:59 AoE, Monday)</b></td>
             </tr>
