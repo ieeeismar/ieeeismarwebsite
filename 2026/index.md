@@ -97,6 +97,10 @@ redirect_from: /
                 <td><b>Posters</b></td>
                 <td><b>June 1st, 2026 (23:59 AoE, Monday)</b></td>
             </tr>
+             <tr>
+                <td><b>Doctoral Consortium</b></td>
+                <td><b>June 3rd, 2026 (23:59 AoE, Wednesday)</b></td>
+            </tr>
         </tbody>
     </table>
 </section>
