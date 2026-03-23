@@ -31,6 +31,8 @@
       url: "/2026/call-for-posters/"
     - title: Call for Doctoral Consortium
       url: "/2026/call-for-doctoral-consortium/"
+    - title: Call for Demos
+      url: "/2026/call-for-demos/"
     - title: Call for Tutorials
       url: "/2026/call-for-tutorials/"
     - title: Call for Workshops
@@ -49,12 +51,11 @@
 
 #- title: Program
 #  url: "javascript:void(0)"
-# children:
-#   - title: 
-#     url: 
+#  children:
+#   - title: Overview
+#     url: "/2026/overview/"
 
-
-
+     
 - title: Sponsorship & Exhibition
   url: "javascript:void(0)"
   children:
