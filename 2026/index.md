@@ -101,6 +101,10 @@ redirect_from: /
                 <td><b>Doctoral Consortium</b></td>
                 <td><b>June 3rd, 2026 (23:59 AoE, Wednesday)</b></td>
             </tr>
+            <tr>
+                <td><b>Demos</b></td>
+                <td><b>July 14th, 2026 (23:59 AoE, Tuesday)</b></td>
+            </tr>
         </tbody>
     </table>
 </section>
