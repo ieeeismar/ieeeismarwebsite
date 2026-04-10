@@ -23,6 +23,8 @@ The workshops may target a specific application area, research area, or topic of
 
 We envision the workshops as launch pads to propel the ISMAR community forward in specific research directions, to build a sub-community around shared research interests, and to bridge ISMAR with other research communities.
 
+In line with the overall conference format, we strongly encourage and will prioritize workshop proposals that focus on on-site or hybrid participation. For on-site and hybrid workshops, at least one workshop organizer must be physically present on-site to ensure smooth execution and coordination. Furthermore, all presenters are required to attend and present on-site.
+
 Workshop proposals must be submitted before May 22nd, 2026 (23:59 AoE, Friday). The committee will review the workshop proposals and notify the organizing team of acceptance by June 5th, 2026.
 
 ## Important Dates
