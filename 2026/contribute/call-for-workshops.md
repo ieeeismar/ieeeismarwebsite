@@ -3,7 +3,7 @@ layout: 2026/contribute-page-2026
 title: Call for Workshops
 permalink: /2026/call-for-workshops/
 ---
-*Last updated: 2026-02-26 11:00AM CET*
+*Last updated: 2026-04-13 07:00AM CET*
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FQFFZGXF3Y"></script>
@@ -23,7 +23,7 @@ The workshops may target a specific application area, research area, or topic of
 
 We envision the workshops as launch pads to propel the ISMAR community forward in specific research directions, to build a sub-community around shared research interests, and to bridge ISMAR with other research communities.
 
-In line with the overall conference format, we strongly encourage and will prioritize workshop proposals that focus on on-site or hybrid participation. For on-site and hybrid workshops, at least one workshop organizer must be physically present on-site to ensure smooth execution and coordination. Furthermore, all presenters are required to attend and present on-site.
+In line with the overall conference format, we strongly encourage and will prioritize workshop proposals that focus on on-site or hybrid participation. For on-site and hybrid workshops, at least one workshop organizer must be physically present on-site to ensure smooth execution and coordination. Virtual-only workshops will only be considered if there are available spots. Furthermore, all presenters are required to attend and present on-site.
 
 Workshop proposals must be submitted before May 22nd, 2026 (23:59 AoE, Friday). The committee will review the workshop proposals and notify the organizing team of acceptance by June 5th, 2026.
 

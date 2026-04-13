@@ -3,7 +3,7 @@ layout: 2026/contribute-page-2026
 title: Call for Tutorials
 permalink: /2026/call-for-tutorials/
 ---
-*Last updated: 2026-02-24 10:00AM CET*
+*Last updated: 2026-04-13 07:00AM CET*
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FQFFZGXF3Y"></script>
