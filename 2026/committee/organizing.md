@@ -449,6 +449,11 @@ redirect_from:
       <p class="name">Jens Grubert</p>
       <p>Coburg University</p>
     </div>
+    <div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/Dooyoung Kim.jpg' | relative_url }}" />
+      <p class="name">Dooyoung Kim</p>
+      <p>KAIST</p>
+    </div>
   </div>
 </div>
 
