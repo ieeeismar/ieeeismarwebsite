@@ -346,6 +346,11 @@ redirect_from:
       <p class="name">Zhen Bai</p>
       <p>University of Rochester</p>
     </div>
+     <div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/Jason Orlosky.jpg' | relative_url }}" />
+      <p class="name">Jason Orlosky</p>
+      <p>Augusta University</p>
+    </div>
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Francielly Rodrigues.jpg' | relative_url }}" />
       <p class="name">Francielly Rodrigues</p>
