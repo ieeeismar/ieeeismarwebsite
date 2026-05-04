@@ -76,15 +76,15 @@ The benefits include:
 | **Advertising in Program (Printed/Virtual)** | Large | Medium | Small | - | - | - |
 | **Pre-session company Video Loop** | 60s | 30s | 15s | - | - | - |
 | **Exhibition Space** | Large table, Early priority moving | Large table near diamond | Large table | Stand or small table | Stand or small table | - |
-| **Complimentary Exhibition Booth (3m*3m)** | 10 | 5 | 3 | 2 | 1 | - |
+| **Complimentary Exhibition Booth (3m*2m)** | 10 | 5 | 3 | 2 | 1 | - |
 | **Registration(s)** | 5 | 4 | 3 | 2 | 1 | - |
 | **Discount on additional registration** | 60% (max 5) | 50% (max 4) | 40% (max 3) | 30% (max 2) | 20% (max 1) | - |
 | **Dedicated Workshop** | 4 hours | 2 hours | 1 hour | - | - | - |
 
 ## Exhibition
-An extensive technical exhibition will take place during the four-day conference in Daejeon Convention Center. The exhibition is expecting participation of about 600 subscribers and over 15 companies from around world and will offer optimal marketing opportunities for increased exposure and market expansion. The standard booth is a 3m x 3m shell scheme and can be purchased in multiples of 9 square meters.
+An extensive technical exhibition will take place during the four-day conference in Nicolaus Hotel, Bari. The exhibition is expecting participation of about 600 subscribers and over 15 companies from around the world and will offer optimal marketing opportunities for increased exposure and market expansion.
 
-| **Place** | Exhibition Hall (1st Floor, Nicolaus Hotel, Bari Italy) |
+| **Place** | Exhibition Hall (Level -1, Nicolaus Hotel, Bari Italy) |
 | **Exhibition Period** | October 7 – 9, 2026 |
 
 
