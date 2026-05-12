@@ -379,7 +379,7 @@ redirect_from:
       <p>Inria Rennes</p>
     </div>
     <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Brendan John.jpg' | relative_url }}" />
+      <img src="{{ 'assets/2026/img/Committee Members Images/Brendan David John.jpg' | relative_url }}" />
       <p class="name">Brendan David-John</p>
       <p>Virginia Tech</p>
     </div>
