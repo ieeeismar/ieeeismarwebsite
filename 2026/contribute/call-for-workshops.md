@@ -95,4 +95,4 @@ Workshop organizers will be expected to issue their calls for participation no l
 
 ## Contact Information
 
-If you have any questions about this call, please contact:  <a href="mailto:workshoptutorials2026@ismar.net">workshop-tutorials-2026@ismar.net</a>
+If you have any questions about this call, please contact:  <a href="mailto:workshoptutorials2026@ismar.net">workshoptutorials2026@ismar.net</a>

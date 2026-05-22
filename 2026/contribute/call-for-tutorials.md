@@ -131,4 +131,4 @@ The rooms allocated for the tutorials will have round tables and chairs, but all
 We invite tutorial proposals whose abstracts will be included in the front matter of the conference’s adjunct proceedings.
 
 ## Contact Information
-If you have any questions about this call, please contact: <a href="mailto:workshoptutorials2026@ismar.net">workshop-tutorials-2026@ismar.net</a>
+If you have any questions about this call, please contact: <a href="mailto:workshoptutorials2026@ismar.net">workshoptutorials2026@ismar.net</a>
