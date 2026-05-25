@@ -3,7 +3,7 @@ layout: 2026/contribute-page-2026
 title: Call for Student Volunteers
 permalink: /2026/call-for-student-volunteers/
 ---
-*Last updated: 2026-05-22 11:00AM CET*
+*Last updated: 2026-05-25 13:30PM CET*
 
 
 
