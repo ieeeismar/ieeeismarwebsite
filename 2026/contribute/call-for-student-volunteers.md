@@ -68,3 +68,9 @@ Applications will be conducted through an online form. The application link will
 ## Contact Information
 
 For inquiries, please contact: <a href="mailto:studentvolunteers2026@ieeeismar.net">studentvolunteers2026@ieeeismar.net</a>
+
+**ISMAR 2026 Student Volunteer Chairs**
+
+- Vito De Giglio
+- Alexander Giovannelli
+- Seoyoung Kang
