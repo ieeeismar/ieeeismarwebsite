@@ -95,7 +95,7 @@ redirect_from: /
             </tr>
             <tr>
                 <td><b>Posters</b></td>
-                <td><b>June 1st, 2026 (23:59 AoE, Monday)</b></td>
+                <td><b>June 25st, 2026 (23:59 AoE, Monday)</b></td>
             </tr>
              <tr>
                 <td><b>Doctoral Consortium</b></td>
