@@ -51,11 +51,11 @@
           url: "https://docs.google.com/document/d/e/2PACX-1vQhy0UItEZ0944HAstZ9gsgeSQ2hQSXe5d5JVX1wFPTJQqyjskHCiKnlnuY7SX3a722sFLyXesMfPMB/pub"
 
 
-- title: Program
-  url: "javascript:void(0)"
-  children:
-   - title: Overview
-     url: "/2026/overview/"
+#- title: Program
+ # url: "javascript:void(0)"
+  #children:
+   #- title: Overview
+    # url: "/2026/overview/"
 
      
 - title: Sponsorship
