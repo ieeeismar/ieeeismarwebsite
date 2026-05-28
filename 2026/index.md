@@ -95,7 +95,7 @@ redirect_from: /
             </tr>
             <tr>
                 <td><b>Posters</b></td>
-                <td><b>June 25st, 2026 (23:59 AoE, Monday)</b></td>
+                <td><b>June 25th, 2026 (23:59 AoE, Monday)</b></td>
             </tr>
              <tr>
                 <td><b>Doctoral Consortium</b></td>
@@ -127,3 +127,63 @@ redirect_from: /
         </a>
     </div>
 </div>
+
+
+
+<!-- Sponsors Section -->
+<section class="sponsors-section">
+    <h2 class="sponsors-title">Sponsors</h2>
+
+    <!-- Silver Sponsors -->
+    {% if site.data["2026"].sponsors.silver_sponsors %}
+    <div class="sponsor-tier silver-tier">
+        <div class="tier-header">
+            <div class="tier-label silver">Silver</div>
+        </div>
+        <div class="sponsor-grid">
+            {% for sponsor in site.data["2026"].sponsors.silver_sponsors %}
+            {% if sponsor %}
+            <div class="sponsor-item">
+                {% if sponsor.url and sponsor.url != "" %}
+                <a href="{{ sponsor.url }}" target="_blank" class="sponsor-logo-link">
+                    <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo" />
+                </a>
+                {% else %}
+                <div class="sponsor-logo-link">
+                    <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo" />
+                </div>
+                {% endif %}
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Bronze Sponsors -->
+    {% if site.data["2026"].sponsors.bronze_sponsors %}
+    <div class="sponsor-tier bronze-tier">
+        <div class="tier-header">
+            <div class="tier-label bronze">Bronze</div>
+        </div>
+        <div class="sponsor-grid">
+            {% for sponsor in site.data["2026"].sponsors.bronze_sponsors %}
+            {% if sponsor %}
+            <div class="sponsor-item">
+                {% if sponsor.url and sponsor.url != "" %}
+                <a href="{{ sponsor.url }}" target="_blank" class="sponsor-logo-link">
+                    <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo" />
+                </a>
+                {% else %}
+                <div class="sponsor-logo-link">
+                    <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo" />
+                </div>
+                {% endif %}
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
+</section>
