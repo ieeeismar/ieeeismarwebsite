@@ -3,7 +3,7 @@ layout: 2026/contribute-page-2026
 title: Call for Posters
 permalink: /2026/call-for-posters/
 ---
-*Last updated: 2026-03-07 12:00AM CET*
+*Last updated: 2026-05-28 10:30AM CET*
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FQFFZGXF3Y"></script>
@@ -22,10 +22,10 @@ permalink: /2026/call-for-posters/
 
 ## Important Deadlines
 
-- **June 1, 2026:** Title, categories, total pages, 100-word abstract, and all authors' information due
-- **June 7, 2026:** Poster paper submission and optional material submission due
-- **July 14, 2026:** Notification of results
-- **July 21, 2026:** Camera-ready material and copyright submission via IEEE CPS (to be published in the conference’s abstract and workshop proceedings) and PCS (poster paper, video, teaser image, and other additional materials)
+- **June 25, 2026:** Title, categories, total pages, 100-word abstract, and all authors' information due
+- **June 30, 2026:** Poster paper submission and optional material submission due
+- **July 30, 2026:** Notification of results
+- **August 5, 2026:** Camera-ready material and copyright submission via IEEE CPS (to be published in the conference’s abstract and workshop proceedings) and PCS (poster paper, video, teaser image, and other additional materials)
 
 Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated day, irrespective of the submitter’s location.
 
