@@ -51,18 +51,15 @@
           url: "https://docs.google.com/document/d/e/2PACX-1vQhy0UItEZ0944HAstZ9gsgeSQ2hQSXe5d5JVX1wFPTJQqyjskHCiKnlnuY7SX3a722sFLyXesMfPMB/pub"
 
 
-#- title: Program
-#  url: "javascript:void(0)"
-#  children:
-#   - title: Overview
-#     url: "/2026/overview/"
-
-     
-- title: Sponsorship & Exhibition
+- title: Program
   url: "javascript:void(0)"
   children:
-   - title: Call for Sponsorship and Exhibition
-     url: "/2026/sponsorship/call-for-sponsorship-exhibition/"
+   - title: Overview
+     url: "/2026/overview/"
+
+     
+- title: Sponsorship
+  url: "/2026/sponsorship/"
 
 
 

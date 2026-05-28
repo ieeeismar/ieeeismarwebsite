@@ -69,6 +69,13 @@ redirect_from: /
 
 <section class="important-dates-section">
     <h3 class="important-dates-title">Important Deadlines</h3>
+    <style>
+        .important-dates tr.expired {
+            color: #b6b6b6;
+            text-decoration: line-through;
+            opacity: 0.7;
+        }
+    </style>
     <table class="important-dates">
         <thead>
             <tr>
@@ -77,31 +84,31 @@ redirect_from: /
             </tr>
         </thead>
         <tbody>
-            <tr style="color: #b6b6b6; text-decoration: line-through; opacity: 0.7;">
-                 <td><b>Paper Abstract</b></td>
-                 <td><b>March 9th, 2026 (23:59 AoE, Monday)</b></td>
+            <tr data-deadline="2026-03-09T23:59:59-12:00">
+                <td><b>Paper Abstract</b></td>
+                <td><b>March 9th, 2026 (23:59 AoE, Monday)</b></td>
             </tr>
-            <tr style="color: #b6b6b6; text-decoration: line-through; opacity: 0.7;">
+            <tr data-deadline="2026-03-16T23:59:59-12:00">
                 <td><b>Papers</b></td>
                 <td><b>March 16th, 2026 (23:59 AoE, Monday)</b></td>
             </tr>
-            <tr>
+            <tr data-deadline="2026-05-22T23:59:59-12:00">
                 <td><b>Tutorials</b></td>
                 <td><b>May 22nd, 2026 (23:59 AoE, Friday)</b></td>
             </tr>
-            <tr>
+            <tr data-deadline="2026-05-22T23:59:59-12:00">
                 <td><b>Workshops</b></td>
                 <td><b>May 22nd, 2026 (23:59 AoE, Friday)</b></td>
             </tr>
-            <tr>
+            <tr data-deadline="2026-06-25T23:59:59-12:00">
                 <td><b>Posters</b></td>
                 <td><b>June 25th, 2026 (23:59 AoE, Monday)</b></td>
             </tr>
-             <tr>
+            <tr data-deadline="2026-06-03T23:59:59-12:00">
                 <td><b>Doctoral Consortium</b></td>
                 <td><b>June 3rd, 2026 (23:59 AoE, Wednesday)</b></td>
             </tr>
-            <tr>
+            <tr data-deadline="2026-07-14T23:59:59-12:00">
                 <td><b>Demos</b></td>
                 <td><b>July 14th, 2026 (23:59 AoE, Tuesday)</b></td>
             </tr>
@@ -109,6 +116,16 @@ redirect_from: /
     </table>
 </section>
 
+<script>
+    (function () {
+        const now = new Date();
+        document.querySelectorAll(".important-dates tr[data-deadline]").forEach(row => {
+            if (new Date(row.dataset.deadline) < now) {
+                row.classList.add("expired");
+            }
+        });
+    })();
+</script>
 
 
 

@@ -1,3 +1,24 @@
+silver_sponsors:
+  - name: "Google"
+    logo: "/assets/2026/img/sponsors/Google.png"
+    url: "https://www.google.com"
+
+bronze_sponsors:
+  - name: "Khronos"
+    full_name: "The Khronos Group"
+    logo: "/assets/2026/img/sponsors/khronos.png"
+    url: "https://www.khronos.org/"
+    website: "www.khronos.org"
+
+  - name: "Khronos"
+    full_name: "The Khronos Group"
+    logo: "/assets/2026/img/sponsors/HITLabNZ.webp"
+    url: "https://www.hitlabnz.org/"
+    website: "www.hitlabnz.org"
+
+
+
+
 previous_sponsors:
   - name: "Apple"
     full_name: "Apple Inc."

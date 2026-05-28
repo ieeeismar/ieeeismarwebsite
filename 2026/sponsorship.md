@@ -1,7 +1,7 @@
 ---
 layout: 2026/sponsorship-page-2026
-title: Call for Sponsorship & Exhibitions
-permalink: /2026/sponsorship/call-for-sponsorship-exhibition/
+title: Sponsorship
+permalink: /2026/sponsorship/
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -13,6 +13,62 @@ permalink: /2026/sponsorship/call-for-sponsorship-exhibition/
 
   gtag('config', 'G-FQFFZGXF3Y');
 </script>
+
+
+<!-- Sponsors Section -->
+<section class="sponsors-section">
+    <h1 class="sponsors-title">This Year Sponsors</h1>
+
+    <!-- Silver Sponsors -->
+    {% if site.data["2026"].sponsors.silver_sponsors %}
+    <div class="sponsor-tier silver-tier">
+        <div class="tier-header">
+            <div class="tier-label silver">Silver</div>
+        </div>
+
+        <div class="sponsor-grid">
+            {% for sponsor in site.data["2026"].sponsors.silver_sponsors %}
+            <div class="sponsor-item">
+                {% if sponsor.url and sponsor.url != "" %}
+                <a href="{{ sponsor.url }}" target="_blank" class="sponsor-logo-link">
+                    <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo" />
+                </a>
+                {% else %}
+                <div class="sponsor-logo-link">
+                    <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo" />
+                </div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Bronze Sponsors -->
+    {% if site.data["2026"].sponsors.bronze_sponsors %}
+    <div class="sponsor-tier bronze-tier">
+        <div class="tier-header">
+            <div class="tier-label bronze">Bronze</div>
+        </div>
+
+        <div class="sponsor-grid">
+            {% for sponsor in site.data["2026"].sponsors.bronze_sponsors %}
+            <div class="sponsor-item">
+                {% if sponsor.url and sponsor.url != "" %}
+                <a href="{{ sponsor.url }}" target="_blank" class="sponsor-logo-link">
+                    <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo" />
+                </a>
+                {% else %}
+                <div class="sponsor-logo-link">
+                    <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo" />
+                </div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+</section>
 
 
 ## What is ISMAR?
