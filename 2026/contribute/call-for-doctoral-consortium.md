@@ -35,7 +35,9 @@ Submissions must follow the <a href="https://tc.computer.org/vgtc/publications/c
 
 1. Position paper up to two pages in length (including references). The paper must clearly motivate, discuss, and summarize the proposed PhD research, describe how the research fits into and advances research in the field, and report on your progress. You may additionally focus on a more specific area of the research if desired. In the concluding section, you should identify two to three questions or areas for improvement that you would like to discuss during the Doctoral Consortium.
 
-2. A one-page Curriculum Vitae.
+2. **Submissions are not anonymous** and should include the author’s name, affiliation, and contact information.
+
+3. A one-page Curriculum Vitae.
 
 
 All materials must be submitted electronically via the  <a href="https://new.precisionconference.com/submissions" target="_blank">Precision Conference System (PCS)</a>. 
