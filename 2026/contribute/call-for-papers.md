@@ -61,7 +61,7 @@ All submissions must be made electronically via the <a href="https://new.precisi
 * Paper submission deadline: **March 16th, 2026 (23:59 AoE)**
 * Reviews released: **May 24th, 2026 (23:59 AoE, Sunday)**
 * Rebuttals due: **May 31st, 2026 (23:59 AoE, Sunday)**
-* Final notification: **June 22nd, 2026 (23:59 AoE, Sunday)**
+* Final notification: **June 22nd, 2026 (23:59 AoE, Monday)**
 * Camera-ready version: **July 21st, 2026 (23:59 AoE, Tuesday)**
 
 
