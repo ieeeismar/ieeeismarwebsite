@@ -31,7 +31,7 @@ permalink: /2026/overview/
       <ul class="day-card_list">
         <li>Workshops</li>
         <li>Tutorials</li>
-        <li>DC</li>
+        <li>Doctoral Consortium</li>
       </ul>
     </div>
 
@@ -43,7 +43,7 @@ permalink: /2026/overview/
       <ul class="day-card_list">
         <li>Workshops</li>
         <li>Tutorials</li>
-        <li>F3</li>
+        <li>Future Faculty Forum</li>
         <li class="day-card_highlight">Welcome Reception</li>
       </ul>
     </div>
