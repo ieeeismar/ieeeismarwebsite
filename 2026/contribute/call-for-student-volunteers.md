@@ -3,7 +3,7 @@ layout: 2026/contribute-page-2026
 title: Call for Student Volunteers
 permalink: /2026/call-for-student-volunteers/
 ---
-*Last updated: 2026-05-25 13:30PM CET*
+*Last updated: 2026-06-08 9:30AM CET*
 
 
 
@@ -24,9 +24,11 @@ In recognition of your contribution, student volunteers will receive conference 
 
 ## Selection Guidelines and Eligibility
 
-To join the ISMAR team as a volunteer you must be enrolled as a PhD, Masters, or full-time undergraduate student at the time of the conference (October 5-9, 2026). 
+To join the ISMAR team as a volunteer you must be enrolled as a PhD, Masters, or full-time undergraduate student at the time of the conference (October 5-9, 2026). All applications must be submitted via the following form: <a href="https://forms.gle/zkdTELyAQsWurR2M6">https://forms.gle/zkdTELyAQsWurR2M6</a>.
 
-We encourage all students with a keen interest in cutting edge virtual, mixed and augmented reality research to apply. Further, submissions help us, the Committee, gain valuable feedback on our processes and the student experience that may inform future events. However, we acknowledge that Student Volunteer positions are often highly competitive as we receive many strong applications every year for the limited available positions so do not be disheartened if you are not selected. 
+
+
+We encourage all students with a keen interest in cutting edge virtual, mixed and augmented reality research to apply. Further, submissions help us, the Committee, gain valuable feedback on our processes and the student experience that may inform future events. However, we acknowledge that Student Volunteer positions are often highly competitive as we receive many strong applications every year for the limited available positions so do not be disheartened if you are not selected.
 
 The following additional considerations will influence volunteer selection:
 - Preference is given to PhD, then masters, then undergraduate students. 
