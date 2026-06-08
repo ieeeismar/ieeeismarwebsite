@@ -24,7 +24,7 @@ In recognition of your contribution, student volunteers will receive conference 
 
 ## Selection Guidelines and Eligibility
 
-To join the ISMAR team as a volunteer you must be enrolled as a PhD, Masters, or full-time undergraduate student at the time of the conference (October 5-9, 2026). All applications must be submitted via the following form: <a href="https://forms.gle/zkdTELyAQsWurR2M6">https://forms.gle/zkdTELyAQsWurR2M6</a>.
+To join the ISMAR team as a volunteer you must be enrolled as a PhD, Masters, or full-time undergraduate student at the time of the conference (October 5-9, 2026).
 
 
 
@@ -65,7 +65,7 @@ Student volunteers will receive:
 
 ## Application
 
-Applications will be conducted through an online form. The application link will be announced soon.
+All applications must be submitted via the following form: <a href="https://forms.gle/zkdTELyAQsWurR2M6">https://forms.gle/zkdTELyAQsWurR2M6</a>.
 
 ## Contact Information
 
