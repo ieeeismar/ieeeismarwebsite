@@ -42,7 +42,6 @@ The following additional considerations will influence volunteer selection:
 
 - Call for Student Volunteers published on the website: **May 25th, 2026 (23:59 AoE)**
 - Student Volunteer applications open: **June 8th, 2026 (23:59 AoE)**
-- ISMAR final paper notification: **June 22nd, 2026 (23:59 AoE)**
 - Student Volunteer application deadline: **July 15th, 2026 (23:59 AoE)**
 - Student Volunteer acceptance notifications sent: **July 24th, 2026 (23:59 AoE)**
 
