@@ -100,13 +100,13 @@ redirect_from: /
                 <td><b>Workshops</b></td>
                 <td><b>May 22nd, 2026 (23:59 AoE, Friday)</b></td>
             </tr>
-            <tr data-deadline="2026-06-25T23:59:59-12:00">
-                <td><b>Posters</b></td>
-                <td><b>June 25th, 2026 (23:59 AoE, Monday)</b></td>
-            </tr>
             <tr data-deadline="2026-06-03T23:59:59-12:00">
                 <td><b>Doctoral Consortium</b></td>
                 <td><b>June 3rd, 2026 (23:59 AoE, Wednesday)</b></td>
+            </tr>
+            <tr data-deadline="2026-06-25T23:59:59-12:00">
+                <td><b>Posters</b></td>
+                <td><b>June 25th, 2026 (23:59 AoE, Thursday)</b></td>
             </tr>
             <tr data-deadline="2026-07-14T23:59:59-12:00">
                 <td><b>Demos</b></td>
