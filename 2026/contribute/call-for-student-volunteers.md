@@ -5,7 +5,15 @@ permalink: /2026/call-for-student-volunteers/
 ---
 *Last updated: 2026-06-08 9:30AM CET*
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQFFZGXF3Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-FQFFZGXF3Y');
+</script>
 
 ## Become a Student Volunteer (SV)
 
