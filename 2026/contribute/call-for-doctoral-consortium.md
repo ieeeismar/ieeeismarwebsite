@@ -24,8 +24,8 @@ Ideal candidates will be in the early or mid-stage of their PhD and should have 
 ## Important Deadlines
 
 * Application submission deadline: **June 3rd, 2026** (23:59 AoE, Wednesday)
-* Acceptance notification: **June 24th, 2026** (23:59 AoE, Wednesday)
-* Attendance confirmation deadline: **July 1st, 2026** (23:59 AoE, Wednesday)
+* Acceptance notification: **July 1st, 2026** (23:59 AoE, Wednesday)
+* Attendance confirmation deadline: **July 8th, 2026** (23:59 AoE, Wednesday)
 * Final Notification: **July 15th, 2026** (23:59 AoE, Wednesday)
 * DC paper camera-ready version: **July 24th, 2026** (23:59 AoE, Friday)
 * Consortium meeting: **Monday, October 5th, 2026**
