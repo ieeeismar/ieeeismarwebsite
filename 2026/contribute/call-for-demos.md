@@ -22,7 +22,7 @@ The Demonstration Track of ISMAR 2026 invites contributions showcasing working p
 
 Accepted demonstrations will be presented in person at the conference during the scheduled Demo Sessions. Submissions may take the form of live interactive demos, laboratory or corporate exhibits, interactive art explorations, or hybrid formats, and may include work presented in papers, posters, or workshops, as well as new, visionary, or emerging projects not previously published.
 
-All submissions must include a pre-recorded video, which should, when applicable, feature egocentric (first-person) viewpoints to allow attendees to experience the demonstration from the user’s perspective. Additionally, authors are required to submit a 2-page demonstration description, which will be published on the conference website.
+All submissions must include a pre-recorded video, which should, when applicable, feature egocentric (first-person) viewpoints to allow attendees to experience the demonstration from the user’s perspective. Additionally, authors are required to submit a 2-page demonstration description, which will be published in the ISMAR Adjunct Proceedings.
 
 Demonstrations will be selected based on their expected general interest, technical and experiential quality, and their potential to inspire and engage the Virtual, Augmented, and Mixed Reality research community.
 
