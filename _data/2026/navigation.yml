@@ -11,8 +11,7 @@
       url: "/2026/bari-puglia/"
     - title: Visual Identity
       url: "/2026/visual-identity/"
-    #- title: Around Venue
-    #  url: "/2026/around-venue/"
+
     #- title: Registration
     #  url: "/2026/registration/"
     #- title: Accommodation
@@ -42,6 +41,7 @@
     - title: Call for Workshops
       url: "/2026/call-for-workshops/"
     - title: Guidelines
+      url: "javascript:void(0)"
       children:
         - title: Author Guidelines
           url: "/2026/guidelines/author-guidelines"
@@ -58,6 +58,10 @@
   children:
    - title: Overview
      url: "/2026/overview/"
+   - title: Workshops
+     url: "/2026/workshops/"
+   - title: Tutorials
+     url: "/2026/tutorials/"
 
      
 - title: Sponsorship
