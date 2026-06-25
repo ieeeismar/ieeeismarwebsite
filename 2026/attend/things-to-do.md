@@ -27,7 +27,7 @@ permalink: /2026/things-to-do/
     margin-bottom: 3rem;
     background:
       linear-gradient(180deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.78)),
-      url("{{ things_img_path | append: 'immagine%203.jpg' | relative_url }}") center/cover no-repeat;
+      url("{{ things_img_path | append: 'immagine3.jpg' | relative_url }}") center/cover no-repeat;
     box-shadow: 0 24px 60px rgba(0, 0, 0, 0.18);
   }
 
@@ -321,7 +321,7 @@ Bari is a convenient starting point for a wide range of short and half-day exper
 
   <article class="activity-card">
     <figure class="activity-image">
-      <img src="{{ things_img_path | append: 'immagine%201.jpg' | relative_url }}" alt="Wine and extra virgin olive oil tasting in Puglia" loading="lazy">
+      <img src="{{ things_img_path | append: 'immagine1.jpg' | relative_url }}" alt="Wine and extra virgin olive oil tasting in Puglia" loading="lazy">
     </figure>
 
     <div class="activity-content">
@@ -341,7 +341,7 @@ Bari is a convenient starting point for a wide range of short and half-day exper
 
   <article class="activity-card">
     <figure class="activity-image">
-      <img src="{{ things_img_path | append: 'immagine%202.jpg' | relative_url }}" alt="Puglia cooking class with local food traditions" loading="lazy">
+      <img src="{{ things_img_path | append: 'immagine2.jpg' | relative_url }}" alt="Puglia cooking class with local food traditions" loading="lazy">
     </figure>
 
     <div class="activity-content">
@@ -361,7 +361,7 @@ Bari is a convenient starting point for a wide range of short and half-day exper
 
   <article class="activity-card">
     <figure class="activity-image">
-      <img src="{{ things_img_path | append: 'immagine%203.jpg' | relative_url }}" alt="Boat tour along the Bari coastline" loading="lazy">
+      <img src="{{ things_img_path | append: 'immagine3.jpg' | relative_url }}" alt="Boat tour along the Bari coastline" loading="lazy">
     </figure>
 
     <div class="activity-content">
@@ -381,7 +381,7 @@ Bari is a convenient starting point for a wide range of short and half-day exper
 
   <article class="activity-card">
     <figure class="activity-image">
-      <img src="{{ things_img_path | append: 'immagine%204.jpg' | relative_url }}" alt="E-bike experience in the Apulian countryside" loading="lazy">
+      <img src="{{ things_img_path | append: 'immagine4.jpg' | relative_url }}" alt="E-bike experience in the Apulian countryside" loading="lazy">
     </figure>
 
     <div class="activity-content">
@@ -406,7 +406,7 @@ Bari is a convenient starting point for a wide range of short and half-day exper
 
   <article class="activity-card">
     <figure class="activity-image">
-      <img src="{{ things_img_path | append: 'immagine%205.jpg' | relative_url }}" alt="Dairy farm and burrata experience in Puglia" loading="lazy">
+      <img src="{{ things_img_path | append: 'immagine5.jpg' | relative_url }}" alt="Dairy farm and burrata experience in Puglia" loading="lazy">
     </figure>
 
     <div class="activity-content">
@@ -426,7 +426,7 @@ Bari is a convenient starting point for a wide range of short and half-day exper
 
   <article class="activity-card">
     <figure class="activity-image">
-      <img src="{{ things_img_path | append: 'immagine%206.jpg' | relative_url }}" alt="Olive oil mill or olive grove visit in Puglia" loading="lazy">
+      <img src="{{ things_img_path | append: 'immagine6.jpg' | relative_url }}" alt="Olive oil mill or olive grove visit in Puglia" loading="lazy">
     </figure>
 
     <div class="activity-content">
@@ -446,7 +446,7 @@ Bari is a convenient starting point for a wide range of short and half-day exper
 
   <article class="activity-card">
     <figure class="activity-image">
-      <img src="{{ things_img_path | append: 'immagine%207.jpg' | relative_url }}" alt="Winery visit in the Bari area" loading="lazy">
+      <img src="{{ things_img_path | append: 'immagine7.jpg' | relative_url }}" alt="Winery visit in the Bari area" loading="lazy">
     </figure>
 
     <div class="activity-content">
@@ -466,7 +466,7 @@ Bari is a convenient starting point for a wide range of short and half-day exper
 
   <article class="activity-card">
     <figure class="activity-image">
-      <img src="{{ things_img_path | append: 'immagine%208.jpg' | relative_url }}" alt="Kayak, SUP or boat experience near Polignano a Mare" loading="lazy">
+      <img src="{{ things_img_path | append: 'immagine8.jpg' | relative_url }}" alt="Kayak, SUP or boat experience near Polignano a Mare" loading="lazy">
     </figure>
 
     <div class="activity-content">
