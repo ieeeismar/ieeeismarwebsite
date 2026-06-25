@@ -5,24 +5,38 @@
   children:
     - title: Code of Conduct
       url: "/2026/code-of-conduct/"
-    - title: Venue
-      url: "/2026/venue/"
-    - title: Bari & Puglia
-      url: "/2026/bari-puglia/"
     - title: Visual Identity
       url: "/2026/visual-identity/"
-
+    - title: Venue
+      url: "/2026/venue/"
+    - title: Travel & Transportation
+      url: "javascript:void(0)"
+      children:
+        - title: Visa Information
+          url: "/2026/visa-information/"
+        - title: Travel to Bari
+          url: "/2026/travel-to-bari/"
+        - title: Getting Around Bari
+          url: "/2026/getting-around-bari/"
+        - title: Useful Information
+          url: "/2026/useful-information/"
+    - title: Accommodation
+      url: "/2026/accommodation/"
+    - title: Explore Bari & Puglia
+      url: "javascript:void(0)"
+      children:
+        - title: Visit Bari
+          url: "/2026/visit-bari/"
+        - title: Visit Puglia
+          url: "/2026/visit-puglia/"
+        - title: Things to Do
+          url: "/2026/things-to-do/"
+        - title: Gastronomy
+          url: "/2026/gastronomy/"
     #- title: Registration
     #  url: "/2026/registration/"
-    #- title: Accommodation
-    #  url: "/2026/accommodation/"
-    #- title: Transportation
-    #  url: "/2026/transportation/"
-    #- title: Visa Requirements
-    #  url: "/2026/visa-requirements/"
-    
-    
-      
+
+
 - title: Contribute
   url: "javascript:void(0)"
   children:
@@ -63,6 +77,21 @@
    - title: Tutorials
      url: "/2026/tutorials/"
 
+# - title: Resources
+#   url: "javascript:void(0)"
+#   children:
+#     - title: Slide Templates
+#       url: "/2026/resources/slide-templates/"
+#     - title: Poster Templates
+#       url: "/2026/resources/poster-templates/"
+#     - title: Video Templates
+#       url: "/2026/resources/video-templates/"
+#     - title: Conference Logo
+#       url: "/2026/resources/conference-logo/"
+#     - title: Social Media Templates
+#       url: "/2026/resources/social-media-templates/"
+#     - title: Visual Identity
+#       url: "/2026/visual-identity/"
      
 - title: Sponsorship
   url: "/2026/sponsorship/"

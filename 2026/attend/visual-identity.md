@@ -32,7 +32,6 @@ At the heart of this visual system stands the **Rooster**, a recurring motif in 
 
 
 
-
 <div style="position: relative;">
   <img id="interactive-image" src="{{ 'assets/2026/img/VisualIdentity.png' | relative_url }}" usemap="#image-map" width="100%" height="auto"/>
   <div style="text-align: center; margin-top: 10px; font-weight: bold;">

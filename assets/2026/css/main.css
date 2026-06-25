@@ -17,7 +17,30 @@ body {
     padding: 20px;
 }
 
+.gala-venue-info {
+  margin: 2rem 0 1.5rem 0;
+  padding: 1.25rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #fff;
+}
 
+.gala-venue-info h2 {
+  margin-top: 0;
+}
+
+.venue-button-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.venue-button-grid .venue-button {
+  min-width: 260px;
+  text-align: center;
+}
 /* Video Styling */
 .video-wrap {
     position: relative;
@@ -849,6 +872,41 @@ body {
     padding: 0 20px;
 }
 
+
+/* Venue button */
+
+.venue-button-wrap {
+  text-align: center;
+  margin: 40px 0 24px;
+}
+
+.venue-button,
+.venue-button:link,
+.venue-button:visited {
+  display: inline-block;
+  background-color: #3A8BF3;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  text-decoration: none !important;
+  padding: 18px 60px;
+  border-radius: 14px;
+  border: none;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.venue-button:hover,
+.venue-button:active {
+  background-color: #ffffff;
+  color: #3A8BF3;
+  text-decoration: none !important;
+  transform: translateY(-2px);
+}
+
+.venue-button:focus {
+  outline: none;
+}
 /* Category header style */
 .steering-category h3 {
     font-size: 24px;
@@ -860,6 +918,7 @@ body {
     border-bottom: 2px solid #d6d6d6;
     padding-bottom: 10px;
 }
+
 
 /* Hero gif logo rooster 
 .hero-logo {
