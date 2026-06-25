@@ -101,7 +101,7 @@ places:
         url: "https://www.comune.lecce.it/vivi-lecce/itinerari-turistici"
 
   - name: "Monopoli"
-    image: "assets/2026/img/bari_puglia/puglia/monopoli.jpg"
+    image: "assets/2026/img/bari_puglia/puglia/monopoli2.jpg"
     map: "https://www.google.com/maps/search/?api=1&query=Monopoli+Puglia"
     directions: "https://www.google.com/maps/dir/?api=1&origin=Bari,+Italy&destination=Monopoli,+Puglia,+Italy&travelmode=transit"
     tag: "Seaside old town"
