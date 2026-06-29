@@ -1,7 +1,7 @@
 ---
 layout: 2026/attend-page-2026
-title: Accommodation
-permalink: /2026/accommodation/
+title: Accommodationv2
+permalink: /2026/accommodationv2/
 ---
 
 <!-- Google tag (gtag.js) -->

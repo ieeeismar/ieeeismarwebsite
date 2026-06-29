@@ -20,8 +20,6 @@
           url: "/2026/getting-around-bari/"
         - title: Useful Information
           url: "/2026/useful-information/"
-    - title: Accommodation
-      url: "/2026/accommodation/"
     - title: Explore Bari & Puglia
       url: "javascript:void(0)"
       children:
