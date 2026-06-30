@@ -1,0 +1,18 @@
+
+- title: Resources
+  url: "javascript:void(0)"
+  children:
+      - title: Slide Template
+        url: "/2026/resources/slide-template/"
+      - title: Poster Templates
+        url: "/2026/resources/poster-templates/"
+      - title: Social Media Templates
+        url: "/2026/resources/social-media-templates/"
+      - title: Conference Logo and Illustrations
+        url: "/2026/resources/conference-logo/"
+      - title: Video Presentation Guidelines
+        url: "/2026/resources/video-presentation-guidelines/"
+
+
+    - title: Accommodation
+      url: "/2026/accommodation/"

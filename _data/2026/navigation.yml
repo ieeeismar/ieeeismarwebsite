@@ -20,8 +20,6 @@
           url: "/2026/getting-around-bari/"
         - title: Useful Information
           url: "/2026/useful-information/"
-    - title: Accommodation
-      url: "/2026/accommodation/"
     - title: Explore Bari & Puglia
       url: "javascript:void(0)"
       children:
@@ -77,21 +75,7 @@
    - title: Tutorials
      url: "/2026/tutorials/"
 
-# - title: Resources
-#   url: "javascript:void(0)"
-#   children:
-#     - title: Slide Templates
-#       url: "/2026/resources/slide-templates/"
-#     - title: Poster Templates
-#       url: "/2026/resources/poster-templates/"
-#     - title: Video Templates
-#       url: "/2026/resources/video-templates/"
-#     - title: Conference Logo
-#       url: "/2026/resources/conference-logo/"
-#     - title: Social Media Templates
-#       url: "/2026/resources/social-media-templates/"
-#     - title: Visual Identity
-#       url: "/2026/visual-identity/"
+
      
 - title: Sponsorship
   url: "/2026/sponsorship/"
