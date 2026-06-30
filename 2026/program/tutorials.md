@@ -46,3 +46,12 @@ This situation leads to many problems. Authors are rewarded for novel results th
 
 However, there are reasons for optimism. Many research communities, including our own, are experimenting with new reviewing and publication ideas and models. This tutorial discusses the social context that mediates scientific communication, including reviewing practices for scientific papers and proposals, and how these practices motivate researchers as they seek career success. The tutorial surveys current and emerging thinking on how this context might be optimally tuned to produce scientific results that are trustworthy and lead to scientific career advancement. 
 
+--- 
+
+### Interaction Design for Extended Reality
+
+**Main Contact Person**: <a href="mailto:jorgej@ieee.org"> Joaquim Jorge</a> 
+
+#### **[> Tutorial Website](https://sites.google.com/view/ismar26)**
+
+Extended Reality (XR) is transforming how we engage with digital content, yet designing compelling XR experiences remains challenging. This tutorial presents foundational and advanced concepts in Interaction Design tailored for XR environments, focusing on methods for ideation, design, and prototyping, and evaluation. We will explore user-centered design approaches and walk participants through a selection of design patterns, prototyping tools, and real-world case studies. The session emphasizes practical takeaways for building natural, inclusive, and engaging XR applications for both research and deployment contexts. 
