@@ -5,6 +5,8 @@
   children:
     - title: Code of Conduct
       url: "/2026/code-of-conduct/"
+ #   - title: Registration
+ #     url: "/2026/registration/"
     - title: Visual Identity
       url: "/2026/visual-identity/"
     - title: Venue
@@ -31,8 +33,7 @@
           url: "/2026/things-to-do/"
         - title: Gastronomy
           url: "/2026/gastronomy/"
-    #- title: Registration
-    #  url: "/2026/registration/"
+
 
 
 - title: Contribute
@@ -75,11 +76,22 @@
    - title: Tutorials
      url: "/2026/tutorials/"
 
-
+- title: Resources
+  url: "javascript:void(0)"
+  children:
+ #     - title: Slide Template
+  #      url: "/2026/resources/slide-template/"
+   #   - title: Poster Templates
+   #     url: "/2026/resources/poster-templates/"
+      - title: Social Media Templates
+        url: "/2026/resources/social-media-templates/"
+      - title: Conference Logo and Illustrations
+        url: "/2026/resources/conference-logo/"
+  #    - title: Video Presentation Guidelines
+   #     url: "/2026/resources/video-presentation-guidelines/"
      
 - title: Sponsorship
   url: "/2026/sponsorship/"
-
 
 
 - title: Committee
@@ -87,6 +99,8 @@
   children:
     - title: Organizing Committee
       url: "/2026/committee/organizing/"
+    - title: Standardization Committee
+      url: "/2026/committee/standardization/"
     - title: Steering Committee
       url: "/2026/committee/steering_committee/"
 

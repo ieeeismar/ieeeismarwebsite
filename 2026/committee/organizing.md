@@ -185,24 +185,7 @@ redirect_from:
     </div>
 </div>
 
-<!--
-  <div class="chairs-category">
-    <h3>Panel and Special Session Chairs</h3>
-    <p class="email"><a href="mailto:panel_chairs@ismar26.org">panel_chairs@ismar26.org</a></p>
-    <div class="chairs">
-      <div class="chair">
-        <img src="{{ 'assets/2026/img/Committee Members Images/.jpg' | relative_url }}" />
-        <p class="name"></p>
-        <p></p>
-      </div>
-      <div class="chair">
-        <img src="{{ 'assets/2026/img/Committee Members Images/.jpg' | relative_url }}" />
-        <p class="name"></p>
-        <p></p>
-      </div>
-    </div>
-  </div>
--->
+
 <div class="chairs-category">
   <h3>Publication Chairs</h3>
   <p class="email"><a href="mailto:publication2026@ieeeismar.net">publication2026@ieeeismar.net</a></p>
@@ -431,6 +414,32 @@ redirect_from:
 </div>
 
 <div class="chairs-category">
+  <h3>Standardization Chairs</h3>
+  <div class="chairs">
+    <div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/kurata2025.png' | relative_url }}" />
+      <p class="name">Takeshi Kurata</p>
+      <p>AIST, Japan</p>
+    </div>
+    <div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/Jen-Shuo_Liu.webp' | relative_url }}" />
+      <p class="name">Jen-Shuo Liu</p>
+      <p>Columbia University, USA</p>
+    </div>
+    <div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/Bill_Sherman_Bio.jpg' | relative_url }}" />
+      <p class="name">William Sherman</p>
+      <p>NIST, USA</p>
+    </div>
+    <div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/simonsu.JPG' | relative_url }}" />
+      <p class="name">Simon Su</p>
+      <p>NIST, USA</p>
+    </div>
+  </div>
+</div>
+
+<div class="chairs-category">
   <h3>Industrial Exhibition & Sponsorship Chairs</h3>
   <p class="email"><a href="mailto:sponsorship2026@ieeeismar.net">sponsorship2026@ieeeismar.net</a></p>
   <div class="chairs">
@@ -497,30 +506,6 @@ redirect_from:
 </div>
 
 
-<!--
-<div class="chairs-category">
-  <h3>Competition Chairs</h3>
-  <p class="email"><a href="mailto:competition-2026@ieeeismar.net">competition-2026@ieeeismar.net</a></p>
-  <div class="chairs">
-    <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/.jpg' | relative_url }}" />
-      <p class="name"></p>
-      <p></p>
-    </div>
-    <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/.jpg' | relative_url }}" />
-      <p class="name"></p>
-      <p></p>
-    </div>
-  </div>
-</div>
-
-<div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Federica Casulli.jpg' | relative_url }}" />
-      <p class="name">Federica Casulli</p>
-      <p>CicSud Bari</p>
-    </div>
--->
 <div class="chairs-category">
   <h3>Social Event Chairs</h3>
   <p class="email"><a href="mailto:social2026@ieeeismar.net">social2026@ieeeismar.net</a></p>
