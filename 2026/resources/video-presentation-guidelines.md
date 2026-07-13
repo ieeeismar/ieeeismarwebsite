@@ -15,59 +15,63 @@ permalink: /2026/resources/video-presentation-guidelines/
 </script>
 
 
+This year, IEEE ISMAR  has extended the traditional **Paper Presentation Videos** with **Teaser Videos**. Detailed requirements for both types are provided below. 
 
-## Paper Presentation Videos {#paper-presentation-videos}
+## Paper Presentation Videos (Due 4 September 2026) {#paper-presentation-videos}
 
-**Template:** Please use the official IEEE ISMAR 2026 PowerPoint presentation template for the full research presentation video.
-
-
-[Download the presentation template.pptx](/2026/resources/Presentation_Template_ISMAR_2026.pptx)
-
-- **Duration:** 12 minutes, corresponding to the regular presentation time.
+- **Who:** Authors with accepted papers (conference and TVCG) as well as TVCG and CG&A invited papers
+- **Why:** To provide a backup plan should an author not be available to present.  And more importantly, to facilitate free world-wide access to ISMAR content after the conference ends.
+- **Type:** Mandatory
+- **Deadline:**  4 September 2026 AoE
+- **What it is:**  A complete video recording of your paper presentation, as if you present on stage.
+- **Usage:** Played in case of author absence, archival and publication in ISMAR media services.
+- **Where:** For papers specify URL in PCS using the dedicated field.  For invited talks, email URL to program2026@ieeeismar.net.
+- **Duration:** 12 minutes (regular presentation time)
+- **Template:** [Presentation template.pptx](/2026/resources/Presentation_Template_ISMAR_2026.pptx)
 - **Resolution and format:** 1080p HD, 1920 × 1080 progressive, 16:9 aspect ratio, MP4 format with H.264 compression.
 - **File size:** Maximum 250 MB.
 - **Optional content:** Photos or videos of the authors may be included, but are not mandatory.
-- **Copyright compliance:** Since videos will be posted online, all content used must be royalty-free.
+- **Compliance:** All content used must be royalty-free and adhere to ISMAR26 [Code of Conduct](/2026/code-of-conduct/).
 - **Closed captions:** Authors are encouraged to prepare a timestamped closed-caption file in VTT format.
 - **Naming convention:** `Tag_paperID_video`
 - **Contribution tags:**
   - cf (conference paper)
-  - ws (workshop)
-  - pt (poster) 
   - jc (vgtc)
-  - dm (demo)
-  - tt (tutorials)
-  - dc (doctoral consortium)
-- **Storage:** Upload the files to a cloud drive, such as Google Drive, Dropbox, or Mega, with public link access. Submit the links via PCS. Do not use YouTube.
-- **Deadline:** 4 weeks before the conference, **4 September 2026**.
+  - Invited-tvcg (invited TVCG paper)
+  - Invited-cga (invited CG&A paper)
+- **Storage:** Upload the files to a cloud drive, such as Google Drive, Dropbox, or Mega, with public link access. Submit the links via PCS. **NOTE:** Do not use YouTube. 
+
 
 ---
 
-## Instructions for Teaser Videos
+## Teaser Videos - Due 4 September 2026
 
-Teaser videos may be used for highlights, teasers, social media, compilations, and similar purposes.
-
-**Template:** Please use the dedicated IEEE ISMAR 2026 teaser video template.
-
-[Download the teaser template.pptx](/2026/resources/Teaser_Template_ISMAR_2026.pptx)
-
-- **Abstract:** The video should effectively and creatively highlight the research contribution.
+- **Who:** Authors with accepted papers (conference, TVCG), poster, demo, tutorials, doctoral consortium, workshops (excluded workshop papers)
+- **Why:** To promote ISMAR research (e.g., on social media and locally @ ISMAR) both prior and during the week of ISMAR.
+- **Type:** Optional but recommended
+- **Deadline:**  4 September 2026 AoE.
+- **What it is:**  Creatively highlight of your contribution in a way that captures attention. Prioritize visual impact and a clear takeaway message over technical completeness. Video may work also when  played without audio.
+- **Usage:** Social media publishing and display on monitors across the conference venue.
+- **Where:** For submissions using PCS using the dedicated field.  For invited talks, email URL to program2026@ieeeismar.net.  All other teaser video URL should follow instructions provided by their respective chair.
 - **Duration:** Up to 60 seconds.
+- **Template:** [Teaser template.pptx](/2026/resources/Teaser_Template_ISMAR_2026.pptx)
 - **File size:** Maximum 50 MB.
 - **Format:** Use only one of the following formats: AVI, MP4, MPEG, MPG, or MOV.
-- **Resolution:** 16:9 aspect ratio.
+- **Resolution:** 1080p HD, 1920 × 1080 progressive, 16:9 aspect ratio, MP4 format with H.264 compression.
 - **Structure:** The video must include a cover at the beginning with the title, authors, and affiliations, and credits at the end using the provided template.
-- **Deadline:** 4 weeks before the conference, **4 September 2026**.
-- **Storage:** Upload the files to a cloud drive, such as Google Drive, Dropbox, or Mega, with public link access. Submit the links via PCS. Do not use YouTube.
+- **Compliance:** All content used must be royalty-free and adhere to ISMAR26 [Code of Conduct](/2026/code-of-conduct/).
+- **Storage:** Upload the files to a cloud drive, such as Google Drive, Dropbox, or Mega, with public link access. Submit the links via PCS. **NOTE:** Do not use YouTube. 
 - **Naming convention:** `tag_paper-id_session_teaservideo`
 - **Contribution tags:**
   - cf (conference paper)
-  - ws (workshop)
-  - pt (poster) 
   - jc (vgtc)
+  - invited-tvcg (invited TVCG paper)
+  - invited-cga (invited CG&A paper)
+  - pt (poster) 
   - dm (demo)
+  - ws (workshop)
   - tt (tutorials)
-  - dc (doctoral consortium)
+
 
 ---
 
