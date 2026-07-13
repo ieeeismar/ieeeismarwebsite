@@ -3,7 +3,7 @@ layout: 2026/contribute-page-2026
 title: Call for Papers
 permalink: /2026/call-for-papers/
 ---
-*Last updated: 2026-02-18 10:00AM CET*
+*Last updated: 2026-06-13 16:00PM CET*
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FQFFZGXF3Y"></script>
@@ -63,6 +63,8 @@ All submissions must be made electronically via the <a href="https://new.precisi
 * Rebuttals due: **May 31st, 2026 (23:59 AoE, Sunday)**
 * Final notification: **June 22nd, 2026 (23:59 AoE, Monday)**
 * Camera-ready version: **July 21st, 2026 (23:59 AoE, Tuesday)**
+* Paper presentation video: **Sep 4th, 2026 (23:59 AoE, Friday)**
+* Teaser video (optional but recommended): **Sep 4th, 2026 (23:59 AoE, Friday)**
 
 
 ## Author Guidelines
