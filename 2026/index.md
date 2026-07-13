@@ -116,6 +116,10 @@ redirect_from: /
                 <td><b>Student Volunteers</b></td>
                 <td><b>July 15th, 2026 (23:59 AoE, Wednesday)</b></td>
             </tr>
+            <tr data-deadline="2026-07-15T23:59:59-12:00">
+                <td><b>Paper Presentation Videos</b></td>
+                <td><b>September 4th, 2026 (23:59 AoE, Friday)</b></td>
+            </tr>
         </tbody>
     </table>
 </section>
