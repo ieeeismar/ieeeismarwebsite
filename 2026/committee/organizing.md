@@ -261,6 +261,11 @@ redirect_from:
       <p class="name">Fabio Vangi</p>
       <p>Polytechnic University of Bari</p>
     </div>
+      <div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/Joanne Wang.webp' | relative_url }}" />
+      <p class="name">Joanne Wang</p>
+      <p>Virginia Tech</p>
+    </div>
   </div>
 </div>
 
