@@ -422,7 +422,7 @@ redirect_from:
 
 <div class="chairs-category">
   <h3>Pitch Your Lab Chairs</h3>
-    <p class="email"><a href="pitchyourlab2026@ismar.net">pitchyourlab2026@ismar.net</a></p>
+    <p class="email"><a href="pitchyourlab2026@ieeeismar.net">pitchyourlab2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Jen-Shuo Liu.jpg' | relative_url }}" />

@@ -40,5 +40,4 @@ While presentation materials will not appear in the official IEEE proceedings, a
 
 - Jen-Shuo Liu, Columbia University
 
-Inquiries: <a href="pitchyourlab2026@ismar.net">pitchyourlab2026@ismar.net</a>
-
+Inquiries: <a href="pitchyourlab2026@ieeeismar.net">pitchyourlab2026@ieeeismar.net</a>
