@@ -418,6 +418,20 @@ redirect_from:
   </div>
 </div>
 
+
+
+<div class="chairs-category">
+  <h3>Pitch Your Lab Chairs</h3>
+    <p class="email"><a href="pitchyourlab2026@ismar.net">pitchyourlab2026@ismar.net</a></p>
+  <div class="chairs">
+    <div class="chair">
+      <img src="{{ 'assets/2026/img/Committee Members Images/Jen-Shuo Liu.jpg' | relative_url }}" />
+      <p class="name">Jen-Shuo Liu</p>
+      <p>Columbia University</p>
+    </div>
+</div>
+
+
 <div class="chairs-category">
   <h3>Standardization Chairs</h3>
   <div class="chairs">
