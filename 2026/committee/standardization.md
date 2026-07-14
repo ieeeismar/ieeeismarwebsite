@@ -33,7 +33,9 @@ The standardization committee will focus on the following activities (including 
 - Industry professionals and innovators who wish to contribute to the development of industry standards necessary for practical work while gaining exposure to the latest practical research presented at ISMAR.
 - Participants in standardization organizations who wish to gain knowledge of academic breakthroughs, the current state of prototype system implementations, and evaluation results in real-world scenarios at ISMAR to make their standards and standardization activities more beneficial.
 
-## Committee Chairs
+## Committee Members
+
+### Chairs
 
 <div class="chairs-category chairs-category-small">
   <div class="chairs">
@@ -59,6 +61,41 @@ The standardization committee will focus on the following activities (including 
     </div>
   </div>
 </div>
+
+
+
+## Members
+<div class="chairs-category chairs-category-small">
+    <div class="chairs" style="padding-left: 0;">
+        <div class="chair">
+            <img src="{{ 'assets/2026/img/Committee Members Images/Yohan Hmaiti.webp' | relative_url }}" />
+            <p class="name">Yohan Hmaiti</p>
+            <p>University of Central Florida</p>
+        </div>
+        <div class="chair">
+            <img src="{{ 'assets/2026/img/Committee Members Images/Seonji_Kim.webp' | relative_url }}" />
+            <p class="name">Seonji Kim</p>
+            <p>KAIST</p>
+        </div>
+        <div class="chair">
+            <img src="{{ 'assets/2026/img/Committee Members Images/Abolghasem_Sadeghi-Niaraki.webp' | relative_url }}" />
+            <p class="name">Abolghasem Sadeghi-Niaraki</p>
+            <p>Sejong University</p>
+        </div>
+        <div class="chair">
+            <img src="{{ 'assets/2026/img/Committee Members Images/Tim_Weissker.webp' | relative_url }}" />
+            <p class="name">Tim Weissker</p>
+            <p>RWTH Aachen University</p>
+        </div>
+        <div class="chair">
+            <img src="{{ 'assets/2026/img/Committee Members Images/Matt-Whitlock.webp' | relative_url }}" />
+            <p class="name">Matt Whitlock</p>
+            <p>NIST</p>
+        </div>
+    </div>
+</div>
+
+
 
 <style>
 .chairs-category-small .chairs {
