@@ -5,8 +5,8 @@
   children:
     - title: Code of Conduct
       url: "/2026/code-of-conduct/"
- #   - title: Registration
- #     url: "/2026/registration/"
+  #  - title: Registration
+  #    url: "/2026/registration/"
     - title: Visual Identity
       url: "/2026/visual-identity/"
     - title: Venue
@@ -53,6 +53,8 @@
       url: "/2026/call-for-student-volunteers/"
     - title: Call for Workshops
       url: "/2026/call-for-workshops/"
+    - title: Call for Pitch Your Lab
+      url: "/2026/call-for-pitch-your-lab/"
     - title: Guidelines
       url: "javascript:void(0)"
       children:
@@ -64,13 +66,15 @@
           url: "/2026/guidelines/reviewing-guidelines"
         - title: Paper Submission FAQ
           url: "https://docs.google.com/document/d/e/2PACX-1vQhy0UItEZ0944HAstZ9gsgeSQ2hQSXe5d5JVX1wFPTJQqyjskHCiKnlnuY7SX3a722sFLyXesMfPMB/pub"
-
+          
 
 - title: Program
   url: "javascript:void(0)"
   children:
    - title: Overview
      url: "/2026/overview/"
+#   - title: Keynote Speakers
+#     url: "2026/keynote-speakers"
    - title: Workshops
      url: "/2026/workshops/"
    - title: Tutorials
