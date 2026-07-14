@@ -425,7 +425,7 @@ redirect_from:
     <p class="email"><a href="pitchyourlab2026@ieeeismar.net">pitchyourlab2026@ieeeismar.net</a></p>
   <div class="chairs">
     <div class="chair">
-      <img src="{{ 'assets/2026/img/Committee Members Images/Jen-Shuo Liu.jpg' | relative_url }}" />
+      <img src="{{ 'assets/2026/img/Committee Members Images/Jen-Shuo_Liu.webp' | relative_url }}" />
       <p class="name">Jen-Shuo Liu</p>
       <p>Columbia University</p>
     </div>
