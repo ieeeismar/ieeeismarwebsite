@@ -28,7 +28,7 @@ Demonstrations will be selected based on their expected general interest, techni
 
 ## Important Deadlines
 
-- Submission deadline: **July 14 th, 2026 (23:59 AoE)**
+- Submission deadline: **July 17 th, 2026 (23:59 AoE)**
 - Notification: **July 29th, 2026 (23:59 AoE)**
 - Camera ready deadline: **August 5th, 2026 (23:59 AoE)**
 
