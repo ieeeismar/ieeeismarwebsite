@@ -3,7 +3,7 @@ layout: 2026/contribute-page-2026
 title: Call for Demos
 permalink: /2026/call-for-demos/
 ---
-*Last updated: 2026-07-17 02:00PM CET*
+*Last updated: 2026-07-15 02:00PM CET*
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FQFFZGXF3Y"></script>
