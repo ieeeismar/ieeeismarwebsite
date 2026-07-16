@@ -110,7 +110,7 @@ redirect_from: /
             </tr>
             <tr data-deadline="2026-07-14T23:59:59-12:00">
                 <td><b>Demos</b></td>
-                <td><b>July 14th, 2026 (23:59 AoE, Tuesday)</b></td>
+                <td><b>July 17th, 2026 (23:59 AoE, Tuesday)</b></td>
             </tr>
             <tr data-deadline="2026-07-15T23:59:59-12:00">
                 <td><b>Student Volunteers</b></td>
