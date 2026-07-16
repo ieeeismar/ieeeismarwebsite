@@ -14,7 +14,7 @@ permalink: /2026/accommodation/
   gtag('config', 'G-FQFFZGXF3Y');
 </script>
 
-*Last updated: 2026-06-29 01:00PM CET*
+*Last updated: 2026-07-16 10:00AM CET*
 
 For the convenience of conference participants, a selection of hotels in Bari has been identified for the conference period. The options listed below include different room availability and rate conditions, with accommodation located in or near the city and the conference venue area.
 
