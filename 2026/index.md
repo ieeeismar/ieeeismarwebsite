@@ -108,15 +108,15 @@ redirect_from: /
                 <td><b>Posters</b></td>
                 <td><b>June 25th, 2026 (23:59 AoE, Thursday)</b></td>
             </tr>
-            <tr data-deadline="2026-07-14T23:59:59-12:00">
-                <td><b>Demos</b></td>
-                <td><b>July 17th, 2026 (23:59 AoE, Tuesday)</b></td>
-            </tr>
             <tr data-deadline="2026-07-15T23:59:59-12:00">
                 <td><b>Student Volunteers</b></td>
                 <td><b>July 15th, 2026 (23:59 AoE, Wednesday)</b></td>
             </tr>
-            <tr data-deadline="2026-07-15T23:59:59-12:00">
+             <tr data-deadline="2026-07-17T23:59:59-12:00">
+                <td><b>Demos</b></td>
+                <td><b>July 17th, 2026 (23:59 AoE, Tuesday)</b></td>
+            </tr>
+            <tr data-deadline="2026-09-04T23:59:59-12:00">
                 <td><b>Paper Presentation Videos</b></td>
                 <td><b>September 4th, 2026 (23:59 AoE, Friday)</b></td>
             </tr>
