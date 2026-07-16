@@ -20,7 +20,11 @@ For the convenience of conference participants, a selection of hotels in Bari ha
 
 Participants are invited to review the hotel information and choose the option that best fits their travel needs. Please note that room availability ( DUS: Double Use Single room, MAT: Matrimonial room) and rates may be subject to change, and early booking is recommended.
 
-* The booking of these hotels will be available during registration. Fixed prices apply for a 5-night stay from **4–9 October**. Participants attending the <a href="https://sigchi.org/events/sui-2026/">SUI conference</a> may request an extension of 2 additional nights, from **9–11 October**, available only at **The Nicolaus Hotel Bari** and **Hi Hotel Bari**.
+
+ **Important:** 
+ 
+* Hotel rooms have been pre-booked for ISMAR attendees, and reservations will be available during registration.
+* Fixed prices apply for a 5-night stay from **4–9 October**. Participants attending the <a href="https://sigchi.org/events/sui-2026/">SUI conference</a> may request an extension of 2 additional nights, from **9–11 October**, available only at **The Nicolaus Hotel Bari** and **Hi Hotel Bari**.
 
 | Hotel | Address | Distance from venue | Fixed stay | SUI extension | Reserved rooms | Price/night |
 |---|---|---|---|---|---:|---|
