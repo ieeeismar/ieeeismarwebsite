@@ -84,13 +84,29 @@ redirect_from: /
             </tr>
         </thead>
         <tbody>
-            <tr data-deadline="2026-03-09T23:59:59-12:00">
-                <td><b>Paper Abstract</b></td>
-                <td><b>March 9th, 2026 (23:59 AoE, Monday)</b></td>
+            <tr data-deadline="2026-09-05T23:59:59-12:00">
+                <td><b>Pitch Your Lab</b></td>
+                <td><b>September 5th, 2026 (23:59 AoE, Saturday)</b></td>
             </tr>
-            <tr data-deadline="2026-03-16T23:59:59-12:00">
-                <td><b>Papers</b></td>
-                <td><b>March 16th, 2026 (23:59 AoE, Monday)</b></td>
+            <tr data-deadline="2026-09-04T23:59:59-12:00">
+                <td><b>Paper Presentation Videos</b></td>
+                <td><b>September 4th, 2026 (23:59 AoE, Friday)</b></td>
+            </tr>
+            <tr data-deadline="2026-07-17T23:59:59-12:00">
+                <td><b>Demos</b></td>
+                <td><b>July 17th, 2026 (23:59 AoE, Friday)</b></td>
+            </tr>
+            <tr data-deadline="2026-07-15T23:59:59-12:00">
+                <td><b>Student Volunteers</b></td>
+                <td><b>July 15th, 2026 (23:59 AoE, Wednesday)</b></td>
+            </tr>
+            <tr data-deadline="2026-06-25T23:59:59-12:00">
+                <td><b>Posters</b></td>
+                <td><b>June 25th, 2026 (23:59 AoE, Thursday)</b></td>
+            </tr>
+            <tr data-deadline="2026-06-03T23:59:59-12:00">
+                <td><b>Doctoral Consortium</b></td>
+                <td><b>June 3rd, 2026 (23:59 AoE, Wednesday)</b></td>
             </tr>
             <tr data-deadline="2026-05-22T23:59:59-12:00">
                 <td><b>Tutorials</b></td>
@@ -100,25 +116,13 @@ redirect_from: /
                 <td><b>Workshops</b></td>
                 <td><b>May 22nd, 2026 (23:59 AoE, Friday)</b></td>
             </tr>
-            <tr data-deadline="2026-06-03T23:59:59-12:00">
-                <td><b>Doctoral Consortium</b></td>
-                <td><b>June 3rd, 2026 (23:59 AoE, Wednesday)</b></td>
+            <tr data-deadline="2026-03-16T23:59:59-12:00">
+                <td><b>Papers</b></td>
+                <td><b>March 16th, 2026 (23:59 AoE, Monday)</b></td>
             </tr>
-            <tr data-deadline="2026-06-25T23:59:59-12:00">
-                <td><b>Posters</b></td>
-                <td><b>June 25th, 2026 (23:59 AoE, Thursday)</b></td>
-            </tr>
-            <tr data-deadline="2026-07-15T23:59:59-12:00">
-                <td><b>Student Volunteers</b></td>
-                <td><b>July 15th, 2026 (23:59 AoE, Wednesday)</b></td>
-            </tr>
-             <tr data-deadline="2026-07-17T23:59:59-12:00">
-                <td><b>Demos</b></td>
-                <td><b>July 17th, 2026 (23:59 AoE, Tuesday)</b></td>
-            </tr>
-            <tr data-deadline="2026-09-04T23:59:59-12:00">
-                <td><b>Paper Presentation Videos</b></td>
-                <td><b>September 4th, 2026 (23:59 AoE, Friday)</b></td>
+            <tr data-deadline="2026-03-09T23:59:59-12:00">
+                <td><b>Paper Abstract</b></td>
+                <td><b>March 9th, 2026 (23:59 AoE, Monday)</b></td>
             </tr>
         </tbody>
     </table>
