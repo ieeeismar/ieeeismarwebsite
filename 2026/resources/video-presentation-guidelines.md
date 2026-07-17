@@ -35,10 +35,10 @@ This year, IEEE ISMAR  has extended the traditional **Paper Presentation Videos*
 - **Closed captions:** Authors are encouraged to prepare a timestamped closed-caption file in VTT format.
 - **Naming convention:** `Tag_paperID_video`
 - **Contribution tags:**
-  - cf (accepted as conference paper)
-  - jc (accepted as journal paper)
-  - Invited-tvcg (invited TVCG paper)
-  - Invited-cga (invited CG&A paper)
+  - CP (accepted as conference paper)
+  - JP (accepted as journal paper)
+  - ITVCG (invited TVCG paper)
+  - ICGA (invited CG&A paper)
 - **Storage:** Upload the files to a cloud drive, such as Google Drive, Dropbox, or Mega, with public link access. Submit the links via PCS. **NOTE:** Do not use YouTube. 
 
 
@@ -63,14 +63,17 @@ This year, IEEE ISMAR  has extended the traditional **Paper Presentation Videos*
 - **Storage:** Upload the files to a cloud drive, such as Google Drive, Dropbox, or Mega, with public link access. Submit the links via PCS. **NOTE:** Do not use YouTube. 
 - **Naming convention:** `tag_paper-id_session_teaservideo`
 - **Contribution tags:**
-  - cf (accepted as conference paper)
-  - jc (accepted as journal paper)
-  - invited-tvcg (invited TVCG paper)
-  - invited-cga (invited CG&A paper)
-  - pt (poster) 
-  - dm (demo)
-  - ws (workshop)
-  - tt (tutorials)
+  - CP (accepted as conference paper)
+  - JP (accepted as journal paper)
+  - ITVCG (invited TVCG paper)
+  - ICGA (invited CG&A paper)
+  - PT (poster) 
+  - DM (demo)
+  - WS (workshop)
+  - WSP – (workshop paper)
+  - WSPT – (workshop poster)
+  - WSDM – (workshop demo)
+  - TT (tutorial)
 
 
 ---
