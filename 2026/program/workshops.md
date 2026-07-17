@@ -8,6 +8,17 @@ permalink: /2026/workshops/
 
 ---
 
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQFFZGXF3Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FQFFZGXF3Y');
+</script>
+
 ## Overview
 
 This page contains information about the call for workshop papers for ISMAR 2026 for all accepted workshops. Each workshop has its own submission deadline and requirements, so please refer to the specific workshop pages for details.
