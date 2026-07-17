@@ -39,7 +39,7 @@ This year, IEEE ISMAR  has extended the traditional **Paper Presentation Videos*
   - JP (accepted as journal paper)
   - ITVCG (invited TVCG paper)
   - ICGA (invited CG&A paper)
-- **Storage:** Upload the files to a cloud drive, such as Google Drive, Dropbox, or Mega, with public link access. Submit the links via PCS. **NOTE:** Do not use YouTube. 
+- **Storage:** Upload the files to a cloud drive, such as Google Drive, Dropbox, or Mega, with public link access. Submit the links via PCS. Authors of non-PCS submissions are asked to contact the organizers or chairs of their track regarding video sharing. **NOTE:** Do not use YouTube. 
 
 
 ---
@@ -60,7 +60,7 @@ This year, IEEE ISMAR  has extended the traditional **Paper Presentation Videos*
 - **Resolution:** 1080p HD, 1920 × 1080 progressive, 16:9 aspect ratio, MP4 format with H.264 compression.
 - **Structure:** The video must include a cover at the beginning with the title, authors, and affiliations, and credits at the end using the provided template.
 - **Compliance:** All content used must be royalty-free and adhere to ISMAR26 [Code of Conduct](/2026/code-of-conduct/).
-- **Storage:** Upload the files to a cloud drive, such as Google Drive, Dropbox, or Mega, with public link access. Submit the links via PCS. **NOTE:** Do not use YouTube. 
+- **Storage:** Upload the files to a cloud drive, such as Google Drive, Dropbox, or Mega, with public link access. Submit the links via PCS. Authors of non-PCS submissions are asked to contact the organizers or chairs of their track regarding video sharing. **NOTE:** Do not use YouTube. 
 - **Naming convention:** `tag_paper-id_session_teaservideo`
 - **Contribution tags:**
   - CP (accepted as conference paper)
