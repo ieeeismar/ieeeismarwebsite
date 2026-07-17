@@ -9,9 +9,20 @@ permalink: /2026/tutorials/
 
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQFFZGXF3Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FQFFZGXF3Y');
+</script>
+
+
 ### AI-Driven Virtual Humans
 
-**Main Contact Person**: <a href="mailto:gabor.soros@nokia-bell-labs.com">Marco Gillies</a> 
+**Main Contact Person**: <a href="mailto:M.Gillies@gold.ac.uk ">Marco Gillies</a> 
 
 
 #### **[> Tutorial Website](https://www.seevrlab.com/VHT2026/)**
