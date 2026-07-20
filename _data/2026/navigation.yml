@@ -5,9 +5,9 @@
   children:
     - title: Code of Conduct
       url: "/2026/code-of-conduct/"
- #  - title: Registration
- #     url: "/2026/registration/"
-  #  - title: ISMAR26 Discord
+    - title: Registration
+      url: "/2026/registration/"
+ #   - title: ISMAR26 Discord
  #     url: "/2026/ismar26-discord/"
     - title: Visual Identity
       url: "/2026/visual-identity/"
@@ -77,14 +77,16 @@
   children:
    - title: Overview
      url: "/2026/overview/"
- #  - title: Keynote Speakers
-  #   url: "/2026/keynote-speakers/"
+   - title: Keynote Speakers
+     url: "/2026/keynote-speakers/"
    - title: Workshops
      url: "/2026/workshops/"
    - title: Tutorials
      url: "/2026/tutorials/"
    - title: Future Faculty Forum
      url: "/2026/future-faculty-forum/"
+   - title: Women@ISMAR
+     url: "/2026/women@ismar/"
 
 
 - title: Resources
