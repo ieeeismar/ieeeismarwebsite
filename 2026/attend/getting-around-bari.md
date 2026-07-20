@@ -961,7 +961,7 @@ The hotel is approximately 5 km from Bari Centrale Railway Station and about 16â
 
 </section>
 
-{% comment %}
+
 ---
 
 ## How to Reach the Banquet Venue {#banquet-venue}
@@ -1218,7 +1218,7 @@ The Banquet will take place at **Villa Romanazzi Carducci**, a historic venue lo
   </details>
 
 </section>
-{% endcomment %}
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 
@@ -1391,8 +1391,6 @@ The Banquet will take place at **Villa Romanazzi Carducci**, a historic venue lo
         zoom: 15
       }
 
-      /*
-      // Banquet venue: currently hidden. Remove this comment block to restore it.
       ,{
         id: "banquet",
         title: "Villa Romanazzi Carducci",
@@ -1406,7 +1404,7 @@ The Banquet will take place at **Villa Romanazzi Carducci**, a historic venue lo
         type: "point",
         zoom: 15
       }
-      */
+      
     ];
 
     var markers = {};

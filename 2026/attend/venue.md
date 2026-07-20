@@ -61,7 +61,7 @@ The Nicolaus Hotel offers a welcoming atmosphere, bright interiors, and function
 </div>
 
 ---
-{% comment %}
+
 
 ## Banquet Venue: Villa Romanazzi Carducci
 
@@ -109,7 +109,7 @@ The ISMAR 2026 banquet will take place at **Villa Romanazzi Carducci**, a histor
 </div>
 
 ---
-{% endcomment %}
+
  
   <div class="dg-intro">
     <p>An interactive guide to restaurants, pizzerias, sushi spots and pubs within walking distance of <strong>The Nicolaus Hotel Bari</strong>, the ISMAR 2026 venue, in the Poggiofranco district. Filter by type, sort by distance or rating, and tap any place for directions.</p>
