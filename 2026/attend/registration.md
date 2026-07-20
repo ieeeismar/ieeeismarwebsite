@@ -1031,25 +1031,7 @@ All refund/cancellation requests must be received in writing at [registration202
     </div>
   </details>
 
-  <details class="faq-item">
-    <summary>I am a Student Volunteer with a complimentary registration, but I am also an author. What should I do?</summary>
-    <div class="faq-content">
-      <p>Given that each contribution requires a Full Conference Author Registration, then either:</p>
 
-      <ul>
-        <li>A co-author completes the Full Conference Author Registration for your contribution, or</li>
-        <li>
-          You register yourself under Full Conference Author Registration, even if you have a
-          complimentary Student Volunteer registration.
-        </li>
-      </ul>
-
-      <p>
-        Any additional contributions beyond the first must be paid separately
-        according to the registration fee table above.
-      </p>
-    </div>
-  </details>
 
   <details class="faq-item">
     <summary>What is the new registration fee model?</summary>
