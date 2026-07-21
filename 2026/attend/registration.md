@@ -77,11 +77,28 @@ permalink: /2026/registration/
 October 5-9, 2026 | Bari, Italy
 
 <p>
-  <a href="#" class="registration-link disabled" role="button" aria-disabled="true">
+  <a href="#" class="registration-link disabled" role="button" aria-disabled="true"> 
     Registration link coming soon
   </a>
 </p>
 
+<!--
+WHEN THE REGISTRATION LINK IS AVAILABLE:
+
+1. Replace href="#" with the registration URL.
+2. Remove the "disabled" class.
+3. Change aria-disabled="true" to aria-disabled="false".
+4. Update the button text.
+
+Example:
+
+<a href="YOUR_REGISTRATION_LINK"
+   class="registration-link"
+   role="button"
+   aria-disabled="false">
+  Register now
+</a>
+-->
 
 We look forward to hosting you at **ISMAR 2026**, where we anticipate an engaging week of discussion on innovative research and advances in AR, VR, XR, and even reality-reality!
 

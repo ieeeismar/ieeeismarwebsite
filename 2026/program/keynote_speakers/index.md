@@ -81,7 +81,7 @@ Antonio Rizzo is Full Professor at the University of Siena, where he works at th
  <figcaption>Misha Sra, Associate Professor, University  of California, Santa Barbara</figcaption>
 </figure>
 <h2>Keynote Talk 3 (Fri, 9 Oct. 2026)</h2>
-<h2>Misha Sra<span style="font-weight: 200">|</span> <span style="font-weight: 400">Associate Professor, University  of California, Santa Barbara</span></h2>
+<h2>Misha Sra<span style="font-weight: 200"> |</span> <span style="font-weight: 400">Associate Professor, University  of California, Santa Barbara</span></h2>
 <!-- markdownlint-enable MD033 -->
 
 ### **Title:** Spatial Human-AI Interaction
