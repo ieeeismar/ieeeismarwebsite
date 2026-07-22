@@ -69,7 +69,7 @@ permalink: /2026/registration/
 
 <div class="registration-note">
   <ul>
-    <li>Early online registration will open in July 2026.</li>
+    <li>Early online registration is now open until August 30, 2026 (AoE).</li>
   </ul>
 </div>
 
