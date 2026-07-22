@@ -76,9 +76,16 @@ permalink: /2026/registration/
 **IEEE International Symposium on Mixed and Augmented Reality (ISMAR)**  
 October 5-9, 2026 | Bari, Italy
 
-<p>
+<!-- Removed Disabled Registration Link Button -->
+<!-- <p>
   <a href="#" class="registration-link disabled" role="button" aria-disabled="true"> 
     Registration link coming soon
+  </a>
+</p> -->
+
+<p>
+  <a href="https://iscrizioni.cicsud.it/cmsweb/Login.asp?IDcommessa=2649&Lang=EN" class="registration-link" role="button" aria-disabled="false"> 
+    Register Now
   </a>
 </p>
 
