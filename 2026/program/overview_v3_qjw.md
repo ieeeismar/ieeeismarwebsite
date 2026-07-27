@@ -82,7 +82,7 @@ permalink: /2026/overview/
 <div class="program-panels">
 
   <!-- MONDAY -->
-  <section class="program-panel" id="day-2026-10-05" role="tabpanel" data-panel-date="2026-10-05">
+  <section class="program-panel" id="day-2026-10-05" data-panel-date="2026-10-05">
     <h2>Monday, 5 October 2026</h2>
     <div class="time-overview" aria-label="Jump to part of the day">
       <button type="button" data-period="morning">08:30–14:00</button>
@@ -299,7 +299,7 @@ permalink: /2026/overview/
   </section>
 
   <!-- TUESDAY -->
-  <section class="program-panel" id="day-2026-10-06" role="tabpanel" data-panel-date="2026-10-06" hidden>
+  <section class="program-panel" id="day-2026-10-06" data-panel-date="2026-10-06">
     <h2>Tuesday, 6 October 2026</h2>
     <div class="time-overview" aria-label="Jump to part of the day">
       <button type="button" data-period="morning">08:30–14:00</button>
@@ -517,7 +517,7 @@ permalink: /2026/overview/
   </section>
 
   <!-- WEDNESDAY -->
-  <section class="program-panel" id="day-2026-10-07" role="tabpanel" data-panel-date="2026-10-07" hidden>
+  <section class="program-panel" id="day-2026-10-07" data-panel-date="2026-10-07">
     <h2>Wednesday, 7 October 2026</h2>
     <div class="time-overview" aria-label="Jump to part of the day">
       <button type="button" data-period="morning">08:30–14:00</button>
@@ -637,7 +637,7 @@ permalink: /2026/overview/
   </section>
 
   <!-- THURSDAY -->
-  <section class="program-panel" id="day-2026-10-08" role="tabpanel" data-panel-date="2026-10-08" hidden>
+  <section class="program-panel" id="day-2026-10-08" data-panel-date="2026-10-08">
     <h2>Thursday, 8 October 2026</h2>
     <div class="time-overview" aria-label="Jump to part of the day">
       <button type="button" data-period="morning">08:30–14:00</button>
@@ -832,7 +832,7 @@ permalink: /2026/overview/
   </section>
 
   <!-- FRIDAY -->
-  <section class="program-panel" id="day-2026-10-09" role="tabpanel" data-panel-date="2026-10-09" hidden>
+  <section class="program-panel" id="day-2026-10-09" data-panel-date="2026-10-09">
     <h2>Friday, 9 October 2026</h2>
     <div class="time-overview" aria-label="Jump to part of the day">
       <button type="button" data-period="morning">08:30–14:00</button>
@@ -1060,8 +1060,8 @@ permalink: /2026/overview/
   border-bottom-color: rgba(255, 255, 255, 0.35);
 }
 
-.program-panel[hidden] {
-  display: none;
+.program-panel {
+  margin-bottom: 3rem;
 }
 
 .day-schedule {
@@ -1607,97 +1607,31 @@ permalink: /2026/overview/
 <script>
 (function () {
   const tabs = Array.from(document.querySelectorAll(".program-tab"));
-  const miniTabs = Array.from(document.querySelectorAll(".mini-day-tab"));
-  const miniTabsContainer = document.querySelector(".mini-day-tabs");
-  const programTabsContainer = document.querySelector(".program-tabs");
   const panels = Array.from(document.querySelectorAll(".program-panel"));
 
   if (!tabs.length || !panels.length) {
     return;
   }
 
-  const conferenceDates = [
-    "2026-10-05",
-    "2026-10-06",
-    "2026-10-07",
-    "2026-10-08",
-    "2026-10-09"
-  ];
-
-  function activate(dateValue) {
-    let index = conferenceDates.indexOf(dateValue);
-
-    if (index < 0) {
-      index = 0;
+  // Scroll to the panel for the given date
+  function scrollToDay(dateValue) {
+    const targetPanel = document.getElementById("day-" + dateValue);
+    if (targetPanel) {
+      targetPanel.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
     }
-
-    tabs.forEach(function (tab, tabIndex) {
-      const selected = tabIndex === index;
-      tab.setAttribute("aria-selected", String(selected));
-      tab.tabIndex = selected ? 0 : -1;
-    });
-
-    miniTabs.forEach(function (miniTab, miniTabIndex) {
-      const selected = miniTabIndex === index;
-      miniTab.setAttribute("aria-selected", String(selected));
-    });
-
-    panels.forEach(function (panel, panelIndex) {
-      panel.hidden = panelIndex !== index;
-    });
   }
 
-  // Mini tabs always visible for now (scroll detection disabled)
-  // miniTabsContainer.style.display = "flex";
-
-  // Mini tab click handlers
-  // miniTabs.forEach(function (miniTab) {
-  //   miniTab.addEventListener("click", function () {
-  //     activate(miniTab.dataset.date);
-  //   });
-  // });
-
-  function currentConferenceDate() {
-    const parts = new Intl.DateTimeFormat("en-CA", {
-      timeZone: "Europe/Paris",
-      year: "numeric",
-      month: "2-digit",
-      day: "2-digit"
-    }).formatToParts(new Date());
-
-    const values = {};
-
-    parts.forEach(function (part) {
-      values[part.type] = part.value;
-    });
-
-    const today = values.year + "-" + values.month + "-" + values.day;
-    return conferenceDates.includes(today) ? today : conferenceDates[0];
-  }
-
-  tabs.forEach(function (tab, index) {
+  // Tab click handlers - scroll to the corresponding day
+  tabs.forEach(function (tab) {
     tab.addEventListener("click", function () {
-      activate(tab.dataset.date);
-    });
-
-    tab.addEventListener("keydown", function (event) {
-      let next = index;
-
-      if (event.key === "ArrowRight") {
-        next = (index + 1) % tabs.length;
-      } else if (event.key === "ArrowLeft") {
-        next = (index - 1 + tabs.length) % tabs.length;
-      } else {
-        return;
-      }
-
-      event.preventDefault();
-      activate(tabs[next].dataset.date);
-      tabs[next].focus();
+      scrollToDay(tab.dataset.date);
     });
   });
 
-
+  // Time overview button handlers
   document.querySelectorAll(".time-overview button").forEach(function (button) {
     button.addEventListener("click", function () {
       const panel = button.closest(".program-panel");
@@ -1731,7 +1665,5 @@ permalink: /2026/overview/
       }
     });
   });
-
-  activate(currentConferenceDate());
 })();
 </script>
