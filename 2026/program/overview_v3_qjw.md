@@ -18,16 +18,18 @@ permalink: /2026/overview/
       <span class="">Tutorials</span>
       <span class="">Doctoral Consortium</span>
     </span>
+    <span class="jump-to">Jump to Monday</span>
   </button>
   <button class="program-tab" role="tab" aria-selected="false" aria-controls="day-2026-10-06" data-date="2026-10-06" tabindex="-1">
     <strong><span class="day-long">Tuesday</span><span class="day-short">Tue</span></strong>
     <span>6 Oct 2026</span>
     <span class="day-details">
       <span class="">Workshops</span>
-      <span class="">Tutorials</span> 
+      <span class="">Tutorials</span>
       <span class="">Future Faculty Forum</span>
       <span class="day-highlight">Welcome Reception</span>
     </span>
+    <span class="jump-to">Jump to Tuesday</span>
   </button>
   <button class="program-tab" role="tab" aria-selected="false" aria-controls="day-2026-10-07" data-date="2026-10-07" tabindex="-1">
     <strong><span class="day-long">Wednesday</span><span class="day-short">Wed</span></strong>
@@ -39,6 +41,7 @@ permalink: /2026/overview/
       <span class="">Posters</span>
       <span class="">Demos</span>
     </span>
+    <span class="jump-to">Jump to Wednesday</span>
   </button>
   <button class="program-tab" role="tab" aria-selected="false" aria-controls="day-2026-10-08" data-date="2026-10-08" tabindex="-1">
     <strong><span class="day-long">Thursday</span><span class="day-short">Thu</span></strong>
@@ -50,6 +53,7 @@ permalink: /2026/overview/
       <span class="">Demos</span>
       <span class="day-highlight">Banquet</span>
     </span>
+    <span class="jump-to">Jump to Thursday</span>
   </button>
   <button class="program-tab" role="tab" aria-selected="false" aria-controls="day-2026-10-09" data-date="2026-10-09" tabindex="-1">
     <strong><span class="day-long">Friday</span><span class="day-short">Fri</span></strong>
@@ -61,6 +65,7 @@ permalink: /2026/overview/
       <span class="">Demos</span>
       <span class="day-highlight">Closing</span>
     </span>
+    <span class="jump-to">Jump to Friday</span>
   </button>
 </div>
 
@@ -967,7 +972,7 @@ permalink: /2026/overview/
 
 .program-tab {
   display: grid;
-  grid-template-rows: 1.6rem 1.5rem 1fr;
+  grid-template-rows: 1.6rem 1.5rem 1fr auto;
   align-items: start;
   min-height: 230px;
   padding: 1rem 0.75rem;
@@ -990,7 +995,7 @@ permalink: /2026/overview/
   align-self: center;
 }
 
-.program-tab > span:not(.day-details) {
+.program-tab > span:not(.day-details):not(.jump-to) {
   grid-row: 2;
   align-self: start;
 }
@@ -1021,6 +1026,14 @@ permalink: /2026/overview/
   border-bottom: 1px solid rgba(0, 0, 0, 0.14);
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.jump-to {
+  grid-row: 4;
+  align-self: end;
+  padding-top: 0.5rem;
+  font-size: 0.85rem;
+  text-decoration: underline;
 }
 
 .day-short {
@@ -1306,7 +1319,7 @@ permalink: /2026/overview/
   }
 
   .program-tab {
-    grid-template-rows: 1.15rem 1.05rem 1fr;
+    grid-template-rows: 1.15rem 1.05rem 1fr auto;
     min-width: 0;
     min-height: 165px;
     padding: 0.55rem 0.2rem;
@@ -1350,6 +1363,11 @@ permalink: /2026/overview/
   .day-highlight-below {
     margin-bottom: 0.3rem !important;
     padding-bottom: 0.3rem !important;
+  }
+
+  .jump-to {
+    padding-top: 0.3rem;
+    font-size: 0.52rem;
   }
 
   .schedule-head,
@@ -1418,7 +1436,7 @@ permalink: /2026/overview/
   }
 
   .program-tab {
-    grid-template-rows: 1.05rem 0.95rem 1fr;
+    grid-template-rows: 1.05rem 0.95rem 1fr auto;
     min-height: 158px;
     padding: 0.45rem 0.12rem;
     font-size: 0.62rem;
