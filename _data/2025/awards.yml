@@ -1,0 +1,166 @@
+# ISMAR 2025 Awards Data
+
+conference_awards:
+  - name: "Best Paper Award – Winner 1"
+    description: "*Negotiated User-to-Group Teleportations in Social VR*"
+    recipient: "Wen-Tong Shu, Yi-Jun Li, Hao-Zhong Yang, Zi-Nan Han, Frank Steinicke, Miao Wang"
+
+  - name: "Best Paper Award – Winner 2"
+    description: "*Detecting Visual Information Manipulation Attacks in Augmented Reality: A Multimodal Semantic Reasoning Approach*"
+    recipient: "Yanming Xiu and Maria Gorlatova"
+
+  - name: "Best Paper Award – Winner 3"
+    description: "*Ada: A Distributed, Power-Aware, Real-Time Scene Provider for XR*"
+    recipient: "Yihan Pang, Sushant Kondguli, Shenlong Wang, and Sarita Adve"
+
+  - name: "Best Paper Award – Winner 4"
+    description: "*Viewpoint-Tolerant Depth Perception for Shared Extended Space Experience on Wall-Sized Display*"
+    recipient: "Dooyoung Kim, Jinseok Hong, Heejeong Ko, and Woontack Woo"
+
+  - name: "Best Paper Award – Winner 5"
+    description: "*A Handheld Stiffness Display with a Programmable Spring and Electrostatic Clutches for Haptic Interaction in Virtual Reality*"
+    recipient: "Ke Shi, Quan Xiong, Maozeng Zhang, Aiguo Song, and Lifeng Zhu"
+
+  - name: "Best Paper Award – Winner 6"
+    description: "*When LLMs Recognize Your Space: Research on Experiences with Spatially Aware LLM Agents*"
+    recipient: "Seungwoo Oh, Nakyoung An, Youngwug Cho, Myeongul Jung, and Kwanguk (Kenny) Kim"
+
+  - name: "Best Paper Award – Winner 7"
+    description: "*Visuo-Tactile Feedback with Hand Outline Styles for Modulating Affective Roughness Perception*"
+    recipient: "Minju Baeck, Yoonseok Shin, Dooyoung Kim, Hyunjin Lee, Sang Ho Yoon, and Woontack Woo"
+
+  - name: "Best Paper Award – Honorable Mention 1"
+    description: "*Exploring and Modeling the Effects of Eye-Tracking Accuracy and Precision on Gaze-Based Steering in Virtual Environments*"
+    recipient: "Xuning Hu, Yichuan Zhang, Yushi Wei, Liangyuting Zhang, Yue Li, Wolfgang Stuerzlinger, and Hai-Ning Liang"
+
+  - name: "Best Paper Award – Honorable Mention 2"
+    description: "*LiteAT: A Data-Lightweight and User-Adaptive VR Telepresence System for Remote Education*"
+    recipient: "Yuxin Shen, Wei Liang and Jianzhu Ma"
+
+  - name: "Best Paper Award – Honorable Mention 3"
+    description: "*p-Blend: Privacy- and Utility-Preserving Blendshape Perturbation Against Re-identification Attacks in Virtual Reality*"
+    recipient: "Jingwei Liu, Lai Wei, Yan Hu, Guangrong Zhao, Qing Yang, Guangdong Bai, and Yiran Shen"
+
+  - name: "Best Paper Award – Honorable Mention 4"
+    description: "*Portable Silent Room: Exploring VR Design for Anxiety and Emotion Regulation for Neurodivergent Women and Non-Binary Individuals*"
+    recipient: "Kinga Skiers, Yun Suen Pai, Marina Nakagawa, Kouta Minamizawa, Giulia Barbareschi"
+
+  - name: "Best Paper Award – Honorable Mention 5"
+    description: "*'I was truly able to express the image of myself that I have within': Exploring VR Group Therapy Approaches with the LGBTQIA+ community*"
+    recipient: "Kinga Skiers, Danyang Peng, Anish Kundu, Tanner Person, Kenkichi Takase, Tamii Nagoshi, Sawako Nakayama, Yano Yuichiro, Tomoyuki Miyazaki, Kouta Minamizawa, and Giulia Barbareschi"
+
+  - name: "Best Paper Award – Honorable Mention 6"
+    description: "*How Do We Read Texts in VR?: The Effects of Text Segment Quantity and Social Distraction on Text Readability in Virtual Museum Contexts*"
+    recipient: "Jungmin Lee, Hyuckjin Jang, and Jeongmi Lee"
+
+  - name: "Best Paper Award – Honorable Mention 7"
+    description: "*Visceral Notices and Privacy Mechanisms for Eye Tracking in Augmented Reality*"
+    recipient: "Nissi Otoo, Kailon Blue, G. Nikki Ramirez, Evan Selinger, Shaun Foster, and Brendan David-John"
+
+  - name: "Best Paper Award – Honorable Mention 8"
+    description: "*Handows: A Palm-Based Interactive Multi-Window Management System in Virtual Reality*"
+    recipient: "Jin-Du Wang, Ke Zhou, Haoyu Ren, Per Ola Kristensson, and Xiang Li"
+
+  - name: "Best Paper Award – Honorable Mention 9"
+    description: "*Casual-VRAuth: A Design Framework Bridging Focused and Casual Interactions for Behavioral Authentication in Virtual Reality*"
+    recipient: "GuanYu Ye, BoYu Gao, and Huawei Tu"
+
+  - name: "Best Paper Award – Honorable Mention 10"
+    description: "*Facilitating the Exploration of Linearly Aligned Objects in Controller-Free 3D Environment with Gaze and Microgestures*"
+    recipient: "Jihyeon Lee, Jinwook Kim, and Jeongmi Lee"
+
+  - name: "Best Paper Award – Honorable Mention 11"
+    description: "*Impact of Avatar-Locomotion Congruence on User Experience and Identification in Virtual Reality*"
+    recipient: "Omar Khan, Hyeongil Nam, and Kangsoo Kim"
+
+  - name: "Best Paper Award – Honorable Mention 12"
+    description: "*The AI of the Beholder: Experience of Healthcare AI Robots is Shaped by User-Centred Factors, Not Their Visual Appearance*"
+    recipient: "Jinha Yoon, Patrycja Zajac, Lauren Pococke, Anisia Jicol, Christopher Clarke, Eamonn O'Neill, Karin Petrini, Christof Lutteroth, and Crescent Jicol"
+
+  - name: "Best Paper Award – Honorable Mention 13"
+    description: "*MetaRoundWorm: A Virtual Reality Escape Room Game for Learning the Lifecycle and Immune Response to Parasitic Infections*"
+    recipient: "Xuanru Cheng, Xian Wang, Chi-lok Tai, and Lik-Hang Lee"
+
+  - name: "Best Paper Award – Honorable Mention 14"
+    description: "*The Effect of Hand Visibility in AR: Comparing Dexterity and Interaction with Virtual and Real Objects*"
+    recipient: "Jakob Hartbrich, Stephanie Arévalo Arboleda, Steve Göring, and Alexander Raake"
+
+  - name: "Best Paper Award – Honorable Mention 15"
+    description: "*Extended Reality Check: Evaluating XR Prototyping for Human-Robot Interaction in Contact-Intensive Tasks*"
+    recipient: "Tonia Mielke, Mareen Allgaier, Christian Hansen, and Florian Heinrich"
+
+  - name: "Best Paper Award – Honorable Mention 16"
+    description: "*Influence of Object Height, Shadow and Adapting Luminance on Outdoor Depth Perception in Augmented Reality*"
+    recipient: "Shining Ma, Chaochao Liu, Jingyuan Wang, Yue Liu, Yongtian Wang, and Weitao Song"
+
+  - name: "Best Paper Award – Honorable Mention 17"
+    description: "*The Impact of AI-Based Real-Time Gesture Generation and Immersion on the Perception of Others and Interaction Quality in Social XR*"
+    recipient: "Christian Merz, Niklas Krome, Carolin Wienrich, Stefan Kopp, and Marc Erich Latoschik"
+
+  - name: "Best Doctoral Consortium Presentation Award"
+    description: "*Toward Safe, Trustworthy and Realistic Augmented Reality User Experience*"
+    recipient: "Yanming Xiu"
+
+  - name: "Best Doctoral Consortium Presentation Award – Honorable Mention"
+    description: "*Thinking Outside the Eyebox: Evaluation of Perceptual Effects Deriving from Pupil Swim Distortions in Head-Mounted Displays*"
+    recipient: "Hunter Finney"
+
+  - name: "Best Demonstration Award"
+    description: "*Demonstration of Multisensory In-Car VR: Repurposing the Vehicle's HVAC System and Power Seat for Immersive Haptic Feedback*"
+    recipient: "Dohyeon Yeo, Gwangbin Kim, Minwoo Oh, Jeongju Park, Bocheon Gim, Seongjun Kang, Ahmed Elsharkawy, and SeungJun Kim"
+
+  - name: "Best Demonstration Award – Honorable Mention"
+    description: "*Avacard: Exercise Data-Driven AI-Generated Cards to Enhance Interactivity for Extended Reality Exergame Through Metagame*"
+    recipient: "Kuan-Ning Chang, Yu-Hin Chan, Jung Shen, Meng-Wei Lu, Tse-Yu Pan, and Ping-Hsuan Han"
+
+  - name: "Best Poster Award – Regular Posters"
+    description: "*Adaptive Augmented Reality Pathfinding for Parkinson's Disease: Integrating Visual Cueing with User-Directed Navigation*"
+    recipient: "Dimah Bassal and Daniel Medeiros"
+
+  - name: "Best Poster Award – Regular Posters – Honorable Mention 1"
+    description: "*Reducing Visual Fatigue in XR via Peripheral Chromatic Blur*"
+    recipient: "Eunbeen Jeong and Uijong Ju"
+
+  - name: "Best Poster Award – Regular Posters – Honorable Mention 2"
+    description: "*Your Eyes Hold Your Mind: Gaze-Based Inference of Human Decision-Making in Conditionally Automated Driving*"
+    recipient: "Minseo Choi, Hoe Sung Ryu, Haechan Lee, and Uijong Ju"
+
+  - name: "Best Poster Award – Posters from Conference Papers"
+    description: "*ExciteVR: Effective Cybersickness Mitigation in Virtual Reality using Explainable Artificial Intelligence and Large Language Models*"
+    recipient: "Ripan Kumar Kundu, Istiak Ahmed, John Quarles, and Khaza Anuarul Hoque"
+
+  - name: "Best Poster Award – Posters from Conference Papers – Honorable Mention 1"
+    description: "*Impact of Target and Tool Visualization on Depth Perception and Usability in Optical See-Through AR*"
+    recipient: "Yue Yang, Xue Xie, Xingkai Wang, Hui Zhang, Chiming Yu, Xiaoxian Xiong, Lifeng Zhu, Yuanyi Zheng, Jue Cen, Bruce Daniel, and Fred Baik"
+
+  - name: "Best Poster Award – Posters from Conference Papers – Honorable Mention 2"
+    description: "*cARdefender: a Mixed Reality Game for Vehicle Passengers*"
+    recipient: "Simone Spera, Otino Pio Santosuosso, Aurelio Sepe, Giuliana Vitiello, Andrea Antonio Cantone, and Stephen Brewster"
+
+  - name: "Best Student Volunteer Award – Winner 1"
+    description: ""
+    recipient: "Seo Young Oh"
+
+  - name: "Best Student Volunteer Award – Winner 2"
+    description: ""
+    recipient: "Adamay Mann"
+
+impact_awards:
+  - name: "ISMAR 2025 Paper Impact Award"
+    description: ""
+    recipients:
+      - name: "Iryna Skrypnyk and David G. Lowe"
+    
+  - name: "ISMAR 2025 Career Impact Award"
+    description: ""
+    recipients:
+      - name: "Bruce Thomas"
+
+award_categories:
+  conference:
+    title: "Conference Awards"
+    description: ""
+
+  impact:
+    title: "Impact Awards"
+    description: ""

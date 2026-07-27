@@ -1,0 +1,16 @@
+<!-- Hero Image Section -->
+<div class="hero-section">
+    <img class="hero-image" src="{{ 'assets/2025/img/hero/hero-1920.jpg' | relative_url }}" srcset="
+        {{ 'assets/2025/img/hero/hero-3840.jpg' | relative_url }} 3840w,
+        {{ 'assets/2025/img/hero/hero-2560.jpg' | relative_url }} 2560w,
+        {{ 'assets/2025/img/hero/hero-1920.jpg' | relative_url }} 1920w,
+        {{ 'assets/2025/img/hero/hero-1280.jpg' | relative_url }} 1280w,
+        {{ 'assets/2025/img/hero/hero-640.jpg' | relative_url }} 640w
+    " sizes="(max-width: 640px) 100vw,
+            (max-width: 1280px) 100vw,
+            (max-width: 1920px) 100vw,
+            100vw" alt="Hero Image" />
+    <div class="hero-text">
+        <h1>{{ page.title }}</h1>
+    </div>
+</div>

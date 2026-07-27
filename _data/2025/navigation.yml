@@ -1,0 +1,93 @@
+- title: Contribute
+  url: "javascript:void(0)"
+  children:
+    - title: Papers
+      url: "2025/contribute/papers"
+    - title: Poster Papers
+      url: "2025/contribute/posters"
+    - title: Demos
+      url: "2025/contribute/demos"
+    - title: Doctoral Consortium
+      url: "2025/contribute/doctoral-consortium"
+    - title: Panels
+      url: "2025/contribute/panels"
+    - title: Tutorials
+      url: "2025/contribute/tutorials"
+    - title: Workshop
+      url: "2025/contribute/workshops"
+    - title: Call for Student Volunteers
+      url: "2025/contribute/student-volunteer"
+    - title: Call for Mentors
+      url: "2025/contribute/mentors"
+    - title: Call for Pitch Your Lab
+      url: "2025/contribute/pitch-your-lab"
+    - title: Guidelines
+      url: "javascript:void(0)"
+      children:
+        - title: Author Guidelines
+          url: "2025/contribute/guidelines/authors"
+        - title: Submission Guidelines
+          url: "2025/contribute/guidelines/submissions"
+        - title: Paper Reviewing Guidelines 
+          url: "2025/contribute/guidelines/reviewing"
+        - title: Poster Papers Guidelines 
+          url: "2025/contribute/guidelines/poster-paper-guidelines"
+        - title: Poster Presentation Guidelines
+          url: "2025/contribute/guidelines/poster-presentation-guidelines"
+        - title: Design Resources
+          url: "https://drive.google.com/drive/folders/1NZUzbVm3OokTEELcTrNLRxjzwYHhPZIE"
+- title: Attend
+  url: "javascript:void(0)"
+  children:
+    - title: Registration
+      url: "2025/attend/registration"
+    - title: Venue
+      url: "2025/attend/venue"
+    - title: Accommodation
+      url: "https://ismar2025.mice.link/booking/ARNXACL?lang=en"
+    - title: Transportation
+      url: "2025/attend/transportation"
+    - title: Visa Requirements
+      url: "2025/attend/visa-requirements"
+    - title: Travel Advisory
+      url: "2025/attend/travel-advisory"
+- title: Program
+  url: "javascript:void(0)"
+  children:
+    - title: Overview
+      url: "2025/program/overview"
+    - title: Keynote Speakers
+      url: "2025/program/keynote-speakers"
+    - title: Papers
+      url: "2025/program/papers"
+    - title: Posters
+      url: "2025/program/posters"
+    - title: Tutorials
+      url: "2025/program/tutorials"
+    - title: Workshop Papers
+      url: "2025/program/workshop-papers"
+    - title: Demos
+      url: "2025/program/demos"
+    - title: XR Lab Tour
+      url: "2025/program/xr-lab-tour"
+    - title: XR Future Faculty Forum
+      url: "2025/program/Future-Faculty-Forum"
+    - title: Pitch Your Lab
+      url: "2025/program/pitch-your-lab"
+    - title: Panels
+      url: "2025/program/panels"
+    - title: Awards
+      url: "2025/program/awards"
+- title: Sponsorship & Exhibition
+  url: "2025/sponsorship-exhibition"
+- title: Committee
+  url: "javascript:void(0)"
+  children:
+    - title: Organizing Committee
+      url: "2025/committee/organizers"
+    - title: Standardization Committee
+      url: "2025/committee/standardization"
+    - title: International Program Committee
+      url: "2025/committee/international-program"
+    - title: Steering Committee
+      url: "2025/committee/steering-committee"

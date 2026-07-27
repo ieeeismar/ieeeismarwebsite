@@ -1,0 +1,150 @@
+{
+  "date": "Oct 12, 2025\n(Sun.)",
+  "headers": [
+    {
+      "text": "Time",
+      "render": true,
+      "colspan": 1
+    },
+    {
+      "text": "Room 101",
+      "render": true,
+      "colspan": 1
+    },
+    {
+      "text": "Room 102",
+      "render": true,
+      "colspan": 1
+    },
+    {
+      "text": "Room 103",
+      "render": true,
+      "colspan": 1
+    },
+    {
+      "text": "Room 104",
+      "render": true,
+      "colspan": 1
+    },
+    {
+      "text": "Room 105",
+      "render": true,
+      "colspan": 1
+    },
+    {
+      "text": "Room 106",
+      "render": true,
+      "colspan": 1
+    }
+  ],
+  "rows": [
+    {
+      "time": "09:00~12:30",
+      "cells": [
+        {
+          "text": "Workshop: NeuroXR",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Workshop: TRUST-XR 2025",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Workshop: XRMemory’25",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Workshop: UNAI 2025",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Workshop: XR-MED’25",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Workshop: KAMRR’25",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        }
+      ]
+    },
+    {
+      "time": "12:30~14:00",
+      "cells": [
+        {
+          "text": "Lunch",
+          "rowspan": 1,
+          "colspan": 6,
+          "render": true
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        },
+        {
+          "render": false
+        }
+      ]
+    },
+    {
+      "time": "14:00~17:30",
+      "cells": [
+        {
+          "text": "Workshop: NeuroXR",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Workshop: TRUST-XR 2025",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Workshop: WoRXR",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Workshop: DeepHumanXR’25",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        },
+        {
+          "text": "Workshop: KAMRR’25",
+          "rowspan": 1,
+          "colspan": 1,
+          "render": true
+        }
+      ]
+    }
+  ]
+}

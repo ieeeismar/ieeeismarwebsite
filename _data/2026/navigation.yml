@@ -1,0 +1,122 @@
+
+
+- title: Attend
+  url: "javascript:void(0)"
+  children:
+    - title: Code of Conduct
+      url: "/2026/code-of-conduct/"
+    - title: Registration
+      url: "/2026/registration/"
+ #   - title: ISMAR26 Discord
+ #     url: "/2026/ismar26-discord/"
+    - title: Visual Identity
+      url: "/2026/visual-identity/"
+    - title: Venue
+      url: "/2026/venue/"
+    - title: Accommodation
+      url: "/2026/accommodation/"
+    - title: Travel & Transportation
+      url: "javascript:void(0)"
+      children:
+        - title: Visa Information
+          url: "/2026/visa-information/"
+        - title: Travel to Bari
+          url: "/2026/travel-to-bari/"
+        - title: Getting Around Bari
+          url: "/2026/getting-around-bari/"
+        - title: Useful Information
+          url: "/2026/useful-information/"
+    - title: Explore Bari & Puglia
+      url: "javascript:void(0)"
+      children:
+        - title: Visit Bari
+          url: "/2026/visit-bari/"
+        - title: Visit Puglia
+          url: "/2026/visit-puglia/"
+        - title: Things to Do
+          url: "/2026/things-to-do/"
+        - title: Gastronomy
+          url: "/2026/gastronomy/"
+
+
+
+- title: Contribute
+  url: "javascript:void(0)"
+  children:
+    - title: Call for Papers
+      url: "/2026/call-for-papers/"
+    - title: Call for Posters
+      url: "/2026/call-for-posters/"
+    - title: Call for Doctoral Consortium
+      url: "/2026/call-for-doctoral-consortium/"
+    - title: Call for Demos
+      url: "/2026/call-for-demos/"
+    - title: Call for Tutorials
+      url: "/2026/call-for-tutorials/"
+    - title: Call for Student Volunteers
+      url: "/2026/call-for-student-volunteers/"
+    - title: Call for Workshops
+      url: "/2026/call-for-workshops/"
+    - title: Call for Pitch Your Lab
+      url: "/2026/call-for-pitch-your-lab/"
+    - title: Guidelines
+      url: "javascript:void(0)"
+      children:
+        - title: Author Guidelines
+          url: "/2026/guidelines/author-guidelines"
+        - title: Writing a Good Ismar Paper
+          url: "/2026/guidelines/writing-good-ismar-paper"
+        - title: Reviewing Guidelines
+          url: "/2026/guidelines/reviewing-guidelines"
+        - title: Paper Submission FAQ
+          url: "https://docs.google.com/document/d/e/2PACX-1vQhy0UItEZ0944HAstZ9gsgeSQ2hQSXe5d5JVX1wFPTJQqyjskHCiKnlnuY7SX3a722sFLyXesMfPMB/pub"
+
+
+- title: Program
+  url: "javascript:void(0)"
+  children:
+   - title: Overview
+     url: "/2026/overview/"
+   - title: Keynote Speakers
+     url: "/2026/keynote-speakers/"
+   - title: Workshops
+     url: "/2026/workshops/"
+   - title: Tutorials
+     url: "/2026/tutorials/"
+   - title: Future Faculty Forum
+     url: "/2026/future-faculty-forum/"
+   - title: Women@ISMAR
+     url: "/2026/women@ismar/"
+
+
+- title: Resources
+  url: "javascript:void(0)"
+  children:
+      - title: Slide Template
+        url: "/2026/resources/slide-template/"
+      - title: Poster Templates
+        url: "/2026/resources/poster-templates/"
+      - title: Social Media Templates
+        url: "/2026/resources/social-media-templates/"
+      - title: Conference Logo and Illustrations
+        url: "/2026/resources/conference-logo/"
+      - title: Video Presentation Guidelines
+        url: "/2026/resources/video-presentation-guidelines/"
+     
+- title: Sponsorship
+  url: "/2026/sponsorship/"
+
+
+- title: Committee
+  url: "javascript:void(0)"
+  children:
+    - title: Organizing Committee
+      url: "/2026/committee/organizing/"
+    - title: Standardization Committee
+      url: "/2026/committee/standardization/"
+    - title: Steering Committee
+      url: "/2026/committee/steering_committee/"
+
+
+- title: Past Conferences
+  url: "/2026/past-conferences/"
