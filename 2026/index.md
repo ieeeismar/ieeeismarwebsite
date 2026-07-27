@@ -113,6 +113,36 @@ redirect_from: /
   text-decoration: underline;
 }
 
+/* SUI announcement header and logo */
+
+.sui-header {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.sui-logo {
+  width: 120px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.sui-heading {
+  flex: 1;
+}
+
+.sui-heading h4 {
+  margin: 0 0 0.35rem;
+}
+
+.sui-heading .announcement-date {
+  margin: 0;
+  font-weight: 700;
+}
+
 /*
 Info categories:
 info = blue
@@ -160,6 +190,20 @@ reminder = orange
 .info-category.reminder a {
   color: #D96F08;
 }
+
+/* Mobile layout */
+
+@media (max-width: 600px) {
+  .sui-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .sui-logo {
+    width: 100px;
+  }
+}
 </style>
 
 <section class="info-categories-section">
@@ -184,11 +228,21 @@ reminder = orange
     </article>
 
     <article class="info-category news">
-      <h4>Continue Your Conference Experience at ACM SUI 2026</h4>
+      <div class="sui-header">
+        <img
+          src="/assets/2026/img/sponsors/SUI.png"
+          alt="ACM SUI 2026 logo"
+          class="sui-logo"
+        >
 
-      <p class="announcement-date">
-        October 10–11, 2026 · Bari, Italy
-      </p>
+        <div class="sui-heading">
+          <h4>Continue Your Conference Experience at ACM SUI 2026</h4>
+
+          <p class="announcement-date">
+            October 10–11, 2026 · Bari, Italy
+          </p>
+        </div>
+      </div>
 
       <p>
         ACM SUI 2026 will take place in Bari immediately after IEEE ISMAR 2026.
@@ -197,8 +251,20 @@ reminder = orange
       </p>
 
       <p>
+        <strong>Attending both ISMAR and SUI?</strong>
+        Enjoy 10% off your SUI registration.
+      </p>
+
+      <p>
+        The discount is available to regular SUI attendees who are not authors
+        of an accepted SUI contribution and who have also registered for ISMAR,
+        either as authors or attendees. Single-day and non-paid Student Volunteer
+        ISMAR26 registrations are not eligible.
+      </p>
+
+      <p>
         <a
-          href="https://sigchi.org/events/sui-2026/"
+          href="https://sui.acm.org/2026/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -209,7 +275,6 @@ reminder = orange
 
   </div>
 </section>
-
 
 
 
