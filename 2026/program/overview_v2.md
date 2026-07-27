@@ -64,6 +64,14 @@ permalink: /2026/overview/
   </button>
 </div>
 
+<div class="mini-day-tabs" aria-label="Quick day selector">
+  <button class="mini-day-tab" data-date="2026-10-05" aria-selected="true">M</button>
+  <button class="mini-day-tab" data-date="2026-10-06" aria-selected="false">T</button>
+  <button class="mini-day-tab" data-date="2026-10-07" aria-selected="false">W</button>
+  <button class="mini-day-tab" data-date="2026-10-08" aria-selected="false">Th</button>
+  <button class="mini-day-tab" data-date="2026-10-09" aria-selected="false">F</button>
+</div>
+
 <div class="program-panels">
 
   <!-- MONDAY -->
@@ -1484,11 +1492,73 @@ permalink: /2026/overview/
   z-index: 1;
 }
 
+/* Mini day tabs - hidden by default (desktop) */
+.mini-day-tabs {
+  display: none;
+}
+
+/* Mobile styles for mini day tabs and sticky date */
+@media (max-width: 800px) {
+  .mini-day-tabs {
+    display: none;
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+    background: #f7ead5;
+  }
+
+  .mini-day-tabs.is-visible {
+    display: flex;
+  }
+
+  .mini-day-tab {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    border: 1px solid #ccd5e1;
+    border-radius: 8px;
+    background: #fff;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+
+  .mini-day-tab[aria-selected="true"] {
+    border-color: #3A8BF3;
+    background: #3A8BF3;
+    color: #fff;
+  }
+
+  /* When mini tabs are visible, h2 becomes sticky below them */
+  .mini-day-tabs.is-visible + .program-panels .program-panel h2 {
+    position: sticky;
+    top: 44px;
+    z-index: 35;
+    margin: 0;
+    padding: 0.4rem 0;
+    background: #f7ead5;
+    font-size: 0.95rem;
+  }
+
+  /* Adjust time-overview top when mini tabs and h2 are sticky */
+  .mini-day-tabs.is-visible + .program-panels .time-overview {
+    top: 80px;
+  }
+}
+
 </style>
 
 <script>
 (function () {
   const tabs = Array.from(document.querySelectorAll(".program-tab"));
+  const miniTabs = Array.from(document.querySelectorAll(".mini-day-tab"));
+  const miniTabsContainer = document.querySelector(".mini-day-tabs");
+  const programTabsContainer = document.querySelector(".program-tabs");
   const panels = Array.from(document.querySelectorAll(".program-panel"));
 
   if (!tabs.length || !panels.length) {
@@ -1516,10 +1586,43 @@ permalink: /2026/overview/
       tab.tabIndex = selected ? 0 : -1;
     });
 
+    miniTabs.forEach(function (miniTab, miniTabIndex) {
+      const selected = miniTabIndex === index;
+      miniTab.setAttribute("aria-selected", String(selected));
+    });
+
     panels.forEach(function (panel, panelIndex) {
       panel.hidden = panelIndex !== index;
     });
   }
+
+  // Scroll detection for mini tabs visibility (mobile only)
+  function checkScroll() {
+    if (window.innerWidth > 800) {
+      miniTabsContainer.classList.remove("is-visible");
+      return;
+    }
+
+    const tabsRect = programTabsContainer.getBoundingClientRect();
+    const tabsBottom = tabsRect.bottom;
+
+    if (tabsBottom < 0) {
+      miniTabsContainer.classList.add("is-visible");
+    } else {
+      miniTabsContainer.classList.remove("is-visible");
+    }
+  }
+
+  window.addEventListener("scroll", checkScroll, { passive: true });
+  window.addEventListener("resize", checkScroll, { passive: true });
+  checkScroll();
+
+  // Mini tab click handlers
+  miniTabs.forEach(function (miniTab) {
+    miniTab.addEventListener("click", function () {
+      activate(miniTab.dataset.date);
+    });
+  });
 
   function currentConferenceDate() {
     const parts = new Intl.DateTimeFormat("en-CA", {

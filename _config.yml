@@ -20,7 +20,8 @@
 
 title: IEEE ISMAR
 baseurl: "" # the subpath of your site, e.g. /blog     /  put this in when live
-url: "" # the base hostname & protocol for your site, e.g. http://example.com    https://www.ieeeismar.net put this in when live
+url: "https://had-dwindling-spinal.ngrok-free.dev" # the base hostname & protocol for your site, e.g. http://example.com    https://www.ieeeismar.net put this in when live
+repository: "ieeeismar/ieeeismar.github.io"
 
 
 # Build settings
