@@ -33,7 +33,7 @@ permalink: /2026/overview/
     <strong><span class="day-long">Wednesday</span><span class="day-short">Wed</span></strong>
     <span>7 Oct 2026</span>
     <span class="day-details">
-      <span class="day-highlight">Opening</span>
+      <span class="day-highlight-below">Opening</span>
       <span class="">Keynote</span>
       <span class="">Papers</span>
       <span class="">Posters</span>
@@ -1013,6 +1013,14 @@ permalink: /2026/overview/
   text-transform: uppercase;
 }
 
+.day-highlight-below {
+  margin-bottom: 0.55rem;
+  padding-bottom: 0.55rem !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .day-short {
   display: none !important;
 }
@@ -1026,6 +1034,10 @@ permalink: /2026/overview/
 
 .program-tab[aria-selected="true"] .day-highlight {
   border-top-color: rgba(255, 255, 255, 0.35);
+}
+
+.program-tab[aria-selected="true"] .day-highlight-below {
+  border-bottom-color: rgba(255, 255, 255, 0.35);
 }
 
 .program-panel[hidden] {
@@ -1331,6 +1343,11 @@ permalink: /2026/overview/
   .day-highlight {
     margin-top: 0.3rem !important;
     padding-top: 0.3rem !important;
+  }
+
+  .day-highlight-below {
+    margin-bottom: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
   }
 
   .schedule-head,
