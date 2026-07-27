@@ -4,7 +4,7 @@ title: Overview
 permalink: /2026/overview/
 ---
 
-*Last updated: 2026-07-27 3:37 PM EDT*
+*Last updated: 2026-07-27 6:30 PM EDT*
 
 # Program Overview
 
@@ -18,7 +18,7 @@ permalink: /2026/overview/
       <span class="">Tutorials</span>
       <span class="">Doctoral Consortium</span>
     </span>
-    <span class="jump-to">Jump to Monday</span>
+    <span class="jump-to">Jump to <span class="jump-to-day">Monday</span></span>
   </button>
   <button class="program-tab" role="tab" aria-selected="false" aria-controls="day-2026-10-06" data-date="2026-10-06" tabindex="-1">
     <strong><span class="day-long">Tuesday</span><span class="day-short">Tue</span></strong>
@@ -29,7 +29,7 @@ permalink: /2026/overview/
       <span class="">Future Faculty Forum</span>
       <span class="day-highlight">Welcome Reception</span>
     </span>
-    <span class="jump-to">Jump to Tuesday</span>
+    <span class="jump-to">Jump to <span class="jump-to-day">Tuesday</span></span>
   </button>
   <button class="program-tab" role="tab" aria-selected="false" aria-controls="day-2026-10-07" data-date="2026-10-07" tabindex="-1">
     <strong><span class="day-long">Wednesday</span><span class="day-short">Wed</span></strong>
@@ -41,7 +41,7 @@ permalink: /2026/overview/
       <span class="">Posters</span>
       <span class="">Demos</span>
     </span>
-    <span class="jump-to">Jump to Wednesday</span>
+    <span class="jump-to">Jump to <span class="jump-to-day">Wednesday</span></span>
   </button>
   <button class="program-tab" role="tab" aria-selected="false" aria-controls="day-2026-10-08" data-date="2026-10-08" tabindex="-1">
     <strong><span class="day-long">Thursday</span><span class="day-short">Thu</span></strong>
@@ -53,7 +53,7 @@ permalink: /2026/overview/
       <span class="">Demos</span>
       <span class="day-highlight">Banquet</span>
     </span>
-    <span class="jump-to">Jump to Thursday</span>
+    <span class="jump-to">Jump to <span class="jump-to-day">Thursday</span></span>
   </button>
   <button class="program-tab" role="tab" aria-selected="false" aria-controls="day-2026-10-09" data-date="2026-10-09" tabindex="-1">
     <strong><span class="day-long">Friday</span><span class="day-short">Fri</span></strong>
@@ -65,7 +65,7 @@ permalink: /2026/overview/
       <span class="">Demos</span>
       <span class="day-highlight">Closing</span>
     </span>
-    <span class="jump-to">Jump to Friday</span>
+    <span class="jump-to">Jump to <span class="jump-to-day">Friday</span></span>
   </button>
 </div>
 
@@ -1034,6 +1034,11 @@ permalink: /2026/overview/
   padding-top: 0.5rem;
   font-size: 0.85rem;
   text-decoration: underline;
+  white-space: nowrap;
+}
+
+.jump-to-day {
+  display: inline !important;
 }
 
 .day-short {
@@ -1319,12 +1324,22 @@ permalink: /2026/overview/
   }
 
   .program-tab {
-    grid-template-rows: 1.15rem 1.05rem 1fr auto;
+    grid-template-rows: auto auto 1fr auto;
+    justify-items: center;
     min-width: 0;
-    min-height: 165px;
-    padding: 0.55rem 0.2rem;
-    font-size: 0.68rem;
-    text-align: center;
+    min-height: 180px;
+    padding: 0.35rem 0.1rem;
+    font-size: 2.5vw;
+    text-align: center !important;
+    overflow: hidden;
+  }
+
+  .program-tab * {
+    text-align: center !important;
+  }
+
+  .program-tab strong {
+    font-size: 2.8vw;
   }
 
   .day-long {
@@ -1336,38 +1351,43 @@ permalink: /2026/overview/
   }
 
   .program-tab > span {
-    margin-top: 0.15rem;
-    font-size: 0.6rem;
-    white-space: nowrap;
+    margin-top: 0.1rem;
+    font-size: 2.2vw;
   }
 
   .day-details {
     display: flex !important;
     flex-direction: column;
+    align-items: center;
     justify-content: flex-start;
-    margin-top: 0.45rem !important;
+    margin-top: 0.3rem !important;
   }
 
   .day-details > span {
-    padding: 0.08rem 0;
-    font-size: 0.54rem !important;
+    padding: 0.05rem 0;
+    font-size: 2vw !important;
     white-space: normal !important;
-    line-height: 1.2;
+    line-height: 1.15;
   }
 
   .day-highlight {
-    margin-top: 0.3rem !important;
-    padding-top: 0.3rem !important;
+    margin-top: 0.2rem !important;
+    padding-top: 0.2rem !important;
   }
 
   .day-highlight-below {
-    margin-bottom: 0.3rem !important;
-    padding-bottom: 0.3rem !important;
+    margin-bottom: 0.2rem !important;
+    padding-bottom: 0.2rem !important;
   }
 
   .jump-to {
-    padding-top: 0.3rem;
-    font-size: 0.52rem;
+    padding-top: 0.2rem;
+    font-size: 2vw;
+    white-space: normal;
+  }
+
+  .jump-to-day {
+    display: block !important;
   }
 
   .schedule-head,
@@ -1436,19 +1456,26 @@ permalink: /2026/overview/
   }
 
   .program-tab {
-    grid-template-rows: 1.05rem 0.95rem 1fr auto;
-    min-height: 158px;
-    padding: 0.45rem 0.12rem;
-    font-size: 0.62rem;
+    grid-template-rows: auto auto 1fr auto;
+    min-height: 170px;
+    padding: 0.3rem 0.08rem;
+    font-size: 2.8vw;
+  }
+
+  .program-tab strong {
+    font-size: 3vw;
   }
 
   .program-tab > span {
-    font-size: 0.56rem;
+    font-size: 2.5vw;
   }
 
-  .program-tab {
-    padding: 0.48rem;
-    font-size: 0.76rem;
+  .day-details > span {
+    font-size: 2.3vw !important;
+  }
+
+  .jump-to {
+    font-size: 2.2vw;
   }
 
   .schedule-head,
