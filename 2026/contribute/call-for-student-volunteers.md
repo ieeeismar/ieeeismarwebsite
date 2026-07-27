@@ -3,7 +3,7 @@ layout: 2026/contribute-page-2026
 title: Call for Student Volunteers
 permalink: /2026/call-for-student-volunteers/
 ---
-*Last updated: 2026-06-08 9:30AM CET*
+*Last updated: 2026-07-27 16:00AM CET*
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FQFFZGXF3Y"></script>
@@ -51,7 +51,7 @@ The following additional considerations will influence volunteer selection:
 - Call for Student Volunteers published on the website: **May 25th, 2026 (23:59 AoE)**
 - Student Volunteer applications open: **June 8th, 2026 (23:59 AoE)**
 - Student Volunteer application deadline: **July 15th, 2026 (23:59 AoE)**
-- Student Volunteer acceptance notifications sent: **July 24th, 2026 (23:59 AoE)**
+- Student Volunteer acceptance notifications sent: **July 29th, 2026 (23:59 AoE)**
 
 ## Expectations
 
