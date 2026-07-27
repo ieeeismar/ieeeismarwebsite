@@ -64,6 +64,7 @@ permalink: /2026/overview/
   </button>
 </div>
 
+<!--
 <div class="mini-day-tabs" aria-label="Quick day selector">
   <button class="mini-day-tab" data-date="2026-10-05" aria-selected="true">M</button>
   <button class="mini-day-tab" data-date="2026-10-06" aria-selected="false">T</button>
@@ -71,6 +72,7 @@ permalink: /2026/overview/
   <button class="mini-day-tab" data-date="2026-10-08" aria-selected="false">Th</button>
   <button class="mini-day-tab" data-date="2026-10-09" aria-selected="false">F</button>
 </div>
+-->
 
 <div class="program-panels">
 
@@ -1075,11 +1077,11 @@ permalink: /2026/overview/
 
 .schedule-row {
   border-top: 1px solid #d7dfe8;
-  scroll-margin-top: 210px;
+  scroll-margin-top: 160px;
 }
 
 .day-schedule {
-  scroll-margin-top: 210px;
+  scroll-margin-top: 160px;
 }
 
 .schedule-time {
@@ -1238,7 +1240,7 @@ permalink: /2026/overview/
 
 .time-overview {
   position: sticky;
-  top: 160px;
+  top: 112px;
   z-index: 30;
   display: flex;
   flex-wrap: wrap;
@@ -1272,7 +1274,7 @@ permalink: /2026/overview/
 @media (max-width: 800px) {
   .time-overview {
     position: sticky;
-    top: 160px;
+    top: 112px;
     z-index: 30;
     flex-wrap: nowrap;
     overflow-x: auto;
@@ -1548,7 +1550,7 @@ permalink: /2026/overview/
 /* Sticky date heading */
 .program-panel h2 {
   position: sticky;
-  top: 120px;
+  top: 72px;
   z-index: 35;
   margin: 0;
   padding: 0.5rem 0;
