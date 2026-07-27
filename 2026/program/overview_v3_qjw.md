@@ -4,7 +4,7 @@ title: Overview
 permalink: /2026/overview/
 ---
 
-*Last updated: 2026-07-21 4:50 PM CEST*
+*Last updated: 2026-07-27 3:37 PM EDT*
 
 # Program Overview
 
@@ -24,7 +24,7 @@ permalink: /2026/overview/
     <span>6 Oct 2026</span>
     <span class="day-details">
       <span class="">Workshops</span>
-      <span class="">Tutorials</span>
+      <span class="">Tutorials</span> 
       <span class="">Future Faculty Forum</span>
       <span class="day-highlight">Welcome Reception</span>
     </span>
@@ -33,7 +33,7 @@ permalink: /2026/overview/
     <strong><span class="day-long">Wednesday</span><span class="day-short">Wed</span></strong>
     <span>7 Oct 2026</span>
     <span class="day-details">
-      <span class="">Opening</span>
+      <span class="day-highlight">Opening</span>
       <span class="">Keynote</span>
       <span class="">Papers</span>
       <span class="">Posters</span>
@@ -949,6 +949,8 @@ permalink: /2026/overview/
 <style>
 .program-tabs,
 .program-tabs *,
+.mini-day-tabs,
+.mini-day-tabs *,
 .program-panels,
 .program-panels * {
   box-sizing: border-box;
@@ -1061,11 +1063,11 @@ permalink: /2026/overview/
 
 .schedule-row {
   border-top: 1px solid #d7dfe8;
-  scroll-margin-top: 165px;
+  scroll-margin-top: 210px;
 }
 
 .day-schedule {
-  scroll-margin-top: 165px;
+  scroll-margin-top: 210px;
 }
 
 .schedule-time {
@@ -1224,7 +1226,7 @@ permalink: /2026/overview/
 
 .time-overview {
   position: sticky;
-  top: 72px;
+  top: 160px;
   z-index: 30;
   display: flex;
   flex-wrap: wrap;
@@ -1258,7 +1260,7 @@ permalink: /2026/overview/
 @media (max-width: 800px) {
   .time-overview {
     position: sticky;
-    top: 76px;
+    top: 160px;
     z-index: 30;
     flex-wrap: nowrap;
     overflow-x: auto;
@@ -1492,63 +1494,48 @@ permalink: /2026/overview/
   z-index: 1;
 }
 
-/* Mini day tabs - hidden by default (desktop) */
+/* Mini day tabs - matches width of main tabs */
 .mini-day-tabs {
-  display: none;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.6rem;
+  position: sticky;
+  top: 72px;
+  z-index: 40;
+  width: 100%;
+  margin: 0;
+  padding: 0.5rem 0;
+  background: #f7ead5;
 }
 
-/* Mobile styles for mini day tabs and sticky date */
-@media (max-width: 800px) {
-  .mini-day-tabs {
-    display: none;
-    position: sticky;
-    top: 0;
-    z-index: 40;
-    justify-content: center;
-    gap: 0.5rem;
-    padding: 0.5rem 0;
-    background: #f7ead5;
-  }
+.mini-day-tab {
+  width: 100%;
+  height: 36px;
+  padding: 0;
+  border: 1px solid #ccd5e1;
+  border-radius: 12px;
+  background: #fff;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
 
-  .mini-day-tabs.is-visible {
-    display: flex;
-  }
+.mini-day-tab[aria-selected="true"] {
+  border-color: #3A8BF3;
+  background: #3A8BF3;
+  color: #fff;
+}
 
-  .mini-day-tab {
-    width: 36px;
-    height: 36px;
-    padding: 0;
-    border: 1px solid #ccd5e1;
-    border-radius: 8px;
-    background: #fff;
-    color: inherit;
-    cursor: pointer;
-    font: inherit;
-    font-size: 0.75rem;
-    font-weight: 600;
-  }
-
-  .mini-day-tab[aria-selected="true"] {
-    border-color: #3A8BF3;
-    background: #3A8BF3;
-    color: #fff;
-  }
-
-  /* When mini tabs are visible, h2 becomes sticky below them */
-  .mini-day-tabs.is-visible + .program-panels .program-panel h2 {
-    position: sticky;
-    top: 44px;
-    z-index: 35;
-    margin: 0;
-    padding: 0.4rem 0;
-    background: #f7ead5;
-    font-size: 0.95rem;
-  }
-
-  /* Adjust time-overview top when mini tabs and h2 are sticky */
-  .mini-day-tabs.is-visible + .program-panels .time-overview {
-    top: 80px;
-  }
+/* Sticky date heading */
+.program-panel h2 {
+  position: sticky;
+  top: 120px;
+  z-index: 35;
+  margin: 0;
+  padding: 0.5rem 0;
+  background: #f7ead5;
 }
 
 </style>
@@ -1596,26 +1583,8 @@ permalink: /2026/overview/
     });
   }
 
-  // Scroll detection for mini tabs visibility (mobile only)
-  function checkScroll() {
-    if (window.innerWidth > 800) {
-      miniTabsContainer.classList.remove("is-visible");
-      return;
-    }
-
-    const tabsRect = programTabsContainer.getBoundingClientRect();
-    const tabsBottom = tabsRect.bottom;
-
-    if (tabsBottom < 0) {
-      miniTabsContainer.classList.add("is-visible");
-    } else {
-      miniTabsContainer.classList.remove("is-visible");
-    }
-  }
-
-  window.addEventListener("scroll", checkScroll, { passive: true });
-  window.addEventListener("resize", checkScroll, { passive: true });
-  checkScroll();
+  // Mini tabs always visible for now (scroll detection disabled)
+  miniTabsContainer.style.display = "flex";
 
   // Mini tab click handlers
   miniTabs.forEach(function (miniTab) {
