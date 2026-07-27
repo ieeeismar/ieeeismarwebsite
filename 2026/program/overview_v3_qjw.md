@@ -1603,14 +1603,14 @@ permalink: /2026/overview/
   }
 
   // Mini tabs always visible for now (scroll detection disabled)
-  miniTabsContainer.style.display = "flex";
+  // miniTabsContainer.style.display = "flex";
 
   // Mini tab click handlers
-  miniTabs.forEach(function (miniTab) {
-    miniTab.addEventListener("click", function () {
-      activate(miniTab.dataset.date);
-    });
-  });
+  // miniTabs.forEach(function (miniTab) {
+  //   miniTab.addEventListener("click", function () {
+  //     activate(miniTab.dataset.date);
+  //   });
+  // });
 
   function currentConferenceDate() {
     const parts = new Intl.DateTimeFormat("en-CA", {
