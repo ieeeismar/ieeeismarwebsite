@@ -1055,6 +1055,23 @@ All refund/cancellation requests must be received in writing at [registration202
     </div>
   </details>
 
+  <details class="faq-item">
+    <summary>I am a Student Volunteer with a registration discount, but I am also an author. What should I do?</summary>
+    <div class="faq-content">
+      <ul>
+        <li>
+          Given that every ISMAR contribution needs to be fiscally accounted for in some way, then either: 
+
+          <ul>
+            <li>Register and pay for only your contribution(s) <b>including the first</b>.  That is, the registration discount will reduce your registration costs to just those costs associated with your contribution(s) including the first, or,</li>
+            <li>A co-author (likely your advisor) completes a Full Conference Author Registration and attaches your contribution(s) to their registration. Note that a student co-author cannot include your contribution on their registration at no cost since that student co-author is not the first author.</li>
+          </ul>
+
+        </li>
+      </ul>
+    </div>
+  </details>
+
 
 
   <details class="faq-item">
