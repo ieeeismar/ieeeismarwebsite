@@ -520,119 +520,190 @@ permalink: /2026/overview/
   <section class="program-panel" id="day-2026-10-07" data-panel-date="2026-10-07">
     <h2>Wednesday, 7 October 2026</h2>
     <div class="time-overview" aria-label="Jump to part of the day">
-      <button type="button" data-period="morning">08:30–14:00</button>
-      <button type="button" data-period="afternoon">14:00–18:00</button>
+      <button type="button" data-period="morning">08:00–14:00</button>
+      <button type="button" data-period="afternoon">14:00–18:45</button>
     </div>
-    <div class="day-schedule">
-      <div class="schedule-head"><div>Time</div><div>Program</div></div>
 
-      <div class="schedule-row" data-period="morning"><div class="schedule-time">08:30</div><div class="schedule-content"><div class="registration">Registration · 08:30–12:30</div></div></div>
-      <div class="schedule-row" data-period="morning"><div class="schedule-time">09:00</div><div class="schedule-content"><div class="shared-event ceremony"><strong>Opening Ceremony</strong><span>09:00–09:30</span></div></div></div>
-      <div class="schedule-row" data-period="morning"><div class="schedule-time">09:30</div><div class="schedule-content"><div class="shared-event keynote"><strong>Keynote 1</strong><span>09:30–10:30</span></div></div></div>
-      <div class="schedule-row break-row"><div class="schedule-time">10:30</div><div class="schedule-content"><div class="shared-event"><strong>Coffee Break</strong><span>10:30–11:00</span></div></div></div>
+    <div class="timeline-schedule">
+      <!-- Time labels -->
+      <div class="time-label row-800">8:00</div>
+      <div class="time-label row-830">8:30</div>
+      <div class="time-label row-900">9:00</div>
+      <div class="time-label row-930">9:30</div>
+      <div class="time-label row-1000">10:00</div>
+      <div class="time-label row-1030">10:30</div>
+      <div class="time-label row-1100">11:00</div>
+      <div class="time-label row-1200">12:00</div>
+      <div class="time-label row-1300">13:00</div>
+      <div class="time-label row-1400">14:00</div>
+      <div class="time-label row-1500">15:00</div>
+      <div class="time-label row-1600">16:00</div>
+      <div class="time-label row-1700">17:00</div>
+      <div class="time-label row-1800">18:00</div>
 
-      <div class="schedule-row" data-period="morning">
-        <div class="schedule-time">11:00</div>
-        <div class="schedule-content"><div class="parallel-sessions">
-            <article class="session paper">
-              <strong>Paper Session 1</strong>
-              <span>11:00–12:30</span>
-              <small>Room TBA</small>
-            </article>
-            <article class="session paper">
-              <strong>Paper Session 2</strong>
-              <span>11:00–12:30</span>
-              <small>Room TBA</small>
-            </article>
-            <article class="session paper">
-              <strong>Paper Session 3</strong>
-              <span>11:00–12:30</span>
-              <small>Room TBA</small>
-            </article>
-            <article class="session paper">
-              <strong>Paper Session 4</strong>
-              <span>11:00–12:30</span>
-              <small>Room TBA</small>
-            </article>
-            <article class="session paper">
-              <strong>Paper Session 5</strong>
-              <span>11:00–12:30</span>
-              <small>Room TBA</small>
-            </article>
-          <article class="session demo"><strong>Demo & Poster Presentation</strong><span>11:00–12:30</span><small>Exhibition Hall</small></article>
-        </div></div>
+      <!-- Registration 08:00-18:45 -->
+      <div class="timeline-item registration row-800 col-reg" style="grid-row-end: 44;">
+        <strong>Reg.</strong>
+        <span>08:00–18:45</span>
       </div>
 
-      <div class="schedule-row break-row"><div class="schedule-time">12:30</div><div class="schedule-content"><div class="shared-event"><strong>Lunch</strong><span>12:30–14:00</span></div></div></div>
-
-      <div class="schedule-row" data-period="afternoon">
-        <div class="schedule-time">14:00</div>
-        <div class="schedule-content"><div class="parallel-sessions">
-            <article class="session paper">
-              <strong>Paper Session 6</strong>
-              <span>14:00–15:30</span>
-              <small>Room TBA</small>
-            </article>
-            <article class="session paper">
-              <strong>Paper Session 7</strong>
-              <span>14:00–15:30</span>
-              <small>Room TBA</small>
-            </article>
-            <article class="session paper">
-              <strong>Paper Session 8</strong>
-              <span>14:00–15:30</span>
-              <small>Room TBA</small>
-            </article>
-            <article class="session paper">
-              <strong>Paper Session 9</strong>
-              <span>14:00–15:30</span>
-              <small>Room TBA</small>
-            </article>
-            <article class="session paper">
-              <strong>Paper Session 10</strong>
-              <span>14:00–15:30</span>
-              <small>Room TBA</small>
-            </article>
-          <article class="session demo"><strong>Demo & Poster Presentation</strong><span>14:00–15:30</span><small>Exhibition Hall</small></article>
-        </div></div>
+      <!-- Opening Ceremony 08:30-09:30 -->
+      <div class="timeline-item ceremony row-830 col-main span-60">
+        <strong>Opening Ceremony</strong>
+        <span>08:30–09:30</span>
       </div>
 
-      <div class="schedule-row break-row"><div class="schedule-time">15:30</div><div class="schedule-content"><div class="shared-event"><strong>Coffee Break</strong><span>15:30–16:00</span></div></div></div>
-
-      <div class="schedule-row" data-period="afternoon">
-        <div class="schedule-time">16:00</div>
-        <div class="schedule-content"><div class="parallel-sessions">
-            <article class="session paper">
-              <strong>Paper Session 11</strong>
-              <span>16:00–17:30</span>
-              <small>Room TBA</small>
-            </article>
-            <article class="session paper">
-              <strong>Paper Session 12</strong>
-              <span>16:00–17:30</span>
-              <small>Room TBA</small>
-            </article>
-            <article class="session paper">
-              <strong>Paper Session 13</strong>
-              <span>16:00–17:30</span>
-              <small>Room TBA</small>
-            </article>
-            <article class="session paper">
-              <strong>Paper Session 14</strong>
-              <span>16:00–17:30</span>
-              <small>Room TBA</small>
-            </article>
-            <article class="session paper">
-              <strong>Paper Session 15</strong>
-              <span>16:00–17:30</span>
-              <small>Room TBA</small>
-            </article>
-          <article class="session demo"><strong>Demo & Poster Presentation</strong><span>16:00–17:30</span><small>Exhibition Hall</small></article>
-        </div></div>
+      <!-- Keynote 1: 09:30-10:30 -->
+      <div class="timeline-item keynote row-930 col-main span-60">
+        <strong>Keynote 1</strong>
+        <span>09:30–10:30</span>
       </div>
 
-      <div class="schedule-row" data-period="afternoon"><div class="schedule-time">17:30</div><div class="schedule-content"><div class="shared-event exhibition"><strong>Exhibition</strong><span>17:30–18:00</span></div></div></div>
-      <div class="schedule-end">18:00</div>
+      <!-- Coffee Break 10:30-11:15 (Track 1) - spans 3 columns -->
+      <div class="timeline-item coffee row-1030 span-45" style="grid-column: 2 / 5;">
+        <strong>Coffee Break</strong>
+        <span>10:30–11:15</span>
+      </div>
+
+      <!-- Coffee Break 10:30-11:45 (Track 2) - spans 3 columns -->
+      <div class="timeline-item coffee row-1030 span-75" style="grid-column: 5 / 8;">
+        <strong>Coffee Break</strong>
+        <span>10:30–11:45</span>
+      </div>
+
+      <!-- Posters 1A: 10:30-12:45 -->
+      <div class="timeline-item poster row-1030 col-poster span-135">
+        <strong>Posters 1A</strong>
+        <span>10:30–12:45</span>
+      </div>
+
+      <!-- Demos: 10:30-16:00 -->
+      <div class="timeline-item demo row-1030 col-demo span-330">
+        <strong>Demos</strong>
+        <span>10:30–16:00</span>
+      </div>
+
+      <!-- PS1, PS2, PS3: 11:15-12:15 -->
+      <div class="timeline-item paper row-1115 span-60" style="grid-column: 2 / 3;">
+        <strong>PS1</strong>
+        <span>11:15–12:15</span>
+      </div>
+      <div class="timeline-item paper row-1115 span-60" style="grid-column: 3 / 4;">
+        <strong>PS2</strong>
+        <span>11:15–12:15</span>
+      </div>
+      <div class="timeline-item paper row-1115 span-60" style="grid-column: 4 / 5;">
+        <strong>PS3</strong>
+        <span>11:15–12:15</span>
+      </div>
+
+      <!-- PS4, PS5, PS6: 11:45-12:45 -->
+      <div class="timeline-item paper row-1145 span-60" style="grid-column: 5 / 6;">
+        <strong>PS4</strong>
+        <span>11:45–12:45</span>
+      </div>
+      <div class="timeline-item paper row-1145 span-60" style="grid-column: 6 / 7;">
+        <strong>PS5</strong>
+        <span>11:45–12:45</span>
+      </div>
+      <div class="timeline-item paper row-1145 span-60" style="grid-column: 7 / 8;">
+        <strong>PS6</strong>
+        <span>11:45–12:45</span>
+      </div>
+
+      <!-- Lunch 12:15-13:45 (Track 1) - spans 3 columns -->
+      <div class="timeline-item lunch row-1215 span-90" style="grid-column: 2 / 5;">
+        <strong>Lunch (on-site)</strong>
+        <span>12:15–13:45</span>
+      </div>
+
+      <!-- Lunch 12:45-14:15 (Track 2) - spans 3 columns -->
+      <div class="timeline-item lunch row-1245 span-90" style="grid-column: 5 / 8;">
+        <strong>Lunch (on-site)</strong>
+        <span>12:45–14:15</span>
+      </div>
+
+      <!-- PS7, PS8, PS9: 13:45-14:45 -->
+      <div class="timeline-item paper row-1345 span-60" style="grid-column: 2 / 3;">
+        <strong>PS7</strong>
+        <span>13:45–14:45</span>
+      </div>
+      <div class="timeline-item paper row-1345 span-60" style="grid-column: 3 / 4;">
+        <strong>PS8</strong>
+        <span>13:45–14:45</span>
+      </div>
+      <div class="timeline-item paper row-1345 span-60" style="grid-column: 4 / 5;">
+        <strong>PS9</strong>
+        <span>13:45–14:45</span>
+      </div>
+
+      <!-- Posters 1B: 13:45-16:00 -->
+      <div class="timeline-item poster row-1345 col-poster span-135">
+        <strong>Posters 1B</strong>
+        <span>13:45–16:00</span>
+      </div>
+
+      <!-- PS10, PS11, PS12: 14:15-15:15 -->
+      <div class="timeline-item paper row-1415 span-60" style="grid-column: 5 / 6;">
+        <strong>PS10</strong>
+        <span>14:15–15:15</span>
+      </div>
+      <div class="timeline-item paper row-1415 span-60" style="grid-column: 6 / 7;">
+        <strong>PS11</strong>
+        <span>14:15–15:15</span>
+      </div>
+      <div class="timeline-item paper row-1415 span-60" style="grid-column: 7 / 8;">
+        <strong>PS12</strong>
+        <span>14:15–15:15</span>
+      </div>
+
+      <!-- Coffee Break 14:45-16:00 (Track 1) - spans 3 columns -->
+      <div class="timeline-item coffee row-1445 span-75" style="grid-column: 2 / 5;">
+        <strong>Coffee Break</strong>
+        <span>14:45–16:00</span>
+      </div>
+
+      <!-- Coffee Break 15:15-16:00 (Track 2) - spans 3 columns -->
+      <div class="timeline-item coffee row-1515 span-45" style="grid-column: 5 / 8;">
+        <strong>Coffee Break</strong>
+        <span>15:15–16:00</span>
+      </div>
+
+      <!-- Panel 1: 16:00-17:00 -->
+      <div class="timeline-item panel row-1600 col-main span-60">
+        <strong>Panel 1</strong>
+        <span>16:00–17:00</span>
+      </div>
+
+      <!-- Gap 17:00-17:15 (Track 1) and 17:00-17:45 (Track 2) - empty -->
+
+      <!-- PS13, PS14, PS15: 17:15-18:15 (Track 1 - left side) -->
+      <div class="timeline-item paper row-1715 span-60" style="grid-column: 2 / 3;">
+        <strong>PS13</strong>
+        <span>17:15–18:15</span>
+      </div>
+      <div class="timeline-item paper row-1715 span-60" style="grid-column: 3 / 4;">
+        <strong>PS14</strong>
+        <span>17:15–18:15</span>
+      </div>
+      <div class="timeline-item paper row-1715 span-60" style="grid-column: 4 / 5;">
+        <strong>PS15</strong>
+        <span>17:15–18:15</span>
+      </div>
+
+      <!-- PS16, PS17, PS18: 17:45-18:45 (Track 2 - right side) -->
+      <div class="timeline-item paper row-1745 span-60" style="grid-column: 5 / 6;">
+        <strong>PS16</strong>
+        <span>17:45–18:45</span>
+      </div>
+      <div class="timeline-item paper row-1745 span-60" style="grid-column: 6 / 7;">
+        <strong>PS17</strong>
+        <span>17:45–18:45</span>
+      </div>
+      <div class="timeline-item paper row-1745 span-60" style="grid-column: 7 / 8;">
+        <strong>PS18</strong>
+        <span>17:45–18:45</span>
+      </div>
     </div>
   </section>
 
@@ -1222,6 +1293,135 @@ permalink: /2026/overview/
   border-left-color: #668659;
   background: #dfead9;
 }
+
+.panel {
+  border-left-color: #c97945;
+  background: #fbe6d9;
+}
+
+.break-session {
+  border-left-color: #9098a3;
+  background: #f2f4f7;
+}
+
+.lunch-session {
+  border-left-color: #5a9a6e;
+  background: #e2f4e8;
+}
+
+/* Timeline grid layout */
+.timeline-schedule {
+  display: grid;
+  grid-template-columns: 50px repeat(6, 1fr) 60px 60px 50px;
+  grid-template-rows: repeat(44, 20px); /* 15-min increments from 8:00-18:45 */
+  gap: 2px;
+  border: 1px solid #d7dfe8;
+  border-radius: 12px;
+  background: #fff;
+  padding: 0.5rem;
+  overflow-x: auto;
+}
+
+.timeline-schedule .time-label {
+  grid-column: 1;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-align: right;
+  padding-right: 0.5rem;
+  color: #666;
+}
+
+.timeline-schedule .timeline-item {
+  border-radius: 6px;
+  padding: 0.4rem;
+  font-size: 0.75rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.timeline-schedule .timeline-item strong {
+  font-size: 0.8rem;
+  display: block;
+}
+
+.timeline-schedule .timeline-item span,
+.timeline-schedule .timeline-item small {
+  font-size: 0.65rem;
+  opacity: 0.85;
+}
+
+/* Row positions (15-min increments starting at 8:00) */
+/* 8:00=1, 8:15=2, 8:30=3, 8:45=4, 9:00=5, etc. */
+.row-800 { grid-row-start: 1; }
+.row-830 { grid-row-start: 3; }
+.row-900 { grid-row-start: 5; }
+.row-930 { grid-row-start: 7; }
+.row-1000 { grid-row-start: 9; }
+.row-1030 { grid-row-start: 11; }
+.row-1100 { grid-row-start: 13; }
+.row-1115 { grid-row-start: 14; }
+.row-1130 { grid-row-start: 15; }
+.row-1145 { grid-row-start: 16; }
+.row-1200 { grid-row-start: 17; }
+.row-1215 { grid-row-start: 18; }
+.row-1230 { grid-row-start: 19; }
+.row-1245 { grid-row-start: 20; }
+.row-1300 { grid-row-start: 21; }
+.row-1315 { grid-row-start: 22; }
+.row-1330 { grid-row-start: 23; }
+.row-1345 { grid-row-start: 24; }
+.row-1400 { grid-row-start: 25; }
+.row-1415 { grid-row-start: 26; }
+.row-1430 { grid-row-start: 27; }
+.row-1445 { grid-row-start: 28; }
+.row-1500 { grid-row-start: 29; }
+.row-1515 { grid-row-start: 30; }
+.row-1530 { grid-row-start: 31; }
+.row-1545 { grid-row-start: 32; }
+.row-1600 { grid-row-start: 33; }
+.row-1700 { grid-row-start: 37; }
+.row-1715 { grid-row-start: 38; }
+.row-1745 { grid-row-start: 40; }
+.row-1800 { grid-row-start: 41; }
+.row-1815 { grid-row-start: 42; }
+.row-1845 { grid-row-start: 44; }
+
+/* Row spans based on duration */
+.span-30 { grid-row-end: span 2; }
+.span-45 { grid-row-end: span 3; }
+.span-60 { grid-row-end: span 4; }
+.span-75 { grid-row-end: span 5; }
+.span-90 { grid-row-end: span 6; }
+.span-135 { grid-row-end: span 9; }
+.span-330 { grid-row-end: span 22; }
+
+/* Column positions */
+.col-1 { grid-column: 2; }
+.col-2 { grid-column: 3; }
+.col-3 { grid-column: 4; }
+.col-4 { grid-column: 5; }
+.col-5 { grid-column: 6; }
+.col-6 { grid-column: 7; }
+.col-poster { grid-column: 8; }
+.col-demo { grid-column: 9; }
+.col-reg { grid-column: 10; }
+.col-span-3 { grid-column: span 3; }
+.col-span-6 { grid-column: span 6; }
+.col-full { grid-column: 2 / 10; } /* spans all except registration */
+.col-main { grid-column: 2 / 8; } /* spans main content, not posters/demos/reg */
+
+/* Timeline item colors */
+.timeline-item.registration { background: #e2f1fa; border-left: 3px solid #0f5f8f; }
+.timeline-item.ceremony { background: #ece7f8; border-left: 3px solid #7556b2; }
+.timeline-item.keynote { background: #f4f0d7; border-left: 3px solid #a99a35; }
+.timeline-item.coffee { background: #f2f4f7; border-left: 3px solid #9098a3; }
+.timeline-item.paper { background: #e6f1fb; border-left: 3px solid #4389cb; }
+.timeline-item.poster { background: #fff8e1; border-left: 3px solid #f9a825; }
+.timeline-item.demo { background: #f3e5f5; border-left: 3px solid #9c27b0; }
+.timeline-item.lunch { background: #e2f4e8; border-left: 3px solid #5a9a6e; }
+.timeline-item.panel { background: #fbe6d9; border-left: 3px solid #c97945; }
 
 .break-row .schedule-content {
   padding-top: 0.3rem;
