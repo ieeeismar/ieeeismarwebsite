@@ -188,6 +188,25 @@ redirect_from: /
   color: #8a6800;
 }
 
+
+
+
+
+.info-category.anouncement {
+  border-color: #FFAA01;
+  background: rgba(255, 143, 45, 0.18);
+}
+
+.info-category.anouncement h4,
+.info-category.anouncement a {
+  color: #d37700;
+}
+
+
+
+
+
+
 @media (max-width: 600px) {
   .sui-header {
     flex-direction: column;
@@ -228,7 +247,7 @@ redirect_from: /
         Register Now
       </a>
     </article>
-<article class="info-category news">
+<article class="info-category anouncement">
   <h4>DEIA Grant Applications Are Open!</h4>
 
   <p>
