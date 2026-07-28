@@ -215,7 +215,7 @@ redirect_from: /
 
       <p>
         <a href="https://www.ieeeismar.net/2026/registration/">
-          View registration information →
+          Registration Information Page→
         </a>
       </p>
 
@@ -228,7 +228,23 @@ redirect_from: /
         Register Now
       </a>
     </article>
+<article class="info-category news">
+  <h4>DEIA Grant Applications Are Open!</h4>
 
+  <p>
+    Applications are now open for the IEEE ISMAR 2026 Diversity, Equity, Inclusion, and Accessibility (DEIA) Grants.
+  </p>
+
+  <p>
+    <a
+      href="https://docs.google.com/forms/d/e/1FAIpQLSdrYR0GU5VONwr6lLE3NvmBBplD05QJgDn2j35n21VdfenNWg/viewform"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Apply for a DEIA Grant →
+    </a>
+  </p>
+</article>
     <article class="info-category news">
       <div class="sui-header">
         <img
