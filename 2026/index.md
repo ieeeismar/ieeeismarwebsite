@@ -212,10 +212,10 @@ reminder = orange
   <div class="info-categories-container">
 
     <article class="info-category info">
-      <h4>IEEE ISMAR 2026 Registration Opens in July</h4>
+      <h4>IEEE ISMAR 2026 Registration is Open!</h4>
 
       <p>
-        Online registration for IEEE ISMAR 2026 will open in July 2026.
+        Online registration for IEEE ISMAR 2026 is open!
         Visit the registration page for information about fees, deadlines,
         and registration options.
       </p>
