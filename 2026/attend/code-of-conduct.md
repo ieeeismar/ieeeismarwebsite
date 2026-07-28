@@ -24,11 +24,53 @@ As a conference that aims to support the sharing of ideas and freedom of thought
 
 ### Reporting a Breach of the Code of Conduct
 
-To report a breach of the Code of Conduct, please contact:
+If you wish to report a breach of the code of conduct this can be done via email to:
 
-**The General Chairs:** [generalchairs2026@ieeeismar.net](mailto:generalchairs2026@ieeeismar.net)
+
+**The General Co-Chairs:** [generalchairs2026@ieeeismar.net](mailto:generalchairs2026@ieeeismar.net)
+
+**The Steering Committee:** [chairs.steering@ismar.net](mailto:chairs.steering@ismar.net)
+
+**The Chair, Wolfgang Broll:**  [wolfgang.broll@tu-ilmenau.de](mailto:wolfgang.broll@tu-ilmenau.de)
+
 
 Reports will be shared only with authorized individuals and will be treated confidentially.
+
+You can also report conduct issues directly the IEEE CS Committee to Assist in Reporting Ethics & Conduct
+Violations (CS Assist) or the IEEE Ethics Reporting Line.
+
+<div style="border: 1px solid #d9d9d9; padding: 24px; margin-top: 24px; display: flex; align-items: center; justify-content: space-between; gap: 30px;">
+
+  <div style="flex: 1;">
+    <div style="display: grid; grid-template-columns: 280px 1fr; row-gap: 14px; font-size: 18px;">
+
+      <div>CS Assist committee:</div>
+      <div><strong>assist@computer.org</strong></div>
+
+      <div>IEEE Ethics Reporting Line:</div>
+      <div>
+        <strong>
+          <a href="https://www.ieee-ethics-reporting.org">
+            www.ieee-ethics-reporting.org
+          </a>
+        </strong>
+      </div>
+
+      <div></div>
+      <div><strong>+1.888.359.6323</strong></div>
+
+    </div>
+  </div>
+
+  <div style="border-left: 1px solid #d9d9d9; padding-left: 28px;">
+    <img
+      src="/assets/2026/img/codeof_QR.gif"
+      alt="IEEE Ethics Reporting QR code"
+      width="130"
+    />
+  </div>
+
+</div>
 
 ### IEEE Computer Society Open Conference Statement
 
