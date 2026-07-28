@@ -1310,6 +1310,7 @@ permalink: /2026/overview/
 }
 
 /* Timeline grid layout */
+/* Columns: time | main content (6 cols) | posters | demos | reg */
 .timeline-schedule {
   display: grid;
   grid-template-columns: 50px repeat(6, 1fr) 60px 60px 50px;
@@ -1320,6 +1321,11 @@ permalink: /2026/overview/
   background: #fff;
   padding: 0.5rem;
   overflow-x: auto;
+  scroll-margin-top: 160px;
+}
+
+.timeline-schedule .timeline-item {
+  scroll-margin-top: 160px;
 }
 
 .timeline-schedule .time-label {
@@ -1398,6 +1404,7 @@ permalink: /2026/overview/
 .span-330 { grid-row-end: span 22; }
 
 /* Column positions */
+/* Layout: time(1) | main content(2-7) | posters(8) | demos(9) | reg(10) */
 .col-1 { grid-column: 2; }
 .col-2 { grid-column: 3; }
 .col-3 { grid-column: 4; }
@@ -1410,17 +1417,28 @@ permalink: /2026/overview/
 .col-span-3 { grid-column: span 3; }
 .col-span-6 { grid-column: span 6; }
 .col-full { grid-column: 2 / 10; } /* spans all except registration */
-.col-main { grid-column: 2 / 8; } /* spans main content, not posters/demos/reg */
+.col-main { grid-column: 2 / 8; } /* spans main content only */
+
+/* Vertical text for sidebar columns - centered, time first then label */
+.timeline-item.col-poster,
+.timeline-item.col-demo,
+.timeline-item.col-reg {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
 
 /* Timeline item colors */
-.timeline-item.registration { background: #e2f1fa; border-left: 3px solid #0f5f8f; }
-.timeline-item.ceremony { background: #ece7f8; border-left: 3px solid #7556b2; }
-.timeline-item.keynote { background: #f4f0d7; border-left: 3px solid #a99a35; }
-.timeline-item.coffee { background: #f2f4f7; border-left: 3px solid #9098a3; }
-.timeline-item.paper { background: #e6f1fb; border-left: 3px solid #4389cb; }
-.timeline-item.poster { background: #fff8e1; border-left: 3px solid #f9a825; }
-.timeline-item.demo { background: #f3e5f5; border-left: 3px solid #9c27b0; }
-.timeline-item.lunch { background: #e2f4e8; border-left: 3px solid #5a9a6e; }
+.timeline-item.registration { background: #f2f4f7; border-left: 3px solid #6b7280; } /* gray */
+.timeline-item.ceremony { background: #f2f4f7; border-left: 3px solid #6b7280; } /* gray */
+.timeline-item.keynote { background: #e6f1fb; border-left: 3px solid #4389cb; } /* blue */
+.timeline-item.coffee { background: #f5e6d3; border-left: 3px solid #8b5a2b; } /* brown */
+.timeline-item.paper { background: #e6f1fb; border-left: 3px solid #4389cb; } /* blue */
+.timeline-item.poster { background: #fff8e1; border-left: 3px solid #f9a825; } /* yellow */
+.timeline-item.demo { background: #fce4ec; border-left: 3px solid #e91e63; } /* pink */
+.timeline-item.lunch { background: #e2f4e8; border-left: 3px solid #5a9a6e; } /* green */
 .timeline-item.panel { background: #fbe6d9; border-left: 3px solid #c97945; }
 
 .break-row .schedule-content {
@@ -1515,6 +1533,31 @@ permalink: /2026/overview/
 }
 
 @media (max-width: 800px) {
+  .timeline-schedule {
+    grid-template-columns: 35px repeat(6, 1fr) 30px 30px 25px;
+    grid-template-rows: repeat(44, 16px);
+    gap: 1px;
+    padding: 0.3rem;
+  }
+
+  .timeline-schedule .time-label {
+    font-size: 0.55rem;
+    padding-right: 0.2rem;
+  }
+
+  .timeline-schedule .timeline-item {
+    padding: 0.2rem;
+    font-size: 0.55rem;
+  }
+
+  .timeline-schedule .timeline-item strong {
+    font-size: 0.6rem;
+  }
+
+  .timeline-schedule .timeline-item span {
+    font-size: 0.45rem;
+  }
+
   .program-tabs {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -1838,23 +1881,40 @@ permalink: /2026/overview/
       const period = button.dataset.period;
       let target = null;
 
-      if (period === "morning") {
-        target = panel.querySelector(".day-schedule");
-      } else if (period === "afternoon") {
-        const requestedStart =
-          panel.dataset.panelDate === "2026-10-08" ||
-          panel.dataset.panelDate === "2026-10-09"
-            ? "14:30"
-            : "14:00";
+      // Check if this is a timeline-schedule panel (Wednesday)
+      const timelineSchedule = panel.querySelector(".timeline-schedule");
+      const daySchedule = panel.querySelector(".day-schedule");
 
-        target = Array.from(panel.querySelectorAll(".schedule-row")).find(function (row) {
-          const timeCell = row.querySelector(".schedule-time");
-          return timeCell && timeCell.textContent.trim() === requestedStart;
-        });
-      } else if (period === "evening") {
-        target =
-          panel.querySelector('.schedule-row[data-period="evening"]') ||
-          panel.querySelector('.evening-event[data-period="evening"]');
+      if (timelineSchedule) {
+        // Handle Wednesday's timeline layout
+        if (period === "morning") {
+          target = timelineSchedule;
+        } else if (period === "afternoon") {
+          // Find the first item starting around 14:00 (row-1345 or row-1400)
+          target = timelineSchedule.querySelector(".row-1345") ||
+                   timelineSchedule.querySelector(".row-1400") ||
+                   timelineSchedule.querySelector(".row-1415");
+        }
+      } else if (daySchedule) {
+        // Handle standard day-schedule layout
+        if (period === "morning") {
+          target = daySchedule;
+        } else if (period === "afternoon") {
+          const requestedStart =
+            panel.dataset.panelDate === "2026-10-08" ||
+            panel.dataset.panelDate === "2026-10-09"
+              ? "14:30"
+              : "14:00";
+
+          target = Array.from(panel.querySelectorAll(".schedule-row")).find(function (row) {
+            const timeCell = row.querySelector(".schedule-time");
+            return timeCell && timeCell.textContent.trim() === requestedStart;
+          });
+        } else if (period === "evening") {
+          target =
+            panel.querySelector('.schedule-row[data-period="evening"]') ||
+            panel.querySelector('.evening-event[data-period="evening"]');
+        }
       }
 
       if (target) {
