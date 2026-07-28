@@ -26,7 +26,6 @@ permalink: /2026/overview/
     <span class="day-details">
       <span class="">Workshops</span>
       <span class="">Tutorials</span>
-      <span class="">Doctoral Consortium</span>
       <span class="">Future Faculty Forum</span>
       <span class="day-highlight">Welcome Reception</span>
     </span>
