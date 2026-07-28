@@ -113,7 +113,32 @@ redirect_from: /
   text-decoration: underline;
 }
 
-/* SUI announcement header and logo */
+.registration-button {
+  display: inline-block;
+  margin-top: 0.9rem;
+  padding: 0.8rem 1.4rem;
+  border-radius: 999px;
+  background: #3a8bf3;
+  color: #fff !important;
+  font-weight: 900;
+  line-height: 1;
+  text-decoration: none !important;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.registration-button:hover {
+  background: #2878db;
+  color: #fff !important;
+  text-decoration: none !important;
+  transform: translateY(-1px);
+}
+
+.registration-button:focus-visible {
+  outline: 3px solid rgba(58, 139, 243, 0.35);
+  outline-offset: 3px;
+}
 
 .sui-header {
   display: flex;
@@ -143,55 +168,25 @@ redirect_from: /
   font-weight: 700;
 }
 
-/*
-Info categories:
-info = blue
-important = red
-news = yellow
-reminder = orange
-*/
-
 .info-category.info {
-  border-color: #3A8BF3;
+  border-color: #3a8bf3;
   background: rgba(58, 139, 243, 0.10);
 }
 
 .info-category.info h4,
-.info-category.info a {
-  color: #2878DB;
-}
-
-.info-category.important {
-  border-color: #D93838;
-  background: rgba(217, 56, 56, 0.10);
-}
-
-.info-category.important h4,
-.info-category.important a {
-  color: #B42323;
+.info-category.info a:not(.registration-button) {
+  color: #2878db;
 }
 
 .info-category.news {
-  border-color: #E5B700;
+  border-color: #e5b700;
   background: rgba(255, 211, 45, 0.18);
 }
 
 .info-category.news h4,
 .info-category.news a {
-  color: #8A6800;
+  color: #8a6800;
 }
-
-.info-category.reminder {
-  border-color: #F28C28;
-  background: rgba(242, 140, 40, 0.12);
-}
-
-.info-category.reminder h4,
-.info-category.reminder a {
-  color: #D96F08;
-}
-
-/* Mobile layout */
 
 @media (max-width: 600px) {
   .sui-header {
@@ -210,12 +205,10 @@ reminder = orange
   <h3 class="info-categories-title">News &amp; Announcements</h3>
 
   <div class="info-categories-container">
-
     <article class="info-category info">
       <h4>IEEE ISMAR 2026 Registration is Open!</h4>
 
       <p>
-        Online registration for IEEE ISMAR 2026 is open!
         Visit the registration page for information about fees, deadlines,
         and registration options.
       </p>
@@ -225,6 +218,15 @@ reminder = orange
           View registration information →
         </a>
       </p>
+
+      <a
+        class="registration-button"
+        href="https://iscrizioni.cicsud.it/cmsweb/Login.asp?IDcommessa=2649&amp;Lang=EN"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Register Now
+      </a>
     </article>
 
     <article class="info-category news">
@@ -256,26 +258,17 @@ reminder = orange
       </p>
 
       <p>
-        The discount is available to regular SUI attendees who are not authors
-        of an accepted SUI contribution and who have also registered for ISMAR,
-        either as authors or attendees. Single-day and non-paid Student Volunteer
-        ISMAR26 registrations are not eligible.
-      </p>
-
-      <p>
         <a
           href="https://sui.acm.org/2026/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Discover ACM SUI 2026 →
+          For more details, visit ACM SUI 2026 →
         </a>
       </p>
     </article>
-
   </div>
 </section>
-
 
 
 
@@ -307,6 +300,10 @@ reminder = orange
             <tr data-deadline="2026-08-30T23:59:59-12:00">
                 <td><b><a href="https://www.ieeeismar.net/2026/women@ismar/">Women@ISMAR</a></b></td>
                 <td><b>August 30th, 2026 (23:59 AoE, Sunday)</b></td>
+            </tr>
+                        <tr data-deadline="2026-08-14T23:59:59-12:00">
+                <td><b><a href="https://www.ieeeismar.net/2026/DEIA-grant/">DEIA Grant</a></b></td>
+                <td><b>August 14th, 2026 (23:59 AoE, Friday)</b></td>
             </tr>
             <tr data-deadline="2026-07-17T23:59:59-12:00">
                 <td><b>Demos</b></td>
