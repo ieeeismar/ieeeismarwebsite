@@ -5,7 +5,7 @@ permalink: /2026/tutorials/
 ---
 
 ---
-*Last updated: 2026-06-19 08:00AM CET*
+*Last updated: 2026-07-28 12:00 PM CET*
 
 ---
 
@@ -66,3 +66,14 @@ However, there are reasons for optimism. Many research communities, including ou
 #### **[> Tutorial Website](https://sites.google.com/view/ismar26)**
 
 Extended Reality (XR) is transforming how we engage with digital content, yet designing compelling XR experiences remains challenging. This tutorial presents foundational and advanced concepts in Interaction Design tailored for XR environments, focusing on methods for ideation, design, and prototyping, and evaluation. We will explore user-centered design approaches and walk participants through a selection of design patterns, prototyping tools, and real-world case studies. The session emphasizes practical takeaways for building natural, inclusive, and engaging XR applications for both research and deployment contexts. 
+
+
+--- 
+
+### XRStand 2026: XR Standards and Open Science Practices
+
+**Main Contact Person**: <a href="mailto:t.kurata@aist.go.jp"> Takeshi Kurata</a> 
+
+#### **[> Tutorial Website](https://xrstand-standardization-committee.github.io/ISMAR-26-Tutorial/)**
+
+As XR technology (Virtual Reality, Augmented Reality, Mixed Reality, etc.) matures, standardization and open science have become critical to bridging hardware, software, and academic research. This tutorial covers key aspects of this movement, including: (1) system-level standard APIs like OpenXR, (2) methodologies for study reproduction in XR research, and (3) infrastructures for experiments and data sharing. Attendees will gain a comprehensive understanding of how to leverage and contribute to these emerging standardization processes and practices in the XR field.
