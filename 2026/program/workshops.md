@@ -4,7 +4,7 @@ title: Workshops
 permalink: /2026/workshops/
 ---
 ---
-*Last updated: 2026-06-29 03:00PM CET*
+*Last updated: 2026-07-29 03:04PM EDT*
 
 ---
 
@@ -32,12 +32,16 @@ This page contains information about the call for workshop papers for ISMAR 2026
 {% assign contact_email = workshop["Main Contact Email"] | default: "" | strip %}
 {% assign workshop_website = workshop["Website"] | default: "" | strip %}
 {% assign workshop_cfp = workshop["CFP"] | default: "" | strip %}
+{% assign day_time = workshop["Day/Time"] | default: "" | strip %} 
 
-{% if contact_name != '' and contact_email != '' %}
+{%- if day_time != '' %}
+**Day/Time:** {{ day_time }}<br>
+{%- endif -%}
+{%- if contact_name != '' and contact_email != '' %}
 **Main Contact Person:** [{{ contact_name }}](mailto:{{ contact_email }})
-{% elsif contact_name != '' %}
+{%- elsif contact_name != '' %}
 **Main Contact Person:** {{ contact_name }}
-{% endif %}
+{%- endif %}
 
 {% if workshop_website != '' %}
 <p>
