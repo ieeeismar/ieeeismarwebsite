@@ -5,7 +5,7 @@ permalink: /2026/tutorials/
 ---
 
 ---
-*Last updated: 2026-06-19 08:00AM CET*
+*Last updated: 2026-07-29 03:04PM EDT*
 
 ---
 
@@ -22,6 +22,8 @@ permalink: /2026/tutorials/
 
 ### AI-Driven Virtual Humans
 
+**Date/Time**: Monday 5 October, Morning Session
+
 **Main Contact Person**: <a href="mailto:M.Gillies@gold.ac.uk ">Marco Gillies</a> 
 
 
@@ -36,6 +38,8 @@ This tutorial will explore how we can populate MR and VR environments with belie
 
 ### Building Interoperable Location-based Augmented Reality with the Open AR Cloud
 
+**Date/Time**: Monday 5 October, Morning Session
+
 **Main Contact Person**: <a href="mailto:gabor.soros@nokia-bell-labs.com"> Gábor Sörös</a> 
 
 #### **[> Tutorial Website](https://openarcloud.org/oscp/ismar2026/)**
@@ -46,6 +50,8 @@ This tutorial provides an overview of location-based augmented reality and the s
 
 
 ### Emerging Reviewing and Publication Models to Promote Trustworthy Research and Support Scientific Career Advancement 
+
+**Date/Time**: Tuesday 6 October, Morning Session
 
 **Main Contact Person**: <a href="mailto:swan@acm.org"> Ed Swan</a> 
 
@@ -60,6 +66,8 @@ However, there are reasons for optimism. Many research communities, including ou
 --- 
 
 ### Interaction Design for Extended Reality
+
+**Date/Time**: Tuesday 6 October, Morning Session
 
 **Main Contact Person**: <a href="mailto:jorgej@ieee.org"> Joaquim Jorge</a> 
 
