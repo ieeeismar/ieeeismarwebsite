@@ -802,6 +802,10 @@ To foster a family-friendly environment, children of registered participants wil
 
 Participation in the banquet and meals is not guaranteed and will be provided upon availability.
 
+## Conference Hotels and Bookings
+
+We have secured blocks of hotel rooms at several nearby hotels, including: (1) [Nicolaus Hotel Bari](https://www.thenicolaushotel.com/en) – the main conference hotel hosting the ISMAR conference, (2) [Grand Hotel LEon D’Oro](http://www.grandhotelleondoro.it), and (3) [Hi Hotel Bari](http://www.hihotelbari.com). To book rooms at these hotels between 4 October and 10 October, please use the conference registration system accessed via our [ISMAR Registration page](https://www.ieeeismar.net/2026/registration/). Additionally, to book rooms at these hotels prior to 4 October, and/or after 10 October, please book with the hotel(s) directly.
+
 ## Cancellation Policy
 
 All refund/cancellation requests must be received in writing at [registration2026@ieeeismar.net](mailto:registration2026@ieeeismar.net) by **September 27, 2026, 11:59 PM AoE**.
