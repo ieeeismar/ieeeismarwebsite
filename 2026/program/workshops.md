@@ -4,7 +4,7 @@ title: Workshops
 permalink: /2026/workshops/
 ---
 ---
-*Last updated: 2026-07-29 03:04PM EDT*
+*Last updated: 2026-07-31 01:00PM CET*
 
 ---
 
