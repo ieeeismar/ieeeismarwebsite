@@ -188,6 +188,32 @@ redirect_from: /
   color: #8a6800;
 }
 
+.news-button {
+  display: inline-block;
+  margin-top: 0.9rem;
+  padding: 0.8rem 1.4rem;
+  border-radius: 999px;
+  background: #e5b700;
+  color: #fff !important;
+  font-weight: 900;
+  line-height: 1;
+  text-decoration: none !important;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.news-button:hover {
+  background: #dcb103;
+  color: #fff !important;
+  text-decoration: none !important;
+  transform: translateY(-1px);
+}
+
+.news-button:focus-visible {
+  outline: 3px solid #caa20055;
+  outline-offset: 3px;
+}
 
 
 
@@ -203,8 +229,32 @@ redirect_from: /
 }
 
 
+.anouncement-button {
+  display: inline-block;
+  margin-top: 0.9rem;
+  padding: 0.8rem 1.4rem;
+  border-radius: 999px;
+  background: #da8804;
+  color: #fff !important;
+  font-weight: 900;
+  line-height: 1;
+  text-decoration: none !important;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
 
+.anouncement-button:hover {
+  background: #d37700;
+  color: #fff !important;
+  text-decoration: none !important;
+  transform: translateY(-1px);
+}
 
+.anouncement-button:focus-visible {
+  outline: 3px solid #6e3f026a;
+  outline-offset: 3px;
+}
 
 
 @media (max-width: 600px) {
@@ -247,24 +297,67 @@ redirect_from: /
         Register Now
       </a>
     </article>
-<article class="info-category anouncement">
-  <h4>DEIA Grant Applications Are Open!</h4>
+
+
+
+    <article class="info-category anouncement">
+      <h4>Participate in Women@ISMAR</h4>
+
+      <p>
+        Submit your expression of interest by August 30, 2026, at 23:59 AoE.
+      </p>
+
+      <p>
+        <a
+          href="https://www.ieeeismar.net/2026/women@ismar/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn more →
+        </a>
+      </p>
+      <a
+          class="anouncement-button"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSc75Sc-WwFlYs-hBJJOpRFJHX4eDgsAMvPBks9eueAnUjk_nA/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Apply to Women@ISMAR
+          </a>
+    </article>
+
+
+    
+<article class="info-category news">
+  <h4>DEIA Grant Applications Open</h4>
 
   <p>
-    Applications are now open for the IEEE ISMAR 2026 Diversity, Equity, Inclusion, and Accessibility (DEIA) Grants.
+    Applications are now open for the IEEE ISMAR 2026 Diversity, Equity, Inclusion, and Accessibility (DEIA) Grants by August 14, 2026, at 23:59 AoE.
   </p>
 
   <p>
     <a
-      href="https://docs.google.com/forms/d/e/1FAIpQLSdrYR0GU5VONwr6lLE3NvmBBplD05QJgDn2j35n21VdfenNWg/viewform"
+      href="https://www.ieeeismar.net/2026/DEIA-grant/"
       target="_blank"
       rel="noopener noreferrer"
     >
-      Apply for a DEIA Grant →
+      DEIA Grants Page →
     </a>
   </p>
+  <a
+        class="news-button"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdrYR0GU5VONwr6lLE3NvmBBplD05QJgDn2j35n21VdfenNWg/viewform"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Apply for a DEIA Grants
+      </a>
 </article>
-    <article class="info-category news">
+
+
+
+
+  <article class="info-category info">
       <div class="sui-header">
         <img
           src="/assets/2026/img/sponsors/SUI.png"
