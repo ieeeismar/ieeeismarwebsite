@@ -249,7 +249,7 @@ redirect_from:
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Nels Numan.jpg' | relative_url }}" />
       <p class="name">Nels Numan</p>
-      <p>University College London</p>
+      <p>Google</p>
     </div>
     <div class="chair">
       <img src="{{ 'assets/2026/img/Committee Members Images/Hamid Tarayashiyoun.jpg' | relative_url }}" />
