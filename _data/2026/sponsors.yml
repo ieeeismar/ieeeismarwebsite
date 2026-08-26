@@ -19,6 +19,13 @@ bronze_sponsors:
 
 
 
+partners:
+  - name: "IEEE Computer Society"
+    logo: "/assets/2026/img/sponsors/ieee-computer-society.jpg"
+    url: "https://www.ieee.org/"
+
+
+
 previous_sponsors:
   - name: "Apple"
     full_name: "Apple Inc."
