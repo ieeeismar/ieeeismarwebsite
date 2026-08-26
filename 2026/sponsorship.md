@@ -70,7 +70,6 @@ permalink: /2026/sponsorship/
     {% endif %}
 </section>
 
----
 
 <!-- Partners Section -->
 <section class="partners-section">

@@ -557,3 +557,23 @@ redirect_from: /
     {% endif %}
 
 </section>
+
+<!-- Partners Section -->
+<section class="partners-section">
+    <h1 class="partners-title">Partners and Supporting Organizations</h1>
+    <div class="partners-grid">
+    {% for partner in site.data["2026"].sponsors.partners %}
+        <div class="partner-item">
+            {% if partner.url and partner.url != "" %}
+            <a href="{{ partner.url }}" target="_blank" class="partner-logo-link">
+                <img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }} Logo" />
+            </a>
+            {% else %}
+            <div class="partner-logo-link">
+                <img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }} Logo" />
+            </div>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+</section>
