@@ -653,7 +653,7 @@ To simplify, we offer week-long full conference registrations (Monday-Friday) an
   </p>
 
   <p>
-    <sup>‡</sup>  All registrants can add additional contributions (above and beyond the first contribution included in the full registration) only if they are authors on the contribution. Only student registrants can add additional contributions at the discounted rate, and only for contributions in which their name appears first in the author list.
+    <sup>‡</sup>  All registrants can add additional contributions (above and beyond the first contribution included in the full registration) only if they are authors on the contribution and subject to restrictions described below. Only student registrants can add additional contributions at the discounted rate, and only for contributions in which their name appears first in the author list.
   </p>
 </div>
 
