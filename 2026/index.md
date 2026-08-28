@@ -326,32 +326,31 @@ redirect_from: /
           </a>
     </article>
 
-
-    
 <article class="info-category news">
-  <h4>DEIA Grant Applications Open</h4>
+  <h4>Speed Mentorship Session Registration Open</h4>
 
   <p>
-    Applications are now open for the IEEE ISMAR 2026 Diversity, Equity, Inclusion, and Accessibility (DEIA) Grants by August 14, 2026, at 23:59 AoE.
+    Registration is now open for the IEEE ISMAR 2026 Speed Mentorship Session,
+    taking place on Monday, 5 October, from 4:00–5:30pm.
+    Students are invited to meet with working professionals, ask questions,
+    and gain career advice in a friendly speed-networking format.
+    <strong>Spots are limited, so be sure to register early to secure your place.</strong>
   </p>
 
   <p>
-    <a
-      href="https://www.ieeeismar.net/2026/DEIA-grant/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      DEIA Grants Page →
+    <a href="/2026/speed-mentorship/">
+      Learn more about the Speed Mentorship Session →
     </a>
   </p>
+
   <a
-        class="news-button"
-        href="https://docs.google.com/forms/d/e/1FAIpQLSdrYR0GU5VONwr6lLE3NvmBBplD05QJgDn2j35n21VdfenNWg/viewform"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Apply for a DEIA Grants
-      </a>
+    class="news-button"
+    href="https://www.computer.org/conferences/ismar2026"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    RSVP for Speed Mentorship
+  </a>
 </article>
 
 
