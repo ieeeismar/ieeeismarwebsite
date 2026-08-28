@@ -69,7 +69,7 @@ Colors: A, C, E = blue; B, D, F = orange
               {% assign sess_papers = slot_papers | where: "Session ID", sid %}
               {% assign sess_title = sess_papers[0]["Session Title"] %}
               {% assign sess_room = sess_papers[0]["Room"] %}
-              {% assign anchor = "day-" | append: day_num | append: "-slot-" | append: slot | downcase %}
+              {% assign anchor = "session-" | append: sid | slugify %}
               {% assign row_class = "toc-row-a" %}
               {% if slot == "B" or slot == "D" or slot == "F" %}{% assign row_class = "toc-row-b" %}{% endif %}
               <tr class="{{ row_class }}">
@@ -130,7 +130,7 @@ Colors: A, C, E = blue; B, D, F = orange
               {% assign session_papers = slot_papers | where: "Session ID", sid %}
               {% assign session_title = session_papers[0]["Session Title"] %}
               {% assign session_room = session_papers[0]["Room"] %}
-              <div class="paper-session">
+              <div class="paper-session" id="session-{{ sid | slugify }}">
                 <h5 class="session-header {{ title_class }}">{{ session_title }} <span class="session-room">{{ session_room }}</span></h5>
                 <ul class="paper-list">
                   {% for p in session_papers %}
@@ -200,7 +200,7 @@ Colors: A, C, E = blue; B, D, F = orange
               {% assign session_papers = slot_papers | where: "Session ID", sid %}
               {% assign session_title = session_papers[0]["Session Title"] %}
               {% assign session_room = session_papers[0]["Room"] %}
-              <div class="paper-session">
+              <div class="paper-session" id="session-{{ sid | slugify }}">
                 <h5 class="session-header {{ title_class }}">{{ session_title }} <span class="session-room">{{ session_room }}</span></h5>
                 <ul class="paper-list">
                   {% for p in session_papers %}
@@ -270,7 +270,7 @@ Colors: A, C, E = blue; B, D, F = orange
               {% assign session_papers = slot_papers | where: "Session ID", sid %}
               {% assign session_title = session_papers[0]["Session Title"] %}
               {% assign session_room = session_papers[0]["Room"] %}
-              <div class="paper-session">
+              <div class="paper-session" id="session-{{ sid | slugify }}">
                 <h5 class="session-header {{ title_class }}">{{ session_title }} <span class="session-room">{{ session_room }}</span></h5>
                 <ul class="paper-list">
                   {% for p in session_papers %}
@@ -356,7 +356,7 @@ For questions, contact: papers2026@ieeeismar.net
 .parallel-sessions { display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap:12px; }
 
 /* Individual session */
-.paper-session { background:#fff; border-radius:8px; padding:10px 12px; box-shadow:0 1px 3px rgba(0,0,0,.08); }
+.paper-session { background:#fff; border-radius:8px; padding:10px 12px; box-shadow:0 1px 3px rgba(0,0,0,.08); scroll-margin-top:270px; }
 .session-header { margin:0 0 8px 0; font-size:0.95rem; font-weight:600; display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:6px; }
 .session-room { font-size:0.75rem; font-weight:500; background:#f0f0f0; padding:2px 8px; border-radius:12px; color:#555; }
 
