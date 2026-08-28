@@ -25,6 +25,9 @@ Participants are invited to review the hotel information and choose the option t
  
 * Hotel rooms have been pre-booked for ISMAR attendees, and reservations will be available during registration.
 * Fixed prices apply for a 5-night stay from **4–9 October**. Participants attending the <a href="https://sigchi.org/events/sui-2026/">SUI conference</a> may request an extension of 2 additional nights, from **9–11 October**, available only at **The Nicolaus Hotel Bari** and **Hi Hotel Bari**.
+* We have secured blocks of hotel rooms at several nearby hotels, including: (1) [Nicolaus Hotel Bari](https://www.thenicolaushotel.com/en) – the main conference hotel hosting the ISMAR conference, (2) [Grand Hotel LEon D’Oro](http://www.grandhotelleondoro.it), and (3) [Hi Hotel Bari](http://www.hihotelbari.com). 
+  * **To book rooms at these hotels between 4 October and 10 October, please use the conference registration system accessed via our [ISMAR Registration page](https://www.ieeeismar.net/2026/registration/).** 
+  * Additionally, to book rooms at these hotels **prior to 4 October, and/or after 10 October, please book with the hotel(s) directly.**
 
 | Hotel | Address | Distance from venue | Fixed stay | SUI extension | Reserved rooms | Price/night |
 |---|---|---|---|---|---:|---|

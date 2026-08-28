@@ -91,6 +91,7 @@ body {
 @media (max-width: 768px) {
     .hero-section {
         height: 250px; /* Mobile hero height */
+        margin-top: 70px; /* Account for fixed navbar */
     }
 }
 
