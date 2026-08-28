@@ -21,8 +21,10 @@ permalink: /2026/tutorials/
 
 
 ### AI-Driven Virtual Humans
+{: #ai-driven-virtual-humans }
 
 **Date/Time**: Monday 5 October, Morning Session<br>
+**Room**: Sezione 2<br>
 **Main Contact Person**: <a href="mailto:M.Gillies@gold.ac.uk ">Marco Gillies</a> 
 
 
@@ -36,8 +38,10 @@ This tutorial will explore how we can populate MR and VR environments with belie
 
 
 ### Building Interoperable Location-based Augmented Reality with the Open AR Cloud
+{: #building-interoperable-location-based-augmented-reality-with-the-open-ar-cloud }
 
 **Date/Time**: Monday 5 October, Morning Session<br>
+**Room**: Sezione 6+7<br>
 **Main Contact Person**: <a href="mailto:gabor.soros@nokia-bell-labs.com"> Gábor Sörös</a> 
 
 #### **[> Tutorial Website](https://openarcloud.org/oscp/ismar2026/)**
@@ -47,9 +51,11 @@ This tutorial provides an overview of location-based augmented reality and the s
 ---
 
 
-### Emerging Reviewing and Publication Models to Promote Trustworthy Research and Support Scientific Career Advancement 
+### Emerging Reviewing and Publication Models to Promote Trustworthy Research and Support Scientific Career Advancement
+{: #emerging-reviewing-and-publication-models-to-promote-trustworthy-research-and-support-scientific-career-advancement }
 
 **Date/Time**: Tuesday 6 October, Morning Session<br>
+**Room**: Sezione 6+7<br>
 **Main Contact Person**: <a href="mailto:swan@acm.org"> Ed Swan</a> 
 
 #### <a href="/2026/files/ISMAR2026_Tutorial_CfP_ERPM.pdf" download><strong>&gt; Download CfP</strong></a>
@@ -63,8 +69,10 @@ However, there are reasons for optimism. Many research communities, including ou
 --- 
 
 ### Interaction Design for Extended Reality
+{: #interaction-design-for-extended-reality }
 
 **Date/Time**: Tuesday 6 October, Morning Session<br>
+**Room**: Sezione 2<br>
 **Main Contact Person**: <a href="mailto:jorgej@ieee.org"> Joaquim Jorge</a> 
 
 #### **[> Tutorial Website](https://sites.google.com/view/ismar26)**
@@ -75,8 +83,10 @@ Extended Reality (XR) is transforming how we engage with digital content, yet de
 --- 
 
 ### XRStand 2026: XR Standards and Open Science Practices
+{: #xrstand-2026-xr-standards-and-open-science-practices }
 
 **Date/Time**: Monday 5 October, Morning Session<br>
+**Room**: Sezione 3<br>
 **Main Contact Person**: <a href="mailto:t.kurata@aist.go.jp"> Takeshi Kurata</a> 
 
 #### **[> Tutorial Website](https://xrstand-standardization-committee.github.io/ISMAR-26-Tutorial/)**
