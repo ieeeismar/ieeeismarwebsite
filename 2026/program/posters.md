@@ -3,7 +3,10 @@ layout: 2026/program-page-2026
 title: Posters
 permalink: /2026/posters/
 ---
-*Last updated: 2026-08-21 9:00PM EDT*
+---
+*Last updated: 2026-08-28 7:14PM EDT*
+
+---
 
 All accepted posters, including those invited from the Doctoral Consortium and TVCG Journal papers, are assigned to a specific day, which has multiple presentation timeslots throughout that day. We **highly recommend being at your posters** during the allocated timeslots! This is a great opportunity to network and talk to other conference attendees.
 
@@ -12,9 +15,9 @@ This year, there are **no traditional poster fast-forward sessions.** Instead, f
 ** Please put your poster on the board in the exhibition hall *before* the first presentation timeslot and clean up your poster *after* the last presentation timeslot.
 
 <div class="day-nav">
-  <a href="#day-1" class="day-btn">Wednesday <span class="day-date">Oct 7</span></a>
-  <a href="#day-2" class="day-btn">Thursday <span class="day-date">Oct 8</span></a>
-  <a href="#day-3" class="day-btn">Friday <span class="day-date">Oct 9</span></a>
+  <a href="#day-1" class="day-btn"><span class="day-full">Wednesday</span><span class="day-short">Wed</span> <span class="day-date">Oct 7</span></a>
+  <a href="#day-2" class="day-btn"><span class="day-full">Thursday</span><span class="day-short">Thur</span> <span class="day-date">Oct 8</span></a>
+  <a href="#day-3" class="day-btn"><span class="day-full">Friday</span><span class="day-short">Fri</span> <span class="day-date">Oct 9</span></a>
 </div>
 
 ----
@@ -202,8 +205,9 @@ Mohammed Safayet Arefin, Andrea Boensch, Francesco Ferrise, Cassidy Nelson
 /* Day navigation buttons */
 .day-nav { display:flex; flex-wrap:nowrap; gap:10px; padding:12px 10px; margin:-8px -10px 8px; position:sticky; top:70px; background:#F4E8D4; z-index:11; animation:none !important; }
 .day-btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; padding:10px 18px; border-radius:8px; font-size:0.9rem; font-weight:600; text-decoration:none; background:#3A8BF3; color:#fff !important; box-shadow:0 2px 4px rgba(0,0,0,.12); animation:none !important; flex:1 1 0; min-width:0; }
-.day-btn:hover { background:#2878DB; transform:translateY(-1px); box-shadow:0 3px 8px rgba(0,0,0,.18); text-decoration:none; color:#fff !important; }
+.day-btn:hover { background:#2878DB; transform:translateY(-1px); box-shadow:0 3px 8px rgba(0,0,0,.18); text-decoration:none !important; color:#fff !important; }
 .day-date { font-size:0.75rem; font-weight:500; opacity:0.85; }
+.day-short { display:none; }
 
 .posters-wrapper { max-width: 1050px; margin: 8px 0 28px 0; }
 .poster-day { margin-bottom: 26px; scroll-margin-top: 130px; }
@@ -262,7 +266,10 @@ Mohammed Safayet Arefin, Andrea Boensch, Francesco Ferrise, Cassidy Nelson
 @media (max-width: 640px){
   .day-nav { gap:4px; padding:6px 10px; }
   .day-btn { padding:5px 8px; font-size:0.65rem; gap:4px; }
+  .day-btn:hover, .day-btn:active { background:#3A8BF3; transform:none; box-shadow:0 2px 4px rgba(0,0,0,.12); }
   .day-date { font-size:0.55rem; }
+  .day-full { display:none; }
+  .day-short { display:inline; }
   .poster-day-title { top:100px; }
   .session-nav { top:138px; }
   .poster-title { display:inline; margin-top:0; }
