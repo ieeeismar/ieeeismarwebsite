@@ -19,23 +19,29 @@ permalink: /2026/workshops/
   gtag('config', 'G-FQFFZGXF3Y');
 </script>
 
-## Overview
-
-This page contains information about the call for workshop papers for ISMAR 2026 for all accepted workshops. Each workshop has its own submission deadline and requirements, so please refer to the specific workshop pages for details.
-
 ## Workshops
 
-{% for workshop in site.data["2026"].workshops %}
+{% assign all_workshops = site.data["2026"].workshops %}
+{% assign allday_workshops = all_workshops | where_exp: "w", "w['Day/Time'] contains 'All Day'" | sort: "Day/Time" %}
+{% assign morning_workshops = all_workshops | where_exp: "w", "w['Day/Time'] contains 'Morning'" | sort: "Day/Time" %}
+{% assign afternoon_workshops = all_workshops | where_exp: "w", "w['Day/Time'] contains 'Afternoon'" | sort: "Day/Time" %}
+{% assign sorted_workshops = allday_workshops | concat: morning_workshops | concat: afternoon_workshops %}
+{% for workshop in sorted_workshops %}
 ### {{ workshop["Title"] }}
+{: #{{ workshop["Title"] | slugify }} }
 
 {% assign contact_name = workshop["Main Contact Person"] | default: "" | strip %}
 {% assign contact_email = workshop["Main Contact Email"] | default: "" | strip %}
 {% assign workshop_website = workshop["Website"] | default: "" | strip %}
 {% assign workshop_cfp = workshop["CFP"] | default: "" | strip %}
-{% assign day_time = workshop["Day/Time"] | default: "" | strip %} 
+{% assign day_time = workshop["Day/Time"] | default: "" | strip %}
+{% assign room = workshop["Room"] | default: "" | strip %}
 
 {%- if day_time != '' %}
 **Day/Time:** {{ day_time }}<br>
+{%- endif -%}
+{%- if room != '' %}
+**Room:** {{ room }}<br>
 {%- endif -%}
 {%- if contact_name != '' and contact_email != '' %}
 **Main Contact Person:** [{{ contact_name }}](mailto:{{ contact_email }})

@@ -81,10 +81,20 @@
      url: "/2026/overview/"
    - title: Keynote Speakers
      url: "/2026/keynote-speakers/"
+   - title: Papers
+     url: "/2026/papers/"
+   - title: Posters
+     url: "/2026/posters/"
+   - title: Panels
+     url: "/2026/panels/"
    - title: Workshops
      url: "/2026/workshops/"
    - title: Tutorials
      url: "/2026/tutorials/"
+   - title: Demos
+     url: "/2026/demos/"
+   - title: Doctoral Consortium
+     url: "/2026/doctoral-consortium/"
    - title: Future Faculty Forum
      url: "/2026/future-faculty-forum/"
    - title: Women@ISMAR

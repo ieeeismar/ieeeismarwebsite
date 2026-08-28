@@ -22,7 +22,7 @@ permalink: /2026/keynote-speakers/
  <img src="/2026/program/keynote_speakers/images/JennySpurlock.jpg" alt="Photo of Jenny Spurlock" />
  <figcaption>Jenny Spurlock, Senior Product Design Director, Meta Reality Lab</figcaption>
 </figure>
-<h2>Keynote Talk 1 (Wed, 7 Oct. 2026)</h2>
+<h2 id="keynote-1">Keynote Talk 1 (Wed, 7 Oct. 2026)</h2>
 <h2>Jenny Spurlock <span style="font-weight: 200">|</span> <span style="font-weight: 400">Senior Product Design Director, Meta Reality Lab</span></h2>
 <!-- markdownlint-enable MD033 -->
 
@@ -54,7 +54,7 @@ prototyping, design taste, conceptual models, and blending disciplines to unlock
  <img src="/2026/program/keynote_speakers/images/Antonio Rizzo.jpg" alt="Photo of Antonio Rizzo" />
  <figcaption> Antonio Rizzo, Full Professor of Cognitive Science and Technology, University of Siena</figcaption>
 </figure>
-<h2>Keynote Talk 2 (Thu, 8 Oct. 2026)</h2>
+<h2 id="keynote-2">Keynote Talk 2 (Thu, 8 Oct. 2026)</h2>
 <h2>Antonio Rizzo <span style="font-weight: 200">|</span> <span style="font-weight: 400">Full Professor of Cognitive Science and Technology, University of Siena</span></h2>
 <!-- markdownlint-enable MD033 -->
 
@@ -80,7 +80,7 @@ Antonio Rizzo is Full Professor at the University of Siena, where he works at th
  <img src="/2026/program/keynote_speakers/images/Misha Sra.webp" alt="Photo of Misha Sra" />
  <figcaption>Misha Sra, Associate Professor, University  of California, Santa Barbara</figcaption>
 </figure>
-<h2>Keynote Talk 3 (Fri, 9 Oct. 2026)</h2>
+<h2 id="keynote-3">Keynote Talk 3 (Fri, 9 Oct. 2026)</h2>
 <h2>Misha Sra<span style="font-weight: 200"> |</span> <span style="font-weight: 400">Associate Professor, University  of California, Santa Barbara</span></h2>
 <!-- markdownlint-enable MD033 -->
 
