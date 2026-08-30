@@ -89,10 +89,10 @@ permalink: /2026/overview/
     <h2>Monday, 5 October 2026</h2>
     <div class="time-overview" aria-label="Jump to part of the day">
       <button type="button" data-period="morning">08:15–14:00</button>
-      <button type="button" data-period="afternoon">14:00–20:30</button>
+      <button type="button" data-period="afternoon">14:00–21:30</button>
     </div>
 
-    <div class="timeline-schedule" style="grid-template-rows: repeat(50, 20px);">
+    <div class="timeline-schedule" style="grid-template-rows: repeat(55, 20px);">
       <!-- Time labels (hourly) and tick marks (15-min intervals) -->
       <div class="time-label row-800">8:00</div>
       <div class="time-tick row-815"></div>
@@ -145,6 +145,10 @@ permalink: /2026/overview/
       <div class="time-label row-2000">20:00</div>
       <div class="time-tick row-2015"></div>
       <div class="time-tick half row-2030"></div>
+      <div class="time-tick row-2045"></div>
+      <div class="time-label row-2100">21:00</div>
+      <div class="time-tick row-2115"></div>
+      <div class="time-tick half row-2130"></div>
 
       <!-- Workshops & Tutorials: 08:15-09:45 (Track 1) -->
       <div class="timeline-item workshop-grid row-815 span-90" style="grid-column: 2 / 8;">
@@ -252,10 +256,10 @@ permalink: /2026/overview/
         <span>18:30–20:30</span>
       </div> -->
 
-      <!-- Bari Vecchia (Old Town) Tour: 18:30-20:30 (Track 2) -->
-      <div class="timeline-item tour row-1830" style="grid-column: 2 / 11; grid-row-end: span 8;">
+      <!-- Bari Vecchia (Old Town) Tour: 20:00-21:30 -->
+      <div class="timeline-item tour row-2000 span-90" style="grid-column: 2 / 11;">
         <strong>Bari Vecchia (Old Town) Tour</strong>
-        <span>18:30–20:30</span>
+        <span>20:00–21:30</span>
       </div>
     </div>
   </section>
@@ -433,10 +437,10 @@ permalink: /2026/overview/
     <h2>Wednesday, 7 October 2026</h2>
     <div class="time-overview" aria-label="Jump to part of the day">
       <button type="button" data-period="morning">08:00–14:00</button>
-      <button type="button" data-period="afternoon">14:00–18:45</button>
+      <button type="button" data-period="afternoon">14:00–21:30</button>
     </div>
 
-    <div class="timeline-schedule">
+    <div class="timeline-schedule" style="grid-template-rows: repeat(55, 20px);">
       <!-- Time labels (hourly) and tick marks (15-min intervals) -->
       <div class="time-label row-800">8:00</div>
       <div class="time-tick row-815"></div>
@@ -482,6 +486,17 @@ permalink: /2026/overview/
       <div class="time-tick row-1815"></div>
       <div class="time-tick half row-1830"></div>
       <div class="time-tick row-1845"></div>
+      <div class="time-label row-1900">19:00</div>
+      <div class="time-tick row-1915"></div>
+      <div class="time-tick half row-1930"></div>
+      <div class="time-tick row-1945"></div>
+      <div class="time-label row-2000">20:00</div>
+      <div class="time-tick row-2015"></div>
+      <div class="time-tick half row-2030"></div>
+      <div class="time-tick row-2045"></div>
+      <div class="time-label row-2100">21:00</div>
+      <div class="time-tick row-2115"></div>
+      <div class="time-tick half row-2130"></div>
 
       <!-- Registration 08:00-18:45 -->
       <div class="timeline-item registration row-800 col-reg" style="grid-row-end: 44;">
@@ -667,6 +682,12 @@ permalink: /2026/overview/
         <span>17:45–18:45</span>
         <small>Sezione 1</small>
       </a>
+
+      <!-- Bari Vecchia (Old Town) Tour: 20:00-21:30 -->
+      <div class="timeline-item tour row-2000 span-90" style="grid-column: 2 / 11;">
+        <strong>Bari Vecchia (Old Town) Tour</strong>
+        <span>20:00–21:30</span>
+      </div>
     </div>
   </section>
 
@@ -926,10 +947,10 @@ permalink: /2026/overview/
     <h2>Friday, 9 October 2026</h2>
     <div class="time-overview" aria-label="Jump to part of the day">
       <button type="button" data-period="morning">08:00–14:00</button>
-      <button type="button" data-period="afternoon">14:00–17:30</button>
+      <button type="button" data-period="afternoon">14:00–21:30</button>
     </div>
 
-    <div class="timeline-schedule" style="grid-template-rows: repeat(39, 20px);">
+    <div class="timeline-schedule" style="grid-template-rows: repeat(55, 20px);">
       <!-- Time labels (hourly) and tick marks (15-min intervals) -->
       <div class="time-label row-800">8:00</div>
       <div class="time-tick row-815"></div>
@@ -970,6 +991,22 @@ permalink: /2026/overview/
       <div class="time-label row-1700">17:00</div>
       <div class="time-tick row-1715"></div>
       <div class="time-tick half row-1730"></div>
+      <div class="time-tick row-1745"></div>
+      <div class="time-label row-1800">18:00</div>
+      <div class="time-tick row-1815"></div>
+      <div class="time-tick half row-1830"></div>
+      <div class="time-tick row-1845"></div>
+      <div class="time-label row-1900">19:00</div>
+      <div class="time-tick row-1915"></div>
+      <div class="time-tick half row-1930"></div>
+      <div class="time-tick row-1945"></div>
+      <div class="time-label row-2000">20:00</div>
+      <div class="time-tick row-2015"></div>
+      <div class="time-tick half row-2030"></div>
+      <div class="time-tick row-2045"></div>
+      <div class="time-label row-2100">21:00</div>
+      <div class="time-tick row-2115"></div>
+      <div class="time-tick half row-2130"></div>
 
       <!-- Registration 08:00-17:30 -->
       <div class="timeline-item registration row-800 col-reg" style="grid-row-end: 39;">
@@ -1145,6 +1182,12 @@ permalink: /2026/overview/
       <div class="timeline-item ceremony row-1630 col-main span-60">
         <strong>Closing Ceremony</strong>
         <span>16:30–17:30</span>
+      </div>
+
+      <!-- Bari Vecchia (Old Town) Tour: 20:00-21:30 -->
+      <div class="timeline-item tour row-2000 span-90" style="grid-column: 2 / 11;">
+        <strong>Bari Vecchia (Old Town) Tour</strong>
+        <span>20:00–21:30</span>
       </div>
     </div>
   </section>
