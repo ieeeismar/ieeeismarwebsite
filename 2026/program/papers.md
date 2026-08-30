@@ -3,7 +3,15 @@ layout: 2026/program-page-2026
 title: Papers
 permalink: /2026/papers/
 ---
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQFFZGXF3Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-FQFFZGXF3Y');
+</script>
 ---
 *Last updated: 2026-08-28 7:14PM EDT*
 

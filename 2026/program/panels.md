@@ -3,6 +3,15 @@ layout: 2026/program-page-2026
 title: Panels
 permalink: /2026/panels/
 ---
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQFFZGXF3Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FQFFZGXF3Y');
+</script>
 
 ## The Good, the Bad, the Ugly of AI in Academic Research and Publishing
 {: #the-good-the-bad-the-ugly-of-ai-in-academic-research-and-publishing }
