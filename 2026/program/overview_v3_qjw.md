@@ -158,7 +158,7 @@ permalink: /2026/overview/
           <a href="/2026/workshops/#sense-xr-the-feeling-of-virtual-xr-haptics-and-3d-graphics" class="ws-item" title="Sezione 1">SENSE-XR</a>
           <a href="/2026/tutorials/#ai-driven-virtual-humans" class="ws-item tut" title="Sezione 2">Virtual Humans</a>
           <a href="/2026/tutorials/#building-interoperable-location-based-augmented-reality-with-the-open-ar-cloud" class="ws-item tut" title="Sezione 6+7">Open AR Cloud</a>
-          <a href="/2026/tutorials/#xrstand-2026-xr-standards-and-open-science-practices" class="ws-item tut" title="Sezione 3">XRStand 2026</a>
+          <a href="/2026/tutorials/#xrstand-2026-xr-standards-and-open-science-practices" class="ws-item tut" title="Sezione 5">XRStand 2026</a>
           <a href="/2026/workshops/#medicalxr-2026-3rd-international-workshop-on-medical-extended-reality" class="ws-item allday" title="Orione">MedicalXR</a>
           <a href="/2026/workshops/#xr-spro-26-xr-solutions-for-smart-production" class="ws-item allday" title="Cigno">XR-Spro'26</a>
           <a href="/2026/workshops/#xrway-26-the-1st-international-workshop-on-xr-on-the-way-xrway-xr-for-walking-driving-and-everyday-mobility" class="ws-item allday" title="Perseo">XRWay'26</a>
@@ -185,7 +185,7 @@ permalink: /2026/overview/
           <a href="/2026/workshops/#sense-xr-the-feeling-of-virtual-xr-haptics-and-3d-graphics" class="ws-item" title="Sezione 1">SENSE-XR</a>
           <a href="/2026/tutorials/#ai-driven-virtual-humans" class="ws-item tut" title="Sezione 2">Virtual Humans</a>
           <a href="/2026/tutorials/#building-interoperable-location-based-augmented-reality-with-the-open-ar-cloud" class="ws-item tut" title="Sezione 6+7">Open AR Cloud</a>
-          <a href="/2026/tutorials/#xrstand-2026-xr-standards-and-open-science-practices" class="ws-item tut" title="Sezione 3">XRStand 2026</a>
+          <a href="/2026/tutorials/#xrstand-2026-xr-standards-and-open-science-practices" class="ws-item tut" title="Sezione 5">XRStand 2026</a>
           <a href="/2026/workshops/#medicalxr-2026-3rd-international-workshop-on-medical-extended-reality" class="ws-item allday" title="Orione">MedicalXR</a>
           <a href="/2026/workshops/#xr-spro-26-xr-solutions-for-smart-production" class="ws-item allday" title="Cigno">XR-Spro'26</a>
           <a href="/2026/workshops/#xrway-26-the-1st-international-workshop-on-xr-on-the-way-xrway-xr-for-walking-driving-and-everyday-mobility" class="ws-item allday" title="Perseo">XRWay'26</a>
@@ -331,7 +331,7 @@ permalink: /2026/overview/
         <div class="workshop-items">
           <a href="/2026/workshops/#ahimr-26-the-1st-international-workshop-on-ai-mediated-heads-up-interaction-in-wearable-mixed-reality" class="ws-item" title="Sezione 4">AHIMR'26</a>
           <a href="/2026/workshops/#behavxr-26-xr-for-behavioral-health-body-signals-behavior-change-and-responsible-design" class="ws-item" title="Sezione 2">BehavXR'26</a>
-          <a href="/2026/workshops/#wsr5-26-5th-workshop-on-seamless-reality-wsr5-ar-technologies-for-seamless-perception-and-cognition-between-cyber-and-physical-spaces" class="ws-item" title="Sezione 3">WSR5'26</a>
+          <a href="/2026/workshops/#wsr5-26-5th-workshop-on-seamless-reality-wsr5-ar-technologies-for-seamless-perception-and-cognition-between-cyber-and-physical-spaces" class="ws-item" title="Sezione 5">WSR5'26</a>
           <a href="/2026/workshops/#xrag-26-the-1st-international-workshop-on-agentic-ai-for-extended-reality" class="ws-item" title="Sezione 4">XRAG'26</a>
           <a href="/2026/tutorials/#emerging-reviewing-and-publication-models-to-promote-trustworthy-research-and-support-scientific-career-advancement" class="ws-item tut" title="Sezione 6+7">Reviewing Models</a>
           <a href="/2026/tutorials/#interaction-design-for-extended-reality" class="ws-item tut" title="Sezione 2">ID4XR</a>
@@ -357,7 +357,7 @@ permalink: /2026/overview/
         <div class="workshop-items">
           <a href="/2026/workshops/#ahimr-26-the-1st-international-workshop-on-ai-mediated-heads-up-interaction-in-wearable-mixed-reality" class="ws-item" title="Sezione 4">AHIMR'26</a>
           <a href="/2026/workshops/#behavxr-26-xr-for-behavioral-health-body-signals-behavior-change-and-responsible-design" class="ws-item" title="Sezione 2">BehavXR'26</a>
-          <a href="/2026/workshops/#wsr5-26-5th-workshop-on-seamless-reality-wsr5-ar-technologies-for-seamless-perception-and-cognition-between-cyber-and-physical-spaces" class="ws-item" title="Sezione 3">WSR5'26</a>
+          <a href="/2026/workshops/#wsr5-26-5th-workshop-on-seamless-reality-wsr5-ar-technologies-for-seamless-perception-and-cognition-between-cyber-and-physical-spaces" class="ws-item" title="Sezione 5">WSR5'26</a>
           <a href="/2026/workshops/#xrag-26-the-1st-international-workshop-on-agentic-ai-for-extended-reality" class="ws-item" title="Sezione 4">XRAG'26</a>
           <a href="/2026/tutorials/#emerging-reviewing-and-publication-models-to-promote-trustworthy-research-and-support-scientific-career-advancement" class="ws-item tut" title="Sezione 6+7">Reviewing Models</a>
           <a href="/2026/tutorials/#interaction-design-for-extended-reality" class="ws-item tut" title="Sezione 2">ID4XR</a>
@@ -381,7 +381,7 @@ permalink: /2026/overview/
       <!-- Workshops & Tutorials: 14:00-15:30 (Track 1) -->
       <div class="timeline-item workshop-grid row-1400 span-90" style="grid-column: 2 / 8;">
         <div class="workshop-items">
-          <a href="/2026/workshops/#alt-ismar-alternative-ismar" class="ws-item" title="Sezione 3">Alt'ISMAR</a>
+          <a href="/2026/workshops/#alt-ismar-alternative-ismar" class="ws-item" title="Sezione 5">Alt'ISMAR</a>
           <a href="/2026/workshops/#hype-xr-1st-workshop-on-hyperrealism-in-xr-in-the-era-of-radiance-fields" class="ws-item" title="Sezione 1">Hype-XR</a>
           <a href="/2026/workshops/#teacxr-26-the-1st-international-workshop-on-teaching-xr" class="ws-item" title="Auriga">TeacXR'26</a>
           <a href="/2026/workshops/#xrai-sca-2nd-international-workshop-on-extended-reality-and-artificial-intelligence-for-serious-and-critical-applications" class="ws-item" title="Sezione 4">XRAI-SCA</a>
@@ -407,7 +407,7 @@ permalink: /2026/overview/
       <!-- Workshops & Tutorials: 16:15-17:45 (Track 1) -->
       <div class="timeline-item workshop-grid row-1615 span-90" style="grid-column: 2 / 8;">
         <div class="workshop-items">
-          <a href="/2026/workshops/#alt-ismar-alternative-ismar" class="ws-item" title="Sezione 3">Alt'ISMAR</a>
+          <a href="/2026/workshops/#alt-ismar-alternative-ismar" class="ws-item" title="Sezione 5">Alt'ISMAR</a>
           <a href="/2026/workshops/#hype-xr-1st-workshop-on-hyperrealism-in-xr-in-the-era-of-radiance-fields" class="ws-item" title="Sezione 1">Hype-XR</a>
           <a href="/2026/workshops/#teacxr-26-the-1st-international-workshop-on-teaching-xr" class="ws-item" title="Auriga">TeacXR'26</a>
           <a href="/2026/workshops/#xrai-sca-2nd-international-workshop-on-extended-reality-and-artificial-intelligence-for-serious-and-critical-applications" class="ws-item" title="Sezione 4">XRAI-SCA</a>
@@ -551,7 +551,7 @@ permalink: /2026/overview/
       <a href="/2026/papers/#day-1-slot-a" class="timeline-item paper row-1115 span-60" style="grid-column: 3 / 4;">
         <strong>Crowd Interaction</strong>
         <span>11:15–12:15</span>
-        <small>Sezione 3+4</small>
+        <small>Sezione 4+5</small>
       </a>
       <a href="/2026/papers/#day-1-slot-a" class="timeline-item paper row-1115 span-60" style="grid-column: 4 / 5;">
         <strong>Finger Touch Input</strong>
@@ -597,7 +597,7 @@ permalink: /2026/overview/
       <a href="/2026/papers/#day-1-slot-c" class="timeline-item paper row-1345 span-60" style="grid-column: 3 / 4;">
         <strong>Remote Collaboration</strong>
         <span>13:45–14:45</span>
-        <small>Sezione 3+4</small>
+        <small>Sezione 4+5</small>
       </a>
       <a href="/2026/papers/#day-1-slot-c" class="timeline-item paper row-1345 span-60" style="grid-column: 4 / 5;">
         <strong>Gaze Gesture Input</strong>
@@ -663,7 +663,7 @@ permalink: /2026/overview/
       <a href="/2026/papers/#day-1-slot-e" class="timeline-item paper row-1715 span-60" style="grid-column: 4 / 5;">
         <strong>Shared Spatial Cues</strong>
         <span>17:15–18:15</span>
-        <small>Sezione 3+4</small>
+        <small>Sezione 4+5</small>
       </a>
 
       <!-- PS16, PS17, PS18: 17:45-18:45 (Track 2 - right side) -->
@@ -794,7 +794,7 @@ permalink: /2026/overview/
       <a href="/2026/papers/#day-2-slot-b" class="timeline-item paper row-900 span-60" style="grid-column: 7 / 8;">
         <strong>Accessible Navigation</strong>
         <span>09:00–10:00</span>
-        <small>Sezione 3+4</small>
+        <small>Sezione 4+5</small>
       </a>
 
       <!-- Coffee Break 09:30-10:30 (Track 1) -->
@@ -843,7 +843,7 @@ permalink: /2026/overview/
       <a href="/2026/papers/#day-2-slot-c" class="timeline-item paper row-1145 span-60" style="grid-column: 4 / 5;">
         <strong>Immerstic Exp. &amp; Culture</strong>
         <span>11:45–12:45</span>
-        <small>Sezione 3+4</small>
+        <small>Sezione 4+5</small>
       </a>
 
       <!-- PS28, PS29, PS30: 12:15-13:15 (Track 2) -->
@@ -890,7 +890,7 @@ permalink: /2026/overview/
       <a href="/2026/papers/#day-2-slot-e" class="timeline-item paper row-1415 span-60" style="grid-column: 3 / 4;">
         <strong>Redirected Walking</strong>
         <span>14:15–15:15</span>
-        <small>Sezione 3+4</small>
+        <small>Sezione 4+5</small>
       </a>
       <a href="/2026/papers/#day-2-slot-e" class="timeline-item paper row-1415 span-60" style="grid-column: 4 / 5;">
         <strong>Social Impact</strong>
@@ -1040,7 +1040,7 @@ permalink: /2026/overview/
       <a href="/2026/papers/#day-3-slot-b" class="timeline-item paper row-900 span-60" style="grid-column: 6 / 7;">
         <strong>Cybersickness &amp; Locomotion</strong>
         <span>09:00–10:00</span>
-        <small>Sezione 3+4</small>
+        <small>Sezione 4+5</small>
       </a>
       <a href="/2026/papers/#day-3-slot-b" class="timeline-item paper row-900 span-60" style="grid-column: 7 / 8;">
         <strong>Medical Procedures</strong>
@@ -1089,7 +1089,7 @@ permalink: /2026/overview/
       <a href="/2026/papers/#day-3-slot-c" class="timeline-item paper row-1145 span-60" style="grid-column: 3 / 4;">
         <strong>Agents for Guidance</strong>
         <span>11:45–12:45</span>
-        <small>Sezione 3+4</small>
+        <small>Sezione 4+5</small>
       </a>
       <a href="/2026/papers/#day-3-slot-c" class="timeline-item paper row-1145 span-60" style="grid-column: 4 / 5;">
         <strong>Immersive Analytics</strong>
@@ -1141,7 +1141,7 @@ permalink: /2026/overview/
       <a href="/2026/papers/#day-3-slot-e" class="timeline-item paper row-1415 span-60" style="grid-column: 3 / 4;">
         <strong>Adaptive &amp; Personalized XR</strong>
         <span>14:15–15:15</span>
-        <small>Sezione 3+4</small>
+        <small>Sezione 4+5</small>
       </a>
       <a href="/2026/papers/#day-3-slot-e" class="timeline-item paper row-1415 span-60" style="grid-column: 4 / 5;">
         <strong>Rehab. Screening</strong>

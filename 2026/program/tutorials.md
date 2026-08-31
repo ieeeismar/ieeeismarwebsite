@@ -86,7 +86,7 @@ Extended Reality (XR) is transforming how we engage with digital content, yet de
 {: #xrstand-2026-xr-standards-and-open-science-practices }
 
 **Date/Time**: Monday 5 October, Morning Session<br>
-**Room**: Sezione 3<br>
+**Room**: Sezione 5<br>
 **Main Contact Person**: <a href="mailto:t.kurata@aist.go.jp"> Takeshi Kurata</a> 
 
 #### **[> Tutorial Website](https://xrstand-standardization-committee.github.io/ISMAR-26-Tutorial/)**
