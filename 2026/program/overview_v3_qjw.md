@@ -92,7 +92,7 @@ permalink: /2026/overview/
       <button type="button" data-period="afternoon">14:00–21:30</button>
     </div>
 
-    <div class="timeline-schedule" style="grid-template-rows: repeat(55, 20px);">
+    <div class="timeline-schedule" style="grid-template-rows: repeat(55, 25px);">
       <!-- Time labels (hourly) and tick marks (15-min intervals) -->
       <div class="time-label row-800">8:00</div>
       <div class="time-tick row-815"></div>
@@ -272,7 +272,7 @@ permalink: /2026/overview/
       <button type="button" data-period="afternoon">14:00–20:30</button>
     </div>
 
-    <div class="timeline-schedule" style="grid-template-rows: repeat(50, 20px);">
+    <div class="timeline-schedule" style="grid-template-rows: repeat(50, 25px);">
       <!-- Time labels (hourly) and tick marks (15-min intervals) -->
       <div class="time-label row-800">8:00</div>
       <div class="time-tick row-815"></div>
@@ -440,7 +440,7 @@ permalink: /2026/overview/
       <button type="button" data-period="afternoon">14:00–21:30</button>
     </div>
 
-    <div class="timeline-schedule" style="grid-template-rows: repeat(55, 20px);">
+    <div class="timeline-schedule" style="grid-template-rows: repeat(55, 25px);">
       <!-- Time labels (hourly) and tick marks (15-min intervals) -->
       <div class="time-label row-800">8:00</div>
       <div class="time-tick row-815"></div>
@@ -544,34 +544,34 @@ permalink: /2026/overview/
 
       <!-- PS1, PS2, PS3: 11:15-12:15 -->
       <a href="/2026/papers/#day-1-slot-a" class="timeline-item paper row-1115 span-60" style="grid-column: 2 / 3;">
-        <strong>XR Learning</strong>
+        <strong>PS1: XR Learning</strong>
         <span>11:15–12:15</span>
         <small>Orione + Perseo</small>
       </a>
       <a href="/2026/papers/#day-1-slot-a" class="timeline-item paper row-1115 span-60" style="grid-column: 3 / 4;">
-        <strong>Crowd Interaction</strong>
+        <strong>PS2: Crowd Interaction</strong>
         <span>11:15–12:15</span>
         <small>Sezione 4+5</small>
       </a>
       <a href="/2026/papers/#day-1-slot-a" class="timeline-item paper row-1115 span-60" style="grid-column: 4 / 5;">
-        <strong>Finger Touch Input</strong>
+        <strong>PS3: Finger Touch Input</strong>
         <span>11:15–12:15</span>
         <small>Sezione 1</small>
       </a>
 
       <!-- PS4, PS5, PS6: 11:45-12:45 -->
       <a href="/2026/papers/#day-1-slot-b" class="timeline-item paper paper-small row-1145 span-60" style="grid-column: 5 / 6;">
-        <strong>Scene Reconstruction</strong>
+        <strong>PS4: Scene Reconstruction</strong>
         <span>11:45–12:45</span>
         <small>Cigno + Auriga</small>
       </a>
       <a href="/2026/papers/#day-1-slot-b" class="timeline-item paper row-1145 span-60" style="grid-column: 6 / 7;">
-        <strong>Haptic Interaction</strong>
+        <strong>PS5: Haptic Interaction</strong>
         <span>11:45–12:45</span>
         <small>Glasshaus</small>
       </a>
       <a href="/2026/papers/#day-1-slot-b" class="timeline-item paper row-1145 span-60" style="grid-column: 7 / 8;">
-        <strong>Avatar Identity</strong>
+        <strong>PS6: Avatar Identity</strong>
         <span>11:45–12:45</span>
         <small>Sezione 2</small>
       </a>
@@ -590,17 +590,17 @@ permalink: /2026/overview/
 
       <!-- PS7, PS8, PS9: 13:45-14:45 -->
       <a href="/2026/papers/#day-1-slot-c" class="timeline-item paper row-1345 span-60" style="grid-column: 2 / 3;">
-        <strong>3D Asset Modeling</strong>
+        <strong>PS7: 3D Asset Modeling</strong>
         <span>13:45–14:45</span>
         <small>Orione + Perseo</small>
       </a>
       <a href="/2026/papers/#day-1-slot-c" class="timeline-item paper row-1345 span-60" style="grid-column: 3 / 4;">
-        <strong>Remote Collaboration</strong>
+        <strong>PS8: Remote Collaboration</strong>
         <span>13:45–14:45</span>
         <small>Sezione 4+5</small>
       </a>
       <a href="/2026/papers/#day-1-slot-c" class="timeline-item paper row-1345 span-60" style="grid-column: 4 / 5;">
-        <strong>Gaze Gesture Input</strong>
+        <strong>PS9: Gaze Gesture Input</strong>
         <span>13:45–14:45</span>
         <small>Sezione 1</small>
       </a>
@@ -613,17 +613,17 @@ permalink: /2026/overview/
 
       <!-- PS10, PS11, PS12: 14:15-15:15 -->
       <a href="/2026/papers/#day-1-slot-d" class="timeline-item paper row-1415 span-60" style="grid-column: 5 / 6;">
-        <strong>Assembly Workflows</strong>
+        <strong>PS10: Assembly Workflows</strong>
         <span>14:15–15:15</span>
         <small>Glasshaus</small>
       </a>
       <a href="/2026/papers/#day-1-slot-d" class="timeline-item paper row-1415 span-60" style="grid-column: 6 / 7;">
-        <strong>Vibrotactile Haptics</strong>
+        <strong>PS11: Vibrotactile Haptics</strong>
         <span>14:15–15:15</span>
         <small>Cigno + Auriga</small>
       </a>
       <a href="/2026/papers/#day-1-slot-d" class="timeline-item paper row-1415 span-60" style="grid-column: 7 / 8;">
-        <strong>Body Ownership</strong>
+        <strong>PS12: Body Ownership</strong>
         <span>14:15–15:15</span>
         <small>Sezione 2</small>
       </a>
@@ -651,34 +651,34 @@ permalink: /2026/overview/
 
       <!-- PS13, PS14, PS15: 17:15-18:15 (Track 1 - left side) -->
       <a href="/2026/papers/#day-1-slot-e" class="timeline-item paper row-1715 span-60" style="grid-column: 2 / 3;">
-        <strong>Applied XR Evaluation</strong>
+        <strong>PS13: Applied XR Evaluation</strong>
         <span>17:15–18:15</span>
         <small>Glasshaus</small>
       </a>
       <a href="/2026/papers/#day-1-slot-e" class="timeline-item paper row-1715 span-60" style="grid-column: 3 / 4;">
-        <strong>XR Authoring</strong>
+        <strong>PS14: XR Authoring</strong>
         <span>17:15–18:15</span>
         <small>Cigno + Auriga</small>
       </a>
       <a href="/2026/papers/#day-1-slot-e" class="timeline-item paper row-1715 span-60" style="grid-column: 4 / 5;">
-        <strong>Shared Spatial Cues</strong>
+        <strong>PS15: Shared Spatial Cues</strong>
         <span>17:15–18:15</span>
         <small>Sezione 4+5</small>
       </a>
 
       <!-- PS16, PS17, PS18: 17:45-18:45 (Track 2 - right side) -->
       <a href="/2026/papers/#day-1-slot-f" class="timeline-item paper row-1745 span-60" style="grid-column: 5 / 6;">
-        <strong>Spatial Audio</strong>
+        <strong>PS16: Spatial Audio</strong>
         <span>17:45–18:45</span>
         <small>Orione + Perseo</small>
       </a>
       <a href="/2026/papers/#day-1-slot-f" class="timeline-item paper row-1745 span-60" style="grid-column: 6 / 7;">
-        <strong>Social Avatars</strong>
+        <strong>PS17: Social Avatars</strong>
         <span>17:45–18:45</span>
         <small>Sezione 2</small>
       </a>
       <a href="/2026/papers/#day-1-slot-f" class="timeline-item paper row-1745 span-60" style="grid-column: 7 / 8;">
-        <strong>Gaze Selection</strong>
+        <strong>PS18: Gaze Selection</strong>
         <span>17:45–18:45</span>
         <small>Sezione 1</small>
       </a>
@@ -699,7 +699,7 @@ permalink: /2026/overview/
       <button type="button" data-period="afternoon">14:00–21:30</button>
     </div>
 
-    <div class="timeline-schedule" style="grid-template-rows: repeat(55, 20px);">
+    <div class="timeline-schedule" style="grid-template-rows: repeat(55, 25px);">
       <!-- Time labels (hourly) and tick marks (15-min intervals) -->
       <div class="time-label row-800">8:00</div>
       <div class="time-tick row-815"></div>
@@ -765,34 +765,34 @@ permalink: /2026/overview/
 
       <!-- PS19, PS20, PS21: 08:30-09:30 (Track 1) -->
       <a href="/2026/papers/#day-2-slot-a" class="timeline-item paper row-830 span-60" style="grid-column: 2 / 3;">
-        <strong>Embodied Agents</strong>
+        <strong>PS19: Embodied Agents</strong>
         <span>08:30–09:30</span>
         <small>Sezione 2</small>
       </a>
       <a href="/2026/papers/#day-2-slot-a" class="timeline-item paper row-830 span-60" style="grid-column: 3 / 4;">
-        <strong>Teleoperation</strong>
+        <strong>PS20: Teleoperation</strong>
         <span>08:30–09:30</span>
         <small>Orione + Perseo</small>
       </a>
       <a href="/2026/papers/#day-2-slot-a" class="timeline-item paper row-830 span-60" style="grid-column: 4 / 5;">
-        <strong>Hand Gestures</strong>
+        <strong>PS21: Hand Gestures</strong>
         <span>08:30–09:30</span>
         <small>Sezione 1</small>
       </a>
 
       <!-- PS22, PS23, PS24: 09:00-10:00 (Track 2) -->
       <a href="/2026/papers/#day-2-slot-b" class="timeline-item paper row-900 span-60" style="grid-column: 5 / 6;">
-        <strong>XR Infrastructure</strong>
+        <strong>PS22: XR Infrastructure</strong>
         <span>09:00–10:00</span>
         <small>Cigno + Auriga</small>
       </a>
       <a href="/2026/papers/#day-2-slot-b" class="timeline-item paper row-900 span-60" style="grid-column: 6 / 7;">
-        <strong>Near-Eye Optics</strong>
+        <strong>PS23: Near-Eye Optics</strong>
         <span>09:00–10:00</span>
         <small>Glasshaus</small>
       </a>
       <a href="/2026/papers/#day-2-slot-b" class="timeline-item paper row-900 span-60" style="grid-column: 7 / 8;">
-        <strong>Accessible Navigation</strong>
+        <strong>PS24: Accessible Navigation</strong>
         <span>09:00–10:00</span>
         <small>Sezione 4+5</small>
       </a>
@@ -831,34 +831,34 @@ permalink: /2026/overview/
 
       <!-- PS25, PS26, PS27: 11:45-12:45 (Track 1) -->
       <a href="/2026/papers/#day-2-slot-c" class="timeline-item paper row-1145 span-60" style="grid-column: 2 / 3;">
-        <strong>Task Reliability</strong>
+        <strong>PS25: Task Reliability</strong>
         <span>11:45–12:45</span>
         <small>Glasshaus</small>
       </a>
       <a href="/2026/papers/#day-2-slot-c" class="timeline-item paper row-1145 span-60" style="grid-column: 3 / 4;">
-        <strong>Cybersickness Mitigation</strong>
+        <strong>PS26: Cybersickness Mitigation</strong>
         <span>11:45–12:45</span>
         <small>Cigno + Auriga</small>
       </a>
       <a href="/2026/papers/#day-2-slot-c" class="timeline-item paper row-1145 span-60" style="grid-column: 4 / 5;">
-        <strong>Immerstic Exp. &amp; Culture</strong>
+        <strong>PS27: Immersive Exp. &amp; Culture</strong>
         <span>11:45–12:45</span>
         <small>Sezione 4+5</small>
       </a>
 
       <!-- PS28, PS29, PS30: 12:15-13:15 (Track 2) -->
       <a href="/2026/papers/#day-2-slot-d" class="timeline-item paper row-1215 span-60" style="grid-column: 5 / 6;">
-        <strong>Projection &amp; Display Tech.</strong>
+        <strong>PS28: Projection &amp; Display Tech.</strong>
         <span>12:15–13:15</span>
         <small>Orione + Perseo</small>
       </a>
       <a href="/2026/papers/#day-2-slot-d" class="timeline-item paper row-1215 span-60" style="grid-column: 6 / 7;">
-        <strong>Navigation Cues</strong>
+        <strong>PS29: Navigation Cues</strong>
         <span>12:15–13:15</span>
         <small>Sezione 2</small>
       </a>
       <a href="/2026/papers/#day-2-slot-d" class="timeline-item paper row-1215 span-60" style="grid-column: 7 / 8;">
-        <strong>3D Manipulation</strong>
+        <strong>PS30: 3D Manipulation</strong>
         <span>12:15–13:15</span>
         <small>Sezione 1</small>
       </a>
@@ -883,34 +883,34 @@ permalink: /2026/overview/
 
       <!-- PS31, PS32, PS33: 14:15-15:15 (Track 1) -->
       <a href="/2026/papers/#day-2-slot-e" class="timeline-item paper row-1415 span-60" style="grid-column: 2 / 3;">
-        <strong>Affective XR</strong>
+        <strong>PS31: Affective XR</strong>
         <span>14:15–15:15</span>
         <small>Sezione 1</small>
       </a>
       <a href="/2026/papers/#day-2-slot-e" class="timeline-item paper row-1415 span-60" style="grid-column: 3 / 4;">
-        <strong>Redirected Walking</strong>
+        <strong>PS32: Redirected Walking</strong>
         <span>14:15–15:15</span>
         <small>Sezione 4+5</small>
       </a>
       <a href="/2026/papers/#day-2-slot-e" class="timeline-item paper row-1415 span-60" style="grid-column: 4 / 5;">
-        <strong>Social Impact</strong>
+        <strong>PS33: Social Impact</strong>
         <span>14:15–15:15</span>
         <small>Orione + Perseo</small>
       </a>
 
       <!-- PS34, PS35, PS36: 14:45-15:45 (Track 2) -->
       <a href="/2026/papers/#day-2-slot-f" class="timeline-item paper row-1445 span-60" style="grid-column: 5 / 6;">
-        <strong>Panoramic Media</strong>
+        <strong>PS34: Panoramic Media</strong>
         <span>14:45–15:45</span>
         <small>Cigno + Auriga</small>
       </a>
       <a href="/2026/papers/#day-2-slot-f" class="timeline-item paper row-1445 span-60" style="grid-column: 6 / 7;">
-        <strong>Cybersickness Prediction</strong>
+        <strong>PS35: Cybersickness Prediction</strong>
         <span>14:45–15:45</span>
         <small>Glasshaus</small>
       </a>
       <a href="/2026/papers/#day-2-slot-f" class="timeline-item paper row-1445 span-60" style="grid-column: 7 / 8;">
-        <strong>Spatial Interfaces</strong>
+        <strong>PS36: Spatial Interfaces</strong>
         <span>14:45–15:45</span>
         <small>Sezione 2</small>
       </a>
@@ -950,7 +950,7 @@ permalink: /2026/overview/
       <button type="button" data-period="afternoon">14:00–21:30</button>
     </div>
 
-    <div class="timeline-schedule" style="grid-template-rows: repeat(55, 20px);">
+    <div class="timeline-schedule" style="grid-template-rows: repeat(55, 25px);">
       <!-- Time labels (hourly) and tick marks (15-min intervals) -->
       <div class="time-label row-800">8:00</div>
       <div class="time-tick row-815"></div>
@@ -1016,34 +1016,34 @@ permalink: /2026/overview/
 
       <!-- PS37, PS38, PS39: 08:30-09:30 (Track 1) -->
       <a href="/2026/papers/#day-3-slot-a" class="timeline-item paper row-830 span-60" style="grid-column: 2 / 3;">
-        <strong>Multisensory Perception</strong>
+        <strong>PS37: Multisensory Perception</strong>
         <span>08:30–09:30</span>
         <small>Sezione 1</small>
       </a>
       <a href="/2026/papers/#day-3-slot-a" class="timeline-item paper row-830 span-60" style="grid-column: 3 / 4;">
-        <strong>Pedagogical Agents</strong>
+        <strong>PS38: Pedagogical Agents</strong>
         <span>08:30–09:30</span>
         <small>Orione + Perseo</small>
       </a>
       <a href="/2026/papers/#day-3-slot-a" class="timeline-item paper row-830 span-60" style="grid-column: 4 / 5;">
-        <strong>Hybrid Mobile Interfaces</strong>
+        <strong>PS39: Hybrid Mobile Interfaces</strong>
         <span>08:30–09:30</span>
         <small>Sezione 2</small>
       </a>
 
       <!-- PS40, PS41, PS42: 09:00-10:00 (Track 2) -->
       <a href="/2026/papers/#day-3-slot-b" class="timeline-item paper row-900 span-60" style="grid-column: 5 / 6;">
-        <strong>XR Privacy</strong>
+        <strong>PS40: XR Privacy</strong>
         <span>09:00–10:00</span>
         <small>Glasshaus</small>
       </a>
       <a href="/2026/papers/#day-3-slot-b" class="timeline-item paper row-900 span-60" style="grid-column: 6 / 7;">
-        <strong>Cybersickness &amp; Locomotion</strong>
+        <strong>PS41: Cybersickness &amp; Locomotion</strong>
         <span>09:00–10:00</span>
         <small>Sezione 4+5</small>
       </a>
       <a href="/2026/papers/#day-3-slot-b" class="timeline-item paper row-900 span-60" style="grid-column: 7 / 8;">
-        <strong>Medical Procedures</strong>
+        <strong>PS42: Medical Procedures</strong>
         <span>09:00–10:00</span>
         <small>Cigno + Auriga</small>
       </a>
@@ -1082,34 +1082,34 @@ permalink: /2026/overview/
 
       <!-- PS43, PS44, PS45: 11:45-12:45 (Track 1) -->
       <a href="/2026/papers/#day-3-slot-c" class="timeline-item paper row-1145 span-60" style="grid-column: 2 / 3;">
-        <strong>XR Trust</strong>
+        <strong>PS43: XR Trust</strong>
         <span>11:45–12:45</span>
         <small>Glasshaus</small>
       </a>
       <a href="/2026/papers/#day-3-slot-c" class="timeline-item paper row-1145 span-60" style="grid-column: 3 / 4;">
-        <strong>Agents for Guidance</strong>
+        <strong>PS44: Agents for Guidance</strong>
         <span>11:45–12:45</span>
         <small>Sezione 4+5</small>
       </a>
       <a href="/2026/papers/#day-3-slot-c" class="timeline-item paper row-1145 span-60" style="grid-column: 4 / 5;">
-        <strong>Immersive Analytics</strong>
+        <strong>PS45: Immersive Analytics</strong>
         <span>11:45–12:45</span>
         <small>Cigno + Auriga</small>
       </a>
 
       <!-- PS46, PS47, PS48: 12:15-13:15 (Track 2) -->
       <a href="/2026/papers/#day-3-slot-d" class="timeline-item paper row-1215 span-60" style="grid-column: 5 / 6;">
-        <strong>Passthrough Perception</strong>
+        <strong>PS46: Passthrough Perception</strong>
         <span>12:15–13:15</span>
         <small>Sezione 1</small>
       </a>
       <a href="/2026/papers/#day-3-slot-d" class="timeline-item paper row-1215 span-60" style="grid-column: 6 / 7;">
-        <strong>VR Locomotion</strong>
+        <strong>PS47: VR Locomotion</strong>
         <span>12:15–13:15</span>
         <small>Sezione 2</small>
       </a>
       <a href="/2026/papers/#day-3-slot-d" class="timeline-item paper row-1215 span-60" style="grid-column: 7 / 8;">
-        <strong>Human Perf. Assessment</strong>
+        <strong>PS48: Human Perf. Assessment</strong>
         <span>12:15–13:15</span>
         <small>Orione + Perseo</small>
       </a>
@@ -1134,34 +1134,34 @@ permalink: /2026/overview/
 
       <!-- PS49, PS50, PS51: 14:15-15:15 (Track 1) -->
       <a href="/2026/papers/#day-3-slot-e" class="timeline-item paper row-1415 span-60" style="grid-column: 2 / 3;">
-        <strong>Object Physicality</strong>
+        <strong>PS49: Object Physicality</strong>
         <span>14:15–15:15</span>
         <small>Sezione 1</small>
       </a>
       <a href="/2026/papers/#day-3-slot-e" class="timeline-item paper row-1415 span-60" style="grid-column: 3 / 4;">
-        <strong>Adaptive &amp; Personalized XR</strong>
+        <strong>PS50: Adaptive &amp; Personalized XR</strong>
         <span>14:15–15:15</span>
         <small>Sezione 4+5</small>
       </a>
       <a href="/2026/papers/#day-3-slot-e" class="timeline-item paper row-1415 span-60" style="grid-column: 4 / 5;">
-        <strong>Rehab. Screening</strong>
+        <strong>PS51: Rehab. Screening</strong>
         <span>14:15–15:15</span>
         <small>Orione + Perseo</small>
       </a>
 
       <!-- PS52, PS53, PS54: 14:45-15:45 (Track 2) -->
       <a href="/2026/papers/#day-3-slot-f" class="timeline-item paper row-1445 span-60" style="grid-column: 5 / 6;">
-        <strong>Visual Cueing</strong>
+        <strong>PS52: Visual Cueing</strong>
         <span>14:45–15:45</span>
         <small>Glasshaus</small>
       </a>
       <a href="/2026/papers/#day-3-slot-f" class="timeline-item paper row-1445 span-60" style="grid-column: 6 / 7;">
-        <strong>Viewpoint Transitions</strong>
+        <strong>PS53: Viewpoint Transitions</strong>
         <span>14:45–15:45</span>
         <small>Sezione 2</small>
       </a>
       <a href="/2026/papers/#day-3-slot-f" class="timeline-item paper row-1445 span-60" style="grid-column: 7 / 8;">
-        <strong>XR Analytics &amp; Measurement</strong>
+        <strong>PS54: XR Analytics &amp; Measurement</strong>
         <span>14:45–15:45</span>
         <small>Cigno + Auriga</small>
       </a>
@@ -1484,7 +1484,7 @@ permalink: /2026/overview/
 .timeline-schedule {
   display: grid;
   grid-template-columns: 50px repeat(6, 1fr) 60px 60px 50px;
-  grid-template-rows: repeat(44, 20px); /* 15-min increments from 8:00-18:45 */
+  grid-template-rows: repeat(44, 25px); /* 15-min increments from 8:00-18:45 */
   column-gap: 2px;
   row-gap: 0;
   border: 1px solid #d7dfe8;
