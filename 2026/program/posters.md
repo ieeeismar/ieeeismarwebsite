@@ -57,7 +57,7 @@ Poster ID format: Poster [day][session] (e.g. Poster 3B)
     </div>
     {% if day1A.size > 0 %}
     <div id="day-1-session-a" class="poster-session session-a">
-      <h4 class="session-title session-title-a"><span class="session-label">Posters 1A</span>Visualization, Rendering & Immersive Experience <span class="session-title-datetime"><span class="session-title-day">Wednesday</span><span class="session-title-time">10:30–12:45</span></span></h4>
+      <h4 class="session-title session-title-a"><span class="session-label-row"><span class="session-label">Posters 1A</span><span class="session-room">Cassiopea</span></span>Visualization, Rendering & Immersive Experience <span class="session-title-datetime"><span class="session-title-day">Wednesday</span><span class="session-title-time">10:30–12:45</span></span></h4>
       <ul class="poster-list">
         {% for p in day1A %}
         <li class="poster-item">
@@ -78,7 +78,7 @@ Poster ID format: Poster [day][session] (e.g. Poster 3B)
     {% endif %}
     {% if day1B.size > 0 %}
     <div id="day-1-session-b" class="poster-session session-b">
-      <h4 class="session-title session-title-b"><span class="session-label">Posters 1B</span>XR Training, Education & Responsible Use <span class="session-title-datetime"><span class="session-title-day">Wednesday</span><span class="session-title-time">13:45–16:00</span></span></h4>
+      <h4 class="session-title session-title-b"><span class="session-label-row"><span class="session-label">Posters 1B</span><span class="session-room">Cassiopea</span></span>XR Training, Education & Responsible Use <span class="session-title-datetime"><span class="session-title-day">Wednesday</span><span class="session-title-time">13:45–16:00</span></span></h4>
       <ul class="poster-list">
         {% for p in day1B %}
         <li class="poster-item">
@@ -109,7 +109,7 @@ Poster ID format: Poster [day][session] (e.g. Poster 3B)
     </div>
     {% if day2A.size > 0 %}
     <div id="day-2-session-a" class="poster-session session-a">
-      <h4 class="session-title session-title-a"><span class="session-label">Posters 2A</span>Human Perception, Cognition & XR Methods <span class="session-title-datetime"><span class="session-title-day">Thursday</span><span class="session-title-time">11:15–13:45</span></span></h4>
+      <h4 class="session-title session-title-a"><span class="session-label-row"><span class="session-label">Posters 2A</span><span class="session-room">Cassiopea</span></span>Human Perception, Cognition & XR Methods <span class="session-title-datetime"><span class="session-title-day">Thursday</span><span class="session-title-time">11:15–13:45</span></span></h4>
       <ul class="poster-list">
         {% for p in day2A %}
         <li class="poster-item">
@@ -130,7 +130,7 @@ Poster ID format: Poster [day][session] (e.g. Poster 3B)
     {% endif %}
     {% if day2B.size > 0 %}
     <div id="day-2-session-b" class="poster-session session-b">
-      <h4 class="session-title session-title-b"><span class="session-label">Posters 2B</span>Collaborative XR, Avatars & Navigation <span class="session-title-datetime"><span class="session-title-day">Thursday</span><span class="session-title-time">14:15–16:30</span></span></h4>
+      <h4 class="session-title session-title-b"><span class="session-label-row"><span class="session-label">Posters 2B</span><span class="session-room">Cassiopea</span></span>Collaborative XR, Avatars & Navigation <span class="session-title-datetime"><span class="session-title-day">Thursday</span><span class="session-title-time">14:15–16:30</span></span></h4>
       <ul class="poster-list">
         {% for p in day2B %}
         <li class="poster-item">
@@ -161,7 +161,7 @@ Poster ID format: Poster [day][session] (e.g. Poster 3B)
     </div>
     {% if day3A.size > 0 %}
     <div id="day-3-session-a" class="poster-session session-a">
-      <h4 class="session-title session-title-a"><span class="session-label">Posters 3A</span>Embodied Interaction, Multimodal Control & Assistive Systems <span class="session-title-datetime"><span class="session-title-day">Friday</span><span class="session-title-time">11:15–13:45</span></span></h4>
+      <h4 class="session-title session-title-a"><span class="session-label-row"><span class="session-label">Posters 3A</span><span class="session-room">Cassiopea</span></span>Embodied Interaction, Multimodal Control & Assistive Systems <span class="session-title-datetime"><span class="session-title-day">Friday</span><span class="session-title-time">11:15–13:45</span></span></h4>
       <ul class="poster-list">
         {% for p in day3A %}
         <li class="poster-item">
@@ -182,7 +182,7 @@ Poster ID format: Poster [day][session] (e.g. Poster 3B)
     {% endif %}
     {% if day3B.size > 0 %}
     <div id="day-3-session-b" class="poster-session session-b">
-      <h4 class="session-title session-title-b"><span class="session-label">Posters 3B</span>Interaction & XR Interfaces <span class="session-title-datetime"><span class="session-title-day">Friday</span><span class="session-title-time">14:15–16:30</span></span></h4>
+      <h4 class="session-title session-title-b"><span class="session-label-row"><span class="session-label">Posters 3B</span><span class="session-room">Cassiopea</span></span>Interaction & XR Interfaces <span class="session-title-datetime"><span class="session-title-day">Friday</span><span class="session-title-time">14:15–16:30</span></span></h4>
       <ul class="poster-list">
         {% for p in day3B %}
         <li class="poster-item">
@@ -244,10 +244,12 @@ Mohammed Safayet Arefin, Andrea Boensch, Francesco Ferrise, Cassidy Nelson
 .session-title { margin:0 0 10px 0; font-size:1rem; font-weight:600; display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:4px 12px; }
 .session-title-a { color:#2878DB; }
 .session-title-b { color:#D96F08; }
-.session-label { display:block; width:100%; font-size:1.1rem; font-weight:700; margin-bottom:2px; }
+.session-label-row { display:flex; width:100%; justify-content:space-between; align-items:center; margin-bottom:2px; }
+.session-label { font-size:1.1rem; font-weight:700; }
 .session-title-datetime { display:flex; flex-direction:column; align-items:flex-end; flex-shrink:0; line-height:1.3; }
 .session-title-day { }
 .session-title-time { }
+.session-room { font-size:0.75rem; font-weight:500; background:#f0f0f0; padding:2px 8px; border-radius:12px; color:#555; }
 
 .page-content ul.poster-list { list-style: none; margin: 0; padding: 0; }
 .poster-item { margin: 0 0 6px 0; padding: 0; background: #fff; border:1px solid #e1e4e7; border-radius:8px; box-shadow:0 1px 1px rgba(0,0,0,.03); position:relative; }

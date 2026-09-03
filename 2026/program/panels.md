@@ -17,7 +17,7 @@ permalink: /2026/panels/
 {: #the-good-the-bad-the-ugly-of-ai-in-academic-research-and-publishing }
 
 - **Time**: Wednesday, Oct. 7th
-- **Location**: Sezione 1+2
+- **Room**: Sezione 1+2
 - **Moderator**: Gabriel Zachmann (University of Bremen, Germany)
 - **Panelists**: Doug Bowman (Virginia Tech, USA), Missie Smith (Auburn, USA), Christian Wallraven (Korea University, Korea), Daniel Zielasko (Technical University of Denmark, Denmark)
 
@@ -46,7 +46,7 @@ The panel will invite perspectives from both panelists and the audience, with th
 {: #rethinking-academic-conferences-meaningful-connections-at-a-distance }
 
 - **Time**: Thursday, Oct. 8th
-- **Location**: Sezione 1+2
+- **Room**: Sezione 1+2
 - **Moderator**: Rob Lindemann (University of Canterbury, New Zealand)
 - **Panelists**: Pablo Figueroa (Universidad de los Andes, Colombia), Jens Grubert (Coburg University, Germany), Yoshifumi Kitamura (Tohoku University, Japan), Tabitha Peck (Davidson College, USA)
 
@@ -56,7 +56,7 @@ International cross-pollination has always been a core part of effectively addre
 
 In addition, in-person conferences allow attendees to present and get feedback on their latest work, create networking opportunities, visit interesting places to share or expand our cultural understanding, and take time away from day-to-day demands to immerse ourselves in our research community. In addition to stimulating new ideas, our conference experiences are just fun!
 
-There are many emerging challenges that make this a good time to re-think how we fulfill these important knowledge-generation-and-dissemination needs in a more practical and sustainable way. The increase in travel restrictions and costs, a growing acknowledgement of the environmental impact of us all traveling to a single face-to-face location each year, and the rise in the number of conferences that serve similar communities call for us to pool our knowledge and resources.
+There are many emerging challenges that make this a good time to re-think how we fulfill these important knowledge-generation-and-dissemination needs in a more practical and sustainable way. The increase in travel restrictions and costs, a growing acknowledgement of the environmental impact of us all traveling to a single face-to-face Room each year, and the rise in the number of conferences that serve similar communities call for us to pool our knowledge and resources.
 
 This panel builds on two previous, well-received panel discussions held at IEEE VR 2025 & 2026 around alternative models for conferences, focusing mainly on our VR/AR/MR/XR community.
 

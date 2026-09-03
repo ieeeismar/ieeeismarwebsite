@@ -28,7 +28,16 @@ Automatically generated papers listing.
 Data source: _data/2026/program/papers.csv
 Session ID format: Paper [day][timeslot][track] (e.g. Paper 1A1)
 Colors: A, C, E = blue; B, D, F = orange
+
+PS Number Calculation:
+- Day offset: (day - 1) * 18
+- Slot offset: A=0, B=3, C=6, D=9, E=12, F=15
+- Track: 1, 2, or 3
+- PS = day_offset + slot_offset + track
 {% endcomment %}
+
+{% comment %} Slot letter to offset mapping {% endcomment %}
+{% assign slot_offsets = "A:0|B:3|C:6|D:9|E:12|F:15" | split: "|" %}
 
 {% assign y2026 = site.data['2026'] %}
 {% assign papers = y2026.program.papers %}
@@ -80,9 +89,23 @@ Colors: A, C, E = blue; B, D, F = orange
               {% assign anchor = "session-" | append: sid | slugify %}
               {% assign row_class = "toc-row-a" %}
               {% if slot == "B" or slot == "D" or slot == "F" %}{% assign row_class = "toc-row-b" %}{% endif %}
+              {% comment %} Compute PS number from Session ID (e.g., "Paper 1A1") {% endcomment %}
+              {% assign sid_day = sid | slice: 6, 1 | plus: 0 %}
+              {% assign sid_slot = sid | slice: 7, 1 %}
+              {% assign sid_track = sid | slice: 8, 1 | plus: 0 %}
+              {% assign day_offset = sid_day | minus: 1 | times: 18 %}
+              {% case sid_slot %}
+                {% when "A" %}{% assign slot_offset = 0 %}
+                {% when "B" %}{% assign slot_offset = 3 %}
+                {% when "C" %}{% assign slot_offset = 6 %}
+                {% when "D" %}{% assign slot_offset = 9 %}
+                {% when "E" %}{% assign slot_offset = 12 %}
+                {% when "F" %}{% assign slot_offset = 15 %}
+              {% endcase %}
+              {% assign ps_num = day_offset | plus: slot_offset | plus: sid_track %}
               <tr class="{{ row_class }}">
                 <td class="toc-time"><a href="#{{ anchor }}">{{ slot_time }}</a></td>
-                <td class="toc-session"><a href="#{{ anchor }}">{{ sess_title }}</a></td>
+                <td class="toc-session"><a href="#{{ anchor }}">PS{{ ps_num }}: {{ sess_title }}</a></td>
                 <td class="toc-chair">—</td>
                 <td class="toc-location"><a href="#{{ anchor }}">{{ sess_room }}</a></td>
               </tr>
@@ -138,8 +161,22 @@ Colors: A, C, E = blue; B, D, F = orange
               {% assign session_papers = slot_papers | where: "Session ID", sid %}
               {% assign session_title = session_papers[0]["Session Title"] %}
               {% assign session_room = session_papers[0]["Room"] %}
+              {% comment %} Compute PS number from Session ID {% endcomment %}
+              {% assign sid_day = sid | slice: 6, 1 | plus: 0 %}
+              {% assign sid_slot = sid | slice: 7, 1 %}
+              {% assign sid_track = sid | slice: 8, 1 | plus: 0 %}
+              {% assign day_offset = sid_day | minus: 1 | times: 18 %}
+              {% case sid_slot %}
+                {% when "A" %}{% assign slot_offset = 0 %}
+                {% when "B" %}{% assign slot_offset = 3 %}
+                {% when "C" %}{% assign slot_offset = 6 %}
+                {% when "D" %}{% assign slot_offset = 9 %}
+                {% when "E" %}{% assign slot_offset = 12 %}
+                {% when "F" %}{% assign slot_offset = 15 %}
+              {% endcase %}
+              {% assign ps_num = day_offset | plus: slot_offset | plus: sid_track %}
               <div class="paper-session" id="session-{{ sid | slugify }}">
-                <h5 class="session-header {{ title_class }}">{{ session_title }} <span class="session-room">{{ session_room }}</span></h5>
+                <h5 class="session-header {{ title_class }}">PS{{ ps_num }}: {{ session_title }} <span class="session-room">{{ session_room }}</span></h5>
                 <ul class="paper-list">
                   {% for p in session_papers %}
                   <li class="paper-item">
@@ -208,8 +245,22 @@ Colors: A, C, E = blue; B, D, F = orange
               {% assign session_papers = slot_papers | where: "Session ID", sid %}
               {% assign session_title = session_papers[0]["Session Title"] %}
               {% assign session_room = session_papers[0]["Room"] %}
+              {% comment %} Compute PS number from Session ID {% endcomment %}
+              {% assign sid_day = sid | slice: 6, 1 | plus: 0 %}
+              {% assign sid_slot = sid | slice: 7, 1 %}
+              {% assign sid_track = sid | slice: 8, 1 | plus: 0 %}
+              {% assign day_offset = sid_day | minus: 1 | times: 18 %}
+              {% case sid_slot %}
+                {% when "A" %}{% assign slot_offset = 0 %}
+                {% when "B" %}{% assign slot_offset = 3 %}
+                {% when "C" %}{% assign slot_offset = 6 %}
+                {% when "D" %}{% assign slot_offset = 9 %}
+                {% when "E" %}{% assign slot_offset = 12 %}
+                {% when "F" %}{% assign slot_offset = 15 %}
+              {% endcase %}
+              {% assign ps_num = day_offset | plus: slot_offset | plus: sid_track %}
               <div class="paper-session" id="session-{{ sid | slugify }}">
-                <h5 class="session-header {{ title_class }}">{{ session_title }} <span class="session-room">{{ session_room }}</span></h5>
+                <h5 class="session-header {{ title_class }}">PS{{ ps_num }}: {{ session_title }} <span class="session-room">{{ session_room }}</span></h5>
                 <ul class="paper-list">
                   {% for p in session_papers %}
                   <li class="paper-item">
@@ -278,8 +329,22 @@ Colors: A, C, E = blue; B, D, F = orange
               {% assign session_papers = slot_papers | where: "Session ID", sid %}
               {% assign session_title = session_papers[0]["Session Title"] %}
               {% assign session_room = session_papers[0]["Room"] %}
+              {% comment %} Compute PS number from Session ID {% endcomment %}
+              {% assign sid_day = sid | slice: 6, 1 | plus: 0 %}
+              {% assign sid_slot = sid | slice: 7, 1 %}
+              {% assign sid_track = sid | slice: 8, 1 | plus: 0 %}
+              {% assign day_offset = sid_day | minus: 1 | times: 18 %}
+              {% case sid_slot %}
+                {% when "A" %}{% assign slot_offset = 0 %}
+                {% when "B" %}{% assign slot_offset = 3 %}
+                {% when "C" %}{% assign slot_offset = 6 %}
+                {% when "D" %}{% assign slot_offset = 9 %}
+                {% when "E" %}{% assign slot_offset = 12 %}
+                {% when "F" %}{% assign slot_offset = 15 %}
+              {% endcase %}
+              {% assign ps_num = day_offset | plus: slot_offset | plus: sid_track %}
               <div class="paper-session" id="session-{{ sid | slugify }}">
-                <h5 class="session-header {{ title_class }}">{{ session_title }} <span class="session-room">{{ session_room }}</span></h5>
+                <h5 class="session-header {{ title_class }}">PS{{ ps_num }}: {{ session_title }} <span class="session-room">{{ session_room }}</span></h5>
                 <ul class="paper-list">
                   {% for p in session_papers %}
                   <li class="paper-item">

@@ -28,6 +28,7 @@ permalink: /2026/keynote-speakers/
 
 ### **Title:** The Art and Science of Interaction Pathfinding
 
+#### Room: Sezione 1+2
 
 #### Abstract
 
@@ -60,6 +61,7 @@ prototyping, design taste, conceptual models, and blending disciplines to unlock
 
 ### **Title:** What Sailing Can Teach Us About Augmented Agency
 
+#### Room: Sezione 1+2
 
 #### Abstract
 
@@ -86,6 +88,7 @@ Antonio Rizzo is Full Professor at the University of Siena, where he works at th
 
 ### **Title:** Spatial Human-AI Interaction
 
+#### Room: Sezione 1+2
 
 #### Abstract
 
