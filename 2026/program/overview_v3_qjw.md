@@ -153,99 +153,105 @@ permalink: /2026/overview/
       <!-- Workshops & Tutorials: 08:15-09:45 (Track 1) -->
       <div class="timeline-item workshop-grid row-815 span-90" style="grid-column: 2 / 8;">
         <div class="workshop-items">
-          <a href="/2026/workshops/#adaptivexr-26-the-1st-international-workshop-on-the-grand-challenges-in-adaptive-extended-reality" class="ws-item" title="Sezione 1">AdaptiveXR<br>'26</a>
-          <a href="/2026/workshops/#marmh-26-7th-international-workshop-on-mixed-augmented-reality-for-mental-health" class="ws-item" title="Auriga">MARMH'26</a>
-          <a href="/2026/workshops/#sense-xr-the-feeling-of-virtual-xr-haptics-and-3d-graphics" class="ws-item" title="Sezione 1">SENSE-XR</a>
-          <a href="/2026/tutorials/#ai-driven-virtual-humans" class="ws-item tut" title="Sezione 2">Virtual Humans</a>
-          <a href="/2026/tutorials/#building-interoperable-location-based-augmented-reality-with-the-open-ar-cloud" class="ws-item tut" title="Sezione 6+7">Open AR Cloud</a>
-          <a href="/2026/tutorials/#xrstand-2026-xr-standards-and-open-science-practices" class="ws-item tut" title="Sezione 5">XRStand 2026</a>
-          <a href="/2026/workshops/#medicalxr-2026-3rd-international-workshop-on-medical-extended-reality" class="ws-item allday" title="Orione">MedicalXR</a>
-          <a href="/2026/workshops/#xr-spro-26-xr-solutions-for-smart-production" class="ws-item allday" title="Cigno">XR-Spro'26</a>
-          <a href="/2026/workshops/#xrway-26-the-1st-international-workshop-on-xr-on-the-way-xrway-xr-for-walking-driving-and-everyday-mobility" class="ws-item allday" title="Perseo">XRWay'26</a>
+          <a href="/2026/workshops/#adaptivexr-26-the-1st-international-workshop-on-the-grand-challenges-in-adaptive-extended-reality" class="ws-item"><strong>AdaptiveXR<br>'26</strong><small>Sezione 1</small><span>08:15–09:45</span></a>
+          <a href="/2026/workshops/#marmh-26-7th-international-workshop-on-mixed-augmented-reality-for-mental-health" class="ws-item"><strong>MARMH'26</strong><small>Auriga</small><span>08:15–09:45</span></a>
+          <a href="/2026/workshops/#sense-xr-the-feeling-of-virtual-xr-haptics-and-3d-graphics" class="ws-item"><strong>SENSE-XR</strong><small>Sezione 1</small><span>08:15–09:45</span></a>
+          <a href="/2026/tutorials/#ai-driven-virtual-humans" class="ws-item tut"><strong>Virtual Humans</strong><small>Sezione 2</small><span>08:15–09:45</span></a>
+          <a href="/2026/tutorials/#building-interoperable-location-based-augmented-reality-with-the-open-ar-cloud" class="ws-item tut"><strong>Open AR Cloud</strong><small>Sezione 6+7</small><span>08:15–09:45</span></a>
+          <a href="/2026/tutorials/#xrstand-2026-xr-standards-and-open-science-practices" class="ws-item tut"><strong>XRStand 2026</strong><small>Sezione 5</small><span>08:15–09:45</span></a>
+          <a href="/2026/workshops/#medicalxr-2026-3rd-international-workshop-on-medical-extended-reality" class="ws-item allday"><strong>MedicalXR</strong><small>Orione</small><span>All Day</span></a>
+          <a href="/2026/workshops/#xr-spro-26-xr-solutions-for-smart-production" class="ws-item allday"><strong>XR-Spro'26</strong><small>Cigno</small><span>All Day</span></a>
+          <a href="/2026/workshops/#xrway-26-the-1st-international-workshop-on-xr-on-the-way-xrway-xr-for-walking-driving-and-everyday-mobility" class="ws-item allday"><strong>XRWay'26</strong><small>Perseo</small><span>All Day</span></a>
         </div>
       </div>
 
       <!-- Doctoral Consortium: 08:15-09:45 (Track 2) -->
-      <div class="timeline-item doctoral row-815 span-90" style="grid-column: 8 / 11;">
+      <a href="/2026/doctoral-consortium/" class="timeline-item doctoral row-815 span-90" style="grid-column: 8 / 11;">
         <strong>Doctoral Consortium</strong>
+        <small>Glasshaus</small>
         <span>08:15–09:45</span>
-      </div>
+      </a>
 
       <!-- Coffee Break: 09:45-10:30 (full width) -->
       <div class="timeline-item coffee row-945 span-45" style="grid-column: 2 / 11;">
         <strong>Coffee Break</strong>
+        <small>Cassiopea</small>
         <span>09:45–10:30</span>
       </div>
 
       <!-- Workshops & Tutorials: 10:30-12:00 (Track 1) -->
       <div class="timeline-item workshop-grid row-1030 span-90" style="grid-column: 2 / 8;">
         <div class="workshop-items">
-          <a href="/2026/workshops/#adaptivexr-26-the-1st-international-workshop-on-the-grand-challenges-in-adaptive-extended-reality" class="ws-item" title="Sezione 1">AdaptiveXR<br>'26</a>
-          <a href="/2026/workshops/#marmh-26-7th-international-workshop-on-mixed-augmented-reality-for-mental-health" class="ws-item" title="Auriga">MARMH'26</a>
-          <a href="/2026/workshops/#sense-xr-the-feeling-of-virtual-xr-haptics-and-3d-graphics" class="ws-item" title="Sezione 1">SENSE-XR</a>
-          <a href="/2026/tutorials/#ai-driven-virtual-humans" class="ws-item tut" title="Sezione 2">Virtual Humans</a>
-          <a href="/2026/tutorials/#building-interoperable-location-based-augmented-reality-with-the-open-ar-cloud" class="ws-item tut" title="Sezione 6+7">Open AR Cloud</a>
-          <a href="/2026/tutorials/#xrstand-2026-xr-standards-and-open-science-practices" class="ws-item tut" title="Sezione 5">XRStand 2026</a>
-          <a href="/2026/workshops/#medicalxr-2026-3rd-international-workshop-on-medical-extended-reality" class="ws-item allday" title="Orione">MedicalXR</a>
-          <a href="/2026/workshops/#xr-spro-26-xr-solutions-for-smart-production" class="ws-item allday" title="Cigno">XR-Spro'26</a>
-          <a href="/2026/workshops/#xrway-26-the-1st-international-workshop-on-xr-on-the-way-xrway-xr-for-walking-driving-and-everyday-mobility" class="ws-item allday" title="Perseo">XRWay'26</a>
+          <a href="/2026/workshops/#adaptivexr-26-the-1st-international-workshop-on-the-grand-challenges-in-adaptive-extended-reality" class="ws-item"><strong>AdaptiveXR<br>'26</strong><small>Sezione 1</small><span>10:30–12:00</span></a>
+          <a href="/2026/workshops/#marmh-26-7th-international-workshop-on-mixed-augmented-reality-for-mental-health" class="ws-item"><strong>MARMH'26</strong><small>Auriga</small><span>10:30–12:00</span></a>
+          <a href="/2026/workshops/#sense-xr-the-feeling-of-virtual-xr-haptics-and-3d-graphics" class="ws-item"><strong>SENSE-XR</strong><small>Sezione 1</small><span>10:30–12:00</span></a>
+          <a href="/2026/tutorials/#ai-driven-virtual-humans" class="ws-item tut"><strong>Virtual Humans</strong><small>Sezione 2</small><span>10:30–12:00</span></a>
+          <a href="/2026/tutorials/#building-interoperable-location-based-augmented-reality-with-the-open-ar-cloud" class="ws-item tut"><strong>Open AR Cloud</strong><small>Sezione 6+7</small><span>10:30–12:00</span></a>
+          <a href="/2026/tutorials/#xrstand-2026-xr-standards-and-open-science-practices" class="ws-item tut"><strong>XRStand 2026</strong><small>Sezione 5</small><span>10:30–12:00</span></a>
+          <a href="/2026/workshops/#medicalxr-2026-3rd-international-workshop-on-medical-extended-reality" class="ws-item allday"><strong>MedicalXR</strong><small>Orione</small><span>All Day</span></a>
+          <a href="/2026/workshops/#xr-spro-26-xr-solutions-for-smart-production" class="ws-item allday"><strong>XR-Spro'26</strong><small>Cigno</small><span>All Day</span></a>
+          <a href="/2026/workshops/#xrway-26-the-1st-international-workshop-on-xr-on-the-way-xrway-xr-for-walking-driving-and-everyday-mobility" class="ws-item allday"><strong>XRWay'26</strong><small>Perseo</small><span>All Day</span></a>
         </div>
       </div>
 
       <!-- Doctoral Consortium: 10:30-12:00 (Track 2) -->
-      <div class="timeline-item doctoral row-1030 span-90" style="grid-column: 8 / 11;">
+      <a href="/2026/doctoral-consortium/" class="timeline-item doctoral row-1030 span-90" style="grid-column: 8 / 11;">
         <strong>Doctoral Consortium</strong>
+        <small>Glasshaus</small>
         <span>10:30–12:00</span>
-      </div>
+      </a>
 
       <!-- Lunch: 12:00-14:00 (full width) -->
       <div class="timeline-item lunch row-1200" style="grid-column: 2 / 11; grid-row-end: span 8;">
         <strong>Lunch</strong>
+        <small>Cassiopea Hall Restaurant</small>
         <span>12:00–14:00</span>
       </div>
 
       <!-- Workshops & Tutorials: 14:00-15:30 (Track 1) -->
       <div class="timeline-item workshop-grid row-1400 span-90" style="grid-column: 2 / 8;">
         <div class="workshop-items">
-          <a href="/2026/workshops/#gemini-5th-workshop-on-gaze-and-eye-movement-in-interaction-in-xr" class="ws-item" title="Sezione 2">GEMINI</a>
-          <a href="/2026/workshops/#iwdr-2026-3rd-international-workshop-on-diminished-reality" class="ws-item" title="Sezione 6+7">IWDR 2026</a>
-          <a href="/2026/workshops/#worxr-6th-workshop-on-replication-in-extended-reality" class="ws-item" title="Auriga">WORXR</a>
-          <a href="/2026/workshops/#xr4hri-26-1st-ismar-workshop-on-extended-reality-for-human-robot-interaction" class="ws-item" title="Sezione 1">XR4HRI'26</a>
-          <a href="/2026/workshops/#xr-neurohealth-26-the-1st-international-workshop-on-xr-for-neurocognitive-assessment-rehabilitation-and-digital-biomarkers-methods-applications-and-evaluation-challenges" class="ws-item" title="Sezione 4">XR-NeuroHealth'26</a>
-          <a href="/2026/workshops/#medicalxr-2026-3rd-international-workshop-on-medical-extended-reality" class="ws-item allday" title="Orione">MedicalXR</a>
-          <a href="/2026/workshops/#xr-spro-26-xr-solutions-for-smart-production" class="ws-item allday" title="Cigno">XR-Spro'26</a>
-          <a href="/2026/workshops/#xrway-26-the-1st-international-workshop-on-xr-on-the-way-xrway-xr-for-walking-driving-and-everyday-mobility" class="ws-item allday" title="Perseo">XRWay'26</a>
+          <a href="/2026/workshops/#gemini-5th-workshop-on-gaze-and-eye-movement-in-interaction-in-xr" class="ws-item"><strong>GEMINI</strong><small>Sezione 2</small><span>14:00–15:30</span></a>
+          <a href="/2026/workshops/#iwdr-2026-3rd-international-workshop-on-diminished-reality" class="ws-item"><strong>IWDR 2026</strong><small>Sezione 6+7</small><span>14:00–15:30</span></a>
+          <a href="/2026/workshops/#worxr-6th-workshop-on-replication-in-extended-reality" class="ws-item"><strong>WORXR</strong><small>Auriga</small><span>14:00–15:30</span></a>
+          <a href="/2026/workshops/#xr4hri-26-1st-ismar-workshop-on-extended-reality-for-human-robot-interaction" class="ws-item"><strong>XR4HRI'26</strong><small>Sezione 1</small><span>14:00–15:30</span></a>
+          <a href="/2026/workshops/#xr-neurohealth-26-the-1st-international-workshop-on-xr-for-neurocognitive-assessment-rehabilitation-and-digital-biomarkers-methods-applications-and-evaluation-challenges" class="ws-item"><strong>XR-NeuroHealth<br>'26</strong><small>Sezione 4</small><span>14:00–15:30</span></a>
+          <a href="/2026/workshops/#medicalxr-2026-3rd-international-workshop-on-medical-extended-reality" class="ws-item allday"><strong>MedicalXR</strong><small>Orione</small><span>All Day</span></a>
+          <a href="/2026/workshops/#xr-spro-26-xr-solutions-for-smart-production" class="ws-item allday"><strong>XR-Spro'26</strong><small>Cigno</small><span>All Day</span></a>
+          <a href="/2026/workshops/#xrway-26-the-1st-international-workshop-on-xr-on-the-way-xrway-xr-for-walking-driving-and-everyday-mobility" class="ws-item allday"><strong>XRWay'26</strong><small>Perseo</small><span>All Day</span></a>
         </div>
       </div>
 
       <!-- Doctoral Consortium: 14:00-15:30 (Track 2) -->
-      <div class="timeline-item doctoral row-1400 span-90" style="grid-column: 8 / 11;">
+      <a href="/2026/doctoral-consortium/" class="timeline-item doctoral row-1400 span-90" style="grid-column: 8 / 11;">
         <strong>Doctoral Consortium</strong>
+        <small>Glasshaus</small>
         <span>14:00–15:30</span>
-      </div>
+      </a>
 
       <!-- Coffee Break: 15:30-16:15 (full width) -->
       <div class="timeline-item coffee row-1530 span-45" style="grid-column: 2 / 11;">
         <strong>Coffee Break</strong>
+        <small>Cassiopea</small>
         <span>15:30–16:15</span>
       </div>
 
       <!-- Workshops & Tutorials: 16:15-17:45 (Track 1) -->
       <div class="timeline-item workshop-grid row-1615 span-90" style="grid-column: 2 / 8;">
         <div class="workshop-items">
-          <a href="/2026/workshops/#gemini-5th-workshop-on-gaze-and-eye-movement-in-interaction-in-xr" class="ws-item" title="Sezione 2">GEMINI</a>
-          <a href="/2026/workshops/#iwdr-2026-3rd-international-workshop-on-diminished-reality" class="ws-item" title="Sezione 6+7">IWDR 2026</a>
-          <a href="/2026/workshops/#worxr-6th-workshop-on-replication-in-extended-reality" class="ws-item" title="Auriga">WORXR</a>
-          <a href="/2026/workshops/#xr4hri-26-1st-ismar-workshop-on-extended-reality-for-human-robot-interaction" class="ws-item" title="Sezione 1">XR4HRI'26</a>
-          <a href="/2026/workshops/#xr-neurohealth-26-the-1st-international-workshop-on-xr-for-neurocognitive-assessment-rehabilitation-and-digital-biomarkers-methods-applications-and-evaluation-challenges" class="ws-item" title="Sezione 4">XR-NeuroHealth'26</a>
-          <a href="/2026/workshops/#medicalxr-2026-3rd-international-workshop-on-medical-extended-reality" class="ws-item allday" title="Orione">MedicalXR</a>
-          <a href="/2026/workshops/#xr-spro-26-xr-solutions-for-smart-production" class="ws-item allday" title="Cigno">XR-Spro'26</a>
-          <a href="/2026/workshops/#xrway-26-the-1st-international-workshop-on-xr-on-the-way-xrway-xr-for-walking-driving-and-everyday-mobility" class="ws-item allday" title="Perseo">XRWay'26</a>
+          <a href="/2026/workshops/#gemini-5th-workshop-on-gaze-and-eye-movement-in-interaction-in-xr" class="ws-item"><strong>GEMINI</strong><small>Sezione 2</small><span>16:15–17:45</span></a>
+          <a href="/2026/workshops/#iwdr-2026-3rd-international-workshop-on-diminished-reality" class="ws-item"><strong>IWDR 2026</strong><small>Sezione 6+7</small><span>16:15–17:45</span></a>
+          <a href="/2026/workshops/#worxr-6th-workshop-on-replication-in-extended-reality" class="ws-item"><strong>WORXR</strong><small>Auriga</small><span>16:15–17:45</span></a>
+          <a href="/2026/workshops/#xr4hri-26-1st-ismar-workshop-on-extended-reality-for-human-robot-interaction" class="ws-item"><strong>XR4HRI'26</strong><small>Sezione 1</small><span>16:15–17:45</span></a>
+          <a href="/2026/workshops/#xr-neurohealth-26-the-1st-international-workshop-on-xr-for-neurocognitive-assessment-rehabilitation-and-digital-biomarkers-methods-applications-and-evaluation-challenges" class="ws-item"><strong>XR-NeuroHealth<br>'26</strong><small>Sezione 4</small><span>16:15–17:45</span></a>
+          <a href="/2026/workshops/#medicalxr-2026-3rd-international-workshop-on-medical-extended-reality" class="ws-item allday"><strong>MedicalXR</strong><small>Orione</small><span>All Day</span></a>
+          <a href="/2026/workshops/#xr-spro-26-xr-solutions-for-smart-production" class="ws-item allday"><strong>XR-Spro'26</strong><small>Cigno</small><span>All Day</span></a>
+          <a href="/2026/workshops/#xrway-26-the-1st-international-workshop-on-xr-on-the-way-xrway-xr-for-walking-driving-and-everyday-mobility" class="ws-item allday"><strong>XRWay'26</strong><small>Perseo</small><span>All Day</span></a>
         </div>
       </div>
 
       <!-- Speed Mentorship: 17:00-18:30 (Track 2) -->
-      <div class="timeline-item panel row-1615 span-90" style="grid-column: 8 / 11;">
+      <div class="timeline-item panel speed-mentorship row-1615 span-90" style="grid-column: 8 / 11;">
         <strong>Speed Mentorship</strong>
         <span>16:15–17:45</span>
       </div>
@@ -329,104 +335,112 @@ permalink: /2026/overview/
       <!-- Workshops & Tutorials: 08:15-09:45 (Track 1) -->
       <div class="timeline-item workshop-grid row-815 span-90" style="grid-column: 2 / 8;">
         <div class="workshop-items">
-          <a href="/2026/workshops/#ahimr-26-the-1st-international-workshop-on-ai-mediated-heads-up-interaction-in-wearable-mixed-reality" class="ws-item" title="Sezione 4">AHIMR'26</a>
-          <a href="/2026/workshops/#behavxr-26-xr-for-behavioral-health-body-signals-behavior-change-and-responsible-design" class="ws-item" title="Sezione 2">BehavXR'26</a>
-          <a href="/2026/workshops/#wsr5-26-5th-workshop-on-seamless-reality-wsr5-ar-technologies-for-seamless-perception-and-cognition-between-cyber-and-physical-spaces" class="ws-item" title="Sezione 5">WSR5'26</a>
-          <a href="/2026/workshops/#xrag-26-the-1st-international-workshop-on-agentic-ai-for-extended-reality" class="ws-item" title="Sezione 4">XRAG'26</a>
-          <a href="/2026/tutorials/#emerging-reviewing-and-publication-models-to-promote-trustworthy-research-and-support-scientific-career-advancement" class="ws-item tut" title="Sezione 6+7">Reviewing Models</a>
-          <a href="/2026/tutorials/#interaction-design-for-extended-reality" class="ws-item tut" title="Sezione 2">ID4XR</a>
-          <a href="/2026/workshops/#neuroxr-26-2nd-international-workshop-on-neurophysiological-signals-affective-computing-and-cognition-in-extended-reality" class="ws-item allday" title="Orione">NeuroXR'26</a>
-          <a href="/2026/workshops/#xworlds-26-the-1st-international-workshop-on-advancing-interoperability-in-virtual-worlds" class="ws-item allday" title="Cigno">XWORLDS'26</a>
+          <a href="/2026/workshops/#ahimr-26-the-1st-international-workshop-on-ai-mediated-heads-up-interaction-in-wearable-mixed-reality" class="ws-item"><strong>AHIMR'26</strong><small>Sezione 4</small><span>08:15–09:45</span></a>
+          <a href="/2026/workshops/#behavxr-26-xr-for-behavioral-health-body-signals-behavior-change-and-responsible-design" class="ws-item"><strong>BehavXR'26</strong><small>Sezione 2</small><span>08:15–09:45</span></a>
+          <a href="/2026/workshops/#wsr5-26-5th-workshop-on-seamless-reality-wsr5-ar-technologies-for-seamless-perception-and-cognition-between-cyber-and-physical-spaces" class="ws-item"><strong>WSR5'26</strong><small>Sezione 5</small><span>08:15–09:45</span></a>
+          <a href="/2026/workshops/#xrag-26-the-1st-international-workshop-on-agentic-ai-for-extended-reality" class="ws-item"><strong>XRAG'26</strong><small>Sezione 4</small><span>08:15–09:45</span></a>
+          <a href="/2026/tutorials/#emerging-reviewing-and-publication-models-to-promote-trustworthy-research-and-support-scientific-career-advancement" class="ws-item tut"><strong>Reviewing Models</strong><small>Sezione 6+7</small><span>08:15–09:45</span></a>
+          <a href="/2026/tutorials/#interaction-design-for-extended-reality" class="ws-item tut"><strong>ID4XR</strong><small>Sezione 2</small><span>08:15–09:45</span></a>
+          <a href="/2026/workshops/#neuroxr-26-2nd-international-workshop-on-neurophysiological-signals-affective-computing-and-cognition-in-extended-reality" class="ws-item allday"><strong>NeuroXR'26</strong><small>Orione</small><span>All Day</span></a>
+          <a href="/2026/workshops/#xworlds-26-the-1st-international-workshop-on-advancing-interoperability-in-virtual-worlds" class="ws-item allday"><strong>XWORLDS'26</strong><small>Cigno</small><span>All Day</span></a>
         </div>
       </div>
 
       <!-- Future Faculty Forum: 08:15-09:45 (Track 2) -->
-      <div class="timeline-item faculty row-815 span-90" style="grid-column: 8 / 11;">
+      <a href="/2026/future-faculty-forum/" class="timeline-item faculty row-815 span-90" style="grid-column: 8 / 11;">
         <strong>Future Faculty Forum</strong>
+        <small>Glasshaus</small>
         <span>08:15–09:45</span>
-      </div>
+      </a>
 
       <!-- Coffee Break: 09:45-10:30 (full width) -->
       <div class="timeline-item coffee row-945 span-45" style="grid-column: 2 / 11;">
         <strong>Coffee Break</strong>
+        <small>Cassiopea</small>
         <span>09:45–10:30</span>
       </div>
 
       <!-- Workshops & Tutorials: 10:30-12:00 (Track 1) -->
       <div class="timeline-item workshop-grid row-1030 span-90" style="grid-column: 2 / 8;">
         <div class="workshop-items">
-          <a href="/2026/workshops/#ahimr-26-the-1st-international-workshop-on-ai-mediated-heads-up-interaction-in-wearable-mixed-reality" class="ws-item" title="Sezione 4">AHIMR'26</a>
-          <a href="/2026/workshops/#behavxr-26-xr-for-behavioral-health-body-signals-behavior-change-and-responsible-design" class="ws-item" title="Sezione 2">BehavXR'26</a>
-          <a href="/2026/workshops/#wsr5-26-5th-workshop-on-seamless-reality-wsr5-ar-technologies-for-seamless-perception-and-cognition-between-cyber-and-physical-spaces" class="ws-item" title="Sezione 5">WSR5'26</a>
-          <a href="/2026/workshops/#xrag-26-the-1st-international-workshop-on-agentic-ai-for-extended-reality" class="ws-item" title="Sezione 4">XRAG'26</a>
-          <a href="/2026/tutorials/#emerging-reviewing-and-publication-models-to-promote-trustworthy-research-and-support-scientific-career-advancement" class="ws-item tut" title="Sezione 6+7">Reviewing Models</a>
-          <a href="/2026/tutorials/#interaction-design-for-extended-reality" class="ws-item tut" title="Sezione 2">ID4XR</a>
-          <a href="/2026/workshops/#neuroxr-26-2nd-international-workshop-on-neurophysiological-signals-affective-computing-and-cognition-in-extended-reality" class="ws-item allday" title="Orione">NeuroXR'26</a>
-          <a href="/2026/workshops/#xworlds-26-the-1st-international-workshop-on-advancing-interoperability-in-virtual-worlds" class="ws-item allday" title="Cigno">XWORLDS'26</a>
+          <a href="/2026/workshops/#ahimr-26-the-1st-international-workshop-on-ai-mediated-heads-up-interaction-in-wearable-mixed-reality" class="ws-item"><strong>AHIMR'26</strong><small>Sezione 4</small><span>10:30–12:00</span></a>
+          <a href="/2026/workshops/#behavxr-26-xr-for-behavioral-health-body-signals-behavior-change-and-responsible-design" class="ws-item"><strong>BehavXR'26</strong><small>Sezione 2</small><span>10:30–12:00</span></a>
+          <a href="/2026/workshops/#wsr5-26-5th-workshop-on-seamless-reality-wsr5-ar-technologies-for-seamless-perception-and-cognition-between-cyber-and-physical-spaces" class="ws-item"><strong>WSR5'26</strong><small>Sezione 5</small><span>10:30–12:00</span></a>
+          <a href="/2026/workshops/#xrag-26-the-1st-international-workshop-on-agentic-ai-for-extended-reality" class="ws-item"><strong>XRAG'26</strong><small>Sezione 4</small><span>10:30–12:00</span></a>
+          <a href="/2026/tutorials/#emerging-reviewing-and-publication-models-to-promote-trustworthy-research-and-support-scientific-career-advancement" class="ws-item tut"><strong>Reviewing Models</strong><small>Sezione 6+7</small><span>10:30–12:00</span></a>
+          <a href="/2026/tutorials/#interaction-design-for-extended-reality" class="ws-item tut"><strong>ID4XR</strong><small>Sezione 2</small><span>10:30–12:00</span></a>
+          <a href="/2026/workshops/#neuroxr-26-2nd-international-workshop-on-neurophysiological-signals-affective-computing-and-cognition-in-extended-reality" class="ws-item allday"><strong>NeuroXR'26</strong><small>Orione</small><span>All Day</span></a>
+          <a href="/2026/workshops/#xworlds-26-the-1st-international-workshop-on-advancing-interoperability-in-virtual-worlds" class="ws-item allday"><strong>XWORLDS'26</strong><small>Cigno</small><span>All Day</span></a>
         </div>
       </div>
 
       <!-- Future Faculty Forum: 10:30-12:00 (Track 2) -->
-      <div class="timeline-item faculty row-1030 span-90" style="grid-column: 8 / 11;">
+      <a href="/2026/future-faculty-forum/" class="timeline-item faculty row-1030 span-90" style="grid-column: 8 / 11;">
         <strong>Future Faculty Forum</strong>
+        <small>Glasshaus</small>
         <span>10:30–12:00</span>
-      </div>
+      </a>
 
       <!-- Lunch: 12:00-14:00 (full width) -->
       <div class="timeline-item lunch row-1200" style="grid-column: 2 / 11; grid-row-end: span 8;">
         <strong>Lunch</strong>
+        <small>Cassiopea Hall Restaurant</small>
         <span>12:00–14:00</span>
       </div>
 
       <!-- Workshops & Tutorials: 14:00-15:30 (Track 1) -->
       <div class="timeline-item workshop-grid row-1400 span-90" style="grid-column: 2 / 8;">
         <div class="workshop-items">
-          <a href="/2026/workshops/#alt-ismar-alternative-ismar" class="ws-item" title="Sezione 5">Alt'ISMAR</a>
-          <a href="/2026/workshops/#hype-xr-1st-workshop-on-hyperrealism-in-xr-in-the-era-of-radiance-fields" class="ws-item" title="Sezione 1">Hype-XR</a>
-          <a href="/2026/workshops/#teacxr-26-the-1st-international-workshop-on-teaching-xr" class="ws-item" title="Auriga">TeacXR'26</a>
-          <a href="/2026/workshops/#xrai-sca-2nd-international-workshop-on-extended-reality-and-artificial-intelligence-for-serious-and-critical-applications" class="ws-item" title="Sezione 4">XRAI-SCA</a>
-          <a href="/2026/workshops/#xrehab-the-2nd-international-workshop-on-extended-reality-for-rehabilitation" class="ws-item" title="Auriga">Xrehab</a>
-          <a href="/2026/workshops/#xrmemory-4th-international-workshop-on-spatial-memory-in-xr" class="ws-item" title="Sezione 6+7">XRMemory</a>
-          <a href="/2026/workshops/#neuroxr-26-2nd-international-workshop-on-neurophysiological-signals-affective-computing-and-cognition-in-extended-reality" class="ws-item allday" title="Orione">NeuroXR'26</a>
-          <a href="/2026/workshops/#xworlds-26-the-1st-international-workshop-on-advancing-interoperability-in-virtual-worlds" class="ws-item allday" title="Cigno">XWORLDS'26</a>
+          <a href="/2026/workshops/#alt-ismar-alternative-ismar" class="ws-item"><strong>Alt'ISMAR</strong><small>Sezione 5</small><span>14:00–15:30</span></a>
+          <a href="/2026/workshops/#hype-xr-1st-workshop-on-hyperrealism-in-xr-in-the-era-of-radiance-fields" class="ws-item"><strong>Hype-XR</strong><small>Sezione 1</small><span>14:00–15:30</span></a>
+          <a href="/2026/workshops/#teacxr-26-the-1st-international-workshop-on-teaching-xr" class="ws-item"><strong>TeacXR'26</strong><small>Auriga</small><span>14:00–15:30</span></a>
+          <a href="/2026/workshops/#xrai-sca-2nd-international-workshop-on-extended-reality-and-artificial-intelligence-for-serious-and-critical-applications" class="ws-item"><strong>XRAI-SCA</strong><small>Sezione 4</small><span>14:00–15:30</span></a>
+          <a href="/2026/workshops/#xrehab-the-2nd-international-workshop-on-extended-reality-for-rehabilitation" class="ws-item"><strong>Xrehab</strong><small>Auriga</small><span>14:00–15:30</span></a>
+          <a href="/2026/workshops/#xrmemory-4th-international-workshop-on-spatial-memory-in-xr" class="ws-item"><strong>XRMemory</strong><small>Sezione 6+7</small><span>14:00–15:30</span></a>
+          <a href="/2026/workshops/#neuroxr-26-2nd-international-workshop-on-neurophysiological-signals-affective-computing-and-cognition-in-extended-reality" class="ws-item allday"><strong>NeuroXR'26</strong><small>Orione</small><span>All Day</span></a>
+          <a href="/2026/workshops/#xworlds-26-the-1st-international-workshop-on-advancing-interoperability-in-virtual-worlds" class="ws-item allday"><strong>XWORLDS'26</strong><small>Cigno</small><span>All Day</span></a>
         </div>
       </div>
 
       <!-- Future Faculty Forum: 14:00-15:30 (Track 2) -->
-      <div class="timeline-item faculty row-1400 span-90" style="grid-column: 8 / 11;">
+      <a href="/2026/future-faculty-forum/" class="timeline-item faculty row-1400 span-90" style="grid-column: 8 / 11;">
         <strong>Future Faculty Forum</strong>
+        <small>Glasshaus</small>
         <span>14:00–15:30</span>
-      </div>
+      </a>
 
       <!-- Coffee Break: 15:30-16:15 (full width) -->
       <div class="timeline-item coffee row-1530 span-45" style="grid-column: 2 / 11;">
         <strong>Coffee Break</strong>
+        <small>Cassiopea</small>
         <span>15:30–16:15</span>
       </div>
 
       <!-- Workshops & Tutorials: 16:15-17:45 (Track 1) -->
       <div class="timeline-item workshop-grid row-1615 span-90" style="grid-column: 2 / 8;">
         <div class="workshop-items">
-          <a href="/2026/workshops/#alt-ismar-alternative-ismar" class="ws-item" title="Sezione 5">Alt'ISMAR</a>
-          <a href="/2026/workshops/#hype-xr-1st-workshop-on-hyperrealism-in-xr-in-the-era-of-radiance-fields" class="ws-item" title="Sezione 1">Hype-XR</a>
-          <a href="/2026/workshops/#teacxr-26-the-1st-international-workshop-on-teaching-xr" class="ws-item" title="Auriga">TeacXR'26</a>
-          <a href="/2026/workshops/#xrai-sca-2nd-international-workshop-on-extended-reality-and-artificial-intelligence-for-serious-and-critical-applications" class="ws-item" title="Sezione 4">XRAI-SCA</a>
-          <a href="/2026/workshops/#xrehab-the-2nd-international-workshop-on-extended-reality-for-rehabilitation" class="ws-item" title="Auriga">Xrehab</a>
-          <a href="/2026/workshops/#xrmemory-4th-international-workshop-on-spatial-memory-in-xr" class="ws-item" title="Sezione 6+7">XRMemory</a>
-          <a href="/2026/workshops/#neuroxr-26-2nd-international-workshop-on-neurophysiological-signals-affective-computing-and-cognition-in-extended-reality" class="ws-item allday" title="Orione">NeuroXR'26</a>
-          <a href="/2026/workshops/#xworlds-26-the-1st-international-workshop-on-advancing-interoperability-in-virtual-worlds" class="ws-item allday" title="Cigno">XWORLDS'26</a>
+          <a href="/2026/workshops/#alt-ismar-alternative-ismar" class="ws-item"><strong>Alt'ISMAR</strong><small>Sezione 5</small><span>16:15–17:45</span></a>
+          <a href="/2026/workshops/#hype-xr-1st-workshop-on-hyperrealism-in-xr-in-the-era-of-radiance-fields" class="ws-item"><strong>Hype-XR</strong><small>Sezione 1</small><span>16:15–17:45</span></a>
+          <a href="/2026/workshops/#teacxr-26-the-1st-international-workshop-on-teaching-xr" class="ws-item"><strong>TeacXR'26</strong><small>Auriga</small><span>16:15–17:45</span></a>
+          <a href="/2026/workshops/#xrai-sca-2nd-international-workshop-on-extended-reality-and-artificial-intelligence-for-serious-and-critical-applications" class="ws-item"><strong>XRAI-SCA</strong><small>Sezione 4</small><span>16:15–17:45</span></a>
+          <a href="/2026/workshops/#xrehab-the-2nd-international-workshop-on-extended-reality-for-rehabilitation" class="ws-item"><strong>Xrehab</strong><small>Auriga</small><span>16:15–17:45</span></a>
+          <a href="/2026/workshops/#xrmemory-4th-international-workshop-on-spatial-memory-in-xr" class="ws-item"><strong>XRMemory</strong><small>Sezione 6+7</small><span>16:15–17:45</span></a>
+          <a href="/2026/workshops/#neuroxr-26-2nd-international-workshop-on-neurophysiological-signals-affective-computing-and-cognition-in-extended-reality" class="ws-item allday"><strong>NeuroXR'26</strong><small>Orione</small><span>All Day</span></a>
+          <a href="/2026/workshops/#xworlds-26-the-1st-international-workshop-on-advancing-interoperability-in-virtual-worlds" class="ws-item allday"><strong>XWORLDS'26</strong><small>Cigno</small><span>All Day</span></a>
         </div>
       </div>
 
       <!-- Future Faculty Forum: 16:15-17:45 (Track 2) -->
-      <div class="timeline-item faculty row-1615 span-90" style="grid-column: 8 / 11;">
+      <a href="/2026/future-faculty-forum/" class="timeline-item faculty row-1615 span-90" style="grid-column: 8 / 11;">
         <strong>Future Faculty Forum</strong>
+        <small>Glasshaus</small>
         <span>16:15–17:45</span>
-      </div>
+      </a>
 
       <!-- Welcome Reception @ Nicolaus: 18:30-20:30 (full width, pink) -->
       <div class="timeline-item social row-1830" style="grid-column: 2 / 11; grid-row-end: span 8;">
         <strong>Welcome Reception @ Nicolaus</strong>
+        <small>Nicolaus</small>
         <span>18:30–20:30</span>
       </div>
     </div>
@@ -500,151 +514,161 @@ permalink: /2026/overview/
 
       <!-- Registration 08:00-18:45 -->
       <div class="timeline-item registration row-800 col-reg" style="grid-row-end: 44;">
-        <strong>Registration</strong>
+        <span class="title">Registration</span>
+        <span class="room">Sala Expositiva</span>
         <span>08:00–18:45</span>
       </div>
 
       <!-- Opening Ceremony 08:30-09:30 -->
       <div class="timeline-item ceremony row-830 col-main span-60">
         <strong>Opening Ceremony</strong>
+        <small>Sezione 1+2</small>
         <span>08:30–09:30</span>
       </div>
 
       <!-- Keynote 1: 09:30-10:30 -->
       <a href="/2026/keynote-speakers/#keynote-1" class="timeline-item keynote row-930 col-main span-60">
         <strong>Keynote 1: The Art and Science of Interaction Pathfinding (Jenny Spurlock)</strong>
-        <span>09:30–10:30</span>
         <small>Sezione 1+2</small>
+        <span>09:30–10:30</span>
       </a>
 
       <!-- Coffee Break 10:30-11:15 (Track 1) - spans 3 columns -->
       <div class="timeline-item coffee row-1030 span-45" style="grid-column: 2 / 5;">
         <strong>Coffee Break</strong>
+        <small>Cassiopea</small>
         <span>10:30–11:15</span>
       </div>
 
       <!-- Coffee Break 10:30-11:45 (Track 2) - spans 3 columns -->
       <div class="timeline-item coffee row-1030 span-75" style="grid-column: 5 / 8;">
         <strong>Coffee Break</strong>
+        <small>Cassiopea</small>
         <span>10:30–11:45</span>
       </div>
 
       <!-- Posters 1A: 10:30-12:45 -->
       <a href="/2026/posters/#day-1-session-a" class="timeline-item poster row-1030 col-poster span-135">
-        <strong>Posters 1A</strong>
+        <span class="title">Posters 1A</span>
+        <span class="room">Cassiopea</span>
         <span>10:30–12:45</span>
       </a>
 
       <!-- Demos: 10:30-16:00 -->
-      <div class="timeline-item demo row-1030 col-demo span-330">
-        <strong>Demos</strong>
+      <a href="/2026/demos/" class="timeline-item demo row-1030 col-demo span-330">
+        <span class="title">Demos</span>
+        <span class="room">Sala Expositiva</span>
         <span>10:30–16:00</span>
-        <small>Sala Expositiva</small>
-      </div>
+      </a>
 
       <!-- PS1, PS2, PS3: 11:15-12:15 -->
       <a href="/2026/papers/#day-1-slot-a" class="timeline-item paper row-1115 span-60" style="grid-column: 2 / 3;">
         <strong>PS1: XR Learning</strong>
-        <span>11:15–12:15</span>
         <small>Orione + Perseo</small>
+        <span>11:15–12:15</span>
       </a>
       <a href="/2026/papers/#day-1-slot-a" class="timeline-item paper row-1115 span-60" style="grid-column: 3 / 4;">
         <strong>PS2: Crowd Interaction</strong>
-        <span>11:15–12:15</span>
         <small>Sezione 4+5</small>
+        <span>11:15–12:15</span>
       </a>
       <a href="/2026/papers/#day-1-slot-a" class="timeline-item paper row-1115 span-60" style="grid-column: 4 / 5;">
         <strong>PS3: Finger Touch Input</strong>
-        <span>11:15–12:15</span>
         <small>Sezione 1</small>
+        <span>11:15–12:15</span>
       </a>
 
       <!-- PS4, PS5, PS6: 11:45-12:45 -->
       <a href="/2026/papers/#day-1-slot-b" class="timeline-item paper paper-small row-1145 span-60" style="grid-column: 5 / 6;">
         <strong>PS4: Scene Reconstruction</strong>
-        <span>11:45–12:45</span>
         <small>Cigno + Auriga</small>
+        <span>11:45–12:45</span>
       </a>
       <a href="/2026/papers/#day-1-slot-b" class="timeline-item paper row-1145 span-60" style="grid-column: 6 / 7;">
         <strong>PS5: Haptic Interaction</strong>
-        <span>11:45–12:45</span>
         <small>Glasshaus</small>
+        <span>11:45–12:45</span>
       </a>
       <a href="/2026/papers/#day-1-slot-b" class="timeline-item paper row-1145 span-60" style="grid-column: 7 / 8;">
         <strong>PS6: Avatar Identity</strong>
-        <span>11:45–12:45</span>
         <small>Sezione 2</small>
+        <span>11:45–12:45</span>
       </a>
 
       <!-- Lunch 12:15-13:45 (Track 1) - spans 3 columns -->
       <div class="timeline-item lunch row-1215 span-90" style="grid-column: 2 / 5;">
-        <strong>Lunch (served @ Nicolaus, on-site)</strong>
+        <strong>Lunch</strong>
+        <small>Cassiopea Hall Restaurant</small>
         <span>12:15–13:45</span>
       </div>
 
       <!-- Lunch 12:45-14:15 (Track 2) - spans 3 columns -->
       <div class="timeline-item lunch row-1245 span-90" style="grid-column: 5 / 8;">
-        <strong>Lunch (served @ Nicolaus, on-site)</strong>
+        <strong>Lunch</strong>
+        <small>Cassiopea Hall Restaurant</small>
         <span>12:45–14:15</span>
       </div>
 
       <!-- PS7, PS8, PS9: 13:45-14:45 -->
       <a href="/2026/papers/#day-1-slot-c" class="timeline-item paper row-1345 span-60" style="grid-column: 2 / 3;">
         <strong>PS7: 3D Asset Modeling</strong>
-        <span>13:45–14:45</span>
         <small>Orione + Perseo</small>
+        <span>13:45–14:45</span>
       </a>
       <a href="/2026/papers/#day-1-slot-c" class="timeline-item paper row-1345 span-60" style="grid-column: 3 / 4;">
         <strong>PS8: Remote Collaboration</strong>
-        <span>13:45–14:45</span>
         <small>Sezione 4+5</small>
+        <span>13:45–14:45</span>
       </a>
       <a href="/2026/papers/#day-1-slot-c" class="timeline-item paper row-1345 span-60" style="grid-column: 4 / 5;">
         <strong>PS9: Gaze Gesture Input</strong>
-        <span>13:45–14:45</span>
         <small>Sezione 1</small>
+        <span>13:45–14:45</span>
       </a>
 
       <!-- Posters 1B: 13:45-16:00 -->
       <a href="/2026/posters/#day-1-session-b" class="timeline-item poster row-1345 col-poster span-135">
-        <strong>Posters 1B</strong>
+        <span class="title">Posters 1B</span>
+        <span class="room">Cassiopea</span>
         <span>13:45–16:00</span>
       </a>
 
       <!-- PS10, PS11, PS12: 14:15-15:15 -->
       <a href="/2026/papers/#day-1-slot-d" class="timeline-item paper row-1415 span-60" style="grid-column: 5 / 6;">
         <strong>PS10: Assembly Workflows</strong>
-        <span>14:15–15:15</span>
         <small>Glasshaus</small>
+        <span>14:15–15:15</span>
       </a>
       <a href="/2026/papers/#day-1-slot-d" class="timeline-item paper row-1415 span-60" style="grid-column: 6 / 7;">
         <strong>PS11: Vibrotactile Haptics</strong>
-        <span>14:15–15:15</span>
         <small>Cigno + Auriga</small>
+        <span>14:15–15:15</span>
       </a>
       <a href="/2026/papers/#day-1-slot-d" class="timeline-item paper row-1415 span-60" style="grid-column: 7 / 8;">
         <strong>PS12: Body Ownership</strong>
-        <span>14:15–15:15</span>
         <small>Sezione 2</small>
+        <span>14:15–15:15</span>
       </a>
 
       <!-- Coffee Break 14:45-16:00 (Track 1) - spans 3 columns -->
       <div class="timeline-item coffee row-1445 span-75" style="grid-column: 2 / 5;">
         <strong>Coffee Break</strong>
+        <small>Cassiopea</small>
         <span>14:45–16:00</span>
       </div>
 
       <!-- Coffee Break 15:15-16:00 (Track 2) - spans 3 columns -->
       <div class="timeline-item coffee row-1515 span-45" style="grid-column: 5 / 8;">
         <strong>Coffee Break</strong>
+        <small>Cassiopea</small>
         <span>15:15–16:00</span>
       </div>
 
       <!-- Panel 1: 16:00-17:00 -->
       <a href="/2026/panels/#the-good-the-bad-the-ugly-of-ai-in-academic-research-and-publishing" class="timeline-item panel row-1600 col-main span-60">
         <strong>Panel: The Good, the Bad, the Ugly of AI in Academic Research and Publishing</strong>
-        <span>16:00–17:00</span>
         <small>Sezione 1+2</small>
+        <span>16:00–17:00</span>
       </a>
 
       <!-- Gap 17:00-17:15 (Track 1) and 17:00-17:45 (Track 2) - empty -->
@@ -652,35 +676,35 @@ permalink: /2026/overview/
       <!-- PS13, PS14, PS15: 17:15-18:15 (Track 1 - left side) -->
       <a href="/2026/papers/#day-1-slot-e" class="timeline-item paper row-1715 span-60" style="grid-column: 2 / 3;">
         <strong>PS13: Applied XR Evaluation</strong>
-        <span>17:15–18:15</span>
         <small>Glasshaus</small>
+        <span>17:15–18:15</span>
       </a>
       <a href="/2026/papers/#day-1-slot-e" class="timeline-item paper row-1715 span-60" style="grid-column: 3 / 4;">
         <strong>PS14: XR Authoring</strong>
-        <span>17:15–18:15</span>
         <small>Cigno + Auriga</small>
+        <span>17:15–18:15</span>
       </a>
       <a href="/2026/papers/#day-1-slot-e" class="timeline-item paper row-1715 span-60" style="grid-column: 4 / 5;">
         <strong>PS15: Shared Spatial Cues</strong>
-        <span>17:15–18:15</span>
         <small>Sezione 4+5</small>
+        <span>17:15–18:15</span>
       </a>
 
       <!-- PS16, PS17, PS18: 17:45-18:45 (Track 2 - right side) -->
       <a href="/2026/papers/#day-1-slot-f" class="timeline-item paper row-1745 span-60" style="grid-column: 5 / 6;">
         <strong>PS16: Spatial Audio</strong>
-        <span>17:45–18:45</span>
         <small>Orione + Perseo</small>
+        <span>17:45–18:45</span>
       </a>
       <a href="/2026/papers/#day-1-slot-f" class="timeline-item paper row-1745 span-60" style="grid-column: 6 / 7;">
         <strong>PS17: Social Avatars</strong>
-        <span>17:45–18:45</span>
         <small>Sezione 2</small>
+        <span>17:45–18:45</span>
       </a>
       <a href="/2026/papers/#day-1-slot-f" class="timeline-item paper row-1745 span-60" style="grid-column: 7 / 8;">
         <strong>PS18: Gaze Selection</strong>
-        <span>17:45–18:45</span>
         <small>Sezione 1</small>
+        <span>17:45–18:45</span>
       </a>
 
       <!-- Bari Vecchia (Old Town) Tour: 20:00-21:30 -->
@@ -759,184 +783,194 @@ permalink: /2026/overview/
 
       <!-- Registration 08:00-17:30 -->
       <div class="timeline-item registration row-800 col-reg" style="grid-row-end: 39;">
-        <strong>Registration</strong>
+        <span class="title">Registration</span>
+        <span class="room">Sala Expositiva</span>
         <span>08:00–17:30</span>
       </div>
 
       <!-- PS19, PS20, PS21: 08:30-09:30 (Track 1) -->
       <a href="/2026/papers/#day-2-slot-a" class="timeline-item paper row-830 span-60" style="grid-column: 2 / 3;">
         <strong>PS19: Embodied Agents</strong>
-        <span>08:30–09:30</span>
         <small>Sezione 2</small>
+        <span>08:30–09:30</span>
       </a>
       <a href="/2026/papers/#day-2-slot-a" class="timeline-item paper row-830 span-60" style="grid-column: 3 / 4;">
         <strong>PS20: Teleoperation</strong>
-        <span>08:30–09:30</span>
         <small>Orione + Perseo</small>
+        <span>08:30–09:30</span>
       </a>
       <a href="/2026/papers/#day-2-slot-a" class="timeline-item paper row-830 span-60" style="grid-column: 4 / 5;">
         <strong>PS21: Hand Gestures</strong>
-        <span>08:30–09:30</span>
         <small>Sezione 1</small>
+        <span>08:30–09:30</span>
       </a>
 
       <!-- PS22, PS23, PS24: 09:00-10:00 (Track 2) -->
       <a href="/2026/papers/#day-2-slot-b" class="timeline-item paper row-900 span-60" style="grid-column: 5 / 6;">
         <strong>PS22: XR Infrastructure</strong>
-        <span>09:00–10:00</span>
         <small>Cigno + Auriga</small>
+        <span>09:00–10:00</span>
       </a>
       <a href="/2026/papers/#day-2-slot-b" class="timeline-item paper row-900 span-60" style="grid-column: 6 / 7;">
         <strong>PS23: Near-Eye Optics</strong>
-        <span>09:00–10:00</span>
         <small>Glasshaus</small>
+        <span>09:00–10:00</span>
       </a>
       <a href="/2026/papers/#day-2-slot-b" class="timeline-item paper row-900 span-60" style="grid-column: 7 / 8;">
         <strong>PS24: Accessible Navigation</strong>
-        <span>09:00–10:00</span>
         <small>Sezione 4+5</small>
+        <span>09:00–10:00</span>
       </a>
 
       <!-- Coffee Break 09:30-10:30 (Track 1) -->
       <div class="timeline-item coffee row-930 span-60" style="grid-column: 2 / 5;">
         <strong>Coffee Break</strong>
+        <small>Cassiopea</small>
         <span>09:30–10:30</span>
       </div>
 
       <!-- Coffee Break 10:00-10:30 (Track 2) -->
       <div class="timeline-item coffee row-1000 span-30" style="grid-column: 5 / 8;">
         <strong>Coffee Break</strong>
+        <small>Cassiopea</small>
         <span>10:00–10:30</span>
       </div>
 
       <!-- Keynote 2: 10:30-11:30 -->
       <a href="/2026/keynote-speakers/#keynote-2" class="timeline-item keynote row-1030 col-main span-60">
         <strong>Keynote 2: What Sailing Can Teach Us About Augmented Agency (Antonio Rizzo)</strong>
-        <span>10:30–11:30</span>
         <small>Sezione 1+2</small>
+        <span>10:30–11:30</span>
       </a>
 
       <!-- Posters 2A: 11:30-13:45 -->
       <a href="/2026/posters/#day-2-session-a" class="timeline-item poster row-1130 col-poster span-135">
-        <strong>Posters 2A</strong>
+        <span class="title">Posters 2A</span>
+        <span class="room">Cassiopea</span>
         <span>11:30–13:45</span>
       </a>
 
       <!-- Demos: 11:30-16:30 -->
-      <div class="timeline-item demo row-1130 col-demo span-300">
-        <strong>Demos</strong>
+      <a href="/2026/demos/" class="timeline-item demo row-1130 col-demo span-300">
+        <span class="title">Demos</span>
+        <span class="room">Sala Expositiva</span>
         <span>11:30–16:30</span>
-        <small>Sala Expositiva</small>
-      </div>
+      </a>
 
       <!-- PS25, PS26, PS27: 11:45-12:45 (Track 1) -->
       <a href="/2026/papers/#day-2-slot-c" class="timeline-item paper row-1145 span-60" style="grid-column: 2 / 3;">
         <strong>PS25: Task Reliability</strong>
-        <span>11:45–12:45</span>
         <small>Glasshaus</small>
+        <span>11:45–12:45</span>
       </a>
       <a href="/2026/papers/#day-2-slot-c" class="timeline-item paper row-1145 span-60" style="grid-column: 3 / 4;">
         <strong>PS26: Cybersickness Mitigation</strong>
-        <span>11:45–12:45</span>
         <small>Cigno + Auriga</small>
+        <span>11:45–12:45</span>
       </a>
       <a href="/2026/papers/#day-2-slot-c" class="timeline-item paper row-1145 span-60" style="grid-column: 4 / 5;">
         <strong>PS27: Immersive Exp. &amp; Culture</strong>
-        <span>11:45–12:45</span>
         <small>Sezione 4+5</small>
+        <span>11:45–12:45</span>
       </a>
 
       <!-- PS28, PS29, PS30: 12:15-13:15 (Track 2) -->
       <a href="/2026/papers/#day-2-slot-d" class="timeline-item paper row-1215 span-60" style="grid-column: 5 / 6;">
         <strong>PS28: Projection &amp; Display Tech.</strong>
-        <span>12:15–13:15</span>
         <small>Orione + Perseo</small>
+        <span>12:15–13:15</span>
       </a>
       <a href="/2026/papers/#day-2-slot-d" class="timeline-item paper row-1215 span-60" style="grid-column: 6 / 7;">
         <strong>PS29: Navigation Cues</strong>
-        <span>12:15–13:15</span>
         <small>Sezione 2</small>
+        <span>12:15–13:15</span>
       </a>
       <a href="/2026/papers/#day-2-slot-d" class="timeline-item paper row-1215 span-60" style="grid-column: 7 / 8;">
         <strong>PS30: 3D Manipulation</strong>
-        <span>12:15–13:15</span>
         <small>Sezione 1</small>
+        <span>12:15–13:15</span>
       </a>
 
       <!-- Lunch 12:45-14:15 (Track 1) -->
       <div class="timeline-item lunch row-1245 span-90" style="grid-column: 2 / 5;">
-        <strong>Lunch (served @ Nicolaus, on-site)</strong>
+        <strong>Lunch</strong>
+        <small>Cassiopea Hall Restaurant</small>
         <span>12:45–14:15</span>
       </div>
 
       <!-- Lunch 13:15-14:45 (Track 2) -->
       <div class="timeline-item lunch row-1315 span-90" style="grid-column: 5 / 8;">
-        <strong>Lunch (served @ Nicolaus, on-site)</strong>
+        <strong>Lunch</strong>
+        <small>Cassiopea Hall Restaurant</small>
         <span>13:15–14:45</span>
       </div>
 
       <!-- Posters 2B: 14:15-16:30 -->
       <a href="/2026/posters/#day-2-session-b" class="timeline-item poster row-1415 col-poster span-135">
-        <strong>Posters 2B</strong>
+        <span class="title">Posters 2B</span>
+        <span class="room">Cassiopea</span>
         <span>14:15–16:30</span>
       </a>
 
       <!-- PS31, PS32, PS33: 14:15-15:15 (Track 1) -->
       <a href="/2026/papers/#day-2-slot-e" class="timeline-item paper row-1415 span-60" style="grid-column: 2 / 3;">
         <strong>PS31: Affective XR</strong>
-        <span>14:15–15:15</span>
         <small>Sezione 1</small>
+        <span>14:15–15:15</span>
       </a>
       <a href="/2026/papers/#day-2-slot-e" class="timeline-item paper row-1415 span-60" style="grid-column: 3 / 4;">
         <strong>PS32: Redirected Walking</strong>
-        <span>14:15–15:15</span>
         <small>Sezione 4+5</small>
+        <span>14:15–15:15</span>
       </a>
       <a href="/2026/papers/#day-2-slot-e" class="timeline-item paper row-1415 span-60" style="grid-column: 4 / 5;">
         <strong>PS33: Social Impact</strong>
-        <span>14:15–15:15</span>
         <small>Orione + Perseo</small>
+        <span>14:15–15:15</span>
       </a>
 
       <!-- PS34, PS35, PS36: 14:45-15:45 (Track 2) -->
       <a href="/2026/papers/#day-2-slot-f" class="timeline-item paper row-1445 span-60" style="grid-column: 5 / 6;">
         <strong>PS34: Panoramic Media</strong>
-        <span>14:45–15:45</span>
         <small>Cigno + Auriga</small>
+        <span>14:45–15:45</span>
       </a>
       <a href="/2026/papers/#day-2-slot-f" class="timeline-item paper row-1445 span-60" style="grid-column: 6 / 7;">
         <strong>PS35: Cybersickness Prediction</strong>
-        <span>14:45–15:45</span>
         <small>Glasshaus</small>
+        <span>14:45–15:45</span>
       </a>
       <a href="/2026/papers/#day-2-slot-f" class="timeline-item paper row-1445 span-60" style="grid-column: 7 / 8;">
         <strong>PS36: Spatial Interfaces</strong>
-        <span>14:45–15:45</span>
         <small>Sezione 2</small>
+        <span>14:45–15:45</span>
       </a>
 
       <!-- Coffee Break 15:15-16:30 (Track 1) -->
       <div class="timeline-item coffee row-1515 span-75" style="grid-column: 2 / 5;">
         <strong>Coffee Break</strong>
+        <small>Cassiopea</small>
         <span>15:15–16:30</span>
       </div>
 
       <!-- Coffee Break 15:45-16:30 (Track 2) -->
       <div class="timeline-item coffee row-1545 span-45" style="grid-column: 5 / 8;">
         <strong>Coffee Break</strong>
+        <small>Cassiopea</small>
         <span>15:45–16:30</span>
       </div>
 
       <!-- Panel 2: 16:30-17:30 -->
       <a href="/2026/panels/#rethinking-academic-conferences-meaningful-connections-at-a-distance" class="timeline-item panel row-1630 col-main span-60">
         <strong>Panel: Rethinking Academic Conferences: Meaningful Connections at a Distance</strong>
-        <span>16:30–17:30</span>
         <small>Sezione 1+2</small>
+        <span>16:30–17:30</span>
       </a>
 
       <!-- Banquet @ Villa Romanazzi: 19:00-21:30 -->
       <div class="timeline-item social row-1900 col-main span-150">
         <strong>Conference Banquet @ Villa Romanazzi</strong>
+        <small>Villa Romanazzi</small>
         <span>19:00–21:30</span>
       </div>
     </div>
@@ -1010,177 +1044,187 @@ permalink: /2026/overview/
 
       <!-- Registration 08:00-17:30 -->
       <div class="timeline-item registration row-800 col-reg" style="grid-row-end: 39;">
-        <strong>Registration</strong>
+        <span class="title">Registration</span>
+        <span class="room">Sala Expositiva</span>
         <span>08:00–17:30</span>
       </div>
 
       <!-- PS37, PS38, PS39: 08:30-09:30 (Track 1) -->
       <a href="/2026/papers/#day-3-slot-a" class="timeline-item paper row-830 span-60" style="grid-column: 2 / 3;">
         <strong>PS37: Multisensory Perception</strong>
-        <span>08:30–09:30</span>
         <small>Sezione 1</small>
+        <span>08:30–09:30</span>
       </a>
       <a href="/2026/papers/#day-3-slot-a" class="timeline-item paper row-830 span-60" style="grid-column: 3 / 4;">
         <strong>PS38: Pedagogical Agents</strong>
-        <span>08:30–09:30</span>
         <small>Orione + Perseo</small>
+        <span>08:30–09:30</span>
       </a>
       <a href="/2026/papers/#day-3-slot-a" class="timeline-item paper row-830 span-60" style="grid-column: 4 / 5;">
         <strong>PS39: Hybrid Mobile Interfaces</strong>
-        <span>08:30–09:30</span>
         <small>Sezione 2</small>
+        <span>08:30–09:30</span>
       </a>
 
       <!-- PS40, PS41, PS42: 09:00-10:00 (Track 2) -->
       <a href="/2026/papers/#day-3-slot-b" class="timeline-item paper row-900 span-60" style="grid-column: 5 / 6;">
         <strong>PS40: XR Privacy</strong>
-        <span>09:00–10:00</span>
         <small>Glasshaus</small>
+        <span>09:00–10:00</span>
       </a>
       <a href="/2026/papers/#day-3-slot-b" class="timeline-item paper row-900 span-60" style="grid-column: 6 / 7;">
         <strong>PS41: Cybersickness &amp; Locomotion</strong>
-        <span>09:00–10:00</span>
         <small>Sezione 4+5</small>
+        <span>09:00–10:00</span>
       </a>
       <a href="/2026/papers/#day-3-slot-b" class="timeline-item paper row-900 span-60" style="grid-column: 7 / 8;">
         <strong>PS42: Medical Procedures</strong>
-        <span>09:00–10:00</span>
         <small>Cigno + Auriga</small>
+        <span>09:00–10:00</span>
       </a>
 
       <!-- Coffee Break 09:30-10:30 (Track 1) -->
       <div class="timeline-item coffee row-930 span-60" style="grid-column: 2 / 5;">
         <strong>Coffee Break</strong>
+        <small>Cassiopea</small>
         <span>09:30–10:30</span>
       </div>
 
       <!-- Coffee Break 10:00-10:30 (Track 2) -->
       <div class="timeline-item coffee row-1000 span-30" style="grid-column: 5 / 8;">
         <strong>Coffee Break</strong>
+        <small>Cassiopea</small>
         <span>10:00–10:30</span>
       </div>
 
       <!-- Keynote 3: 10:30-11:30 -->
       <a href="/2026/keynote-speakers/#keynote-3" class="timeline-item keynote row-1030 col-main span-60">
         <strong>Keynote 3: Spatial Human-AI Interaction (Misha Sra)</strong>
-        <span>10:30–11:30</span>
         <small>Sezione 1+2</small>
+        <span>10:30–11:30</span>
       </a>
 
       <!-- Posters 3A: 11:30-13:45 -->
       <a href="/2026/posters/#day-3-session-a" class="timeline-item poster row-1130 col-poster span-135">
-        <strong>Posters 3A</strong>
+        <span class="title">Posters 3A</span>
+        <span class="room">Cassiopea</span>
         <span>11:30–13:45</span>
       </a>
 
       <!-- Demos: 11:30-16:30 -->
-      <div class="timeline-item demo row-1130 col-demo span-300">
-        <strong>Demos</strong>
+      <a href="/2026/demos/" class="timeline-item demo row-1130 col-demo span-300">
+        <span class="title">Demos</span>
+        <span class="room">Sala Expositiva</span>
         <span>11:30–16:30</span>
-        <small>Sala Expositiva</small>
-      </div>
+      </a>
 
       <!-- PS43, PS44, PS45: 11:45-12:45 (Track 1) -->
       <a href="/2026/papers/#day-3-slot-c" class="timeline-item paper row-1145 span-60" style="grid-column: 2 / 3;">
         <strong>PS43: XR Trust</strong>
-        <span>11:45–12:45</span>
         <small>Glasshaus</small>
+        <span>11:45–12:45</span>
       </a>
       <a href="/2026/papers/#day-3-slot-c" class="timeline-item paper row-1145 span-60" style="grid-column: 3 / 4;">
         <strong>PS44: Agents for Guidance</strong>
-        <span>11:45–12:45</span>
         <small>Sezione 4+5</small>
+        <span>11:45–12:45</span>
       </a>
       <a href="/2026/papers/#day-3-slot-c" class="timeline-item paper row-1145 span-60" style="grid-column: 4 / 5;">
         <strong>PS45: Immersive Analytics</strong>
-        <span>11:45–12:45</span>
         <small>Cigno + Auriga</small>
+        <span>11:45–12:45</span>
       </a>
 
       <!-- PS46, PS47, PS48: 12:15-13:15 (Track 2) -->
       <a href="/2026/papers/#day-3-slot-d" class="timeline-item paper row-1215 span-60" style="grid-column: 5 / 6;">
         <strong>PS46: Passthrough Perception</strong>
-        <span>12:15–13:15</span>
         <small>Sezione 1</small>
+        <span>12:15–13:15</span>
       </a>
       <a href="/2026/papers/#day-3-slot-d" class="timeline-item paper row-1215 span-60" style="grid-column: 6 / 7;">
         <strong>PS47: VR Locomotion</strong>
-        <span>12:15–13:15</span>
         <small>Sezione 2</small>
+        <span>12:15–13:15</span>
       </a>
       <a href="/2026/papers/#day-3-slot-d" class="timeline-item paper row-1215 span-60" style="grid-column: 7 / 8;">
         <strong>PS48: Human Perf. Assessment</strong>
-        <span>12:15–13:15</span>
         <small>Orione + Perseo</small>
+        <span>12:15–13:15</span>
       </a>
 
       <!-- Lunch (served @ Nicolaus, on-site) 12:45-14:15 (Track 1) -->
       <div class="timeline-item lunch row-1245 span-90" style="grid-column: 2 / 5;">
-        <strong>Lunch (served @ Nicolaus, on-site)</strong>
+        <strong>Lunch</strong>
+        <small>Cassiopea Hall Restaurant</small>
         <span>12:45–14:15</span>
       </div>
 
       <!-- Lunch (served @ Nicolaus, on-site) 13:15-14:45 (Track 2) -->
       <div class="timeline-item lunch row-1315 span-90" style="grid-column: 5 / 8;">
-        <strong>Lunch (served @ Nicolaus, on-site)</strong>
+        <strong>Lunch</strong>
+        <small>Cassiopea Hall Restaurant</small>
         <span>13:15–14:45</span>
       </div>
 
       <!-- Posters 3B: 14:15-16:30 -->
       <a href="/2026/posters/#day-3-session-b" class="timeline-item poster row-1415 col-poster span-135">
-        <strong>Posters 3B</strong>
+        <span class="title">Posters 3B</span>
+        <span class="room">Cassiopea</span>
         <span>14:15–16:30</span>
       </a>
 
       <!-- PS49, PS50, PS51: 14:15-15:15 (Track 1) -->
       <a href="/2026/papers/#day-3-slot-e" class="timeline-item paper row-1415 span-60" style="grid-column: 2 / 3;">
         <strong>PS49: Object Physicality</strong>
-        <span>14:15–15:15</span>
         <small>Sezione 1</small>
+        <span>14:15–15:15</span>
       </a>
       <a href="/2026/papers/#day-3-slot-e" class="timeline-item paper row-1415 span-60" style="grid-column: 3 / 4;">
         <strong>PS50: Adaptive &amp; Personalized XR</strong>
-        <span>14:15–15:15</span>
         <small>Sezione 4+5</small>
+        <span>14:15–15:15</span>
       </a>
       <a href="/2026/papers/#day-3-slot-e" class="timeline-item paper row-1415 span-60" style="grid-column: 4 / 5;">
         <strong>PS51: Rehab. Screening</strong>
-        <span>14:15–15:15</span>
         <small>Orione + Perseo</small>
+        <span>14:15–15:15</span>
       </a>
 
       <!-- PS52, PS53, PS54: 14:45-15:45 (Track 2) -->
       <a href="/2026/papers/#day-3-slot-f" class="timeline-item paper row-1445 span-60" style="grid-column: 5 / 6;">
         <strong>PS52: Visual Cueing</strong>
-        <span>14:45–15:45</span>
         <small>Glasshaus</small>
+        <span>14:45–15:45</span>
       </a>
       <a href="/2026/papers/#day-3-slot-f" class="timeline-item paper row-1445 span-60" style="grid-column: 6 / 7;">
         <strong>PS53: Viewpoint Transitions</strong>
-        <span>14:45–15:45</span>
         <small>Sezione 2</small>
+        <span>14:45–15:45</span>
       </a>
       <a href="/2026/papers/#day-3-slot-f" class="timeline-item paper row-1445 span-60" style="grid-column: 7 / 8;">
         <strong>PS54: XR Analytics &amp; Measurement</strong>
-        <span>14:45–15:45</span>
         <small>Cigno + Auriga</small>
+        <span>14:45–15:45</span>
       </a>
 
       <!-- Coffee Break 15:15-16:30 (Track 1) -->
       <div class="timeline-item coffee row-1515 span-75" style="grid-column: 2 / 5;">
         <strong>Coffee Break</strong>
+        <small>Cassiopea</small>
         <span>15:15–16:30</span>
       </div>
 
       <!-- Coffee Break 15:45-16:30 (Track 2) -->
       <div class="timeline-item coffee row-1545 span-45" style="grid-column: 5 / 8;">
         <strong>Coffee Break</strong>
+        <small>Cassiopea</small>
         <span>15:45–16:30</span>
       </div>
 
       <!-- Closing Ceremony: 16:30-17:30 -->
       <div class="timeline-item ceremony row-1630 col-main span-60">
         <strong>Closing Ceremony</strong>
+        <small>Sezione 1+2</small>
         <span>16:30–17:30</span>
       </div>
 
@@ -1642,7 +1686,7 @@ permalink: /2026/overview/
 .col-full { grid-column: 2 / 10; } /* spans all except registration */
 .col-main { grid-column: 2 / 8; } /* spans main content only */
 
-/* Vertical text for sidebar columns - centered, time first then label */
+/* Vertical text for sidebar columns - centered, room above time */
 .timeline-item.col-poster,
 .timeline-item.col-demo,
 .timeline-item.col-reg {
@@ -1652,6 +1696,15 @@ permalink: /2026/overview/
   justify-content: center;
   align-items: center;
 }
+.timeline-item.col-poster .title,
+.timeline-item.col-demo .title,
+.timeline-item.col-reg .title { order: 1; font-weight: bold; }
+.timeline-item.col-poster .room,
+.timeline-item.col-demo .room,
+.timeline-item.col-reg .room { order: 2; font-weight: normal; }
+.timeline-item.col-poster span:not(.title):not(.room),
+.timeline-item.col-demo span:not(.title):not(.room),
+.timeline-item.col-reg span:not(.title):not(.room) { order: 3; font-weight: normal; }
 
 /* Timeline item colors */
 .timeline-item.registration { background: #f2f4f7; border-left: 3px solid #6b7280; } /* gray */
@@ -1663,22 +1716,28 @@ a.timeline-item.keynote:hover { filter: brightness(0.95); text-decoration: none;
 a.timeline-item.paper:hover { text-decoration: none; filter: brightness(0.97); }
 .timeline-item.poster { background: #fff8e1; border-left: 3px solid #f9a825; text-decoration: none; color: inherit; } /* yellow */
 a.timeline-item.poster:hover { text-decoration: none; filter: brightness(0.97); }
-.timeline-item.demo { background: #fce4ec; border-left: 3px solid #e91e63; } /* pink */
+.timeline-item.demo { background: #fce4ec; border-left: 3px solid #e91e63; text-decoration: none; color: inherit; } /* pink */
+a.timeline-item.demo:hover { text-decoration: none; filter: brightness(0.97); }
 .timeline-item.lunch { background: #e2f4e8; border-left: 3px solid #5a9a6e; } /* green */
 .timeline-item.panel { background: #e6f1fb; border-left: 3px solid #4389cb; text-decoration: none; color: inherit; }
 a.timeline-item.panel:hover { filter: brightness(0.95); text-decoration: none; }
 .timeline-item.social { background: #fce4ec; border-left: 3px solid #e91e63; }
 .timeline-item.workshop { background: #e6f1fb; border-left: 3px solid #4389cb; } /* blue */
-.timeline-item.doctoral { background: #e6f1fb; border-left: 3px solid #4389cb; } /* blue */
+.timeline-item.doctoral { background: #e6f1fb; border-left: 3px solid #4389cb; text-decoration: none; color: inherit; } /* blue */
+a.timeline-item.doctoral:hover { text-decoration: none; filter: brightness(0.97); }
 .timeline-item.tour { background: #e0f7fa; border-left: 3px solid #00acc1; } /* teal/cyan */
-.timeline-item.faculty { background: #e6f1fb; border-left: 3px solid #4389cb; } /* blue */
+.timeline-item.faculty { background: #e6f1fb; border-left: 3px solid #4389cb; text-decoration: none; color: inherit; } /* blue */
+a.timeline-item.faculty:hover { text-decoration: none; filter: brightness(0.97); }
 .timeline-item.rooftop { background: #ece7f8; border-left: 3px solid #7556b2; } /* purple */
 
 /* Workshop grid for multiple workshops in one block - horizontal row, no wrapping */
 .timeline-item.workshop-grid { background: transparent; border: none; padding: 0; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 2px; }
 .workshop-items { display: flex; flex-direction: row; flex-wrap: nowrap; gap: 2px; width: 100%; }
-.ws-item, .ws-item:link, .ws-item:visited { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 0.2rem 0.15rem; background: #e6f1fb; border-left: 3px solid #4389cb; border-radius: 2px; font-size: 0.65rem; font-weight: bold; color: #333 !important; text-decoration: none; text-align: center; }
+.ws-item, .ws-item:link, .ws-item:visited { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 0.2rem 0.15rem; background: #e6f1fb; border-left: 3px solid #4389cb; border-radius: 2px; font-size: 0.65rem; color: #333 !important; text-decoration: none; text-align: center; }
 .ws-item:hover { filter: brightness(0.95); text-decoration: none !important; }
+.ws-item strong { font-weight: bold; line-height: 1.2; }
+.ws-item small { font-size: 0.45rem; font-weight: normal; opacity: 0.8; margin-top: 2px; }
+.ws-item span { font-size: 0.4rem; font-weight: normal; opacity: 0.75; margin-top: 1px; }
 .ws-item.tut { background: #ede9fe; border-left-color: #7c3aed; } /* purple for tutorials */
 .ws-item.allday { background: #d1fae5; border-left-color: #059669; } /* green for all-day */
 .ws-item.small { font-size: 0.55rem; } /* smaller font for long names */
@@ -1777,15 +1836,15 @@ a.timeline-item.panel:hover { filter: brightness(0.95); text-decoration: none; }
 
 @media (max-width: 800px) {
   .timeline-schedule {
-    grid-template-columns: 35px repeat(6, 1fr) 30px 30px 25px;
+    grid-template-columns: 22px repeat(6, minmax(0, 1fr)) 18px 18px 15px;
     grid-template-rows: repeat(44, 16px);
     gap: 1px;
-    padding: 0.3rem;
+    padding: 0.2rem;
   }
 
   .timeline-schedule .time-label {
-    font-size: 0.55rem;
-    padding-right: 0.2rem;
+    font-size: 0.5rem;
+    padding-right: 0.15rem;
   }
 
   .timeline-schedule .timeline-item {
@@ -1806,6 +1865,97 @@ a.timeline-item.panel:hover { filter: brightness(0.95); text-decoration: none; }
     font-size: 0.45rem;
   }
 
+  /* Posters, demos, registration: single rotated line on mobile */
+  .timeline-schedule .timeline-item.col-poster,
+  .timeline-schedule .timeline-item.col-demo,
+  .timeline-schedule .timeline-item.col-reg {
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    display: block;
+    text-align: center;
+    padding: 0.1rem;
+    font-size: 0.45rem !important;
+    font-weight: 700 !important;
+  }
+  .timeline-schedule .timeline-item.col-poster .title,
+  .timeline-schedule .timeline-item.col-demo .title,
+  .timeline-schedule .timeline-item.col-reg .title,
+  .timeline-schedule .timeline-item.col-poster .room,
+  .timeline-schedule .timeline-item.col-demo .room,
+  .timeline-schedule .timeline-item.col-reg .room,
+  .timeline-schedule .timeline-item.col-poster span:not(.title):not(.room),
+  .timeline-schedule .timeline-item.col-demo span:not(.title):not(.room),
+  .timeline-schedule .timeline-item.col-reg span:not(.title):not(.room) {
+    display: inline;
+    font-size: 0.45rem !important;
+    font-weight: normal !important;
+  }
+  .timeline-schedule .timeline-item.col-poster .title,
+  .timeline-schedule .timeline-item.col-demo .title,
+  .timeline-schedule .timeline-item.col-reg .title {
+    font-weight: bold !important;
+  }
+  .timeline-schedule .timeline-item.col-poster .title::after,
+  .timeline-schedule .timeline-item.col-demo .title::after,
+  .timeline-schedule .timeline-item.col-reg .title::after,
+  .timeline-schedule .timeline-item.col-poster .room::after,
+  .timeline-schedule .timeline-item.col-demo .room::after,
+  .timeline-schedule .timeline-item.col-reg .room::after {
+    content: " · ";
+  }
+  .timeline-schedule .timeline-item.col-poster span:not(.title):not(.room)::after,
+  .timeline-schedule .timeline-item.col-demo span:not(.title):not(.room)::after,
+  .timeline-schedule .timeline-item.col-reg span:not(.title):not(.room)::after {
+    content: "";
+  }
+
+  /* Doctoral consortium, faculty forum, speed mentorship: rotate on mobile */
+  .timeline-schedule .timeline-item.doctoral,
+  .timeline-schedule .timeline-item.faculty,
+  .timeline-schedule .timeline-item.speed-mentorship {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.1rem;
+    font-size: 0.45rem !important;
+    font-weight: 700 !important;
+  }
+  .timeline-schedule .timeline-item.doctoral strong,
+  .timeline-schedule .timeline-item.faculty strong,
+  .timeline-schedule .timeline-item.speed-mentorship strong,
+  .timeline-schedule .timeline-item.doctoral small,
+  .timeline-schedule .timeline-item.faculty small,
+  .timeline-schedule .timeline-item.speed-mentorship small,
+  .timeline-schedule .timeline-item.doctoral span,
+  .timeline-schedule .timeline-item.faculty span,
+  .timeline-schedule .timeline-item.speed-mentorship span {
+    all: unset;
+    display: inline;
+    font: inherit !important;
+    font-weight: normal !important;
+  }
+  .timeline-schedule .timeline-item.doctoral strong,
+  .timeline-schedule .timeline-item.faculty strong,
+  .timeline-schedule .timeline-item.speed-mentorship strong {
+    font-weight: bold !important;
+  }
+  .timeline-schedule .timeline-item.doctoral strong::after,
+  .timeline-schedule .timeline-item.faculty strong::after,
+  .timeline-schedule .timeline-item.speed-mentorship strong::after,
+  .timeline-schedule .timeline-item.doctoral small::after,
+  .timeline-schedule .timeline-item.faculty small::after,
+  .timeline-schedule .timeline-item.speed-mentorship small::after {
+    content: " · ";
+  }
+  .timeline-schedule .timeline-item.doctoral span::after,
+  .timeline-schedule .timeline-item.faculty span::after,
+  .timeline-schedule .timeline-item.speed-mentorship span::after {
+    content: "";
+  }
+
   /* Paper sessions: rotate text vertically like posters/demos/reg */
   .timeline-schedule .timeline-item.paper {
     writing-mode: vertical-rl;
@@ -1823,19 +1973,52 @@ a.timeline-item.panel:hover { filter: brightness(0.95); text-decoration: none; }
     word-break: break-word;
     line-height: 1.2;
     text-align: center;
-    order: 1;
+    order: 3;
+  }
+
+  .timeline-schedule .timeline-item.paper span,
+  .timeline-schedule .timeline-item.paper small {
+    font-size: 0.4rem !important;
+    white-space: nowrap;
   }
 
   .timeline-schedule .timeline-item.paper span {
-    font-size: 0.4rem;
-    white-space: nowrap;
+    order: 1;
   }
 
   .timeline-schedule .timeline-item.paper small {
-    font-size: 0.35rem;
-    white-space: nowrap;
     opacity: 0.75;
-    order: -1;
+    order: 2;
+  }
+
+  /* Match font sizes for room and time across all timeline items */
+  .timeline-schedule .timeline-item.coffee span,
+  .timeline-schedule .timeline-item.coffee small,
+  .timeline-schedule .timeline-item.lunch span,
+  .timeline-schedule .timeline-item.lunch small,
+  .timeline-schedule .timeline-item.ceremony span,
+  .timeline-schedule .timeline-item.ceremony small,
+  .timeline-schedule .timeline-item.demo span,
+  .timeline-schedule .timeline-item.demo small,
+  .timeline-schedule .timeline-item.doctoral span,
+  .timeline-schedule .timeline-item.doctoral small,
+  .timeline-schedule .timeline-item.faculty span,
+  .timeline-schedule .timeline-item.faculty small,
+  .timeline-schedule .timeline-item.keynote span,
+  .timeline-schedule .timeline-item.keynote small,
+  .timeline-schedule .timeline-item.panel span,
+  .timeline-schedule .timeline-item.panel small,
+  .timeline-schedule .timeline-item.poster span,
+  .timeline-schedule .timeline-item.poster small,
+  .timeline-schedule .timeline-item.registration span,
+  .timeline-schedule .timeline-item.registration small,
+  .timeline-schedule .timeline-item.rooftop span,
+  .timeline-schedule .timeline-item.rooftop small,
+  .timeline-schedule .timeline-item.social span,
+  .timeline-schedule .timeline-item.social small,
+  .timeline-schedule .timeline-item.tour span,
+  .timeline-schedule .timeline-item.tour small {
+    font-size: 0.5rem !important;
   }
 
   /* Smaller font for paper sessions with long titles */
@@ -1843,24 +2026,38 @@ a.timeline-item.panel:hover { filter: brightness(0.95); text-decoration: none; }
     font-size: 0.42rem;
   }
 
-  /* Workshop grid on mobile - vertical text like paper sessions */
+  /* Workshop grid on mobile - inline text with dots like demos */
   .timeline-item.workshop-grid { grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)); gap: 1px; }
   .ws-item, .ws-item:link, .ws-item:visited {
     padding: 0.1rem;
-    font-size: 0.5rem !important;
-    font-weight: bold;
-    white-space: normal;
-    word-break: break-word;
-    line-height: 1.2;
     border-left-width: 2px;
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    overflow: visible;
+    display: block;
+    text-align: center;
+    font-size: 0.45rem !important;
+    font-weight: 700 !important;
   }
-  .ws-item.small { font-size: 0.5rem !important; } /* same size on mobile */
+  .ws-item br { display: none; } /* Hide line breaks on mobile */
+  .ws-item strong {
+    display: inline;
+    font-size: inherit !important;
+    font-weight: bold !important;
+  }
+  .ws-item small,
+  .ws-item span {
+    display: inline;
+    font-size: 0.38rem !important;
+    font-weight: normal !important;
+  }
+  .ws-item strong::after,
+  .ws-item small::after {
+    content: " · ";
+  }
+  .ws-item span::after {
+    content: "";
+  }
+  .ws-item.small { font-size: 0.4rem !important; } /* smaller font for long names */
 
   .program-tabs {
     display: grid;
