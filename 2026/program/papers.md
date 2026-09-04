@@ -123,7 +123,18 @@ PS Number Calculation:
           {% assign slot_time = slot_papers[0]["Time"] %}
           {% assign slot_class = "session-btn-a" %}
           {% if slot == "B" or slot == "D" or slot == "F" %}{% assign slot_class = "session-btn-b" %}{% endif %}
-          <a href="#day-1-slot-{{ slot | downcase }}" class="session-btn {{ slot_class }}">Session {{ slot }} <span class="session-time">{{ slot_time }}</span></a>
+          {% comment %} Compute PS range for this slot (Day 1) {% endcomment %}
+          {% case slot %}
+            {% when "A" %}{% assign slot_offset = 0 %}
+            {% when "B" %}{% assign slot_offset = 3 %}
+            {% when "C" %}{% assign slot_offset = 6 %}
+            {% when "D" %}{% assign slot_offset = 9 %}
+            {% when "E" %}{% assign slot_offset = 12 %}
+            {% when "F" %}{% assign slot_offset = 15 %}
+          {% endcase %}
+          {% assign first_ps = slot_offset | plus: 1 %}
+          {% assign last_ps = slot_offset | plus: 3 %}
+          <a href="#day-1-slot-{{ slot | downcase }}" class="session-btn {{ slot_class }}">PS{{ first_ps }} - PS{{ last_ps }} <span class="session-time">{{ slot_time }}</span></a>
         {% endif %}
       {% endfor %}
     </div>
@@ -137,8 +148,19 @@ PS Number Calculation:
           {% assign session_class = "session-b" %}
           {% assign title_class = "session-title-b" %}
         {% endif %}
+        {% comment %} Compute PS range for this slot (Day 1) {% endcomment %}
+        {% case slot %}
+          {% when "A" %}{% assign slot_offset = 0 %}
+          {% when "B" %}{% assign slot_offset = 3 %}
+          {% when "C" %}{% assign slot_offset = 6 %}
+          {% when "D" %}{% assign slot_offset = 9 %}
+          {% when "E" %}{% assign slot_offset = 12 %}
+          {% when "F" %}{% assign slot_offset = 15 %}
+        {% endcase %}
+        {% assign first_ps = slot_offset | plus: 1 %}
+        {% assign last_ps = slot_offset | plus: 3 %}
         <div id="day-1-slot-{{ slot | downcase }}" class="paper-slot {{ session_class }}">
-          <h4 class="slot-title {{ title_class }}"><span class="slot-label">Session {{ slot }}</span>{{ slot_time }}</h4>
+          <h4 class="slot-title {{ title_class }}"><span class="slot-label">Paper Sessions {{ first_ps }}-{{ last_ps }}</span>{{ slot_time }}</h4>
           {% comment %} Group by Session ID to get each parallel session {% endcomment %}
           {% assign session_ids = "" %}
           {% for p in slot_papers %}
@@ -208,7 +230,18 @@ PS Number Calculation:
           {% assign slot_time = slot_papers[0]["Time"] %}
           {% assign slot_class = "session-btn-a" %}
           {% if slot == "B" or slot == "D" or slot == "F" %}{% assign slot_class = "session-btn-b" %}{% endif %}
-          <a href="#day-2-slot-{{ slot | downcase }}" class="session-btn {{ slot_class }}">Session {{ slot }} <span class="session-time">{{ slot_time }}</span></a>
+          {% comment %} Compute PS range for this slot (Day 2, offset 18) {% endcomment %}
+          {% case slot %}
+            {% when "A" %}{% assign slot_offset = 0 %}
+            {% when "B" %}{% assign slot_offset = 3 %}
+            {% when "C" %}{% assign slot_offset = 6 %}
+            {% when "D" %}{% assign slot_offset = 9 %}
+            {% when "E" %}{% assign slot_offset = 12 %}
+            {% when "F" %}{% assign slot_offset = 15 %}
+          {% endcase %}
+          {% assign first_ps = 18 | plus: slot_offset | plus: 1 %}
+          {% assign last_ps = 18 | plus: slot_offset | plus: 3 %}
+          <a href="#day-2-slot-{{ slot | downcase }}" class="session-btn {{ slot_class }}">PS{{ first_ps }} - PS{{ last_ps }} <span class="session-time">{{ slot_time }}</span></a>
         {% endif %}
       {% endfor %}
     </div>
@@ -222,8 +255,19 @@ PS Number Calculation:
           {% assign session_class = "session-b" %}
           {% assign title_class = "session-title-b" %}
         {% endif %}
+        {% comment %} Compute PS range for this slot (Day 2, offset 18) {% endcomment %}
+        {% case slot %}
+          {% when "A" %}{% assign slot_offset = 0 %}
+          {% when "B" %}{% assign slot_offset = 3 %}
+          {% when "C" %}{% assign slot_offset = 6 %}
+          {% when "D" %}{% assign slot_offset = 9 %}
+          {% when "E" %}{% assign slot_offset = 12 %}
+          {% when "F" %}{% assign slot_offset = 15 %}
+        {% endcase %}
+        {% assign first_ps = 18 | plus: slot_offset | plus: 1 %}
+        {% assign last_ps = 18 | plus: slot_offset | plus: 3 %}
         <div id="day-2-slot-{{ slot | downcase }}" class="paper-slot {{ session_class }}">
-          <h4 class="slot-title {{ title_class }}"><span class="slot-label">Session {{ slot }}</span>{{ slot_time }}</h4>
+          <h4 class="slot-title {{ title_class }}"><span class="slot-label">Paper Sessions {{ first_ps }}-{{ last_ps }}</span>{{ slot_time }}</h4>
           {% assign session_ids = "" %}
           {% for p in slot_papers %}
             {% unless session_ids contains p["Session ID"] %}
@@ -292,7 +336,18 @@ PS Number Calculation:
           {% assign slot_time = slot_papers[0]["Time"] %}
           {% assign slot_class = "session-btn-a" %}
           {% if slot == "B" or slot == "D" or slot == "F" %}{% assign slot_class = "session-btn-b" %}{% endif %}
-          <a href="#day-3-slot-{{ slot | downcase }}" class="session-btn {{ slot_class }}">Session {{ slot }} <span class="session-time">{{ slot_time }}</span></a>
+          {% comment %} Compute PS range for this slot (Day 3, offset 36) {% endcomment %}
+          {% case slot %}
+            {% when "A" %}{% assign slot_offset = 0 %}
+            {% when "B" %}{% assign slot_offset = 3 %}
+            {% when "C" %}{% assign slot_offset = 6 %}
+            {% when "D" %}{% assign slot_offset = 9 %}
+            {% when "E" %}{% assign slot_offset = 12 %}
+            {% when "F" %}{% assign slot_offset = 15 %}
+          {% endcase %}
+          {% assign first_ps = 36 | plus: slot_offset | plus: 1 %}
+          {% assign last_ps = 36 | plus: slot_offset | plus: 3 %}
+          <a href="#day-3-slot-{{ slot | downcase }}" class="session-btn {{ slot_class }}">PS{{ first_ps }} - PS{{ last_ps }} <span class="session-time">{{ slot_time }}</span></a>
         {% endif %}
       {% endfor %}
     </div>
@@ -306,8 +361,19 @@ PS Number Calculation:
           {% assign session_class = "session-b" %}
           {% assign title_class = "session-title-b" %}
         {% endif %}
+        {% comment %} Compute PS range for this slot (Day 3, offset 36) {% endcomment %}
+        {% case slot %}
+          {% when "A" %}{% assign slot_offset = 0 %}
+          {% when "B" %}{% assign slot_offset = 3 %}
+          {% when "C" %}{% assign slot_offset = 6 %}
+          {% when "D" %}{% assign slot_offset = 9 %}
+          {% when "E" %}{% assign slot_offset = 12 %}
+          {% when "F" %}{% assign slot_offset = 15 %}
+        {% endcase %}
+        {% assign first_ps = 36 | plus: slot_offset | plus: 1 %}
+        {% assign last_ps = 36 | plus: slot_offset | plus: 3 %}
         <div id="day-3-slot-{{ slot | downcase }}" class="paper-slot {{ session_class }}">
-          <h4 class="slot-title {{ title_class }}"><span class="slot-label">Session {{ slot }}</span>{{ slot_time }}</h4>
+          <h4 class="slot-title {{ title_class }}"><span class="slot-label">Paper Sessions {{ first_ps }}-{{ last_ps }}</span>{{ slot_time }}</h4>
           {% assign session_ids = "" %}
           {% for p in slot_papers %}
             {% unless session_ids contains p["Session ID"] %}
