@@ -536,7 +536,7 @@ permalink: /2026/overview/
 
       <!-- Keynote 1: 09:30-10:30 -->
       <a href="/2026/keynote-speakers/#keynote-1" class="timeline-item keynote row-930 col-main span-60">
-        <strong>Keynote 1: The Art and Science of Interaction Pathfinding (Jenny Spurlock)</strong>
+        <strong>Keynote: The Art and Science of Interaction Pathfinding (Jenny Spurlock)</strong>
         <small>Sezione 1+2</small>
         <span>09:30–10:30</span>
       </a>
@@ -846,7 +846,7 @@ permalink: /2026/overview/
 
       <!-- Keynote 2: 10:30-11:30 -->
       <a href="/2026/keynote-speakers/#keynote-2" class="timeline-item keynote row-1030 col-main span-60">
-        <strong>Keynote 2: What Sailing Can Teach Us About Augmented Agency (Antonio Rizzo)</strong>
+        <strong>Keynote: What Sailing Can Teach Us About Augmented Agency (Antonio Rizzo)</strong>
         <small>Sezione 1+2</small>
         <span>10:30–11:30</span>
       </a>
@@ -1107,7 +1107,7 @@ permalink: /2026/overview/
 
       <!-- Keynote 3: 10:30-11:30 -->
       <a href="/2026/keynote-speakers/#keynote-3" class="timeline-item keynote row-1030 col-main span-60">
-        <strong>Keynote 3: Spatial Human-AI Interaction (Misha Sra)</strong>
+        <strong>Keynote: Spatial Human-AI Interaction (Misha Sra)</strong>
         <small>Sezione 1+2</small>
         <span>10:30–11:30</span>
       </a>
