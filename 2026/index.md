@@ -85,6 +85,11 @@ redirect_from: /
   </div>
 
   <div class="ismar-stat">
+    <span class="ismar-counter" data-target="23">0</span>
+    <span class="ismar-stat-label">Workshops</span>
+  </div>
+
+  <div class="ismar-stat">
     <span class="ismar-counter" data-target="173">0</span>
     <span class="ismar-stat-label">Workshop Papers</span>
   </div>
@@ -95,13 +100,13 @@ redirect_from: /
   </div>
 
   <div class="ismar-stat">
-    <span class="ismar-counter" data-target="10">0</span>
+    <span class="ismar-counter" data-target="15">0</span>
     <span class="ismar-stat-label">Doctoral Consortium Papers</span>
   </div>
 
   <div class="ismar-stat">
     <span class="ismar-counter" data-target="29">0</span>
-    <span class="ismar-stat-label">Demo Papers</span>
+    <span class="ismar-stat-label">Demos</span>
   </div>
 
   <div class="ismar-stat">
