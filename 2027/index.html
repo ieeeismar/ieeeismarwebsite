@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="IEEE ISMAR 2027 in Kobe, Japan." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <title>IEEE ISMAR 2027 — Kobe, Japan</title>
+    <style>
+      :root { --nav-height:70px; --blue:#3a8bf3; --ink:#353535; --brown:#3d1209; --sand:#f4e8d4; }
+      * { box-sizing:border-box; } html { scroll-behavior:smooth; } body { margin:0; padding-top:80px; color:var(--ink); background:#fff; font-family:Poppins,Arial,sans-serif; overflow-x:hidden; }
+      .navbar { height:var(--nav-height); background:#fff; position:fixed; top:0; width:100%; z-index:10; display:flex; justify-content:space-between; align-items:center; padding:0 3.5vw; box-shadow:0 4px 10px rgba(0,0,0,.2); }
+      .logo { color:var(--brown); text-decoration:none; font-size:1.3rem; font-weight:700; letter-spacing:-.05em; } .logo small { display:block; font-size:.58rem; letter-spacing:.14em; text-align:right; margin-top:-.45rem; color:#565656; }
+      .nav-links { display:flex; list-style:none; padding:0; margin:0; gap:.2rem; } .nav-links a { display:block; padding:.55rem .7rem; color:var(--brown); text-decoration:none; font-size:.85rem; font-weight:600; text-transform:uppercase; } .nav-links a:hover { background:var(--sand); border-radius:4px; }
+      .hero { height:70vh; min-height:600px; position:relative; display:flex; align-items:center; justify-content:center; overflow:hidden; text-align:center; color:white; background:#547b92 url('KobePlaceholder.png') center/cover no-repeat; }
+      .hero:before { content:""; position:absolute; inset:0; background:rgba(41,70,95,.55); } .content { position:relative; z-index:1; width:min(900px,100%); padding:0 20px; }
+      .hero-mark { width:150px; height:150px; margin:0 auto 1.1rem; border:4px solid white; border-radius:50%; display:grid; place-items:center; font-weight:700; font-size:1.45rem; line-height:1; box-shadow:0 2px 12px rgba(0,0,0,.25); } .hero-mark span { display:block; font-size:.57rem; letter-spacing:.12em; margin-top:.45rem; }
+      .heading { font-size:3rem; line-height:.8; margin:.5rem 0; color:white; font-weight:600; } .subheading { font-size:1.5rem; line-height:1.1; margin:1rem 0; color:white; font-weight:400; } .description { font-size:1.2rem; line-height:1.4; max-width:1000px; margin:1.5rem auto 0; }
+      .announcement { padding:20px 1.5rem; margin:20px auto 10px; text-align:center; max-width:1000px; } .announcement h2 { margin:0 0 1rem; color:var(--blue); font-size:2rem; font-weight:600; } .announcement p { font-size:1.1rem; line-height:1.6; margin:0; }
+      .ismar-glance-section { padding:4rem 1.5rem; text-align:center; } .ismar-glance-inner { max-width:1100px; margin:auto; } .ismar-glance-title { margin:0 0 2.25rem; color:var(--blue); font-size:2rem; font-weight:600; }
+      .ismar-glance-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1rem; } .ismar-stat { min-height:112px; display:flex; flex-direction:column; justify-content:center; border:1px solid #e6e6e6; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,.06); background:#fff; } .ismar-counter { color:var(--blue); font-size:2.2rem; font-weight:600; line-height:1; } .ismar-stat-label { margin-top:.5rem; font-size:.95rem; }
+      .notice { max-width:900px; margin:20px auto; padding:16px 20px; background:#f1f6ff; border-left:6px solid rgb(37,37,197); border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,.06); text-align:left; } .notice h3 { color:#0f172a; margin:0 0 .4rem; font-size:1.1rem; } .notice p { margin:.4rem 0 0; line-height:1.6; }
+      .main-sections { max-width:1100px; margin:3.5rem auto 0; padding:0 1.5rem; display:grid; grid-template-columns:1.35fr .85fr; gap:2rem; } .section-title { color:var(--blue); font-size:1.55rem; font-weight:600; margin:0 0 1rem; } .news { display:grid; gap:1rem; } .news-item { border:1px solid #e2e2e2; border-radius:7px; padding:1.15rem 1.25rem; } .news-item h3 { margin:0 0 .45rem; font-size:1rem; color:#222; } .news-item p { margin:0; font-size:.94rem; line-height:1.55; } .news-item a { display:inline-block; color:#006df2; text-decoration:none; font-weight:600; margin-top:.65rem; font-size:.9rem; }
+      .deadline-table { width:100%; border-collapse:collapse; font-size:.94rem; } .deadline-table th,.deadline-table td { padding:.8rem .3rem; border-bottom:1px solid #ddd; text-align:left; } .deadline-table th { color:#222; } .deadline-table td:last-child { color:#6a6a6a; }
+      .sponsors { margin-top:4.5rem; padding:3.5rem 1.5rem; background:#fafafa; text-align:center; } .sponsors h2 { margin:0; color:var(--blue); font-size:2rem; font-weight:600; } .sponsors p { margin:1rem auto 0; max-width:620px; }
+      footer { min-height:180px; position:relative; display:grid; place-items:center; color:white; text-align:center; background:linear-gradient(rgba(41,70,95,.75),rgba(41,70,95,.75)),url('KobePlaceholder.png') center/cover; } footer div { position:relative; font-size:.96rem; }
+      @media (max-width:800px) { .navbar { padding:0 1rem; } .nav-links { display:none; } .hero { min-height:540px; height:65vh; } .heading { font-size:2.25rem; } .subheading { font-size:1.2rem; } .announcement h2,.ismar-glance-title { font-size:1.6rem; } .ismar-glance-grid { grid-template-columns:repeat(2,1fr); } .main-sections { grid-template-columns:1fr; } }
+      @media (max-width:480px) { .hero-mark { width:118px; height:118px; font-size:1.1rem; } .heading { font-size:1.8rem; } .description { font-size:.97rem; } .ismar-glance-section { padding:2.8rem 1rem; } }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="logo" href="#top">IEEE ISMAR<small>2027 · KOBE, JAPAN</small></a>
+      <ul class="nav-links"><li><a href="#attend">Attend</a></li><li><a href="#programme">Programme</a></li><li><a href="#news">News</a></li><li><a href="#deadlines">Deadlines</a></li><li><a href="#sponsors">Sponsorship</a></li></ul>
+    </nav>
+    <main id="top">
+      <section class="hero" aria-label="IEEE ISMAR 2027 hero image"><div class="content"><div class="hero-mark">ISMAR<span>IEEE · 2027</span></div><h1 class="heading">WELCOME TO</h1><h1 class="heading">IEEE ISMAR 2027</h1><h2 class="subheading">Kobe, Japan</h2><h2 class="subheading">Conference dates to be announced</h2></div></section>
+      <section class="announcement" id="attend"><h2>Experience IEEE ISMAR in Kobe, Japan!</h2><p>The <strong>26th IEEE International Symposium on Mixed and Augmented Reality (ISMAR)</strong> is the leading global venue for AR, MR, and VR, bringing together researchers, practitioners, and innovators from academia and industry.</p></section>
+      <section class="ismar-glance-section" id="programme"><div class="ismar-glance-inner"><h2 class="ismar-glance-title">ISMAR 2027 Program Highlights</h2><div class="ismar-glance-grid"><div class="ismar-stat"><span class="ismar-counter">—</span><span class="ismar-stat-label">Papers</span></div><div class="ismar-stat"><span class="ismar-counter">—</span><span class="ismar-stat-label">Workshops</span></div><div class="ismar-stat"><span class="ismar-counter">—</span><span class="ismar-stat-label">Poster Papers</span></div><div class="ismar-stat"><span class="ismar-counter">—</span><span class="ismar-stat-label">Doctoral Consortium</span></div><div class="ismar-stat"><span class="ismar-counter">—</span><span class="ismar-stat-label">Demos</span></div><div class="ismar-stat"><span class="ismar-counter">—</span><span class="ismar-stat-label">Keynotes</span></div><div class="ismar-stat"><span class="ismar-counter">—</span><span class="ismar-stat-label">Panels</span></div><div class="ismar-stat"><span class="ismar-counter">—</span><span class="ismar-stat-label">Tutorials</span></div></div></div></section>
+      <div class="notice"><h3>More information is on its way.</h3><p>Calls for papers, workshops, tutorials, posters, demos, and student programmes will be published here as they become available.</p></div>
+      <section class="main-sections"><div id="news"><h2 class="section-title">News &amp; Announcements</h2><div class="news"><article class="news-item"><h3>IEEE ISMAR 2027 comes to Kobe, Japan</h3><p>Conference dates, venue information, and registration details will be announced soon.</p><a href="#attend">Learn more →</a></article><article class="news-item"><h3>Calls for participation</h3><p>Submission opportunities and deadlines for the technical programme will be added as they are confirmed.</p><a href="#deadlines">View upcoming deadlines →</a></article></div></div><div id="deadlines"><h2 class="section-title">Important Deadlines</h2><table class="deadline-table"><thead><tr><th>Submission</th><th>Deadline</th></tr></thead><tbody><tr><td>Papers</td><td>To be announced</td></tr><tr><td>Workshops &amp; Tutorials</td><td>To be announced</td></tr><tr><td>Posters &amp; Demos</td><td>To be announced</td></tr><tr><td>Student Volunteers</td><td>To be announced</td></tr></tbody></table></div></section>
+      <section class="sponsors" id="sponsors"><h2>Sponsors</h2><p>Sponsorship opportunities and supporting organisations will be announced soon.</p></section>
+    </main>
+    <footer><div>IEEE ISMAR 2027 &nbsp;|&nbsp; Kobe, Japan &nbsp;|&nbsp; Conference dates to be announced</div></footer>
+  </body>
+</html>
