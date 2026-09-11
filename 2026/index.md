@@ -603,33 +603,6 @@ reminder = orange
 </article>
 
 
-
-<article class="info-category anouncement">
-  <h4>Participate in Women@ISMAR</h4>
-
-  <p>
-    Submit your expression of interest by August 30, 2026, at 23:59 AoE.
-  </p>
-
-  <p>
-    <a
-      href="https://www.ieeeismar.net/2026/women@ismar/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Learn more →
-    </a>
-  </p>
-  <a
-      class="anouncement-button"
-        href="https://docs.google.com/forms/d/e/1FAIpQLSc75Sc-WwFlYs-hBJJOpRFJHX4eDgsAMvPBks9eueAnUjk_nA/viewform"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Apply to Women@ISMAR
-      </a>
-</article>
-
 <article class="info-category news">
   <h4>Speed Mentorship Session Registration Open</h4>
 
