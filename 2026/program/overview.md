@@ -217,6 +217,7 @@ permalink: /2026/overview/
       <!-- Workshops & Tutorials: 14:00-15:30 (Track 1) -->
       <div class="timeline-item workshop-grid row-1400 span-90" style="grid-column: 2 / 8;">
         <div class="workshop-items">
+          <div class="ws-item tut"><strong>Inclusive XR</strong><small>Sezione 5</small><span>14:00–15:30</span></div>
           <a href="/2026/workshops/#gemini-5th-workshop-on-gaze-and-eye-movement-in-interaction-in-xr" class="ws-item"><strong>GEMINI</strong><small>Sezione 2</small><span>14:00–15:30</span></a>
           <a href="/2026/workshops/#iwdr-2026-3rd-international-workshop-on-diminished-reality" class="ws-item"><strong>IWDR 2026</strong><small>Sezione 6+7</small><span>14:00–15:30</span></a>
           <a href="/2026/workshops/#xr4hri-26-1st-ismar-workshop-on-extended-reality-for-human-robot-interaction" class="ws-item"><strong>XR4HRI'26</strong><small>Sezione 1</small><span>14:00–15:30</span></a>
@@ -243,6 +244,7 @@ permalink: /2026/overview/
       <!-- Workshops & Tutorials: 16:15-17:45 (Track 1) -->
       <div class="timeline-item workshop-grid row-1615 span-90" style="grid-column: 2 / 8;">
         <div class="workshop-items">
+          <div class="ws-item tut"><strong>Inclusive XR</strong><small>Sezione 5</small><span>16:15–17:45</span></div>
           <a href="/2026/workshops/#gemini-5th-workshop-on-gaze-and-eye-movement-in-interaction-in-xr" class="ws-item"><strong>GEMINI</strong><small>Sezione 2</small><span>16:15–17:45</span></a>
           <a href="/2026/workshops/#iwdr-2026-3rd-international-workshop-on-diminished-reality" class="ws-item"><strong>IWDR 2026</strong><small>Sezione 6+7</small><span>16:15–17:45</span></a>
           <a href="/2026/workshops/#xr4hri-26-1st-ismar-workshop-on-extended-reality-for-human-robot-interaction" class="ws-item"><strong>XR4HRI'26</strong><small>Sezione 1</small><span>16:15–17:45</span></a>
