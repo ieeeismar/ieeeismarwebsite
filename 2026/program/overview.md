@@ -166,7 +166,7 @@ permalink: /2026/overview/
           <a href="/2026/workshops/#sense-xr-the-feeling-of-virtual-xr-haptics-and-3d-graphics" class="ws-item"><strong>SENSE-XR</strong><small>Sezione 1</small><span>08:15–09:45</span></a>
           <a href="/2026/tutorials/#ai-driven-virtual-humans" class="ws-item tut"><strong>Virtual Humans</strong><small>Sezione 2</small><span>08:15–09:45</span></a>
           <a href="/2026/tutorials/#building-interoperable-location-based-augmented-reality-with-the-open-ar-cloud" class="ws-item tut"><strong>Open AR Cloud</strong><small>Sezione 6+7</small><span>08:15–09:45</span></a>
-          <a href="/2026/tutorials/#xrstand-2026-xr-standards-and-open-science-practices" class="ws-item tut"><strong>XRStand 2026</strong><small>Sezione 3</small><span>08:15–09:45</span></a>
+          <a href="/2026/tutorials/#xrstand-2026-xr-standards-and-open-science-practices" class="ws-item tut"><strong>XRStand 2026</strong><small>Sezione 5</small><span>08:15–09:45</span></a>
           <a href="/2026/workshops/#medicalxr-2026-3rd-international-workshop-on-medical-extended-reality" class="ws-item allday"><strong>MedicalXR</strong><small>Orione</small><span>All Day</span></a>
           <a href="/2026/workshops/#xrway-26-the-1st-international-workshop-on-xr-on-the-way-xrway-xr-for-walking-driving-and-everyday-mobility" class="ws-item allday"><strong>XRWay'26</strong><small>Perseo</small><span>All Day</span></a>
         </div>
@@ -194,7 +194,7 @@ permalink: /2026/overview/
           <a href="/2026/workshops/#sense-xr-the-feeling-of-virtual-xr-haptics-and-3d-graphics" class="ws-item"><strong>SENSE-XR</strong><small>Sezione 1</small><span>10:30–12:00</span></a>
           <a href="/2026/tutorials/#ai-driven-virtual-humans" class="ws-item tut"><strong>Virtual Humans</strong><small>Sezione 2</small><span>10:30–12:00</span></a>
           <a href="/2026/tutorials/#building-interoperable-location-based-augmented-reality-with-the-open-ar-cloud" class="ws-item tut"><strong>Open AR Cloud</strong><small>Sezione 6+7</small><span>10:30–12:00</span></a>
-          <a href="/2026/tutorials/#xrstand-2026-xr-standards-and-open-science-practices" class="ws-item tut"><strong>XRStand 2026</strong><small>Sezione 3</small><span>10:30–12:00</span></a>
+          <a href="/2026/tutorials/#xrstand-2026-xr-standards-and-open-science-practices" class="ws-item tut"><strong>XRStand 2026</strong><small>Sezione 5</small><span>10:30–12:00</span></a>
           <a href="/2026/workshops/#medicalxr-2026-3rd-international-workshop-on-medical-extended-reality" class="ws-item allday"><strong>MedicalXR</strong><small>Orione</small><span>All Day</span></a>
           <a href="/2026/workshops/#xrway-26-the-1st-international-workshop-on-xr-on-the-way-xrway-xr-for-walking-driving-and-everyday-mobility" class="ws-item allday"><strong>XRWay'26</strong><small>Perseo</small><span>All Day</span></a>
         </div>
@@ -339,7 +339,7 @@ permalink: /2026/overview/
         <div class="workshop-items">
           <a href="/2026/workshops/#adaptivexr-26-the-1st-international-workshop-on-the-grand-challenges-in-adaptive-extended-reality" class="ws-item"><strong>AdaptiveXR<br>'26</strong><small>Sezione 1</small><span>08:15–09:45</span></a>
           <a href="/2026/tutorials/#interaction-design-for-extended-reality" class="ws-item tut"><strong>ID4XR</strong><small>Sezione 2</small><span>08:15–09:45</span></a>
-          <a href="/2026/workshops/#wsr5-26-5th-workshop-on-seamless-reality-wsr5-ar-technologies-for-seamless-perception-and-cognition-between-cyber-and-physical-spaces" class="ws-item"><strong>WSR5'26</strong><small>Sezione 3</small><span>08:15–09:45</span></a>
+          <a href="/2026/workshops/#wsr5-26-5th-workshop-on-seamless-reality-wsr5-ar-technologies-for-seamless-perception-and-cognition-between-cyber-and-physical-spaces" class="ws-item"><strong>WSR5'26</strong><small>Sezione 5</small><span>08:15–09:45</span></a>
           <a href="/2026/workshops/#xrag-26-the-1st-international-workshop-on-agentic-ai-for-extended-reality" class="ws-item"><strong>XRAG'26</strong><small>Sezione 4</small><span>08:15–09:45</span></a>
           <a href="/2026/tutorials/#emerging-reviewing-and-publication-models-to-promote-trustworthy-research-and-support-scientific-career-advancement" class="ws-item tut"><strong>Reviewing Models</strong><small>Sezione 6+7</small><span>08:15–09:45</span></a>
           <a href="/2026/workshops/#xrehab-the-2nd-international-workshop-on-extended-reality-for-rehabilitation" class="ws-item"><strong>Xrehab</strong><small>Auriga</small><span>08:15–09:45</span></a>
@@ -368,7 +368,7 @@ permalink: /2026/overview/
         <div class="workshop-items">
           <a href="/2026/workshops/#adaptivexr-26-the-1st-international-workshop-on-the-grand-challenges-in-adaptive-extended-reality" class="ws-item"><strong>AdaptiveXR<br>'26</strong><small>Sezione 1</small><span>10:30–12:00</span></a>
           <a href="/2026/tutorials/#interaction-design-for-extended-reality" class="ws-item tut"><strong>ID4XR</strong><small>Sezione 2</small><span>10:30–12:00</span></a>
-          <a href="/2026/workshops/#wsr5-26-5th-workshop-on-seamless-reality-wsr5-ar-technologies-for-seamless-perception-and-cognition-between-cyber-and-physical-spaces" class="ws-item"><strong>WSR5'26</strong><small>Sezione 3</small><span>10:30–12:00</span></a>
+          <a href="/2026/workshops/#wsr5-26-5th-workshop-on-seamless-reality-wsr5-ar-technologies-for-seamless-perception-and-cognition-between-cyber-and-physical-spaces" class="ws-item"><strong>WSR5'26</strong><small>Sezione 5</small><span>10:30–12:00</span></a>
           <a href="/2026/workshops/#xrag-26-the-1st-international-workshop-on-agentic-ai-for-extended-reality" class="ws-item"><strong>XRAG'26</strong><small>Sezione 4</small><span>10:30–12:00</span></a>
           <a href="/2026/tutorials/#emerging-reviewing-and-publication-models-to-promote-trustworthy-research-and-support-scientific-career-advancement" class="ws-item tut"><strong>Reviewing Models</strong><small>Sezione 6+7</small><span>10:30–12:00</span></a>
           <a href="/2026/workshops/#xrehab-the-2nd-international-workshop-on-extended-reality-for-rehabilitation" class="ws-item"><strong>Xrehab</strong><small>Auriga</small><span>10:30–12:00</span></a>
@@ -395,7 +395,7 @@ permalink: /2026/overview/
       <!-- Workshops & Tutorials: 14:00-15:30 (Track 1) -->
       <div class="timeline-item workshop-grid row-1400 span-90" style="grid-column: 2 / 8;">
         <div class="workshop-items">
-          <a href="/2026/workshops/#alt-ismar-alternative-ismar" class="ws-item"><strong>Alt'ISMAR</strong><small>Sezione 3</small><span>14:00–15:30</span></a>
+          <a href="/2026/workshops/#alt-ismar-alternative-ismar" class="ws-item"><strong>Alt'ISMAR</strong><small>Sezione 5</small><span>14:00–15:30</span></a>
           <a href="/2026/workshops/#behavxr-26-xr-for-behavioral-health-body-signals-behavior-change-and-responsible-design" class="ws-item"><strong>BehavXR'26</strong><small>Sezione 2</small><span>14:00–15:30</span></a>
           <a href="/2026/workshops/#hype-xr-1st-workshop-on-hyperrealism-in-xr-in-the-era-of-radiance-fields" class="ws-item"><strong>Hype-XR</strong><small>Sezione 1</small><span>14:00–15:30</span></a>
           <a href="/2026/workshops/#teacxr-26-the-1st-international-workshop-on-teaching-xr" class="ws-item"><strong>TeacXR'26</strong><small>Auriga</small><span>14:00–15:30</span></a>
@@ -424,7 +424,7 @@ permalink: /2026/overview/
       <!-- Workshops & Tutorials: 16:15-17:45 (Track 1) -->
       <div class="timeline-item workshop-grid row-1615 span-90" style="grid-column: 2 / 8;">
         <div class="workshop-items">
-          <a href="/2026/workshops/#alt-ismar-alternative-ismar" class="ws-item"><strong>Alt'ISMAR</strong><small>Sezione 3</small><span>16:15–17:45</span></a>
+          <a href="/2026/workshops/#alt-ismar-alternative-ismar" class="ws-item"><strong>Alt'ISMAR</strong><small>Sezione 5</small><span>16:15–17:45</span></a>
           <a href="/2026/workshops/#behavxr-26-xr-for-behavioral-health-body-signals-behavior-change-and-responsible-design" class="ws-item"><strong>BehavXR'26</strong><small>Sezione 2</small><span>16:15–17:45</span></a>
           <a href="/2026/workshops/#hype-xr-1st-workshop-on-hyperrealism-in-xr-in-the-era-of-radiance-fields" class="ws-item"><strong>Hype-XR</strong><small>Sezione 1</small><span>16:15–17:45</span></a>
           <a href="/2026/workshops/#teacxr-26-the-1st-international-workshop-on-teaching-xr" class="ws-item"><strong>TeacXR'26</strong><small>Auriga</small><span>16:15–17:45</span></a>
