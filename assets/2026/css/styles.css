@@ -924,9 +924,9 @@ h1.sponsors-title {
     max-width: 600px;
     margin: 0 auto;
     grid-template-columns: repeat(2, 1fr);
-    align-items: start;
+    align-items: center;
     justify-items: center;
-    place-items: start;
+    place-items: center;
 }
 
 .exhibitor-tier .sponsor-grid {
@@ -943,7 +943,8 @@ h1.sponsors-title {
 
 /* Silver tier grid layout */
 .silver-tier .sponsor-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(0, 285px));
+    justify-content: center;
     max-width: 600px;
     margin: 0 auto;
     place-items: center;
@@ -1142,9 +1143,10 @@ h1.previous-sponsors-title {
 
 .partners-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(0, 280px));
+    justify-content: center;
     gap: 25px;
-    align-items: start;
+    align-items: center;
     max-width: 900px;
     margin: 0 auto;
 }
@@ -1246,7 +1248,7 @@ h1.previous-sponsors-title {
     }
     
     .partners-grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(0, 250px));
         gap: 20px;
         max-width: 100%;
     }

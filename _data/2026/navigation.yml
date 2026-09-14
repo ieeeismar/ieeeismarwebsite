@@ -7,8 +7,10 @@
       url: "/2026/code-of-conduct/"
     - title: Registration
       url: "/2026/registration/"
- #   - title: ISMAR26 Discord
- #     url: "/2026/ismar26-discord/"
+    - title: Discord Access Instructions
+      url: "/2026/discord-access/"
+    # - title: ISMAR 26 Merchandise
+    #   url: "/2026/ismar-26-merchandise/"
     - title: DEIA Grant
       url: "/2026/DEIA-grant/"
     - title: Visual Identity

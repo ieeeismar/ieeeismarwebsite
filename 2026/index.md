@@ -602,35 +602,21 @@ reminder = orange
   </a>
 </article>
 
+    <article class="info-category news">
+      <h4>Discord Access Instructions</h4>
+      <p>The ISMAR 2026 Discord access link will be available soon.</p>
+      <p><a href="/2026/discord-access/">Discord Access Instructions &rarr;</a></p>
+    </article>
 
-<article class="info-category news">
-  <h4>Speed Mentorship Session Registration Open</h4>
+{% comment %}
+    <article class="info-category anouncement">
+      <h4>ISMAR Merchandise Coming Soon</h4>
+      <p>ISMAR 26 merchandise will be available soon.</p>
+      <p><a href="/2026/ismar-26-merchandise/">ISMAR 26 Merchandise &rarr;</a></p>
+    </article>
+{% endcomment %}
 
-  <p>
-    Registration is now open for the IEEE ISMAR 2026 Speed Mentorship Session,
-    taking place on Monday, 5 October, from 4:00–5:30pm.
-    Students are invited to meet with working professionals, ask questions,
-    and gain career advice in a friendly speed-networking format.
-    <strong>Spots are limited, so be sure to register early to secure your place.</strong>
-  </p>
-
-  <p>
-    <a href="/2026/speed-mentorship/">
-      Learn more about the Speed Mentorship Session →
-    </a>
-  </p>
-
-<a
-  class="news-button"
-  href="https://www.computer.org/conferences/ismar2026"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  RSVP for Speed Mentorship
-</a>
-</article>
-
-  <article class="info-category info">
+<article class="info-category info">
       <div class="sui-header">
         <img
           src="/assets/2026/img/sponsors/SUI.png"
