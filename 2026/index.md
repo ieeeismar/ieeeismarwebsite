@@ -85,7 +85,7 @@ redirect_from: /
   </div>
 
   <div class="ismar-stat">
-    <span class="ismar-counter" data-target="23">0</span>
+    <span class="ismar-counter" data-target="22">0</span>
     <span class="ismar-stat-label">Workshops</span>
   </div>
 
