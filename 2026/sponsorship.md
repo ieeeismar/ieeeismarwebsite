@@ -167,7 +167,7 @@ An extensive technical exhibition will take place during the four-day conference
 ## Additional Opportunities
 - Media Partner – you can help to promote ISMAR and provide additional media services to become a media partner
 - Product Sponsor – you can help to sponsor your product or services which are of interest to ISMAR delegates 
-- Custom prizes – to be discussed with chairs
+- Custom prizes
 
 ## Exhibitor Information (TBC)
 
