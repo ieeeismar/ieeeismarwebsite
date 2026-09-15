@@ -608,13 +608,11 @@ reminder = orange
       <p><a href="/2026/discord-access/">Discord Access Instructions &rarr;</a></p>
     </article>
 
-{% comment %}
     <article class="info-category anouncement">
-      <h4>ISMAR Merchandise Coming Soon</h4>
-      <p>ISMAR 26 merchandise will be available soon.</p>
-      <p><a href="/2026/ismar-26-merchandise/">ISMAR 26 Merchandise &rarr;</a></p>
+      <h4>ISMAR 2026 Items Are Now Available!</h4>
+      <p>Participants can now purchase official ISMAR 2026 conference items, including t-shirts, hooded sweatshirts, hats, and more.</p>
+      <p><a href="https://ismar-2026-official-items.printify.me/">Purchase ISMAR 2026 Items &rarr;</a></p>
     </article>
-{% endcomment %}
 
 <article class="info-category info">
       <div class="sui-header">

@@ -9,8 +9,6 @@
       url: "/2026/registration/"
     - title: Discord Access Instructions
       url: "/2026/discord-access/"
-    # - title: ISMAR 26 Merchandise
-    #   url: "/2026/ismar-26-merchandise/"
     - title: DEIA Grant
       url: "/2026/DEIA-grant/"
     - title: Visual Identity
@@ -41,7 +39,8 @@
           url: "/2026/things-to-do/"
         - title: Gastronomy
           url: "/2026/gastronomy/"
-
+    - title: Purchase ISMAR 26 Items
+      url: "/2026/ismar26-items/"
 
 
 - title: Contribute
