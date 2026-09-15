@@ -66,6 +66,24 @@ This situation leads to many problems. Authors are rewarded for novel results th
 
 However, there are reasons for optimism. Many research communities, including our own, are experimenting with new reviewing and publication ideas and models. This tutorial discusses the social context that mediates scientific communication, including reviewing practices for scientific papers and proposals, and how these practices motivate researchers as they seek career success. The tutorial surveys current and emerging thinking on how this context might be optimally tuned to produce scientific results that are trustworthy and lead to scientific career advancement. 
 
+
+--- 
+
+### Inclusive XR: Designing for Diversity
+{: #inclusive-xr/design-for-diversity }
+
+**Date/Time**: Monday 5 October, Afternoon Session<br>
+**Room**: Sezione 5<br>
+**Main Contact Person**: <a href="mailto:m.s.vosmeer@hva.nl"> Mirjam Vosmeer</a> 
+
+
+This tutorial focuses on the design of immersive technology through the lens of equity, diversity, and inclusion. We explore how to account for the characteristics of diverse audiences, reflect on the history of VR. We discuss how to apply the ISMAR code of conduct when writing conference papers.
+The continued growth and commercial viability of XR depend on reaching audiences beyond early adopters and tech-savvy users. Designing for broader, more diverse populations across age, background, gender, and levels of XR experience is not only a matter of social responsibility, but a strategic necessity for the field. This tutorial takes that challenge as its starting point.
+As two female researchers, designers, and educators in the field of immersive technology, and having had the honour of serving as DEIA Chairs for ISMAR 2026, we draw on our own perspectives to offer concrete examples about this topic.
+Beyond design practice, this tutorial also addresses inclusion in research and academic communication. We will discuss how authors can integrate inclusive principles into their conference papers, for instance, by reporting the gender composition of study participants, honestly reflecting in a limitations section on the ways their findings may not be representative of broader populations, and offering concrete directions for future research that addresses those gaps.
+ 
+
+
 --- 
 
 ### Interaction Design for Extended Reality
