@@ -16,7 +16,6 @@ permalink: /2026/overview/
 
 # Program Overview
 
-
 <div class="program-tabs" role="tablist" aria-label="Conference days">
   <button class="program-tab" role="tab" aria-selected="true" aria-controls="day-2026-10-05" data-date="2026-10-05">
     <strong><span class="day-long">Monday</span><span class="day-short">Mon</span></strong>
@@ -80,6 +79,8 @@ permalink: /2026/overview/
   </button>
 </div>
 
+
+
 <!--
 <div class="mini-day-tabs" aria-label="Quick day selector">
   <button class="mini-day-tab" data-date="2026-10-05" aria-selected="true">M</button>
@@ -89,7 +90,12 @@ permalink: /2026/overview/
   <button class="mini-day-tab" data-date="2026-10-09" aria-selected="false">F</button>
 </div>
 -->
-
+<div style="margin: 1rem 0 1.5rem; text-align: center;">
+  <a href="/2026/conference-venue-map/" class="ismar-program-button"
+     style="display: inline-block; padding: 0.9rem 1.6rem; border-radius: 999px; background: #3A8BF3; color: #fff !important; font-weight: 900; text-decoration: none !important;">
+    Conference Venue Map →
+  </a>
+</div>
 <div class="program-panels">
 
   <!-- MONDAY -->
