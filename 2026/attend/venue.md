@@ -20,6 +20,13 @@ The conference will be organized at **The Nicolaus Hotel**, an elegant conferenc
 
 The Nicolaus Hotel offers a welcoming atmosphere, bright interiors, and functional spaces for conferences and meetings. The venue has a large Congress Centre divided into modular and technical conference rooms.
 
+
+<div style="margin: 1rem 0 1.5rem; text-align: center;">
+  <a href="/2026/conference-venue-map/" class="ismar-program-button"
+     style="display: inline-block; padding: 0.9rem 1.6rem; border-radius: 999px; background: #3A8BF3; color: #fff !important; font-weight: 900; text-decoration: none !important;">
+    Conference Venue Map →
+  </a>
+</div>
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 1.5em; margin-bottom: 2em;">
 
   <img src="{{ '/assets/2026/img/venue/nicolaus (1).jpg' | relative_url }}" alt="The Nicolaus Hotel 1" style="height:160px; object-fit:cover; border-radius:6px;">
