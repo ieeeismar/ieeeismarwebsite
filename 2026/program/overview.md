@@ -266,6 +266,13 @@ permalink: /2026/overview/
         <span>16:15–17:45</span>
       </div>
 
+      <!-- Pitch Your Lab: 17:45-18:30 -->
+      <a href="/2026/pitch-your-lab/" class="timeline-item panel row-1745 span-45" style="grid-column: 2 / 11;">
+        <strong>Pitch Your Lab</strong>
+        <small>Sezione 1</small>
+        <span>17:45–18:30</span>
+      </a>
+
       <!-- Future Faculty Forum / Doctoral Consortium / MM @ Nicolaus Rooftop: 18:30-20:30 (Track 1) -->
       <!-- <div class="timeline-item rooftop row-1830" style="grid-column: 2 / 6; grid-row-end: span 8;">
         <strong>Rooftop Reception</strong>
@@ -546,6 +553,13 @@ permalink: /2026/overview/
         <small>Sezione 1+2</small>
         <span>09:30–10:30</span>
       </a>
+
+      <!-- Demo Fast Forward: 10:30-11:00 (vertical, between posters and demos) -->
+      <div class="timeline-item demo col-fast-forward row-1030 span-60">
+        <span class="title">Demo Fast Forward</span>
+        <span class="room">Sezione 1</span>
+        <span>10:30–11:00</span>
+      </div>
 
       <!-- Coffee Break 10:30-11:15 (Track 1) - spans 3 columns -->
       <div class="timeline-item coffee row-1030 span-45" style="grid-column: 2 / 5;">
@@ -1693,6 +1707,7 @@ permalink: /2026/overview/
 .col-5 { grid-column: 6; }
 .col-6 { grid-column: 7; }
 .col-poster { grid-column: 8; }
+.col-fast-forward { grid-column: 9; }
 .col-demo { grid-column: 9; }
 .col-reg { grid-column: 10; }
 .col-span-3 { grid-column: span 3; }
@@ -1702,6 +1717,7 @@ permalink: /2026/overview/
 
 /* Vertical text for sidebar columns - centered, room above time */
 .timeline-item.col-poster,
+.timeline-item.col-fast-forward,
 .timeline-item.col-demo,
 .timeline-item.col-reg {
   writing-mode: vertical-lr;
@@ -1711,14 +1727,28 @@ permalink: /2026/overview/
   align-items: center;
 }
 .timeline-item.col-poster .title,
+.timeline-item.col-fast-forward .title,
 .timeline-item.col-demo .title,
 .timeline-item.col-reg .title { order: 1; font-weight: bold; }
 .timeline-item.col-poster .room,
+.timeline-item.col-fast-forward .room,
 .timeline-item.col-demo .room,
 .timeline-item.col-reg .room { order: 2; font-weight: normal; }
 .timeline-item.col-poster span:not(.title):not(.room),
+.timeline-item.col-fast-forward span:not(.title):not(.room),
 .timeline-item.col-demo span:not(.title):not(.room),
 .timeline-item.col-reg span:not(.title):not(.room) { order: 3; font-weight: normal; }
+.timeline-item.col-fast-forward .title {
+  white-space: nowrap;
+  font-size: 0.65rem;
+}
+
+#day-2026-10-07 .timeline-schedule {
+  grid-template-columns: 50px repeat(6, 1fr) 60px 60px 60px 50px;
+}
+
+#day-2026-10-07 .col-demo { grid-column: 10; }
+#day-2026-10-07 .col-reg { grid-column: 11; }
 
 /* Timeline item colors */
 .timeline-item.registration { background: #f2f4f7; border-left: 3px solid #6b7280; } /* gray */
@@ -1881,6 +1911,7 @@ a.timeline-item.faculty:hover { text-decoration: none; filter: brightness(0.97);
 
   /* Posters, demos, registration: single rotated line on mobile */
   .timeline-schedule .timeline-item.col-poster,
+  .timeline-schedule .timeline-item.col-fast-forward,
   .timeline-schedule .timeline-item.col-demo,
   .timeline-schedule .timeline-item.col-reg {
     writing-mode: vertical-lr;
@@ -1891,13 +1922,28 @@ a.timeline-item.faculty:hover { text-decoration: none; filter: brightness(0.97);
     font-size: 0.45rem !important;
     font-weight: 700 !important;
   }
+
+  #day-2026-10-07 .timeline-schedule {
+    grid-template-columns: 22px repeat(6, minmax(0, 1fr)) 18px 18px 18px 15px;
+  }
+
+  #day-2026-10-07 .col-demo {
+    grid-column: 10;
+  }
+
+  #day-2026-10-07 .col-reg {
+    grid-column: 11;
+  }
   .timeline-schedule .timeline-item.col-poster .title,
+  .timeline-schedule .timeline-item.col-fast-forward .title,
   .timeline-schedule .timeline-item.col-demo .title,
   .timeline-schedule .timeline-item.col-reg .title,
   .timeline-schedule .timeline-item.col-poster .room,
+  .timeline-schedule .timeline-item.col-fast-forward .room,
   .timeline-schedule .timeline-item.col-demo .room,
   .timeline-schedule .timeline-item.col-reg .room,
   .timeline-schedule .timeline-item.col-poster span:not(.title):not(.room),
+  .timeline-schedule .timeline-item.col-fast-forward span:not(.title):not(.room),
   .timeline-schedule .timeline-item.col-demo span:not(.title):not(.room),
   .timeline-schedule .timeline-item.col-reg span:not(.title):not(.room) {
     display: inline;
@@ -1905,19 +1951,27 @@ a.timeline-item.faculty:hover { text-decoration: none; filter: brightness(0.97);
     font-weight: normal !important;
   }
   .timeline-schedule .timeline-item.col-poster .title,
+  .timeline-schedule .timeline-item.col-fast-forward .title,
   .timeline-schedule .timeline-item.col-demo .title,
   .timeline-schedule .timeline-item.col-reg .title {
     font-weight: bold !important;
   }
+  .timeline-schedule .timeline-item.col-fast-forward .title {
+    white-space: nowrap;
+    font-size: 0.4rem !important;
+  }
   .timeline-schedule .timeline-item.col-poster .title::after,
+  .timeline-schedule .timeline-item.col-fast-forward .title::after,
   .timeline-schedule .timeline-item.col-demo .title::after,
   .timeline-schedule .timeline-item.col-reg .title::after,
   .timeline-schedule .timeline-item.col-poster .room::after,
+  .timeline-schedule .timeline-item.col-fast-forward .room::after,
   .timeline-schedule .timeline-item.col-demo .room::after,
   .timeline-schedule .timeline-item.col-reg .room::after {
     content: " · ";
   }
   .timeline-schedule .timeline-item.col-poster span:not(.title):not(.room)::after,
+  .timeline-schedule .timeline-item.col-fast-forward span:not(.title):not(.room)::after,
   .timeline-schedule .timeline-item.col-demo span:not(.title):not(.room)::after,
   .timeline-schedule .timeline-item.col-reg span:not(.title):not(.room)::after {
     content: "";
@@ -2012,6 +2066,8 @@ a.timeline-item.faculty:hover { text-decoration: none; filter: brightness(0.97);
   .timeline-schedule .timeline-item.lunch small,
   .timeline-schedule .timeline-item.ceremony span,
   .timeline-schedule .timeline-item.ceremony small,
+  .timeline-schedule .timeline-item.col-fast-forward span,
+  .timeline-schedule .timeline-item.col-fast-forward small,
   .timeline-schedule .timeline-item.demo span,
   .timeline-schedule .timeline-item.demo small,
   .timeline-schedule .timeline-item.doctoral span,
