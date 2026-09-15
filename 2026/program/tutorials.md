@@ -70,7 +70,7 @@ However, there are reasons for optimism. Many research communities, including ou
 --- 
 
 ### Inclusive XR: Designing for Diversity
-{: #inclusive-xr/design-for-diversity }
+{: #inclusive-xr-designing-for-diversity }
 
 **Date/Time**: Monday 5 October, Afternoon Session<br>
 **Room**: Sezione 5<br>
