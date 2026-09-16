@@ -216,7 +216,6 @@ permalink: /2026/overview/
       <!-- Lunch: 12:00-14:00 (full width) -->
       <div class="timeline-item lunch row-1200" style="grid-column: 2 / 11; grid-row-end: span 8;">
         <strong>Lunch</strong>
-        <small>Cassiopea Hall Restaurant</small>
         <span>12:00–14:00</span>
       </div>
 
@@ -396,7 +395,6 @@ permalink: /2026/overview/
       <!-- Lunch: 12:00-14:00 (full width) -->
       <div class="timeline-item lunch row-1200" style="grid-column: 2 / 11; grid-row-end: span 8;">
         <strong>Lunch</strong>
-        <small>Cassiopea Hall Restaurant</small>
         <span>12:00–14:00</span>
       </div>
 
