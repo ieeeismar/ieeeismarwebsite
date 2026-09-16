@@ -12,7 +12,7 @@ permalink: /2026/overview/
 
   gtag('config', 'G-FQFFZGXF3Y');
 </script>
-*Last updated: 2026-09-14 10:00AM CET*
+*Last updated: 2026-09-16 10:00AM CET*
 
 # Program Overview
 
@@ -266,13 +266,6 @@ permalink: /2026/overview/
         <span>16:15–17:45</span>
       </div>
 
-      <!-- Pitch Your Lab: 17:45-18:30 -->
-      <a href="/2026/pitch-your-lab/" class="timeline-item panel row-1745 span-45" style="grid-column: 2 / 11;">
-        <strong>Pitch Your Lab</strong>
-        <small>Sezione 1</small>
-        <span>17:45–18:30</span>
-      </a>
-
       <!-- Future Faculty Forum / Doctoral Consortium / MM @ Nicolaus Rooftop: 18:30-20:30 (Track 1) -->
       <!-- <div class="timeline-item rooftop row-1830" style="grid-column: 2 / 6; grid-row-end: span 8;">
         <strong>Rooftop Reception</strong>
@@ -456,6 +449,13 @@ permalink: /2026/overview/
         <strong>Future Faculty Forum</strong>
         <small>Glasshaus</small>
         <span>16:15–17:45</span>
+      </a>
+
+      <!-- Pitch Your Lab: 17:45-18:30 -->
+      <a href="/2026/pitch-your-lab/" class="timeline-item panel row-1745 span-45" style="grid-column: 2 / 11;">
+        <strong>Pitch Your Lab</strong>
+        <small>Sezione 1</small>
+        <span>17:45–18:30</span>
       </a>
 
       <!-- Welcome Reception @ Nicolaus: 18:30-20:30 (full width, pink) -->
