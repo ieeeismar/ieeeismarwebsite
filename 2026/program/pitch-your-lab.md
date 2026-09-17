@@ -14,7 +14,9 @@ permalink: /2026/pitch-your-lab/
 </script>
 ---
 
-**Time:** Oct 6, 17:45–18:30.
+- **Time:** Oct 6, 17:45–18:30
+- **Room**: Sezione 1
+
 
 ## **Computer Graphics and User Interfaces Lab**
 
@@ -155,3 +157,10 @@ Institute for Clinical and Experimental Medicine, Prague, Czech Republic
 
 * **Website link:** [https://www.ikem.cz/](https://www.ikem.cz/)
 * **Presenter:** David Sibrina
+
+## **Wearable Computer Lab**
+
+Adelaide University, Adelaide, Australia
+
+* **Website link:** [https://wearables.unisa.edu.au/](https://wearables.unisa.edu.au/)
+* **Presenter:** Juan Pieschacon

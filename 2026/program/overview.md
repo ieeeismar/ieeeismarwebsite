@@ -623,14 +623,14 @@ permalink: /2026/overview/
 
       <!-- Lunch 12:15-13:45 (Track 1) - spans 3 columns -->
       <div class="timeline-item lunch row-1215 span-90" style="grid-column: 2 / 5;">
-        <strong>Lunch Break</strong>
+        <strong>Lunch</strong>
         <small>Cassiopea Hall Restaurant</small>
         <span>12:15–13:45</span>
       </div>
 
       <!-- Lunch 12:45-14:15 (Track 2) - spans 3 columns -->
       <div class="timeline-item lunch row-1245 span-90" style="grid-column: 5 / 8;">
-        <strong>Lunch Break</strong>
+        <strong>Lunch</strong>
         <small>Cassiopea Hall Restaurant</small>
         <span>12:45–14:15</span>
       </div>
@@ -919,14 +919,14 @@ permalink: /2026/overview/
 
       <!-- Lunch 12:45-14:15 (Track 1) -->
       <div class="timeline-item lunch row-1245 span-90" style="grid-column: 2 / 5;">
-        <strong>Lunch Break</strong>
+        <strong>Lunch</strong>
         <small>Cassiopea Hall Restaurant</small>
         <span>12:45–14:15</span>
       </div>
 
       <!-- Lunch 13:15-14:45 (Track 2) -->
       <div class="timeline-item lunch row-1315 span-90" style="grid-column: 5 / 8;">
-        <strong>Lunch Break</strong>
+        <strong>Lunch</strong>
         <small>Cassiopea Hall Restaurant</small>
         <span>13:15–14:45</span>
       </div>
@@ -1180,14 +1180,14 @@ permalink: /2026/overview/
 
       <!-- Lunch (served @ Nicolaus, on-site) 12:45-14:15 (Track 1) -->
       <div class="timeline-item lunch row-1245 span-90" style="grid-column: 2 / 5;">
-        <strong>Lunch Break</strong>
+        <strong>Lunch</strong>
         <small>Cassiopea Hall Restaurant</small>
         <span>12:45–14:15</span>
       </div>
 
       <!-- Lunch (served @ Nicolaus, on-site) 13:15-14:45 (Track 2) -->
       <div class="timeline-item lunch row-1315 span-90" style="grid-column: 5 / 8;">
-        <strong>Lunch Break</strong>
+        <strong>Lunch</strong>
         <small>Cassiopea Hall Restaurant</small>
         <span>13:15–14:45</span>
       </div>
