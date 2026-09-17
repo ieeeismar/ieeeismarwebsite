@@ -48,7 +48,7 @@ permalink: /2026/overview/
       <span class="">Keynote</span>
       <span class="">Papers</span>
       <span class="">Posters</span>
-      <span class="">Demos</span>
+      <span class="">Demos & Fast Forward</span>
       <span class="">Panel</span>
     </span>
     <span class="jump-to">Jump to <span class="jump-to-day">Wednesday</span></span>
