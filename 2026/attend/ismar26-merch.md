@@ -24,4 +24,4 @@ Orders are open to both conference participants and non-participants. Production
 The collection currently includes t-shirts, hooded sweatshirts, hats, and more.
 The collection is constantly expanding, so stay tuned for more merch!
 
-Please note that apparel is optional and is not included in the conference registration fee. Prices are determined by the print-on-demand platform, which requires a minimum 15% profit margin that will be used to support ISMAR 2026 conference activities.
+Please note that apparel is optional and is not included in the conference registration fee. Prices are determined by the print-on-demand platform, which requires a minimum 15% profit margin that will be used to support ISMAR 2026 conference activities, such as diversity initiatives.
