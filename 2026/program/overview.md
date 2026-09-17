@@ -35,6 +35,7 @@ permalink: /2026/overview/
       <span class="">Workshops</span>
       <span class="">Tutorials</span>
       <span class="">Future Faculty Forum</span>
+      <span class="">Pitch Your Lab</span>
       <span class="day-highlight">Welcome Reception</span>
     </span>
     <span class="jump-to">Jump to <span class="jump-to-day">Tuesday</span></span>
