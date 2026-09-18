@@ -849,25 +849,23 @@ permalink: /2026/overview/
         <span>09:00–10:00</span>
       </a>
 
-      <!-- Coffee Break 09:30-10:30 (Track 1) -->
-      <div class="timeline-item coffee row-930 span-60" style="grid-column: 2 / 5;">
+      <!-- Coffee Break 09:30-10:15 (Track 1) -->
+      <div class="timeline-item coffee row-930 span-45" style="grid-column: 2 / 5;">
         <strong>Coffee Break</strong>
         <small>Cassiopea</small>
-        <span>09:30–10:30</span>
+        <span>09:30–10:15</span>
       </div>
 
-      <!-- Coffee Break 10:00-10:30 (Track 2) -->
-      <div class="timeline-item coffee row-1000 span-30" style="grid-column: 5 / 8;">
+      <!-- Coffee Break 10:00-10:15 (Track 2) -->
+      <div class="timeline-item coffee row-1000 span-15" style="grid-column: 5 / 8;">
         <strong>Coffee Break</strong>
-        <small>Cassiopea</small>
-        <span>10:00–10:30</span>
       </div>
 
-      <!-- Keynote 2: 10:30-11:30 -->
-      <a href="/2026/keynote-speakers/#keynote-2" class="timeline-item keynote row-1030 col-main span-60">
-        <strong>Keynote: What Sailing Can Teach Us About Augmented Agency (Antonio Rizzo)</strong>
+      <!-- Keynote 2: 10:15-11:30 -->
+      <a href="/2026/keynote-speakers/#keynote-2" class="timeline-item keynote row-1015 col-main span-75">
+        <strong>What Sailing Can Teach Us About Augmented Agency (Antonio Rizzo)</strong>
         <small>Sezione 1+2</small>
-        <span>10:30–11:30</span>
+        <span>10:15–11:30</span>
       </a>
 
       <!-- Posters 2A: 11:30-13:45 -->
