@@ -13,7 +13,7 @@ permalink: /2026/papers/
   gtag('config', 'G-FQFFZGXF3Y');
 </script>
 ---
-*Last updated: 2026-08-28 7:14PM EDT*
+*Last updated: 2026-09-21 8:00 AM CET*
 
 ---
 
