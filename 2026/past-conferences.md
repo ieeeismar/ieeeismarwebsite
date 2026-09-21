@@ -48,7 +48,7 @@ Links to the websites and proceedings of previous IEEE ISMAR and forerunner even
 
 <div>
     <b>IEEE ISMAR 2022 (Singapore, Singapore)</b><br>
-    <a href="https://ismar2022.org/">Website</a> | <a href="https://ieeexplore.ieee.org/xpl/conhome/9994794/proceeding">Proceedings</a>
+    <a href="https://ismar2022.vgtc.org/index.html">Website</a> | <a href="https://ieeexplore.ieee.org/xpl/conhome/9994794/proceeding">Proceedings</a>
 </div>
 <hr style="border-top: 1px solid #ddd;"/>
 
