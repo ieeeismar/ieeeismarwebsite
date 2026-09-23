@@ -261,10 +261,10 @@ permalink: /2026/overview/
       </div>
 
       <!-- Speed Mentorship: 17:00-18:30 (Track 2) -->
-      <div class="timeline-item panel speed-mentorship row-1615 span-90" style="grid-column: 8 / 11;">
+      <a href="/2026/speed-mentorship/" class="timeline-item panel speed-mentorship row-1615 span-90" style="grid-column: 8 / 11;">
         <strong>Speed Mentorship</strong>
         <span>16:15–17:45</span>
-      </div>
+      </a>
 
       <!-- Future Faculty Forum / Doctoral Consortium / MM @ Nicolaus Rooftop: 18:30-20:30 (Track 1) -->
       <!-- <div class="timeline-item rooftop row-1830" style="grid-column: 2 / 6; grid-row-end: span 8;">
