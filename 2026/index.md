@@ -95,7 +95,7 @@ redirect_from: /
   </div>
 
   <div class="ismar-stat">
-    <span class="ismar-counter" data-target="150">0</span>
+    <span class="ismar-counter" data-target="127">0</span>
     <span class="ismar-stat-label">Poster Papers</span>
   </div>
 
@@ -774,7 +774,7 @@ reminder = orange
     <div class="sponsor-grid">
         {% for sponsor in site.data["2026"].sponsors.silver_sponsors %}
         {% if sponsor %}
-        <div class="sponsor-item">
+        <div class="sponsor-item{% if sponsor.promotional_video or sponsor.promotional_page %} has-promotional{% endif %}">
             {% if sponsor.url and sponsor.url != "" %}
             <a href="{{ sponsor.url }}" target="_blank" class="sponsor-logo-link">
                 <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo" />
@@ -784,6 +784,20 @@ reminder = orange
                 <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo" />
             </div>
             {% endif %}
+              {% if sponsor.promotional_video or sponsor.promotional_page %}
+              <div class="promotional-buttons">
+                {% if sponsor.promotional_page %}
+                <a href="{{ sponsor.promotional_page | relative_url }}" class="promo-button page-button">
+                  <i class="fas fa-info-circle"></i> Promotional Page
+                </a>
+                {% endif %}
+                {% if sponsor.promotional_video %}
+                <a href="{{ sponsor.promotional_video }}" target="_blank" rel="noopener" class="promo-button video-button">
+                  <i class="fas fa-play"></i> Promotional Video
+                </a>
+                {% endif %}
+              </div>
+              {% endif %}
         </div>
         {% endif %}
         {% endfor %}
@@ -800,7 +814,7 @@ reminder = orange
     <div class="sponsor-grid">
         {% for sponsor in site.data["2026"].sponsors.bronze_sponsors %}
         {% if sponsor %}
-        <div class="sponsor-item">
+        <div class="sponsor-item{% if sponsor.promotional_video %} has-promotional{% endif %}">
             {% if sponsor.url and sponsor.url != "" %}
             <a href="{{ sponsor.url }}" target="_blank" class="sponsor-logo-link">
                 <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo" />
@@ -810,6 +824,13 @@ reminder = orange
                 <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo" />
             </div>
             {% endif %}
+              {% if sponsor.promotional_video %}
+              <div class="promotional-buttons">
+                <a href="{{ sponsor.promotional_video }}" target="_blank" rel="noopener" class="promo-button video-button">
+                  <i class="fas fa-play"></i> Promotional Video
+                </a>
+              </div>
+              {% endif %}
         </div>
         {% endif %}
         {% endfor %}
