@@ -106,7 +106,7 @@
      url: "/2026/speed-mentorship/"
    - title: Pitch Your Lab
      url: "/2026/pitch-your-lab/"
-
+ 
 
 
 - title: Resources
@@ -136,8 +136,13 @@
       url: "/2026/committee/standardization/"
     - title: Steering Committee
       url: "/2026/committee/steering_committee/"
+    - title: Program Committee
+      url: "/2026/committee/program-committee/"
+    - title: Reviewers
+      url: "/2026/committee/reviewers/"
     - title: Student Volunteers
       url: "/2026/committee/student-volunteers/"
+    
 
 
 - title: Past Conferences

@@ -1,0 +1,212 @@
+---
+layout: 2026/page-2026
+title: Program Committee
+---
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQFFZGXF3Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FQFFZGXF3Y');
+</script>
+
+## International Program Committee Members
+
+- **Pedro Acevedo**, University of North Carolina Wilmington
+- **Alexander Achberger**, VISUS University of Stuttgart
+- **Isayas Adhanom**, Texas State University
+- **Georgia Albuquerque**, German Aerospace Center (DLR)
+- **Rawan Alghofaili**, University of Texas at Dallas
+- **Clemens Arth**, Graz University of Technology
+- **Ehsan Azimi**, Johns Hopkins University
+- **Huidong Bai**, The University of Auckland
+- **Yuki Ban**, The University of Tokyo
+- **Mayra Barrera Machuca**, Dalhousie University
+- **Anil Ufuk Batmaz**, Concordia University
+- **Lonni Besançon**, Linköping University
+- **Mark Billinghurst**, Adelaide University
+- **Gerd Bruder**, University of Central Florida
+- **Hugo Brument**, TU Wien
+- **Abraham G. Campbell**, University College Dublin
+- **Pasquale Cascarano**, University of Bologna
+- **Evan Center**, University of Oulu
+- **Soumyajit Chakraborty**, Vanderbilt University
+- **Yasra Chandio**, University of Massachusetts, Amherst
+- **Jean-Rémy Chardonnet**, Arts et Metiers Institute of Technology
+- **Amine Chellali**, Université Evry Paris-Saclay
+- **Weiya Chen**, Huazhong University of Science and Technology
+- **Xiaoming Chen**, Beijing Technology and Business University
+- **Manuela Chessa**, University of Genoa
+- **Suyeon Choi**, Seoul National University
+- **Tanvir Irfan Chowdhury**, Marshall University
+- **Klen Čopič Pucihar**, University of Primorska
+- **Sarah Creem-Regehr**, University of Utah
+- **Charlotte Croucher**, TU Delft
+- **Carla Dal Sasso Freitas**, Federal University of Rio Grande do Sul
+- **Mallesham Dasari**, Northeastern University
+- **Shakiba Davari**, Kennesaw State University
+- **Brendan David-John**, Virginia Tech
+- **Raffaele De Amicis**, Oregon State University
+- **Kevin Desai**, The University of Texas at San Antonio
+- **Massimiliano Di Luca**, University of Birmingham
+- **Nina Döllinger**, University of Würzburg
+- **Ralf Dörner**, RheinMain University of Applied Sciences
+- **John Dudley**, University of Cambridge
+- **Thierry Duval**, IMT Atlantique
+- **Aysun Duyar**, York University
+- **Christoph Ebner**, VRVis
+- **Ulrich Eck**, Technische Universitaet Muenchen
+- **Neven ElSayed**, Know-Center GmbH
+- **Steven Feiner**, Columbia University
+- **Nico Feld**, Trier University
+- **Francesco Ferrise**, Politecnico di MIlano
+- **Michele Fiorentino**, Polythecnic Institute of Bari
+- **Philipp Fleck**, Graz University of Technology
+- **Maite Frutos-Pascual**, Birmingham City University
+- **Yuichiro Fujimoto**, Ryukoku University
+- **Masahiro Furukawa**, The University of Osaka
+- **BoYu Gao**, Jinan University
+- **Michele Gattullo**, Polytechnic University of Bari
+- **Adélaïde Genay**, University of Melbourne
+- **Michele Geronazzo**, University of Padua
+- **Alexander Giovannelli**, University of Central Florida
+- **Alexandre Gomes de Siqueira**, Florida University
+- **Maria Gorlatova**, Duke University
+- **Valérie Gouranton**, Univ Rennes, INSA Rennes, Inria, CNRS, IRISA
+- **Jeronimo Grandi**, Augusta University
+- **Jens Grubert**, Coburg University
+- **Frank Guan**, Singapore Institute of Technology
+- **Dongyun Han**, Clemson University
+- **Christian Hansen**, Otto von Guericke University
+- **Takefumi Hiraki**, University of Tsukuba
+- **Yutaro Hirao**, The University of Tokyo
+- **Yuichi Hiroi**, Cluster Metaverse Lab
+- **Eric Hodgson**, Miami University
+- **Jinghui Hu**, Lancaster University
+- **Xiaodan Hu**, Shibaura Institute of Technology
+- **Bingyao Huang**, Southwest University
+- **Muhammad Twaha Ibrahim**, UC Irvine
+- **Sungwon In**, Virginia Polytechnic Institute and State University
+- **Victoria Interrante**, University of Minnesota
+- **Andrew Irlitti**, Deakin University
+- **Yuta Itoh**, Institite of Science Tokyo
+- **Mark Jensen**, Technical University of Denmaark
+- **Seokhee Jeon**, Kyung Hee University
+- **Janet Johnson**, University of Michigan, Ann Arbor
+- **Joaquim Jorge**, Universidade de Lisboa
+- **Uijong Ju**, College of Science, Kyung Hee University
+- **Denis Kalkofen**, Graz University of Technology
+- **Akrivi Katifori**, National and Kapodistrian University of Athens
+- **Benjamin Killeen**, Technical University of Munich
+- **Dooyoung Kim**, La Trobe University
+- **Gerard Kim**, Korea University
+- **Seungwon Kim**, Chonnam National University
+- **Asako Kimura**, Ritsumeikan Univ.
+- **Kiyoshi Kiyokawa**, Nara Institute of Science and Technology
+- **Julian Kreimeier**, Technical University of Munich
+- **Per Ola Kristensson**, University of Cambridge
+- **Radha Kumaran**, University of California, Santa Barbara
+- **Kai Kunze**, Clausthal University of Technology
+- **Takeshi Kurata**, AIST
+- **Wallace Lages**, Northeastern University
+- **Joseph LaViola**, University of Central Florida
+- **Khanh-Duy Le**, ABB Corporate Research
+- **Flavien Lecuyer**, Université de Strasbourg
+- **Geonsun Lee**, University of Maryland
+- **Gun Lee**, Adelaide University
+- **Joomi Lee**, University of Arkansas
+- **Changyang Li**, Goertek
+- **Ke Li**, University of Hamburg
+- **Sheng Li**, Peking University
+- **Wei Liang**, Beijing Institute of Technology
+- **Robert LiKamWa**, Rice University
+- **Wen-Chieh Lin**, National Yang Ming Chiao Tung University
+- **John Liu**, Massachusetts Institute of Technology
+- **Shiguang Liu**, Tianjin University
+- **Yue Liu**, Beijing Institute of Technology
+- **Daniel Lopes**, Universidade de Lisboa
+- **Feiyu Lu**, J.P. Morgan Chase & Co.
+- **Anderson Maciel**, Universidade de Lisboa
+- **Pavel Manakhov**, Lancaster University
+- **Katerina Mania**, Technical University of Crete
+- **Gustavo Marfia**, University of Bologna
+- **Daniel Martin**, Universidad de Zaragoza, I3A
+- **Katsutoshi Masai**, Kyushu University
+- **Keigo Matsumoto**, University of Tsukuba
+- **Daniel Medeiros**, Telecom Paris/Institut Polytechnique de Paris
+- **Aline Menin**, Inria
+- **Tilo Mentler**, Trier University of Applied Sciences
+- **Christian Merz**, University of Würzburg
+- **Yuri Mikawa**, The University of Tokyo
+- **Takato Mizuho**, The University of Tokyo
+- **Shohei Mori**, University of Stuttgart
+- **Christos Mousas**, Purdue University
+- **Fumihiko Nakamura**, Ritsumeikan University
+- **Kizashi Nakano**, The University of Tokyo
+- **Hyeongil Nam**, Hanyang University
+- **Takuji Narumi**, the University of Tokyo
+- **Fatima Nunes**, University of São Paulo
+- **Etienne Peillard**, IMT Atlantique
+- **Andres Pena**, University of Arkansas
+- **Chao Peng**, Rochester Institute of Technology
+- **Yifan (Evan) Peng**, Stanford University
+- **Ken Pfeuffer**, Aarhus University
+- **Thomas Pietrzak**, Univ. Lille, CNRS, Inria, Centrale Lille, UMR 9189 CRIStAL
+- **Thammathip Piumsomboon**, University of Canterbury
+- **Voicu Popescu**, Purdue University
+- **Matti Pouke**, University of Oulu
+- **Xueying Qin**, Shandong University
+- **John Quarles**, University of Texas at San Antonio
+- **Rafael Radkowski**, Iowa State University
+- **Andrew Robb**, Clemson University
+- **Edgar Rojas-Muñoz**, Texas A&M University
+- **Daniel Roth**, Technical University of Munich
+- **Anthony Rowe**, Carnegie Mellon University
+- **Hideo Saito**, Keio University
+- **Nobuchika Sakata**, Ryukoku University
+- **Danny Schott**, Otto-von-Guericke University
+- **Tobias Schwandt**, Technische Universität Ilmenau
+- **Hartmut Seichter**, University of Applied Sciences Schmalkalden
+- **Stefania Serafin**, Technical University of Denmark
+- **Yiran Shen**, Shandong University
+- **Hakim Si-Mohammed**, University of Lille
+- **Agata Marta Soccini**, Università degli Studi di Torino
+- **Weitao Song**, Beijing Institute of Technology
+- **Mauricio Sousa**, Keio University
+- **Ana Stanescu**, Graz University of Technology
+- **Frank Steinicke**, Universität Hamburg
+- **Simon Su**, National Institute of Standards and Technology
+- **Maki Sugimoto**, Keio University
+- **Bo Sun**, Rowan University
+- **David Swapp**, University College London
+- **Markus Tatzgern**, Salzburg University of Applied Sciences
+- **Robert Teather**, Monash University
+- **Jerald Thomas**, University of Wisconsin - Milwaukee
+- **Yuki Uranishi**, The University of Osaka
+- **Radu-Daniel Vatavu**, Stefan cel Mare University of Suceava
+- **Rohith Venkatakrishnan**, University of Central Florida
+- **Roshan Venkatakrishnan**, University of Central Florida
+- **Matias Volonte**, Clemson University
+- **James Walsh**, Adelaide University
+- **Yuyang Wang**, The Hong Kong University of Science and Technology (Guangzhou)
+- **Yoshihiro Watanabe**, Institute of Science Tokyo
+- **Maheshya Weerasinghe**, University of Primorska
+- **Franziska Westermeier**, Human-Computer Interaction Group, University of Würzburg
+- **Niall Williams**, University of Zaragoza
+- **Sai-Keung Wong**, National Yang Ming Chiao Tung University
+- **Xinxing Xia**, Shanghai University
+- **Sen-Zhe Xu**, University of Science and Technology Beijing
+- **Wenge Xu**, Birmingham City University
+- **Xubo Yang**, SHANGHAI JIAO TONG UNIVERSITY
+- **Yalong Yang**, Georgia Institute of Technology
+- **Sang Ho Yoon**, KAIST
+- **Jacob Young**, University of Otago
+- **Fang-Lue Zhang**, Victoria University of Wellingtong
+- **Guofeng Zhang**, Zhejiang University
+- **Song-Hai Zhang**, Tsinghua University
+- **Yu Zhao**, Kennesaw State University
+- **Yuhao Zhu**, University of Rochester
+- **Stefanie Zollmann**, Aarhus University
