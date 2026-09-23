@@ -15,52 +15,44 @@ title: Student Volunteers
 
 ## Student Volunteers
 
-- **Addison Bright** - Virginia Tech
-- **Alex Fuentes-Raventos** - Autonomous University of Barcelona
-- **Amal Hatira** - Concordia University
-- **Anastasiia Skryzhadlovska** - Bielefeld University / Bologna University
-- **Ayaka Yasunaga** - Keio University
-- **Ayan Joshi** - University of Louisville
-- **Chiara Storsillo** - Polytechnic University of Bari
-- **Er-Rebyiy Hamza** - ENSAJ
-- **Francesca Sfasciamuro** - Polytechnic University of Bari
-- **Francesca Pia Travisani** - University of Bari Aldo Moro
-- **G. Nikki Alabanza** - Virginia Tech
-- **Gauri Vinsha Singh** - Blekinge Institute of Technology (BTH)
-- **Giuseppe Lorenzo Catalano** - University of Torino
-- **Julián Méndez** - TU Dresden
-- **Karolina Trajkowska** - University of Primorska
 - **Kushagra Agrawal** - Åbo Akademi University
-- **Lahiru Sabato** - Polytechnic University of Bari
-- **Layla Farmahini Farahani** - Wageningen University & Research
-- **Luana Marangelli** - Polytechnic University of Bari
-- **Margherita Russo** - Polytechnic University of Bari
-- **Masaki Takeuchi** - University of Osaka
-- **Matias Pietro Vitale** - Polytechnic University of Bari
-- **Matteo Papangelo** - Polytechnic University of Bari
-- **Mengting Lai** - University of Bologna
-- **Mohammad Raihanul Bashar** - Concordia University
-- **Monireh Vatankhah** - École de Technologie Supérieure (ÉTS)
-- **Nasim Ahmed** - Kennesaw State University
-- **Nipa Anjum** - University of Texas at San Antonio
+- **G. Nikki Alabanza** - Virginia Tech
 - **Nishadi Ariyasinghe** - Victoria University of Wellington
-- **Nour Hatira** - Concordia University
-- **Omar Khan** - Drexel University
+- **Mohammad Raihanul Bashar** - Concordia University
+- **Addison Bright** - Virginia Tech
+- **Giuseppe Lorenzo Catalano** - University of Torino
 - **Pietro De Giglio** - University of Bari Aldo Moro
-- **Purnata Saha** - University of Texas at San Antonio
-- **Rachel Masters** - Colorado State University
-- **Roberta Romano** - Polytechnic University of Bari
-- **Romane Tissot** - Centrale Méditerranée
-- **Rumeysa Turkmen** - Concordia University
-- **Seonji Kim** - KAIST (Korea Advanced Institute of Science and Technology)
 - **Seungwoo Eun** - Pusan National University
-- **Sumaiya Sultana** - Universita degli Studi di Genova
-- **Valerio Pulcini** - Politecnico di Bari
-- **Vinh-Thuyen Nguyen-Truong** - National University of Singapore
-- **Wei-An Teng** - Virginia Tech
-- **Wen Li** - University of Bologna (Alma Mater Studiorum - Università di Bologna)
-- **Xiaoran Yang** - North Carolina State University
-- **Xiaoxuan Zhao** - Università di Bologna
-- **Xinyi Ye** - Korea Advanced Institute of Science and Technology (KAIST)
+- **Layla Farmahini Farahani** - Wageningen University & Research
+- **Alex Fuentes-Raventos** - Autonomous University of Barcelona
+- **Er-Rebyiy Hamza** - ENSAJ
+- **Amal Hatira** - Concordia University
+- **Nour Hatira** - Concordia University
+- **Ayan Joshi** - University of Louisville
+- **Seonji Kim** - KAIST (Korea Advanced Institute of Science and Technology)
 - **Young Bin Kim** - University of Canterbury
+- **Mengting Lai** - University of Bologna
+- **Wen Li** - University of Bologna (Alma Mater Studiorum - Università di Bologna)
+- **Rachel Masters** - Colorado State University
+- **Julián Méndez** - TU Dresden
+- **Vinh-Thuyen Nguyen-Truong** - National University of Singapore
+- **Matteo Papangelo** - Polytechnic University of Bari
+- **Roberta Romano** - Polytechnic University of Bari
+- **Margherita Russo** - Polytechnic University of Bari
+- **Lahiru Sabato** - Polytechnic University of Bari
+- **Francesca Sfasciamuro** - Polytechnic University of Bari
+- **Anastasiia Skryzhadlovska** - Bielefeld University / Bologna University
+- **Chiara Storsillo** - Polytechnic University of Bari
+- **Sumaiya Sultana** - Universita degli Studi di Genova
+- **Masaki Takeuchi** - University of Osaka
+- **Romane Tissot** - Centrale Méditerranée
+- **Karolina Trajkowska** - University of Primorska
+- **Francesca Pia Travisani** - University of Bari Aldo Moro
+- **Rumeysa Turkmen** - Concordia University
+- **Monireh Vatankhah** - École de Technologie Supérieure (ÉTS)
+- **Matias Pietro Vitale** - Polytechnic University of Bari
+- **Ayaka Yasunaga** - Keio University
 - **Mona Yavari** - Polytechnic University of Bari
+- **Xiaoran Yang** - North Carolina State University
+- **Xinyi Ye** - Korea Advanced Institute of Science and Technology (KAIST)
+- **Xiaoxuan Zhao** - Università di Bologna
