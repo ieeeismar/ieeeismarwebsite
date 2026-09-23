@@ -1,6 +1,6 @@
 ---
 layout: 2026/page-2026
-title: Program Committee
+title: International Program Committee
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -12,6 +12,15 @@ title: Program Committee
 
   gtag('config', 'G-FQFFZGXF3Y');
 </script>
+
+## Paper Chairs
+
+- **Mariko Isogawa**, Keio University
+- **Kangsoo Kim**, University of Calgary
+- **Alejandro Martin-Gomez**, University of Arkansas
+- **Alexander Plopski**, Graz University of Technology
+- **Missie Smith**, Auburn University
+- **Florian Weidner**, University of Glasgow
 
 ## International Program Committee Members
 
