@@ -13,7 +13,7 @@ permalink: /2026/posters/
   gtag('config', 'G-FQFFZGXF3Y');
 </script>
 ---
-*Last updated: 2026-09-21 8:00 AM CET*
+*Last updated: 2026-09-23 5:00 PM CET*
 ---
 
 All accepted posters, including those invited from the Doctoral Consortium and TVCG Journal papers, are assigned to a specific day, which has multiple presentation timeslots throughout that day. We **highly recommend being at your posters** during the allocated timeslots! This is a great opportunity to network and talk to other conference attendees.
