@@ -847,15 +847,30 @@ reminder = orange
     <div class="partners-grid">
     {% for partner in site.data["2026"].sponsors.partners %}
         <div class="partner-item">
-            {% if partner.url and partner.url != "" %}
-            <a href="{{ partner.url }}" target="_blank" class="partner-logo-link">
-                <img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }} Logo" />
-            </a>
+          {% if partner.url and partner.url != "" %}
+          <a href="{{ partner.url }}" target="_blank" class="partner-logo-link">
+            {% if partner.logos %}
+            {% for logo in partner.logos %}
+            <img src="{{ logo | relative_url }}" alt="{{ partner.name }} Logo" />
+            {% endfor %}
             {% else %}
-            <div class="partner-logo-link">
-                <img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }} Logo" />
-            </div>
+            <img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }} Logo" />
             {% endif %}
+          </a>
+          {% else %}
+          <div class="partner-logo-link">
+            {% if partner.logos %}
+            {% for logo in partner.logos %}
+            <img src="{{ logo | relative_url }}" alt="{{ partner.name }} Logo" />
+            {% endfor %}
+            {% else %}
+            <img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }} Logo" />
+            {% endif %}
+          </div>
+          {% endif %}
+          {% if partner.caption %}
+          <p class="partner-caption">{{ partner.caption }}</p>
+          {% endif %}
         </div>
         {% endfor %}
     </div>
