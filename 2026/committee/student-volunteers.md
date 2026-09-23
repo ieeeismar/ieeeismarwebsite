@@ -29,7 +29,7 @@ title: Student Volunteers
 - **Gauri Vinsha Singh** - Blekinge Institute of Technology (BTH)
 - **Giuseppe Lorenzo Catalano** - University of Torino
 - **Julián Méndez** - TU Dresden
-- **Karolina Trajkowska** - University of Primorska Faculty of Mathematics, Natural Sciences and Information Technologies
+- **Karolina Trajkowska** - University of Primorska
 - **Kushagra Agrawal** - Åbo Akademi University
 - **Lahiru Sabato** - Polytechnic University of Bari
 - **Layla Farmahini Farahani** - Wageningen University & Research
