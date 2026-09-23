@@ -28,7 +28,7 @@ permalink: /2026/sponsorship/
 
         <div class="sponsor-grid">
             {% for sponsor in site.data["2026"].sponsors.silver_sponsors %}
-            <div class="sponsor-item">
+            <div class="sponsor-item{% if sponsor.promotional_video or sponsor.promotional_page %} has-promotional{% endif %}">
                 {% if sponsor.url and sponsor.url != "" %}
                 <a href="{{ sponsor.url }}" target="_blank" class="sponsor-logo-link">
                     <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo" />
@@ -36,6 +36,20 @@ permalink: /2026/sponsorship/
                 {% else %}
                 <div class="sponsor-logo-link">
                     <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo" />
+                </div>
+                {% endif %}
+                {% if sponsor.promotional_video or sponsor.promotional_page %}
+                <div class="promotional-buttons">
+                    {% if sponsor.promotional_page %}
+                    <a href="{{ sponsor.promotional_page | relative_url }}" class="promo-button page-button">
+                        <i class="fas fa-info-circle"></i> Promotional Page
+                    </a>
+                    {% endif %}
+                    {% if sponsor.promotional_video %}
+                    <a href="{{ sponsor.promotional_video }}" target="_blank" rel="noopener" class="promo-button video-button">
+                        <i class="fas fa-play"></i> Promotional Video
+                    </a>
+                    {% endif %}
                 </div>
                 {% endif %}
             </div>
@@ -79,12 +93,27 @@ permalink: /2026/sponsorship/
         <div class="partner-item">
             {% if partner.url and partner.url != "" %}
             <a href="{{ partner.url }}" target="_blank" class="partner-logo-link">
+                {% if partner.logos %}
+                {% for logo in partner.logos %}
+                <img src="{{ logo | relative_url }}" alt="{{ partner.name }} Logo" />
+                {% endfor %}
+                {% else %}
                 <img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }} Logo" />
+                {% endif %}
             </a>
             {% else %}
             <div class="partner-logo-link">
+                {% if partner.logos %}
+                {% for logo in partner.logos %}
+                <img src="{{ logo | relative_url }}" alt="{{ partner.name }} Logo" />
+                {% endfor %}
+                {% else %}
                 <img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }} Logo" />
+                {% endif %}
             </div>
+            {% endif %}
+            {% if partner.caption %}
+            <p class="partner-caption">{{ partner.caption }}</p>
             {% endif %}
         </div>
         {% endfor %}
