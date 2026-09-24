@@ -49,10 +49,9 @@ title: Student Volunteers
 - **Karolina Trajkowska** - University of Primorska
 - **Francesca Pia Travisani** - University of Bari Aldo Moro
 - **Rumeysa Turkmen** - Concordia University
-- **Monireh Vatankhah** - École de Technologie Supérieure (ÉTS)
 - **Matias Pietro Vitale** - Polytechnic University of Bari
 - **Ayaka Yasunaga** - Keio University
 - **Mona Yavari** - Polytechnic University of Bari
 - **Xiaoran Yang** - North Carolina State University
-- **Xinyi Ye** - Korea Advanced Institute of Science and Technology (KAIST)
-- **Xiaoxuan Zhao** - Università di Bologna
+- **Xinyi Ye** - University of Canterbury
+- **Xiaoxuan Zhao** - Korea Advanced Institute of Science and Technology (KAIST)
