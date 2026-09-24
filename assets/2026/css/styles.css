@@ -1058,6 +1058,11 @@ h1.sponsors-title {
     place-items: center;
 }
 
+.bronze-tier .vera-sponsor .sponsor-logo-link img {
+    max-width: 180px;
+    max-height: 100px;
+}
+
 .exhibitor-tier .sponsor-grid {
     grid-template-columns: repeat(2, 1fr);
     max-width: 600px;

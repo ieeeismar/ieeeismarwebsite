@@ -16,12 +16,17 @@ bronze_sponsors:
     url: "https://www.khronos.org/"
     website: "www.khronos.org"
 
+  - name: "VERA"
+    full_name: "Virtual Experience Research Accelerator"
+    logo: "/assets/2026/img/sponsors/VERA.png"
+    url: "https://vera-xr.io/"
+
   - name: "HIT Lab NZ"
     full_name: "HIT Lab NZ"
     logo: "/assets/2026/img/sponsors/HITLabNZ.webp"
     url: "https://www.hitlabnz.org/"
     website: "www.hitlabnz.org"
-
+  
 
 partners:
   - name: "IEEE Computer Society"

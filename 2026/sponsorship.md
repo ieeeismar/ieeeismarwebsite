@@ -67,7 +67,7 @@ permalink: /2026/sponsorship/
 
         <div class="sponsor-grid">
             {% for sponsor in site.data["2026"].sponsors.bronze_sponsors %}
-            <div class="sponsor-item">
+            <div class="sponsor-item{% if sponsor.name == 'VERA' %} vera-sponsor{% endif %}">
                 {% if sponsor.url and sponsor.url != "" %}
                 <a href="{{ sponsor.url }}" target="_blank" class="sponsor-logo-link">
                     <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }} Logo" />
