@@ -1063,6 +1063,15 @@ h1.sponsors-title {
     max-height: 100px;
 }
 
+.bronze-tier .hitlabnz-sponsor {
+    grid-column: 1 / -1;
+}
+
+.bronze-tier .hitlabnz-sponsor .sponsor-logo-link img {
+    max-width: 300px;
+    max-height: 120px;
+}
+
 .exhibitor-tier .sponsor-grid {
     grid-template-columns: repeat(2, 1fr);
     max-width: 600px;
