@@ -45,7 +45,7 @@ permalink: /2026/sponsors-promotional-page/
           href="{{ '/2026/sponsors/MTM-Company-Profile-2026.pdf' | relative_url }}"
           target="_blank"
           rel="noopener">
-          <i class="fas fa-file-pdf" aria-hidden="true"></i> Company Profile (PDF)
+          <i class="fas fa-file-pdf" aria-hidden="true"></i> Company Profile
         </a>
       </div>
     </div>
@@ -64,14 +64,21 @@ permalink: /2026/sponsors-promotional-page/
           href="http://www.scuolavr.it"
           target="_blank"
           rel="noopener">
-          <i class="fas fa-external-link-alt" aria-hidden="true"></i> Visit Scuola VR
+          <i class="fas fa-external-link-alt" aria-hidden="true"></i> Visit Scuola VR 4.0
+        </a>
+        <a
+          class="sponsor-profile__button"
+          href="{{ '/2026/sponsors/PresentazioneScuolaVR-EDU.pdf' | relative_url }}"
+          target="_blank"
+          rel="noopener">
+          <i class="fas fa-file-pdf" aria-hidden="true"></i> Scuola VR 4.0 Presentation
         </a>
         <a
           class="sponsor-profile__button"
           href="{{ '/2026/sponsors/BrochureSCUOLAVR4.0EDU.pdf' | relative_url }}"
           target="_blank"
           rel="noopener">
-          <i class="fas fa-file-pdf" aria-hidden="true"></i> View Brochure (PDF)
+          <i class="fas fa-file-pdf" aria-hidden="true"></i> Scuola VR 4.0 Brochure
         </a>
       </div>
 
@@ -108,14 +115,14 @@ permalink: /2026/sponsors-promotional-page/
           href="{{ '/2026/sponsors/PresentazioneAURES-Tech.pdf' | relative_url }}"
           target="_blank"
           rel="noopener">
-          <i class="fas fa-file-pdf" aria-hidden="true"></i> View AURES Presentation (PDF)
+          <i class="fas fa-file-pdf" aria-hidden="true"></i> AURES Presentation
         </a>
         <a
           class="sponsor-profile__button"
           href="{{ '/2026/sponsors/BrochureAures-TECH.pdf' | relative_url }}"
           target="_blank"
           rel="noopener">
-          <i class="fas fa-file-pdf" aria-hidden="true"></i> View AURES Brochure (PDF)
+          <i class="fas fa-file-pdf" aria-hidden="true"></i> AURES Brochure
         </a>
       </div>
 
