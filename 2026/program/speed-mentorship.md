@@ -33,22 +33,6 @@ permalink: /2026/speed-mentorship/
     with several mentors during the event.
   </p>
 
-  <h3>Mentors</h3>
-  <ul>
-    <li><strong>Ali Haskins</strong>, University of Central Florida</li>
-    <li><strong>Christian Wallraven</strong>, Korea University</li>
-    <li><strong>Missie Smith</strong>, Auburn University</li>
-    <li><strong>Frank Maurer</strong>, University of Calgary</li>
-    <li><strong>Yan Hu</strong>, Blekinge Institute of Technology</li>
-    <li><strong>Florian Weidner</strong>, University of Glasgow</li>
-    <li><strong>Mayra Donaji Barrera Machuca</strong>, University of Calgary</li>
-    <li><strong>Rob Teather</strong>, Monash University</li>
-    <li><strong>Cassidy R. Nelson</strong>, University of Utah</li>
-    <li><strong>Étienne Peillard</strong>, IMT Atlantique</li>
-    <li><strong>Stefanie Zollmann</strong>, Aarhus University</li>
-    <li><strong>Daisuke Iwai</strong>, The University of Osaka</li>
-  </ul>
-
   <p>
     To help with planning, please RSVP
     for the session to secure your spot: <a
