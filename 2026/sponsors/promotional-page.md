@@ -138,5 +138,23 @@ permalink: /2026/sponsors-promotional-page/
       </div>
     </div>
   </section>
+
+  <section class="sponsor-tier sponsor-profile__section" aria-labelledby="professional-training-labs-title">
+    <div class="sponsor-profile__card">
+      <h2 id="professional-training-labs-title">Professional Training Labs 4.0</h2>
+
+      <!-- Replace this embed URL with the final YouTube link provided by the company -->
+      <div class="sponsor-profile__video">
+        <iframe
+          src="https://www.youtube.com/embed/TfYFvsfWn2o"
+          title="Professional Training Labs 4.0 video"
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </section>
 </article>
 
