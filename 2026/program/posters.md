@@ -26,6 +26,10 @@ This year, there are **no traditional poster fast-forward sessions.** Instead, f
   <a href="#day-3" class="day-btn"><span class="day-full">Friday</span><span class="day-short">Fri</span> <span class="day-date">Oct 9</span></a>
 </div>
 
+<div class="poster-board-map">
+  <img src="{{ '/assets/2026/img/venue/map/poster_board_numbers.png' | relative_url }}" alt="Map showing the poster board numbers in the exhibition hall" loading="lazy">
+</div>
+
 ----
 
 {% comment %}
@@ -44,6 +48,8 @@ Poster ID format: Poster [day][session] (e.g. Poster 3B)
 {% assign day3A = posters | where_exp:'p','p["Session"] contains "Poster 3A"' %}
 {% assign day3B = posters | where_exp:'p','p["Session"] contains "Poster 3B"' %}
 
+
+
 <div class="posters-wrapper">
   {% if day1A.size > 0 or day1B.size > 0 %}
   <section id="day-1" class="poster-day">
@@ -60,6 +66,7 @@ Poster ID format: Poster [day][session] (e.g. Poster 3B)
         <li class="poster-item">
           <details class="poster-details">
             <summary class="poster-summary">
+              <span class="poster-board">Board {{ p["Poster Board Number"] }}</span>
               <span class="poster-id">{{ p["Poster ID"] }}</span>
               <span class="poster-title">{{ p["Title"] }}</span>
               <span class="poster-authors">{% assign authors = "" %}{% for i in (1..15) %}{% assign key = "Author " | append: i %}{% if p[key] and p[key] != "" %}{% if authors != "" %}{% assign authors = authors | append: ", " %}{% endif %}{% assign authors = authors | append: p[key] %}{% endif %}{% endfor %}{{ authors }}</span>
@@ -81,6 +88,7 @@ Poster ID format: Poster [day][session] (e.g. Poster 3B)
         <li class="poster-item">
           <details class="poster-details">
             <summary class="poster-summary">
+              <span class="poster-board">Board {{ p["Poster Board Number"] }}</span>
               <span class="poster-id">{{ p["Poster ID"] }}</span>
               <span class="poster-title">{{ p["Title"] }}</span>
               <span class="poster-authors">{% assign authors = "" %}{% for i in (1..15) %}{% assign key = "Author " | append: i %}{% if p[key] and p[key] != "" %}{% if authors != "" %}{% assign authors = authors | append: ", " %}{% endif %}{% assign authors = authors | append: p[key] %}{% endif %}{% endfor %}{{ authors }}</span>
@@ -112,6 +120,7 @@ Poster ID format: Poster [day][session] (e.g. Poster 3B)
         <li class="poster-item">
           <details class="poster-details">
             <summary class="poster-summary">
+              <span class="poster-board">Board {{ p["Poster Board Number"] }}</span>
               <span class="poster-id">{{ p["Poster ID"] }}</span>
               <span class="poster-title">{{ p["Title"] }}</span>
               <span class="poster-authors">{% assign authors = "" %}{% for i in (1..15) %}{% assign key = "Author " | append: i %}{% if p[key] and p[key] != "" %}{% if authors != "" %}{% assign authors = authors | append: ", " %}{% endif %}{% assign authors = authors | append: p[key] %}{% endif %}{% endfor %}{{ authors }}</span>
@@ -133,6 +142,7 @@ Poster ID format: Poster [day][session] (e.g. Poster 3B)
         <li class="poster-item">
           <details class="poster-details">
             <summary class="poster-summary">
+              <span class="poster-board">Board {{ p["Poster Board Number"] }}</span>
               <span class="poster-id">{{ p["Poster ID"] }}</span>
               <span class="poster-title">{{ p["Title"] }}</span>
               <span class="poster-authors">{% assign authors = "" %}{% for i in (1..15) %}{% assign key = "Author " | append: i %}{% if p[key] and p[key] != "" %}{% if authors != "" %}{% assign authors = authors | append: ", " %}{% endif %}{% assign authors = authors | append: p[key] %}{% endif %}{% endfor %}{{ authors }}</span>
@@ -164,6 +174,7 @@ Poster ID format: Poster [day][session] (e.g. Poster 3B)
         <li class="poster-item">
           <details class="poster-details">
             <summary class="poster-summary">
+              <span class="poster-board">Board {{ p["Poster Board Number"] }}</span>
               <span class="poster-id">{{ p["Poster ID"] }}</span>
               <span class="poster-title">{{ p["Title"] }}</span>
               <span class="poster-authors">{% assign authors = "" %}{% for i in (1..15) %}{% assign key = "Author " | append: i %}{% if p[key] and p[key] != "" %}{% if authors != "" %}{% assign authors = authors | append: ", " %}{% endif %}{% assign authors = authors | append: p[key] %}{% endif %}{% endfor %}{{ authors }}</span>
@@ -185,6 +196,7 @@ Poster ID format: Poster [day][session] (e.g. Poster 3B)
         <li class="poster-item">
           <details class="poster-details">
             <summary class="poster-summary">
+              <span class="poster-board">Board {{ p["Poster Board Number"] }}</span>
               <span class="poster-id">{{ p["Poster ID"] }}</span>
               <span class="poster-title">{{ p["Title"] }}</span>
               <span class="poster-authors">{% assign authors = "" %}{% for i in (1..15) %}{% assign key = "Author " | append: i %}{% if p[key] and p[key] != "" %}{% if authors != "" %}{% assign authors = authors | append: ", " %}{% endif %}{% assign authors = authors | append: p[key] %}{% endif %}{% endfor %}{{ authors }}</span>
@@ -214,6 +226,8 @@ Mohammed Safayet Arefin, Andrea Boensch, Francesco Ferrise, Cassidy Nelson
 .day-btn:hover { background:#2878DB; transform:translateY(-1px); box-shadow:0 3px 8px rgba(0,0,0,.18); text-decoration:none !important; color:#fff !important; }
 .day-date { font-size:0.75rem; font-weight:500; opacity:0.85; }
 .day-short { display:none; }
+.poster-board-map { margin:12px 0 16px; }
+.poster-board-map img { display:block; width:100%; max-width:560px; height:auto; margin:0 auto; border:1px solid rgba(58, 139, 243, 0.35); border-radius:8px; }
 
 .posters-wrapper { max-width: 1050px; margin: 8px 0 28px 0; }
 .poster-day { margin-bottom: 26px; scroll-margin-top: 130px; }
@@ -269,6 +283,7 @@ Mohammed Safayet Arefin, Andrea Boensch, Francesco Ferrise, Cassidy Nelson
 
 .poster-id { display:inline-block; background: #2878DB; color:#fff; font-size:0.60rem; letter-spacing:.45px; font-weight:600; padding:5px 6px 5px; border-radius:6px; margin:0 8px 3px 0; vertical-align:middle; box-shadow:0 1px 2px rgba(0,0,0,.15); line-height:1; }
 .session-b .poster-id { background: #F28C28; }
+.poster-board { display:inline-block; background:#fff4d6; color:#7a4b00; font-size:0.65rem; font-weight:700; padding:4px 6px; border-radius:6px; margin:0 6px 3px 0; vertical-align:middle; line-height:1; }
 .poster-authors { display:block; font-size:0.66rem; line-height:1.15; margin:3px 0 0 0; color:#444; }
 
 @media (max-width: 640px){
