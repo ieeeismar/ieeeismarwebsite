@@ -171,7 +171,7 @@ Join fellow ISMAR 2026 participants for three informal activities that bring the
 
 <tr>
   <td><strong>Cost</strong></td>
-  <td>Free of charge.</td>
+  <td>Included in the registration fee.</td>
 </tr>
 
 
