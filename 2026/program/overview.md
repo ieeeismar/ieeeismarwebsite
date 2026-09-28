@@ -859,6 +859,8 @@ permalink: /2026/overview/
       <!-- Coffee Break 10:00-10:15 (Track 2) -->
       <div class="timeline-item coffee row-1000 span-15" style="grid-column: 5 / 8;">
         <strong>Coffee Break</strong>
+        <small>Cassiopea</small>
+        <span>10:00–10:15</span>
       </div>
 
       <!-- Keynote 2: 10:15-11:30 -->

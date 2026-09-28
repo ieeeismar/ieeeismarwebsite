@@ -578,6 +578,12 @@ reminder = orange
   <h3 class="info-categories-title">News &amp; Announcements</h3>
 
   <div class="info-categories-container">
+    <article class="info-category news">
+      <h4>Discover the ISMAR 2026 Social Events</h4>
+      <p>Connect with fellow participants and explore Bari's local culture through the Bari Vecchia Old Town Tour and Orecchiette Challenge.</p>
+      <p><a href="/2026/social-events/">Discover Social Events &rarr;</a></p>
+    </article>
+
     <article class="info-category info">
       <h4>IEEE ISMAR 2026 Registration is Open!</h4>
 

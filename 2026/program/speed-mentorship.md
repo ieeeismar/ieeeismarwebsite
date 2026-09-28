@@ -72,3 +72,9 @@ permalink: /2026/speed-mentorship/
   </a>
 
 </section>
+
+
+## Questions?
+For any enquiries, please contact <a href="mailto:s.woods@computer.org">s.woods@computer.org</a> 
+
+- Steve Woods, IEEE Computer Society
