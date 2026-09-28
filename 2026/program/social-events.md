@@ -185,8 +185,7 @@ Join fellow ISMAR 2026 participants for three informal activities that bring the
 
 - A ticket will be provided during registration and must be brought to the meeting point.
 - Participants may order a typical Bari-style aperitif (panzerotto + beverage) while the groups are being formed. The aperitif is at the participant’s own expense; we recommend bringing €5 in cash.
-- A booking form will be distributed so that participants can reserve the tour according to their preferred date. The number of available places for each date will be limited.
-
+- The number of available places for each date will be limited, so we will take into account the preferences provided in the form that was distributed in recent weeks.
 
 ## Orecchiette Challenge
 
@@ -209,3 +208,13 @@ An activity where participants will learn how to make traditional orecchiette pa
 - At the end of each coffee break, the chef will select one winner for each challenge.
 - At the end of the conference, the six best participants from each challenge will compete for the final title, and one overall winner will be selected!
 
+## Monster Hunt
+
+Take part in a playful Monster Hunt designed to bring ISMAR participants together through a fun, collaborative challenge. Participants will search for clues, complete tasks and compete to become the conference's Monster Hunt winners.
+
+| | Details |
+| --- | --- |
+| **What** | Clue and challenge game |
+| **Where** | To be announced |
+| **When** | To be announced |
+| **Prize** | Details to be announced |

@@ -580,7 +580,7 @@ reminder = orange
   <div class="info-categories-container">
     <article class="info-category news">
       <h4>Discover the ISMAR 2026 Social Events</h4>
-      <p>Connect with fellow participants and explore Bari's local culture through the Bari Vecchia Old Town Tour and Orecchiette Challenge.</p>
+      <p>Connect with fellow participants and explore Bari's local culture through the Bari Vecchia Old Town Tour, Orecchiette Challenge and Monster Hunt Game.</p>
       <p><a href="/2026/social-events/">Discover Social Events &rarr;</a></p>
     </article>
 
