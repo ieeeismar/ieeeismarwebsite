@@ -60,19 +60,13 @@ Fraunhofer FIT, Sankt Augustin, Germany
 * **Website link:** [https://www.fit.fraunhofer.de/en/business-areas/cooperation-systems/mixed-reality.html](https://www.fit.fraunhofer.de/en/business-areas/cooperation-systems/mixed-reality.html)
 * **Presenter:** Leif Oppermann
 
-## **Dynamic Reality Lab**
-
-University of Nebraska, Lincoln, United States
-
-* **Website link:** [https://dynamicrealitylab.com/](https://dynamicrealitylab.com/)
-* **Presenter:** You-Jin Kim
 
 ## **HIT Lab NZ**
 
 University of Canterbury, Christchurch, New Zealand
 
 * **Website link:** [https://www.hitlabnz.org/](https://www.hitlabnz.org/)
-* **Presenter:** Susanne Schmidt
+* **Presenter:** Susanne Schmidt and Stephan Lukosch
 
 ## **Embodied Visualisation Group**
 
@@ -102,12 +96,6 @@ KAIST KI ITC, Daejeon, South Korea
 * **Website link:** [https://arrc.kaist.ac.kr](https://arrc.kaist.ac.kr)
 * **Presenter:** Kiyoung Kim
 
-## **109 Design**
-
-109 Design, San Francisco, United States
-
-* **Website link:** [https://109design.com](https://109design.com)
-* **Presenter:** Frank Olivier
 
 ## **SEE VR Lab**
 
@@ -164,3 +152,10 @@ Adelaide University, Adelaide, Australia
 
 * **Website link:** [https://wearables.unisa.edu.au/](https://wearables.unisa.edu.au/)
 * **Presenter:** Juan Pieschacon
+
+## **HST VR Lab**
+
+University of Torino, Torino, Italy
+
+* **Website link:** [https://www.hst.unito.it/infrastruttura/laboratori/](https://www.hst.unito.it/infrastruttura/laboratori/)
+* **Presenter:** Agata Marta Soccini
