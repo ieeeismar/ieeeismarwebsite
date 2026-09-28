@@ -206,7 +206,7 @@ An activity where participants will learn how to make traditional orecchiette pa
   - **Most unusual orecchietta**
   - **Smallest orecchietta**
 - At the end of each coffee break, the chef will select one winner for each challenge.
-- At the end of the conference, the six best participants from each challenge will compete for the final title, and one overall winner will be selected!
+- At the end of the conference, a single overall winner will be announced from among the top six participants in each challenge!
 
 ## Monster Hunt
 
