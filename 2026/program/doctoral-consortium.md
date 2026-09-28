@@ -14,6 +14,10 @@ permalink: /2026/doctoral-consortium/
   gtag('config', 'G-FQFFZGXF3Y');
 </script>
 
+## Overview
+
+The Doctoral Consortium at ISMAR 2026 is a concentrated event where students present their research interests, plans, and results to a panel of researchers in related fields and receive specific and constructive feedback, including opportunities to meet with mentors one-on-one. Accepted students will give in-depth presentations of their research and will receive valuable comments from mentors. Additionally, they will also have the opportunity to present a poster or a demo of their work at the respective sessions.
+
 ## Doctoral Consortium Schedule
 
 <strong>Day:</strong> Monday, 5th of October 2026
