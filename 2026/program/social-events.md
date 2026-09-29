@@ -118,7 +118,7 @@ permalink: /2026/social-events/
 
 Join fellow ISMAR 2026 participants for three informal activities that bring the conference community together and showcase Bari's local culture.
 
-## Bari Vecchia Old Town Tour
+## Bari Vecchia (Old Town) Tour
 
 <table class="social-event-table">
   <thead>
