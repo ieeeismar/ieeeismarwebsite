@@ -200,6 +200,7 @@ An activity where participants will learn how to make traditional orecchiette pa
 
 **Notes**:
 
+- During the coffee break, participants who wish to take part should ask an SV near the orecchiette area to be added to the corresponding session slot.
 - During each coffee break, the activity will be organized into consecutive sessions, with a maximum of 15 participants per session.
 - During the activity, participants will take part in three challenges:
   - **Most beautiful orecchietta**
