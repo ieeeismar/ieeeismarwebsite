@@ -28,7 +28,7 @@ The Doctoral Consortium at ISMAR 2026 is a concentrated event where students pre
 
 <strong style="font-size: 1.08em;">8:15 AM – 9:15 AM</strong>    <strong style="font-size: 1.08em;">Session1: Social XR (60 min: 10 min talk + 2 min Q&A)</strong>
 
-{% assign session1_ids = "1024,1026,1034,1041,1048" | split: "," %}
+{% assign session1_ids = "1041,1026,1034,1024,1048" | split: "," %}
 {% for id in session1_ids %}
   {% assign dc = site.data["2026"]["program"].doctoral_consortium | where: "ID", id | first %}
 &nbsp;&nbsp;&nbsp;<strong>DC{{ dc["ID"] }}:</strong> <span style="color: #1a73e8;">{{ dc["Submission title"] }}</span><br>
