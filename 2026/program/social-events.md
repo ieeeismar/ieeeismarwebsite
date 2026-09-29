@@ -214,7 +214,7 @@ Take part in a playful Monster Hunt designed to bring ISMAR participants togethe
 
 | | Details |
 | --- | --- |
-| **What** | Clue and challenge game |
-| **Where** | To be announced |
-| **When** | To be announced |
+| **What** | Participants need to find 100 monster codes around the venue to scan with their codes |
+| **Where** | Clues may be posted on discord |
+| **When** | Duration is opening ceremony - Friday end of lunch |
 | **Prize** | Details to be announced |
