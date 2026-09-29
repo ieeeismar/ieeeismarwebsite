@@ -51,6 +51,22 @@ permalink: /2026/social-events/
     height: 260px;
   }
 
+  .social-event-street-view {
+    margin-top: 0.9rem;
+  }
+
+  .social-event-street-view iframe {
+    display: block;
+    width: 100%;
+    height: 360px;
+    border: 0;
+  }
+
+  .social-event-street-view small {
+    display: block;
+    margin-top: 0.35rem;
+  }
+
   @media (max-width: 600px) {
     .social-event-table > tbody > tr > th,
     .social-event-table > tbody > tr > td {
@@ -90,6 +106,10 @@ permalink: /2026/social-events/
     .social-event-media iframe,
     .social-event-media img {
       height: 220px !important;
+    }
+
+    .social-event-street-view iframe {
+      height: 240px;
     }
   }
 </style>
@@ -158,6 +178,17 @@ Join fellow ISMAR 2026 participants for three informal activities that bring the
         </td>
       </tr>
     </table>
+
+    <div class="social-event-street-view">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!4v1790608012628!6m8!1m7!1sNsb8bJaJjkbl6I8MrMmGWQ!2m2!1d41.12800523599131!2d16.86555193830506!3f22.547388599063837!4f2.0058502865227155!5f0.7820865974627469"
+        title="Street View near Giardini d'Aragona"
+        allowfullscreen
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin">
+      </iframe>
+      <small>Street View near Giardini d'Aragona</small>
+    </div>
   </td>
 </tr>
 
