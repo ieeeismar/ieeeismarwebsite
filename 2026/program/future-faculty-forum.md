@@ -65,25 +65,19 @@ We will also host a “speed advising” session to facilitate more personalised
 
 All times are given in the local time zone of **Bari, Italy**.
 
-<!--
-TODO:
-- Change the times to match the ISMAR draft schedule.
-- Remove Panel 3 about preparing for a future career, or reorganize the schedule.
--->
-
 | Start | End | Topic |
 |:------|:----|:------|
-| 08:30 | 08:45 | Opening Remarks |
-| 08:45 | 09:45 | **Tutorial:** Professor Application Process in Italy and Europe |
+| 08:45 | 09:00 | Opening remarks |
+| 09:00 | 09:45 | **Tutorial:** Application Materials (Research, Teaching, and Diversity Statements)<br> - *Alejandro Martin-Gomez (University of Arkansas)*<br> - *Jeanine Stefanucci (University of Utah)* |
 | 09:45 | 10:30 | Break |
-| 10:30 | 11:15 | **Panel 1:** Differences in Universities: Geographical, Research vs. Teaching Allocations |
-| 11:15 | 12:00 | **Panel 2:** Lab Formation and Management |
+| 10:30 | 11:15 | **Panel 1:** Differences in Universities (Geographical, Research vs. Teaching Allocations)<br> - *Richard Skarbez (La Trobe University)*<br> - *Bret Jackson (Macalester College)*<br> - *Mayra Barrera (University of Calgary)*<br> - *Georgia Albuquerque (German Aerospace Center (DLR))* |
+| 11:15 | 12:00 | **Panel 2:** Lab Formation and Management<br> - *Steve Feiner (Columbia University)*<br> - *Frank Maurer (University of Calgary)*<br> - *Gustavo Marfia (University of Bologna)*<br> - *Doug Bowman (Virginia Tech)* |
 | 12:00 | 14:00 | Lunch (not catered) |
-| 14:00 | 14:45 | **Tutorial:** Review and Critique of Application Materials (Research, Teaching, and Diversity Statements) |
-| 14:45 | 15:30 | **Panel 3:** Preparing for Your Future Career Before Graduation |
+| 14:00 | 14:45 | **Tutorial:** Professor Application Process in Italy and Europe<br> - *Francesco Ferrise (Politecnico di Milano)*<br> - *Florian Weidner (University of Glasgow)* |
+| 14:45 | 15:30 | **Panel 3:** Challenges and Opportunities of Interdisciplinary Research<br> - *Stephan Lukosch (University of Canterbury)*<br> - *Ed Swan (Mississippi State University)*<br> - *Mirjam Vosmeer (Amsterdam University of Applied Sciences)*<br> - *Tobias Höllerer (University of California, Santa Barbara)* |
 | 15:30 | 16:15 | Break |
-| 16:15 | 17:00 | **Panel 4:** Challenges and Opportunities of Interdisciplinary Research |
-| 17:00 | 17:30 | Closing Remarks + Speed Advising |
+| 16:15 | 17:00 | **Panel 4:** Preparing for Your Future Career Before Graduation<br> - *Greg Welch (The University of Central Florida)*<br> - *Doga Demirel (University of Oklahoma)*<br> - *Étienne Peillard (IMT Atlantique)* |
+| 17:00 | 17:15 | Closing Remarks |
 
 ---
 
