@@ -43,6 +43,18 @@ permalink: /2026/speed-mentorship/
       IEEE ISMAR 2026 Speed Mentorship Session.
     </a>
 
+    <div style="margin: 1rem 0 0.5rem;">
+
+      <a
+        href="https://ieeecs-media.computer.org/media/conferences/ismar/ismar26-mentors.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        style="display:inline-block; padding:0.8rem 1.4rem; border-radius:999px; background:#3A8BF3; color:#fff; font-weight:900; text-decoration:none;"
+      >
+        Meet the Mentors
+      </a>
+    </div>
+
     Take advantage of this excellent
     opportunity to learn and grow and have some fun, and then join us for the
     student reception afterward.
