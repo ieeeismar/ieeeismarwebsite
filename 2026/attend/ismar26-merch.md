@@ -25,3 +25,132 @@ The collection currently includes t-shirts, hooded sweatshirts, hats, and more.
 The collection is constantly expanding, so stay tuned for more merch!
 
 Please note that apparel is optional and is not included in the conference registration fee. Prices are determined by the print-on-demand platform, which requires a minimum 15% profit margin that will be used to support ISMAR 2026 conference activities, such as diversity initiatives.
+
+## Some of the Merch
+
+<style>
+  .merch-products {
+    position: relative;
+    margin: 2rem 0;
+  }
+
+  .merch-slider-viewport {
+    overflow: hidden;
+  }
+
+  .merch-slider-track {
+    display: flex;
+    gap: 1rem;
+    animation: merch-scroll 18s linear infinite;
+    will-change: transform;
+  }
+
+  @keyframes merch-scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(var(--merch-slide-distance) * -5));
+    }
+  }
+
+  .merch-product {
+    flex: 0 0 calc((100% - 2rem) / 3);
+    margin: 0;
+    text-align: center;
+  }
+
+  .merch-product img {
+    display: block;
+    width: min(100%, 420px);
+    height: auto;
+    margin: 0 auto 0.75rem;
+  }
+
+  .merch-product figcaption {
+    line-height: 1.5;
+  }
+
+  @media (max-width: 600px) {
+    .merch-product {
+      flex-basis: calc((100% - 1rem) / 2);
+    }
+  }
+
+  @media (max-width: 420px) {
+    .merch-product {
+      flex-basis: 100%;
+    }
+  }
+</style>
+
+<div class="merch-products">
+  <div class="merch-slider-viewport" aria-live="polite">
+    <div class="merch-slider-track">
+  <figure class="merch-product">
+    <a href="https://ismar-2026-official-items.printify.me/product/32375398" target="_blank" rel="noopener noreferrer">
+      <img src="{{ '/assets/2026/img/Merch/ismar-2026-water-bottle.jpg' | relative_url }}" alt="ISMAR 2026 Water Bottle">
+    </a>
+    <figcaption>
+      <a href="https://ismar-2026-official-items.printify.me/product/32375398" target="_blank" rel="noopener noreferrer">ISMAR 2026 Water Bottle</a>
+    </figcaption>
+  </figure>
+
+  <figure class="merch-product">
+    <a href="https://ismar-2026-official-items.printify.me/product/32375079" target="_blank" rel="noopener noreferrer">
+      <img src="{{ '/assets/2026/img/Merch/ismar-2026-pin-button.jpg' | relative_url }}" alt="ISMAR 2026 Pin Button">
+    </a>
+    <figcaption>
+      <a href="https://ismar-2026-official-items.printify.me/product/32375079" target="_blank" rel="noopener noreferrer">ISMAR 2026 Pin Button</a>
+    </figcaption>
+  </figure>
+
+  <figure class="merch-product">
+    <a href="https://ismar-2026-official-items.printify.me/product/31796354" target="_blank" rel="noopener noreferrer">
+      <img src="{{ '/assets/2026/img/Merch/ismar-2026-denim-hat.jpg' | relative_url }}" alt="ISMAR 2026 Denim Hat">
+    </a>
+    <figcaption>
+      <a href="https://ismar-2026-official-items.printify.me/product/31796354" target="_blank" rel="noopener noreferrer">ISMAR 2026 Denim Hat</a>
+    </figcaption>
+  </figure>
+
+  <figure class="merch-product">
+    <a href="https://ismar-2026-official-items.printify.me/product/31796207" target="_blank" rel="noopener noreferrer">
+      <img src="{{ '/assets/2026/img/Merch/ismar-2026-unisex-tshirt.jpg' | relative_url }}" alt="ISMAR 2026 Unisex T-Shirt">
+    </a>
+    <figcaption>
+      <a href="https://ismar-2026-official-items.printify.me/product/31796207" target="_blank" rel="noopener noreferrer">ISMAR 2026 Unisex T-Shirt</a>
+    </figcaption>
+  </figure>
+
+  <figure class="merch-product">
+    <a href="https://ismar-2026-official-items.printify.me/product/31759737" target="_blank" rel="noopener noreferrer">
+      <img src="{{ '/assets/2026/img/Merch/ismar-2026-hooded-sweatshirt.jpg' | relative_url }}" alt="ISMAR 2026 Hooded Sweatshirt">
+    </a>
+    <figcaption>
+      <a href="https://ismar-2026-official-items.printify.me/product/31759737" target="_blank" rel="noopener noreferrer">ISMAR 2026 Hooded Sweatshirt</a>
+    </figcaption>
+  </figure>
+    </div>
+  </div>
+</div>
+
+<script>
+  (() => {
+    const slider = document.querySelector('.merch-products');
+    const track = slider.querySelector('.merch-slider-track');
+    const originalSlides = [...track.children];
+
+    originalSlides.slice(0, 3).forEach((slide) => {
+      track.appendChild(slide.cloneNode(true));
+    });
+
+    const updateSlideDistance = () => {
+      const slideDistance = originalSlides[0].offsetWidth + parseFloat(getComputedStyle(track).gap);
+      track.style.setProperty('--merch-slide-distance', `${slideDistance}px`);
+    };
+
+    updateSlideDistance();
+    window.addEventListener('resize', updateSlideDistance);
+  })();
+</script>
