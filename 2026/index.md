@@ -80,7 +80,7 @@ redirect_from: /
 <div class="ismar-glance-grid">
 
   <div class="ismar-stat">
-    <span class="ismar-counter" data-target="218">0</span>
+    <span class="ismar-counter" data-target="216">0</span>
     <span class="ismar-stat-label">Papers</span>
   </div>
 
@@ -95,7 +95,7 @@ redirect_from: /
   </div>
 
   <div class="ismar-stat">
-    <span class="ismar-counter" data-target="127">0</span>
+    <span class="ismar-counter" data-target="126">0</span>
     <span class="ismar-stat-label">Poster Papers</span>
   </div>
 
@@ -105,7 +105,7 @@ redirect_from: /
   </div>
 
   <div class="ismar-stat">
-    <span class="ismar-counter" data-target="29">0</span>
+    <span class="ismar-counter" data-target="27">0</span>
     <span class="ismar-stat-label">Demos</span>
   </div>
 
