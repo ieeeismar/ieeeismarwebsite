@@ -1,7 +1,7 @@
 ---
 layout: 2026/attend-page-2026
 title: Discord Access Instructions
-permalink: /2026/discord-access/
+permalink: /2026/discord/
 ---
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FQFFZGXF3Y"></script>
