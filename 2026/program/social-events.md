@@ -142,6 +142,7 @@ Join fellow ISMAR 2026 participants for three informal activities that bring the
     Meeting point: <strong>Giardini d'Aragona</strong>, in front of the south-eastern bastion of Castello Svevo.
     From the conference venue, you can take bus 27 directly, or alternatively buses 6 or 10.
     The meeting point is approximately 25–30 minutes from the conference venue by bus.
+    A bus ticket costs €1–€1.50 and can be purchased on board.
 
     <table class="social-event-media">
       <tr>
