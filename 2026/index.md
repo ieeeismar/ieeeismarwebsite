@@ -615,10 +615,10 @@ reminder = orange
     </article>
 
     <article class="info-category anouncement">
-      <h4>ISMAR 2026 Items Are Now Available!</h4>
-      <p>Participants can now purchase official ISMAR 2026 conference items, including t-shirts, hooded sweatshirts, hats, and more.</p>
+      <h4>ISMAR 2026 Merch Are Now Available!</h4>
+      <p>Participants can now purchase official ISMAR 2026 conference merch, including t-shirts, hooded sweatshirts, hats, and more.</p>
       <a class="anouncement-button" href="https://ismar-2026-official-items.printify.me/" target="_blank" rel="noopener noreferrer">
-        Purchase ISMAR 2026 Items
+        Purchase ISMAR 2026 Merch
       </a>
     </article>
 
