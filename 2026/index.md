@@ -608,12 +608,6 @@ reminder = orange
   </a>
 </article>
 
-    <article class="info-category news">
-      <h4>Discord Access Instructions</h4>
-      <p>The ISMAR 2026 Discord access link will be available soon.</p>
-      <p><a href="/2026/discord-access/">Discord Access Instructions &rarr;</a></p>
-    </article>
-
     <article class="info-category anouncement">
       <h4>ISMAR 2026 Merch Are Now Available!</h4>
       <p>Participants can now purchase official ISMAR 2026 conference merch, including t-shirts, hooded sweatshirts, hats, and more.</p>
