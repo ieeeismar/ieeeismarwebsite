@@ -20,7 +20,6 @@ Use the server to receive conference updates, access dedicated discussion channe
 
 ## How to Join
 
-Join the official ISMAR 2026 Discord server:
 [Join the official ISMAR 2026 Discord server](https://discord.gg/7rAKWEWcc)
 
 Locate the 16-digit registration token sent to the email address used for your ISMAR 2026 registration.
