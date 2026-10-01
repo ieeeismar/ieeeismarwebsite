@@ -15,11 +15,12 @@ permalink: /2026/speed-mentorship/
   gtag('config', 'G-FQFFZGXF3Y');
 </script>
 
+**Date/Time**: Monday, 5 October · 4:00–5:30pm<br>
+**Room**: Veranda<br>
+
 <section>
 
-  <p>
-    <strong>Monday, 5 October · 4:00–5:30pm</strong>
-  </p>
+
 
   <p>
     We’re excited to include a Speed Mentorship session at ISMAR 2026 at which

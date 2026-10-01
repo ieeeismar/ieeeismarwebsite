@@ -263,6 +263,7 @@ permalink: /2026/overview/
       <!-- Speed Mentorship: 17:00-18:30 (Track 2) -->
       <a href="/2026/speed-mentorship/" class="timeline-item panel speed-mentorship row-1615 span-90" style="grid-column: 8 / 11;">
         <strong>Speed Mentorship</strong>
+        <small>Veranda</small>
         <span>16:15–17:45</span>
       </a>
 
