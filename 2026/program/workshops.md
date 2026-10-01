@@ -30,8 +30,8 @@ permalink: /2026/workshops/
   <a href="#day-2" class="day-btn"><span class="day-full">Tuesday</span><span class="day-short">Tue</span> <span class="day-date">Oct 6</span></a>
 </div>
 
-### Monday - October 5, 2026
-{: #day-1 .workshop-day-title }
+<section id="day-1" class="workshop-day">
+  <h3 class="workshop-day-title">Monday - October 5, 2026</h3>
 
 <div class="session-nav">
   <a href="#monday-all-day" class="session-btn">All Day <span class="session-count">{{ monday_all.size }}</span></a>
@@ -151,8 +151,10 @@ permalink: /2026/workshops/
 </section>
 {% endif %}
 
-### Tuesday - October 6, 2026
-{: #day-2 .workshop-day-title }
+</section>
+
+<section id="day-2" class="workshop-day">
+  <h3 class="workshop-day-title">Tuesday - October 6, 2026</h3>
 
 <div class="session-nav">
   <a href="#tuesday-all-day" class="session-btn">All Day <span class="session-count">{{ tuesday_all.size }}</span></a>
@@ -272,13 +274,16 @@ permalink: /2026/workshops/
 </section>
 {% endif %}
 
+</section>
+
 <style>
 .day-nav { display:flex; gap:10px; padding:12px 10px; margin:-8px -10px 8px; position:sticky; top:70px; background:#F4E8D4; z-index:11; }
 .day-btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; padding:10px 18px; border-radius:8px; font-size:.9rem; font-weight:600; text-decoration:none; background:#3A8BF3; color:#fff !important; box-shadow:0 2px 4px rgba(0,0,0,.12); flex:1 1 0; min-width:0; }
 .day-btn:hover { background:#2878DB; text-decoration:none !important; color:#fff !important; }
 .day-date { font-size:.75rem; font-weight:500; opacity:.85; }
 .day-short { display:none; }
-.workshop-day-title { margin:0; font-size:1.35rem; border:0; padding:8px 10px 6px; position:sticky; top:128px; background:#F4E8D4; z-index:10; margin-left:-10px; margin-right:-10px; scroll-margin-top:130px; }
+.workshop-day { margin-bottom:26px; scroll-margin-top:130px; }
+.workshop-day-title { margin:0; font-size:1.35rem; border:0; padding:8px 10px 6px; position:sticky; top:128px; background:#F4E8D4; z-index:10; margin-left:-10px; margin-right:-10px; }
 .session-nav { display:flex; flex-wrap:wrap; gap:8px; margin:0 -10px 16px; padding:0 10px 12px; position:sticky; top:168px; background:#F4E8D4; z-index:9; box-shadow:0 -30px 0 #F4E8D4; }
 .session-btn { display:inline-flex; align-items:center; gap:8px; padding:8px 14px; border-radius:8px; font-size:.8rem; font-weight:600; text-decoration:none; background:#3A8BF3; color:#fff !important; box-shadow:0 1px 3px rgba(0,0,0,.1); }
 .session-btn:hover { background:#2878DB; color:#fff !important; text-decoration:none; }
