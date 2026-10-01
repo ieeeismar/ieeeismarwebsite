@@ -227,7 +227,7 @@ Mohammed Safayet Arefin, Andrea Boensch, Francesco Ferrise, Cassidy Nelson
 .day-date { font-size:0.75rem; font-weight:500; opacity:0.85; }
 .day-short { display:none; }
 .poster-board-map { margin:12px 0 16px; }
-.poster-board-map img { display:block; width:100%; max-width:560px; height:auto; margin:0 auto; border:1px solid rgba(58, 139, 243, 0.35); border-radius:8px; }
+.poster-board-map img { display:block; width:100%; max-width:360px; height:auto; margin:0 auto; border:none; border-radius:0; }
 
 .posters-wrapper { max-width: 1050px; margin: 8px 0 28px 0; }
 .poster-day { margin-bottom: 26px; scroll-margin-top: 130px; }
