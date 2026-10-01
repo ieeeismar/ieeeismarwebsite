@@ -180,7 +180,7 @@ permalink: /2026/overview/
       </div>
 
       <!-- Doctoral Consortium: 08:15-09:45 (Track 2) -->
-      <a href="/2026/doctoral-consortium/" class="timeline-item doctoral row-815 span-90" style="grid-column: 8 / 11;">
+      <a href="/2026/doctoral-consortium/#session-1" class="timeline-item doctoral row-815 span-90" style="grid-column: 8 / 11;">
         <strong>Doctoral Consortium</strong>
         <small>Glasshaus</small>
         <span>08:15–09:45</span>
@@ -208,7 +208,7 @@ permalink: /2026/overview/
       </div>
 
       <!-- Doctoral Consortium: 10:30-12:00 (Track 2) -->
-      <a href="/2026/doctoral-consortium/" class="timeline-item doctoral row-1030 span-90" style="grid-column: 8 / 11;">
+      <a href="/2026/doctoral-consortium/#session-2b" class="timeline-item doctoral row-1030 span-90" style="grid-column: 8 / 11;">
         <strong>Doctoral Consortium</strong>
         <small>Glasshaus</small>
         <span>10:30–12:00</span>
@@ -234,7 +234,7 @@ permalink: /2026/overview/
       </div>
 
       <!-- Doctoral Consortium: 14:00-15:30 (Track 2) -->
-      <a href="/2026/doctoral-consortium/" class="timeline-item doctoral row-1400 span-90" style="grid-column: 8 / 11;">
+      <a href="/2026/doctoral-consortium/#mentoring-sessions" class="timeline-item doctoral row-1400 span-90" style="grid-column: 8 / 11;">
         <strong>Doctoral Consortium</strong>
         <small>Glasshaus</small>
         <span>14:00–15:30</span>
