@@ -226,7 +226,7 @@ An activity where participants will learn how to make traditional orecchiette pa
 | | Details |
 | --- | --- |
 | **What** | Learn how to make traditional orecchiette pasta and take part in a creative challenge |
-| **Where** | Cassiopea |
+| **Where** | Sala Expositiva |
 | **When** | During the coffee breaks on October 7, 8, and 9, 2026 |
 | **Cost** | Included in the registration fee |
 
