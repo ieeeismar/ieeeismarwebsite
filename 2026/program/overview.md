@@ -12,7 +12,7 @@ permalink: /2026/overview/
 
   gtag('config', 'G-FQFFZGXF3Y');
 </script>
-*Last updated: 2026-09-16 10:00AM CET*
+*Last updated: 2026-10-01 17:00PM CET*
 
 # Program Overview
 
@@ -735,6 +735,13 @@ permalink: /2026/overview/
         <span>17:45–18:45</span>
       </a>
 
+      <!-- Women@ISMAR Initial Gathering: Wednesday 18:30 -->
+      <a href="/2026/women@ismar/" class="timeline-item social row-1830 span-30" style="grid-column: 2 / 5;">
+        <strong>Women@ISMAR Initial Gathering</strong>
+        <small>Glasshaus</small>
+        <span>18:30</span>
+      </a>
+
       <!-- Bari Vecchia (Old Town) Tour: 20:00-21:30 -->
       <div class="timeline-item tour row-2000 span-90" style="grid-column: 2 / 11;">
         <strong>Bari Vecchia (Old Town) Tour</strong>
@@ -860,7 +867,6 @@ permalink: /2026/overview/
       <!-- Coffee Break 10:00-10:15 (Track 2) -->
       <div class="timeline-item coffee row-1000 span-15" style="grid-column: 5 / 8;">
         <strong>Coffee Break</strong>
-        <small>Cassiopea</small>
         <span>10:00–10:15</span>
       </div>
 
@@ -1766,6 +1772,8 @@ a.timeline-item.demo:hover { text-decoration: none; filter: brightness(0.97); }
 .timeline-item.panel { background: #e6f1fb; border-left: 3px solid #4389cb; text-decoration: none; color: inherit; }
 a.timeline-item.panel:hover { filter: brightness(0.95); text-decoration: none; }
 .timeline-item.social { background: #fce4ec; border-left: 3px solid #e91e63; }
+a.timeline-item.social { color: inherit; text-decoration: none; }
+a.timeline-item.social:hover { filter: brightness(0.97); text-decoration: none; }
 .timeline-item.workshop { background: #e6f1fb; border-left: 3px solid #4389cb; } /* blue */
 .timeline-item.doctoral { background: #e6f1fb; border-left: 3px solid #4389cb; text-decoration: none; color: inherit; } /* blue */
 a.timeline-item.doctoral:hover { text-decoration: none; filter: brightness(0.97); }

@@ -19,6 +19,13 @@ permalink: /2026/women@ismar/
 
 ## Women @ ISMAR
 ---
+
+<aside class="women-ismar-event">
+  <strong>Initial Gathering</strong>
+  <span>Wednesday, October 7 · 18:30</span>
+  <span>Glasshaus</span>
+</aside>
+
 ISMAR 2026 is pleased to launch Women @ ISMAR, a new community initiative dedicated to fostering meaningful connections and building lasting professional networks among women in the ISMAR community.
 
 Our vision is to strengthen the ISMAR community by creating opportunities for participants to connect across career stages, institutions, countries, and sectors. Whether you are a student attending your first ISMAR, an early-career researcher establishing your professional network, or an experienced academic or industry leader, Women @ ISMAR aims to facilitate conversations, mentorship, collaboration, and relationships that extend well beyond the conference.
@@ -34,4 +41,9 @@ We invite you to join us in building a vibrant, connected, and welcoming communi
 To help us plan the inaugural Women @ ISMAR program, we encourage you to submit your expression of interest by **August 30**. Early responses will directly inform the activities and events we organize for ISMAR 2026. We will continue to welcome expressions of interest after this date; however, activities may already be finalized.
 
 Please complete the <a href="https://docs.google.com/forms/d/e/1FAIpQLSc75Sc-WwFlYs-hBJJOpRFJHX4eDgsAMvPBks9eueAnUjk_nA/viewform?usp=header">Women @ ISMAR Expression of Interest Form</a>
+
+<style>
+.women-ismar-event { display:flex; flex-wrap:wrap; align-items:center; gap:8px 16px; margin:16px 0 24px; padding:10px 14px; background:#fff; border-left:4px solid #F28C28; border-radius:8px; }
+.women-ismar-event strong { color:#D96F08; }
+</style>
 

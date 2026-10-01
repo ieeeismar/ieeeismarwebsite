@@ -116,7 +116,7 @@ permalink: /2026/social-events/
 
 # Social Events
 
-Join fellow ISMAR 2026 participants for three informal activities that bring the conference community together and showcase Bari's local culture.
+Join fellow ISMAR 2026 participants for informal activities that bring the conference community together and showcase Bari's local culture.
 
 ## Bari Vecchia (Old Town) Tour
 
@@ -251,3 +251,15 @@ Take part in a playful Monster Hunt designed to bring ISMAR participants togethe
 | **Where** | Clues may be posted on discord |
 | **When** | Duration is opening ceremony - Friday end of lunch |
 | **Prize** | Details to be announced |
+
+
+## Women@ISMAR
+
+Meet fellow women in the ISMAR community and connect across career stages, institutions, and sectors at the initiative's initial gathering.
+
+| | Details |
+| --- | --- |
+| **What** | Initial gathering to build connections across the Women@ISMAR community |
+| **Where** | Glasshaus |
+| **When** | Wednesday, October 7, 2026 at 18:30 |
+| **More information** | <a href="{{ '/2026/women@ismar/' | relative_url }}">Learn more about Women@ISMAR</a> |
