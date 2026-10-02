@@ -215,7 +215,7 @@ Join fellow ISMAR 2026 participants for informal activities that bring the confe
 
 **Notes**:
 
-- A ticket will be provided during registration and must be brought to the meeting point.
+- A ticket will be provided at the registration desk during registration and must be brought to the meeting point.
 - Participants may order a typical Bari-style aperitif (panzerotto + beverage) while the groups are being formed. The aperitif is at the participant’s own expense; we recommend bringing €5 in cash.
 - The number of available places for each date will be limited, so we will take into account the preferences provided in the form that was distributed in recent weeks.
 
