@@ -143,7 +143,7 @@ La Trobe University, Melbourne, Australia
 
 Institute for Clinical and Experimental Medicine, Prague, Czech Republic
 
-* **Website link:** [https://www.ikem.cz/](https://www.ikem.cz/)
+* **Website link:** [https://vrlab.ikem.cz/landingpage](https://vrlab.ikem.cz/landingpage)
 * **Presenter:** David Sibrina
 
 ## **Wearable Computer Lab**
