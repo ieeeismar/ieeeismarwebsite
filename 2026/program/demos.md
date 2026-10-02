@@ -24,6 +24,10 @@ permalink: /2026/demos/
   <a href="#day-3" class="day-btn"><span class="day-full">Friday</span><span class="day-short">Fri</span> <span class="day-date">Oct 9</span></a>
 </div>
 
+<div class="demo-day-map">
+  <img src="{{ '/assets/2026/img/venue/map/demo/Demos_Layout.png' | relative_url }}" alt="Map of demo locations in Sala Expositiva, numbered 1 to 9" loading="lazy">
+</div>
+
 {% assign demos = site.data["2026"]["program"].demos %}
 {% assign day1_demos = demos | where: "Session", "07-Oct-26" %}
 {% assign day2_demos = demos | where: "Session", "08-Oct-26" %}
@@ -32,17 +36,14 @@ permalink: /2026/demos/
 <section id="day-1" class="demo-day">
   <h3 class="demo-day-title">Wednesday - October 7, 2026</h3>
 
-<div class="demo-day-map">
-  <img src="{{ '/assets/2026/img/venue/map/demo/Demo-7-oct.png' | relative_url }}" alt="Map of demo locations for Wednesday, October 7" loading="lazy">
-</div>
-
 <section class="demo-session">
-<h4 class="demo-session-title"><span>Demos</span><span class="demo-session-room">Sala Expositiva</span></h4>
+<h4 class="demo-session-title"><span class="demo-session-label-row"><span>Demos</span><span class="demo-session-room">Sala Expositiva</span></span><span class="demo-session-datetime"><span class="demo-session-day">Wednesday</span><span class="demo-session-time">10:30–16:00</span></span></h4>
 <ul class="demo-list">
 {% for demo in day1_demos %}
 <li class="demo-item">
   <details class="demo-details" id="{{ demo['Title'] | slugify }}">
     <summary class="demo-summary">
+      <span class="demo-table">Table {{ forloop.index }}</span>
       <span class="demo-id">Demo {{ demo["Demo ID"] }}</span>
       <span class="demo-title">{{ demo["Title"] }}</span>
       <span class="demo-authors">{{ demo["Authors"] }}</span>
@@ -66,17 +67,14 @@ permalink: /2026/demos/
 <section id="day-2" class="demo-day">
   <h3 class="demo-day-title">Thursday - October 8, 2026</h3>
 
-<div class="demo-day-map">
-  <img src="{{ '/assets/2026/img/venue/map/demo/Demo-8-oct.png' | relative_url }}" alt="Map of demo locations for Thursday, October 8" loading="lazy">
-</div>
-
 <section class="demo-session">
-<h4 class="demo-session-title"><span>Demos</span><span class="demo-session-room">Sala Expositiva</span></h4>
+<h4 class="demo-session-title"><span class="demo-session-label-row"><span>Demos</span><span class="demo-session-room">Sala Expositiva</span></span><span class="demo-session-datetime"><span class="demo-session-day">Thursday</span><span class="demo-session-time">11:30–16:30</span></span></h4>
 <ul class="demo-list">
 {% for demo in day2_demos %}
 <li class="demo-item">
   <details class="demo-details" id="{{ demo['Title'] | slugify }}">
     <summary class="demo-summary">
+      <span class="demo-table">Table {{ forloop.index }}</span>
       <span class="demo-id">Demo {{ demo["Demo ID"] }}</span>
       <span class="demo-title">{{ demo["Title"] }}</span>
       <span class="demo-authors">{{ demo["Authors"] }}</span>
@@ -100,17 +98,14 @@ permalink: /2026/demos/
 <section id="day-3" class="demo-day">
   <h3 class="demo-day-title">Friday - October 9, 2026</h3>
 
-<div class="demo-day-map">
-  <img src="{{ '/assets/2026/img/venue/map/demo/Demo-9-oct.png' | relative_url }}" alt="Map of demo locations for Friday, October 9" loading="lazy">
-</div>
-
 <section class="demo-session">
-<h4 class="demo-session-title"><span>Demos</span><span class="demo-session-room">Sala Expositiva</span></h4>
+<h4 class="demo-session-title"><span class="demo-session-label-row"><span>Demos</span><span class="demo-session-room">Sala Expositiva</span></span><span class="demo-session-datetime"><span class="demo-session-day">Friday</span><span class="demo-session-time">11:30–16:30</span></span></h4>
 <ul class="demo-list">
 {% for demo in day3_demos %}
 <li class="demo-item">
   <details class="demo-details" id="{{ demo['Title'] | slugify }}">
     <summary class="demo-summary">
+      <span class="demo-table">Table {{ forloop.index }}</span>
       <span class="demo-id">Demo {{ demo["Demo ID"] }}</span>
       <span class="demo-title">{{ demo["Title"] }}</span>
       <span class="demo-authors">{{ demo["Authors"] }}</span>
@@ -142,8 +137,10 @@ permalink: /2026/demos/
 .demo-day-map { margin:12px 0 20px; }
 .demo-day-map img { display:block; width:100%; max-width:420px; height:auto; margin:0 auto; border-radius:8px; }
 .demo-session { margin-bottom:20px; padding:12px 14px 14px; border-radius:10px; background:rgba(58,139,243,.18); border-left:4px solid #3A8BF3; }
-.demo-session-title { margin:0 0 10px; font-size:1rem; font-weight:600; display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:4px 12px; color:#2878DB; }
+.demo-session-title { margin:0 0 10px; font-size:1rem; font-weight:600; display:flex; flex-direction:column; align-items:stretch; gap:8px; color:#2878DB; }
+.demo-session-label-row { display:flex; width:100%; justify-content:space-between; align-items:center; }
 .demo-session-room { font-size:.75rem; font-weight:500; background:#f0f0f0; padding:2px 8px; border-radius:12px; color:#555; }
+.demo-session-datetime { display:flex; flex-direction:column; align-items:flex-end; align-self:flex-end; flex-shrink:0; line-height:1.3; }
 .page-content ul.demo-list { list-style:none; margin:0; padding:0; }
 .demo-item { margin:0 0 6px; padding:0; background:#fff; border:1px solid #e1e4e7; border-radius:8px; box-shadow:0 1px 1px rgba(0,0,0,.03); }
 .demo-details { width:100%; }
@@ -152,6 +149,7 @@ permalink: /2026/demos/
 .demo-summary::before { content:""; position:absolute; left:8px; top:10px; width:0; height:0; border-left:6px solid #2878DB; border-top:4px solid transparent; border-bottom:4px solid transparent; transition:transform .2s ease; }
 .demo-details[open] .demo-summary::before { transform:rotate(90deg); }
 .demo-details[open] .demo-summary { border-bottom:1px solid #e8eaed; }
+.demo-table { display:inline-block; background:#fff4d6; color:#7a4b00; font-size:.65rem; font-weight:700; padding:4px 6px; border-radius:6px; margin:0 6px 3px 0; vertical-align:middle; line-height:1; }
 .demo-id { display:inline-block; background:#2878DB; color:#fff; font-size:.6rem; font-weight:600; padding:5px 6px; border-radius:6px; margin:0 8px 3px 0; vertical-align:middle; line-height:1; }
 .demo-title { display:inline; font-weight:600; color:#2878DB; font-size:.9rem; line-height:1.2; }
 .demo-authors { display:block; font-size:.66rem; line-height:1.25; margin:3px 0 0; color:#444; }
