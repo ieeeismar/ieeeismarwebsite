@@ -55,7 +55,7 @@ permalink: /2026/tutorials/
       </li>
       <li class="tutorial-item">
         <details class="tutorial-details" id="xrstand-2026-xr-standards-and-open-science-practices">
-          <summary class="tutorial-summary"><span class="tutorial-room">Sezione 3</span><span class="tutorial-title">XRStand 2026: XR Standards and Open Science Practices</span></summary>
+          <summary class="tutorial-summary"><span class="tutorial-room">Sezione 5</span><span class="tutorial-title">XRStand 2026: XR Standards and Open Science Practices</span></summary>
           <div class="tutorial-expanded">
             <p><strong>Date/Time:</strong> Monday 5 October, Morning Session<br><strong>Main Contact Person:</strong> <a href="mailto:t.kurata@aist.go.jp">Takeshi Kurata</a></p>
             <p class="tutorial-links"><a href="https://xrstand-standardization-committee.github.io/ISMAR-26-Tutorial/" target="_blank" rel="noopener">Tutorial Website</a></p>
