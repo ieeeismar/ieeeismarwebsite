@@ -29,9 +29,9 @@ permalink: /2026/demos/
 </div>
 
 {% assign demos = site.data["2026"]["program"].demos %}
-{% assign day1_demos = demos | where: "Session", "07-Oct-26" %}
-{% assign day2_demos = demos | where: "Session", "08-Oct-26" %}
-{% assign day3_demos = demos | where: "Session", "09-Oct-26" %}
+{% assign day1_demos = demos | where: "Session", "07-Oct-26" | sort: "Table Number" %}
+{% assign day2_demos = demos | where: "Session", "08-Oct-26" | sort: "Table Number" %}
+{% assign day3_demos = demos | where: "Session", "09-Oct-26" | sort: "Table Number" %}
 
 <section id="day-1" class="demo-day">
   <h3 class="demo-day-title">Wednesday - October 7, 2026</h3>
@@ -43,7 +43,7 @@ permalink: /2026/demos/
 <li class="demo-item">
   <details class="demo-details" id="{{ demo['Title'] | slugify }}">
     <summary class="demo-summary">
-      <span class="demo-table">Table {{ forloop.index }}</span>
+      <span class="demo-table">Table {{ demo["Table Number"] }}</span>
       <span class="demo-id">Demo {{ demo["Demo ID"] }}</span>
       <span class="demo-title">{{ demo["Title"] }}</span>
       <span class="demo-authors">{{ demo["Authors"] }}</span>
@@ -74,7 +74,7 @@ permalink: /2026/demos/
 <li class="demo-item">
   <details class="demo-details" id="{{ demo['Title'] | slugify }}">
     <summary class="demo-summary">
-      <span class="demo-table">Table {{ forloop.index }}</span>
+      <span class="demo-table">Table {{ demo["Table Number"] }}</span>
       <span class="demo-id">Demo {{ demo["Demo ID"] }}</span>
       <span class="demo-title">{{ demo["Title"] }}</span>
       <span class="demo-authors">{{ demo["Authors"] }}</span>
@@ -105,7 +105,7 @@ permalink: /2026/demos/
 <li class="demo-item">
   <details class="demo-details" id="{{ demo['Title'] | slugify }}">
     <summary class="demo-summary">
-      <span class="demo-table">Table {{ forloop.index }}</span>
+      <span class="demo-table">Table {{ demo["Table Number"] }}</span>
       <span class="demo-id">Demo {{ demo["Demo ID"] }}</span>
       <span class="demo-title">{{ demo["Title"] }}</span>
       <span class="demo-authors">{{ demo["Authors"] }}</span>
