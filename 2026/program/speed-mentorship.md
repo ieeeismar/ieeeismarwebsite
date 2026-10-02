@@ -15,7 +15,7 @@ permalink: /2026/speed-mentorship/
   gtag('config', 'G-FQFFZGXF3Y');
 </script>
 
-**Date/Time**: Monday, 5 October · 4:00–5:30pm<br>
+**Date/Time**: Monday, 5 October · 4:15–5:45pm (arrive at 4pm)<br>
 **Room**: Veranda<br>
 
 <section>
@@ -25,8 +25,25 @@ permalink: /2026/speed-mentorship/
   <p>
     We’re excited to include a Speed Mentorship session at ISMAR 2026 at which
     student attendees are invited to join us to ask advice and gain insights
-    from working professionals.
+    from working professionals:
   </p>
+
+  <ul>
+    <li><strong>Ali Haskins</strong>, University of Central Florida</li>
+    <li><strong>Christian Wallraven</strong>, Korea University</li>
+    <li><strong>Missie Smith</strong>, Auburn University</li>
+    <li><strong>Frank Maurer</strong>, University of Calgary, Canada</li>
+    <li><strong>Yan Hu</strong>, Blekinge Institute of Technology, Sweden</li>
+    <li><strong>Florian Weidner</strong>, University of Glasgow, Scotland</li>
+    <li><strong>Mayra Donaji Barrera Machuca</strong>, University of Calgary, Canada</li>
+    <li><strong>Rob Teather</strong>, Monash University, Australia</li>
+    <li><strong>Cassidy R. Nelson</strong>, University of Utah</li>
+    <li><strong>Étienne Peillard</strong>, IMT Atlantique, France</li>
+    <li><strong>Stefanie Zollmann</strong>, Aarhus University, Denmark</li>
+    <li><strong>Daisuke Iwai</strong>, The University of Osaka, Japan</li>
+    <li><strong>Jeanine Stefanucci</strong>, University of Utah</li>
+    <li><strong>Ferran Argelaguet</strong>, IRISA/Inria Rennes, France</li>
+  </ul>
 
   <p>
     Mentors will meet with small groups and rotate ‘speed networking’ style
