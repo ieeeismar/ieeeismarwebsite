@@ -345,7 +345,7 @@ The ISMAR 2026 banquet will take place at **Villa Romanazzi Carducci**, a histor
     var distLabel=function(m){return m<100?"<100 m":(m>=1000?(m/1000).toFixed(1).replace(/\.0$/,"")+" km":m+" m");};
  
     var map=L.map('dg-map',{scrollWheelZoom:false}).setView([41.1015,16.855],15);
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{attribution:'© OpenStreetMap, © CARTO',maxZoom:19,subdomains:'abcd'}).addTo(map);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',maxZoom:19}).addTo(map);
     map.on('click',clearActive);
  
     L.marker([VENUE.lat,VENUE.lng],{icon:L.divIcon({className:'',html:'<div class="dg-venue">V</div>',iconSize:[32,32],iconAnchor:[16,16]}),zIndexOffset:1000})

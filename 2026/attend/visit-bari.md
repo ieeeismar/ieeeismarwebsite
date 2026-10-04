@@ -912,10 +912,9 @@ permalink: /2026/visit-bari/
       scrollWheelZoom:false
     }).setView([41.1258,16.8722],14);
 
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
-      attribution:"© OpenStreetMap, © CARTO",
-      maxZoom:19,
-      subdomains:"abcd"
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
+      maxZoom:19
     }).addTo(map);
 
     var markers = {};
