@@ -590,8 +590,7 @@ This page provides practical information for participants travelling around Bari
   <p>
     Participants can use official taxis throughout Bari, especially when travelling with luggage,
     arriving late, transferring from the airport or railway station, or returning from the Banquet
-    in the evening. At Bari Centrale, participants taking a taxi are advised to use the Via Capruzzi
-    side rather than the Piazza Aldo Moro side, as this may help keep the fare lower.
+    in the evening.
   </p>
 
   <p>
@@ -904,7 +903,7 @@ The hotel is approximately 5 km from Bari Centrale Railway Station and about 16�
             </td>
             <td>5–10 minutes</td>
             <td>
-              Easiest option with luggage. Taxi fare is approximately €10–15. For pickup, use the Via Capruzzi side of Bari Centrale; avoid taking a taxi from the Piazza Aldo Moro (main entrance) side.
+              Easiest option with luggage. Taxi fare is approximately €10–15. Participants taking a taxi are advised to use the Via Capruzzi side of Bari Centrale rather than the Piazza Aldo Moro (main entrance) side, as this may help keep the fare lower.
             </td>
           </tr>
           <tr>
