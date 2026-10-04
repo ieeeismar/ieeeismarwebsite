@@ -71,6 +71,9 @@ Poster ID format: Poster [day][session] (e.g. Poster 3B)
               <span class="poster-title">{{ p["Title"] }}</span>
               <span class="poster-authors">{% assign authors = "" %}{% for i in (1..15) %}{% assign key = "Author " | append: i %}{% if p[key] and p[key] != "" %}{% if authors != "" %}{% assign authors = authors | append: ", " %}{% endif %}{% assign authors = authors | append: p[key] %}{% endif %}{% endfor %}{{ authors }}</span>
             </summary>
+            {% if p["Link"] and p["Link"] != "" %}
+            <a href="{{ p['Link'] }}" class="poster-pdf-link" target="_blank" rel="noopener">Read PDF</a>
+            {% endif %}
             {% if p["abstract"] and p["abstract"] != "" %}
             <div class="poster-abstract">{{ p["abstract"] }}</div>
             {% endif %}
@@ -93,6 +96,9 @@ Poster ID format: Poster [day][session] (e.g. Poster 3B)
               <span class="poster-title">{{ p["Title"] }}</span>
               <span class="poster-authors">{% assign authors = "" %}{% for i in (1..15) %}{% assign key = "Author " | append: i %}{% if p[key] and p[key] != "" %}{% if authors != "" %}{% assign authors = authors | append: ", " %}{% endif %}{% assign authors = authors | append: p[key] %}{% endif %}{% endfor %}{{ authors }}</span>
             </summary>
+            {% if p["Link"] and p["Link"] != "" %}
+            <a href="{{ p['Link'] }}" class="poster-pdf-link" target="_blank" rel="noopener">Read PDF</a>
+            {% endif %}
             {% if p["abstract"] and p["abstract"] != "" %}
             <div class="poster-abstract">{{ p["abstract"] }}</div>
             {% endif %}
@@ -125,6 +131,9 @@ Poster ID format: Poster [day][session] (e.g. Poster 3B)
               <span class="poster-title">{{ p["Title"] }}</span>
               <span class="poster-authors">{% assign authors = "" %}{% for i in (1..15) %}{% assign key = "Author " | append: i %}{% if p[key] and p[key] != "" %}{% if authors != "" %}{% assign authors = authors | append: ", " %}{% endif %}{% assign authors = authors | append: p[key] %}{% endif %}{% endfor %}{{ authors }}</span>
             </summary>
+            {% if p["Link"] and p["Link"] != "" %}
+            <a href="{{ p['Link'] }}" class="poster-pdf-link" target="_blank" rel="noopener">Read PDF</a>
+            {% endif %}
             {% if p["abstract"] and p["abstract"] != "" %}
             <div class="poster-abstract">{{ p["abstract"] }}</div>
             {% endif %}
@@ -147,6 +156,9 @@ Poster ID format: Poster [day][session] (e.g. Poster 3B)
               <span class="poster-title">{{ p["Title"] }}</span>
               <span class="poster-authors">{% assign authors = "" %}{% for i in (1..15) %}{% assign key = "Author " | append: i %}{% if p[key] and p[key] != "" %}{% if authors != "" %}{% assign authors = authors | append: ", " %}{% endif %}{% assign authors = authors | append: p[key] %}{% endif %}{% endfor %}{{ authors }}</span>
             </summary>
+            {% if p["Link"] and p["Link"] != "" %}
+            <a href="{{ p['Link'] }}" class="poster-pdf-link" target="_blank" rel="noopener">Read PDF</a>
+            {% endif %}
             {% if p["abstract"] and p["abstract"] != "" %}
             <div class="poster-abstract">{{ p["abstract"] }}</div>
             {% endif %}
@@ -179,6 +191,9 @@ Poster ID format: Poster [day][session] (e.g. Poster 3B)
               <span class="poster-title">{{ p["Title"] }}</span>
               <span class="poster-authors">{% assign authors = "" %}{% for i in (1..15) %}{% assign key = "Author " | append: i %}{% if p[key] and p[key] != "" %}{% if authors != "" %}{% assign authors = authors | append: ", " %}{% endif %}{% assign authors = authors | append: p[key] %}{% endif %}{% endfor %}{{ authors }}</span>
             </summary>
+            {% if p["Link"] and p["Link"] != "" %}
+            <a href="{{ p['Link'] }}" class="poster-pdf-link" target="_blank" rel="noopener">Read PDF</a>
+            {% endif %}
             {% if p["abstract"] and p["abstract"] != "" %}
             <div class="poster-abstract">{{ p["abstract"] }}</div>
             {% endif %}
@@ -201,6 +216,9 @@ Poster ID format: Poster [day][session] (e.g. Poster 3B)
               <span class="poster-title">{{ p["Title"] }}</span>
               <span class="poster-authors">{% assign authors = "" %}{% for i in (1..15) %}{% assign key = "Author " | append: i %}{% if p[key] and p[key] != "" %}{% if authors != "" %}{% assign authors = authors | append: ", " %}{% endif %}{% assign authors = authors | append: p[key] %}{% endif %}{% endfor %}{{ authors }}</span>
             </summary>
+            {% if p["Link"] and p["Link"] != "" %}
+            <a href="{{ p['Link'] }}" class="poster-pdf-link" target="_blank" rel="noopener">Read PDF</a>
+            {% endif %}
             {% if p["abstract"] and p["abstract"] != "" %}
             <div class="poster-abstract">{{ p["abstract"] }}</div>
             {% endif %}
@@ -278,6 +296,10 @@ Mohammed Safayet Arefin, Andrea Boensch, Francesco Ferrise, Cassidy Nelson
 .poster-title:hover { text-decoration:underline; }
 .session-b .poster-title { color: #D96F08; }
 .poster-details[open] .poster-summary { border-bottom:1px solid #e8eaed; }
+.poster-pdf-link { display:block; margin:10px 12px; padding:8px 14px; font-size:0.78rem; font-weight:600; color:#fff !important; background:#2878DB; border-radius:5px; text-decoration:none !important; text-align:center; transition:background 0.2s ease; }
+.poster-pdf-link:hover { background:#1a5fa8; text-decoration:none !important; }
+.session-b .poster-pdf-link { background:#D96F08; }
+.session-b .poster-pdf-link:hover { background:#b85d07; }
 .poster-abstract { padding:10px 12px; font-size:0.82rem; line-height:1.5; color:#333; background:#f8f9fa; border-radius:0 0 7px 7px; }
 .session-b .poster-abstract { background:#fef8f4; }
 
@@ -306,4 +328,3 @@ Mohammed Safayet Arefin, Andrea Boensch, Francesco Ferrise, Cassidy Nelson
   .session-title { font-size:0.9rem; }
 }
 </style>
-
