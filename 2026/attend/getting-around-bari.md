@@ -797,7 +797,7 @@ The hotel is approximately 5 km from Bari Centrale Railway Station and about 16�
         </p>
         <div class="route-meta-line">
           <span><strong>Approx. time:</strong> 35–65 minutes, depending on connections</span>
-          <span><strong>Best option:</strong> Train to Bari Centrale, then taxi or Bus Line 6</span>
+          <span><strong>Best option:</strong> Train to Bari Centrale, then taxi from Via Capruzzi or Bus Line 6</span>
         </div>
       </div>
       <span class="route-toggle" aria-hidden="true"></span>
@@ -903,7 +903,7 @@ The hotel is approximately 5 km from Bari Centrale Railway Station and about 16�
             </td>
             <td>5–10 minutes</td>
             <td>
-              Easiest option with luggage. Taxi fare is approximately €10–15.
+              Easiest option with luggage. Taxi fare is approximately €10–15. For pickup, use the Via Capruzzi side of Bari Centrale; avoid taking a taxi from the Piazza Aldo Moro (main entrance) side.
             </td>
           </tr>
           <tr>
@@ -1238,10 +1238,9 @@ The Banquet will take place at **Villa Romanazzi Carducci**, a historic venue lo
       scrollWheelZoom: false
     }).setView([41.1178, 16.8635], 13);
 
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
-      attribution: "© OpenStreetMap, © CARTO",
-      maxZoom: 19,
-      subdomains: "abcd"
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
+      maxZoom: 19
     }).addTo(map);
 
     function mapsLink(query) {
