@@ -582,11 +582,11 @@ permalink: /2026/overview/
         <span>10:30–12:45</span>
       </a>
 
-      <!-- Demos: 10:30-16:00 -->
-      <a href="/2026/demos/" class="timeline-item demo row-1030 col-demo span-330">
+      <!-- Demos: 11:00-16:00 -->
+      <a href="/2026/demos/" class="timeline-item demo row-1100 col-demo span-300">
         <span class="title">Demos</span>
         <span class="room">Sala Expositiva</span>
-        <span>10:30–16:00</span>
+        <span>11:00–16:00</span>
       </a>
 
       <!-- PS1, PS2, PS3: 11:15-12:15 -->

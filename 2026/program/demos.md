@@ -37,7 +37,7 @@ permalink: /2026/demos/
   <h3 class="demo-day-title">Wednesday - October 7, 2026</h3>
 
 <section class="demo-session">
-<h4 class="demo-session-title"><span class="demo-session-label-row"><span>Demos</span><span class="demo-session-room">Sala Expositiva</span></span><span class="demo-session-datetime"><span class="demo-session-day">Wednesday</span><span class="demo-session-time">10:30–16:00</span></span></h4>
+<h4 class="demo-session-title"><span class="demo-session-label-row"><span>Demos</span><span class="demo-session-room">Sala Expositiva</span></span><span class="demo-session-datetime"><span class="demo-session-day">Wednesday</span><span class="demo-session-time">11:00–16:00</span></span></h4>
 <ul class="demo-list">
 {% for demo in day1_demos %}
 <li class="demo-item">
