@@ -590,7 +590,8 @@ This page provides practical information for participants travelling around Bari
   <p>
     Participants can use official taxis throughout Bari, especially when travelling with luggage,
     arriving late, transferring from the airport or railway station, or returning from the Banquet
-    in the evening.
+    in the evening. At Bari Centrale, participants taking a taxi are advised to use the Via Capruzzi
+    side rather than the Piazza Aldo Moro side, as this may help keep the fare lower.
   </p>
 
   <p>
