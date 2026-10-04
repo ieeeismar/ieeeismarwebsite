@@ -41,6 +41,7 @@ PS Number Calculation:
 
 {% assign y2026 = site.data['2026'] %}
 {% assign papers = y2026.program.papers %}
+{% assign session_chairs = y2026.program.session_chairs %}
 
 {% assign day1 = papers | where: "Day", "Wednesday, 7 October" %}
 {% assign day2 = papers | where: "Day", "Thursday, 8 October" %}
@@ -103,10 +104,13 @@ PS Number Calculation:
                 {% when "F" %}{% assign slot_offset = 15 %}
               {% endcase %}
               {% assign ps_num = day_offset | plus: slot_offset | plus: sid_track %}
+              {% assign ps_num_str = ps_num | append: "" %}
+              {% assign chair_entry = session_chairs | where: "PS Number", ps_num_str | first %}
+              {% assign chair_name = chair_entry["Chair"] | default: "—" %}
               <tr class="{{ row_class }}">
                 <td class="toc-time"><a href="#{{ anchor }}">{{ slot_time }}</a></td>
                 <td class="toc-session"><a href="#{{ anchor }}">PS{{ ps_num }}: {{ sess_title }}</a></td>
-                <td class="toc-chair">—</td>
+                <td class="toc-chair">{% if chair_name != "" %}{{ chair_name }}{% else %}—{% endif %}</td>
                 <td class="toc-location"><a href="#{{ anchor }}">{{ sess_room }}</a></td>
               </tr>
             {% endif %}
@@ -197,8 +201,12 @@ PS Number Calculation:
                 {% when "F" %}{% assign slot_offset = 15 %}
               {% endcase %}
               {% assign ps_num = day_offset | plus: slot_offset | plus: sid_track %}
+              {% assign ps_num_str = ps_num | append: "" %}
+              {% assign chair_entry = session_chairs | where: "PS Number", ps_num_str | first %}
+              {% assign chair_name = chair_entry["Chair"] %}
               <div class="paper-session" id="session-{{ sid | slugify }}">
                 <h5 class="session-header {{ title_class }}">PS{{ ps_num }}: {{ session_title }} <span class="session-room">{{ session_room }}</span></h5>
+                {% if chair_name and chair_name != "" %}<p class="session-chair">Session Chair: {{ chair_name }}</p>{% endif %}
                 <ul class="paper-list">
                   {% for p in session_papers %}
                   <li class="paper-item">
@@ -208,6 +216,9 @@ PS Number Calculation:
                         <span class="paper-title">{{ p["Paper Title"] }}</span>
                         <span class="paper-authors">{{ p["Authors"] }}</span>
                       </summary>
+                      {% if p["Link"] and p["Link"] != "" %}
+                      <a href="{{ p['Link'] }}" class="paper-pdf-link" target="_blank" rel="noopener">Read PDF</a>
+                      {% endif %}
                       {% if p["Abstract"] and p["Abstract"] != "" %}
                       <div class="paper-abstract">{{ p["Abstract"] }}</div>
                       {% endif %}
@@ -303,8 +314,12 @@ PS Number Calculation:
                 {% when "F" %}{% assign slot_offset = 15 %}
               {% endcase %}
               {% assign ps_num = day_offset | plus: slot_offset | plus: sid_track %}
+              {% assign ps_num_str = ps_num | append: "" %}
+              {% assign chair_entry = session_chairs | where: "PS Number", ps_num_str | first %}
+              {% assign chair_name = chair_entry["Chair"] %}
               <div class="paper-session" id="session-{{ sid | slugify }}">
                 <h5 class="session-header {{ title_class }}">PS{{ ps_num }}: {{ session_title }} <span class="session-room">{{ session_room }}</span></h5>
+                {% if chair_name and chair_name != "" %}<p class="session-chair">Session Chair: {{ chair_name }}</p>{% endif %}
                 <ul class="paper-list">
                   {% for p in session_papers %}
                   <li class="paper-item">
@@ -314,6 +329,9 @@ PS Number Calculation:
                         <span class="paper-title">{{ p["Paper Title"] }}</span>
                         <span class="paper-authors">{{ p["Authors"] }}</span>
                       </summary>
+                      {% if p["Link"] and p["Link"] != "" %}
+                      <a href="{{ p['Link'] }}" class="paper-pdf-link" target="_blank" rel="noopener">Read PDF</a>
+                      {% endif %}
                       {% if p["Abstract"] and p["Abstract"] != "" %}
                       <div class="paper-abstract">{{ p["Abstract"] }}</div>
                       {% endif %}
@@ -409,8 +427,12 @@ PS Number Calculation:
                 {% when "F" %}{% assign slot_offset = 15 %}
               {% endcase %}
               {% assign ps_num = day_offset | plus: slot_offset | plus: sid_track %}
+              {% assign ps_num_str = ps_num | append: "" %}
+              {% assign chair_entry = session_chairs | where: "PS Number", ps_num_str | first %}
+              {% assign chair_name = chair_entry["Chair"] %}
               <div class="paper-session" id="session-{{ sid | slugify }}">
                 <h5 class="session-header {{ title_class }}">PS{{ ps_num }}: {{ session_title }} <span class="session-room">{{ session_room }}</span></h5>
+                {% if chair_name and chair_name != "" %}<p class="session-chair">Session Chair: {{ chair_name }}</p>{% endif %}
                 <ul class="paper-list">
                   {% for p in session_papers %}
                   <li class="paper-item">
@@ -420,6 +442,9 @@ PS Number Calculation:
                         <span class="paper-title">{{ p["Paper Title"] }}</span>
                         <span class="paper-authors">{{ p["Authors"] }}</span>
                       </summary>
+                      {% if p["Link"] and p["Link"] != "" %}
+                      <a href="{{ p['Link'] }}" class="paper-pdf-link" target="_blank" rel="noopener">Read PDF</a>
+                      {% endif %}
                       {% if p["Abstract"] and p["Abstract"] != "" %}
                       <div class="paper-abstract">{{ p["Abstract"] }}</div>
                       {% endif %}
@@ -498,6 +523,7 @@ For questions, contact: papers2026@ieeeismar.net
 .paper-session { background:#fff; border-radius:8px; padding:10px 12px; box-shadow:0 1px 3px rgba(0,0,0,.08); scroll-margin-top:270px; }
 .session-header { margin:0 0 8px 0; font-size:0.95rem; font-weight:600; display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:6px; }
 .session-room { font-size:0.75rem; font-weight:500; background:#f0f0f0; padding:2px 8px; border-radius:12px; color:#555; }
+.paper-session .session-chair { margin:0 0 8px 0; font-size:0.60rem !important; font-weight:500; color:#555; line-height:1.2; }
 
 /* Paper list */
 .page-content ul.paper-list { list-style: none; margin: 0; padding: 0; }
@@ -513,6 +539,10 @@ For questions, contact: papers2026@ieeeismar.net
 .session-b .paper-summary::before { border-left-color:#F28C28; }
 .paper-details[open] .paper-summary::before { transform:rotate(90deg); }
 .paper-details[open] .paper-summary { border-bottom:1px solid #e8eaed; }
+.paper-pdf-link { display:block; margin:10px 12px; padding:8px 14px; font-size:0.78rem; font-weight:600; color:#fff !important; background:#2878DB; border-radius:5px; text-decoration:none !important; text-align:center; transition:background 0.2s ease; }
+.paper-pdf-link:hover { background:#1a5fa8; text-decoration:none !important; }
+.session-b .paper-pdf-link { background:#D96F08; }
+.session-b .paper-pdf-link:hover { background:#b85d07; }
 .paper-abstract { padding:10px 12px; font-size:0.82rem; line-height:1.5; color:#333; background:#f8f9fa; border-radius:0 0 7px 7px; }
 .session-b .paper-abstract { background:#fef8f4; }
 
