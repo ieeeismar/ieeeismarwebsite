@@ -107,7 +107,7 @@ permalink: /2026/overview/
       <button type="button" data-period="afternoon">14:00–21:30</button>
     </div>
 
-    <div class="timeline-schedule" style="grid-template-rows: repeat(55, 25px);">
+    <div class="timeline-schedule" style="grid-template-rows: repeat(55, 25px); padding-top: 25px;">
       <!-- Time labels (hourly) and tick marks (15-min intervals) -->
       <div class="time-label row-800">8:00</div>
       <div class="time-tick row-815"></div>
@@ -164,6 +164,13 @@ permalink: /2026/overview/
       <div class="time-label row-2100">21:00</div>
       <div class="time-tick row-2115"></div>
       <div class="time-tick half row-2130"></div>
+
+      <!-- Registration 07:45-17:45 -->
+      <div class="timeline-item registration row-800 col-reg" style="grid-row-end: 41; transform: translateY(-25px);">
+        <span class="title">Registration</span>
+        <span class="room">Sala Expositiva</span>
+        <span>07:45–17:45</span>
+      </div>
 
       <!-- Workshops & Tutorials: 08:15-09:45 (Track 1) -->
       <div class="timeline-item workshop-grid row-815 span-90" style="grid-column: 2 / 8;">
@@ -289,7 +296,7 @@ permalink: /2026/overview/
       <button type="button" data-period="afternoon">14:00–20:30</button>
     </div>
 
-    <div class="timeline-schedule" style="grid-template-rows: repeat(50, 25px);">
+    <div class="timeline-schedule" style="grid-template-rows: repeat(50, 25px); padding-top: 25px;">
       <!-- Time labels (hourly) and tick marks (15-min intervals) -->
       <div class="time-label row-800">8:00</div>
       <div class="time-tick row-815"></div>
@@ -342,6 +349,13 @@ permalink: /2026/overview/
       <div class="time-label row-2000">20:00</div>
       <div class="time-tick row-2015"></div>
       <div class="time-tick half row-2030"></div>
+
+      <!-- Registration 07:45-18:30 -->
+      <div class="timeline-item registration row-800 col-reg" style="grid-row-end: 44; transform: translateY(-25px);">
+        <span class="title">Registration</span>
+        <span class="room">Sala Expositiva</span>
+        <span>07:45–18:30</span>
+      </div>
 
       <!-- Workshops & Tutorials: 08:15-09:45 (Track 1) -->
       <div class="timeline-item workshop-grid row-815 span-90" style="grid-column: 2 / 8;">
