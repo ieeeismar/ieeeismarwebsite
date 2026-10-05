@@ -44,10 +44,10 @@ redirect_from: /
 
 <div class="ismar-hero-cta">
   <a href="/2026/overview/" class="ismar-program-button">
-    See the ISMAR 26 program
+    Jump to Program
   </a>
   <a href="/2026/conference-venue-map/" class="ismar-program-button ismar-map-button">
-    Conference map
+    Jump to Map
   </a>
 </div>
 
