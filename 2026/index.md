@@ -50,7 +50,7 @@ redirect_from: /
     Jump to Map
   </a>
   <a href="https://www.instagram.com/ismarconf/" class="ismar-program-button ismar-instagram-button">
-    Share your experience on Instagram!
+    Share your experience!
   </a>
 </div>
 
