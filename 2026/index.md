@@ -42,6 +42,12 @@ redirect_from: /
 <h2 class="subheading">Bari, Italy</h2>
 <h2 class="subheading">Oct. 5 - Oct. 9 2026</h2>
 
+<div class="ismar-hero-cta">
+  <a href="/2026/overview/" class="ismar-program-button">
+    See the ISMAR 26 program
+  </a>
+</div>
+
 <script>
   window.onload = function() {
     var staticImagePath = "{{ '/assets/2026/img/static.png' | relative_url }}";
@@ -188,6 +194,10 @@ redirect_from: /
 
   .ismar-program-cta {
     margin-top: 2.8rem;
+  }
+
+  .ismar-hero-cta {
+    margin-top: 1.5rem;
   }
 
   .ismar-program-button {
