@@ -375,7 +375,7 @@ permalink: /2026/overview/
 
       <!-- Future Faculty Forum: 08:15-09:45 (Track 2) -->
       <a href="/2026/future-faculty-forum/" class="timeline-item faculty row-815 span-90" style="grid-column: 8 / 11;">
-        <strong>Future Faculty Forum</strong>
+        <strong>Future<br>Faculty Forum</strong>
         <small>Glasshaus</small>
         <span>08:15–09:45</span>
       </a>
@@ -404,7 +404,7 @@ permalink: /2026/overview/
 
       <!-- Future Faculty Forum: 10:30-12:00 (Track 2) -->
       <a href="/2026/future-faculty-forum/" class="timeline-item faculty row-1030 span-90" style="grid-column: 8 / 11;">
-        <strong>Future Faculty Forum</strong>
+        <strong>Future<br>Faculty Forum</strong>
         <small>Glasshaus</small>
         <span>10:30–12:00</span>
       </a>
@@ -433,7 +433,7 @@ permalink: /2026/overview/
 
       <!-- Future Faculty Forum: 14:00-15:30 (Track 2) -->
       <a href="/2026/future-faculty-forum/" class="timeline-item faculty row-1400 span-90" style="grid-column: 8 / 11;">
-        <strong>Future Faculty Forum</strong>
+        <strong>Future<br>Faculty Forum</strong>
         <small>Glasshaus</small>
         <span>14:00–15:30</span>
       </a>
@@ -462,7 +462,7 @@ permalink: /2026/overview/
 
       <!-- Future Faculty Forum: 16:15-17:45 (Track 2) -->
       <a href="/2026/future-faculty-forum/" class="timeline-item faculty row-1615 span-90" style="grid-column: 8 / 11;">
-        <strong>Future Faculty Forum</strong>
+        <strong>Future<br>Faculty Forum</strong>
         <small>Glasshaus</small>
         <span>16:15–17:45</span>
       </a>
@@ -1574,10 +1574,10 @@ permalink: /2026/overview/
 }
 
 /* Timeline grid layout */
-/* Columns: time | main content (6 cols) | posters | demos | reg */
+/* Columns: time | main content (6 cols) | posters | demos | side event | reg */
 .timeline-schedule {
   display: grid;
-  grid-template-columns: 50px repeat(6, 1fr) 60px 60px 50px;
+  grid-template-columns: 50px repeat(6, 1fr) 60px 60px 60px 50px;
   grid-template-rows: repeat(44, 25px); /* 15-min increments from 8:00-18:45 */
   column-gap: 2px;
   row-gap: 0;
@@ -1721,7 +1721,7 @@ permalink: /2026/overview/
 .span-330 { grid-row-end: span 22; }
 
 /* Column positions */
-/* Layout: time(1) | main content(2-7) | posters(8) | demos(9) | reg(10) */
+/* Layout: time(1) | main content(2-7) | posters(8) | demos(9) | side event(10) | reg(11) */
 .col-1 { grid-column: 2; }
 .col-2 { grid-column: 3; }
 .col-3 { grid-column: 4; }
@@ -1731,7 +1731,7 @@ permalink: /2026/overview/
 .col-poster { grid-column: 8; }
 .col-fast-forward { grid-column: 9; }
 .col-demo { grid-column: 9; }
-.col-reg { grid-column: 10; }
+.col-reg { grid-column: 11; }
 .col-span-3 { grid-column: span 3; }
 .col-span-6 { grid-column: span 6; }
 .col-full { grid-column: 2 / 10; } /* spans all except registration */
@@ -1796,18 +1796,21 @@ a.timeline-item.doctoral:hover { text-decoration: none; filter: brightness(0.97)
 .timeline-item.tour { background: #e0f7fa; border-left: 3px solid #00acc1; } /* teal/cyan */
 .timeline-item.faculty { background: #e6f1fb; border-left: 3px solid #4389cb; text-decoration: none; color: inherit; } /* blue */
 a.timeline-item.faculty:hover { text-decoration: none; filter: brightness(0.97); }
+#day-2026-10-06 .timeline-item.faculty { width: 75%; justify-self: end; }
 .timeline-item.rooftop { background: #ece7f8; border-left: 3px solid #7556b2; } /* purple */
 
 /* Workshop grid for multiple workshops in one block - horizontal row, no wrapping */
 .timeline-item.workshop-grid { background: transparent; border: none; padding: 0; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 2px; }
 .workshop-items { display: flex; flex-direction: row; flex-wrap: nowrap; gap: 2px; width: 100%; }
+#day-2026-10-06 .timeline-item.workshop-grid { width: calc(100% + 46px); }
 .ws-item, .ws-item:link, .ws-item:visited { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 0.2rem 0.15rem; background: #e6f1fb; border-left: 3px solid #4389cb; border-radius: 2px; font-size: 0.65rem; color: #333 !important; text-decoration: none; text-align: center; }
 .ws-item:hover { filter: brightness(0.95); text-decoration: none !important; }
-.ws-item strong { font-weight: bold; line-height: 1.2; }
+.ws-item strong { font-weight: bold; line-height: 1.2; overflow-wrap: anywhere; }
 .ws-item small { font-size: 0.45rem; font-weight: normal; opacity: 0.8; margin-top: 2px; }
 .ws-item span { font-size: 0.4rem; font-weight: normal; opacity: 0.75; margin-top: 1px; }
 .ws-item.tut { background: #ede9fe; border-left-color: #7c3aed; } /* purple for tutorials */
 .ws-item.allday { background: #d1fae5; border-left-color: #059669; } /* green for all-day */
+#day-2026-10-06 .ws-item.allday { flex-grow: 1.3; }
 .ws-item.small { font-size: 0.55rem; } /* smaller font for long names */
 .timeline-item.workshop-grid > span { display: none; }
 
@@ -1878,6 +1881,14 @@ a.timeline-item.faculty:hover { text-decoration: none; filter: brightness(0.97);
 }
 
 @media (max-width: 800px) {
+  #day-2026-10-06 .timeline-item.workshop-grid {
+    width: 100%;
+  }
+
+  #day-2026-10-06 .timeline-item.faculty {
+    width: 100%;
+  }
+
   .time-overview {
     position: sticky;
     top: 112px;
@@ -1904,7 +1915,7 @@ a.timeline-item.faculty:hover { text-decoration: none; filter: brightness(0.97);
 
 @media (max-width: 800px) {
   .timeline-schedule {
-    grid-template-columns: 22px repeat(6, minmax(0, 1fr)) 18px 18px 15px;
+    grid-template-columns: 22px repeat(6, minmax(0, 1fr)) 18px 18px 18px 15px;
     grid-template-rows: repeat(44, 16px);
     gap: 1px;
     padding: 0.2rem;
