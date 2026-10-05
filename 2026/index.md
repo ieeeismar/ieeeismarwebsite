@@ -46,6 +46,9 @@ redirect_from: /
   <a href="/2026/overview/" class="ismar-program-button">
     See the ISMAR 26 program
   </a>
+  <a href="/2026/conference-venue-map/" class="ismar-program-button ismar-map-button">
+    Conference map
+  </a>
 </div>
 
 <script>
@@ -197,6 +200,10 @@ redirect_from: /
   }
 
   .ismar-hero-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
     margin-top: 1.5rem;
   }
 
@@ -211,6 +218,14 @@ redirect_from: /
     transition:
       transform 0.2s ease,
       background-color 0.2s ease;
+  }
+
+  .ismar-map-button {
+    background: #da8804;
+  }
+
+  .ismar-program-button.ismar-map-button:hover {
+    background: #b97303;
   }
 
   .ismar-program-button:hover {
