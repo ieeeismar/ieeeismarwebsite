@@ -37,8 +37,8 @@ redirect_from: /
            alt="IEEE ISMAR 2026 Logo">
     </a>
 
-<h1 class="heading">WELCOME TO</h1>
-<h1 class="heading">IEEE ISMAR 2026</h1>
+
+<h1 class="heading">IEEE ISMAR 2026 is on!</h1>
 <h2 class="subheading">Bari, Italy</h2>
 <h2 class="subheading">Oct. 5 - Oct. 9 2026</h2>
 
@@ -48,6 +48,9 @@ redirect_from: /
   </a>
   <a href="/2026/conference-venue-map/" class="ismar-program-button ismar-map-button">
     Jump to Map
+  </a>
+  <a href="https://www.instagram.com/ismarconf/" class="ismar-program-button ismar-instagram-button">
+    Share your experience on Instagram!
   </a>
 </div>
 
@@ -220,18 +223,26 @@ redirect_from: /
       background-color 0.2s ease;
   }
 
-  .ismar-map-button {
-    background: #da8804;
-  }
-
-  .ismar-program-button.ismar-map-button:hover {
-    background: #b97303;
-  }
-
   .ismar-program-button:hover {
     background: #2878DB;
     transform: translateY(-2px);
     text-decoration: none !important;
+  }
+
+  .ismar-map-button {
+    background: #d37700;
+  }
+
+  .ismar-map-button:hover {
+    background: #b96300;
+  }
+
+  .ismar-instagram-button {
+    background: #dcb103;
+  }
+
+  .ismar-instagram-button:hover {
+    background: #c59d00;
   }
 
   .ismar-program-button:focus-visible {
@@ -532,7 +543,6 @@ reminder = orange
   outline: 3px solid #caa20055;
   outline-offset: 3px;
 }
-
 
 
 
