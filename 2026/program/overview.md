@@ -12,7 +12,6 @@ permalink: /2026/overview/
 
   gtag('config', 'G-FQFFZGXF3Y');
 </script>
-*Last updated: 2026-10-01 17:00PM CET*
 
 # Program Overview
 
@@ -1325,6 +1324,13 @@ permalink: /2026/overview/
   border-color: #d5d8dd;
 }
 
+.program-tab[aria-selected="true"] {
+  border-color: #3A8BF3;
+  background: #3A8BF3;
+  color: #fff;
+  box-shadow: 0 5px 14px rgba(58, 139, 243, 0.25);
+}
+
 .program-tab strong,
 .program-tab span {
   display: block;
@@ -1393,6 +1399,10 @@ permalink: /2026/overview/
 }
 
 .program-tab:hover .day-highlight {
+  border-top-color: rgba(255, 255, 255, 0.35);
+}
+
+.program-tab[aria-selected="true"] .day-highlight {
   border-top-color: rgba(255, 255, 255, 0.35);
 }
 
