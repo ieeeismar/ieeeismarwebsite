@@ -282,9 +282,9 @@ permalink: /2026/overview/
       </div> -->
 
       <!-- Bari Vecchia (Old Town) Tour: 20:00-21:30 -->
-      <div class="timeline-item tour row-2000 span-90" style="grid-column: 2 / 11;">
+      <div class="timeline-item tour row-1930 span-90" style="grid-column: 2 / 11;">
         <strong>Bari Vecchia (Old Town) Tour</strong>
-        <span>20:00–21:30</span>
+        <span>19:30–21:30</span>
       </div>
     </div>
   </section>
@@ -759,9 +759,9 @@ permalink: /2026/overview/
       </a>
 
       <!-- Bari Vecchia (Old Town) Tour: 20:00-21:30 -->
-      <div class="timeline-item tour row-2000 span-90" style="grid-column: 2 / 11;">
+      <div class="timeline-item tour row-1930 span-90" style="grid-column: 2 / 11;">
         <strong>Bari Vecchia (Old Town) Tour</strong>
-        <span>20:00–21:30</span>
+        <span>19:30–21:30</span>
       </div>
     </div>
   </section>
@@ -1279,9 +1279,9 @@ permalink: /2026/overview/
       </div>
 
       <!-- Bari Vecchia (Old Town) Tour: 20:00-21:30 -->
-      <div class="timeline-item tour row-2000 span-90" style="grid-column: 2 / 11;">
+      <div class="timeline-item tour row-1930 span-90" style="grid-column: 2 / 11;">
         <strong>Bari Vecchia (Old Town) Tour</strong>
-        <span>20:00–21:30</span>
+        <span>19:30–21:30</span>
       </div>
     </div>
   </section>
