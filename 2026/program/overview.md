@@ -473,10 +473,10 @@ permalink: /2026/overview/
         <span>17:45–18:30</span>
       </a>
 
-      <!-- Welcome Reception @ Nicolaus: 18:30-20:30 (full width, pink) -->
+      <!-- Welcome Reception @ Cassipea and Garden: 18:30-20:30 (full width, pink) -->
       <div class="timeline-item social row-1830" style="grid-column: 2 / 11; grid-row-end: span 8;">
-        <strong>Welcome Reception @ Nicolaus</strong>
-        <small>Nicolaus</small>
+        <strong>Welcome Reception @ Cassipea and Garden</strong>
+        <small>Cassipea and 1. Floor Garden</small>
         <span>18:30–20:30</span>
       </div>
     </div>
