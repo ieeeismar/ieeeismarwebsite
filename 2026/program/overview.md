@@ -17,7 +17,7 @@ permalink: /2026/overview/
 # Program Overview
 
 <div class="program-tabs" role="tablist" aria-label="Conference days">
-  <button class="program-tab" role="tab" aria-selected="true" aria-controls="day-2026-10-05" data-date="2026-10-05">
+  <button class="program-tab" role="tab" aria-selected="false" aria-controls="day-2026-10-05" data-date="2026-10-05" tabindex="-1">
     <strong><span class="day-long">Monday</span><span class="day-short">Mon</span></strong>
     <span>Oct. 5 2026</span>
     <span class="day-details">
@@ -28,7 +28,7 @@ permalink: /2026/overview/
     </span>
     <span class="jump-to">Jump to <span class="jump-to-day">Monday</span></span>
   </button>
-  <button class="program-tab" role="tab" aria-selected="false" aria-controls="day-2026-10-06" data-date="2026-10-06" tabindex="-1">
+  <button class="program-tab" role="tab" aria-selected="true" aria-controls="day-2026-10-06" data-date="2026-10-06">
     <strong><span class="day-long">Tuesday</span><span class="day-short">Tue</span></strong>
     <span>Oct. 6 2026</span>
     <span class="day-details">
@@ -1320,6 +1320,11 @@ permalink: /2026/overview/
   text-align: center;
 }
 
+.program-tab[data-date="2026-10-05"] {
+  background: #f1f2f4;
+  border-color: #d5d8dd;
+}
+
 .program-tab strong,
 .program-tab span {
   display: block;
@@ -2461,6 +2466,19 @@ a.timeline-item.faculty:hover { text-decoration: none; filter: brightness(0.97);
   if (!tabs.length || !panels.length) {
     return;
   }
+
+  const panelsByDate = new Map(
+    panels.map(function (panel) {
+      return [panel.dataset.panelDate, panel];
+    })
+  );
+  const panelsContainer = panels[0].parentElement;
+  ["2026-10-06", "2026-10-07", "2026-10-08", "2026-10-09", "2026-10-05"].forEach(function (date) {
+    const panel = panelsByDate.get(date);
+    if (panel) {
+      panelsContainer.appendChild(panel);
+    }
+  });
 
   // Scroll to the panel for the given date
   function scrollToDay(dateValue) {
