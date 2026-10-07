@@ -27,7 +27,7 @@ permalink: /2026/overview/
     </span>
     <span class="jump-to">Jump to <span class="jump-to-day">Monday</span></span>
   </button>
-  <button class="program-tab" role="tab" aria-selected="true" aria-controls="day-2026-10-06" data-date="2026-10-06">
+  <button class="program-tab" role="tab" aria-selected="false" aria-controls="day-2026-10-06" data-date="2026-10-06" tabindex="-1">
     <strong><span class="day-long">Tuesday</span><span class="day-short">Tue</span></strong>
     <span>Oct. 6 2026</span>
     <span class="day-details">
@@ -39,7 +39,7 @@ permalink: /2026/overview/
     </span>
     <span class="jump-to">Jump to <span class="jump-to-day">Tuesday</span></span>
   </button>
-  <button class="program-tab" role="tab" aria-selected="false" aria-controls="day-2026-10-07" data-date="2026-10-07" tabindex="-1">
+  <button class="program-tab" role="tab" aria-selected="true" aria-controls="day-2026-10-07" data-date="2026-10-07">
     <strong><span class="day-long">Wednesday</span><span class="day-short">Wed</span></strong>
     <span>Oct. 7 2026</span>
     <span class="day-details">
@@ -83,9 +83,9 @@ permalink: /2026/overview/
 
 <!--
 <div class="mini-day-tabs" aria-label="Quick day selector">
-  <button class="mini-day-tab" data-date="2026-10-05" aria-selected="true">M</button>
+  <button class="mini-day-tab" data-date="2026-10-05" aria-selected="false">M</button>
   <button class="mini-day-tab" data-date="2026-10-06" aria-selected="false">T</button>
-  <button class="mini-day-tab" data-date="2026-10-07" aria-selected="false">W</button>
+  <button class="mini-day-tab" data-date="2026-10-07" aria-selected="true">W</button>
   <button class="mini-day-tab" data-date="2026-10-08" aria-selected="false">Th</button>
   <button class="mini-day-tab" data-date="2026-10-09" aria-selected="false">F</button>
 </div>
@@ -1320,8 +1320,13 @@ permalink: /2026/overview/
 }
 
 .program-tab[data-date="2026-10-05"] {
-  background: #f1f2f4;
-  border-color: #d5d8dd;
+  background: #e3e5e8;
+  border-color: #c4c8ce;
+}
+
+.program-tab[data-date="2026-10-06"] {
+  background: #e3e5e8;
+  border-color: #c4c8ce;
 }
 
 .program-tab[aria-selected="true"] {
@@ -2483,7 +2488,7 @@ a.timeline-item.faculty:hover { text-decoration: none; filter: brightness(0.97);
     })
   );
   const panelsContainer = panels[0].parentElement;
-  ["2026-10-06", "2026-10-07", "2026-10-08", "2026-10-09", "2026-10-05"].forEach(function (date) {
+  ["2026-10-07", "2026-10-08", "2026-10-09", "2026-10-05", "2026-10-06"].forEach(function (date) {
     const panel = panelsByDate.get(date);
     if (panel) {
       panelsContainer.appendChild(panel);
