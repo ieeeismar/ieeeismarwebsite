@@ -35,14 +35,14 @@ permalink: /2026/speed-mentorship/
     <li><strong>Frank Maurer</strong>, University of Calgary, Canada</li>
     <li><strong>Yan Hu</strong>, Blekinge Institute of Technology, Sweden</li>
     <li><strong>Florian Weidner</strong>, University of Glasgow, Scotland</li>
-    <li><strong>Mayra Donaji Barrera Machuca</strong>, University of Calgary, Canada</li>
     <li><strong>Rob Teather</strong>, Monash University, Australia</li>
     <li><strong>Cassidy R. Nelson</strong>, University of Utah</li>
     <li><strong>Étienne Peillard</strong>, IMT Atlantique, France</li>
     <li><strong>Stefanie Zollmann</strong>, Aarhus University, Denmark</li>
     <li><strong>Daisuke Iwai</strong>, The University of Osaka, Japan</li>
     <li><strong>Jeanine Stefanucci</strong>, University of Utah</li>
-    <li><strong>Ferran Argelaguet</strong>, IRISA/Inria Rennes, France</li>
+    <li><strong>Maheshya Weerasinghe</strong>, University of Primorska, Slovenia</li>
+    <li><strong>Marco Gillies</strong>, Goldsmiths, University of London</li>
   </ul>
 
   <p>
