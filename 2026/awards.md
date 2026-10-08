@@ -335,7 +335,7 @@ permalink: /2026/awards/
     <h2>Paper Awards</h2>
     <p>
       We gratefully acknowledge <a href="https://vera-xr.io/">VERA (Virtual Experience Research Accelerator)</a>
-      for sponsoring the Best Paper Awards through its use grants.
+      for supporting the Best Paper Awards through its use grants.
     </p>
 
     <div
