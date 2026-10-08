@@ -376,7 +376,7 @@ permalink: /2026/awards/
           <span class="best-paper-authors">Hayeon Kim and In-Kwon Lee</span>
         </li>
         <li>
-          <strong class="best-paper-title">NPCRadar: Non-Player-Character-Centered Multi-User Virtual Reality Crowd Forecasting</strong>
+          <strong class="best-paper-title">NPCRadar: NPC-Centered VR Multi-User Crowd Forecasting</strong>
           <span class="best-paper-authors">Yuan Yu, Chunlei Xu, Jiayi Wu, Yu Cao, and Boon Giin Lee</span>
         </li>
         <li>
