@@ -694,10 +694,13 @@ reminder = orange
     <a href="https://photos.app.goo.gl/o7mQupyjWFp24ESY8" class="photo-gallery-button" target="_blank" rel="noopener noreferrer">Day 1</a>
     <a href="https://photos.app.goo.gl/VVTQtnE7E54Jk2z46" class="photo-gallery-button" target="_blank" rel="noopener noreferrer">Day 2</a>
     <a href="https://photos.app.goo.gl/yiiG2pdA88meLGoQ9" class="photo-gallery-button" target="_blank" rel="noopener noreferrer">Day 3</a>
-    <button type="button" class="photo-gallery-button photo-gallery-button-disabled" aria-disabled="true" disabled>Day 4 - Coming</button>
+     <a href="https://photos.app.goo.gl/oix2p9AsdLjVw6BGA" class="photo-gallery-button" target="_blank" rel="noopener noreferrer">Day 4</a>
     <button type="button" class="photo-gallery-button photo-gallery-button-disabled" aria-disabled="true" disabled>Day 5 - Coming</button>
   </div>
 </section>
+
+
+
 
 <section class="info-categories-section">
   <h3 class="info-categories-title">News &amp; Announcements</h3>
