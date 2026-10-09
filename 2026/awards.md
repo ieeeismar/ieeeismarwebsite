@@ -48,7 +48,8 @@ permalink: /2026/awards/
     min-width: 0;
     box-sizing: border-box;
     color: #1f2937;
-    text-decoration: none;
+    text-decoration: none !important;
+    text-underline-offset: 0;
     cursor: pointer;
     transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
   }
@@ -58,6 +59,7 @@ permalink: /2026/awards/
     background: #3A8BF3;
     border-color: #3A8BF3;
     color: #fff;
+    text-decoration: none !important;
     box-shadow: 0 5px 14px rgba(58, 139, 243, 0.18);
     transform: translateY(-1px);
   }
@@ -77,14 +79,11 @@ permalink: /2026/awards/
 
   .award-card h2 {
     margin: 0 0 0.4rem;
-    padding-bottom: 0.3rem;
-    border-bottom: 1px solid #edf2f7;
+    padding-bottom: 0;
+    border-bottom: none;
     font-size: 0.95rem;
     color: #1f2937;
-  }
-
-  .award-card h2 {
-    color: #1f2937;
+    text-decoration: none !important;
   }
 
   .award-card:hover h2,
@@ -92,8 +91,12 @@ permalink: /2026/awards/
   .award-card:hover .award-list,
   .award-card:focus-visible .award-list,
   .award-card:hover .award-list li,
-  .award-card:focus-visible .award-list li {
+  .award-card:focus-visible .award-list li,
+  .award-card:hover .award-list a,
+  .award-card:focus-visible .award-list a {
     color: #fff;
+    text-decoration: none !important;
+    border-bottom: none !important;
   }
 
   .award-list {
@@ -105,13 +108,6 @@ permalink: /2026/awards/
     margin-bottom: 0.3rem;
     line-height: 1.45;
     color: #334155;
-  }
-
-  .award-list a {
-    color: #1f2937;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 0.88rem;
   }
 
   .award-sections {
@@ -215,6 +211,14 @@ permalink: /2026/awards/
   <!-- SUMMARY CARDS -->
   <div class="award-grid">
 
+    <a class="award-card award-card-secondary" href="#impact-awards-section">
+      <h2>Impact Awards</h2>
+      <ul class="award-list">
+        <li>ISMAR Career Impact Award</li>
+        <li>ISMAR Paper Impact Award</li>
+      </ul>
+    </a>
+
     <a class="award-card award-card-secondary" href="#paper-awards-section">
       <h2>Paper Awards</h2>
       <ul class="award-list">
@@ -223,55 +227,46 @@ permalink: /2026/awards/
       </ul>
     </a>
 
-    {% comment %}
-    <div class="award-card award-card-secondary">
-      <h2><a href="#reviewer-awards-section">Reviewer Awards</a></h2>
+    <a class="award-card award-card-secondary" href="#reviewer-awards-section">
+      <h2>Reviewer Awards</h2>
       <ul class="award-list">
-        <li><a href="#outstanding-reviewer-award">Outstanding Reviewer Award</a></li>
+        <li>Outstanding Reviewer Award</li>
       </ul>
-    </div>
+    </a>
 
-    <div class="award-card">
-      <h2><a href="#poster-awards-section">Poster Awards</a></h2>
+    <a class="award-card" href="#poster-awards-section">
+      <h2>Poster Awards</h2>
       <ul class="award-list">
-        <li><a href="#best-long-poster-award">Best Long Poster Award</a></li>
-        <li><a href="#best-short-poster-award">Best Short Poster Award</a></li>
-        <li><a href="#best-long-poster-honorable-mention">Best Long Poster Award Honorable Mention</a></li>
-        <li><a href="#best-short-poster-honorable-mention">Best Short Poster Award Honorable Mention</a></li>
+        <li>Best Long Poster Award</li>
+        <li>Best Short Poster Award</li>
+        <li>Best Long Poster Award Honorable Mention</li>
+        <li>Best Short Poster Award Honorable Mention</li>
       </ul>
-    </div>
+    </a>
 
-    <div class="award-card">
-      <h2><a href="#demonstration-awards-section">Demonstration Awards</a></h2>
+    <a class="award-card" href="#demonstration-awards-section">
+      <h2>Demonstration Awards</h2>
       <ul class="award-list">
-        <li><a href="#best-demonstration-award">Best Demonstration Award</a></li>
-        <li><a href="#best-demonstration-award-honorable-mention">Best Demonstration Award Honorable Mention</a></li>
+        <li>Best Demonstration Award</li>
+        <li>Best Demonstration Award Honorable Mention</li>
       </ul>
-    </div>
+    </a>
 
-    <div class="award-card">
-      <h2><a href="#doctoral-consortium-awards-section">Doctoral Consortium Awards</a></h2>
+    <a class="award-card" href="#doctoral-consortium-awards-section">
+      <h2>Doctoral Consortium Awards</h2>
       <ul class="award-list">
-        <li><a href="#best-doctoral-consortium-award">Best Doctoral Consortium Award</a></li>
-        <li><a href="#best-doctoral-consortium-award-honorable-mention">Best Doctoral Consortium Award Honorable Mention</a></li>
+        <li>Best Doctoral Consortium Award</li>
+        <li>Best Doctoral Consortium Award Honorable Mention</li>
       </ul>
-    </div>
+    </a>
 
-    <div class="award-card">
-      <h2><a href="#community-awards-section">Community &amp; Service Awards</a></h2>
+    <a class="award-card" href="#community-awards-section">
+      <h2>Community &amp; Service Awards</h2>
       <ul class="award-list">
-        <li><a href="#student-volunteer-award">Student Volunteer Award</a></li>
-        <li><a href="#social-engagement-award">Social Engagement Award</a></li>
+        <li>Student Volunteer Award</li>
+        <li>Social Engagement Award</li>
       </ul>
-    </div>
-
-    <div class="award-card">
-      <h2><a href="#workshop-awards-section">Workshop Awards</a></h2>
-      <ul class="award-list">
-        <li><a href="#best-workshop-award">Best Workshop Award</a></li>
-      </ul>
-    </div>
-    {% endcomment %}
+    </a>
 
   </div>
 
@@ -280,7 +275,6 @@ permalink: /2026/awards/
 
 <div class="award-sections">
 
-  {% comment %}
   <section
     class="award-section"
     id="impact-awards-section"
@@ -300,9 +294,11 @@ permalink: /2026/awards/
         <span>ISMAR Career Impact Award</span>
       </h3>
 
-      <p>
-        Award information will be available here.
-      </p>
+      <ul class="best-paper-list">
+        <li>
+          <strong class="best-paper-title">Gregory F. Welch</strong>
+        </li>
+      </ul>
     </div>
 
 
@@ -318,14 +314,15 @@ permalink: /2026/awards/
         <span>ISMAR Paper Impact Award</span>
       </h3>
 
-      <p>
-        Award information will be available here.
-      </p>
+      <ul class="best-paper-list">
+        <li>
+          <strong class="best-paper-title">Robust Monocular SLAM in Dynamic Environments</strong>
+          <span class="best-paper-authors">Wei Tan, Haomin Liu, Zilong Dong, Guofeng Zhang, and Hujun Bao</span>
+        </li>
+      </ul>
     </div>
 
   </section>
-  {% endcomment %}
-
 
   <section
     class="award-section"
@@ -477,8 +474,6 @@ permalink: /2026/awards/
 
   </section>
 
-  {% comment %}
-
   <section
     class="award-section"
     id="reviewer-awards-section"
@@ -498,9 +493,16 @@ permalink: /2026/awards/
         <span>Outstanding Reviewer Award</span>
       </h3>
 
-      <p>
-        Award information will be available here.
-      </p>
+      <ul>
+        <li>Yuki Ban</li>
+        <li>Hugo Brumont</li>
+        <li>Weiya Chen</li>
+        <li>Charlotte Croucher</li>
+        <li>Takefumi Hiraki</li>
+        <li>Yahya Hmaiti</li>
+        <li>Christos Mousas</li>
+        <li>Niall Williams</li>
+      </ul>
     </div>
 
   </section>
@@ -525,9 +527,12 @@ permalink: /2026/awards/
         <span>Best Long Poster Award</span>
       </h3>
 
-      <p>
-        Award information will be available here.
-      </p>
+      <ul class="best-paper-list">
+        <li>
+          <strong class="best-paper-title">Do Elliptical Avatar Distortions Shape 3D Reaching Movements?</strong>
+          <span class="best-paper-authors">Iris Willaert, Valentin Vallageas, and David R. Labbe</span>
+        </li>
+      </ul>
     </div>
 
 
@@ -543,9 +548,12 @@ permalink: /2026/awards/
         <span>Best Short Poster Award</span>
       </h3>
 
-      <p>
-        Award information will be available here.
-      </p>
+      <ul class="best-paper-list">
+        <li>
+          <strong class="best-paper-title">Effects of Avatar Appearance on Users' Perception in Social VR: A User Study with Seated Acquainted Dyads</strong>
+          <span class="best-paper-authors">Selina Palige, Katharina Precht, and Angelika C. Bullinger</span>
+        </li>
+      </ul>
     </div>
 
 
@@ -561,9 +569,12 @@ permalink: /2026/awards/
         <span>Best Long Poster Award Honorable Mention</span>
       </h3>
 
-      <p>
-        Award information will be available here.
-      </p>
+      <ul class="best-paper-list">
+        <li>
+          <strong class="best-paper-title">The Ventriloquist Effect as a Design Mechanism for VR Masking Sound Therapy</strong>
+          <span class="best-paper-authors">Tristan Gabriel Mona, Luca Eastwood, Meng Du, Philip J. Sanders, and Burkhard C. Wünsche</span>
+        </li>
+      </ul>
     </div>
 
 
@@ -579,9 +590,12 @@ permalink: /2026/awards/
         <span>Best Short Poster Award Honorable Mention</span>
       </h3>
 
-      <p>
-        Award information will be available here.
-      </p>
+      <ul class="best-paper-list">
+        <li>
+          <strong class="best-paper-title">Multimodal Augmented Reality Guidance for Object Localization and Wayfinding in Visually Challenging Environments</strong>
+          <span class="best-paper-authors">Rafael Damouni, Muhammad Haj Ali, Julian Kreimeier, Hannah Schieber, Daniel Roth, Sarit Szpiro, and Ilan Shimshoni</span>
+        </li>
+      </ul>
     </div>
 
   </section>
@@ -606,9 +620,12 @@ permalink: /2026/awards/
         <span>Best Demonstration Award</span>
       </h3>
 
-      <p>
-        Award information will be available here.
-      </p>
+      <ul class="best-paper-list">
+        <li>
+          <strong class="best-paper-title">Demonstration of Flashpoint: A Thermally-Charged Arcade Experience</strong>
+          <span class="best-paper-authors">Daniel Honrales, Mason Liu, Jason Cheon, and Jin Ryong Kim</span>
+        </li>
+      </ul>
     </div>
 
 
@@ -624,9 +641,17 @@ permalink: /2026/awards/
         <span>Best Demonstration Award Honorable Mention</span>
       </h3>
 
-      <p>
-        Award information will be available here.
-      </p>
+      <ul class="best-paper-list">
+        <li>
+          <strong class="best-paper-title">Flow Matching for Augmented Reality Applications</strong>
+          <span class="best-paper-authors">Christian Sandor</span>
+        </li>
+        <li>
+          <strong class="best-paper-title">Demonstrating SensoryBlox: Plug-and-Feel Modular Multi-Sensory User Interface for Immersive Cardboard VR</strong>
+          <span class="best-paper-authors">Hyunjae Gil, Abbas Khawaja, and Jin Ryong Kim</span>
+          <span class="best-paper-authors"></span>
+        </li>
+      </ul>
     </div>
 
   </section>
@@ -651,9 +676,12 @@ permalink: /2026/awards/
         <span>Best Doctoral Consortium Award</span>
       </h3>
 
-      <p>
-        Award information will be available here.
-      </p>
+      <ul class="best-paper-list">
+        <li>
+          <strong class="best-paper-title">Toward Object-Affordance-Aware Minimal AR for Adaptive Procedural Task Guidance</strong>
+          <span class="best-paper-authors">Mona Yavari</span>
+        </li>
+      </ul>
     </div>
 
 
@@ -669,36 +697,12 @@ permalink: /2026/awards/
         <span>Best Doctoral Consortium Award Honorable Mention</span>
       </h3>
 
-      <p>
-        Award information will be available here.
-      </p>
-    </div>
-
-  </section>
-
-
-  <section
-    class="award-section"
-    id="workshop-awards-section"
-  >
-
-    <h2>Workshop Awards</h2>
-
-    <div
-      class="award-entry"
-      id="best-workshop-award"
-    >
-      <h3 class="award-entry-title-with-icon">
-        <img
-          src="{{ '/assets/2026/img/badges/award-1.png' | relative_url }}"
-          alt="Best Workshop Award"
-        >
-        <span>Best Workshop Award</span>
-      </h3>
-
-      <p>
-        Award information will be available here.
-      </p>
+      <ul class="best-paper-list">
+        <li>
+          <strong class="best-paper-title">Evaluating Attentional Stability in Optical See-Through Augmented Reality Through Adaptation of Risk-Informed Visual Attention Metrics</strong>
+          <span class="best-paper-authors">Addison Bright</span>
+        </li>
+      </ul>
     </div>
 
   </section>
@@ -723,9 +727,10 @@ permalink: /2026/awards/
         <span>Student Volunteer Award</span>
       </h3>
 
-      <p>
-        Award information will be available here.
-      </p>
+      <ul>
+        <li>G. Nikki Alabanza</li>
+        <li>Francesca Pia Travisani</li>
+      </ul>
     </div>
 
 
@@ -740,13 +745,10 @@ permalink: /2026/awards/
         >
         <span>Social Engagement Award</span>
       </h3>
-
-      <p>
-        Award information will be available here.
-      </p>
+      <ul>
+         <li>Yuma Kokubu</li>
+      </ul>
     </div>
 
   </section>
-  {% endcomment %}
-
 </div>
