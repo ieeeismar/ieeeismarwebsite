@@ -52,7 +52,7 @@ permalink: /2026/overview/
     </span>
     <span class="jump-to">Jump to <span class="jump-to-day">Wednesday</span></span>
   </button>
-  <button class="program-tab" role="tab" aria-selected="true" aria-controls="day-2026-10-08" data-date="2026-10-08">
+  <button class="program-tab" role="tab" aria-selected="false" aria-controls="day-2026-10-08" data-date="2026-10-08" tabindex="-1">
     <strong><span class="day-long">Thursday</span><span class="day-short">Thu</span></strong>
     <span>Oct. 8 2026</span>
     <span class="day-details">
@@ -65,7 +65,7 @@ permalink: /2026/overview/
     </span>
     <span class="jump-to">Jump to <span class="jump-to-day">Thursday</span></span>
   </button>
-  <button class="program-tab" role="tab" aria-selected="false" aria-controls="day-2026-10-09" data-date="2026-10-09" tabindex="-1">
+  <button class="program-tab" role="tab" aria-selected="true" aria-controls="day-2026-10-09" data-date="2026-10-09" tabindex="0">
     <strong><span class="day-long">Friday</span><span class="day-short">Fri</span></strong>
     <span>Oct. 9 2026</span>
     <span class="day-details">
@@ -1334,6 +1334,18 @@ permalink: /2026/overview/
   border-color: #c4c8ce;
 }
 
+.program-tab[data-date="2026-10-08"] {
+  background: #e3e5e8;
+  border-color: #c4c8ce;
+}
+
+.program-tab[data-date="2026-10-09"] {
+  background: #3A8BF3;
+  border-color: #3A8BF3;
+  color: #fff;
+  box-shadow: 0 5px 14px rgba(58, 139, 243, 0.25);
+}
+
 .program-tab[aria-selected="true"] {
   border-color: #3A8BF3;
   background: #3A8BF3;
@@ -2493,7 +2505,7 @@ a.timeline-item.faculty:hover { text-decoration: none; filter: brightness(0.97);
     })
   );
   const panelsContainer = panels[0].parentElement;
-  ["2026-10-08", "2026-10-09", "2026-10-05", "2026-10-06", "2026-10-07"].forEach(function (date) {
+  ["2026-10-09", "2026-10-05", "2026-10-06", "2026-10-07", "2026-10-08"].forEach(function (date) {
     const panel = panelsByDate.get(date);
     if (panel) {
       panelsContainer.appendChild(panel);
