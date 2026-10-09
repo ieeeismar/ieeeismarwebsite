@@ -607,7 +607,97 @@ reminder = orange
     width: 100px;
   }
 }
+
+.photo-gallery-card {
+  width: min(100% - 2rem, 1100px);
+  margin: 2.5rem auto 0;
+  padding: 1.5rem 1.5rem 1.2rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.05);
+}
+
+.photo-gallery-header {
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+
+.photo-gallery-header h2 {
+  margin: 0 0 0.35rem;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  line-height: 1.2;
+}
+
+.photo-gallery-header p {
+  margin: 0;
+  color: #475569;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.photo-gallery-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.photo-gallery-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  min-width: 150px;
+  padding: 0.85rem 1.2rem;
+  border: none;
+  border-radius: 999px;
+  background: #3A8BF3;
+  color: #fff !important;
+  font-weight: 900;
+  font-size: 0.98rem;
+  text-decoration: none !important;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease, opacity 0.2s ease;
+}
+
+.photo-gallery-button:hover {
+  background: #2878DB;
+  transform: translateY(-1px);
+  text-decoration: none !important;
+}
+
+.photo-gallery-button:focus-visible {
+  outline: 3px solid rgba(58, 139, 243, 0.35);
+  outline-offset: 3px;
+}
+
+.photo-gallery-button-disabled {
+  background: #dfe9f7;
+  color: #5f7186 !important;
+  cursor: not-allowed;
+  opacity: 0.9;
+}
+
+.photo-gallery-button-disabled:hover {
+  background: #dfe9f7;
+  transform: none;
+}
 </style>
+
+<section class="photo-gallery-card" aria-label="ISMAR 2026 photo gallery">
+  <div class="photo-gallery-header">
+    <h2>Browse the ISMAR 2026 Photo Gallery</h2>
+    <p>Take a look back at the energy, ideas, and moments that defined IEEE ISMAR 2026 in Bari.</p>
+  </div>
+
+  <div class="photo-gallery-actions">
+    <a href="https://photos.app.goo.gl/o7mQupyjWFp24ESY8" class="photo-gallery-button" target="_blank" rel="noopener noreferrer">Day 1</a>
+    <a href="https://photos.app.goo.gl/VVTQtnE7E54Jk2z46" class="photo-gallery-button" target="_blank" rel="noopener noreferrer">Day 2</a>
+    <a href="https://photos.app.goo.gl/yiiG2pdA88meLGoQ9" class="photo-gallery-button" target="_blank" rel="noopener noreferrer">Day 3</a>
+    <button type="button" class="photo-gallery-button photo-gallery-button-disabled" aria-disabled="true" disabled>Day 4 - Coming</button>
+    <button type="button" class="photo-gallery-button photo-gallery-button-disabled" aria-disabled="true" disabled>Day 5 - Coming</button>
+  </div>
+</section>
 
 <section class="info-categories-section">
   <h3 class="info-categories-title">News &amp; Announcements</h3>
