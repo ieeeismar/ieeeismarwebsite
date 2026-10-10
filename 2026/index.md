@@ -38,19 +38,14 @@ redirect_from: /
     </a>
 
 
-<h1 class="heading">IEEE ISMAR 2026 is on!</h1>
+<h1 class="heading">IEEE ISMAR 2026 is over!</h1>
 <h2 class="subheading">Bari, Italy</h2>
 <h2 class="subheading">Oct. 5 - Oct. 9 2026</h2>
+<h2 class="subheading">Next year: Kobe, Japan</h2>
 
 <div class="ismar-hero-cta">
-  <a href="/2026/overview/" class="ismar-program-button">
-    Jump to Program
-  </a>
-  <a href="/2026/conference-venue-map/" class="ismar-program-button ismar-map-button">
-    Jump to Map
-  </a>
-  <a href="https://www.instagram.com/ismarconf/" class="ismar-program-button ismar-instagram-button">
-    Share your experience!
+  <a href="https://www.ieeeismar.net/2027/" class="ismar-program-button">
+    ISMAR 2027
   </a>
 </div>
 
@@ -695,7 +690,27 @@ reminder = orange
     <a href="https://photos.app.goo.gl/VVTQtnE7E54Jk2z46" class="photo-gallery-button" target="_blank" rel="noopener noreferrer">Day 2</a>
     <a href="https://photos.app.goo.gl/yiiG2pdA88meLGoQ9" class="photo-gallery-button" target="_blank" rel="noopener noreferrer">Day 3</a>
      <a href="https://photos.app.goo.gl/oix2p9AsdLjVw6BGA" class="photo-gallery-button" target="_blank" rel="noopener noreferrer">Day 4</a>
-    <button type="button" class="photo-gallery-button photo-gallery-button-disabled" aria-disabled="true" disabled>Day 5 - Coming</button>
+     <a href="https://photos.app.goo.gl/trzLa3RkxfownkkT8" class="photo-gallery-button" target="_blank" rel="noopener noreferrer">Day 5</a>
+  </div>
+</section>
+
+
+
+<section class="photo-gallery-card" aria-label="ISMAR 2026 presentation recordings">
+  <div class="photo-gallery-header">
+    <h2>ISMAR 2026 Presentation Recordings</h2>
+    <p>Revisit paper and poster presentations or catch up on sessions you missed on the ISMAR YouTube channel.</p>
+  </div>
+
+  <div class="photo-gallery-actions">
+    <a
+      class="photo-gallery-button"
+      href="https://www.youtube.com/@ismarconf/playlists"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Watch Presentation Recordings
+    </a>
   </div>
 </section>
 

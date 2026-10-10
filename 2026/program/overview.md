@@ -65,7 +65,7 @@ permalink: /2026/overview/
     </span>
     <span class="jump-to">Jump to <span class="jump-to-day">Thursday</span></span>
   </button>
-  <button class="program-tab" role="tab" aria-selected="true" aria-controls="day-2026-10-09" data-date="2026-10-09" tabindex="0">
+  <button class="program-tab" role="tab" aria-selected="false" aria-controls="day-2026-10-09" data-date="2026-10-09" tabindex="-1">
     <strong><span class="day-long">Friday</span><span class="day-short">Fri</span></strong>
     <span>Oct. 9 2026</span>
     <span class="day-details">
@@ -85,7 +85,7 @@ permalink: /2026/overview/
 <div class="mini-day-tabs" aria-label="Quick day selector">
   <button class="mini-day-tab" data-date="2026-10-05" aria-selected="false">M</button>
   <button class="mini-day-tab" data-date="2026-10-06" aria-selected="false">T</button>
-  <button class="mini-day-tab" data-date="2026-10-07" aria-selected="true">W</button>
+  <button class="mini-day-tab" data-date="2026-10-07" aria-selected="false">W</button>
   <button class="mini-day-tab" data-date="2026-10-08" aria-selected="false">Th</button>
   <button class="mini-day-tab" data-date="2026-10-09" aria-selected="false">F</button>
 </div>
@@ -1313,44 +1313,28 @@ permalink: /2026/overview/
   border: 1px solid #ccd5e1;
   border-radius: 12px;
   background: #fff;
-  color: inherit;
+  color: #1c2a3a;
   cursor: pointer;
   font: inherit;
   text-align: center;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.program-tab[data-date="2026-10-05"] {
-  background: #e3e5e8;
-  border-color: #c4c8ce;
-}
-
-.program-tab[data-date="2026-10-06"] {
-  background: #e3e5e8;
-  border-color: #c4c8ce;
-}
-
-.program-tab[data-date="2026-10-07"] {
-  background: #e3e5e8;
-  border-color: #c4c8ce;
-}
-
-.program-tab[data-date="2026-10-08"] {
-  background: #e3e5e8;
-  border-color: #c4c8ce;
-}
-
+.program-tab[data-date="2026-10-05"],
+.program-tab[data-date="2026-10-06"],
+.program-tab[data-date="2026-10-07"],
+.program-tab[data-date="2026-10-08"],
 .program-tab[data-date="2026-10-09"] {
-  background: #3A8BF3;
-  border-color: #3A8BF3;
-  color: #fff;
-  box-shadow: 0 5px 14px rgba(58, 139, 243, 0.25);
+  background: #fff;
+  border-color: #ccd5e1;
+  color: #1c2a3a;
 }
 
 .program-tab[aria-selected="true"] {
-  border-color: #3A8BF3;
-  background: #3A8BF3;
-  color: #fff;
-  box-shadow: 0 5px 14px rgba(58, 139, 243, 0.25);
+  border-color: #ccd5e1;
+  background: #fff;
+  color: #1c2a3a;
+  box-shadow: none;
 }
 
 .program-tab strong,
@@ -1425,7 +1409,11 @@ permalink: /2026/overview/
 }
 
 .program-tab[aria-selected="true"] .day-highlight {
-  border-top-color: rgba(255, 255, 255, 0.35);
+  border-top-color: rgba(0, 0, 0, 0.14);
+}
+
+.program-tab[aria-selected="true"] .day-highlight-below {
+  border-bottom-color: rgba(0, 0, 0, 0.14);
 }
 
 .program-tab:hover .day-highlight-below {
@@ -2505,7 +2493,7 @@ a.timeline-item.faculty:hover { text-decoration: none; filter: brightness(0.97);
     })
   );
   const panelsContainer = panels[0].parentElement;
-  ["2026-10-09", "2026-10-05", "2026-10-06", "2026-10-07", "2026-10-08"].forEach(function (date) {
+  ["2026-10-05", "2026-10-06", "2026-10-07", "2026-10-08", "2026-10-09"].forEach(function (date) {
     const panel = panelsByDate.get(date);
     if (panel) {
       panelsContainer.appendChild(panel);
