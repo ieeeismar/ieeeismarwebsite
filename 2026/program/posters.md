@@ -71,9 +71,11 @@ Poster ID format: Poster [day][session] (e.g. Poster 3B)
               <span class="poster-title">{{ p["Title"] }}</span>
               <span class="poster-authors">{% assign authors = "" %}{% for i in (1..15) %}{% assign key = "Author " | append: i %}{% if p[key] and p[key] != "" %}{% if authors != "" %}{% assign authors = authors | append: ", " %}{% endif %}{% assign authors = authors | append: p[key] %}{% endif %}{% endfor %}{{ authors }}</span>
             </summary>
+            {% comment %}
             {% if p["Link"] and p["Link"] != "" %}
             <a href="{{ p['Link'] }}" class="poster-pdf-link" target="_blank" rel="noopener">Read PDF</a>
             {% endif %}
+            {% endcomment %}
             {% if p["abstract"] and p["abstract"] != "" %}
             <div class="poster-abstract">{{ p["abstract"] }}</div>
             {% endif %}
@@ -96,9 +98,11 @@ Poster ID format: Poster [day][session] (e.g. Poster 3B)
               <span class="poster-title">{{ p["Title"] }}</span>
               <span class="poster-authors">{% assign authors = "" %}{% for i in (1..15) %}{% assign key = "Author " | append: i %}{% if p[key] and p[key] != "" %}{% if authors != "" %}{% assign authors = authors | append: ", " %}{% endif %}{% assign authors = authors | append: p[key] %}{% endif %}{% endfor %}{{ authors }}</span>
             </summary>
+            {% comment %}
             {% if p["Link"] and p["Link"] != "" %}
             <a href="{{ p['Link'] }}" class="poster-pdf-link" target="_blank" rel="noopener">Read PDF</a>
             {% endif %}
+            {% endcomment %}
             {% if p["abstract"] and p["abstract"] != "" %}
             <div class="poster-abstract">{{ p["abstract"] }}</div>
             {% endif %}
@@ -131,9 +135,11 @@ Poster ID format: Poster [day][session] (e.g. Poster 3B)
               <span class="poster-title">{{ p["Title"] }}</span>
               <span class="poster-authors">{% assign authors = "" %}{% for i in (1..15) %}{% assign key = "Author " | append: i %}{% if p[key] and p[key] != "" %}{% if authors != "" %}{% assign authors = authors | append: ", " %}{% endif %}{% assign authors = authors | append: p[key] %}{% endif %}{% endfor %}{{ authors }}</span>
             </summary>
+            {% comment %}
             {% if p["Link"] and p["Link"] != "" %}
             <a href="{{ p['Link'] }}" class="poster-pdf-link" target="_blank" rel="noopener">Read PDF</a>
             {% endif %}
+            {% endcomment %}
             {% if p["abstract"] and p["abstract"] != "" %}
             <div class="poster-abstract">{{ p["abstract"] }}</div>
             {% endif %}
@@ -156,9 +162,11 @@ Poster ID format: Poster [day][session] (e.g. Poster 3B)
               <span class="poster-title">{{ p["Title"] }}</span>
               <span class="poster-authors">{% assign authors = "" %}{% for i in (1..15) %}{% assign key = "Author " | append: i %}{% if p[key] and p[key] != "" %}{% if authors != "" %}{% assign authors = authors | append: ", " %}{% endif %}{% assign authors = authors | append: p[key] %}{% endif %}{% endfor %}{{ authors }}</span>
             </summary>
+            {% comment %}
             {% if p["Link"] and p["Link"] != "" %}
             <a href="{{ p['Link'] }}" class="poster-pdf-link" target="_blank" rel="noopener">Read PDF</a>
             {% endif %}
+            {% endcomment %}
             {% if p["abstract"] and p["abstract"] != "" %}
             <div class="poster-abstract">{{ p["abstract"] }}</div>
             {% endif %}
@@ -191,9 +199,11 @@ Poster ID format: Poster [day][session] (e.g. Poster 3B)
               <span class="poster-title">{{ p["Title"] }}</span>
               <span class="poster-authors">{% assign authors = "" %}{% for i in (1..15) %}{% assign key = "Author " | append: i %}{% if p[key] and p[key] != "" %}{% if authors != "" %}{% assign authors = authors | append: ", " %}{% endif %}{% assign authors = authors | append: p[key] %}{% endif %}{% endfor %}{{ authors }}</span>
             </summary>
+            {% comment %}
             {% if p["Link"] and p["Link"] != "" %}
             <a href="{{ p['Link'] }}" class="poster-pdf-link" target="_blank" rel="noopener">Read PDF</a>
             {% endif %}
+            {% endcomment %}
             {% if p["abstract"] and p["abstract"] != "" %}
             <div class="poster-abstract">{{ p["abstract"] }}</div>
             {% endif %}
@@ -216,9 +226,11 @@ Poster ID format: Poster [day][session] (e.g. Poster 3B)
               <span class="poster-title">{{ p["Title"] }}</span>
               <span class="poster-authors">{% assign authors = "" %}{% for i in (1..15) %}{% assign key = "Author " | append: i %}{% if p[key] and p[key] != "" %}{% if authors != "" %}{% assign authors = authors | append: ", " %}{% endif %}{% assign authors = authors | append: p[key] %}{% endif %}{% endfor %}{{ authors }}</span>
             </summary>
+            {% comment %}
             {% if p["Link"] and p["Link"] != "" %}
             <a href="{{ p['Link'] }}" class="poster-pdf-link" target="_blank" rel="noopener">Read PDF</a>
             {% endif %}
+            {% endcomment %}
             {% if p["abstract"] and p["abstract"] != "" %}
             <div class="poster-abstract">{{ p["abstract"] }}</div>
             {% endif %}

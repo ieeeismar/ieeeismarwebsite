@@ -216,9 +216,11 @@ PS Number Calculation:
                         <span class="paper-title">{{ p["Paper Title"] }}</span>
                         <span class="paper-authors">{{ p["Authors"] }}</span>
                       </summary>
+                      {% comment %}
                       {% if p["Link"] and p["Link"] != "" %}
                       <a href="{{ p['Link'] }}" class="paper-pdf-link" target="_blank" rel="noopener">Read PDF</a>
                       {% endif %}
+                      {% endcomment %}
                       {% if p["Abstract"] and p["Abstract"] != "" %}
                       <div class="paper-abstract">{{ p["Abstract"] }}</div>
                       {% endif %}
@@ -329,9 +331,11 @@ PS Number Calculation:
                         <span class="paper-title">{{ p["Paper Title"] }}</span>
                         <span class="paper-authors">{{ p["Authors"] }}</span>
                       </summary>
+                      {% comment %}
                       {% if p["Link"] and p["Link"] != "" %}
                       <a href="{{ p['Link'] }}" class="paper-pdf-link" target="_blank" rel="noopener">Read PDF</a>
                       {% endif %}
+                      {% endcomment %}
                       {% if p["Abstract"] and p["Abstract"] != "" %}
                       <div class="paper-abstract">{{ p["Abstract"] }}</div>
                       {% endif %}
@@ -442,9 +446,11 @@ PS Number Calculation:
                         <span class="paper-title">{{ p["Paper Title"] }}</span>
                         <span class="paper-authors">{{ p["Authors"] }}</span>
                       </summary>
+                      {% comment %}
                       {% if p["Link"] and p["Link"] != "" %}
                       <a href="{{ p['Link'] }}" class="paper-pdf-link" target="_blank" rel="noopener">Read PDF</a>
                       {% endif %}
+                      {% endcomment %}
                       {% if p["Abstract"] and p["Abstract"] != "" %}
                       <div class="paper-abstract">{{ p["Abstract"] }}</div>
                       {% endif %}
