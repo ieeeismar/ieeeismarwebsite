@@ -38,19 +38,14 @@ redirect_from: /
     </a>
 
 
-<h1 class="heading">IEEE ISMAR 2026 is on!</h1>
+<h1 class="heading">IEEE ISMAR 2026 is over!</h1>
 <h2 class="subheading">Bari, Italy</h2>
 <h2 class="subheading">Oct. 5 - Oct. 9 2026</h2>
+<h2 class="subheading">Next year: Kobe, Japan</h2>
 
 <div class="ismar-hero-cta">
-  <a href="/2026/overview/" class="ismar-program-button">
-    Jump to Program
-  </a>
-  <a href="/2026/conference-venue-map/" class="ismar-program-button ismar-map-button">
-    Jump to Map
-  </a>
-  <a href="https://www.instagram.com/ismarconf/" class="ismar-program-button ismar-instagram-button">
-    Share your experience!
+  <a href="https://www.ieeeismar.net/2027/" class="ismar-program-button">
+    ISMAR 2027
   </a>
 </div>
 
@@ -607,7 +602,120 @@ reminder = orange
     width: 100px;
   }
 }
+
+.photo-gallery-card {
+  width: min(100% - 2rem, 1100px);
+  margin: 2.5rem auto 0;
+  padding: 1.5rem 1.5rem 1.2rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.05);
+}
+
+.photo-gallery-header {
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+
+.photo-gallery-header h2 {
+  margin: 0 0 0.35rem;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  line-height: 1.2;
+}
+
+.photo-gallery-header p {
+  margin: 0;
+  color: #475569;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.photo-gallery-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.photo-gallery-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  min-width: 150px;
+  padding: 0.85rem 1.2rem;
+  border: none;
+  border-radius: 999px;
+  background: #3A8BF3;
+  color: #fff !important;
+  font-weight: 900;
+  font-size: 0.98rem;
+  text-decoration: none !important;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease, opacity 0.2s ease;
+}
+
+.photo-gallery-button:hover {
+  background: #2878DB;
+  transform: translateY(-1px);
+  text-decoration: none !important;
+}
+
+.photo-gallery-button:focus-visible {
+  outline: 3px solid rgba(58, 139, 243, 0.35);
+  outline-offset: 3px;
+}
+
+.photo-gallery-button-disabled {
+  background: #dfe9f7;
+  color: #5f7186 !important;
+  cursor: not-allowed;
+  opacity: 0.9;
+}
+
+.photo-gallery-button-disabled:hover {
+  background: #dfe9f7;
+  transform: none;
+}
 </style>
+
+<section class="photo-gallery-card" aria-label="ISMAR 2026 photo gallery">
+  <div class="photo-gallery-header">
+    <h2>Browse the ISMAR 2026 Photo Gallery</h2>
+    <p>Take a look back at the energy, ideas, and moments that defined IEEE ISMAR 2026 in Bari.</p>
+  </div>
+
+  <div class="photo-gallery-actions">
+    <a href="https://photos.app.goo.gl/o7mQupyjWFp24ESY8" class="photo-gallery-button" target="_blank" rel="noopener noreferrer">Day 1</a>
+    <a href="https://photos.app.goo.gl/VVTQtnE7E54Jk2z46" class="photo-gallery-button" target="_blank" rel="noopener noreferrer">Day 2</a>
+    <a href="https://photos.app.goo.gl/yiiG2pdA88meLGoQ9" class="photo-gallery-button" target="_blank" rel="noopener noreferrer">Day 3</a>
+     <a href="https://photos.app.goo.gl/oix2p9AsdLjVw6BGA" class="photo-gallery-button" target="_blank" rel="noopener noreferrer">Day 4</a>
+     <a href="https://photos.app.goo.gl/trzLa3RkxfownkkT8" class="photo-gallery-button" target="_blank" rel="noopener noreferrer">Day 5</a>
+  </div>
+</section>
+
+
+
+<section class="photo-gallery-card" aria-label="ISMAR 2026 presentation recordings">
+  <div class="photo-gallery-header">
+    <h2>ISMAR 2026 Presentation Recordings</h2>
+    <p>Revisit paper and poster presentations or catch up on sessions you missed on the ISMAR YouTube channel.</p>
+  </div>
+
+  <div class="photo-gallery-actions">
+    <a
+      class="photo-gallery-button"
+      href="https://www.youtube.com/@ismarconf/playlists"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Watch Presentation Recordings
+    </a>
+  </div>
+</section>
+
+
+
 
 <section class="info-categories-section">
   <h3 class="info-categories-title">News &amp; Announcements</h3>
