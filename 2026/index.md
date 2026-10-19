@@ -39,14 +39,14 @@ redirect_from: /
 
 
 <h1 class="heading">IEEE ISMAR 2026 is over!</h1>
-<h2 class="subheading"> Thank you presenters and attendees.</h2>
 <h2 class="subheading">Bari, Italy</h2>
 <h2 class="subheading">Oct. 5 - Oct. 9 2026</h2>
-<h2 class="subheading">Next year: Kobe, Japan</h2>
 
 <div class="ismar-hero-cta">
   <a href="https://www.ieeeismar.net/2027/" class="ismar-program-button">
-    ISMAR 2027
+    <span class="ismar-next-year-label">Next up · 2027</span>
+    <span class="ismar-next-year-title">Kobe, Japan</span>
+    <span class="ismar-next-year-link">See you at ISMAR 2027</span>
   </a>
 </div>
 
@@ -71,12 +71,27 @@ redirect_from: /
 <!-- INTRO SECTION -->
 
 <div class="announcement">
-    <h2>Experience IEEE ISMAR in Bari, Italy, from October 5th to 9th, 2026!</h2>
+    <h2>Thank you presenters and attendees for joining us in Bari for IEEE ISMAR 2026!</h2>
     <p>
-        The <strong>25th IEEE International Symposium on Mixed and Augmented Reality (ISMAR)</strong> is the leading global venue for AR, MR, and VR, bringing together top researchers, practitioners, and innovators from academia and industry.
+        The <strong>25th IEEE International Symposium on Mixed and Augmented Reality (ISMAR)</strong> brought together researchers, practitioners, and innovators from around the world to explore the latest advances in AR, MR, and VR.
     </p>
 
 </div>
+
+<section class="photo-gallery-card" aria-label="ISMAR 2026 photo gallery">
+  <div class="photo-gallery-header">
+    <h2>Browse the ISMAR 2026 Photo Gallery</h2>
+    <p>Take a look back at the energy, ideas, and moments that defined IEEE ISMAR 2026 in Bari.</p>
+  </div>
+
+  <div class="photo-gallery-actions">
+    <a href="https://photos.app.goo.gl/o7mQupyjWFp24ESY8" class="photo-gallery-button" target="_blank" rel="noopener noreferrer">Day 1</a>
+    <a href="https://photos.app.goo.gl/VVTQtnE7E54Jk2z46" class="photo-gallery-button" target="_blank" rel="noopener noreferrer">Day 2</a>
+    <a href="https://photos.app.goo.gl/yiiG2pdA88meLGoQ9" class="photo-gallery-button" target="_blank" rel="noopener noreferrer">Day 3</a>
+    <a href="https://photos.app.goo.gl/oix2p9AsdLjVw6BGA" class="photo-gallery-button" target="_blank" rel="noopener noreferrer">Day 4</a>
+    <a href="https://photos.app.goo.gl/trzLa3RkxfownkkT8" class="photo-gallery-button" target="_blank" rel="noopener noreferrer">Day 5</a>
+  </div>
+</section>
 
 <!-- ISMAR 2026 AT A GLANCE -->
 
@@ -202,8 +217,29 @@ redirect_from: /
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.75rem;
-    margin-top: 1.5rem;
+    margin-top: 0.75rem;
+  }
+
+  .ismar-next-year-label {
+    display: block;
+    margin-bottom: 0.15rem;
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    line-height: 1.3;
+    text-transform: uppercase;
+  }
+
+  .ismar-next-year-title {
+    display: block;
+    font-size: clamp(1.2rem, 2.2vw, 1.6rem);
+    line-height: 1.3;
+  }
+
+  .ismar-next-year-link {
+    display: block;
+    margin-top: 0.45rem;
+    font-size: 0.95rem;
   }
 
   .ismar-program-button {
@@ -217,6 +253,15 @@ redirect_from: /
     transition:
       transform 0.2s ease,
       background-color 0.2s ease;
+  }
+
+  .ismar-hero-cta .ismar-program-button {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.85rem 1.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    border-radius: 18px;
   }
 
   .ismar-program-button:hover {
@@ -680,44 +725,6 @@ reminder = orange
 }
 </style>
 
-<section class="photo-gallery-card" aria-label="ISMAR 2026 photo gallery">
-  <div class="photo-gallery-header">
-    <h2>Browse the ISMAR 2026 Photo Gallery</h2>
-    <p>Take a look back at the energy, ideas, and moments that defined IEEE ISMAR 2026 in Bari.</p>
-  </div>
-
-  <div class="photo-gallery-actions">
-    <a href="https://photos.app.goo.gl/o7mQupyjWFp24ESY8" class="photo-gallery-button" target="_blank" rel="noopener noreferrer">Day 1</a>
-    <a href="https://photos.app.goo.gl/VVTQtnE7E54Jk2z46" class="photo-gallery-button" target="_blank" rel="noopener noreferrer">Day 2</a>
-    <a href="https://photos.app.goo.gl/yiiG2pdA88meLGoQ9" class="photo-gallery-button" target="_blank" rel="noopener noreferrer">Day 3</a>
-     <a href="https://photos.app.goo.gl/oix2p9AsdLjVw6BGA" class="photo-gallery-button" target="_blank" rel="noopener noreferrer">Day 4</a>
-     <a href="https://photos.app.goo.gl/trzLa3RkxfownkkT8" class="photo-gallery-button" target="_blank" rel="noopener noreferrer">Day 5</a>
-  </div>
-</section>
-
-
-
-<section class="photo-gallery-card" aria-label="ISMAR 2026 presentation recordings">
-  <div class="photo-gallery-header">
-    <h2>ISMAR 2026 Presentation Recordings</h2>
-    <p>Revisit paper and poster presentations or catch up on sessions you missed on the ISMAR YouTube channel.</p>
-  </div>
-
-  <div class="photo-gallery-actions">
-    <a
-      class="photo-gallery-button"
-      href="https://www.youtube.com/@ismarconf/playlists"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Watch Presentation Recordings
-    </a>
-  </div>
-</section>
-
-
-
-
 <section class="info-categories-section">
   <h3 class="info-categories-title">News &amp; Announcements</h3>
 
@@ -883,24 +890,6 @@ reminder = orange
         });
     })();
 </script>
-
-
-
-<div class="video-wrap">
-    <iframe
-        src="https://www.youtube.com/embed/8QAu5aJcDCc"
-        title="ISMAR 2026 trailer"
-        loading="lazy"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-    </iframe>
-    <div class="video-fallback">
-        <p>Video unavailable in this region.</p>
-        <a href="https://youtu.be/8QAu5aJcDCc" target="_blank" rel="noopener">
-            Open video on YouTube
-        </a>
-    </div>
-</div>
 
 
 
