@@ -78,7 +78,7 @@ redirect_from: /
 
 </div>
 
-<section class="photo-gallery-card" aria-label="ISMAR 2026 photo gallery">
+<section class="photo-gallery-card" id="photo-gallery" aria-label="ISMAR 2026 photo gallery">
   <div class="photo-gallery-header">
     <h2>Browse the ISMAR 2026 Photo Gallery</h2>
     <p>Take a look back at the energy, ideas, and moments that defined IEEE ISMAR 2026 in Bari.</p>
@@ -461,61 +461,6 @@ redirect_from: /
   text-decoration: underline;
 }
 
-.registration-button {
-  display: inline-block;
-  margin-top: 0.9rem;
-  padding: 0.8rem 1.4rem;
-  border-radius: 999px;
-  background: #3a8bf3;
-  color: #fff !important;
-  font-weight: 900;
-  line-height: 1;
-  text-decoration: none !important;
-  transition:
-    background-color 0.2s ease,
-    transform 0.2s ease;
-}
-
-.registration-button:hover {
-  background: #2878db;
-  color: #fff !important;
-  text-decoration: none !important;
-  transform: translateY(-1px);
-}
-
-.registration-button:focus-visible {
-  outline: 3px solid rgba(58, 139, 243, 0.35);
-  outline-offset: 3px;
-}
-
-.sui-header {
-  display: flex;
-  align-items: center;
-  gap: 1.25rem;
-  margin-bottom: 1rem;
-}
-
-.sui-logo {
-  width: 120px;
-  max-width: 100%;
-  height: auto;
-  object-fit: contain;
-  flex-shrink: 0;
-}
-
-.sui-heading {
-  flex: 1;
-}
-
-.sui-heading h4 {
-  margin: 0 0 0.35rem;
-}
-
-.sui-heading .announcement-date {
-  margin: 0;
-  font-weight: 700;
-}
-
 /*
 Info categories:
 info = blue
@@ -730,81 +675,29 @@ reminder = orange
 
   <div class="info-categories-container">
     <article class="info-category news">
-      <h4>Discover the ISMAR 2026 Social Events</h4>
-      <p>Connect with fellow participants and explore Bari's local culture through the Bari Vecchia Old Town Tour, Orecchiette Challenge and Monster Hunt Game.</p>
-      <p><a href="/2026/social-events/">Discover Social Events &rarr;</a></p>
+      <h4>Relive ISMAR 2026 in Bari</h4>
+      <p>Look back at the talks, people, and moments from this year's symposium in the official photo gallery.</p>
+      <p><a href="#photo-gallery">Browse the Photo Gallery &rarr;</a></p>
     </article>
 
     <article class="info-category info">
-      <h4>IEEE ISMAR 2026 Registration is Open!</h4>
-
-  <p>
-    Visit the registration page for information about fees, deadlines,
-    and registration options.
-  </p>
-
-  <p>
-    <a href="https://www.ieeeismar.net/2026/registration/">
-      Registration Information Page→
-    </a>
-  </p>
-
-  <a
-    class="registration-button"
-    href="https://iscrizioni.cicsud.it/cmsweb/Login.asp?IDcommessa=2649&amp;Lang=EN"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Register Now
-  </a>
-</article>
+      <h4>IEEE ISMAR 2026 Registration Is Closed</h4>
+      <p>The symposium took place October 5–9, 2026 in Bari. Thank you to everyone who joined us!</p>
+    </article>
 
     <article class="info-category anouncement">
       <h4>ISMAR 2026 Merch Are Now Available!</h4>
-      <p>Participants can now purchase official ISMAR 2026 conference merch, including t-shirts, hooded sweatshirts, hats, and more.</p>
+      <p>The whole community can purchase official ISMAR 2026 conference merch, including t-shirts, hooded sweatshirts, hats, and more.</p>
       <a class="anouncement-button" href="https://ismar-2026-official-items.printify.me/" target="_blank" rel="noopener noreferrer">
         Purchase ISMAR 2026 Merch
       </a>
     </article>
 
-<article class="info-category info">
-      <div class="sui-header">
-        <img
-          src="/assets/2026/img/sponsors/SUI.png"
-          alt="ACM SUI 2026 logo"
-          class="sui-logo"
-        >
-
-    <div class="sui-heading">
-      <h4>Continue Your Conference Experience at ACM SUI 2026</h4>
-
-      <p class="announcement-date">
-        October 10–11, 2026 · Bari, Italy
-      </p>
-    </div>
-  </div>
-
-  <p>
-    ACM SUI 2026 will take place in Bari immediately after IEEE ISMAR 2026.
-    Extend your stay and join the international community exploring spatial
-    user interaction, immersive technologies, and interactive systems.
-  </p>
-
-  <p>
-    <strong>Attending both ISMAR and SUI?</strong>
-    Enjoy 10% off your SUI registration.
-  </p>
-
-  <p>
-    <a
-      href="https://sui.acm.org/2026/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      For more details, visit ACM SUI 2026 →
-    </a>
-  </p>
-</article>
+    <article class="info-category info">
+      <h4>Next Up: IEEE ISMAR 2027 in Kobe</h4>
+      <p>Join the global AR, MR, and VR community in Kobe, Japan. Conference dates and participation details will be announced soon.</p>
+      <p><a href="https://www.ieeeismar.net/2027/">Visit the ISMAR 2027 website &rarr;</a></p>
+    </article>
 
   </div>
 </section>

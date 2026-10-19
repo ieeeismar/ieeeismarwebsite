@@ -18,98 +18,32 @@ permalink: /2026/registration/
 .registration-note {
     margin-bottom: 3rem;
     padding: 1.35rem 1.55rem;
-    border-left: 6px solid #3A8BF3;
+    border-left: 6px solid #d93838;
     border-radius: 16px;
-    background: rgba(58, 139, 243, 0.10);
+    background: rgba(217, 56, 56, 0.10);
     color: #1f2933;
     line-height: 1.4;
-
-    display: flex;
-    align-items: center;
 }
 
-.registration-note ul {
-    margin: 0;
-    padding-left: 1.4rem;
+.registration-note strong {
+    color: #b42323;
 }
-
-    .registration-note strong {
-    color: #3A8BF3;
-    }
-
-    .registration-link,
-    .registration-link:visited {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: .6rem;
-    padding: .68rem 1rem;
-    border-radius: 999px;
-    background: #3A8BF3;
-    color: #fff !important;
-    font-weight: 900;
-    text-decoration: none;
-    }
-
-    .registration-link:hover {
-    background: #1f6fd1;
-    color: #fff !important;
-    text-decoration: none;
-    }
-
-    .registration-link.disabled {
-    background: #9bbff5;
-    cursor: not-allowed;
-    pointer-events: none;
-    }
 </style>
 
 
 ## Registration
 
 <div class="registration-note">
-  <ul>
-    <li>Early online registration is now open until August 30, 2026 (AoE).</li>
-  </ul>
+  <strong>Registration is closed.</strong>
+  Registration for IEEE ISMAR 2026 has ended.
 </div>
 
 **IEEE International Symposium on Mixed and Augmented Reality (ISMAR)**  
 October 5-9, 2026 | Bari, Italy
 
-<!-- Removed Disabled Registration Link Button -->
-<!-- <p>
-  <a href="#" class="registration-link disabled" role="button" aria-disabled="true"> 
-    Registration link coming soon
-  </a>
-</p> -->
+Thank you for joining us at **ISMAR 2026** in Bari for a week of discussion on innovative research and advances in AR, VR, XR, and even reality-reality!
 
-<p>
-  <a href="https://iscrizioni.cicsud.it/cmsweb/Login.asp?IDcommessa=2649&Lang=EN" class="registration-link" role="button" aria-disabled="false"> 
-    Register Now
-  </a>
-</p>
-
-<!--
-WHEN THE REGISTRATION LINK IS AVAILABLE:
-
-1. Replace href="#" with the registration URL.
-2. Remove the "disabled" class.
-3. Change aria-disabled="true" to aria-disabled="false".
-4. Update the button text.
-
-Example:
-
-<a href="YOUR_REGISTRATION_LINK"
-   class="registration-link"
-   role="button"
-   aria-disabled="false">
-  Register now
-</a>
--->
-
-We look forward to hosting you at **ISMAR 2026**, where we anticipate an engaging week of discussion on innovative research and advances in AR, VR, XR, and even reality-reality!
-
-Below, we provide information regarding the registration fee structure and process. Please use the registration link above to complete your registration for ISMAR 2026.  
+The registration fee structure and process information below is provided for reference.
 
 
 **Important Deadlines:**
