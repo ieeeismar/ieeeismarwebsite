@@ -39,6 +39,7 @@ redirect_from: /
 
 
 <h1 class="heading">IEEE ISMAR 2026 is over!</h1>
+<h2 class="subheading"> Thank you presenters and attendees.</h2>
 <h2 class="subheading">Bari, Italy</h2>
 <h2 class="subheading">Oct. 5 - Oct. 9 2026</h2>
 <h2 class="subheading">Next year: Kobe, Japan</h2>
