@@ -93,6 +93,26 @@ redirect_from: /
   </div>
 </section>
 
+<section class="photo-gallery-card" aria-label="ISMAR 2026 presentation recordings">
+  <div class="photo-gallery-header">
+    <h2>ISMAR 2026 Video Presentations Coming Soon!</h2>
+    <p>We're pleased to announce that all ISMAR 2026 video presentations and teasers will be gradually uploaded to the official ISMAR YouTube channel over the next days!</p>
+    <p>Feel free to subscribe to the channel to stay updated as new videos become available.</p>
+    <p>Thank you to all authors and contributors for sharing their work!</p>
+  </div>
+
+  <div class="photo-gallery-actions">
+    <a
+      class="photo-gallery-button"
+      href="https://youtube.com/@ismarconference"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Visit the ISMAR YouTube Channel
+    </a>
+  </div>
+</section>
+
 <!-- ISMAR 2026 AT A GLANCE -->
 
 <section class="ismar-glance-section">
