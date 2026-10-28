@@ -95,20 +95,43 @@ redirect_from: /
 
 <section class="photo-gallery-card" aria-label="ISMAR 2026 presentation recordings">
   <div class="photo-gallery-header">
-    <h2>ISMAR 2026 Video Presentations Coming Soon!</h2>
-    <p>We're pleased to announce that all ISMAR 2026 video presentations and teasers will be gradually uploaded to the official ISMAR YouTube channel over the next days!</p>
-    <p>Feel free to subscribe to the channel to stay updated as new videos become available.</p>
+    <h2>ISMAR 2026 Video Presentations</h2>
+    <p>All video presentations from ISMAR 2026 are now online on the official ISMAR YouTube channel, organised by day. Each video covers one session, and its description lists every paper with a timestamp, so you can jump straight to the talk you want.</p>
     <p>Thank you to all authors and contributors for sharing their work!</p>
   </div>
 
   <div class="photo-gallery-actions">
     <a
       class="photo-gallery-button"
-      href="https://youtube.com/@ismarconference"
+      href="https://www.youtube.com/playlist?list=PLfBtyGM7JNwQ"
       target="_blank"
       rel="noopener noreferrer"
     >
-      Visit the ISMAR YouTube Channel
+      Day 3 (Wed 7 Oct)
+    </a>
+    <a
+      class="photo-gallery-button"
+      href="https://www.youtube.com/playlist?list=PLbLk_q3deKbM"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Day 4 (Thu 8 Oct)
+    </a>
+    <a
+      class="photo-gallery-button"
+      href="https://www.youtube.com/playlist?list=PLCWYDHIuu59s"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Day 5 (Fri 9 Oct)
+    </a>
+    <a
+      class="photo-gallery-button"
+      href="https://www.youtube.com/playlist?list=PLYLuvB8aT55k"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Poster Presentations
     </a>
   </div>
 </section>
