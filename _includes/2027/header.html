@@ -1,0 +1,6 @@
+<nav class="navbar" aria-label="Main navigation">
+    <a class="logo" href="{{ '/2027/' | relative_url }}">IEEE ISMAR<small>2027 · KOBE, JAPAN</small></a>
+    <ul class="nav-links">
+        {% for item in site.data['2027'].navigation %}<li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>{% endfor %}
+    </ul>
+</nav>

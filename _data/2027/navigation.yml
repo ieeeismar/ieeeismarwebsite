@@ -1,0 +1,11 @@
+# Top navigation for ISMAR 2027. Add entries here when new pages are created.
+- title: Attend
+  url: "/2027/#attend"
+- title: Programme
+  url: "/2027/#programme"
+- title: News
+  url: "/2027/#news"
+- title: Deadlines
+  url: "/2027/#deadlines"
+- title: Sponsorship
+  url: "/2027/#sponsors"

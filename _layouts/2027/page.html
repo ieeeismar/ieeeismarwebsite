@@ -1,0 +1,8 @@
+---
+layout: 2027/default
+---
+<main class="page">
+    <h1>{{ page.heading | default: page.title }}</h1>
+    {% if page.last_updated %}<p class="meta">Last updated: {{ page.last_updated }}</p>{% endif %}
+    {{ content }}
+</main>
